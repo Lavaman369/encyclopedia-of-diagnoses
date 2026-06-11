@@ -1,6 +1,6 @@
 export default {
   // ---- Page / Nav ----
-  page_title:       '⚕ 診断百科事典',
+  page_title:       '診断百科事典',
   nav_diagnostic:   '診断ツール',
   nav_diagnoses:    '診断',
   nav_symptoms:     '症状',

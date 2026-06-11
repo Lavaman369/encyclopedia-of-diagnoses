@@ -1,6 +1,6 @@
 export default {
   // ---- Page / Nav ----
-  page_title:       '⚕ Diagnoseencyklopædi',
+  page_title:       'Diagnoseencyklopædi',
   nav_diagnostic:   'Diagnosticeringsværktøj',
   nav_diagnoses:    'Diagnoser',
   nav_symptoms:     'Symptomer',

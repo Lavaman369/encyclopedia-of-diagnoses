@@ -1,6 +1,6 @@
 export default {
   // ---- Page / Nav ----
-  page_title:       '⚕ Енциклопедія діагнозів',
+  page_title:       'Енциклопедія діагнозів',
   nav_diagnostic:   'Діагностичний інструмент',
   nav_diagnoses:    'Діагнози',
   nav_symptoms:     'Симптоми',

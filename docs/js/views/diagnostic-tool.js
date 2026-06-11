@@ -61,6 +61,10 @@ function migrateSession(s, data) {
 // the symptom is absent — so they never negate symptoms.
 const SOFT_EXAMS = new Set(['EXM_INTERVIEW', 'EXM_RECEPTION_FAST']);
 
+// Exams general enough to potentially reveal any symptom, not just the ones
+// listed in examToSymptoms — both happen first and cover everything.
+const OPEN_EXAMS = new Set(['EXM_RECEPTION_FAST', 'EXM_INTERVIEW']);
+
 // Negated symptoms = symptoms a "nothing found" exam could have revealed but
 // didn't. Recomputed from scratch so toggling/removing one exam can't leave
 // stale negations from another, and a positive finding (from any exam, or
@@ -182,7 +186,10 @@ export function renderDiagnosticTool(root) {
           <p>${t('diagnostic_desc')}</p>
         </div>
         <div class="diag-panel diag-dept-bar">
-          <div class="diag-panel-header">${t('dept_bar_header')}</div>
+          <div class="diag-panel-header">
+            <span>${t('dept_bar_header')}</span>
+            <button class="dept-disable-all-btn" id="dept-disable-all"${activeDepts.length ? '' : ' disabled'}>${t('dept_disable_all')}</button>
+          </div>
           <div class="diag-panel-body">
             <div class="dept-toggles">${deptToggles}</div>
           </div>
@@ -201,6 +208,15 @@ export function renderDiagnosticTool(root) {
         rebuild();
       });
     });
+
+    // Disable all departments at once
+    const disableAllBtn = root.querySelector('#dept-disable-all');
+    if (disableAllBtn) {
+      disableAllBtn.addEventListener('click', () => {
+        storeActiveDepts([]);
+        rebuild();
+      });
+    }
 
     if (!hasActiveDepts) return;
 
@@ -335,7 +351,7 @@ function buildExamRow(entry, data, i = 0) {
   const { examId, foundSymptoms, noneFound } = entry;
   const ex = data.examinations[examId];
   const revealableSymIds = data.examToSymptoms[examId] || [];
-  const isOpenExam = examId === 'EXM_RECEPTION_FAST';
+  const isOpenExam = OPEN_EXAMS.has(examId);
 
   const foundSymsHtml = foundSymptoms.map(sid => {
     const sym = data.symptoms[sid];
@@ -382,13 +398,6 @@ function buildCandidateHtml(candidates, session, data) {
     return `<div style="flex:1;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px 16px;color:var(--text-faint);font-size:16px">${t('candidates_add_symptoms')}</div>`;
   }
   return `<div class="candidate-list">${candidates.slice(0, 10).map((c, i) => {
-    const dept = data.departments[c.departmentRef];
-    const deptBadge = dept ? `<span class="badge badge-dept-${dept.colorKey}">${esc(dept.name)}</span>` : '';
-    const rarityBadge = c.occurrenceRate >= 100
-      ? `<span class="badge badge-common">${t('badge_common')}</span>`
-      : c.occurrenceRate >= 75
-        ? `<span class="badge badge-uncommon">${t('badge_uncommon')}</span>`
-        : `<span class="badge badge-rare">${t('badge_rare')}</span>`;
     const deadlyBadge = c.hasCollapse ? `<span class="badge badge-lethal">${t('badge_deadly')}</span>` : '';
     const confirmedBadge = c.confirmed ? `<span class="badge badge-confirmed">${t('badge_confirmed')}</span>` : '';
     return `<div class="candidate-item${c.confirmed ? ' candidate-confirmed' : ''}" style="--i:${i}">
@@ -396,7 +405,7 @@ function buildCandidateHtml(candidates, session, data) {
       <span class="candidate-rank">${i + 1}</span>
       ${iconHtml(c, 'sm')}
       <a class="candidate-name" href="#/diagnoses/${c.id}">${esc(c.name)}</a>
-      <div class="candidate-badges">${confirmedBadge}${deptBadge}${rarityBadge}${deadlyBadge}</div>
+      <div class="candidate-badges">${confirmedBadge}${deadlyBadge}</div>
       <span class="candidate-score">${c.matchPercent}%</span>
     </div>`;
   }).join('')}</div>`;
@@ -661,7 +670,7 @@ function wireMain(root, session, data, depts, activeDepts, rebuild, { candidates
   session.completedExams.forEach(entry => {
     const { examId } = entry;
     const revealableSymIds = data.examToSymptoms[examId] || [];
-    const isOpenExam = examId === 'EXM_RECEPTION_FAST';
+    const isOpenExam = OPEN_EXAMS.has(examId);
 
     root.querySelectorAll(`[data-rm-found-exam="${examId}"]`).forEach(btn => {
       btn.addEventListener('click', () => {

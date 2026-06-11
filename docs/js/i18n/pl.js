@@ -1,6 +1,6 @@
 export default {
   // ---- Page / Nav ----
-  page_title:       '⚕ Encyklopedia diagnoz',
+  page_title:       'Encyklopedia diagnoz',
   nav_diagnostic:   'Narzędzie diagnostyczne',
   nav_diagnoses:    'Diagnozy',
   nav_symptoms:     'Objawy',

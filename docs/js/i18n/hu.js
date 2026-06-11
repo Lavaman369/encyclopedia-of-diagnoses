@@ -1,6 +1,6 @@
 export default {
   // ---- Page / Nav ----
-  page_title:       '⚕ Diagnózisok enciklopédiája',
+  page_title:       'Diagnózisok enciklopédiája',
   nav_diagnostic:   'Diagnosztikai eszköz',
   nav_diagnoses:    'Diagnózisok',
   nav_symptoms:     'Tünetek',

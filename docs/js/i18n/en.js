@@ -1,6 +1,6 @@
 export default {
   // ---- Page / Nav ----
-  page_title:       '⚕ Encyclopedia of Diagnoses',
+  page_title:       'Encyclopedia of Diagnoses',
   nav_diagnostic:   'Diagnostic Tool',
   nav_diagnoses:    'Diagnoses',
   nav_symptoms:     'Symptoms',
@@ -207,6 +207,7 @@ export default {
   diagnostic_title:  'Diagnostic Tool',
   diagnostic_desc:   'The handy dandy Diagnostic Tool can help you quickly find a diagnosis in as few exams as possible!',
   dept_bar_header:   '🏥 Active Departments',
+  dept_disable_all:  'Disable All',
   no_patient_selected: 'No patient selected',
   no_patient_hint:   'Add a patient using the sidebar to begin.',
   no_depts_title:    'No departments selected',
@@ -353,4 +354,9 @@ export default {
   about_q_translation:     'How was the Encyclopedia of Diagnoses translated?',
   about_a_translation_p1:  'All of the game data (diagnoses, symptoms, exams, and treatments), including data from mods, are pulled directly from the provided localization files.',
   about_a_translation_p2:  'As for all the text unique to the Encyclopedia of Diagnoses — like this text you\'re reading now — it was translated via an LLM. As such, I cannot speak to its quality and welcome any corrections. Please report any issues with localization to the <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2078560014" target="_blank" rel="noopener noreferrer">Steam guide</a>. The only localization I can vouch for is English, as that is the native language the Encyclopedia was written in.',
+
+  // ---- Footer ----
+  footer_disclaimer: 'Fan-made reference for Project Hospital by Oxymoron Games. Not affiliated with or endorsed by the developer.',
+  footer_made_by:    'Made by Lavaman',
+  footer_kofi:       'Support on Ko-fi',
 };

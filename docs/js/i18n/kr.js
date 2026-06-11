@@ -1,6 +1,6 @@
 export default {
   // ---- Page / Nav ----
-  page_title:       '⚕ 진단 백과사전',
+  page_title:       '진단 백과사전',
   nav_diagnostic:   '진단 도구',
   nav_diagnoses:    '진단',
   nav_symptoms:     '증상',

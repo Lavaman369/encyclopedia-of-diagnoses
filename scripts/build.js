@@ -654,7 +654,10 @@ for (const mod of MODS) {
       mod.locFolderByLangPrefix.replace(/\//g, path.sep), 'En');
     const modEnStrings = {};
     for (const absPath of scanXmlRecursive(enDir)) {
-      if (path.basename(absPath).startsWith('ModStringTableEn') && absPath.endsWith('.xml')) {
+      const base = path.basename(absPath);
+      // Some DLC-derived loc files (e.g. RCDI) ship as StringTableEn*.xml
+      // rather than the usual ModStringTableEn*.xml prefix.
+      if ((base.startsWith('ModStringTableEn') || base.startsWith('StringTableEn')) && absPath.endsWith('.xml')) {
         mergeLocFile(absPath, modEnStrings);
       }
     }
@@ -771,11 +774,50 @@ const ROOM_TAG_STATIC = {
   only_clinic:                   'Outpatient Only',
 };
 
-function toTitleCase(str) {
+// English "small words" (articles, coordinating conjunctions, short
+// prepositions) that conventional title case keeps lowercase unless they're
+// the first or last word of the title, e.g. "Loss of Vision", not
+// "Loss Of Vision".
+const SMALL_WORDS_EN = new Set([
+  'a', 'an', 'and', 'as', 'at', 'but', 'by', 'en', 'for', 'if', 'in', 'nor',
+  'of', 'on', 'or', 'per', 'so', 'the', 'to', 'v', 'v.', 'via', 'vs', 'vs.', 'yet',
+]);
+
+// Title-case a localized name for display.
+//
+// English follows conventional title case: every word is capitalized except
+// "small words" (see SMALL_WORDS_EN above), which are left as written unless
+// they're the first or last word.
+//
+// Most other languages don't capitalize every word in a title -- only the
+// first word (and any proper nouns, which the source text already
+// capitalizes). So for non-English we just ensure the first letter is
+// capitalized and leave the rest of the string untouched.
+function toTitleCase(str, lang = 'en') {
   if (!str) return str;
+  if (lang !== 'en') {
+    return str.replace(/\p{L}/u, c => c.toUpperCase());
+  }
   // Use Unicode letter property so accented chars (é, ü, etc.) are treated as
   // part of words rather than breaking word boundaries like ASCII \b does.
-  return str.replace(/(^|[\s\-])(\p{L})/gu, (_, sep, letter) => sep + letter.toUpperCase());
+  // Internal apostrophes (don't, O'Brien) stay part of the word.
+  const matches = [...str.matchAll(/(^|[\s\-])(\p{L}[\p{L}'’]*)/gu)];
+  if (!matches.length) return str;
+  const lastIdx = matches.length - 1;
+  let result = '';
+  let cursor = 0;
+  matches.forEach((m, i) => {
+    const [full, sep, word] = m;
+    result += str.slice(cursor, m.index) + sep;
+    if (i !== 0 && i !== lastIdx && SMALL_WORDS_EN.has(word.toLowerCase())) {
+      result += word;
+    } else {
+      result += word.charAt(0).toUpperCase() + word.slice(1);
+    }
+    cursor = m.index + full.length;
+  });
+  result += str.slice(cursor);
+  return result;
 }
 
 // Per-language hard overrides for specific department names that the game string
@@ -1499,21 +1541,6 @@ const BASE_GAME_DATA_FILES = [
   'Game Data/BaseGame/DiagnosesSURG.xml',
   'Game Data/BaseGame/DiagnosisOccurrences.xml',
 ];
-const DLC_ID_DATA_FILES = [
-  'Game Data/DLCInfectiousDiseases/DLCSymptomsMain.xml',
-  'Game Data/DLCInfectiousDiseases/DLCSymptoms.xml',
-  'Game Data/DLCInfectiousDiseases/DLCExaminations.xml',
-  'Game Data/DLCInfectiousDiseases/DLCTreatments.xml',
-  'Game Data/DLCInfectiousDiseases/DiagnosesINFECT.xml',
-];
-const DLC_TRA_DATA_FILES = [
-  'Game Data/DLCTraumatology/DLCSymptomsMain.xml',
-  'Game Data/DLCTraumatology/DLCSymptoms.xml',
-  'Game Data/DLCTraumatology/DLCExaminations.xml',
-  'Game Data/DLCTraumatology/DLCTreatments.xml',
-  'Game Data/DLCTraumatology/DLCSurgery.xml',
-  'Game Data/DLCTraumatology/DiagnosesTRAUMA.xml',
-];
 
 // ---------------------------------------------------------------------------
 // Step 9: Generate split locale files (base + per-mod) for all non-English languages
@@ -1612,16 +1639,14 @@ for (const mod of MODS) {
 const modsOutput = {};
 for (const mod of MODS) {
   if (sharedModIds.has(mod.id)) continue;
-  const modDataFiles = [
-    ...(mod.occurrenceFile ? [`${mod.folder}/${mod.occurrenceFile}`] : []),
-    ...(mod.diagnosisFiles || []).map(f => `${mod.folder}/${f}`),
-  ];
   modsOutput[mod.id] = {
     id:                 mod.id,
     name:               mod.name,
     author:             mod.author,
     departments:        (mod.departments || []).map(d => d.id),
-    lastUpdated:        maxMtime(modDataFiles),
+    // Pinned manually: file mtimes don't reflect the actual data refresh date
+    // (and get reset on every checkout/CI build), so this is set explicitly.
+    lastUpdated:        '2026-06-10T00:00:00.000Z',
     localizedLanguages: mod.localizedLanguages
       ? [...mod.localizedLanguages].sort()
       : [...(modLangSupport[mod.id] || [])].sort(),
@@ -1709,8 +1734,10 @@ const baseOutput = {
   buildDate: new Date().toISOString(),
   dataUpdated: {
     baseGame:              maxMtime(BASE_GAME_DATA_FILES),
-    dlcInfectiousDiseases: maxMtime(DLC_ID_DATA_FILES),
-    dlcTraumatology:       maxMtime(DLC_TRA_DATA_FILES),
+    // Pinned manually: file mtimes don't reflect the actual data refresh date
+    // (and get reset on every checkout/CI build), so these are set explicitly.
+    dlcInfectiousDiseases: '2026-05-27T00:00:00.000Z',
+    dlcTraumatology:       '2026-05-27T00:00:00.000Z',
   },
   departments:          baseDepts,
   occurrences,
@@ -1904,7 +1931,10 @@ function buildLocaleOverlay({ lang, folder, prefix, prefixAliases = [], dlcFolde
         const langDir = path.join(ROOT, mod.folder.replace(/\//g, path.sep),
           mod.locFolderByLangPrefix.replace(/\//g, path.sep), pfx);
         for (const absPath of scanXmlRecursive(langDir)) {
-          if (allPrefixes.some(ap => path.basename(absPath).startsWith(`ModStringTable${ap}`))) {
+          const base = path.basename(absPath);
+          // Some DLC-derived loc files (e.g. RCDI) ship as StringTable{Lang}*.xml
+          // rather than the usual ModStringTable{Lang}*.xml prefix.
+          if (allPrefixes.some(ap => base.startsWith(`ModStringTable${ap}`) || base.startsWith(`StringTable${ap}`))) {
             mlInto(absPath, ls);
           }
         }
@@ -1925,7 +1955,7 @@ function buildLocaleOverlay({ lang, folder, prefix, prefixAliases = [], dlcFolde
   // Build a locale entry using the given string map.
   function buildEntry(en, locId, ls) {
     const k    = locId ? locId.replace(/_DESC(?:RIPTION)?.*$/i, '') : null;
-    const name = k && ls[k] !== undefined ? toTitleCase(ls[k]) : null;
+    const name = k && ls[k] !== undefined ? toTitleCase(ls[k], lang) : null;
     const desc = locId && ls[locId] !== undefined ? String(ls[locId]) : null;
     const entry = {};
     if (name !== null && name !== en.name) entry.name = name;
@@ -1934,9 +1964,9 @@ function buildLocaleOverlay({ lang, folder, prefix, prefixAliases = [], dlcFolde
   }
 
   function buildExamEntry(en, abbrevLocId, ls) {
-    const nameFromId  = ls[en.id] !== undefined ? toTitleCase(ls[en.id]) : null;
+    const nameFromId  = ls[en.id] !== undefined ? toTitleCase(ls[en.id], lang) : null;
     const k           = abbrevLocId ? abbrevLocId.replace(/_DESC(?:RIPTION)?.*$/i, '') : null;
-    const nameFromLoc = k && ls[k] !== undefined ? toTitleCase(ls[k]) : null;
+    const nameFromLoc = k && ls[k] !== undefined ? toTitleCase(ls[k], lang) : null;
     const name        = nameFromId || nameFromLoc;
     const desc        = abbrevLocId && ls[abbrevLocId] !== undefined ? String(ls[abbrevLocId]) : null;
     const entry = {};
@@ -1946,7 +1976,7 @@ function buildLocaleOverlay({ lang, folder, prefix, prefixAliases = [], dlcFolde
   }
 
   function buildStubEntry(en, locId, ls) {
-    const name = locId && ls[locId] !== undefined ? toTitleCase(ls[locId]) : null;
+    const name = locId && ls[locId] !== undefined ? toTitleCase(ls[locId], lang) : null;
     const desc = locId && ls[locId + '_DESCRIPTION'] !== undefined ? String(ls[locId + '_DESCRIPTION']) : null;
     const entry = {};
     if (name !== null && name !== en.name) entry.name = name;
@@ -2098,8 +2128,8 @@ function buildLocaleOverlay({ lang, folder, prefix, prefixAliases = [], dlcFolde
   }
 
   // -- UI strings (always base) --
-  const langUi = buildUiSection(baseLs);
-  const enUi   = buildUiSection(strings);
+  const langUi = buildUiSection(baseLs, lang);
+  const enUi   = buildUiSection(strings, 'en');
   const uiRoomTags = {}, uiHazard = {}, uiMobility = {}, uiDiscomfort = {};
   for (const [tagId] of Object.entries(ROOM_TAG_LOC_IDS)) {
     const langVal = langUi.roomTags[tagId], enVal = enUi.roomTags[tagId];
@@ -2139,13 +2169,13 @@ function buildLocaleOverlay({ lang, folder, prefix, prefixAliases = [], dlcFolde
   return { baseOverlay, modOverlays, localizedModIds };
 }
 
-function buildUiSection(ls) {
+function buildUiSection(ls, lang) {
   const roomTags = { ...ROOM_TAG_STATIC };
   for (const [tagId, locId] of Object.entries(ROOM_TAG_LOC_IDS)) {
     roomTags[tagId] = ls[locId] || tagId;
   }
   const isEn = ls === strings;
-  const h = (k, fb) => toTitleCase(ls[k] || fb);
+  const h = (k, fb) => toTitleCase(ls[k] || fb, lang);
   return {
     roomTags,
     // For English, store the full "Low Hazard" phrase so views need no suffix.

@@ -1,6 +1,6 @@
 export default {
   // ---- Page / Nav ----
-  page_title:       '⚕ Tanı Ansiklopedisi',
+  page_title:       'Tanı Ansiklopedisi',
   nav_diagnostic:   'Tanı Aracı',
   nav_diagnoses:    'Tanılar',
   nav_symptoms:     'Belirtiler',
