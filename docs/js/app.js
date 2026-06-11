@@ -11,12 +11,14 @@ import { initGlobalSearch } from './global-search.js';
 import { initLangPicker } from './lang-picker.js';
 import { t, applyI18nDOM } from './i18n/index.js';
 import { initModsBanner } from './mods-banner.js';
+import { initMobileNav } from './mobile-nav.js';
 
 const root = document.getElementById('app-root');
 
 // ---- Global search (wired once; reads data lazily via getData()) ----
 initGlobalSearch();
 initLangPicker();
+initMobileNav();
 applyI18nDOM();
 
 // ---- Router ----

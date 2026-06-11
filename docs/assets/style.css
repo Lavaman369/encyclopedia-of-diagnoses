@@ -137,6 +137,124 @@ input, select, textarea { font-family: inherit; }
 .nav-tab--tool.active { color: var(--green); background: rgba(61, 201, 142, 0.2); }
 
 /* ============================================================
+   Header — mobile menu (hamburger + dropdown panel)
+   ============================================================ */
+.mobile-menu-btn {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 40px;
+  height: 40px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.mobile-menu-btn span {
+  display: block;
+  width: 18px;
+  height: 2px;
+  background: var(--text);
+  border-radius: 1px;
+  transition: transform var(--transition), opacity var(--transition);
+}
+.mobile-menu-btn.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.mobile-menu-btn.open span:nth-child(2) { opacity: 0; }
+.mobile-menu-btn.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+/* On desktop the panel's children sit inline as normal nav-bar items */
+.mobile-nav-panel { display: contents; }
+.site-logo           { order: 1; }
+#main-nav            { order: 2; }
+.global-search-wrap  { order: 3; }
+.lang-picker         { order: 4; }
+#mods-puzzle-btn     { order: 5; }
+
+@media (max-width: 768px) {
+  :root { --header-h: 108px; }
+
+  body.mobile-menu-open { overflow: hidden; }
+
+  .header-inner {
+    position: relative;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 8px;
+    padding: 8px 12px;
+  }
+
+  .mobile-menu-btn { display: flex; order: 1; }
+
+  .site-logo {
+    order: 2;
+    flex: 1 1 0%;
+    min-width: 0;
+    overflow: hidden;
+    font-size: 16px;
+  }
+  .site-logo .logo-text {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+  }
+
+  .header-inner .global-search-wrap {
+    flex: 1 1 100%;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .mobile-nav-panel { display: none; }
+  .mobile-nav-panel.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 var(--radius) var(--radius);
+    box-shadow: var(--shadow-lg);
+    max-height: calc(100vh - var(--header-h));
+    overflow-y: auto;
+    z-index: 999;
+    padding: 8px 0;
+  }
+
+  .mobile-nav-panel #main-nav {
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+    gap: 0;
+  }
+  .mobile-nav-panel .nav-tab {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 0;
+    font-size: 16px;
+  }
+
+  .mobile-nav-panel .lang-picker {
+    padding: 10px 16px;
+    border-top: 1px solid var(--border);
+  }
+  .mobile-nav-panel .lang-picker-dropdown { left: 16px; right: 16px; width: auto; }
+
+  .mobile-nav-panel #mods-puzzle-btn {
+    margin: 8px 16px 0;
+    width: calc(100% - 32px);
+  }
+}
+
+/* ============================================================
    Global search bar (in header)
    ============================================================ */
 .global-search-wrap {
@@ -482,6 +600,9 @@ input, select, textarea { font-family: inherit; }
   grid-template-columns: repeat(4, 1fr);
   gap: 12px;
 }
+@media (max-width: 768px) {
+  .card-grid { grid-template-columns: 1fr; }
+}
 .card {
   --dept-rgb: 43, 143, 255;
   background: rgba(var(--dept-rgb), 0.10);
@@ -720,6 +841,12 @@ input, select, textarea { font-family: inherit; }
   grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
   gap: 8px;
 }
+
+@media (max-width: 768px) {
+  .mods-banner-inner { padding: 0 12px; }
+  .mods-all-btn--disable { display: none; }
+  .mods-banner-chevron { margin-left: auto; }
+}
 .mod-card {
   display: flex;
   flex-direction: column;
@@ -948,6 +1075,9 @@ input, select, textarea { font-family: inherit; }
   align-items: center;
   gap: 6px;
   flex-shrink: 0;
+}
+@media (max-width: 768px) {
+  .entity-row-meta { display: none; }
 }
 
 /* ============================================================
@@ -1273,6 +1403,11 @@ input, select, textarea { font-family: inherit; }
 }
 @media (max-width: 768px) {
   .diag-layout { grid-template-columns: 1fr; }
+  .diag-tool-wrap .badge,
+  .diag-tool-wrap .candidate-badges,
+  .diag-tool-wrap .exam-reco-top-badge {
+    display: none;
+  }
 }
 
 .patient-sidebar {

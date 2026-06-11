@@ -19,15 +19,9 @@
         <span class="logo-text" data-i18n="site_title">Encyclopedia of Diagnoses</span>
       </a>
 
-      <nav id="main-nav" role="navigation" aria-label="Main navigation">
-        <a class="nav-tab nav-tab--tool" href="#/diagnostic" data-tab="diagnostic" data-i18n="nav_diagnostic">Diagnostic Tool</a>
-        <a class="nav-tab" href="#/diagnoses" data-tab="diagnoses" data-i18n="nav_diagnoses">Diagnoses</a>
-        <a class="nav-tab" href="#/symptoms" data-tab="symptoms" data-i18n="nav_symptoms">Symptoms</a>
-        <a class="nav-tab" href="#/examinations" data-tab="examinations" data-i18n="nav_examinations">Examinations</a>
-        <a class="nav-tab" href="#/treatments" data-tab="treatments" data-i18n="nav_treatments">Treatments</a>
-        <a class="nav-tab" href="#/statistics" data-tab="statistics" data-i18n="nav_statistics">Statistics</a>
-        <a class="nav-tab" href="#/about" data-tab="about" data-i18n="nav_about">About / FAQ</a>
-      </nav>
+      <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Menu" aria-expanded="false" aria-controls="mobile-nav-panel">
+        <span></span><span></span><span></span>
+      </button>
 
       <div class="global-search-wrap" id="global-search-wrap">
         <input class="global-search-input" id="global-search-input" type="search"
@@ -37,9 +31,20 @@
         <div class="global-search-dropdown" id="global-search-dropdown" role="listbox" aria-hidden="true"></div>
       </div>
 
-      <div class="lang-picker" id="lang-picker"></div>
-      <button id="mods-puzzle-btn" class="mods-puzzle-btn" hidden title="Community Mods — click to show">🧩</button>
+      <div class="mobile-nav-panel" id="mobile-nav-panel">
+        <nav id="main-nav" role="navigation" aria-label="Main navigation">
+          <a class="nav-tab nav-tab--tool" href="#/diagnostic" data-tab="diagnostic" data-i18n="nav_diagnostic">Diagnostic Tool</a>
+          <a class="nav-tab" href="#/diagnoses" data-tab="diagnoses" data-i18n="nav_diagnoses">Diagnoses</a>
+          <a class="nav-tab" href="#/symptoms" data-tab="symptoms" data-i18n="nav_symptoms">Symptoms</a>
+          <a class="nav-tab" href="#/examinations" data-tab="examinations" data-i18n="nav_examinations">Examinations</a>
+          <a class="nav-tab" href="#/treatments" data-tab="treatments" data-i18n="nav_treatments">Treatments</a>
+          <a class="nav-tab" href="#/statistics" data-tab="statistics" data-i18n="nav_statistics">Statistics</a>
+          <a class="nav-tab" href="#/about" data-tab="about" data-i18n="nav_about">About / FAQ</a>
+        </nav>
 
+        <div class="lang-picker" id="lang-picker"></div>
+        <button id="mods-puzzle-btn" class="mods-puzzle-btn" hidden title="Community Mods — click to show">🧩</button>
+      </div>
     </div>
   </header>
 
