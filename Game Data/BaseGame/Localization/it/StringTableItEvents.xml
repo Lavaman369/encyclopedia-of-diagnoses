@@ -1,0 +1,34 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_IT_EVENTS">
+    
+        <LanguageCode>it</LanguageCode>
+        <LanguageNameLocalized>Italiano</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+			<Name>neoxes</Name>
+        </Contributors>
+        
+        <LocalizedStrings>
+
+            <!-- Event names -->
+            <GameDBLocalizedString>      <LocID>EVENT_TEST</LocID>                      <Text>Evento di prova</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_PANDEMIC</LocID>                  <Text>Epidemia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_NATURAL_DISASTER</LocID>          <Text>Disastro naturale</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECTIVE_CURE_PATIENT</LocID>          <Text>Cura</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECTIVE_CURE_PATIENTS</LocID>         <Text>Cura i pazienti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECTIVE_STABILIZE_PATIENT</LocID>     <Text>Cura i sintomi gravi:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECTIVE_PLACE_ROOM</LocID>            <Text>Posiziona</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECTIVE_EQUIP_ROOM</LocID>            <Text>Equipaggia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECTIVE_HIRE_EMPLOYEE</LocID>         <Text>Assumi dipendenti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECTIVE_MAINTAIN_PRESTIGE</LocID>     <Text>Mantieni il prestigio sopra {1} stelle per {2} giorni</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECTIVE_MAINTAIN_HIGH_INCOME</LocID>  <Text>Mantieni i profitti a {1} o superiore per {2} giorni</Text>  </GameDBLocalizedString>
+
+			<!-- ============= NEW, NEED TRANSLATING ================== -->
+            <GameDBLocalizedString>      <LocID>OBJECTIVE_COMPLETE_HOSPITALIZATION</LocID><Text>Ricovero in tutti i dipartimenti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECTIVE_TREATED_PATIENTS_PERCENTAGE</LocID>  <Text>Almeno il {1}% di pazienti trattati per 10 giorni</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

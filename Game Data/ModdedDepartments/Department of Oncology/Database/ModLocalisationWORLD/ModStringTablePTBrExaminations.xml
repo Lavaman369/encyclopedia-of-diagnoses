@@ -1,0 +1,89 @@
+<Database>
+	<!-- Oncology Mod by Sleepy068 -->
+    <GameDBStringTable ID="LOC_PTBR_ADDON_ONCOLOGYSL_EXAMINATIONS">
+
+        <LanguageCode>ptbr</LanguageCode>
+        <LanguageNameLocalized>Português do Brasil</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Sleepy068</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+		<!-- ### ### -->
+		<!-- ######################################## Content for V0.15.0.0 Added Below ######################################## -->
+		<!-- ### ### -->
+		
+		<!-- ======================================== -->
+		<!-- ============= Core Content ============= -->
+		<!-- ======================================== -->
+		
+		
+		<!-- ============================================== -->
+		<!-- ============= CRP Export Content ============= -->
+		<!-- ============================================== -->
+
+		<GameDBLocalizedString>    
+    <LocID>EXM_CRP_OVARIAN_BIOPSY_SAMPLE</LocID>                               
+    <Text>Amostra de Biópsia Ovariana</Text>  
+</GameDBLocalizedString>
+
+<GameDBLocalizedString>     
+    <LocID>EXM_CRP_OVARIAN_BIOPSY_SAMPLE_DESC</LocID>                               
+    <Text>Atualmente, não há um teste de triagem eficaz para o câncer de ovário. Quando um paciente é suspeito de ter câncer de ovário, o médico realizará vários testes para encontrar quaisquer anormalidades que precisem ser investigadas com uma biópsia. A única maneira de confirmar o diagnóstico de câncer de ovário é através da coleta de uma amostra de tecido (biópsia) e examinar as células sob um microscópio. \n\nLaboratório Necessário: Histologia</Text>  
+</GameDBLocalizedString>
+
+<GameDBLocalizedString>    
+    <LocID>EXM_CRP_OVARIAN_BIOPSY_TEST</LocID>                               
+    <Text>Teste de Biópsia Ovariana</Text>  
+</GameDBLocalizedString>
+
+<GameDBLocalizedString>     
+    <LocID>EXM_CRP_OVARIAN_BIOPSY_TEST_DESC</LocID>                               
+    <Text>Técnicos em histologia estão atualmente trabalhando com a amostra fornecida pelo paciente. Eles devem retornar os resultados em breve.</Text>  
+</GameDBLocalizedString>
+
+<GameDBLocalizedString>    
+    <LocID>EXM_CRP_VAGINAL_BIOPSY_SAMPLE</LocID>                               
+    <Text>Amostra de Biópsia Vaginal</Text>  
+</GameDBLocalizedString>
+
+<GameDBLocalizedString>     
+    <LocID>EXM_CRP_VAGINAL_BIOPSY_SAMPLE_DESC</LocID>                               
+    <Text>Certos sinais e sintomas podem sugerir fortemente câncer vaginal, mas muitos deles podem ser causados por outros problemas. A única maneira de ter certeza de que é câncer é fazer uma biópsia. Neste procedimento, uma pequena parte do tecido da área suspeita é removida. Um técnico especializado em diagnóstico de doenças com testes laboratoriais (Técnico de Laboratório de Histologia) então examinará a amostra de tecido sob um microscópio para ver se há câncer ou uma condição pré-cancerosa presente e, se sim, qual é o tipo. \n\nLaboratório Necessário: Histologia</Text>  
+</GameDBLocalizedString>
+
+<GameDBLocalizedString>    
+    <LocID>EXM_CRP_VAGINAL_BIOPSY_TEST</LocID>                               
+    <Text>Teste de Biópsia Vaginal</Text>  
+</GameDBLocalizedString>
+
+<GameDBLocalizedString>     
+    <LocID>EXM_CRP_VAGINAL_BIOPSY_TEST_DESC</LocID>                               
+    <Text>Técnicos em histologia estão atualmente trabalhando com a amostra fornecida pelo paciente. Eles devem retornar os resultados em breve.</Text>  
+</GameDBLocalizedString>
+
+<GameDBLocalizedString>    
+    <LocID>EXM_CRP_SALIVARYGLAND_BIOPSY_SAMPLE</LocID>                               
+    <Text>Amostra de Biópsia da Glândula Salivar</Text>  
+</GameDBLocalizedString>
+
+<GameDBLocalizedString>     
+    <LocID>EXM_CRP_SALIVARYGLAND_BIOPSY_SAMPLE_DESC</LocID>                               
+    <Text>Uma biópsia da glândula salivar envolve a remoção de células ou pequenos pedaços de tecido de uma ou mais glândulas salivares para serem examinados no laboratório. \n\nLaboratório Necessário: Histologia</Text>  
+</GameDBLocalizedString>
+
+<GameDBLocalizedString>    
+    <LocID>EXM_CRP_SALIVARYGLAND_BIOPSY_TEST</LocID>                               
+    <Text>Teste de Biópsia da Glândula Salivar</Text>  
+</GameDBLocalizedString>
+
+<GameDBLocalizedString>     
+    <LocID>EXM_CRP_SALIVARYGLAND_BIOPSY_TEST_DESC</LocID>                               
+    <Text>Técnicos em histologia estão atualmente trabalhando com a amostra fornecida pelo paciente. Eles devem retornar os resultados em breve.</Text>  
+</GameDBLocalizedString>
+
+		
+</LocalizedStrings>
+</GameDBStringTable>
+</Database>

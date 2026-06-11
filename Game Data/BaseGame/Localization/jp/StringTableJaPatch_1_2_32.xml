@@ -1,0 +1,21 @@
+<Database>
+    <GameDBStringTable ID="LOC_JA_PATCH_1_2_32">
+
+        <LanguageCode>ja</LanguageCode>
+        <LanguageNameLocalized>日本語</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_ONLY_HOSPITALIZED</LocID>                <Text>患者を入院させなければ治療はできない！</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>POPUP_TAKE_OVER_EVENT_PATIENTS</LocID>                 <Text>すべての患者を引き継ぐ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>POPUP_ACCEPT_EVENT_TAKE_OVER_EVENT_PATIENTS</LocID>    <Text>同意して、すべての患者を引き継ぐ</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>EVENT_CRASH</LocID>                     <Text>事故</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

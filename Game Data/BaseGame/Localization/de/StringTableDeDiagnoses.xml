@@ -1,0 +1,520 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_DE_DIAGNOSES">
+
+        <LanguageCode>de</LanguageCode>
+        <LanguageNameLocalized>Deutsch</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>coermel</Name>
+            <Name>EdRyan</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+
+            <!-- ============================ -->
+            <!-- Diagnoses - Emergency -->
+            <!-- ============================ -->
+            <GameDBLocalizedString>      <LocID>DIA_PTI</LocID>                         <Text>Schweinebandwurm</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PTI_DESCRIPTION</LocID>             <Text>Schweinebandwürmer (T. solium) sind parasitäre Flachwürmer welche im menschlichen Verdauungssystem leben. Schweine sind Zwischenwirte wenn diese mit menschlichen Fäkalien verunreinigtes Futter oder Wasser zu sich nehmen. Mögliche Infektion durch Verzehr halbgaren Schweinefleisches.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BTI</LocID>                         <Text>Rinderbandwurm</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BTI_DESCRIPTION</LocID>             <Text>Rinderbandwürmer (T. saginata) sind parasitäre Flachwürmer welche im menschlichen Verdauungssystem leben. Rinder sind Zwischenwirte wenn diese mit menschlichen Fäkalien verunreinigtes Futter oder Wasser zu sich nehmen. Mögliche Infektion bei Verzehr halbgaren Rindfleisches.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CKX</LocID>                         <Text>Windpocken</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CKX_DESCRIPTION</LocID>             <Text>Windpocken, oder Varizellen, sind eine hochansteckende Krankheit, ausgelöst durch eine initiale Infektion mit dem Varicella zoster Virus. Die Krankheit äußert sich in typischem Hautausschlag mit kleinen, juckenden Bläschen, welche sich eventuell verschorfen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HRZ</LocID>                         <Text>Gürtelrose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HRZ_DESCRIPTION</LocID>             <Text>Gürtelrose ist eine Infektion welche durch Reaktivierung des Herpes Zoster Virus ausgelöst wird. Die Krankheit äußert sich durch einen streifenförmigen roten Hautausschlag mit kleinen Bläschen entlang von Dermatomen. Die Gürtelrose kann extrem schmerzhaft sein.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ONM</LocID>                         <Text>Nagelpilz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ONM_DESCRIPTION</LocID>             <Text>Nagelpilz, oder Onychomycosis oder Tinea unguium, ist eine Pilzinfektion an Finger- oder Fußnägeln.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ATF</LocID>                         <Text>Athletenfuß</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ATF_DESCRIPTION</LocID>             <Text>Athletenfuß, oder Tinea pedis, ist eine hochansteckende durch Pilze verursachte Hautinfektion der Füße.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_IDA</LocID>                         <Text>Eisenmangelanämie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_IDA_DESCRIPTION</LocID>             <Text>Blutarmut ist durch  reduzierten Sauerstofftransport im Blut gekennzeichnet. Dies kann durch einen Rückgang von roten Blutkörperchen oder Hämoglobin verursacht werden. Eisenmangelanämie ist die häufigste Form der Anämie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LIN</LocID>                         <Text>Laktoseintoleranz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LIN_DESCRIPTION</LocID>             <Text>Laktoseintoleranz ist das Unvermögen zur Verdauung von Laktose, einem Zucker in Milchprodukten. Unverdaute Laktose kann Blähungen, Durchfall und Bauchschmerzen verursachen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CLD</LocID>                         <Text>Grippaler Infekt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CLD_DESCRIPTION</LocID>             <Text>Der grippale Infekt ist eine Virusinfektion der oberen Atemwege, üblicherweise der Nase.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ASN</LocID>                         <Text>Sinusitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ASN_DESCRIPTION</LocID>             <Text>Die Sinusitis ist eine Entzündung einer oder mehrerer Nebenhöhlen. Sie verursacht Schwellungen und kann den Abfluss von Schleim oder Eiter der entsprechenden Nebenhöhlen beeinträchtigen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_APH</LocID>                         <Text>Pharyngitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_APH_DESCRIPTION</LocID>             <Text>Die Pharyngitis ist eine Entzündung des Rachens verursacht durch Bakterien oder Viren.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ANG</LocID>                         <Text>Bakterielle Tonsillitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ANG_DESCRIPTION</LocID>             <Text>Die bakterielle Tonsillitis ist eine Infektion der Rachenmandeln. Die häufigste bakterielle Tonsillitis wird durch den Streptococcus pyogenes verursacht und ist auch als Halsentzündung bekannt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ANV</LocID>                         <Text>Virale Tonsillitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ANV_DESCRIPTION</LocID>             <Text>Die virale Tonsillitis ist eine Infektion der Rachenmandeln und kann durch verschiedene Viruserreger verursacht werden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LAR</LocID>                         <Text>Laryngitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LAR_DESCRIPTION</LocID>             <Text>Die Laryngitis ist eine Entzündung des Kehlkopfes. Kann durch Bakterien oder Viren verursacht werden, jedoch auch durch übermäßigen Stimmgebrauch.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_INF</LocID>                         <Text>Influenza</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_INF_DESCRIPTION</LocID>             <Text>Die Influenza, oder gemeinhin auch Grippe, ist eine Infektionskrankheit verursacht durch Influenza Viren.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BRN</LocID>                         <Text>Bronchitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BRN_DESCRIPTION</LocID>             <Text>Die Bronchitis ist eine Entzündung der unteren Atemwege, genannt Bronchien, und wird meist durch Viren verursacht.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HFV</LocID>                         <Text>Heuschnupfen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HFV_DESCRIPTION</LocID>             <Text>Heuschnupfen, oder allergische Rhinitis, ist eine durch in der Luft befindliche Allergene (z.B. Pollen) ausgelöste Entzündung der Nasenschleimhaut infolge einer allergische Reaktion. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ACD</LocID>                         <Text>Kontaktdermatitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ACD_DESCRIPTION</LocID>             <Text>Kontaktdermatitis ist ein lokal begrenzter Ausschlag oder auch Reizung der Haut, ausgelöst durch Kontakt mit einem Allergen oder Reizstoff.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_GEW</LocID>                         <Text>Golferellenbogen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_GEW_DESCRIPTION</LocID>             <Text>Der Golferellenbogen, medizinisch auch mediale Epicondylitis, ist durch einen von der Innenseite des Ellenbogens bis zum Handgelenk ausstrahlenden Schmerz charakterisiert. Dieser Zustand wird durch häufig wiederholte Bewegungen verursacht, und führt somit zu einer Reizung der Muskeln und Sehnen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SCS</LocID>                         <Text>Skoliose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SCS_DESCRIPTION</LocID>             <Text>Die Skoliose ist eine seitliche Verkrümmung der Wirbelsäule, normalerweise in Form eines C oder S. Die Skoliose ist normalerweise schmerzlos.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_RYS</LocID>                         <Text>Raynaud-Syndrom</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_RYS_DESCRIPTION</LocID>             <Text>Das Raynaud-Syndrome verursacht eine Verengung der Blutgefäße in Fingern oder Zehen und der darauffolgenden Minderdurchblutung dieser. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CFS</LocID>                         <Text>Chronisches Erschöpfungssyndrom</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CFS_DESCRIPTION</LocID>             <Text>Das chronische Erschöpfungssyndrom ist eine sehr komplizierte Erkrankung und bezieht sich auf einen Zustand extremer Erschöpfung, welcher keine medizinische Ursache zugrunde liegt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_INS</LocID>                         <Text>Insomnie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_INS_DESCRIPTION</LocID>             <Text>Insomnie, oder auch Schlaflosigkeit, ist als eine subjektive Empfindung von schlechtem Schlaf definiert. Dies kann durch Einschlafprobleme, Durchschlafprobleme oder frühzeitiges Aufwachen gekennzeichnet sein.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRM_ACT</LocID>                         <Text>Armprellung</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_ACT_DESCRIPTION</LocID>             <Text>Die Armprellung ist eine Quetschung von weichem Gewebe, ohne Vorhandensein einer Knochenfraktur oder größeren Verletzungen der Haut oder Muskeln.</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_HCT</LocID>                         <Text>Handprellung</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_HCT_DESCRIPTION</LocID>             <Text>Die Handprellung ist eine Quetschung von weichem Gewebe, ohne Vorhandensein einer Knochenfraktur oder größeren Verletzungen der Haut oder Muskeln.</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_FCT</LocID>                         <Text>Fußprellung</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_FCT_DESCRIPTION</LocID>             <Text>Die Fußprellung ist eine Quetschung von weichem Gewebe, ohne Vorhandensein einer Knochenfraktur oder größeren Verletzungen der Haut oder Muskeln.</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_ACN</LocID>                         <Text>Sprunggelenksprellung</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_ACN_DESCRIPTION</LocID>             <Text>Die Sprunggelenksprellung ist eine Quetschung von weichem Gewebe, ohne Vorhandensein einer Knochenfraktur oder größeren Verletzungen der Haut oder Muskeln.</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_LCT</LocID>                         <Text>Beinprellung</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_LCT_DESCRIPTION</LocID>             <Text>Die Beinprellung ist eine Quetschung von weichem Gewebe, ohne Vorhandensein einer Knochenfraktur oder größeren Verletzungen der Haut oder Muskeln.</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_CCT</LocID>                         <Text>Brustkorbprellung</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_CCT_DESCRIPTION</LocID>             <Text>Die Brustkorbprellung ist eine Quetschung von weichem Gewebe, ohne Vorhandensein einer Knochenfraktur oder größeren Verletzungen der Haut oder Muskeln.</Text>   </GameDBLocalizedString>
+
+            <!-- ============================ -->
+            <!-- Diagnoses - General surgery department-->
+            <!-- ============================ -->
+
+            <GameDBLocalizedString>      <LocID>DIA_HEPA</LocID>                        <Text>Hepatitis A</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HEPA_DESCRIPTION</LocID>            <Text>Hepatitis ist eine Infektion der Leber. Das Hepatitis A Virus verbreitet sich durch Fäkalien und kommt am häufigsten in Gegenden mit schlechten Sanitäranlagen oder mangelnder Hygiene vor.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HEPB</LocID>                        <Text>Hepatitis B</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HEPB_DESCRIPTION</LocID>            <Text>Hepatitis ist eine Infektion der Leber. Das Hepatitis B Virus verbreitet sich durch Blut, sexuellen Kontakt oder von der Mutter zum Ungeborenen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_EPI</LocID>                         <Text>Exokrine Pankreasinsuffizienz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_EPI_DESCRIPTION</LocID>             <Text>Die Bauchspeicheldrüsen-Insuffizienz wird durch Verletzung oder Infektion der Bauchspeicheldrüse ausgelöst. Diese Erkrankung beeinflusst normalerweise die normale Absorption von Nährstoffen im Dünndarm und ist somit verantwortlich für Vitamin- oder Mineralstoffmangel.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_THD</LocID>                         <Text>Hashimoto Thyroiditis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_THD_DESCRIPTION</LocID>             <Text>Die Hashimoto Thyroiditis ist eine Autoimmunkrankheit bei welcher das Immunsystem allmählich die Schildrüse zerstört.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HPT</LocID>                         <Text>Hypothyreose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HPT_DESCRIPTION</LocID>             <Text>Die Hypothyreose ist ein Schilddrüsenunterfunktion, welche zur einer unzureichenden Produktion von Schilddrüsenhormonen führt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HRT</LocID>                         <Text>Morbus Basedow</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HRT_DESCRIPTION</LocID>             <Text>Morbus Basedow ist eine endokrine Erkrankung bei welcher übermäßig viele Schilddrüsenhormone produziert werden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OES</LocID>                         <Text>Ösophagitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OES_DESCRIPTION</LocID>             <Text>Die Ösophagitis ist eine Entzündung der Speiseröhre. Bei Nicht-Behandlung können sehr unangenehme Schluckbeschwerden auftreten, welche widerrum andere Erkrankungen benachbarter Strukturen verursachen können. Die Behandlung wird mit einer Nahrungsumstellung kombiniert. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OEV</LocID>                         <Text>Ösophagusvarizen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OEV_DESCRIPTION</LocID>             <Text>Ösophagusvarizen sind abnormal vergrößerte Venen in der Speiseröhre. Häufige Ursache ist portale Hypertonie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HBP</LocID>                         <Text>H. pylori Infektion</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HBP_DESCRIPTION</LocID>             <Text>Der Helicobacter pylori ist ein spiralförmiges Bakterium im menschlichen Verdauungssystem. Es neigt zur Infektionen der Magenschleimhaut ist ist hoch ansteckend.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_GAU</LocID>                         <Text>Magengeschwür</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_GAU_DESCRIPTION</LocID>             <Text>Ein Magengeschwür ist eine öffene Verletzung der Magenschleimhaut. Wird häufig durch Bakterien oder übermäßigen Gebrauch von NSAIDs (nichtsteriodalen Entzündungshemmer) verursacht.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_GAS</LocID>                         <Text>Gastritis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_GAS_DESCRIPTION</LocID>           	<Text>Eine Gastritis ist eine Entzündung oder Erosion der Magenschleimhaut. Verursacht durch schlechte Ernährung, übermäßigen Alkoholkonsum oder übermäßigem Medikamentengebrauch. Die Behandlung ist relativ kurz und kann durch eine Ernährungsumstellung positive beeinflußt werden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_DUO</LocID>                         <Text>Duodenitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_DUO_DESCRIPTION</LocID>             <Text>Die Doudenitis ist eine Entzündung der Schleimhaut im ersten Teil des Dünndarms, welche mit einer Länge von 30 Zentimetern in Form eines C verläuft.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_APP</LocID>                         <Text>Appendizitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_APP_DESCRIPTION</LocID>             <Text>Die Appendizitis ist eine Entzündung der Schleimhaut des Blinddarms, welcher dadurch anschwillt und blockiert wird. Ein perforierter Blinddarm ist lebensgefährlich, daher ist die Appendizitis die häufigste Gründe für abdominale Operationen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CRH</LocID>                         <Text>Morbus Crohn</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CRH_DESCRIPTION</LocID>             <Text>Der Morbus Crohn ist eine entzündliche Darmkrankheit mit unbekannter Ursache. Offensichtlich sind genetische, umweltbedingte und autoimmune Einflußfaktoren.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ULC</LocID>                         <Text>Colitis ulcerosa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ULC_DESCRIPTION</LocID>             <Text>Die Colitis ulcerosa ist eine entzündliche Darmerkrankung welche Geschwüre im Dickdarm hervorruft. Die genaue Ursache ist unklar, wobei genetische, umweltbedingte und autoimmune Faktoren eine Rolle spielen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_IBS</LocID>                         <Text>Reizdarmsyndrom</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_IBS_DESCRIPTION</LocID>             <Text>Das Reizdarmsyndrom ist eine chronische gastrointestinale Erkrankung welche eine Langzeitbehandlung bedarf. Die Erkrankung ist nicht ansteckend. Nahrungsumstellung und verschiedene Medikamente verbessern den Zustand.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_FDR</LocID>                         <Text>Bakterielle Gastroenteritis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_FDR_DESCRIPTION</LocID>             <Text>Die bakterielle Gastroenteritis ist eine allgemeine Erkrankung des Gastrointestinaltraktes, in den meisten Fällen dauert diese ncur wenige Tage an. Wird durch viele Faktoren, wie Bakterien, Viren, Vergiftungen oder Medikamente verursacht.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_FOI</LocID>                         <Text>Darmfistel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_FOI_DESCRIPTION</LocID>             <Text>Die Darmfistel ist eine abnormale Verbindung zwischen zwei entfernt liegenden Organen. Diese Abnormalität kann Organe mit Haut oder Körperhöhlen verbinden und dadurch Infektionsherde, Abszesse, o.ä. verursachen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PER</LocID>                         <Text>Primäre Peritonitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PER_DESCRIPTION</LocID>             <Text>Die primäre Peritonitis ist eine bakterielle Infektion des Bauchfells; eine Membran welche die innere Bauchwand und Organe in der Bauchhöhle abdeckt. Die Bakterien der primären Peritonitis verbreiten sich normalerweise durch das Blut. Bei Nichtbehandlung ist diese Erkrankung meist tödlich. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HEF</LocID>                         <Text>Leberfibrose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HEF_DESCRIPTION</LocID>             <Text>Die Leberfibrose ist eine durch Leberschäden verursachte  Ansammlung vernarbtem Lebergewebes. Es kann sich als Entzündung oder andere Lebererkrankungen, verursacht durch Viren, Bakterien, Mangelernährung oder Alkoholmissbrauch äußern. Bei Nichtbehandlung kann es zur Leberzirrhose führen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CIR</LocID>                         <Text>Leberzirrhose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CIR_DESCRIPTION</LocID>             <Text>Die Leberzirrhose ist ein Zustand gestörter Leberfunktion aufgrund langfristiger Schädigungen; normales Lebergewebe wird durch Narbengewebe ersetzt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CLT</LocID>                         <Text>Gallensteine</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CLT_DESCRIPTION</LocID>             <Text>Gallensteine, oder Cholelithiasis, sind in der Gallenblase entstandene Konkremente meist bestehend aus Bilirubin, Gallensäure und Calcium. Gallensteine sind meist symptomlos, in Gallengängen oder benachbarten Strukturen stecken gebliebene, können jedoch extrem schmerzhaft sein. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CLS</LocID>                         <Text>Cholecystitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CLS_DESCRIPTION</LocID>             <Text>Die Cholecystitis (Gallenblasenentzündung) ist eine entzündliche Erkrankung der Gallenblase, meist verursacht durch Blockaden des Gallenblasenganges durch Gallensteine. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CLA</LocID>                         <Text>Cholangitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CLA_DESCRIPTION</LocID>             <Text>Die Cholangitis ist eine Infektion des Gallengangs, meist verursacht durch vom Zwölffingerdarm aufsteigende Bakterien. Tritt meist auf, wenn der Gallengang bereits teilweise durch Gallensteine blockiert ist.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_APT</LocID>                         <Text>Pankreatitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_APT_DESCRIPTION</LocID>             <Text>Die Pankreatitis ist eine Entzündung der Bauchspeicheldrüse. Wird meist durch Gallensteinblockaden oder übermäßigen Alkoholmissbrauch verursacht.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_COE</LocID>                         <Text>Zölliakie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_COE_DESCRIPTION</LocID>             <Text>Zölliakie ist eine Autoimmunerkrankung, bei welcher das Immunsystem auf in Nahrungsmitteln (bspw. Weizen, Roggen, Gerste) enthaltenes Gluten reagiert. Die Reaktion verursacht Entzündungen des Dünndarms und führt zu Absorptionsstörungen von Nährstoffen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ANS</LocID>                         <Text>Glomerulonephritis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ANS_DESCRIPTION</LocID>             <Text>Glomerulonephritis ist eine Entzündung der Nierenfiltereinheit. Kann durch Infektion oder Autoimmunreaktion verursacht werden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TIN</LocID>                         <Text>Interstitielle Nephritis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TIN_DESCRIPTION</LocID>             <Text>Die interstitielle Nephritis ist eine Entzündung des interstitiellen Nierengewebes. Kann durch Infektion oder als Nebenwirkung von Medikamenten verursacht werden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PNS</LocID>                         <Text>Pyelonephritis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PNS_DESCRIPTION</LocID>             <Text>Pyelonephritis ist eine Entzündung der Nieren, meist verursacht durch über die Harnwege aufsteigende Bakterien.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ARF</LocID>                         <Text>Akutes Nierenversagen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ARF_DESCRIPTION</LocID>             <Text>Akutes Nierenversagen ist ein plötzlicher Verlust der Nierenfunktion mit Beeinträchtigung der Blutfilterung und Urinproduktion. Die Ursachen sind vielfältig, meist wird das Nierenversagen jedoch durch massive Gewebeschädigungen oder einen verminderten Blutfluß in den Nieren hervorgerufen. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CKD</LocID>                         <Text>Chronische Nierenkrankheit</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CKD_DESCRIPTION</LocID>             <Text>Die chronische Nierenkrankheit ist ein allmählicher Verlust der Nierenfunktion. Die häufigste Ursache ist unbehandelter Diabetes mellitus.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_COK</LocID>                         <Text>Nierensteine</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_COK_DESCRIPTION</LocID>             <Text>Nierensteine, oder Urolithiasis, sind meist  Kalziumkonkremente. Obwohl die Steine meist selbständig ihren Weg durch die Harnwege finden, ist dies ein extrem schmerzhafter Zustand.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_COU</LocID>                         <Text>Ureterstein</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_COU_DESCRIPTION</LocID>             <Text>In den Nieren entstandene Steine wandern meist durch die Harnwege und den Harnleiter. Eine Blockade im oder der Abgang durch den Harnleiter, kann unangenehme Symptome zur Folge haben.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CIB</LocID>                         <Text>Blasensteine</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CIB_DESCRIPTION</LocID>             <Text>Blasensteine sind entweder in der Blase entstandene Harnsteine, meist in Folge der Mineralisierung von konzentriertem Urin, oder aus der Niere entstammende Steine. Die Symptome äußern sich meist durch Probleme beim Wasserlassen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ACS</LocID>                         <Text>Harnwegsinfektion</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ACS_DESCRIPTION</LocID>             <Text>Die Harnwegsinfektion, oder Zystitis, ist eine Infektion der Harnblase meist verursacht durch E. coli, ein Bakterium welches vor allem im Gastrointestinaltrakt vorkommt. Diese Erkrankung betrifft Frauen meist 100mal häufiger als Männer.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_INC</LocID>                         <Text>Interstitielle Zystitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_INC_DESCRIPTION</LocID>             <Text>Die interstitielle Zystitis ist eine unklare chronische Erkrankung der Blase, welche meist eher Frauen als Männer betrifft.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRM_LIP</LocID>                         <Text>Leberruptur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_LIP_DESCRIPTION</LocID>             <Text>Die Leberruptur ist eine traumatische Verletzung, verursacht durch in den Körper eindringende Objekte, die eine offene Wunde und Leberschäden verursachen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_LIB</LocID>                         <Text>Leberquetschung</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_LIB_DESCRIPTION</LocID>             <Text>Die Leberquetschung ist ein physisches Trauma des oberen Abdomens, verursacht durch Schläge, Verletzungen oder körperliche Gewalt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SRB</LocID>                         <Text>Stumpfe Milzruptur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SRB_DESCRIPTION</LocID>             <Text>Die stumpfe Milzruptur wird durch Schläge, Verletzungen oder körperliche Gewalt, jedoch ohne das Vorhandensein offener Wunden, verursacht.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SRP</LocID>                         <Text>Milzruptur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SRP_DESCRIPTION</LocID>             <Text>Die pentrierende Milzruptur ist eine, durch in den Körper eingedringende Objekte, verursachte Verletzung des oberen Abdomens. Meist entstehen dabei offene Wunden und weitreichende Milzschäden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SCB</LocID>                         <Text>Milzprellung</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SCB_DESCRIPTION</LocID>             <Text>Auch bekannt als Milzquetschung, ist eine Prellung der Milt nach direkten Schlägen auf das obere Abdomen. Meist ist dies nicht so schwerwiegend wie eine Milzruptur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_PCB</LocID>                         <Text>Pankreasprellung</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_PCB_DESCRIPTION</LocID>             <Text>Geringfügige Bauchspeicheldrüsenprellung ohne Verletzung des Bauchspeichdrüsenganges, bei Vorhandensein von Hämatomen. Wird durch direkte Schläge ohne offene Hautverletzungen verursacht.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_PLB</LocID>                         <Text>Stumpfe Pankreasruptur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_PLB_DESCRIPTION</LocID>             <Text>Größerer Riss der Bauchspeicheldrüse mit Verletzung den Bauchspeichdrüsenganges, verursacht durch direkte Schlagverletzungen, ohne offene Wunden des Abdomens.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_PCP</LocID>                         <Text>Pankreasruptur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_PCP_DESCRIPTION</LocID>             <Text>Massiver Riss des Pankreaskopfes, verursacht durch penetrierende Verletzungen des oberen Abdomens.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_KLP</LocID>                         <Text>Nierenruptur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_KLP_DESCRIPTION</LocID>             <Text>Größere Verletzung des Nierenparenchyms bei Vorhandensein retroperitonealer Hämatome und offener Rückenwunde.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_KCB</LocID>                         <Text>Nierenquetschung</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_KCB_DESCRIPTION</LocID>             <Text>Prellung der Niere mit oder ohne lokal begrenztes subkapsuläres Hämatom.</Text>  </GameDBLocalizedString>
+
+            <!-- ======================================== -->
+            <!-- Diagnoses - Internal medicine department -->
+            <!-- ======================================== -->
+            <GameDBLocalizedString>      <LocID>DIA_CLC</LocID>                         <Text>Klassische Cholera</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CLC_DESCRIPTION</LocID>             <Text>Die Cholera ist eine durch Bakterien verursachte Erkrankung, welche sich meist durch kontaminierte Wasserversorgung verbreitet. Moderne Abwasser- und Wasseraufbereitungsanlagen könnten die Cholera in industrialisierten Ländern eliminieren.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TYF</LocID>                         <Text>Typhoides Fieber</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TYF_DESCRIPTION</LocID>             <Text>Typhoides Fieber ist eine ansteckende bakterielle Erkrankung welche durch kontaminiertes Wasser und Nahrung verbreitet wird. Kommt in industrialisierten Ländern nur noch selten vor.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SLM</LocID>                         <Text>Salmonellose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SLM_DESCRIPTION</LocID>             <Text>Die Salmonelleninfektion ist eine der gängigsten bakteriellen Infektionen des menschlichen Verdauungstraktes. Infektion durch kontaminiertes Wasser oder Nahrungsmittel. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_AMB</LocID>                         <Text>Amöbiasis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_AMB_DESCRIPTION</LocID>             <Text>Amöbiasis wird durch Entamoeba histolytica verursacht, die Infektion verbreitet sich durch mit Fäkalien verunreinigtes Wasser und Nahrungsmittel.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_GRD</LocID>                         <Text>Giardiasis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_GRD_DESCRIPTION</LocID>             <Text>Die Giardia-Infektion ist eine der häufigsten durch Wasser übertragenen intestinalen Infektionen. Kann ebenso durch körperlichen Kontakt und Nahrungsmittel übertragen werden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TBC</LocID>                         <Text>Lungentuberkulose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TBC_DESCRIPTION</LocID>             <Text>Die Lungentuberkulose ist eine hochansteckende durch das Bakterium Mycobacterium tuberculosis verursachte Erkrankung der Lungen, kann jedoch auch andere Organe betreffen. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TUL</LocID>                         <Text>Tularämie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TUL_DESCRIPTION</LocID>             <Text>Tularämie ist eine infektiöse Erkrankung die hauptsächlich die Haut, Augen, Lymphknoten und Lungen befällt. Sie wird durch Bakterien, auch bekannt als Francisella tularensis, verursacht. Tularämie ist hochansteckend, potentiell lebensgefährlich, kann jedoch effektiv behandelt werden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PNA</LocID>                         <Text>Lungenmilzbrand</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PNA_DESCRIPTION</LocID>             <Text>Milzbrand ist eine ernsthafte Infektion, verursacht durch Bakterien bekannt als Bacillus anthracis. Sie verbreitet sich durch Sporen, meist tierischen Ursprungs. Übertragung erfolgt typischerweise durch Atmung, Nahrungsaufnahme oder durch Hautläsionen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_RBF</LocID>                         <Text>Rattenbissfieber</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_RBF_DESCRIPTION</LocID>             <Text>Das Rattenbissfieber ist eine akute fieberhafte Erkrankung, verursacht durch von Ratten, insbesondere deren Urin oder Schleimabsonderungen, übertragene Bakterien. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CSD</LocID>                         <Text>Katzenkratzlymphadenitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CSD_DESCRIPTION</LocID>             <Text>Die Katzenkratzlymphadenitis ist eine allgemeine Infektionskrankeheit, verursacht durch Bartonella henselae. Sie wird durch Katzen, insbesondere kratzen und beißen, übertragen. Das Vorhandensein des Bakteriums im Menschen ist mit normalen Kultivierungsmethoden nur schwer nachweisbar, da deren Wachstum bis zu 6 Wochen beträgt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PMI</LocID>                         <Text>Pulmonale Myobakterielle Infektion</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PMI_DESCRIPTION</LocID>             <Text>Die pulmonale nichttuberkulöse myobakterielle Infektion wird durch Myobakterien verursacht und ist relativ häufig. Tritt vor allem bei Patienten mit geschwächtem Immunsystem oder pulmonalen Vorerkrankungen, aber auch bei gesunden Patienten auf.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PTS</LocID>                         <Text>Pertussis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PTS_DESCRIPTION</LocID>             <Text>Pertussis, auch bekannt als Keuchhusten ist eine hochansteckende Atemwegserkrankung. Sie wird durch Bakterien, bekannt als Bordetella pertussis verursacht. Vor der Entwicklung von Impfstoffen, wurde Keuchhusten den Kinderkrankheiten zugeordnet. Heutzutage befällt es vor allem Patienten mit geschwächtem Immunsystem.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LEG</LocID>                         <Text>Legionärskrankheit</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LEG_DESCRIPTION</LocID>             <Text>Die Legionärskrankheit wird durch das Bakterium Legionella pneumophila verursacht. Diese Krankheit ist eine schwerwiegende Form der Pneumonie, welche von Mensch zu Mensch übertragen wird. Die unbehandelte Legionärskrankheit hat einen tödlichen Verlauf.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TPF</LocID>                         <Text>Typhus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TPF_DESCRIPTION</LocID>             <Text>Nicht zu verwechseln mit typhoiden Fieber. Typhus wird durch das Bakterium Rickettsia Typhi verursacht und durch verschiedene Fliegenarten übertragen. Typhus wird seit 1528 beschrieben. Es ist durch plötzliches Auftreten verschiedener grippeähnlicher Symptome gekennzeichnet.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_IMN</LocID>                         <Text>Infektiöse Mononukleose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_IMN_DESCRIPTION</LocID>             <Text>Infektiöse Mononukleose wird im Allgemeinen durch EBV (Epstein-Barr Virus) übertragen. Die Infektion erfolgt meist in der Kindheit, wobei die Symptome erst beim Heranwachsen auftreten. Für diese Erkrankung gibt es keine Impfung. In den 1920ern wurde diese Krankheit als die Kusskrankheit beschrieben.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HPM</LocID>                         <Text>Histoplasmose </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HPM_DESCRIPTION</LocID>             <Text>Histoplasmose, auch Darling-Krankheit, ist eine Atemwegserkrankung verursacht durch den Pilz Histoplasma Capsulatum. Sie betrifft vorrangig die Lungen. Die Symptome variieren sehr stark. Erfolgte Infektion erzeugt einen teilweisen Schutz. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ASP</LocID>                         <Text>Aspergillose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ASP_DESCRIPTION</LocID>             <Text>Aspergillose ist eine Atemwegserkrankung verursacht durch den Pilz Aspergillus. Bei Patienten mit geschwächtem Immunsystem, breitet sich die invasive Krankheitsform bis in die Lungen aus. In diesem Fall ist ein operativer Eingriff notwendig.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ATS</LocID>                         <Text>Amerikanische Trypanosomiasis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ATS_DESCRIPTION</LocID>             <Text>Die amerikanische Trypanosomiasis, auch bekannt als Chagas-Krankheit, ist eine ernsthafte Infektionskrankheit verursacht durch den Parasiten Trypanosoma cruzi. Bei Nichtbehandlung kann sie zu ernsthaften Komplikationen am Herzen und Verdauungssystem führen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TXM</LocID>                         <Text>Toxoplasmose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TXM_DESCRIPTION</LocID>             <Text>Toxoplasmose wird durch den Parasiten Toxoplasma gondii verursacht. Die Symptome sind vergleichbar mit der allgemeinen Grippe. Die Infektion breitet sich durch halbgares Essen und Kontakt mit Katzenexkrementen aus.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BAB</LocID>                         <Text>Babesiose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BAB_DESCRIPTION</LocID>             <Text>Babesiose ist eine parasitäre Erkrankung verursacht durch den Parasiten Babesia. Sie ist vergleichbar mit Malaria. Die Übertragung erfolgt durch Zecken und tritt meist zusammen mit Borreliose auf.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LYD</LocID>                         <Text>Borreliose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LYD_DESCRIPTION</LocID>             <Text>Borreliose ist eine Erkrankung verursacht durch den Biss der Hirschzecke oder des schwarzbeinigen Holzbocks. Sie kann eine Form des Bakteriums Borrelia burgdorferi übertragen, welche die Krankheit direkt verursacht.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HLA</LocID>                         <Text>Hämolytische Anämie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HLA_DESCRIPTION</LocID>             <Text>Hämolytische Anämie tritt bei Hämolyse auf, einem abnormalen Zerfall der roten Blutkörperchen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TCP</LocID>                         <Text>Thrombozytopenie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TCP_DESCRIPTION</LocID>             <Text>Thrombozytopenie  ist ein Zustand mit deutlich reduzierter Anzahl von Blutplättchen, verantwortlich für die Blutgerinnung.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HPL</LocID>                         <Text>Hämophilie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HPL_DESCRIPTION</LocID>             <Text>Hämophilie ist eine Erbkrankheit, welche einen verringerten Blutgerinnungsfaktor verursacht. Die Blutgerinnung ist dadurch gestört und es kommt zu starken Blutungen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_THL</LocID>                         <Text>Thalassämie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_THL_DESCRIPTION</LocID>             <Text>Thalassämie ist eine vererbte Blutkrankheit mit deutlich reduziertem Hämoglobin und verringerten roten Blutzellen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SRCL</LocID>                        <Text>Sarkoidose - Lungen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SRCL_DESCRIPTION</LocID>            <Text>Sarkoidose ist eine Erkrankung des Bindegewebes mit Granulombildung (entzündliche Zellen) in verschiedenen Teilen des menschlichen Körpers. Am wahrscheinlichsten wird dies durch Immunreaktionen auf verschiedene Wirkstoffe verursacht. Es gibt keine Heilung, aber mit unterstützenden Medikamenten können Symptome gelindert werden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SRCE</LocID>                        <Text>Sarkoidose - Auge</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SRCE_DESCRIPTION</LocID>            <Text>Sarkoidose ist eine Erkrankung des Bindegewebes mit Granulombildung (entzündliche Zellen) in verschiedenen Teilen des menschlichen Körpers. Am wahrscheinlichsten wird dies durch Immunreaktionen auf verschiedene Wirkstoffe verursacht. Es gibt keine Heilung, aber mit unterstützenden Medikamenten können Symptome gelindert werden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SRCH</LocID>                        <Text>Sarkoidose - Herz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SRCH_DESCRIPTION</LocID>            <Text>arkoidose ist eine Erkrankung des Bindegewebes mit Granulombildung (entzündliche Zellen) in verschiedenen Teilen des menschlichen Körpers. Am wahrscheinlichsten wird dies durch Immunreaktionen auf verschiedene Wirkstoffe verursacht. Es gibt keine Heilung, aber mit unterstützenden Medikamenten können Symptome gelindert werden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_DM1</LocID>                         <Text>Diabetes</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_DM1_DESCRIPTION</LocID>             <Text>Diabetes mellitus ist eine Gruppe von Krankheiten welche den Glukosestoffwechsel beeinflussen. Es gibt verschiedene Diabetestypen, generell ist jedoch ein erhöhter Blutzuckerwert festzustellen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CFB</LocID>                         <Text>Zystische Fibrose </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CFB_DESCRIPTION</LocID>             <Text>Zystische Fibrose ist eine Erbkrankheit welche eine schwerwiegende Schädigung der Lunge, des Verdauungssystems und anderer Organe verursacht.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OTE</LocID>                         <Text>Otitis externa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OTE_DESCRIPTION</LocID>             <Text>Otitis externa ist eine Entzündung des äußeren Gehörgangs und wird meist durch Bakterien verursacht.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OME</LocID>                         <Text>Otitis media mit  Erguss</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OME_DESCRIPTION</LocID>             <Text>Die Otitis media mit Paukenerguss geht mit einer Flüssigkeitsansammlung im Mittelohr einher. Betrifft vorrangig Kinder.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ASO</LocID>                         <Text>Akute eitrige Otitis media</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ASO_DESCRIPTION</LocID>             <Text>Die akute eitrige Otitis media ist eine sehr schmerzvolle Entzündung des Mittelohrs.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_AMT</LocID>                         <Text>Akute Mastoiditis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_AMT_DESCRIPTION</LocID>             <Text>Mastoiditis ist eine Infektion oder Entzündung der Mastoidzellen welche sich im Warzenfortsatz des Schläfenbeins, in der Nähe der Ohren,  befinden. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OTS</LocID>                         <Text>Otosklerose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OTS_DESCRIPTION</LocID>             <Text>Otosklerose ist eine abnormale Verhärtung des Knochengewebes im Mittelohr. Sie verhindert die Tonweiterleitung vom Mittel- ins Innenohr und führt zum Hörverlust.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OOR</LocID>                         <Text>Otorrhoe</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OOR_DESCRIPTION</LocID>             <Text>Otorrhoe ist eine Entzündung der Ohren.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_MUM</LocID>                         <Text>Mumps</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_MUM_DESCRIPTION</LocID>             <Text>Mumps, oder Parotitis, ist eine entzündliche Infektionskrankheit der Ohrspeicheldrüsen (ein- oder beidseitig). Die Entzündung wird durch Viren oder Bakterien verursacht. Die beste Prävention ist eine Impfung.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PNM</LocID>                         <Text>Pneumonie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PNM_DESCRIPTION</LocID>             <Text>Pneumonie ist eine Infektion der Lungenbläschen. Die Lungenentzündung kann als milde, bis hin zu lebensgefährlichen Formen auftreten.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BPN</LocID>                         <Text>Bronchopneumonie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BPN_DESCRIPTION</LocID>             <Text>Bronchopneumonie, auch lobuläre Pneumonie, ist eine Infektionskrankheit der Lungen. Sie betrifft die Lunge und die Bronchien.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BES</LocID>                         <Text>Bronchiektasie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BES_DESCRIPTION</LocID>             <Text>Bronchiektasie ist ein Zustand, bei welchen die großen Luftwege der Lungen geschädigt sind.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SCB</LocID>                         <Text>Einfache chronische Bronchitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SCB_DESCRIPTION</LocID>             <Text>Die chronische Bronchitis beschreibt einen langanhaltenden produktiven Husten, mit stetiger Reizung der Bronchien.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_EMP</LocID>                         <Text>Emphysem</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_EMP_DESCRIPTION</LocID>             <Text>Das Emphysem beschreibt einen Zustand der Schädigung oder Zerstörung der Lungenalveolen. Es verursacht Kurzatmigkeit, selbst im Ruhezustand.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CPD</LocID>                         <Text>COPD</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CPD_DESCRIPTION</LocID>             <Text>Chronisch obstruktive Lungenerkrankung - COPD - ist eine chronische, entzündliche Lungenerkrankung, welche blockierte Atemwege von den Lungen verursacht.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ASM</LocID>                         <Text>Asthma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ASM_DESCRIPTION</LocID>             <Text>Asthma beschreibt einen Zustand verengter und geschwollener Atemwege mit erhöhter Schleimproduktion. Asthma ist eine chronische Atemwegserkrankung mit von Person zu Person variierenden Symptomen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PMX</LocID>                         <Text>Pneumothorax</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PMX_DESCRIPTION</LocID>             <Text>Der Pneumothorax, auch Lungenkollaps, kommt vor wenn aus den Lungen entwichene Luft den Raum zwischen Lungen und Brustwand ausfüllen. Dies verhindert eine Ausweitung des betroffenen Lungenflügels.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CEL</LocID>                         <Text>Cellulitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CEL_DESCRIPTION</LocID>             <Text>Cellulitis ist eine gewöhnliche bakterielle Hautentzündung, meist verursacht durch Streptokokken und Staphylokokken.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ADS</LocID>                         <Text>Atopische Dermatitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ADS_DESCRIPTION</LocID>             <Text>Die atopische Dermatitis, oder Ekzem, ist eine chronische Hauterkrankung mit geröteter und juckender Haut.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LUP</LocID>                         <Text>Lupus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LUP_DESCRIPTION</LocID>             <Text>Lupus ist eine systemische Autoimmunerkrankung. Sie ist sehr schwer zu diagnostizieren.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRM_CMP</LocID>                         <Text>Kohlenstoffmonoxidvergiftung</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_CMP_DESCRIPTION</LocID>             <Text>Kohlenstoffmonoxidvergiftung tritt häufig durch Einatmen zu großer Mengen an Kohlenstoffmonoxid auf.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_CGP</LocID>                         <Text>Chlorgasvergiftung</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_CGP_DESCRIPTION</LocID>             <Text>Die Chlorgasvergiftung ist eine Erkrankung hervorgerufen durch Exposition mit Chlor oberhalb der Grenzwerte.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_MTP</LocID>                         <Text>Methanolvergiftung</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_MTP_DESCRIPTION</LocID>             <Text>Die Methanolvergiftung ist eine ungewöhnliche Vergiftungsform, welche ernsthafte Stoffwechselstörungen, Blindheit, permanente neurologische Dysfunktion oder den Tod verursachen kann.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_LDP</LocID>                         <Text>Bleivergiftung</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_LDP_DESCRIPTION</LocID>             <Text>Die Bleivergiftung ist eine typische Metallvergiftung, verursacht durch Anreicherung von Blei im Körper.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_PCT</LocID>                         <Text>Lungenquetschung</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_PCT_DESCRIPTION</LocID>             <Text>Stumpfe Verletzung oder physisches Trauma des Oberkörpers, verursacht durch Schläge, Verletzungen oder körperliche Angriffe.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_PLP</LocID>                         <Text>Lungenriss</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_PLP_DESCRIPTION</LocID>             <Text>Eine traumatische Verletzung, verursacht durch in den Körper eindringende Objekte, die eine offene Wunde und einen Riss der Lunge verursachen.</Text>  </GameDBLocalizedString>
+
+            <!-- ====================================== -->
+            <!-- Diagnoses - Orthopaedy -->
+            <!-- ====================================== -->
+            <GameDBLocalizedString>      <LocID>DIA_CTS</LocID>                         <Text>Karpaltunnelsyndrom</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CTS_DESCRIPTION</LocID>             <Text>Der Karpaltunnel ist eine Durchführung im Bereich des Handgelenks, durch den Nerven und Blutgefäße die Hände versorgen. Bei Verengung des Kanals treten Schmerzen und Missempfindungen im Bereich der Hand auf. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CUS</LocID>                         <Text>Kubitaltunnelsyndrom</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CUS_DESCRIPTION</LocID>             <Text>Das Kubitaltunnelsyndrom wird durch Kompression des Ulnarisnerv im Bereich des Ellenbogens verursacht.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_RAT</LocID>                         <Text>Rheumatoide Arthritis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_RAT_DESCRIPTION</LocID>             <Text>Die rheumatoide Arthritis ist eine chronische Autoimmunerkrankung vorrangig die Gelenke betreffend. Sie kann sehr schmerzhaft sein. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HOA</LocID>                         <Text>Hüftosteoarthritis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HOA_DESCRIPTION</LocID>             <Text>Osteoarthritis ist eine Erkrankung mit langsam degenerierendem Knorpelgewebe, welche zur Deformation der betreffenden Gelenke führt. Führt außerdem zu Gelenksteifigkeit und kann sehr schmerzhaft sein.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_KOA</LocID>                         <Text>Knieosteoarthritis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_KOA_DESCRIPTION</LocID>             <Text>Die Osteoarthritis des Kniegelenks ist die häufigste Form der Arthritis; Knorpelschädigungen verursachen Schmerzen. Osteoarthritis ist eine Erkrankung mit langsam degenerierendem Knorpelgewebe, welche zur Deformation der betreffenden Gelenke führt. Führt außerdem zu Gelenksteifigkeit und kann sehr schmerzhaft sein.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_DMS</LocID>                         <Text>Dermatomyositis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_DMS_DESCRIPTION</LocID>             <Text>Deramtomyositis ist eine chronisch, fortschreitende Entzündung der Muskulatur einhergehend mit einer Hauterkrankung. Sie ist die am einfachsten zu diagnostizierende Form der Myositis.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_IBM</LocID>                         <Text>Einschlusskörpermyositis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_IBM_DESCRIPTION</LocID>             <Text>Einschlusskörpermyositis ist eine chronisch, fortschreitende Entzündung der Muskulatur. Sie kommt häufiger in kurzen Muskeln, wie beispielsweise der Handgelenke und Hände vor.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PMS</LocID>                         <Text>Polymyositis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PMS_DESCRIPTION</LocID>             <Text>Polymyositis ist eine chronisch, fortschreitende Entzündung der Muskulatur. Sie beginnt mit Muskelschwäche in Rumpfnähe, von wo sie sich ausweitet.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SDS</LocID>                         <Text>Spondylolyse</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SDS_DESCRIPTION</LocID>             <Text>Spondylolyse ist eine Spaltbildung im Bereich des Gelenkfortsatzes im Wirbelbogen, meist im Bereich des 5. Lenden- und 1. Kreuzbeinwirbels. Dieser Zustand kann schmerzhaft sein. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SDL</LocID>                         <Text>Spondylolisthesis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SDL_DESCRIPTION</LocID>             <Text>Spondylolisthesis beschreibt einen gleitenden Wirbelkörper, welch meist infolge unbehandelter Spondylolyse auftritt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CSL</LocID>                         <Text>Zervikale Spondylose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CSL_DESCRIPTION</LocID>             <Text>Zervikale Spondylose betrifft die Bandscheiben im Halsbereich. Sobald die Bandscheiben dehydrieren und schrumpfen, entwickeln sich Anzeichen der Osteoarthritis.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OSM</LocID>                         <Text>Akute Osteomyelitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OSM_DESCRIPTION</LocID>             <Text>Akute Osteomyelitis ist eine bakterielle Knocheninfektion. Kann sich zu einer schwer behandelbaren chronischen Osteomyelitis entwickeln.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CDD</LocID>                         <Text>Spinalstenose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CDD_DESCRIPTION</LocID>             <Text>Die Spinalstenose ist eine abnormale Verengung des Wirbelkanals, mit Beeinträchtigung des Rückenmarks und der Nervwurzeln. Sie kann Schmerz, Unwohlsein und Bewegungsverlust vor allem in den Extremitäten verursachen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BOT</LocID>                         <Text>Bursitis Kniegelenk</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BOT_DESCRIPTION</LocID>             <Text>Der Schleimbeutel ist ein kleiner mit Flüssigkeit gefüllter Sack, welcher als Puffer zwischen Knochen und reibungsbelasteten Bereichen dient. Die Schleimbeutelentzündung ist eine Schwellung des Schleimbeutels und wird durch Entzündung verursacht.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BOH</LocID>                         <Text>Bursitis Handgelenk</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BOH_DESCRIPTION</LocID>             <Text>Der Schleimbeutel ist ein kleiner mit Flüssigkeit gefüllter Sack, welcher als Puffer zwischen Knochen und reibungsbelasteten Bereichen dient. Die Schleimbeutelentzündung ist eine Schwellung des Schleimbeutels und wird durch Entzündung verursacht.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_AOM</LocID>                         <Text>Osteomalazie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_AOM_DESCRIPTION</LocID>             <Text>Osteomalazie, auch bekannt als Rachitis bei Auftreten im Kindesalter, beschreibt einen Zustand der Knochenerweichung aufgrund eines gestörten Stoffwechsels im Knochen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TEW</LocID>                         <Text>Tennisellenbogen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TEW_DESCRIPTION</LocID>             <Text>Tennisellenbogen, auch laterale Epicondylitis, ist durch einen von der Außenseite des Ellenbogens bis hin zum Handgelenk ausstrahlenden Schmerz charakterisiert. Dieser Zustand wird durch häufig wiederholte Bewegungen verursacht, und führt somit zu einer Reizung der Muskeln und Sehnen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OLB</LocID>                         <Text>Bursitis Ellenbogen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OLB_DESCRIPTION</LocID>             <Text>Der Schleimbeutel ist ein kleiner mit Flüssigkeit gefüllter Sack, welcher als Puffer zwischen Knochen und reibungsbelasteten Bereichen dient. Die Schleimbeutelentzündung ist eine Schwellung des Schleimbeutels und wird durch Entzündung verursacht..</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRM_DWH</LocID>                         <Text>Tiefe Handverletzung</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_DWH_DESCRIPTION</LocID>             <Text>Eine tiefe, glatte oder unregelmäßige blutende Verletzung. Muss durch Naht versorgt werden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_DWA</LocID>                         <Text>Tiefe Armverletzung</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_DWA_DESCRIPTION</LocID>             <Text>Eine tiefe, glatte oder unregelmäßige blutende Verletzung. Muss durch Naht versorgt werden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_DWL</LocID>                         <Text>Tiefe Beinverletzung</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_DWL_DESCRIPTION</LocID>             <Text>Eine tiefe, glatte oder unregelmäßige blutende Verletzung. Muss durch Naht versorgt werden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_DWF</LocID>                         <Text>Tiefe Fußverletzung</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_DWF_DESCRIPTION</LocID>             <Text>Eine tiefe, glatte oder unregelmäßige blutende Verletzung. Muss durch Naht versorgt werden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SHS</LocID>                         <Text>Verstauchung Schulter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SHS_DESCRIPTION</LocID>             <Text>Eine Verstauchung ist ein Zustand in dem gelenkumgebende Bänder überdehnt und damit verletzt wurden, bis hin zur vollständigen Ruptur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SHD</LocID>                         <Text>Schulterluxation</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SHD_DESCRIPTION</LocID>             <Text>Eine Gelenkdislokation, auch Luxation, ist ein abnormaler Kontaktverlust gelenkbildender Knochenenden. Verletzungen benachbarten Gewebes sind häufig.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_KSP</LocID>                         <Text>Verrenkung Knie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_KSP_DESCRIPTION</LocID>             <Text>Eine Verrenkung ist ein Zustand in dem gelenkumgebende Bänder überdehnt und damit verletzt wurden, bis hin zur vollständigen Ruptur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_KDL</LocID>                         <Text>Knieluxation</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_KDL_DESCRIPTION</LocID>             <Text>Eine Gelenkdislokation, auch Luxation, ist ein abnormaler Kontaktverlust gelenkbildender Knochenenden. Verletzungen benachbarten Gewebes sind häufig.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_ASP</LocID>                         <Text>Verstauchung Sprunggelenk</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_ASP_DESCRIPTION</LocID>             <Text>Eine Verstauchung ist ein Zustand in dem gelenkumgebende Bänder überdehnt und damit verletzt wurden, bis hin zur vollständigen Ruptur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_DLA</LocID>                         <Text>Sprunggelenksluxation</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_DLA_DESCRIPTION</LocID>             <Text>Eine Gelenkdislokation, auch Luxation, ist ein abnormaler Kontaktverlust gelenkbildender Knochenenden. Verletzungen benachbarten Gewebes sind häufig.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_ACL</LocID>                         <Text>Vordere Kreuzbandruptur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_ACL_DESCRIPTION</LocID>             <Text>Das vordere Kreuzband, ist eine Bänderstruktur im Inneren des Kniegelenks, welche eine Vorwärtsverschiebung zwischen Ober- und Unterschenkelknochen verhindert. Dies ist eine häufige Sportverletzungen und wird durch unnatürliche Innenrotation verursacht.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SFU</LocID>                         <Text>Einfache Ulnafraktur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SFU_DESCRIPTION</LocID>             <Text>Einfacher Knochenbruch ohne Beteiligung umgebenden Gewebes.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_OFU</LocID>                         <Text>Offene Ulnafraktur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_OFU_DESCRIPTION</LocID>             <Text>Offener Knochenbruch, ist eine Fraktur mit offener Wunde, Hautverletzung und disloziertem Kochen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_CFU</LocID>                         <Text>Komplizierte Ulnafraktur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_CFU_DESCRIPTION</LocID>             <Text>Komplizierte Fraktur mit offener Wunde und disloziertem Mehrfachfragmentbruch.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SFR</LocID>                         <Text>Einfache Radiusfraktur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SFR_DESCRIPTION</LocID>             <Text>Einfacher Knochenbruch ohne Beteiligung umgebenden Gewebes.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SFH</LocID>                         <Text>Einfache Humerusfraktur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SFH_DESCRIPTION</LocID>             <Text>Einfacher Oberarmbruch ohne Beteiligung umgebenden Gewebes.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_OFH</LocID>                         <Text>Offene Humerusfraktur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_OFH_DESCRIPTION</LocID>             <Text>Offener Oberarmbruch, ist eine Fraktur mit offener Wunde, Hautverletzung und disloziertem Kochen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_CFH</LocID>                         <Text>Komplizierte Humerusfraktur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_CFH_DESCRIPTION</LocID>             <Text>Komplizierte Fraktur des Oberarms mit offener Wunde und disloziertem Mehrfachfragmentbruch.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_BRR</LocID>                         <Text>Rippenfraktur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_BRR_DESCRIPTION</LocID>             <Text>Einfache Fraktur einer oder mehrerer Rippen ohne Verletzung des umgebenden Gewebes.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SFF</LocID>                         <Text>Einfache Femurfraktur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SFF_DESCRIPTION</LocID>             <Text>Einfacher Knochenbruch des Oberschenkels ohne Beteiligung umgebenden Gewebes.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_OFF</LocID>                         <Text>Offene Femurfraktur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_OFF_DESCRIPTION</LocID>             <Text>Offener Knochenbruch des Oberschenkels, ist eine Fraktur mit offener Wunde, Hautverletzung und disloziertem Kochen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_CFF</LocID>                         <Text>Komplizierte Femurfraktur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_CFF_DESCRIPTION</LocID>             <Text>Komplizierte Fraktur des Oberschenkels mit offener Wunde und disloziertem Mehrfachfragmentbruch.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SFT</LocID>                         <Text>Einfache Tibiafraktur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SFT_DESCRIPTION</LocID>             <Text>Einfacher Knochenbruch des Schienbeins ohne Beteiligung umgebenden Gewebes.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_OFT</LocID>                         <Text>Offene Tibiafraktur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_OFT_DESCRIPTION</LocID>             <Text>Offener Knochenbruch des Schienbeins, ist eine Fraktur mit offener Wunde, Hautverletzung und disloziertem Kochen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SPT</LocID>                         <Text>Tibia-Spiralfraktur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SPT_DESCRIPTION</LocID>             <Text>Spiralförmige Fraktur des Schienbeins ohne Verletzung umgebenden Gewebes.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SFI</LocID>                         <Text>Einfache Fibulafraktur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SFI_DESCRIPTION</LocID>             <Text>Einfacher Knochenbruch des Wadenbeins ohne Beteiligung umgebenden Gewebes.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_ANF</LocID>                         <Text>Fußgelenksfraktur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_ANF_DESCRIPTION</LocID>             <Text>Fraktur eines oder mehrerer Fußgelenksknochen ohne Verletzung umgebenden Gewebes.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_MBF</LocID>                         <Text>Metatarsalfraktur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_MBF_DESCRIPTION</LocID>             <Text>Fraktur eines oder mehrerer Mittelfußknochen, ohne Verletzung umgebenden Gewebes.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_FOF</LocID>                         <Text>Fingerfraktur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_FOF_DESCRIPTION</LocID>             <Text>Fraktur eines oder mehrerer Fingerknochen, ohne Verletzung umgebenden Gewebes.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SFC</LocID>                         <Text>Einfache Claviculafraktur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SFC_DESCRIPTION</LocID>             <Text>Einfacher Knochenbruch des Schlüsselbeins ohne Beteiligung umgebenden Gewebes.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SHC</LocID>                         <Text>Claviculaschaftfraktur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SHC_DESCRIPTION</LocID>             <Text>Schlüsselbeinfraktur mit Dislokation des frakturierten Knochens.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_MNF</LocID>                         <Text>Mandibularfraktur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_MNF_DESCRIPTION</LocID>             <Text>Komplizierte Fraktur des Unterkiefers mit Verletzung umgebenden Gewebes.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_NSF</LocID>                         <Text>Nasenbeinfraktur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_NSF_DESCRIPTION</LocID>             <Text>Einfache Fraktur eines oder mehreren Nasenknochens mit Blutung.</Text>  </GameDBLocalizedString>
+
+            <!-- ===================== -->
+            <!-- Diagnoses - Cardiology-->
+            <!-- ===================== -->
+            <GameDBLocalizedString>      <LocID>DIA_ARR</LocID>                         <Text>Akutes rheumatisches Fieber</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ARR_DESCRIPTION</LocID>             <Text>Akutes rheumatisches Fieber ist eine entzündliche Erkrankung des Herzens, der Muskeln, Gelenke und des Gehirns. Entsteht normalerweise nach Strektokokkeninfektion des Rachens.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_MST</LocID>                         <Text>Mitralklappenstenose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_MST_DESCRIPTION</LocID>             <Text>Mitralklappenstenose ist eine Verengung der Mitralklappe des Herzens und führt zu einer gestörten Füllung der Herzkammer mit Blut.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TRS</LocID>                         <Text>Trikuspidalklappenregurgitation</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TRS_DESCRIPTION</LocID>             <Text>Erkrankung der Trikuspidalklappe, mit Verschlussproblemen der Klappe.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HHD</LocID>                         <Text>Hypertensive Herzerkrankung mit Herzfehler</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HHD_DESCRIPTION</LocID>             <Text>Hypertensive Herzerkrankung bezeichnet mehrere Komplikationen im Zusammenhang mit das Herz beeinflussendem Bluthochdruck.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_IHD</LocID>                         <Text>Ischämische Herzerkrankung mit Herzfehler</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_IHD_DESCRIPTION</LocID>             <Text>Ischämische Herzerkrankung, auch bekannt als koronare Arterienkrankheit, bezeichnet eine große Gruppe kardiovaskulärer Erkrankungen verursacht durch Atherosklerose.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HRD</LocID>                         <Text>Hypertensive Nierenerkrankung</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HRD_DESCRIPTION</LocID>             <Text>Hypertensive Nierenerkrankung bezeichnet eine Nierenschädigung aufgrund Bluthochdrucks.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ANP</LocID>                         <Text>Angina pectoris</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ANP_DESCRIPTION</LocID>             <Text>Angina pectoris bezeichnet Brustschmerzen, verursacht durch unzureichenden Blutfluss zum Herzmuskel. Diese Erkrankung ist meist ein Symptom koronarer Arterienkrankheit.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_AMI</LocID>                         <Text>Akuter Myokardinfarkt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_AMI_DESCRIPTION</LocID>             <Text>Der akute Myokardinfarkt, auch Herzinfarkt, tritt bei blockiertem Blutfluss zum Herzmuskel auf und kann zur Zerstörung oder Schädigung von Teilen des Muskels führen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TAA</LocID>                         <Text>Thorakales Aortenaneurysma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TAA_DESCRIPTION</LocID>             <Text>Das thorakale Aortenaneurysma beschreibt eine Erweiterung der Blutgefäße im oberen Bereich der Aorta. Es besteht ein hohes Rupturrisiko.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PEM</LocID>                         <Text>Pulmonale Embolie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PEM_DESCRIPTION</LocID>             <Text>Die pulmonale Embolie, auch Lungenembolie ist eine Blockade einer oder mehrerer Lungenarterien.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ECT</LocID>                         <Text>Endokarditis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ECT_DESCRIPTION</LocID>             <Text>Endokarditis ist eine Infektion der Innenhaut der Herzkammern und -klappen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PCT</LocID>                         <Text>Perikarditis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PCT_DESCRIPTION</LocID>             <Text>Perikarditis beschreibt eine Reizung und Schwellung der herzumgebenden Membran (Perikard).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_INM</LocID>                         <Text>Myokarditis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_INM_DESCRIPTION</LocID>             <Text>Myokarditis ist eine Entzündung des Herzmuskels. Kann Arrythmien - Herzrhytmusstörungen hervorrufen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CAR</LocID>                         <Text>Herzstillstand</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CAR_DESCRIPTION</LocID>             <Text>Der Herzstillstand beschreibt einen abrupten Stillstand des Blutflusses infolge eines Herzfehlers.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CHF</LocID>                         <Text>Herzinsuffizienz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CHF_DESCRIPTION</LocID>             <Text>Die Herzinsuffizienz tritt bei teilweisem Verlust der Herzpumpfähigkeit auf.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_STK</LocID>                         <Text>Schlaganfall</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_STK_DESCRIPTION</LocID>             <Text>Schlaganfälle treten bei Unterbrechung oder starker Reduzierung des Blutflusses im Gehirn auf. Sie führen bereits nach einigen Minuten zur Schädigung des Hirngewebes.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ATH</LocID>                         <Text>Arteriosklerose - Karotis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ATH_DESCRIPTION</LocID>             <Text>Die Arteriosklerose ist eine Erkrankung durch Plaque-Ablagerungen in Arterien, welche zu deren Verkalkung und Verengung führt und eine Reduzierung des sauerstoffreichen Blutflusses verursacht. Die Erkrankung kann für Jahrzehnte asymptomatisch verlaufen und erst nach Blockade bestimmter Arterien treten Symptome auf.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TPB</LocID>                         <Text>Thrombophlebitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TPB_DESCRIPTION</LocID>             <Text>Thrombophlebitis ist eine durch Blutgerinnsel verursachte Venenblockade, welche Entzündungen verursacht.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PVT</LocID>                         <Text>Pfortaderthrombose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PVT_DESCRIPTION</LocID>             <Text>Die Pfortaderthrombose ist eine durch Blutgerinnsel verursachte Blockade der Leberpfortader.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PEB</LocID>                         <Text>Pulmonale Hypertonie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PEB_DESCRIPTION</LocID>             <Text>Die pulmonale Hypertonie entsteht durch Blockade einer pulmonalen Arterie meist aufgrund von Blutgerinnseln.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PAD</LocID>                         <Text>Periphere Arterienkrankheit</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PAD_DESCRIPTION</LocID>             <Text>Die periphere Arterienkrankheit wird durch reduzierten Blutfluss in den oberen und unteren Extremitäten aufgrund verengter Arterien verursacht.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_MVP</LocID>                         <Text>Mitralklappenprolaps</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_MVP_DESCRIPTION</LocID>             <Text>Der Mitralklappenprolaps entsteht bei der Herzkontraktion durch Hervortreten der Mitralklappe in den linken Vorhof.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_DCP</LocID>                         <Text>Dilatative Kardiomyopathie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_DCP_DESCRIPTION</LocID>             <Text>Die dilatative Kardiomyopathie ist eine pathologische Erweiterung des linken Ventrikels mit Beeinflussung der Pumpkraft. Dadurch kommt es zu einem Verlust der Pumpfähigkeit von Blut aus dem Herzen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_GCA</LocID>                         <Text>Riesenzellarteritis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_GCA_DESCRIPTION</LocID>             <Text>Die Riesenzellarteritis ist eine häufige Entzündung der Arterienwände im Schläfenbereich des Kopfes.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRM_BCI</LocID>                         <Text>Stumpfe Herzverletzung</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_BCI_DESCRIPTION</LocID>             <Text>Die stumpfe Herzverletzung wird durch traumatische Ereignisse im Bereich der Brust verursacht, entweder durch Schläge, Verletzungen oder physische Gewalt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_FLC</LocID>                         <Text>Thoraxwandflattern</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_FLC_DESCRIPTION</LocID>             <Text>Thoraxwandflattern ist ein lebensbedrohlicher Zustand, verursacht durch Frakturen am Brustkorb mit Ablösung des Knochensegmentes von der Thoraxwand.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_TCA</LocID>                         <Text>Traumatischer Herzstillstand</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_TCA_DESCRIPTION</LocID>             <Text>Herzstillstand aufgrund eines stumpfen oder penetrierenden Traumas im Thoraxbereich, bspw. Stichwunden. Dies ist ein medizinischer Notfall, welcher bei nicht sofortiger Versorgung zum Tod führt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_TAR</LocID>                         <Text>Traumatische Aortenruptur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_TAR_DESCRIPTION</LocID>             <Text>Die traumatische Aortenruptur ist ein unfallbedingter Riss der Hauptschlagader. Dieser Zustand ist aufgrund massiver Blutungen meist tödlich. </Text>  </GameDBLocalizedString>
+
+            <!-- ===================== -->
+            <!-- Diagnoses - Neurology -->
+            <!-- ===================== -->
+            <GameDBLocalizedString>      <LocID>DIA_TBE</LocID>                         <Text>Virusenzephalitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TBE_DESCRIPTION</LocID>             <Text>Eine durch Viren ausgelöste Infektion, wie z.B. FSME, die Gehirn und Zentrales Nervensystem befällt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ECS</LocID>                         <Text>Enzephalitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ECS_DESCRIPTION</LocID>             <Text>Enzephalitis ist eine Entzündung des Gehirns, meist ausgelöst durch Viren.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_RAB</LocID>                         <Text>Tollwut</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_RAB_DESCRIPTION</LocID>             <Text>Tollwut ist eine fast immer tödliche Viruserkrankung, oft übertragen durch den Speichel von infizierten Tieren.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PMN</LocID>                         <Text>Pneumokokken Meningitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PMN_DESCRIPTION</LocID>             <Text>Eine Entzündung von Gehirn- und Rückenmarkshäuten durch eine Infektion mit Pneumokokkenbakterien.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SMN</LocID>                         <Text>Staphylokokken Meningitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SMN_DESCRIPTION</LocID>             <Text>Eine Entzündung von Gehirn- und Rückenmarkshäuten durch eine Infektion mit Staphylokokkenbakterien.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_MIG</LocID>                         <Text>Migräne</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_MIG_DESCRIPTION</LocID>             <Text>Migräne ist eine Kopfschmerzerkrankung.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_GBS</LocID>                         <Text>Guillain-Barre Syndrom</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_GBS_DESCRIPTION</LocID>             <Text>Das Guillain-Barre Syndrom ist eine Autoimmunerkrankung, die das Nervensystem angreift.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_NMO</LocID>                         <Text>Neuromyelitis optica</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_NMO_DESCRIPTION</LocID>             <Text>Neuromyelitis optica ist eine Autoimmunerkrankung, die den Sehnerv und das Rückenmark angreift.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_IPD</LocID>                         <Text>CIDP</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_IPD_DESCRIPTION</LocID>             <Text>Chronisch inflammatorische demyelinisierende Polyneuropathie ist eine entzündliche Erkrankung der peripheren Nerven, die die Schutzmembran der Nerven schädigt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TTN</LocID>                         <Text>Tetanus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TTN_DESCRIPTION</LocID>             <Text>Tetanus ist eine ernsthafte, Nervensystem und Muskeln beeinträchtigende bakterielle Erkrankung.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BLP</LocID>                         <Text>Blepharitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BLP_DESCRIPTION</LocID>             <Text>Blepharitis ist die Entzündung der Augenlider.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CJN</LocID>                         <Text>Konjunktivitis (bakteriell)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CJN_DESCRIPTION</LocID>             <Text>Konjunktivitis, auch Bindehautentzündung, ist eine Entzündung der Schleimhaut der vorderen Augenhöhle.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CAN</LocID>                         <Text>Konjunktivitis (allergisch)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CAN_DESCRIPTION</LocID>             <Text>Konjunktivitis, auch Bindehautentzündung, ist eine Entzündung der Schleimhaut der vorderen Augenhöhle.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_GLC</LocID>                         <Text>Offenwinkel-Glaukom</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_GLC_DESCRIPTION</LocID>             <Text>Das Glaukom (grüner Star) sind Erkrankungen des Auges mit Sehnvervschädigung.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CLH</LocID>                         <Text>Cluster Kopfschmerz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CLH_DESCRIPTION</LocID>             <Text>Cluster Kopfschmerzen sind einseitige Kopfschmerzen und extrem schmerzhaft.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HRP</LocID>                         <Text>Hypertensive Retinopathie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HRP_DESCRIPTION</LocID>             <Text>Hypertensive Retinopathie ist die Schädigung der Netzhaut-Blutgefäße aufgrund erhöhten Blutdruckes.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_UVE</LocID>                         <Text>Uveitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_UVE_DESCRIPTION</LocID>             <Text>Uveitis bezieht sich auf die Entzündung der Uvea. Die Uvea umfasst die Iris und einige angrenzende Strukturen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SCL</LocID>                         <Text>Skleritis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SCL_DESCRIPTION</LocID>             <Text>Skleritis bezeichnet die Entzündung der Sklera des Auges.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_KRT</LocID>                         <Text>Keratitis - bakteriell</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_KRT_DESCRIPTION</LocID>             <Text>Keratitis ist die, meist bakteriell verursachte, entzündliche Erkrankung der gewölbten Cornea (Hornhaut).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CAB</LocID>                         <Text>Abrasio corneae</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CAB_DESCRIPTION</LocID>             <Text>Abrasio corneae - Hornhautabschürfung - ist eine der häufigsten Augenverletzungen einhergehend mit Unbehagen des Auges und ähnlichen Symptomen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ACG</LocID>                         <Text>Engwinkel-Glaukom</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ACG_DESCRIPTION</LocID>             <Text>Engwinkel-Glaukom ist eine akute Augenerkrankung durch plötzlichen Anstieg des Augeninnendruckes.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CRV</LocID>                         <Text>Verschluss - Auge</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CRV_DESCRIPTION</LocID>             <Text>Zentralvenen- oder Zentralarterienverschluss ist ein Verschluss der die Retina versorgenden Gefäße.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRM_CCS</LocID>                         <Text>Commotio cerebri</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_CCS_DESCRIPTION</LocID>             <Text>Gehirnerschütterung - ein leichtes Trauma des Gehirns mit vorübergehender Hirnfunktionsstörungen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_CTS</LocID>                         <Text>Contusio cerebri</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_CTS_DESCRIPTION</LocID>             <Text>Gehirnprellung - eine schwerwiegendere Gehirnverletzung, meist durch stumpfes Trauma.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_DAI</LocID>                         <Text>Diffuse axonale Verletzung</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_DAI_DESCRIPTION</LocID>             <Text>Diffuse axonale Schädelhirntraumata sind die am häufigsten vorkommenden Hirnverletzungen. Sie entstehen bei zu schneller Bewegung des Gehirns im Schädel.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_TBI</LocID>                         <Text>Traumatische Hirnverletzung</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_TBI_DESCRIPTION</LocID>             <Text>Tritt auf, wenn äußere Kräfte auf den Schädel und das Hirn einwirken, z.B: bei stumpfem Trauma.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_AIH</LocID>                         <Text>Subdurales Hämatom</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_AIH_DESCRIPTION</LocID>             <Text>Das subdurale Hämatom ist ein potentiell lebensbedrohlicher Bluterguss im Subduralraum. Blut sammelt sich im schmalen Spalt zwischen harter Hirnhaut (Dura mater) und Spinnenwebenhaut (Arachnoidea) an, wodurch der intrakranielle Druck (Schädelinnendruck) steigt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_OBI</LocID>                         <Text>Offenes Schädel-Hirn-Trauma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_OBI_DESCRIPTION</LocID>             <Text>Eine Verletzung, bei der die Dura mater (äußere harte Hirnhaut) und der Schädel verletzt sind.</Text>  </GameDBLocalizedString>
+
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

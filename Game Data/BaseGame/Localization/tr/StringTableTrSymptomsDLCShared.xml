@@ -1,0 +1,28 @@
+<Database>
+    <GameDBStringTable ID="LOC_TR_SYMPTOMS_DLC_SHARED">
+
+        <LanguageCode>tr</LanguageCode>
+        <LanguageNameLocalized>Türkçe</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>SYM_ESCHAR</LocID>                                    <Text>Eskar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ESCHAR_DESCRIPTION</LocID>                        <Text>Tam kalınlıkta bir yaradaki ölü doku.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VIREMIA</LocID>                                   <Text>Viremi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VIREMIA_DESCRIPTION</LocID>                       <Text>Virüslerin kan dolaşımına girmesiyle oluşan tıbbi duruma viremi denir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DISTRIBUTIVE_SHOCK</LocID>                        <Text>Dağılımsal şok</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DISTRIBUTIVE_SHOCK_DESCRIPTION</LocID>            <Text>Dağılımsal şok, en küçük kan damarlarındaki kan akışının anormal dağılımından kaynaklanır.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOVOLEMIA</LocID>                               <Text>Hipovolemi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOVOLEMIA_DESCRIPTION</LocID>                   <Text>Damar içi hacmin azalması hali, hücre dışı sıvıların kaybı.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TACHYPNEA</LocID>                                 <Text>Takipne</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TACHYPNEA_DESCRIPTION</LocID>                     <Text>Organizmanın daha yüksek karbondioksit konsantrasyonlarına reaksiyonu olarak hızlı nefes alması durumudur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRADYPNEA</LocID>                                 <Text>Bradipne</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRADYPNEA_DESCRIPTION</LocID>                     <Text>Anormal derecede yavaş nefes alma.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOXEMIA</LocID>                                 <Text>Hipoksemi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOXEMIA_DESCRIPTION</LocID>                     <Text>Kandaki oksijen seviyesinin anormal derecede düşük olması durumuna hipoksemi denir.</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

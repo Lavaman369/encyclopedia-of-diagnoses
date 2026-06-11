@@ -1,0 +1,48 @@
+<Database>
+    <GameDBStringTable ID="LOC_IT_OBJECTS_DOC_MODE">
+        <LanguageCode>it</LanguageCode>
+        <LanguageNameLocalized>Italiano</LanguageNameLocalized>
+    
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+			<Name>neoxes</Name>
+        </Contributors>
+    
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_PRINTER</LocID>                                  <Text>Stampante professionale</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_TABLE_SQUARE</LocID>                             <Text>Tavolo quadrato in vetro</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_CHAIR_OFFICE</LocID>                             <Text>Sedia da ufficio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_BOOKSHELF</LocID>                                <Text>Libreria da parete</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_LAPTOP</LocID>                                   <Text>PC - Laptop</Text>  </GameDBLocalizedString>
+			
+			<GameDBLocalizedString>      <LocID>OBJECT_DLC_CERTIFICATE</LocID>                              <Text>Diploma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_CERTIFICATE_DESCRIPTION</LocID>					<Text>Il diploma certifica le conoscenze e le specializzazioni del medico e funge anche da decorazione.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_CHARTBOARD</LocID>                               <Text>Lavagna bianca</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_CHARTBOARD_DESCRIPTION</LocID>                   <Text>La lavagna bianca può essere usata durante la diagnosi differenziale, per aiutare i dottori ad elaborare più efficacemente ed efficientemente le informazioni.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_FIRST_AID</LocID>                                <Text>Kit di primo soccorso</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_FIRST_AID_DESCRIPTION</LocID>					<Text>Il kit di primo soccorso contiene tutto il necessario per il primo soccorso e le situazioni di emergenza.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_GROUND_PLANT_DRACENA</LocID>                     <Text>Pianta - Dracaena</Text>  </GameDBLocalizedString>
+			<GameDBLocalizedString>      <LocID>OBJECT_DLC_GROUND_PLANT_DRACENA_DESCRIPTION</LocID>			<Text>Pianta decorativa da interno.</Text>  </GameDBLocalizedString>
+			
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_SKULL</LocID>                                    <Text>Teschio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_SKULL_DESCRIPTION</LocID>						<Text>Una rappresentazione del teschio umano. Un oggetto decorativo.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_TABLE_MUG</LocID>                                <Text>Tazza</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_TABLE_MUG_DESCRIPTION</LocID>					<Text>Una semplice tazza, lascita in giro dal personale. Un oggetto decorativo.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_TABLE_MESS</LocID>                               <Text>Documenti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_TABLE_MESS_DESCRIPTION</LocID>					<Text>Vari documenti da posizione sulle scrivanie ed i tavoli. Un oggetto decorativo.</Text>  </GameDBLocalizedString>
+			
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_VENDING_MACHINE</LocID>                          <Text>Distributore automatico di caffè</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_VENDING_MACHINE_DESCRIPTION</LocID>              <Text>Il distributore automatico di caffè fornisce caffè ed altre bevande calde a pazienti e personale. Le bevande vendute ai pazienti sono una fonte di guadagno.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_WALL_LAMP</LocID>                                <Text>Lampada da parete</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_WALL_LAMP_DESCRIPTION</LocID>					<Text>Una decorazione. La lampada da parete è una fonte di luce.</Text>  </GameDBLocalizedString>
+			
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_DLC_OFFICE_DESK</LocID>                    <Text>Scrivania da ufficio in vetro</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

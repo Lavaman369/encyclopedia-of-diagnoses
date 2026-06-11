@@ -1,0 +1,21 @@
+
+<Database>
+	<GameDBStringTable ID="LOC_EN_ADDON_MOD_HEMATOLOGY">
+	<LanguageCode>en</LanguageCode>
+	<LanguageNameLocalized>English</LanguageNameLocalized>
+	
+	<Contributors>
+	<Name>Leo</Name>
+	</Contributors>
+	
+	<LocalizedStrings>	
+		
+	<GameDBLocalizedString>      
+	<LocID>ADDON_MOD_HEMATOLOGY</LocID>                       	
+	<Text>Hematology Department Mod</Text>  
+	</GameDBLocalizedString>
+	
+	</LocalizedStrings>
+	</GameDBStringTable>
+</Database>
+

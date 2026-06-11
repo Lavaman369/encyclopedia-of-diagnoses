@@ -1,0 +1,182 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_PL_PATCH_1_1_24">
+
+        <LanguageCode>pl</LanguageCode>
+        <LanguageNameLocalized>Polski</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_UNDO</LocID>                   <Text>Cofnij ostatnią zmianę</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_UNDO_UNAVAILABLE</LocID>       <Text>Nie można cofnąć – brak zmian lub ostatnie działanie nie może być cofnięte</Text>  </GameDBLocalizedString>
+            
+            <!-- ROOM TYPES -->
+
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_UNIQUE_IM_OFFICE</LocID>               <Text>Pracownia zabiegów małoinwazyjnych</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_UNIQUE_IM_OFFICE_DESCRIPTION</LocID>   <Text>Jednostka oddziału internistycznego, przeprowadza różne zabiegi małoinwazyjne.</Text>	</GameDBLocalizedString> <!--todo description-->
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_IM_UNIQUE_UNIT</LocID>              <Text>Pracownia zabiegów małoinwazyjnych</Text>	</GameDBLocalizedString>
+
+            <!--PREFABS-->
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_IM_UNIQUE_OFFICE_LARGE_ABBR</LocID>  <Text>Pracownia zabiegów małoinwazyjnych – 8 x 6</Text>	</GameDBLocalizedString>
+
+            <!--diagnoses-->
+
+            <!--ER-->
+            <GameDBLocalizedString>      <LocID>DIA_046</LocID>                  <Text>Grypa B</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_046_DESCRIPTION</LocID>      <Text>Grypę B wywołuje wirus grypy B, odpowiedzialny za wybuchy epidemii grypy sezonowej wśród ludzi.</Text>	</GameDBLocalizedString>
+            <!--GS-->
+            <GameDBLocalizedString>      <LocID>DIA_047</LocID>                  <Text>HUS</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_047_DESCRIPTION</LocID>      <Text>W zespole hemolityczno-mocznicowym (HUS) uszkadzane są naczynia krwionośne nerek, co prowadzi do stanu zapalnego. W większości wypadków przyczyną jest zakażenie bakterią Escherichia coli.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_048</LocID>                  <Text>Kampylobakterioza</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_048_DESCRIPTION</LocID>      <Text>Kampylobakterioza to zakażenie wywołane bakterią Campylobacter jejuni. Zazwyczaj przenosi się drogą pokarmową.</Text>	</GameDBLocalizedString>
+            <!--NE-->
+            <GameDBLocalizedString>      <LocID>DIA_049</LocID>                  <Text>Zakażenie adenowirusem</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_049_DESCRIPTION</LocID>      <Text>Zakażenie ludzkim adenowirusem B wywołuje gorączkę z nieżytem gardła i spojówek. Niewielkie wybuchy epidemii są najczęstsze wśród młodych osób przebywających w grupach.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_050</LocID>                  <Text>Botulizm</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_050_DESCRIPTION</LocID>      <Text>Botulizm to rzadka i potencjalnie śmiertelna choroba wywoływana przez toksyny bakterii Clostridium botulinum.</Text>	</GameDBLocalizedString>
+            <!--IM-->
+            <GameDBLocalizedString>      <LocID>DIA_051</LocID>                  <Text>TIA</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_051_DESCRIPTION</LocID>      <Text>Przemijający atak niedokrwienny (TIA) przypomina udar, ale zazwyczaj trwa do 24 godzin i nie powoduje trwałych obrażeń.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_052</LocID>                  <Text>Zapalenie opłucnej</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_052_DESCRIPTION</LocID>      <Text>Zapalenie opłucnej to stan zapalny błon otaczających płuca.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_053</LocID>                  <Text>Pylica azbestowa</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_053_DESCRIPTION</LocID>      <Text>Przyczyną pylicy azbestowej są mikroskopijne włókna azbestowe odkładające się w płucach.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_054</LocID>                  <Text>Potówki</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_054_DESCRIPTION</LocID>      <Text>Potówki to schorzenie gruczołów potowych, któremu sprzyjają ciepłe i wilgotne warunki.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_055</LocID>                  <Text>Ciguatera</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_055_DESCRIPTION</LocID>      <Text>Ciguatera, czyli zatrucie toksynami morskimi, to choroba wywoływana spożyciem ryby, w której mięsie nagromadziły się ciguatoksyny.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_056</LocID>                  <Text>Ropniak opłucnej</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_056_DESCRIPTION</LocID>      <Text>Ropniak opłucnej to nagromadzenie wysięku w jamie opłucnej spowodowane infekcją bakteryjną.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_057</LocID>                  <Text>Chłonkotok</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_057_DESCRIPTION</LocID>      <Text>Chłonkotok to nagromadzenie chłonki w jamie opłucnej.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_058</LocID>                  <Text>Wysięk parapneumoniczny</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_058_DESCRIPTION</LocID>      <Text>Przyczyną wysięku parapneumonicznego jest zapalenie płuc, rozstrzeń oskrzeli lub ropień płuca.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_059</LocID>                  <Text>Guz perlisty</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_059_DESCRIPTION</LocID>      <Text>Guz perlisty to nienowotworowa zmiana guzowata, zwykle wywołana nawracającymi infekcjami ucha środkowego.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_060</LocID>                  <Text>Krup</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_060_DESCRIPTION</LocID>      <Text>Krup – inaczej podgłośniowe zapalenie krtani – wywołują zazwyczaj wirusy, rzadziej bakterie.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_061</LocID>                  <Text>Polipy nosa</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_061_DESCRIPTION</LocID>      <Text>Polipy nosa to nienowotworowe zmiany jamy nosowej.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_062</LocID>                  <Text>Choroba Ménière’a</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_062_DESCRIPTION</LocID>      <Text>Choroba Ménière’a to choroba ucha wewnętrznego objawiająca się zawrotami głowy o nieznanej przyczynie.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_063</LocID>                  <Text>Nadpłytkowość samoistna</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_063_DESCRIPTION</LocID>      <Text>Nadpłytkowość samoistna to rzadka choroba polegająca na nadprodukcji płytek krwi.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_064</LocID>                  <Text>Zatrucie bluszczem trującym</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_064_DESCRIPTION</LocID>      <Text>Zatrucie bluszczem trującym to reakcja alergiczna na drażniące związki znajdujące się w liściach, łodygach i korzeniach roślin z rodzaju Toxicodendron.</Text>	</GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRM_001</LocID>                  <Text>Krwiak opłucnej</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_001_DESCRIPTION</LocID>      <Text>Krwiak opłucnej powstaje w wyniku nagromadzenia się krwi w opłucnej z powodu uszkodzeń klatki piersiowej.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_002</LocID>                  <Text>Odma zastawkowa</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_002_DESCRIPTION</LocID>      <Text>Odma zastawkowa pojawia się zazwyczaj w takich sytuacjach klinicznych jak wentylacja, reanimacja czy choroby płuc.</Text>	</GameDBLocalizedString>
+
+            
+            <!-- shared symptoms used at internal medicine-->
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_EFFUSION</LocID>                           <Text>Płyn w jamie opłucnej</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_EFFUSION_DESCRIPTION</LocID>               <Text>Badanie MRI wykryło płyn w jamie opłucnej.</Text>  </GameDBLocalizedString>
+            
+               
+            <!--main symptoms - INTERNAL MEDICINE-->
+            <GameDBLocalizedString>      <LocID>SYM_INFLUENZA_B_DETECTED</LocID>                       <Text>Zdiagnozowano grypę B</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INFLUENZA_B_DETECTED_DESCRIPTION</LocID>           <Text>Badania serologiczne wykryły przeciwciała przeciw wirusowi grypy B.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_E_COLI_TOXIN_DETECTED</LocID>                      <Text>Wykryto toksyny E. coli</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_E_COLI_TOXIN_DETECTED_DESCRIPTION</LocID>          <Text>Analiza stolca wykryła toksyny bakterii Escherichia coli.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_JEJUNI_DETECTED</LocID>                          <Text>Wykryto C. jejuni</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_JEJUNI_DETECTED_DESCRIPTION</LocID>              <Text>Test ELISA wykrył przeciwciała przeciw Campylobacter jejuni.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MASTADENOVIRUS_B_DETECTED</LocID>                  <Text>Wykryto ludzkiego adenowirusa B</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MASTADENOVIRUS_B_DETECTED_DESCRIPTION</LocID>      <Text>Metoda PCR wykryła ludzkiego adenowirusa B.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TIA_DETECTED</LocID>                               <Text>Rozpoznano TIA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TIA_DETECTED_DESCRIPTION</LocID>                   <Text>Badanie MRI wykryło objawy przemijającego ataku niedokrwiennego.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_BOTULINUM_DETECTED</LocID>                       <Text>Wykryto C. botulinum</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_BOTULINUM_DETECTED_DESCRIPTION</LocID>           <Text>Test ELISA wykrył obecność Clostridium botulinum.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BACTERIAL_INFECTION_DETECTED</LocID>               <Text>Wykryto infekcję bakteryjną</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BACTERIAL_INFECTION_DETECTED_DESCRIPTION</LocID>   <Text>Metoda PCR wykryła ostrą infekcję bakteryjną.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ASBESTOSIS_DETECTED</LocID>                        <Text>Rozpoznano pylicę azbestową</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ASBESTOSIS_DETECTED_DESCRIPTION</LocID>            <Text>Dzięki tomografii komputerowej rozpoznano u pacjenta pylicę azbestową.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEAT_RASH</LocID>                                  <Text>Potówki</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEAT_RASH_DESCRIPTION</LocID>                      <Text>Wszystkie rozpoznane objawy wskazują na potówki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CIGUATOXIN_DETECTED</LocID>                        <Text>Wykryto ciguatoksyny</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CIGUATOXIN_DETECTED_DESCRIPTION</LocID>            <Text>Morfologia krwi wykryła zatrucie ciguatoksynami.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMOTHORAX_DISCOVERED</LocID>                      <Text>Rozpoznano krwiaka opłucnej</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMOTHORAX_DISCOVERED_DESCRIPTION</LocID>          <Text>Badanie USG wykryło u pacjenta znaczne nagromadzenie krwi w opłucnej.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PUNCTURED_LUNGS</LocID>                            <Text>Przebite płuca</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PUNCTURED_LUNGS_DESCRIPTION</LocID>                <Text>Badanie USG wykazało przebite płuca.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_FLUID_INFECTED</LocID>                     <Text>Infekcja w płynie opłucnowym</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_FLUID_INFECTED_DESCRIPTION</LocID>         <Text>Biopsja płynu opłucnowego potwierdziła infekcję.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHYLOTHORAX_DETECTED</LocID>                       <Text>Rozpoznano chłonkotok</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHYLOTHORAX_DETECTED_DESCRIPTION</LocID>           <Text>Dzięki badaniu RTG rozpoznano chłonkotok.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_TRANSUDATE</LocID>                         <Text>Przesięk w jamie opłucnej</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_TRANSUDATE_DESCRIPTION</LocID>             <Text>Dzięki badaniu MRI wykryto przesięk w jamie opłucnej.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHOLESTEATOMA_DISCOVERED</LocID>                   <Text>Wykryto guza perlistego</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHOLESTEATOMA_DISCOVERED_DESCRIPTION</LocID>       <Text>Dzięki tomografii komputerowej wykryto guza perlistego w uchu pacjenta.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NASAL_POLYPS_DETECTED</LocID>                      <Text>Wykryto polipy nosa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NASAL_POLYPS_DETECTED_DESCRIPTION</LocID>          <Text>Dzięki tomografii komputerowej wykryto niewielkie polipy w nosie pacjenta.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CROUP_PRESENT</LocID>                              <Text>Rozpoznano krup</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CROUP_PRESENT_DESCRIPTION</LocID>                  <Text>Wszystkie rozpoznane objawy wskazują na krup.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MENIERES_DISEASE_PRESENT</LocID>                   <Text>Choroba Ménière’a</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MENIERES_DISEASE_PRESENT_DESCRIPTION</LocID>       <Text>Wszystkie rozpoznane objawy wskazują na chorobę Ménière’a.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THROMBOCYTHEMIA</LocID>                            <Text>Nadpłytkowość</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THROMBOCYTHEMIA_DESCRIPTION</LocID>                <Text>Morfologia krwi wykazała anormalnie wysoką liczbę płytek krwi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_POISON_IVY_RASH</LocID>                            <Text>Zatrucie bluszczem trującym</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_POISON_IVY_RASH_DESCRIPTION</LocID>                <Text>Wszystkie rozpoznane objawy wskazują na zatrucie bluszczem trującym.</Text>  </GameDBLocalizedString>
+
+            <!--new trt procedures-->
+            <GameDBLocalizedString>      <LocID>TRT_BLOOD_COMPONENT_THERAPY</LocID>                    <Text>Terapia składnikami krwi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BLOOD_COMPONENT_THERAPY_DESCRIPTION</LocID>        <Text>Specjalny rodzaj transfuzji krwi, w której przetacza się krew pełną lub jej poszczególne składniki, w tym koncentrat krwinek czerwonych, świeżo mrożone osocze, płytki krwi, krioprecypitat, koncentrat granulocytarny i immunoglobuliny.  \n\nWymagane pomieszczenie: Dowolny oddział diagnostyczny / OIT / oddział</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FOREIGN_OBJECT_REMOVAL</LocID>                     <Text>Usunięcie ciała obcego</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FOREIGN_OBJECT_REMOVAL_DESCRIPTION</LocID>         <Text>Usunięcie ciała obcego z rany. \n\nWymagane pomieszczenie: Gabinet lekarski / Obserwacja / Centrum urazowe / OIT / Gabinet / Oddział diagnostyczny w Traumatologii</Text>	</GameDBLocalizedString>
+
+            <!--internal medicine-->
+            <GameDBLocalizedString>      <LocID>TRT_THORACENTESIS</LocID>                              <Text>Punkcja opłucnej</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_THORACENTESIS_DESCRIPTION</LocID>                  <Text>Inwazyjny zabieg wykonywany w celu usunięcia płynu lub powietrza z jamy opłucnej. \n\nWymagane pomieszczenie: Pracownia zabiegów małoinwazyjnych \n\nWymagany sprzęt: Urządzenie do punkcji opłucnej</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MIEP</LocID>                                       <Text>Małoinwazyjne zabiegi endoskopowe</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MIEP_DESCRIPTION</LocID>                           <Text>Małoinwazyjne zabiegi endoskopowe przeprowadza się w leczeniu różnych chorób laryngologicznych. \n\nWymagane pomieszczenie: Pracownia zabiegów małoinwazyjnych \n\nWymagany sprzęt: Unit laryngologiczny</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MANNITOL_DOSES</LocID>                             <Text>Podawanie mannitolu</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MANNITOL_DOSES_DESCRIPTION</LocID>                 <Text>Mannitol podaje się, aby zniwelować skutki zatrucia ciguatoksynami. \n\nWymagane pomieszczenie: Oddział diagnostyczny w przychodni internistycznej / OIT</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HYDROXYUREA</LocID>                                <Text>Hydroksykarbamid</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HYDROXYUREA_DESCRIPTION</LocID>                    <Text>Lek hamujący produkcję czerwonych krwinek w szpiku kostnym. \n\nWymagane pomieszczenie: Oddział diagnostyczny w przychodni internistycznej / OIT</Text>	</GameDBLocalizedString>
+
+            <!--neurology-->
+            <GameDBLocalizedString>      <LocID>TRT_BOTULINUM_ANTITOXIN</LocID>                        <Text>Antytoksyna botulinowa</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BOTULINUM_ANTITOXIN_DESCRIPTION</LocID>            <Text>Preparat leczniczy zawierający przeciwciała, które neutralizują toksyny wytwarzane przez Clostridium botulinum. \n\nWymagane pomieszczenie: Oddział diagnostyczny przy Neurologuy / OIT</Text>	</GameDBLocalizedString>
+            
+            <!--EXAMINATIONS - NEW-->
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_SAMPLING</LocID>                            <Text>Pobieranie próbek do RT-PCR</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_SAMPLING_DESCRIPTION</LocID>                <Text>Reakcja łańcuchowa polimerazy z odwrotną transkrypcją to technika laboratoryjna łącząca reakcję odwrotnej transkrypcji RNA do cDNA i amplifikacji wybranych fragmentów DNA przy użyciu PCR. \n\nWymagane pomieszczenie: lab. hematologiczne \n\nŹródło próbek: oddział ratunkowy / oddział chorób zakaźnych / OIT /\n\nWymagany sprzęt: szkło laboratoryjne + termocykler</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_TESTING</LocID>                             <Text>Reakcja RT-PCR</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_TESTING_DESCRIPTION</LocID>                 <Text>Reakcja łańcuchowa polimerazy z odwrotną transkrypcją to technika laboratoryjna łącząca reakcję odwrotnej transkrypcji RNA do cDNA i amplifikacji wybranych fragmentów DNA przy użyciu PCR. \n\nWymagane pomieszczenie: lab. hematologiczne</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_SAMPLING</LocID>                             <Text>Pobieranie próbek do testu ELISA</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_SAMPLING_DESCRIPTION</LocID>                 <Text>Test immunoenzymatyczny to technika laboratoryjna używana do wykrywania i określania ilości peptydów, białek, przeciwciał i hormonów. \n\nŹródło próbek: oddział ratunkowy / oddział internistyczny / oddział chorób zakaźnych / OIT /\n\nWymagany sprzęt: szkło laboratoryjne + RIA</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_TESTING</LocID>                              <Text>Test ELISA</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_TESTING_DESCRIPTION</LocID>                  <Text>Test immunoenzymatyczny to technika laboratoryjna używana do wykrywania i określania ilości peptydów, białek, przeciwciał i hormonów. \n\nWymagane pomieszczenie: lab. hematologiczne</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PULSE_OXYMETRY</LocID>                             <Text>Pulsoksymetria</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PULSE_OXYMETRY_DESCRIPTION</LocID>                 <Text>Pulsoksymetria to łatwy i efektywny sposób na monitorowanie wysycenia krwi tlenem.</Text>	</GameDBLocalizedString>
+
+            <!--OBJECTS - DEVICES-->
+            <GameDBLocalizedString>      <LocID>OBJECT_ENT_WORKSTATION</LocID>                         <Text>Unit laryngologiczny</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ENT_WORKSTATION_DESCRIPTION</LocID>             <Text>Unit laryngologiczny to miejsce pracy do przeprowadzania wielu różnych zabiegów laryngologicznych.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_THORA_DEVICE</LocID>                            <Text>Urządzenie do punkcji opłucnej</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_THORA_DEVICE_DESCRIPTION</LocID>                <Text>Aparat ultrasonograficzny wykorzystywany głównie w zabiegach punkcji opłucnej.</Text>	</GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SURGEON_ASSISTANTS</LocID>                             <Text>Asystujący chirurdzy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SURGEON_ASSISTANT</LocID>                              <Text>Asystujący chirurg</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SURGEON_ASSISTANT_DESCRIPTION</LocID>                  <Text>Lekarz w dyżurce, asystujący podczas operacji, wyspecjalizowany</Text>  </GameDBLocalizedString>
+            
+            <!-- Note: the name if the new room is ROOM_TYPE_UNIQUE_IM_OFFICE in this file -->
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_INTERNAL_MEDICINE_CHANGE</LocID>         <Text>Ważne zmiany w grze</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_INTERNAL_MEDICINE_CHANGE_TEXT</LocID>    <Text>Na oddziale internistycznym nie przeprowadza się już operacji. Możesz wybudować pracownię zabiegów małoinwazyjnych, aby przeprowadzać wyspecjalizowane badania i leczenie.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>BANNER_DLC_HOSPITAL_SERVICES</LocID>                   <Text>Sprawdź DLC Usługi szpitalne!</Text>  </GameDBLocalizedString>
+
+            <!--NEW OBJECT-->
+            <GameDBLocalizedString>      <LocID>OBJECT_DONT_CROSS</LocID>                               <Text>Tylko dla personelu</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

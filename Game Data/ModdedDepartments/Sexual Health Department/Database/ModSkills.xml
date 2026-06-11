@@ -1,0 +1,19 @@
+﻿<Database>
+
+    <GameDBSkill ID="SKILL_DOC_SPEC_SH">
+        <AbbreviationLocID>SKILL_DOC_SPEC_SH_DESCRIPTION</AbbreviationLocID>
+        <ParentSkill>SKILL_DOC_QUALIF_GENERAL_MEDICINE</ParentSkill>
+		<IconIndex>2322</IconIndex>
+		<CustomIconAssetRef>ASSET_MOD_SH_ICON_SH</CustomIconAssetRef>
+        <CustomIconLightBackgroundAssetRef>ASSET_MOD_SH_ICON_SH_DARK</CustomIconLightBackgroundAssetRef>
+        <ExtraLevelingPercent>100</ExtraLevelingPercent>
+    </GameDBSkill>
+	
+	<GameDBSkill ID="SKILL_DOC_SPEC_SH_SURGERY">
+        <AbbreviationLocID>SKILL_DOC_SPEC_SH_SURGERY_DESCRIPTION</AbbreviationLocID>
+        <ParentSkill>SKILL_DOC_QUALIF_GENERAL_MEDICINE</ParentSkill>
+        <IconIndex>2388</IconIndex>
+        <ExtraLevelingPercent>50</ExtraLevelingPercent>
+	</GameDBSkill>
+  
+</Database>

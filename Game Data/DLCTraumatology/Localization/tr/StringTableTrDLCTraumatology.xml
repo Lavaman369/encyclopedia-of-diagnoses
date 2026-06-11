@@ -1,0 +1,386 @@
+<Database>
+    <GameDBStringTable ID="LOC_TR_DLC_TRAUMATOLOGY">
+
+        <LanguageCode>tr</LanguageCode>
+        <LanguageNameLocalized>Türkçe</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>DLC_TRAUMATOLOGY</LocID>                                       <Text>Travmatoloji Bölümü DLC'si</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DPT_TRAUMATOLOGY_DEPARTMENT</LocID>                            <Text>Travmatoloji</Text>  </GameDBLocalizedString>
+
+            <!-- Hospitalization alias -->
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_BURN_CENTER</LocID>                        <Text>Yanık ünitesi yatışı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_BURN_CENTER_DESCRIPTION</LocID>            <Text>Hastanın özel bakımlı yanık ünitesine yatışını yap.\n\nGerekli oda: Yanık ünitesi</Text>  </GameDBLocalizedString>
+
+            <!--ROOMS-->
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_BURN_UNIT</LocID>                                    <Text>Yanık ünitesi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_BURN_UNIT_DESCRIPTION</LocID>                        <Text>Yanık ünitesi her türlü yanığın tedavisi için özelleştirilmiştir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_TRAUMATOLOGY_OFFICE</LocID>                          <Text>Travmatoloji odası</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_TRAUMATOLOGY_OFFICE_DESCRIPTION</LocID>              <Text>Basit muayeneler ve tedaviler için ayakta poliklinik muayenehanesi. Personel gereksinimi:\nx1 Travmatolog</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_TRAUMATOLOGY_OFFICE</LocID>                <Text>Teşhis ünitesi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_TRAUMATOLOGY_OFFICE_DESCRIPTION</LocID>    <Text>Travmatoloji bölümündeki teşhis ünitesi, yatan hastalar için muayene ve tedavi prosedürleri sağlar. \n\nAsgari çalışan gereksinimi: \nx1 Travmatolog \n(Nöbetçi odasındaki personel)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_TRAUMATOLOGY</LocID>  <Text>Kardiyografi ünitesi</Text>  </GameDBLocalizedString>
+
+            <!-- SKILLS-->
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_TRAUMATOLOGY</LocID>                            <Text>Travmatoloji</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_TRAUMATOLOGY_DESCRIPTION</LocID>                <Text>Travmatologlar acil tıbbi müdahale gerektiren ağır akut fiziksel yaralanmaları tedavi etmekte uzmandır.</Text>	</GameDBLocalizedString>
+                                                                                                            
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_TRAUMA_SURGERY</LocID>                          <Text>Travma cerrahisi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_TRAUMA_SURGERY_DESCRIPTION</LocID>              <Text>Travmatoloji cerrahları travmatik ve politravmatik yaralanmalar için karmaşık cerrahi prosedürlerde uzmandır.</Text>	</GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]BuildingMode.xml -->
+            <!-- DLC OBJECTS - some objects share descriptions with other objects in the base game so only their names need to be translated -->
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_DLC_HELICOPTER_01</LocID>                     <Text>Helikopter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_DLC_HELICOPTER_01_DESCRIPTION</LocID>         <Text>Helikopter</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_DLC_HELIPORT</LocID>                             <Text>Helikopter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_DLC_HELIPORT_DESCRIPTION</LocID>                 <Text>Helikopter en ciddi biçimde yaralı hastaları getirir.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_MARKER_HELIPORT</LocID>                             <Text>Helikopter pist ışığı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_HELIPAD_LIGHT_RED</LocID>                               <Text>Helikopter pist ışığı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_HELIPAD_LIGHT_GREEN</LocID>                             <Text>Helikopter pist ışığı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_MARKER_HELIPORT_DESCRIPTION</LocID>                 <Text>Helikopter pist ışığı gece inişleri için görsel işaretler verir.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_TALL_X</LocID>                        <Text>Ekipman dolabı - uzun</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_TRAUMA1</LocID>                                  <Text>Poster - kazalar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_TRAUMA2</LocID>                                  <Text>Poster - kan bağışçıları</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LIFE_MONITOR_WALL_X</LocID>                             <Text>Yaşam monitörü - duvar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TRAUMA_TOOLS</LocID>                                    <Text>Travma araçları</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TRAUMA_TOOLS_DESCRIPTION</LocID>                        <Text>Tüm travmatoloji üniteleri için uygun özel medikal araç seti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_X</LocID>                             <Text>Ekipman dolabı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BED_SOCKET_X</LocID>                                    <Text>Yatak yuvası</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_BURN_UNIT</LocID>                                 <Text>Yanık ünitesi</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_BEDSIDE_X</LocID>                               <Text>Komodin</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_FUTURISTIC_BED</LocID>                        <Text>Yüksek teknoloji hastane yatağı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_FUTURISTIC_BED_DESCRIPTION</LocID>            <Text>Cam korkuluklu modern yatak.</Text>  </GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_ONLY_FLOORS_WITH_ELEVATORS</LocID>                 <Text>sadece asansörle erişilebilen katlara koyulabilir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_ROOF_ABOVE</LocID>                                 <Text>diğer zeminlerin altına koyulamaz</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_TRAUMATOLOGY</LocID>                   <Text>Hazır travmatoloji bölümü odaları</Text>  </GameDBLocalizedString>
+
+
+            <!-- TILES-->
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_WHITE_ROAD</LocID>                      	     	   <Text>Beyaz yol</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_YELLOW_ROAD</LocID>                           	   <Text>Sarı yol</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_LINE_YELLOW</LocID>                           	   <Text>Sarı çizgili yol</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_LINE_WIDE_WHITE</LocID>                             <Text>Geniş beyaz çizgili yol</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_LINE_WIDE_YELLOW</LocID>                            <Text>Geniş sarı çizgili yol</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_WARNING_LINES_L</LocID>                             <Text>Uyarı çizgileri</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_WARNING_LINES_R</LocID>                             <Text>Uyarı çizgileri</Text>  </GameDBLocalizedString>
+                                                                                                            
+            <!-- OCCUPATIONS-->                                                                             
+            <GameDBLocalizedString>      <LocID>OCCUPATION_POLICE</LocID>                         	     	   <Text>Polis memuru</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_FIREFIGHTER</LocID>                                 <Text>İtfaiyeci</Text>	</GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Tutorial.xml -->
+            <!-- ============== -->
+            <!--EVENTS ACCIDENTS-->
+            <!-- ============== -->
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_TD_ROBBERY</LocID>                          <Text>Şehir sokaklarında silahlı soygun ve hemen ardından çatışma olduğu bildirildi. Tüm şüpheliler yakalandı ve acil servis hizmetleri yaralıları yakındaki hastanelere götürüyor. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_TD_FIRE</LocID>                             <Text>Şehrin yerleşim yerindeki yüksek bir binada yangın çıktı. İtfaiye ve polis binanın etrafını sardı ve binayı tahliye ediyor. Hastanen çok sayıda yanık vakası için hazır olmalı.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_TD_POWERPLANT</LocID>                       <Text>Bölgedeki bir enerji santralinde oluşan patlama sonucu yangın çıktı. Tüm acil servis hizmetleri bölgede ve yaralıları yakındaki hastanelere götürüyor.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_TD_TERRORIST</LocID>                        <Text>Bölgedeki havaalanında bir terörist saldırısı yaşandı. Polis tüm bölgeyi kapatsa da birçok ölü ve yaralı var. Ambulanslar durumu en ağır yaralıları en yakın hastanelere taşıyor.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_TD_SHOOTOUT</LocID>                         <Text>Kaçırılan bir zırhlı kamyonun polis tarafından kovalandığı sırada silahlı çatışma meydana geldi, bölgede birçok yaralı var.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_TD_FOREST</LocID>                           <Text>İtfaiye ekipleri binlerce insanı evinden eden ve yüzlercesini yaralayan devasa bir orman yangınıyla mücadele ediyor. Bölgedeki hastaneler çok sayıda ağır yaralı hastalar için hazırlıklı olmalı.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_TD_PYRO</LocID>                             <Text>Şehrin limanlarındaki bir havai fişek deposunda patlama meydana geldi, etrafındaki binalarda yangın çıktı ve yüzlerce insan ağır yaralandı. Acil servis hizmetleri yaralıları çevre hastanelere götürüyor.</Text>  </GameDBLocalizedString>
+
+
+            <!--SYMPTOMS-->
+            <GameDBLocalizedString>      <LocID>SYM_LARGE_ARTERIES_DAMAGED</LocID>                    <Text>Büyük damarlar hasarlı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LARGE_ARTERIES_DAMAGED_DESCRIPTION</LocID>        <Text>Bazı büyük damarlar hasar görmüş ve hayati risk içeren sorunlara yol açabilir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOXIA</LocID>                                   <Text>Hipoksi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOXIA_DESCRIPTION</LocID>                       <Text>Hipoksi, kandaki oksijen seviyesinin düşmesi durumudur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOTHERMIA</LocID>                               <Text>Hipotermi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOTHERMIA_DESCRIPTION</LocID>                   <Text>Hipotermi, vücut ısısının büyük oranda düşmesi durumudur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FOREIGN_OBJECT_PRESENT</LocID>                    <Text>Yabancı nesne bulundu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FOREIGN_OBJECT_PRESENT_DESCRIPTION</LocID>        <Text>Yaranın içinde yabancı bir nesne veya parçaları bulunuyor ve ciddi sorunlara yol açabilir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LIVER_DAMAGED</LocID>                             <Text>Karaciğer hasarlı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LIVER_DAMAGED_DESCRIPTION</LocID>                 <Text>Karaciğerin ciddi iç hasar görmesi hayati risk içeren sorunlara yol açabilir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SPLEEN_DAMAGED</LocID>                            <Text>Dalak hasarlı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SPLEEN_DAMAGED_DESCRIPTION</LocID>                <Text>Dalağın ciddi iç hasar görmesi hayati risk içeren sorunlara yol açabilir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LUNGS_PERFORATED</LocID>                          <Text>Akciğer delinmiş</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LUNGS_PERFORATED_DESCRIPTION</LocID>              <Text>Akciğer zarı ve dokusu delinmiş durumda.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PANCREAS_DAMAGED</LocID>                          <Text>Pankreas hasarlı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PANCREAS_DAMAGED_DESCRIPTION</LocID>              <Text>Pankreas dokusunun ciddi iç hasar görmesi hayati risk içeren sorunlara yol açabilir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_KIDNEY_DAMAGED</LocID>                            <Text>Böbrek hasarlı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_KIDNEY_DAMAGED_DESCRIPTION</LocID>                <Text>Böbrek dokusunun ciddi iç hasar görmesi hayati risk içeren sorunlara yol açabilir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STOMACH_PERFORATED</LocID>                        <Text>Mide delinmiş</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STOMACH_PERFORATED_DESCRIPTION</LocID>            <Text>Midenin delinmesi hayati risk içeren sorunlara yol açabilir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SMALL_INTESTINE_PERFORATED</LocID>                <Text>İnce bağırsak delinmiş</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SMALL_INTESTINE_PERFORATED_DESCRIPTION</LocID>    <Text>İnce bağırsağın ciddi oranda delinmesi hayati risk içeren sorunlara yol açabilir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LARGE_INTESTINE_PERFORATED</LocID>                <Text>Kalın bağırsak delinmiş</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LARGE_INTESTINE_PERFORATED_DESCRIPTION</LocID>    <Text>Kalın bağırsağın ciddi oranda delinmesi hayati risk içeren sorunlara yol açabilir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TIBIAL_FRACTURE</LocID>                           <Text>Kırık kaval kemiği</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TIBIAL_FRACTURE_DESCRIPTION</LocID>               <Text>Kaval kemiğinin (büyük baldır kemiği) kırılması.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FEMORAL_FRACTURE</LocID>                          <Text>Kırık uyluk</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FEMORAL_FRACTURE_DESCRIPTION</LocID>              <Text>Uyluk kemiğinin (kalça kemiği) kırılması.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ULNAR_FRACTURE</LocID>                            <Text>Kırık ulnar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ULNAR_FRACTURE_DESCRIPTION</LocID>                <Text>Ulnar kemiğinin (önkoldaki iki kemikten biri) kırılması.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RADIAL_FRACTURE</LocID>                           <Text>Kırık radyal</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RADIAL_FRACTURE_DESCRIPTION</LocID>               <Text>Radyal kemiğinin (önkoldaki iki kemikten biri) kırılması.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HUMERAL_FRACTURE</LocID>                          <Text>Kırık humeral</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HUMERAL_FRACTURE_DESCRIPTION</LocID>              <Text>Humerus (kolun omuz bölgesinde yer alır) kırılması.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FRAGMENTED_RIBS</LocID>                           <Text>Kırık kaburgalar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FRAGMENTED_RIBS_DESCRIPTION</LocID>               <Text>Kırık veya çatlak kaburgalar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLISTERS</LocID>                                  <Text>Kabarcıklar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLISTERS_DESCRIPTION</LocID>                      <Text>Üstderi ile altındaki tabakalar arasında (epidermi) bulunan, genelde derinin sürtünmeyle veya yanarak zarar görmesi sonucunda oluşan içi sıvı dolu ufak kabarıklıklar.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DESQUAMATION</LocID>                              <Text>Deskuamasyon</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DESQUAMATION_DESCRIPTION</LocID>                  <Text>Deri dökülmesi olarak da bilinen, derinin en dış tabakasının dökülmesi durumu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DARK_SKIN</LocID>                                 <Text>Koyu ten</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DARK_SKIN_DESCRIPTION</LocID>                     <Text>Tenin anormal biçimde koyulaşması.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NECROSIS</LocID>                                  <Text>Nekroz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NECROSIS_DESCRIPTION</LocID>                      <Text>Dokunun kendi enzimleri sebebiyle erkenden ölmesi. Dokudan çok az miktarda kan geçtiği zaman yaşanır. Bu durum yaralanma, radyasyon veya kimyasal maddeler sebebiyle yaşanabilir. Nekroz geri çevrilemez.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SYM_GUNSHOT_WOUND</LocID>                             <Text>Kurşun yarası</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_GUNSHOT_WOUND_DESCRIPTION</LocID>                 <Text>Silahtan ateşlenen bir cisimle oluşan sadece girişli veya girişli ve çıkışlı yaralanma.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BALLISTIC_WOUND</LocID>                           <Text>Balistik yara</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BALLISTIC_WOUND_DESCRIPTION</LocID>               <Text>Fırlatılan bir cisimle oluşan sadece girişli veya girişli ve çıkışlı yaralanma.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STAB_WOUND</LocID>                                <Text>Bıçak yarası</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STAB_WOUND_DESCRIPTION</LocID>                    <Text>Bıçaklanma sonucunda oluşan yaralanma.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PENETRATING_WOUND</LocID>                         <Text>Delici yara</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PENETRATING_WOUND_DESCRIPTION</LocID>             <Text>Yabancı bir cismin delmesiyle oluşan yaralanma.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLAST_WOUND</LocID>                               <Text>Patlama yarası</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLAST_WOUND_DESCRIPTION</LocID>                   <Text>Patlama sonucu oluşan yara veya yaralanmalar.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BURN_WOUND</LocID>                                <Text>Yanık yarası</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BURN_WOUND_DESCRIPTION</LocID>                    <Text>Sıcak, soğuk, elektrik, kimyasal, sürtünme veya radyasyon sonucu oluşan deriyi ve diğer dokuları etkileyen yanık yarası.</Text>  </GameDBLocalizedString>
+
+            <!--DIAGNOSES-->
+            <!--migrated-->
+            <GameDBLocalizedString>      <LocID>TRM_PLPX</LocID>                   <Text>Pulmoner yırtılma</Text>  </GameDBLocalizedString>
+            
+            <!--brand new-->
+            <GameDBLocalizedString>      <LocID>TRM_003</LocID>                    <Text>Hepatosplenik yırtılma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_003_DESCRIPTION</LocID>        <Text>Bir cisim vücudu delip karaciğer ve dalağı aynı anda yırttığında oluşur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_004</LocID>                    <Text>Splenopankreatik yırtılma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_004_DESCRIPTION</LocID>        <Text>Bir cisim vücudu delip pankreas ve dalağı aynı anda yırttığında oluşur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_005</LocID>                    <Text>Üst karında kurşun yarası</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_005_DESCRIPTION</LocID>        <Text>Silahtan çıkan kurşunun hastanın üst karın bölgesini delerek oluşturduğu fiziksel travma. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_006</LocID>                    <Text>Karın bölgesinde balistik yara</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_006_DESCRIPTION</LocID>        <Text>Yüksek hızda hareket eden cismin iskelete, damarlara ve sinirlere zarar vererek yumuşak dokularda büyük hasarlara yol açıp hastanın karın bölgesini etkilediği balistik travma. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_007</LocID>                    <Text>Göğüs bölgesinde kurşun yarası</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_007_DESCRIPTION</LocID>        <Text>Silahtan çıkan kurşunun hastanın göğüs kafesini delerek oluşturduğu fiziksel travma.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_008</LocID>                    <Text>Boyun bölgesinde balistik yara</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_008_DESCRIPTION</LocID>        <Text>Yüksek hızda hareket eden cismin iskelete, damarlara ve sinirlere zarar vererek yumuşak dokularda büyük hasarlara yol açıp hastanın boyun bölgesini etkilediği balistik travma.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_009</LocID>                    <Text>Kolda balistik yara</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_009_DESCRIPTION</LocID>        <Text>Yüksek hızda hareket eden cismin iskelete, damarlara ve sinirlere zarar vererek yumuşak dokularda büyük hasarlara yol açıp hastanın kol bölgesini etkilediği balistik travma.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_010</LocID>                    <Text>Bacakta balistik yara</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_010_DESCRIPTION</LocID>        <Text>Yüksek hızda hareket eden cismin iskelete, damarlara ve sinirlere zarar vererek yumuşak dokularda büyük hasarlara yol açıp hastanın bacak bölgesini etkilediği balistik travma.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_011</LocID>                    <Text>Karın bölgesinde parçalanmalar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_011_DESCRIPTION</LocID>        <Text>Cismin politravmatik biçimde deriyi delerek vücuda girip çevredeki tüm yapı ve organlara ağır hasar vermesi.</Text>  </GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_012</LocID>                    <Text>Karın bölgesinde bıçak yarası</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_012_DESCRIPTION</LocID>        <Text>Bıçak yarası, bıçak veya buna benzer sivri bir cismin deriyi belirli biçimde delerek travmaya yol açması durumudur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_013</LocID>                    <Text>Göğüs bölgesinde bıçak yarası</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_013_DESCRIPTION</LocID>        <Text>Bıçak yarası, bıçak veya buna benzer sivri bir cismin deriyi belirli biçimde delerek travmaya yol açması durumudur.</Text>  </GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_014</LocID>                    <Text>Boyun bölgesinde parçalanmalar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_014_DESCRIPTION</LocID>        <Text>Cismin politravmatik biçimde deriyi delerek vücuda girip çevredeki tüm yapı ve organlara ağır hasar vermesi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_015</LocID>                    <Text>Kolda parçalanmalar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_015_DESCRIPTION</LocID>        <Text>Cismin politravmatik biçimde deriyi delerek vücuda girip çevredeki tüm yapı ve organlara ağır hasar vermesi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_016</LocID>                    <Text>Bacakta parçalanmalar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_016_DESCRIPTION</LocID>        <Text>Cismin politravmatik biçimde deriyi delerek vücuda girip çevredeki tüm yapı ve organlara ağır hasar vermesi.</Text>  </GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_017</LocID>                    <Text>Karın bölgesinde patlama travması</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_017_DESCRIPTION</LocID>        <Text>Patlama yarası patlamaya doğrudan ya da dolaylı olarak maruz kalındığında oluşan bir tür karmaşık fiziksel travmadır.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_018</LocID>                    <Text>Göğüs bölgesinde patlama travması</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_018_DESCRIPTION</LocID>        <Text>Patlama yarası patlamaya doğrudan ya da dolaylı olarak maruz kalındığında oluşan bir tür karmaşık fiziksel travmadır.</Text>  </GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_019</LocID>                    <Text>Ellerde hafif soğuk ısırması</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_019_DESCRIPTION</LocID>        <Text>Soğuk ısırması, vücudun bölümleri dondurucu sıcaklıklara maruz kaldığında oluşan ve ciddi etkileri olabilen bir durumdur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_020</LocID>                    <Text>Ellerde ağır soğuk ısırması</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_020_DESCRIPTION</LocID>        <Text>Soğuk ısırması, vücudun bölümleri dondurucu sıcaklıklara maruz kaldığında oluşan ve ciddi etkileri olabilen bir durumdur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_021</LocID>                    <Text>Bacaklarda hafif soğuk ısırması</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_021_DESCRIPTION</LocID>        <Text>Soğuk ısırması, vücudun bölümleri dondurucu sıcaklıklara maruz kaldığında oluşan ve ciddi etkileri olabilen bir durumdur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_022</LocID>                    <Text>Bacaklarda ağır soğuk ısırması</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_022_DESCRIPTION</LocID>        <Text>Soğuk ısırması, vücudun bölümleri dondurucu sıcaklıklara maruz kaldığında oluşan ve ciddi etkileri olabilen bir durumdur.</Text>  </GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_023</LocID>                    <Text>Kolda kimyasal yanık</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_023_DESCRIPTION</LocID>        <Text>Asit, baz veya oksitleyici maddeyle temas sonrası büyük doku hasarına yol açabilen kimyasal yanık.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_024</LocID>                    <Text>Gövdede kimyasal yanık</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_024_DESCRIPTION</LocID>        <Text>Asit, baz veya oksitleyici maddeyle temas sonrası büyük doku hasarına yol açabilen kimyasal yanık.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TRM_025</LocID>                    <Text>Yıldırım çarpması</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_025_DESCRIPTION</LocID>        <Text>Yıldırım çarpmasına doğrudan ya da dolaylı olarak maruz kalındığında oluşan ender yara.</Text>  </GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_026</LocID>                    <Text>Yüksek voltaj yanığı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_026_DESCRIPTION</LocID>        <Text>Elektrik yanığı elektriğin vücuttan geçmesinin bir sonucudur. Görünür termal ve kimyasal yanıkların aksine bu yanıklar daha çok deri altı hasara yol açar.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_032</LocID>                    <Text>Düşük voltaj yanığı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_032_DESCRIPTION</LocID>        <Text>Elektrik yanığı elektriğin vücuttan geçmesinin bir sonucudur. Görünür termal ve kimyasal yanıkların aksine bu yanıklar daha çok deri altı hasara yol açar.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRM_027</LocID>                    <Text>Radyasyon dermatiti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_027_DESCRIPTION</LocID>        <Text>Röntgen dermatiti olarak da bilinen radyasyon dermatiti, radyasyon tedavisinin bir sonucudur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_028</LocID>                    <Text>Mikrodalga yanığı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_028_DESCRIPTION</LocID>        <Text>Mikrodalga radyasyonu sonucu oluşan yanık yarası. Diğer radyasyon yanıklarının aksine mikrodalga radyasyonu hasarı ısı kaynaklı oluşur.</Text>  </GameDBLocalizedString>
+            
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_029</LocID>                    <Text>Kolda termal yanık</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_029_DESCRIPTION</LocID>        <Text>Sıcak bir nesne veya sıvıyla temas sonrası oluşan termal yanıklar.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_030</LocID>                    <Text>Bacakta termal yanık</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_030_DESCRIPTION</LocID>        <Text>Sıcak bir nesne veya sıvıyla temas sonrası oluşan termal yanıklar.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_031</LocID>                    <Text>Ağır termal yanık</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_031_DESCRIPTION</LocID>        <Text>Sıcak bir nesne veya sıvıyla temas sonrası oluşan termal yanıklar.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TRM_033</LocID>                    <Text>Güneş yanığı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_033_DESCRIPTION</LocID>        <Text>Güneşten veya yapay bir kaynaktan gelen morötesi ışınlara uzun süre maruz kalındığında derinin kızarması ve acı vermesi.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TRM_034</LocID>                    <Text>Zehirli örümcek ısırığı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_034_DESCRIPTION</LocID>        <Text>Zehirli örümcek ısırıkları bazen acı verici ve kaşıntılı ufak kırmızı yumrular oluşturabilir. Zehirleri bazı durumlarda ise daha ağır semptomlara da yol açabilir.</Text>  </GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_035</LocID>                    <Text>Çıngıraklıyılan ısırığı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_035_DESCRIPTION</LocID>        <Text>Yılan ısırıklarında genelde dişlerden dolayı iki delik yarası bulunur. Yılan türünü tespit edip doğru hastaya panzehri vermek tedavinin önemli bir parçasıdır.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_036</LocID>                    <Text>Bakır kafalı yılan ısırığı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_036_DESCRIPTION</LocID>        <Text>Yılan ısırıklarında genelde dişlerden dolayı iki delik yarası bulunur. Yılan türünü tespit edip doğru hastaya panzehri vermek tedavinin önemli bir parçasıdır.</Text>  </GameDBLocalizedString>
+
+            <!--MAIN SYMPTOMS-->
+            <GameDBLocalizedString>      <LocID>SYM_PENETRATING_PULMONARY_LACERATION_X</LocID>              <Text>Pulmoner yırtılma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PENETRATING_PULMONARY_LACERATION_X_DESCRIPTION</LocID>  <Text>Hastanın akciğerlerinde ciddi hasar oluşturan delici travma.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LIVER_AND_SPLEEN_LACERATED</LocID>                      <Text>Karaciğer ve dalakta yırtılma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LIVER_AND_SPLEEN_LACERATED_DESCRIPTION</LocID>          <Text>Hastanın karaciğer ve dalağında ciddi hasarlar var.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SPLEEN_AND_PANCREAS_LACERATED</LocID>                   <Text>Pankreas ve dalakta yırtılma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SPLEEN_AND_PANCREAS_LACERATED_DESCRIPTION</LocID>       <Text>Hastanın pankreas ve dalağında ciddi hasarlar var.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_ABDOMEN_GUNSHOT</LocID>                           <Text>Üst karında oyuklar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_ABDOMEN_GUNSHOT_DESCRIPTION</LocID>               <Text>Hastanın üst karın bölgesinde hasarlı doku ve kurşun yarası bulunuyor, vücuda giren cisim oyuk oluşturmuş ve diğer organlara hasar verme ihtimali var.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_ABDOMEN_BALLISTICS</LocID>                        <Text>Alt karında oyuklar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_ABDOMEN_BALLISTICS_DESCRIPTION</LocID>            <Text>Hastanın alt karın bölgesinde hasarlı doku ve hızlı hareket eden cisim yarası bulunuyor, vücuda giren cisim oyuk oluşturmuş ve diğer organlara hasar verme ihtimali var.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEST_GUNSHOT</LocID>                                   <Text>Göğüste oyuklar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEST_GUNSHOT_DESCRIPTION</LocID>                       <Text>Hastanın göğüs bölgesinde hasarlı doku ve kurşun yarası bulunuyor, vücuda giren cisim oyuk oluşturmuş ve diğer organlara hasar verme ihtimali var.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NECK_BALLISTIC_WOUND</LocID>                            <Text>Boyunda oyuklar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NECK_BALLISTIC_WOUND_DESCRIPTION</LocID>                <Text>Hastanın boyun bölgesinde hasarlı doku ve hızlı hareket eden cisim yarası bulunuyor, vücuda giren cisim oyuk oluşturmuş ve diğer yapılara hasar verme ihtimali var.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_LIMB_BALLISTIC_WOUND</LocID>                      <Text>Kollarda oyuklar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_LIMB_BALLISTIC_WOUND_DESCRIPTION</LocID>          <Text>Hastanın kollarında hasarlı doku ve hızlı hareket eden cisim yarası bulunuyor, vücuda giren cisim oyuk oluşturmuş ve diğer yapılara hasar verme ihtimali var.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_LIMB_BALLISTIC_WOUND</LocID>                      <Text>Bacaklarda oyuklar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_LIMB_BALLISTIC_WOUND_DESCRIPTION</LocID>          <Text>Hastanın bacaklarında hasarlı doku ve hızlı hareket eden cisim yarası bulunuyor, vücuda giren cisim oyuk oluşturmuş ve diğer yapılara hasar verme ihtimali var.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_ABDOMEN_PENETRATING</LocID>                       <Text>Üst karında travma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_ABDOMEN_PENETRATING_DESCRIPTION</LocID>           <Text>Hastanın üst karın bölgesinde delici yara bulunuyor, diğer organ ve yapıların hasar görme riski var.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_ABDOMEN_STAB</LocID>                              <Text>Alt karında travma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_ABDOMEN_STAB_DESCRIPTION</LocID>                  <Text>Hastanın alt karın bölgesinde bıçak yarası bulunuyor, diğer organ ve yapıların hasar görme riski var.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEST_STAB</LocID>                                      <Text>Göğüste travma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEST_STAB_DESCRIPTION</LocID>                          <Text>Hastanın göğüs bölgesinde bıçak yarası bulunuyor, diğer organ ve yapıların hasar görme riski var.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NECK_PENETRATING</LocID>                                <Text>Boyunda travma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NECK_PENETRATING_DESCRIPTION</LocID>                    <Text>Hastanın boyun bölgesinde delici yara bulunuyor, diğer yapıların hasar görme riski var.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_LIMB_PENETRATING</LocID>                          <Text>Kollarda travma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_LIMB_PENETRATING_DESCRIPTION</LocID>              <Text>Hastanın kollarında delici yara bulunuyor, diğer yapıların hasar görme riski var.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_LIMB_PENETRATING</LocID>                          <Text>Bacaklarda travma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_LIMB_PENETRATING_DESCRIPTION</LocID>              <Text>Hastanın bacaklarında delici yara bulunuyor, diğer yapıların hasar görme riski var.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ABDOMINAL_TRAUMA_EXPLOSION</LocID>                      <Text>Karın bölgesinde travma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ABDOMINAL_TRAUMA_EXPLOSION_DESCRIPTION</LocID>          <Text>Hastanın karın bölgesi patlama sonucunda hasar görmüş. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEST_TRAUMA_EXPLOSION</LocID>                          <Text>Göğüste travma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEST_TRAUMA_EXPLOSION_DESCRIPTION</LocID>              <Text>Hastanın göğüs bölgesi patlama sonucunda ağır hasar görmüş.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MILD_FROSTBITE_HAND</LocID>                             <Text>Ellerde hafif soğuk ısırması</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MILD_FROSTBITE_HAND_DESCRIPTION</LocID>                 <Text>Hastanın ellerinde hafif derecede soğuk yanıkları.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_FROSTBITE_HAND</LocID>                           <Text>Ellerde ağır soğuk ısırması</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_FROSTBITE_HAND_DESCRIPTION</LocID>               <Text>Hastanın ellerinde ağır derecede soğuk yanıkları.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MILD_FROSTBITE_LEG</LocID>                              <Text>Bacaklarda hafif soğuk ısırması</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MILD_FROSTBITE_LEG_DESCRIPTION</LocID>                  <Text>Hastanın bacaklarında hafif derecede soğuk yanıkları.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_FROSTBITE_LEG</LocID>                            <Text>Bacaklarda ağır soğuk ısırması</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_FROSTBITE_LEG_DESCRIPTION</LocID>                <Text>Hastanın bacaklarında ağır derecede soğuk yanıkları.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEMICAL_BURN_ARM</LocID>                               <Text>Kolda kimyasal yanık</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEMICAL_BURN_ARM_DESCRIPTION</LocID>                   <Text>Hastanın kolunda zararlı kimyasal maddelere maruz kalarak oluşan yanık yaraları.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEMICAL_BURN_TORSO</LocID>                             <Text>Gövdede kimyasal yanık</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEMICAL_BURN_TORSO_DESCRIPTION</LocID>                 <Text>Hastanın gövdesinde zararlı kimyasal maddelere maruz kalarak oluşan yanık yaraları.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SKIN_LESION_LIGHTNING</LocID>                           <Text>Yıldırım sebepli lezyonlar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SKIN_LESION_LIGHTNING_DESCRIPTION</LocID>               <Text>Yıldırım çarpmasına maruz kalarak oluşan deri lezyonları.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SUBDERMAL_TISSUE_DAMAGED</LocID>                        <Text>Derialtı doku hasarı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SUBDERMAL_TISSUE_DAMAGED_DESCRIPTION</LocID>            <Text>Derialtı (derinin en dış tabakasının altı) dokusu hasar görmüş.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PIGMENTATION_CHANGES</LocID>                            <Text>Pigment değişiklikleri</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PIGMENTATION_CHANGES_DESCRIPTION</LocID>                <Text>Ağır pigment değişiklikleri tespit edildi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SKIN_AND_FAT_TISSUE_DAMAGED</LocID>                     <Text>Deri ve yağ dokusu hasarı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SKIN_AND_FAT_TISSUE_DAMAGED_DESCRIPTION</LocID>         <Text>Yanık ve yanık olmayan bölge arasındaki deri ve yağ dokusunda doku ayrımı görülüyor.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THERMAL_BURN_ARM</LocID>                                <Text>Kolda termal yanık</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THERMAL_BURN_ARM_DESCRIPTION</LocID>                    <Text>Hastanın kolunda termal yanık belirtileri.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THERMAL_BURN_LEG</LocID>                                <Text>Bacakta termal yanık</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THERMAL_BURN_LEG_DESCRIPTION</LocID>                    <Text>Hastanın bacağında termal yanık belirtileri.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_THERMAL_BURN</LocID>                             <Text>Ağır termal yanık</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_THERMAL_BURN_DESCRIPTION</LocID>                 <Text>Ağır termal yanık belirtileri.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOW_VOLTAGE_BURN</LocID>                                <Text>Düşük voltaj yanığı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOW_VOLTAGE_BURN_DESCRIPTION</LocID>                    <Text>Düşük voltajlı elektriğe maruz kalınarak oluşan yanık yarası.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SUNBURNED_SKIN</LocID>                                  <Text>Deride güneş yanığı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SUNBURNED_SKIN_DESCRIPTION</LocID>                      <Text>Güneş ışığına doğrudan maruz kalarak yanan deri dokusu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLACK_WIDOW_BITE</LocID>                                <Text>Karadul ısırığı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLACK_WIDOW_BITE_DESCRIPTION</LocID>                    <Text>Zehirli örümcek ısırığı.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RATTLESNAKE_BITE</LocID>                                <Text>Çıngıraklıyılan ısırığı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RATTLESNAKE_BITE_DESCRIPTION</LocID>                    <Text>Zehirli yılan ısırığı.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COPPERHEAD_SNAKE_BITE</LocID>                           <Text>Bakır kafalı yılan ısırığı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COPPERHEAD_SNAKE_BITE_DESCRIPTION</LocID>               <Text>Zehirli yılan ısırığı.</Text>  </GameDBLocalizedString>
+
+            <!--TREATMENTS-->
+            <GameDBLocalizedString>      <LocID>TRT_ANTIVENOM</LocID>                                       <Text>Panzehir</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIVENOM_DESCRIPTION</LocID>                           <Text>Belirli bir zehre bağlanıp onu etkisiz hale getiren antikorların kullanıldığı bir tedavi. \n\nGerekli oda: Travmatoloji bölümünde Ofis veya Teşhis ünitesi / Yoğun Bakım Ünitesi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CONCETRATED_OXYGEN</LocID>                              <Text>Konsantre oksijen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CONCETRATED_OXYGEN_DESCRIPTION</LocID>                  <Text>Konsantre oksijen solumaya dayalı tedavi. \n\nGerekli oda: Ofis veya Teşhis ünitesi / Travmatoloji bölümünde Yanık ünitesi / Yoğun Bakım Ünitesi / Acilde Travma ünitesi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_WARMED_IV_FLUIDS</LocID>                                <Text>Isıtılmış IV sıvıları</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_WARMED_IV_FLUIDS_DESCRIPTION</LocID>                    <Text>Hipotermiyle mücadele etmek için 38-45°C/100-113°F derecelerine ısıtılan intravenöz sıvılar. \n\nGerekli oda: Travmatoloji bölümünde Yanık ünitesi / Yoğun Bakım Ünitesi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PROTECTIVE_DRESSING</LocID>                             <Text>Koruyucu sargı</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PROTECTIVE_DRESSING_DESCRIPTION</LocID>                 <Text>Koruyucu bandaj sargılar. \n\nGerekli oda: Ofis veya Teşhis ünitesi / Travmatoloji bölümünde Yanık ünitesi / Yoğun Bakım Ünitesi / Acilde Travma ünitesi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_DEBRIDEMENT</LocID>                                     <Text>Debridman</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_DEBRIDEMENT_DESCRIPTION</LocID>                         <Text>Ölü dokunun medikal olarak alınması. \n\nGerekli oda: Ofis veya Teşhis ünitesi / Travmatoloji bölümünde Yanık ünitesi / Yoğun Bakım Ünitesi / Acilde Travma ünitesi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BURN_MANAGEMENT</LocID>                                 <Text>Yanık yönetimi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BURN_MANAGEMENT_DESCRIPTION</LocID>                     <Text>Çeşitli yanık türlerini tedavi edecek medikal işlemler. \n\nGerekli oda: Ofis veya Teşhis ünitesi / Travmatoloji bölümünde Yanık ünitesi / Yoğun Bakım Ünitesi / Acilde Travma ünitesi</Text>	</GameDBLocalizedString>
+
+            <!--SURGERIES-->
+            <GameDBLocalizedString>      <LocID>TRT_SPLENECTOMY</LocID>                                     <Text>Splenektomi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SPLENECTOMY_DESCRIPTION</LocID>                         <Text>Hasarlı veya bozulan dalağın cerrahi yollarla çıkarılması. \n\nGerekli oda: Travmatolojide ameliyathane + Yoğun Bakım Ünitesi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HEPATOPLASTY</LocID>                                    <Text>Hepatoplasti</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HEPATOPLASTY_DESCRIPTION</LocID>                        <Text>Karaciğerin veya bir bölümünün cerrahi yollarla tedavi edilmesi. \n\nGerekli oda: Travmatolojide ameliyathane + Yoğun Bakım Ünitesi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_GASTRIC_PERFORATION_REPAIR</LocID>                      <Text>Mide delinmesi tedavisi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_GASTRIC_PERFORATION_REPAIR_DESCRIPTION</LocID>          <Text>Midedeki deliklerin cerrahi yollarla kapatılması. \n\nGerekli oda: Travmatolojide ameliyathane + Yoğun Bakım Ünitesi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SMALL_BOWEL_RESECTION</LocID>                           <Text>İnce bağırsak rezeksiyonu</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SMALL_BOWEL_RESECTION_DESCRIPTION</LocID>               <Text>İnce bağırsağın bir bölümünün cerrahi yollarla alınması. \n\nGerekli oda: Travmatolojide ameliyathane + Yoğun Bakım Ünitesi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BOWEL_RESECTION</LocID>                                 <Text>Kalın bağırsak rezeksiyonu</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BOWEL_RESECTION_DESCRIPTION</LocID>                     <Text>Kalın bağırsağın küçük bir bölümünün cerrahi yollarla alınması. \n\nGerekli oda: Travmatolojide ameliyathane + Yoğun Bakım Ünitesi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PANCREATICOPLASTY</LocID>                               <Text>Pankreatikoplasti</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PANCREATICOPLASTY_DESCRIPTION</LocID>                   <Text>Pankreasın veya bir bölümünün cerrahi yollarla tedavi edilmesi. \n\nGerekli oda: Travmatolojide ameliyathane + Yoğun Bakım Ünitesi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_SURGERY</LocID>                                  <Text>Göğüs bölgesinde travma cerrahisi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_SURGERY_ARM</LocID>                              <Text>Kollarda travma cerrahisi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_SURGERY_LEG</LocID>                              <Text>Bacaklarda travma cerrahisi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_SURGERY_DESCRIPTION</LocID>                      <Text>Akut, hayati risk veya potansiyel hayati risk içeren cerrahi durumlar için travma ameliyatı. \n\nGerekli oda: Travmatolojide ameliyathane + Yoğun Bakım Ünitesi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_LAPAROSCOPIC_PYELOPLASTY</LocID>                        <Text>Laparoskopik piyeloplasti</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_LAPAROSCOPIC_PYELOPLASTY_DESCRIPTION</LocID>            <Text>Böbreklerin minimal invazif cerrahi yollarla tedavi edilmesi. \n\nGerekli oda: Travmatolojide ameliyathane + Yoğun Bakım Ünitesi</Text>	</GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_FRACTURE_SURGERY_ARM</LocID>                     <Text>Travmatik kırık cerrahisi - kol</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_FRACTURE_SURGERY_ARM_DESCRIPTION</LocID>         <Text>Kırılan kemiklerin travmatolojik cerrahi yollarla tedavi edilmesi. \n\nGerekli oda: Travmatolojide ameliyathane + Yoğun Bakım Ünitesi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_FRACTURE_SURGERY_LEG</LocID>                     <Text>Travmatik kırık cerrahisi - bacak</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_FRACTURE_SURGERY_LEG_DESCRIPTION</LocID>         <Text>Kırılan kemiklerin travmatolojik cerrahi yollarla tedavi edilmesi. \n\nGerekli oda: Travmatolojide ameliyathane + Yoğun Bakım Ünitesi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_FRACTURE_SURGERY_THORAX</LocID>                  <Text>Travmatik kırık cerrahisi - göğüs kafesi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_FRACTURE_SURGERY_THORAX_DESCRIPTION</LocID>      <Text>Kırılan kemiklerin travmatolojik cerrahi yollarla tedavi edilmesi. \n\nGerekli oda: Travmatolojide ameliyathane + Yoğun Bakım Ünitesi</Text>	</GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRT_VASCULAR_SURGERY</LocID>                                <Text>Damar cerrahisi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_VASCULAR_SURGERY_DESCRIPTION</LocID>                    <Text>Hasar görmüş damarların cerrahi yollarla dikilerek onarılması. \n\nGerekli oda: Travmatolojide ameliyathane + Yoğun Bakım Ünitesi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PULMONARY_SURGERY_X</LocID>                             <Text>Pulmoner cerrahi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PULMONARY_SURGERY_X_DESCRIPTION</LocID>                 <Text>Pulmoner veya akciğer cerrahisi, hasar görmüş akciğer dokusunu onarmak veya almak için yapılan ameliyattır. \n\nGerekli oda: Travmatolojide ameliyathane + Yoğun Bakım Ünitesi</Text>	</GameDBLocalizedString>
+
+
+            <!--SCENARIO-->
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_J</LocID>                            <Text>Travmatoloji: Büyük hastane</Text>	</GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>EXM_OPHTHALMOSCOPY_DESCRIPTION</LocID>                      <Text>Göz dibi (fundus) ve retinanın incelenmesi \n\nGerekli oda: ofis / Gözlem odası / Travma odası / YBÜ /İç Hastalıkları/Nöroloji Teşhis ünitesi / Travmatoloji</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRT_ANTI_ARRHYTMICALS_DESCRIPTION_V2</LocID>                <Text>Anormal kalp ritminin önüne geçmek için damardan veya hap olarak verilen ilaçlar. \n\nGerekli oda: Yoğun Bakım Ünitesi / Herhangi bir ofis / Acil Servis teşhis ünitesi / Genel Cerrahi / İç Hastalıkları / Nöroloji / Travmatoloji</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_WOUND_CLOSURE_DESCRIPTION_V2</LocID>                    <Text>Kasları veya deriyi dikme işlemi. \n\nGerekli oda: Doktor odası / Gözlem odası / Travma ünitesi / Yoğun Bakım Ünitesi / Ortopedi teşhis ünitesi veya ofisi / Travmatoloji</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ACE_INHIBITOR_DESCRIPTION</LocID>                       <Text>Hipertansiyon tedavisinde kullanılan bir ilaç. \n\nGerekli oda: ofis / Teşhis ünitesi Acil ve Bulaşıcı hastalıklar departmanı hariç</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIHISTAMINES_DESCRIPTION</LocID>                      <Text>Alerji semptomlarından sorumlu olan, histamin reseptörlerini inhibe eden ilaçlar. \n\nGerekli oda: Doktor odası/ Gözlem odası / YBÜ / ofis /Genel Cerrahi/İç Hastalıkları/Nöroloji teşhis ünitesi / Travmatoloji</Text>  </GameDBLocalizedString>
+
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    

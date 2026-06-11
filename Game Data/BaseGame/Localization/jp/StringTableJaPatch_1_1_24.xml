@@ -1,0 +1,183 @@
+<Database>
+    <GameDBStringTable ID="LOC_JA_PATCH_1_1_24">
+
+        <LanguageCode>ja</LanguageCode>
+        <LanguageNameLocalized>日本語</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_UNDO</LocID>                   <Text>最後の変更を取り消す</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_UNDO_UNAVAILABLE</LocID>       <Text>取り消せません。変更がされていないか、最後のアクションは取り消し不可です</Text>  </GameDBLocalizedString>
+            
+            <!-- ROOM TYPES -->
+
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_UNIQUE_IM_OFFICE</LocID>               <Text>特別処置室</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_UNIQUE_IM_OFFICE_DESCRIPTION</LocID>   <Text>各種低侵襲的特別処置を行うために使用する一般内科の専用部屋。</Text>	</GameDBLocalizedString> <!--todo description-->
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_IM_UNIQUE_UNIT</LocID>              <Text>特別処置室</Text>	</GameDBLocalizedString>
+
+            <!--PREFABS-->
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_IM_UNIQUE_OFFICE_LARGE_ABBR</LocID>  <Text>特別処置室 - 8 x 6</Text>	</GameDBLocalizedString>
+
+            <!--diagnoses-->
+
+            <!--ER-->
+            <GameDBLocalizedString>      <LocID>DIA_046</LocID>                  <Text>インフルエンザB型</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_046_DESCRIPTION</LocID>      <Text>B型インフルエンザウイルスが引き起こすインフルエンザB型は、ヒトのインフルエンザ感染症における季節性流行の原因となる。</Text>	</GameDBLocalizedString>
+            <!--GS-->
+            <GameDBLocalizedString>      <LocID>DIA_047</LocID>                  <Text>溶血性尿毒症症候群</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_047_DESCRIPTION</LocID>      <Text>腎臓の小さな血管が損傷して炎症を起こす症状。最も多い原因は大腸菌。</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_048</LocID>                  <Text>カンピロバクター感染症</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_048_DESCRIPTION</LocID>      <Text>カンピロバクター感染症はよくある感染症で、最も一般的な発症の原因はカンピロバクタージェジュニ。しばしば食物に起因する。</Text>	</GameDBLocalizedString>
+            <!--NE-->
+            <GameDBLocalizedString>      <LocID>DIA_049</LocID>                  <Text>咽頭結膜熱</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_049_DESCRIPTION</LocID>      <Text>B型ヒトマストアデノウイルスが最も多い原因で引き起こされる咽頭結膜熱は、若者の間で小さな集団感染が起きることが比較的多い病気。咽頭や目に症状が出る。</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_050</LocID>                  <Text>ボツリヌス中毒症</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_050_DESCRIPTION</LocID>      <Text>ボツリヌス菌が産生する毒が引き起こすボツリヌス中毒症は、まれながら死に至る可能性の高い病気。</Text>	</GameDBLocalizedString>
+            <!--IM-->
+            <GameDBLocalizedString>      <LocID>DIA_051</LocID>                  <Text>一過性脳虚血発作</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_051_DESCRIPTION</LocID>      <Text>一過性脳虚血発作は発作に似ているが、通常は24時間以内におさまり、永久的な損傷は残らない。</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_052</LocID>                  <Text>胸膜炎</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_052_DESCRIPTION</LocID>      <Text>肺膜が炎症を起こした症状をいう。</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_053</LocID>                  <Text>石綿症</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_053_DESCRIPTION</LocID>      <Text>肺に入った微細なアスベストの鉱質沈着物によって引き起こされる症状。</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_054</LocID>                  <Text>汗疹</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_054_DESCRIPTION</LocID>      <Text>またの名を「あせも」といい、熱く湿度の高い環境でよくある皮膚病。</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_055</LocID>                  <Text>シガテラ中毒</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_055_DESCRIPTION</LocID>      <Text>シガテラとも呼ばれ、特定の毒に汚染された魚を摂取することで引き起こされる食中毒。</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_056</LocID>                  <Text>膿胸</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_056_DESCRIPTION</LocID>      <Text>細菌感染によって胸腔内で膿汁が蓄積した症状。</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_057</LocID>                  <Text>乳び胸</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_057_DESCRIPTION</LocID>      <Text>胸膜腔にリンパ液が溜まった症状。</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_058</LocID>                  <Text>肺炎随伴胸水</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_058_DESCRIPTION</LocID>      <Text>肺炎、気管支拡張症、あるいは肺膿瘍によって起きる症状。</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_059</LocID>                  <Text>コレステリン腫</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_059_DESCRIPTION</LocID>      <Text>コレステリン腫はしばしば繰り返される中耳炎が原因で発生する、非がん性の皮膚腫瘍。</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_060</LocID>                  <Text>クループ</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_060_DESCRIPTION</LocID>      <Text>喉頭気管気管支炎としても知られるクループは通常はウイルスが原因となるが、まれに細菌感染によっても発症する。</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_061</LocID>                  <Text>鼻ポリープ</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_061_DESCRIPTION</LocID>      <Text>鼻腔に発生する非がん性の腫瘍。</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_062</LocID>                  <Text>メニエール病</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_062_DESCRIPTION</LocID>      <Text>原因不明の目まいが特徴の内耳疾患。</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_063</LocID>                  <Text>本態性血小板血症</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_063_DESCRIPTION</LocID>      <Text>患者の体内で必要以上に血小板が作られる珍しい病気。</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_064</LocID>                  <Text>ウルシかぶれ</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_064_DESCRIPTION</LocID>      <Text>ツタウルシやオーク、ウルシなどのウルシオール樹脂に対するアレルギー反応。葉、茎、根っこに含まれる。</Text>	</GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRM_001</LocID>                  <Text>血胸</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_001_DESCRIPTION</LocID>      <Text>胸腔内で血液が溜まった症状。よくある原因は胸の怪我。</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_002</LocID>                  <Text>緊張性気胸</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_002_DESCRIPTION</LocID>      <Text>換気、蘇生、あるいは肺疾患のある患者などの臨床的状況において比較的多く発生する。</Text>	</GameDBLocalizedString>
+
+            
+            <!-- shared symptoms used at internal medicine-->
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_EFFUSION</LocID>                           <Text>胸水</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_EFFUSION_DESCRIPTION</LocID>               <Text>MRIで胸水が検出されました。</Text>  </GameDBLocalizedString>
+            
+               
+            <!--main symptoms - INTERNAL MEDICINE-->
+            <GameDBLocalizedString>      <LocID>SYM_INFLUENZA_B_DETECTED</LocID>                       <Text>インフルエンザB型検出</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INFLUENZA_B_DETECTED_DESCRIPTION</LocID>           <Text>血清検査でB型インフルエンザウイルスに関連する抗体が検出されました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_E_COLI_TOXIN_DETECTED</LocID>                      <Text>大腸菌の毒素検出</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_E_COLI_TOXIN_DETECTED_DESCRIPTION</LocID>          <Text>検便で大腸菌によって生成された毒素が検出されました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_JEJUNI_DETECTED</LocID>                          <Text>カンピロバクタージェジュニ検出</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_JEJUNI_DETECTED_DESCRIPTION</LocID>              <Text>ELISAでカンピロバクタージェジュニの抗原が検出されました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MASTADENOVIRUS_B_DETECTED</LocID>                  <Text>B型マストアデノウイルス検出</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MASTADENOVIRUS_B_DETECTED_DESCRIPTION</LocID>      <Text>PCR分析でB型ヒトマストアデノウイルスが検出されました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TIA_DETECTED</LocID>                               <Text>一過性脳虚血発作検出</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TIA_DETECTED_DESCRIPTION</LocID>                   <Text>MRIで一過性脳虚血発作の要素が検出されました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_BOTULINUM_DETECTED</LocID>                       <Text>ボツリヌス菌検出</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_BOTULINUM_DETECTED_DESCRIPTION</LocID>           <Text>ELISAでボツリヌス菌の存在が検出されました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BACTERIAL_INFECTION_DETECTED</LocID>               <Text>細菌感染検出</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BACTERIAL_INFECTION_DETECTED_DESCRIPTION</LocID>   <Text>PCR分析で強い細菌感染が検出されました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ASBESTOSIS_DETECTED</LocID>                        <Text>石綿症検出</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ASBESTOSIS_DETECTED_DESCRIPTION</LocID>            <Text>CTスキャンの検査で、患者の肺に石綿症が見つかりました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEAT_RASH</LocID>                                  <Text>あせも</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEAT_RASH_DESCRIPTION</LocID>                      <Text>すべての症状および把握している情報から、あせもと診断しました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CIGUATOXIN_DETECTED</LocID>                        <Text>シグアトキシン検出</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CIGUATOXIN_DETECTED_DESCRIPTION</LocID>            <Text>血液検査の結果、シグアトキシンによる中毒が判明しました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMOTHORAX_DISCOVERED</LocID>                      <Text>血胸発見</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMOTHORAX_DISCOVERED_DESCRIPTION</LocID>          <Text>超音波検査の結果、患者の胸腔内に大量の血液を発見しました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PUNCTURED_LUNGS</LocID>                            <Text>肺の破裂</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PUNCTURED_LUNGS_DESCRIPTION</LocID>                <Text>超音波検査の結果、肺の破裂が判明しました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_FLUID_INFECTED</LocID>                     <Text>胸膜液の感染</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_FLUID_INFECTED_DESCRIPTION</LocID>         <Text>生体検査の結果、胸膜液の感染を確認しました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHYLOTHORAX_DETECTED</LocID>                       <Text>乳び胸検出</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHYLOTHORAX_DETECTED_DESCRIPTION</LocID>           <Text>レントゲン診断で乳び胸が発見されました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_TRANSUDATE</LocID>                         <Text>胸膜の浸出液</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_TRANSUDATE_DESCRIPTION</LocID>             <Text>MRIで胸膜に浸出液の存在が検出されました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHOLESTEATOMA_DISCOVERED</LocID>                   <Text>コレステリン腫発見</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHOLESTEATOMA_DISCOVERED_DESCRIPTION</LocID>       <Text>CTスキャンの検査で、患者の耳の中にコレステリン腫を発見しました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NASAL_POLYPS_DETECTED</LocID>                      <Text>鼻ポリープ検出</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NASAL_POLYPS_DETECTED_DESCRIPTION</LocID>          <Text>CTスキャンの検査で、患者の鼻腔内に小さなポリープを発見しました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CROUP_PRESENT</LocID>                              <Text>クループ発見</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CROUP_PRESENT_DESCRIPTION</LocID>                  <Text>すべての症状および把握している情報から、クループと診断しました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MENIERES_DISEASE_PRESENT</LocID>                   <Text>メニエール病</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MENIERES_DISEASE_PRESENT_DESCRIPTION</LocID>       <Text>すべての症状および把握している情報から、メニエール病と診断しました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THROMBOCYTHEMIA</LocID>                            <Text>血小板血症</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THROMBOCYTHEMIA_DESCRIPTION</LocID>                <Text>完全血球算定の結果、血小板数の異常な増加が判明しました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_POISON_IVY_RASH</LocID>                            <Text>ウルシかぶれ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_POISON_IVY_RASH_DESCRIPTION</LocID>                <Text>すべての症状および把握している情報から、ウルシかぶれと診断しました。</Text>  </GameDBLocalizedString>
+
+            <!--new trt procedures-->
+            <GameDBLocalizedString>      <LocID>TRT_BLOOD_COMPONENT_THERAPY</LocID>                    <Text>血液成分療法</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BLOOD_COMPONENT_THERAPY_DESCRIPTION</LocID>        <Text>特殊なタイプの輸血。全血のほか、濃厚赤血球、新鮮凍結血漿、血小板、寒冷沈降物、顆粒球要素、免疫グロブリンなど、個々の要素から構成できる。\n\n前提条件：任意の診断ユニット/集中治療室/病棟</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FOREIGN_OBJECT_REMOVAL</LocID>                     <Text>異物の除去</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FOREIGN_OBJECT_REMOVAL_DESCRIPTION</LocID>         <Text>傷の中にある異物の除去。\n\n前提条件：診療所/観察/外傷センター/集中治療室/外傷学の診療所/診断ユニット</Text>	</GameDBLocalizedString>
+
+            <!--internal medicine-->
+            <GameDBLocalizedString>      <LocID>TRT_THORACENTESIS</LocID>                              <Text>胸腔穿刺</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_THORACENTESIS_DESCRIPTION</LocID>                  <Text>胸膜腔から体液や空気を排出する侵襲的処置。\n\n前提条件：特別処置室 \n\n設備の条件: 胸腔穿刺機器</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MIEP</LocID>                                       <Text>低侵襲的内視鏡的処置</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MIEP_DESCRIPTION</LocID>                           <Text>さまざまな耳鼻咽喉科学的疾患の治療に使用する。\n\n前提条件：特別処置室 \n\n設備の条件: ENTワークステーション</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MANNITOL_DOSES</LocID>                             <Text>マンニトール服用</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MANNITOL_DOSES_DESCRIPTION</LocID>                 <Text>マンニトールを服用すると、体内でシグアトキシンによる中毒と戦ってくれる。\n\n前提条件：内科/集中治療室の診断ユニット</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HYDROXYUREA</LocID>                                <Text>ヒドロキシウレア</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HYDROXYUREA_DESCRIPTION</LocID>                    <Text>骨髄の血球産生を抑える特殊な薬剤。\n\n前提条件：内科/集中治療室の診断ユニット</Text>	</GameDBLocalizedString>
+
+            <!--neurology-->
+            <GameDBLocalizedString>      <LocID>TRT_BOTULINUM_ANTITOXIN</LocID>                        <Text>ボツリヌス菌の抗毒素</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BOTULINUM_ANTITOXIN_DESCRIPTION</LocID>            <Text>ボツリヌス菌によって生成された毒素を中和してくれる特別な抗体。\n\n前提条件：診断室神経学</Text>	</GameDBLocalizedString>
+            
+            <!--EXAMINATIONS - NEW-->
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_SAMPLING</LocID>                            <Text>RT-PCRサンプル抽出法</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_SAMPLING_DESCRIPTION</LocID>                <Text>逆転写ポリメラーゼ連鎖反応は、RNAからDNAへの逆転写と、PCRを使った特定のDNA標的増幅を組み合わせた実験技術。\n\n前提条件： 血液学研究室\n\nサンプル抽出：救急救命科 / 感染症科 / 集中治療室 /\n\n設備の条件: ガラス製品 + サーマルサイクラー</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_TESTING</LocID>                             <Text>RT-PCR検査</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_TESTING_DESCRIPTION</LocID>                 <Text>逆転写ポリメラーゼ連鎖反応は、RNAからDNAへの逆転写と、PCRを使った特定のDNA標的増幅を組み合わせた実験技術。\n\n前提条件： 血液学研究室</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_SAMPLING</LocID>                             <Text>ELISAサンプル抽出法</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_SAMPLING_DESCRIPTION</LocID>                 <Text>酵素結合免疫吸着検査法は、ペプチド、タンパク質、抗体、ホルモンを検出して数値で表す実験技術。\n\nサンプル抽出：救急救命科 / 一般内科 / 感染症科 / 集中治療室 /\n\n設備の条件: ガラス製品 + 放射性免疫分析</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_TESTING</LocID>                              <Text>ELISA検査</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_TESTING_DESCRIPTION</LocID>                  <Text>酵素結合免疫吸着検査法は、ペプチド、タンパク質、抗体、ホルモンを検出して数値で表す実験技術。\n\n前提条件： 血液学研究室</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PULSE_OXYMETRY</LocID>                             <Text>パルスオキシメトリ</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PULSE_OXYMETRY_DESCRIPTION</LocID>                 <Text>患者の酸素飽和度を容易かつ効果的にモニターする方法。</Text>	</GameDBLocalizedString>
+
+            <!--OBJECTS - DEVICES-->
+            <GameDBLocalizedString>      <LocID>OBJECT_ENT_WORKSTATION</LocID>                         <Text>ENTワークステーション</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ENT_WORKSTATION_DESCRIPTION</LocID>             <Text>耳鼻咽喉科に関連する幅広い処置を行うための耳鼻咽喉科用ワークステーション。</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_THORA_DEVICE</LocID>                            <Text>胸腔穿刺機器</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_THORA_DEVICE_DESCRIPTION</LocID>                <Text>主に胸腔穿刺のために使用される、超音波検査付きの特殊機器。</Text>	</GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SURGEON_ASSISTANTS</LocID>                             <Text>執刀医助手</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SURGEON_ASSISTANT</LocID>                              <Text>執刀医助手</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SURGEON_ASSISTANT_DESCRIPTION</LocID>                  <Text>手術を補佐する当直室のドクター。専門：</Text>  </GameDBLocalizedString>
+            
+            <!-- Note: the name if the new room is ROOM_TYPE_UNIQUE_IM_OFFICE in this file -->
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_INTERNAL_MEDICINE_CHANGE</LocID>         <Text>重要な変更点</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_INTERNAL_MEDICINE_CHANGE_TEXT</LocID>    <Text>一般内科での手術が行われなくなりました。今後は、特殊な検査や治療を行うための新しい特別処置室を作ることができます。</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>BANNER_DLC_HOSPITAL_SERVICES</LocID>                   <Text>病院業務DLCをご体験あれ！</Text>  </GameDBLocalizedString>
+
+            <!--NEW OBJECT-->
+            <GameDBLocalizedString>      <LocID>OBJECT_DONT_CROSS</LocID>                               <Text>立入禁止エリア</Text>  </GameDBLocalizedString>
+
+
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

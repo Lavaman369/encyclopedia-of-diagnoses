@@ -1,0 +1,182 @@
+<Database>
+    <GameDBStringTable ID="LOC_CZ_PATCH_1_1_24">
+
+        <LanguageCode>cz</LanguageCode>
+        <LanguageNameLocalized>Čeština</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_UNDO</LocID>                   <Text>Vrátit poslední změnu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_UNDO_UNAVAILABLE</LocID>       <Text>K předchozímu stavu se nelze vrátit. Buďto poslední nástroj nic nezměnil, nebo byly provedeny nevratné změny.</Text>  </GameDBLocalizedString>
+            
+            <!-- ROOM TYPES -->
+
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_UNIQUE_IM_OFFICE</LocID>               <Text>Miniinvazivní výkony</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_UNIQUE_IM_OFFICE_DESCRIPTION</LocID>   <Text>Speciální jednotka pro výkon minimálně invazivních výkonů.</Text>	</GameDBLocalizedString> <!--todo description-->
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_IM_UNIQUE_UNIT</LocID>              <Text>Miniinvazivní výkony</Text>	</GameDBLocalizedString>
+
+            <!--PREFABS-->
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_IM_UNIQUE_OFFICE_LARGE_ABBR</LocID>  <Text>Miniinvazivní výkony - 8 x 6</Text>	</GameDBLocalizedString>
+
+            <!--diagnoses-->
+
+            <!--ER-->
+            <GameDBLocalizedString>      <LocID>DIA_046</LocID>                  <Text>Chřipka typu B</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_046_DESCRIPTION</LocID>      <Text>Chřipku typu B způsobuje chřipkový B virus, který je zodpovědný hlavně za sezónní chřipkové epidemie.</Text>	</GameDBLocalizedString>
+            <!--GS-->
+            <GameDBLocalizedString>      <LocID>DIA_047</LocID>                  <Text>HUS</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_047_DESCRIPTION</LocID>      <Text>Hemolyticko-uremický syndrom  popisuje stav, kdy jsou krevní kapiláry, nacházející se v parenchymu ledvin, postiženy zánětem a poškozeny. Ve většině případů je za tento zánět zodpovědná Escherichia coli.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_048</LocID>                  <Text>Kampylobakterióza</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_048_DESCRIPTION</LocID>      <Text>Kampylobakterióza popisuje běžnou infekci, kterou spůsobuje Campylobacter jejuni. Ve většině případů se jedná o nemoc způsobenou kontaminovanými potravinami.</Text>	</GameDBLocalizedString>
+            <!--NE-->
+            <GameDBLocalizedString>      <LocID>DIA_049</LocID>                  <Text>Faryngokonjunktivitida</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_049_DESCRIPTION</LocID>      <Text>Faryngokonjunktivální horečka (akutní faryngokonjunktivitida) je způsobena lidským mastadenovirem typu B, který se rozšiřuje hlavně v kolektivech mladých lidí. Nemoc postihuje hrtan a oči.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_050</LocID>                  <Text>Botulismus</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_050_DESCRIPTION</LocID>      <Text>Botulismus je vzácná a potencionálně smrtelná nemoc způsobená toxiny, které produkuje bakterie Clostridium botulinum.</Text>	</GameDBLocalizedString>
+            <!--IM-->
+            <GameDBLocalizedString>      <LocID>DIA_051</LocID>                  <Text>TIA</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_051_DESCRIPTION</LocID>      <Text>TIA - tranzitorní ischemická ataka je podobná mrtvici, ale její trvání nepřekračuje 24 hodin a nezanechává permanentní poškození.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_052</LocID>                  <Text>Zánět pohrudnice</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_052_DESCRIPTION</LocID>      <Text>Zánět pohrudnice se týká stavu, kdy jsou membrány obklopující plíce postiženy zánětem.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_053</LocID>                  <Text>Azbestóza</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_053_DESCRIPTION</LocID>      <Text>Azbestóza je způsobena mikoskopickými částečkami azbestu v plicích.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_054</LocID>                  <Text>Miliaria</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_054_DESCRIPTION</LocID>      <Text>Miliaria, známá i jako "potničky", je onemocnění ekrinních žláz, které se objevuje v horkém a vlhkém prostředí.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_055</LocID>                  <Text>Ciguatera</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_055_DESCRIPTION</LocID>      <Text>Ciguatera - otrava z mořských ryb je jednou z najčastějších otrav, ke které dochází po konzumaci potravy mořského původu kontaminované určitými toxiny.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_056</LocID>                  <Text>Hrudní empyém</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_056_DESCRIPTION</LocID>      <Text>Hrudní empyém popisuje stav, kdy se v plurální dutině naakumuluje hnis, který je produktem bakteriální infekce.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_057</LocID>                  <Text>Chylotorax</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_057_DESCRIPTION</LocID>      <Text>Chylotorax popisuje stav, kdy dojde k nahromadění chylózního výpotku v pleurálním prostoru.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_058</LocID>                  <Text>Parapneumonický výpotek</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_058_DESCRIPTION</LocID>      <Text>Parapneumonický výpotek popisuje stav, který obyčejně nastává jako důsledek zápalu plic, bronchiektázie nebo plicního abscesu.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_059</LocID>                  <Text>Cholesteatom</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_059_DESCRIPTION</LocID>      <Text>Cholesteatom je nepravý nádor z tukových buněk, často jako důsledek opakovaných zánětů středního ucha.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_060</LocID>                  <Text>Krup</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_060_DESCRIPTION</LocID>      <Text>Krup - známý jako akutní obstrukční zánět hrtanu je způsobován zejména viry, vzácněji bakteriemi.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_061</LocID>                  <Text>Nosní polypy</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_061_DESCRIPTION</LocID>      <Text>Nosní polypy jsou nerakovinové výrustky v nosní dutině.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_062</LocID>                  <Text>Ménièrova choroba</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_062_DESCRIPTION</LocID>      <Text>Ménièrova choroba je onemocnění vnitřního ucha charakterizované hlavně závratěmi.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_063</LocID>                  <Text>Esenciální trombocytémie</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_063_DESCRIPTION</LocID>      <Text>Esenciální trombocytémie je zapříčiněna nadměrnou produkcí krevních deštiček, které nejsou plnohodnotně funkční.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_064</LocID>                  <Text>Poison ivy</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_064_DESCRIPTION</LocID>      <Text>Jako Poison ivy je označována nejen rostlina, ale také alergická reakce na olej urushiol, který se nachází v listech všech tří jedovatých rostlin (Poison Ivy - jedovatec kořenující, Poison Oak, Posion sumac).</Text>	</GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRM_001</LocID>                  <Text>Hemotorax</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_001_DESCRIPTION</LocID>      <Text>Hemotorax popisuje nahromadění krve uvnitř pleurální dutiny, způsobeno zejména tupým poraněním hrudníku.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_002</LocID>                  <Text>Tenzní pneumotorax</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_002_DESCRIPTION</LocID>      <Text>Tenzní pneumotorax nastává hlavně u klinických situací jako důsledek umělé ventilace, resuscitace nebo u pacientů s onemocněním plic.</Text>	</GameDBLocalizedString>
+
+            
+            <!-- shared symptoms used at internal medicine-->
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_EFFUSION</LocID>                           <Text>Pleurální výpotek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_EFFUSION_DESCRIPTION</LocID>               <Text>MRI odhalilo pleurální výpotek.</Text>  </GameDBLocalizedString>
+            
+               
+            <!--main symptoms - INTERNAL MEDICINE-->
+            <GameDBLocalizedString>      <LocID>SYM_INFLUENZA_B_DETECTED</LocID>                       <Text>Chřipka typu B odhalena</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INFLUENZA_B_DETECTED_DESCRIPTION</LocID>           <Text>Serologické testování odhalilo specifické protilátky na virus chřipky B.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_E_COLI_TOXIN_DETECTED</LocID>                      <Text>Detekován toxin E. Coli</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_E_COLI_TOXIN_DETECTED_DESCRIPTION</LocID>          <Text>Rozbor stolice odhalil toxiny produkovány bakteriemi E. coli.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_JEJUNI_DETECTED</LocID>                          <Text>C. jejuni odhaleno</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_JEJUNI_DETECTED_DESCRIPTION</LocID>              <Text>ELISA odhalila antigeny pro Campylobacter jejuni.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MASTADENOVIRUS_B_DETECTED</LocID>                  <Text>Mastadenovirus B odhalen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MASTADENOVIRUS_B_DETECTED_DESCRIPTION</LocID>      <Text>PCR odhalilo přítomnost lidského Mastadenoviru B.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TIA_DETECTED</LocID>                               <Text>TIA zjištěno</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TIA_DETECTED_DESCRIPTION</LocID>                   <Text>MRI odhalilo elementy tranzitorní ischemické ataky.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_BOTULINUM_DETECTED</LocID>                       <Text>C. botulinum odhaleno</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_BOTULINUM_DETECTED_DESCRIPTION</LocID>           <Text>ELISA zjistila přítomnost bakterie Clostridium botulinum.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BACTERIAL_INFECTION_DETECTED</LocID>               <Text>Odhalena bakteriální infekce</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BACTERIAL_INFECTION_DETECTED_DESCRIPTION</LocID>   <Text>PCR odhalilo rozsáhlou bakteriální infekci.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ASBESTOSIS_DETECTED</LocID>                        <Text>Azbestóza zjištěna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ASBESTOSIS_DETECTED_DESCRIPTION</LocID>            <Text>CT odhalilo azbestózu na pacientových plicích.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEAT_RASH</LocID>                                  <Text>Vyrážka z tepla</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEAT_RASH_DESCRIPTION</LocID>                      <Text>Zhodnocení všech dosavadních symptomů potvrzuje přítomnost vyrážky z tepla.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CIGUATOXIN_DETECTED</LocID>                        <Text>Ciguatoxin detekován</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CIGUATOXIN_DETECTED_DESCRIPTION</LocID>            <Text>Rozbor krevních testů odhalil intoxikaci ciguatoxinem.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMOTHORAX_DISCOVERED</LocID>                      <Text>Hemotorax odhalen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMOTHORAX_DISCOVERED_DESCRIPTION</LocID>          <Text>Ultrazvukové vyšetření odhalilo rozsáhlý objem krve v pleurání dutině.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PUNCTURED_LUNGS</LocID>                            <Text>Perforována plíce</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PUNCTURED_LUNGS_DESCRIPTION</LocID>                <Text>Ultrazvukové vyšetření odhalilo perforaci plíce.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_FLUID_INFECTED</LocID>                     <Text>Infikovaná pleurální tekutina</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_FLUID_INFECTED_DESCRIPTION</LocID>         <Text>Bioptické vyšetření plaurální tekutiny potvrzuje přítomnost infekce.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHYLOTHORAX_DETECTED</LocID>                       <Text>Chylotorax odhalen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHYLOTHORAX_DETECTED_DESCRIPTION</LocID>           <Text>RTG odhalilo chylotorax.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_TRANSUDATE</LocID>                         <Text>Pleurální transsudát</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_TRANSUDATE_DESCRIPTION</LocID>             <Text>MRI objevilo pleurální transsudát.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHOLESTEATOMA_DISCOVERED</LocID>                   <Text>Cholesteatom odhalen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHOLESTEATOMA_DISCOVERED_DESCRIPTION</LocID>       <Text>CT odhalilo v pacientově uchu cholesteatom.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NASAL_POLYPS_DETECTED</LocID>                      <Text>Nosní polypy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NASAL_POLYPS_DETECTED_DESCRIPTION</LocID>          <Text>CT objevilo několik menších polypů v pacientově nosní dutině.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CROUP_PRESENT</LocID>                              <Text>Krup</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CROUP_PRESENT_DESCRIPTION</LocID>                  <Text>Zhodnocení všech dosavadních příznaků potvrzuje Akutní obstrukční zánět hrtanu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MENIERES_DISEASE_PRESENT</LocID>                   <Text>Ménièrova choroba</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MENIERES_DISEASE_PRESENT_DESCRIPTION</LocID>       <Text>Zhodnocení všech dosavadních příznaků potvrzuje Ménièrovu chorobu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THROMBOCYTHEMIA</LocID>                            <Text>Trombocytémie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THROMBOCYTHEMIA_DESCRIPTION</LocID>                <Text>Výsledky krevního obrazu objevili abnormální počet krevních deštiček.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_POISON_IVY_RASH</LocID>                            <Text>Poison ivy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_POISON_IVY_RASH_DESCRIPTION</LocID>                <Text>Zhodnocení všech dosavadních příznaků potvrzuje alergickou reakci na urushiol.</Text>  </GameDBLocalizedString>
+
+            <!--new trt procedures-->
+            <GameDBLocalizedString>      <LocID>TRT_BLOOD_COMPONENT_THERAPY</LocID>                    <Text>Terapie krevními komponenty</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BLOOD_COMPONENT_THERAPY_DESCRIPTION</LocID>        <Text>Jde o specializovaný typ krevní transfuze, který může obsahovat celou krev nebo jednotlivé komponenty vrátaně červených krvinek, čerstvě zmraženou plazmu, krevní destičky, kryoprecipitát, granulocyty a rhogam. \n\nPotřebná místnost: Jakákoli Vyšetřovna / JIP / Pokoj</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FOREIGN_OBJECT_REMOVAL</LocID>                     <Text>Odstranění cizího objektu</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FOREIGN_OBJECT_REMOVAL_DESCRIPTION</LocID>         <Text>Odstranění cizího objektu/tělesa, které se nachází v ráně pacienta. \n\nPotřebná místnost: Ordinace / Pozorování - pokoj / Trauma centrum / JIP / Ordinace/Vyšetřovna na Traumatologii</Text>	</GameDBLocalizedString>
+
+            <!--internal medicine-->
+            <GameDBLocalizedString>      <LocID>TRT_THORACENTESIS</LocID>                              <Text>Torakocentéza</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_THORACENTESIS_DESCRIPTION</LocID>                  <Text>Torakocentéza - Hrudní drenáž je invazivní procedúra pro evakuaci/odstranění tekutin a vzduchu z pleurálního prostoru. \n\nPotřebná místnost: Miniinvazivní výkony \n\nPotřebné vybavení: Torakocentéza - pracovní stanice</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MIEP</LocID>                                       <Text>ORL procedúra</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MIEP_DESCRIPTION</LocID>                           <Text>Minimimálně invazivní endoskopická procedúra je používána k léčbě různých otorinolaryngologických onemocnění. \n\nPotřebná místnost: Miniinvazivní výkony \n\nPotřebné vybavení: ORL pracovní stanice</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MANNITOL_DOSES</LocID>                             <Text>Dávky manitolu</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MANNITOL_DOSES_DESCRIPTION</LocID>                 <Text>Dávky manitolu se podávají pri intoxikaci ciguatoxinem. \n\nPotřebná místnost: Vyšetřovna na Interně</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HYDROXYUREA</LocID>                                <Text>Hydroxyurea</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HYDROXYUREA_DESCRIPTION</LocID>                    <Text>Speciální léčivo, které potlačuje produkci krevních buněk v kostní dřeni. \n\nPotřebná místnost: Vyšetřovna na Interně</Text>	</GameDBLocalizedString>
+
+            <!--neurology-->
+            <GameDBLocalizedString>      <LocID>TRT_BOTULINUM_ANTITOXIN</LocID>                        <Text>Botulinový antitoxin</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BOTULINUM_ANTITOXIN_DESCRIPTION</LocID>            <Text>Speciální protilátka se schopností neutralizovat toxiny produkované bakterií Clostridium botulinum. \n\nPotřebná místnost: Vyšetřovna na Neurologii</Text>	</GameDBLocalizedString>
+            
+            <!--EXAMINATIONS - NEW-->
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_SAMPLING</LocID>                            <Text>RT-PCR odběry</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_SAMPLING_DESCRIPTION</LocID>                <Text>PCR reverzní transkriptáza je laboratorní diagnostická technika, která kombinuje reverzní transkripci RNA do DNA a amplifikaci specifických cílů DNA používaním PCR. \n\nPotřebná místnost: Hematologie \n\Odběry: Pohotovost / Infekční oddělení / JIP /\n\nPotřebné vybavení: Laboratorní sklo + PCR</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_TESTING</LocID>                             <Text>RT-PCR testování</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_TESTING_DESCRIPTION</LocID>                 <Text>PCR reverzní transkriptáza je laboratorní diagnostická technika, která kombinuje reverzní transkripci RNA do DNA a amplifikaci specifických cílů DNA používaním PCR. \n\nPotřebná místnost: Hematologie</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_SAMPLING</LocID>                             <Text>ELISA odběry</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_SAMPLING_DESCRIPTION</LocID>                 <Text>ELISA je laboratorní technika hojně využívaná k detekování a kvantifikaci peptidů, proteinů, protilátek a hormonů. \n\nOdběry: Pohotovost / Interna / Infekční oddělení / JIP \n\Potřebné vybavení: Laboratorní sklo + RIA</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_TESTING</LocID>                              <Text>ELISA testování</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_TESTING_DESCRIPTION</LocID>                  <Text>ELISA je laboratorní technika hojně využívaná k detekování a kvantifikaci peptidů, proteinů, protilátek a hormonů. \n\nPotřebná místnost: Hematologie</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PULSE_OXYMETRY</LocID>                             <Text>Pulsní oxymetrie</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PULSE_OXYMETRY_DESCRIPTION</LocID>                 <Text>Pulsní oxymetrie je na použití jednoduchá a efektivní metoda pro monitorování saturace krve kyslíkem.</Text>	</GameDBLocalizedString>
+
+            <!--OBJECTS - DEVICES-->
+            <GameDBLocalizedString>      <LocID>OBJECT_ENT_WORKSTATION</LocID>                         <Text>ORL pracovní stanice</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ENT_WORKSTATION_DESCRIPTION</LocID>             <Text>>ORL pracovní stanice je využívána pro širokou paletu ORL zákroků.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_THORA_DEVICE</LocID>                            <Text>Torakocentéza - pracovní stanice</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_THORA_DEVICE_DESCRIPTION</LocID>                <Text>Speciální ultrazvukem naváděná pracovní stanice používaná pro hrudní drenáž.</Text>	</GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SURGEON_ASSISTANTS</LocID>                             <Text>Chirurgové - asistenti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SURGEON_ASSISTANT</LocID>                              <Text>Chirurg - asistent</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SURGEON_ASSISTANT_DESCRIPTION</LocID>                  <Text>Doktor na pracovišti lékařů s rolí asistence u operací a specializací</Text>  </GameDBLocalizedString>
+            
+            <!-- Note: the name if the new room is ROOM_TYPE_UNIQUE_IM_OFFICE in this file -->
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_INTERNAL_MEDICINE_CHANGE</LocID>         <Text>Důležité změny ve hře</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_INTERNAL_MEDICINE_CHANGE_TEXT</LocID>    <Text>Oddělení interna už neprovádí operace. Naopak je teď možné postavit speciální místnost pro miniinvazivní výkony.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>BANNER_DLC_HOSPITAL_SERVICES</LocID>                   <Text>Podívejte se na DLC Nemocniční služby!</Text>  </GameDBLocalizedString>
+
+            <!--NEW OBJECT-->
+            <GameDBLocalizedString>      <LocID>OBJECT_DONT_CROSS</LocID>                              <Text>Vstup zakázán!</Text>  </GameDBLocalizedString>
+            
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

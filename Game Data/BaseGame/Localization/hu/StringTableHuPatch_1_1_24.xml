@@ -1,0 +1,182 @@
+<Database>
+    <GameDBStringTable ID="LOC_HU_PATCH_1_1_24">
+
+        <LanguageCode>hu</LanguageCode>
+        <LanguageNameLocalized>Magyar</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_UNDO</LocID>                   <Text>Utolsó változtatás visszavonása</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_UNDO_UNAVAILABLE</LocID>       <Text>Visszavonás nem lehetséges. Nem volt változás, vagy az utolsó művelet nem vonható vissza</Text>  </GameDBLocalizedString>
+            
+            <!-- ROOM TYPES -->
+
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_UNIQUE_IM_OFFICE</LocID>               <Text>Különleges eljárások egység</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_UNIQUE_IM_OFFICE_DESCRIPTION</LocID>   <Text>Egyedi belgyógyászati osztály egység, különböző speciális, minimálisan invazív eljárásokhoz.</Text>	</GameDBLocalizedString> <!--todo description-->
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_IM_UNIQUE_UNIT</LocID>              <Text>Különleges eljárások egység</Text>	</GameDBLocalizedString>
+
+            <!--PREFABS-->
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_IM_UNIQUE_OFFICE_LARGE_ABBR</LocID>  <Text>Speciális eljárások egység – 8 x 6</Text>	</GameDBLocalizedString>
+
+            <!--diagnoses-->
+
+            <!--ER-->
+            <GameDBLocalizedString>      <LocID>DIA_046</LocID>                  <Text>Influenza B</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_046_DESCRIPTION</LocID>      <Text>Az influenza B megbetegedést az influenza B vírus okozza, ami szezonális influenzajárványokért felelős az emberben.</Text>	</GameDBLocalizedString>
+            <!--GS-->
+            <GameDBLocalizedString>      <LocID>DIA_047</LocID>                  <Text>HUS</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_047_DESCRIPTION</LocID>      <Text>A haemolitikus urémiás szindróma olyan állapotra utal, amikor a vesékben a kis véredények károsodnak és begyulladnak. Az esetek többségében a fertőzésért az Escherichia coli baktérium a felelős.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_048</LocID>                  <Text>Campylobacteriosis</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_048_DESCRIPTION</LocID>      <Text>A campylobacteriosis gyakori fertőzés, amelyet leggyakrabban a Campylobacter jejuni okoz. Ez gyakran élelmiszer-eredetű betegség.</Text>	</GameDBLocalizedString>
+            <!--NE-->
+            <GameDBLocalizedString>      <LocID>DIA_049</LocID>                  <Text>PCF</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_049_DESCRIPTION</LocID>      <Text>A PCF – Pharyngoconjunctivális láz olyan állapotra utal, amit leginkább az emberi Mastadenovirus B okoz, kisebb járványokban, főleg fiatalok közösségeiben. A betegség a garatot és a szemet érinti.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_050</LocID>                  <Text>Botulizmus</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_050_DESCRIPTION</LocID>      <Text>A botulizmus ritka és potenciálisan halálos betegség, amelyet a Clostridium botulinum baktérium által termelt toxin okoz.</Text>	</GameDBLocalizedString>
+            <!--IM-->
+            <GameDBLocalizedString>      <LocID>DIA_051</LocID>                  <Text>TIA</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_051_DESCRIPTION</LocID>      <Text>A TIA – átmeneti ischaemiás roham – hasonló a stroke-hoz, de általában legfeljebb 24 órán át tart, és nem okoz maradandó károsodást.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_052</LocID>                  <Text>Mellhártyagyulladás</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_052_DESCRIPTION</LocID>      <Text>A mellhártyagyulladás olyan állapotra utal, amikor a tüdőt körülvevő hártyák begyulladnak.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_053</LocID>                  <Text>Azbesztózis</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_053_DESCRIPTION</LocID>      <Text>Az azbesztózis olyan állapotra utal, amelyet a tüdőben mikroszkopikus azbeszt ásványi lerakódások okoznak.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_054</LocID>                  <Text>Miliaria</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_054_DESCRIPTION</LocID>      <Text>A miliaria, más néven „melegkiütés” olyan bőrbetegség, amely gyakori a meleg és párás körülmények között.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_055</LocID>                  <Text>Ciguatera</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_055_DESCRIPTION</LocID>      <Text>A ciguateramérgezés vagy más néven ciguatera élelmiszer-eredetű betegség, amelyet bizonyos toxinokkal szennyezett halhús fogyasztása okoz.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_056</LocID>                  <Text>Pleurális empyema</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_056_DESCRIPTION</LocID>      <Text>A pleurális empyema a mellhártyaüregben bakteriális fertőzés okozta, felhalmozódott gennyre utal.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_057</LocID>                  <Text>Chylothorax</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_057_DESCRIPTION</LocID>      <Text>Chylothorax olyan állapotra utal, amelyet a mellhártya rétegei között felhalmozódó nyirok okoz.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_058</LocID>                  <Text>Parapneumoniás folyadékgyülem</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_058_DESCRIPTION</LocID>      <Text>A parapneumoniás folyadékgyülem olyan állapotra utal, amely tüdőgyulladás, hörgőtágulat vagy tüdőtályog eredményeként jöhet létre.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_059</LocID>                  <Text>Cholesteatoma</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_059_DESCRIPTION</LocID>      <Text>A cholesteatoma jóindulatú bőrkinövés, gyakran az ismételt középfülgyulladás okozza.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_060</LocID>                  <Text>Krupp</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_060_DESCRIPTION</LocID>      <Text>A kruppot vagy más néven laryngotracheobronchitist általában vírus okozza, ritkán bakteriális fertőzés.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_061</LocID>                  <Text>Orrpolip</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_061_DESCRIPTION</LocID>      <Text>Az orrpolip jóindulatú túlburjánzás az orrüregben.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_062</LocID>                  <Text>Meniere-kór</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_062_DESCRIPTION</LocID>      <Text>A Meniere-kór a belső fül megbetegedése, amelyre jellemző a tisztázatlan okú szédülés.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_063</LocID>                  <Text>Esszenciális trombocitémia</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_063_DESCRIPTION</LocID>      <Text>Az esszenciális trombocitémia olyan ritka állapotra utal, amikor a beteg szervezete a szükségesnél sokkal több vérlemezkét termel.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_064</LocID>                  <Text>Mérges szömörce okozta kiütés</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_064_DESCRIPTION</LocID>      <Text>A mérges szömörce okozta kiütés allergiás reakció a mérges szömörce, a tölgy és a szömörcefa levelében, szárában és gyökerében található urushiol gyantára.</Text>	</GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRM_001</LocID>                  <Text>Haemothorax</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_001_DESCRIPTION</LocID>      <Text>A haemothorax a vér felgyülemlése a mellhártyaüregben, amit általában mellkasi sérülés okoz.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_002</LocID>                  <Text>Légmell</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_002_DESCRIPTION</LocID>      <Text>A légmell többnyire klinikai körülmények között fordul elő, például lélegeztetés, újraélesztés vagy tüdőbeteg emberek esetében.</Text>	</GameDBLocalizedString>
+
+            
+            <!-- shared symptoms used at internal medicine-->
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_EFFUSION</LocID>                           <Text>Pleurális folyadékgyülem</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_EFFUSION_DESCRIPTION</LocID>               <Text>Az MRI pleurális folyadékgyülemet észlelt.</Text>  </GameDBLocalizedString>
+            
+               
+            <!--main symptoms - INTERNAL MEDICINE-->
+            <GameDBLocalizedString>      <LocID>SYM_INFLUENZA_B_DETECTED</LocID>                       <Text>Influenza B kimutatva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INFLUENZA_B_DETECTED_DESCRIPTION</LocID>           <Text>A szerológiai tesztek influenza B vírussal kapcsolatos antitesteket mutattak ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_E_COLI_TOXIN_DETECTED</LocID>                      <Text>E. coli toxin kimutatva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_E_COLI_TOXIN_DETECTED_DESCRIPTION</LocID>          <Text>A székletelemzés E. coli által termelt toxint mutatott ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_JEJUNI_DETECTED</LocID>                          <Text>C. jejuni kimutatva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_JEJUNI_DETECTED_DESCRIPTION</LocID>              <Text>Az ELISA Campylobacter jejuni antigéneket mutatott ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MASTADENOVIRUS_B_DETECTED</LocID>                  <Text>Mastadenovirus B kimutatva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MASTADENOVIRUS_B_DETECTED_DESCRIPTION</LocID>      <Text>A PCR vizsgálat emberi Mastadenovirus B-t mutatott ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TIA_DETECTED</LocID>                               <Text>TIA kimutatva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TIA_DETECTED_DESCRIPTION</LocID>                   <Text>Az MRI átmeneti ischaemiás roham jeleit mutatta ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_BOTULINUM_DETECTED</LocID>                       <Text>C. botulinum kimutatva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_BOTULINUM_DETECTED_DESCRIPTION</LocID>           <Text>Az ELISA Clostridium botulinum jelenlétét mutatta ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BACTERIAL_INFECTION_DETECTED</LocID>               <Text>Bakteriális fertőzés kimutatva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BACTERIAL_INFECTION_DETECTED_DESCRIPTION</LocID>   <Text>A PCR vizsgálat erős bakteriális fertőzést mutatott ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ASBESTOSIS_DETECTED</LocID>                        <Text>Azbesztózis kimutatva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ASBESTOSIS_DETECTED_DESCRIPTION</LocID>            <Text>A CT-vizsgálat azbesztózisra utaló elváltozásokat mutatott ki a beteg tüdejében.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEAT_RASH</LocID>                                  <Text>Melegkiütés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEAT_RASH_DESCRIPTION</LocID>                      <Text>Az összes tünet kiértékelése és az ismert részletek megerősítik a melegkiütés diagnózisát.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CIGUATOXIN_DETECTED</LocID>                        <Text>Ciguatoxin kimutatva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CIGUATOXIN_DETECTED_DESCRIPTION</LocID>            <Text>A vérvizsgálat ciguatoxin mérgezést mutatott ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMOTHORAX_DISCOVERED</LocID>                      <Text>Haemothorax kimutatva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMOTHORAX_DISCOVERED_DESCRIPTION</LocID>          <Text>Az ultrahangos vizsgálat nagy mennyiségű vért mutatott ki a beteg mellhártyaüregében.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PUNCTURED_LUNGS</LocID>                            <Text>Átszúródott tüdő</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PUNCTURED_LUNGS_DESCRIPTION</LocID>                <Text>Az ultrahangos vizsgálat átszúródott tüdőt mutatott ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_FLUID_INFECTED</LocID>                     <Text>Fertőzött pleurális folyadék</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_FLUID_INFECTED_DESCRIPTION</LocID>         <Text>A pleurális folyadék szövettani vizsgálata megerősítette a fertőzést.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHYLOTHORAX_DETECTED</LocID>                       <Text>Chylothorax kimutatva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHYLOTHORAX_DETECTED_DESCRIPTION</LocID>           <Text>A röntgenvizsgálat chylothoraxot felfedezett fel.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_TRANSUDATE</LocID>                         <Text>Mellhártya vizenyő</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_TRANSUDATE_DESCRIPTION</LocID>             <Text>Az MRI mellhártya vizenyő jelenlétét mutatta ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHOLESTEATOMA_DISCOVERED</LocID>                   <Text>Koleszteatóma kimutatva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHOLESTEATOMA_DISCOVERED_DESCRIPTION</LocID>       <Text>A CT-vizsgálat koleszteatómát mutatott ki a páciens fülében.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NASAL_POLYPS_DETECTED</LocID>                      <Text>Orrpolip kimutatva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NASAL_POLYPS_DETECTED_DESCRIPTION</LocID>          <Text>A CT-vizsgálat kis polipokat mutatott ki a beteg orrüregben.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CROUP_PRESENT</LocID>                              <Text>Krupp kimutatva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CROUP_PRESENT_DESCRIPTION</LocID>                  <Text>Az összes tünet kiértékelése és az ismert részletek megerősítik a krupp diagnózisát.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MENIERES_DISEASE_PRESENT</LocID>                   <Text>Meniere-kór</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MENIERES_DISEASE_PRESENT_DESCRIPTION</LocID>       <Text>Az összes tünet kiértékelése és az ismert részletek megerősítik a Meniere-kór diagnózisát.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THROMBOCYTHEMIA</LocID>                            <Text>Trombocitémia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THROMBOCYTHEMIA_DESCRIPTION</LocID>                <Text>A teljes vérkép abnormálisan magas trombocitaszámot mutatott ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_POISON_IVY_RASH</LocID>                            <Text>Mérges szömörce okozta kiütés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_POISON_IVY_RASH_DESCRIPTION</LocID>                <Text>Az összes tünet kiértékelése és az ismert részletek megerősítik a szömörce okozta kiütés diagnózisát.</Text>  </GameDBLocalizedString>
+
+            <!--new trt procedures-->
+            <GameDBLocalizedString>      <LocID>TRT_BLOOD_COMPONENT_THERAPY</LocID>                    <Text>Vérkomponens terápia</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BLOOD_COMPONENT_THERAPY_DESCRIPTION</LocID>        <Text>Speciális vérátömlesztés, amely tartalmazhatja a teljes vért, vagy egyedi komponenseket, beleértve a vörös vértesteket, friss, fagyasztott plazmát, vérlemezkéket, krioprecipitátumot, granulocita komponenseket és RhoGAM-ot. \n\nSzükséges szoba: Bármi Sebészeti vizsgáló / Intenzív / Kórterem</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FOREIGN_OBJECT_REMOVAL</LocID>                     <Text>Idegen test eltávolítása</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FOREIGN_OBJECT_REMOVAL_DESCRIPTION</LocID>         <Text>A sebben jelen lévő idegen test eltávolítása. \n\nSzükséges szoba: orvosi rendelő / megfigyelő szoba / traumatológia / Intenzív / rendelő/vizsgáló az Traumatológia</Text>	</GameDBLocalizedString>
+
+            <!--internal medicine-->
+            <GameDBLocalizedString>      <LocID>TRT_THORACENTESIS</LocID>                              <Text>Mellkascsapolás</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_THORACENTESIS_DESCRIPTION</LocID>                  <Text>Invazív eljárás a mellhártyaüregben lévő folyadék vagy levegő eltávolítására. \n\nSzükséges szoba: Különleges eljárások egység \n\nSzükséges felszerelés: Mellkascsapolás eszköz</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MIEP</LocID>                                       <Text>MIEP</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MIEP_DESCRIPTION</LocID>                           <Text>A minimál invazív endoszkópos eljárást különböző orr-gégészeti betegségek kezelésére használják. \n\nSzükséges szoba: Különleges eljárások egység \n\nSzükséges felszerelés: ENT munkaállomás</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MANNITOL_DOSES</LocID>                             <Text>Mannitol adagolás</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MANNITOL_DOSES_DESCRIPTION</LocID>                 <Text>Mannitol adagolása az emberi testbe ciguatoxin mérgezés leküzdésére. \n\nSzükséges szoba: Vizsgáló az Belgyógyászat / Intenzív</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HYDROXYUREA</LocID>                                <Text>Hidroxikarbamid</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HYDROXYUREA_DESCRIPTION</LocID>                    <Text>Speciális gyógyszert, amely csökkenti a vérsejtek termelődését a csontvelőben. \n\nSzükséges szoba: Vizsgáló az Belgyógyászat / Intenzív</Text>	</GameDBLocalizedString>
+
+            <!--neurology-->
+            <GameDBLocalizedString>      <LocID>TRT_BOTULINUM_ANTITOXIN</LocID>                        <Text>Botulinum antitoxin</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BOTULINUM_ANTITOXIN_DESCRIPTION</LocID>            <Text>Speciális antitest, amely képes semlegesíteni a Clostridium botulinum által termelt toxint. \n\nSzükséges szoba: Vizsgáló az Neurológia / Intenzív</Text>	</GameDBLocalizedString>
+            
+            <!--EXAMINATIONS - NEW-->
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_SAMPLING</LocID>                            <Text>RT-PCR mintavétel</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_SAMPLING_DESCRIPTION</LocID>                <Text>A reverz transzkriptáz polimeráz-láncreakció olyan laboratóriumi eljárás, ahol az RNS reverz transzkriptázt DNS-be ültetik, és specifikus DNS célokat erősítenek PCR alkalmazásával.\n\nSzükséges szoba: Hematológiai labor\n\nMintavételezés: Sürgősségi oszt. / Fertőző oszt. / Intenzív /\n\nSzükséges felszerelés: Üvegedények + DNS elemző</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_TESTING</LocID>                             <Text>RT-PCR vizsgálat</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_TESTING_DESCRIPTION</LocID>                 <Text>A reverz transzkriptáz polimeráz-láncreakció olyan laboratóriumi eljárás, ahol az RNS reverz transzkriptázt DNS-be ültetik, és specifikus DNS célokat erősítenek PCR alkalmazásával.\n\nSzükséges szoba: Hematológiai labor</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_SAMPLING</LocID>                             <Text>ELISA mintavételezés</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_SAMPLING_DESCRIPTION</LocID>                 <Text>Az enzim kapcsolt immunszorbens vizsgálat laboratóriumi technika peptidek, fehérjék, antitestek és hormonok kimutatására és mennyiségi mérésére.\n\nMintavételezés: Sürgősségi oszt. / Belgyógyászati oszt. / Fertőző oszt. / Intenzív \n\nSzükséges felszerelés: Üvegedények + RIA</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_TESTING</LocID>                              <Text>ELISA tesztelés</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_TESTING_DESCRIPTION</LocID>                  <Text>Az enzim kapcsolt immunszorbens vizsgálat laboratóriumi technika peptidek, fehérjék, antitestek és hormonok kimutatására és mennyiségi mérésére.\n\nSzükséges szoba: Hematológiai labor</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PULSE_OXYMETRY</LocID>                             <Text>Pulzoximetria</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PULSE_OXYMETRY_DESCRIPTION</LocID>                 <Text>A pulzoximetria könnyen használható és hatékony módszer a beteg oxigénszaturációjának ellenőrzésére.</Text>	</GameDBLocalizedString>
+
+            <!--OBJECTS - DEVICES-->
+            <GameDBLocalizedString>      <LocID>OBJECT_ENT_WORKSTATION</LocID>                         <Text>ENT munkaállomás</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ENT_WORKSTATION_DESCRIPTION</LocID>             <Text>Gégészeti munkaállomás fül-orr-gégészeti eljárások széles palettájához.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_THORA_DEVICE</LocID>                            <Text>Mellkascsapolás eszköz</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_THORA_DEVICE_DESCRIPTION</LocID>                <Text>Különleges, ultrahang-vezérelt készülék, elsősorban mellkascsapolási eljárásokhoz.</Text>	</GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SURGEON_ASSISTANTS</LocID>                             <Text>Segédsebészek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SURGEON_ASSISTANT</LocID>                              <Text>Segédsebész</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SURGEON_ASSISTANT_DESCRIPTION</LocID>                  <Text>Orvos az ügyeleti szobában, műtétnél segít, szakosodott</Text>  </GameDBLocalizedString>
+            
+            <!-- Note: the name if the new room is ROOM_TYPE_UNIQUE_IM_OFFICE in this file -->
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_INTERNAL_MEDICINE_CHANGE</LocID>         <Text>Fontos változások a játékmenetben</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_INTERNAL_MEDICINE_CHANGE_TEXT</LocID>    <Text>A belgyógyászati osztály többé nem kínál műtéti eljárásokat. Mostantól építhetsz egy új, különleges eljárások egységet a speciális vizsgálatok és kezelések elvégzéséhez.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>BANNER_DLC_HOSPITAL_SERVICES</LocID>                   <Text>Nézd meg a Kórházi szolgáltatások DLC-t!</Text>  </GameDBLocalizedString>
+
+            <!--NEW OBJECT-->
+            <GameDBLocalizedString>      <LocID>OBJECT_DONT_CROSS</LocID>                               <Text>Személyzeti ajtó</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

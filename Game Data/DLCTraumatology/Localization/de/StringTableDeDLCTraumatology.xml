@@ -1,0 +1,386 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_DE_DLC_TRAUMATOLOGY">
+
+        <LanguageCode>de</LanguageCode>
+        <LanguageNameLocalized>Deutsch</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>DLC_TRAUMATOLOGY</LocID>                                       <Text>Traumatologie DLC</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DPT_TRAUMATOLOGY_DEPARTMENT</LocID>                            <Text>Traumatologie</Text>  </GameDBLocalizedString>
+
+            <!-- Hospitalization alias -->
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_BURN_CENTER</LocID>                        <Text>Aufnahme auf die Verbrennungsstation</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_BURN_CENTER_DESCRIPTION</LocID>            <Text>Aufnahme des Patienten auf die Verbrennungsstation mit Spezialbehandlung.\n\nBenötigtes Zimmer: Verbrennungsstation</Text>  </GameDBLocalizedString>
+
+            <!--ROOMS-->
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_BURN_UNIT</LocID>                                    <Text>Verbrennungsstation</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_BURN_UNIT_DESCRIPTION</LocID>                        <Text>Die Verbrennungsstation ist auf die Behandlung von Verbrennungen aller Arten spezialisiert.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_TRAUMATOLOGY_OFFICE</LocID>                          <Text>Traumatologiebüro</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_TRAUMATOLOGY_OFFICE_DESCRIPTION</LocID>              <Text>Klinikbüro für einfache Untersuchungen und Behandlungen. Benötigte Mitarbeiter:\n1x Traumatologe</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_TRAUMATOLOGY_OFFICE</LocID>                <Text>Diagnosestation</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_TRAUMATOLOGY_OFFICE_DESCRIPTION</LocID>    <Text>Im Diagnosebereich der Abteilung für Traumatologie werden Untersuchungen und Behandlungen von aufgenommenen Patienten durchgeführt.\n\nBenötigte Mitarbeiter:\n1x Traumatologe\n(Personal befindet sich im Bereitschaftsraum)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_TRAUMATOLOGY</LocID>  <Text>Kardiografiebereich</Text>  </GameDBLocalizedString>
+
+            <!-- SKILLS-->
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_TRAUMATOLOGY</LocID>                            <Text>Traumatologie</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_TRAUMATOLOGY_DESCRIPTION</LocID>                <Text>Traumatologen sind auf die Behandlung von ernsten körperlichen Verletzungen spezialisiert, die sofort medizinisch versorgt werden müssen.</Text>	</GameDBLocalizedString>
+                                                                                                            
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_TRAUMA_SURGERY</LocID>                          <Text>Unfallchirurgie</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_TRAUMA_SURGERY_DESCRIPTION</LocID>              <Text>Unfallchirurgen sind auf komplexe chirurgische Eingriffe zur Behandlung von Traumata und Polytraumata spezialisiert.</Text>	</GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]BuildingMode.xml -->
+            <!-- DLC OBJECTS - some objects share descriptions with other objects in the base game so only their names need to be translated -->
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_DLC_HELICOPTER_01</LocID>                     <Text>Helikopter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_DLC_HELICOPTER_01_DESCRIPTION</LocID>         <Text>Helikopter</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_DLC_HELIPORT</LocID>                             <Text>Helikopter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_DLC_HELIPORT_DESCRIPTION</LocID>                 <Text>Helikopter bringen besonders schwer verletzte Patienten ins Krankenhaus.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_MARKER_HELIPORT</LocID>                             <Text>Helipad-Lichter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_HELIPAD_LIGHT_RED</LocID>                               <Text>Helipad-Lichter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_HELIPAD_LIGHT_GREEN</LocID>                             <Text>Helipad-Lichter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_MARKER_HELIPORT_DESCRIPTION</LocID>                 <Text>Die Helipad-Lichter bieten visuelle Signale für Landungen bei Nacht.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_TALL_X</LocID>                        <Text>Ausrüstungsschrank – groß</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_TRAUMA1</LocID>                                  <Text>Poster – Unfälle</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_TRAUMA2</LocID>                                  <Text>Poster – Blutspender</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LIFE_MONITOR_WALL_X</LocID>                             <Text>Life-Monitor – Wand</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TRAUMA_TOOLS</LocID>                                    <Text>Traumawerkzeuge</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TRAUMA_TOOLS_DESCRIPTION</LocID>                        <Text>Spezielle medizinische Instrumente, die für alle Traumatologieeinheiten geeignet sind.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_X</LocID>                             <Text>Ausrüstungsschrank</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BED_SOCKET_X</LocID>                                    <Text>Bettensockel</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_BURN_UNIT</LocID>                                 <Text>Verbrennungsstation</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_BEDSIDE_X</LocID>                               <Text>Nachtschrank</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_FUTURISTIC_BED</LocID>                        <Text>Hochmodernes Krankenhausbett</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_FUTURISTIC_BED_DESCRIPTION</LocID>            <Text>Modernes Bett mit Seitenschienen aus Glas.</Text>  </GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_ONLY_FLOORS_WITH_ELEVATORS</LocID>                 <Text>kann nur auf Etagen platziert werden, die über Fahrstühle erreichbar sind.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_ROOF_ABOVE</LocID>                                 <Text>kann nicht unter anderen Etagen platziert werden.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_TRAUMATOLOGY</LocID>                   <Text>Vorlagen für Traumatologieabteilungsräume</Text>  </GameDBLocalizedString>
+
+
+            <!-- TILES-->
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_WHITE_ROAD</LocID>                      	     	   <Text>Weiße Straße</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_YELLOW_ROAD</LocID>                           	   <Text>Gelbe Straße</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_LINE_YELLOW</LocID>                           	   <Text>Straße mit einer gelben Linie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_LINE_WIDE_WHITE</LocID>                             <Text>Straße mit einer breiten weißen Linie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_LINE_WIDE_YELLOW</LocID>                            <Text>Straße mit einer breiten gelben Linie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_WARNING_LINES_L</LocID>                             <Text>Warnlinien</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_WARNING_LINES_R</LocID>                             <Text>Warnlinien</Text>  </GameDBLocalizedString>
+                                                                                                            
+            <!-- OCCUPATIONS-->                                                                             
+            <GameDBLocalizedString>      <LocID>OCCUPATION_POLICE</LocID>                         	     	   <Text>Polizist</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_FIREFIGHTER</LocID>                                 <Text>Feuerwehrmann</Text>	</GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Tutorial.xml -->
+            <!-- ============== -->
+            <!--EVENTS ACCIDENTS-->
+            <!-- ============== -->
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_TD_ROBBERY</LocID>                          <Text>Gerade wurde ein bewaffneter Raubüberfall mitsamt Schießerei im Stadtzentrum gemeldet. Alle Verdächtigen konnten festgenommen werden und die Rettungsdienste bringen alle Verwundeten in nahe Krankenhäuser. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_TD_FIRE</LocID>                             <Text>In einem Hochhaus in einem Wohnbezirk ist ein Feuer ausgebrochen. Feuerwehrleute und Polizisten sind damit beschäftigt, die Bewohner in Sicherheit zu bringen. Dein Krankenhaus sollte sich auf eine hohe Anzahl an Patienten mit Verbrennungen vorbereiten.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_TD_POWERPLANT</LocID>                       <Text>Berichten zufolge ist es in einem örtlichen Elektrizitätswerk zu einer Explosion gekommen, woraufhin ein Feuer ausgebrochen ist. Die Rettungsdienste sind bereits vor Ort und bringen die Verwundeten in nahe gelegene Krankenhäuser.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_TD_TERRORIST</LocID>                        <Text>Der örtliche Flughafen wurde grade das Ziel eines Terrorangriffs. Die Polizei hat das gesamte Gebiet abgeriegelt, es gibt aber immer noch jede Menge Tote und Verwundete. Die Rettungsdienste haben damit begonnen, alle Schwerverletzten zu nahen gelegenen Krankenhäusern zu transportieren.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_TD_SHOOTOUT</LocID>                         <Text>Eine Verfolgungsjagd zwischen der Polizei und einem gepanzerten Truck endete mit einer Schießerei, im Zuge derer überall im Gebiet Leute verletzt wurden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_TD_FOREST</LocID>                           <Text>Feuerwehrleute kämpfen gegen einen gewaltigen Waldbrand, der tausende Menschen aus ihren Häusern vertrieben und hunderte verletzt hat. Die Krankenhäuser in der gesamten Region müssen sich auf eine erhöhte Anzahl an Patienten mit ernsten Verletzungen vorbereiten.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_TD_PYRO</LocID>                             <Text>Im Hafen der Stadt ist ein Lagerhaus voller Feuerwerkskörper explodiert und hat die umliegenden Gebäude in Brand gesteckt. Dabei wurden hunderte Menschen verletzt und die Rettungsdienste bringen sie in nahe gelegene Krankenhäuser.</Text>  </GameDBLocalizedString>
+
+
+            <!--SYMPTOMS-->
+            <GameDBLocalizedString>      <LocID>SYM_LARGE_ARTERIES_DAMAGED</LocID>                    <Text>Große Arterien wurden beschädigt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LARGE_ARTERIES_DAMAGED_DESCRIPTION</LocID>        <Text>Einige größere Arterien wurden beschädigt und könnten zu lebensbedrohlichen Komplikationen führen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOXIA</LocID>                                   <Text>Hypoxie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOXIA_DESCRIPTION</LocID>                       <Text>Die Hypoxie bezeichnet einen Sauerstoffmangel im Blut.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOTHERMIA</LocID>                               <Text>Hypothermie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOTHERMIA_DESCRIPTION</LocID>                   <Text>Die Hypothermie bezeichnet eine signifikante Unterkühlung des Körpers.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FOREIGN_OBJECT_PRESENT</LocID>                    <Text>Fremdkörper vorhanden</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FOREIGN_OBJECT_PRESENT_DESCRIPTION</LocID>        <Text>In der Wunde befindet sich immer noch ein Fremdkörper oder Teile davon, was zu ernsten Komplikationen führen kann.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LIVER_DAMAGED</LocID>                             <Text>Leber beschädigt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LIVER_DAMAGED_DESCRIPTION</LocID>                 <Text>Schwere innere Verletzungen an der Leber können zu lebensbedrohlichen Komplikationen führen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SPLEEN_DAMAGED</LocID>                            <Text>Milz beschädigt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SPLEEN_DAMAGED_DESCRIPTION</LocID>                <Text>Schwere innere Verletzungen an der Milz können zu lebensbedrohlichen Komplikationen führen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LUNGS_PERFORATED</LocID>                          <Text>Lungen perforiert</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LUNGS_PERFORATED_DESCRIPTION</LocID>              <Text>Eine Perforierung der Lungenmembranen und des Lungengewebes.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PANCREAS_DAMAGED</LocID>                          <Text>Pankreas beschädigt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PANCREAS_DAMAGED_DESCRIPTION</LocID>              <Text>Schwere innere Verletzungen am Pankreasgewebe können zu lebensbedrohlichen Komplikationen führen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_KIDNEY_DAMAGED</LocID>                            <Text>Niere beschädigt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_KIDNEY_DAMAGED_DESCRIPTION</LocID>                <Text>Schwere innere Verletzungen am Nierengewebe können zu lebensbedrohlichen Komplikationen führen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STOMACH_PERFORATED</LocID>                        <Text>Magen perforiert</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STOMACH_PERFORATED_DESCRIPTION</LocID>            <Text>Eine Perforierung des Magens kann zu lebensbedrohlichen Komplikationen führen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SMALL_INTESTINE_PERFORATED</LocID>                <Text>Dünndarm perforiert</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SMALL_INTESTINE_PERFORATED_DESCRIPTION</LocID>    <Text>Eine ernste Perforierung des Dünndarms kann zu lebensbedrohlichen Komplikationen führen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LARGE_INTESTINE_PERFORATED</LocID>                <Text>Dickdarm perforiert</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LARGE_INTESTINE_PERFORATED_DESCRIPTION</LocID>    <Text>Eine ernste Perforierung des Dickdarms kann zu lebensbedrohlichen Komplikationen führen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TIBIAL_FRACTURE</LocID>                           <Text>Schienbeinfraktur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TIBIAL_FRACTURE_DESCRIPTION</LocID>               <Text>Bruch des Schienbeins – großes Wadenbein.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FEMORAL_FRACTURE</LocID>                          <Text>Femurfraktur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FEMORAL_FRACTURE_DESCRIPTION</LocID>              <Text>Bruch des Femur-Knochens – Oberschenkelknochen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ULNAR_FRACTURE</LocID>                            <Text>Ellenfraktur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ULNAR_FRACTURE_DESCRIPTION</LocID>                <Text>Bruch des Ellenknochens – einer der beiden Knochen des Unterarms.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RADIAL_FRACTURE</LocID>                           <Text>Speichenfraktur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RADIAL_FRACTURE_DESCRIPTION</LocID>               <Text>Bruch des Speichenknochens – einer der beiden Knochen des Unterarms.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HUMERAL_FRACTURE</LocID>                          <Text>Oberarmfraktur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HUMERAL_FRACTURE_DESCRIPTION</LocID>              <Text>Bruch des Oberarms – befindet sich im Schulterbereich des Arms.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FRAGMENTED_RIBS</LocID>                           <Text>Zersplitterte Rippen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FRAGMENTED_RIBS_DESCRIPTION</LocID>               <Text>Zersplitterte und/oder gebrochene Rippenknochen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLISTERS</LocID>                                  <Text>Blasen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLISTERS_DESCRIPTION</LocID>                      <Text>Eine kleine Flüssigkeitstasche zwischen den oberen (Epidermis) und darunterliegenden Schichten der Haut, die häufig durch Reibungen oder Hitze entstehen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DESQUAMATION</LocID>                              <Text>Desquamation</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DESQUAMATION_DESCRIPTION</LocID>                  <Text>Die Desquamation, die auch als Schuppung bekannt ist, bezeichnet den Verlust der äußersten Hautschicht.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DARK_SKIN</LocID>                                 <Text>Hautverdunkelung</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DARK_SKIN_DESCRIPTION</LocID>                     <Text>Eine abnormale Verdunkelung der Haut.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NECROSIS</LocID>                                  <Text>Nekrose</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NECROSIS_DESCRIPTION</LocID>                      <Text>Die Nekrose bezeichnet ein verfrühtes Absterben des Gewebes, das durch seine eigenen Enzyme hervorgerufen wird. Die Nekrose tritt vor allem dann auf, wenn das Gewebe mit zu wenig Blut versorgt wird. Dies kann durch eine Verletzung, Strahlung oder Chemikalien ausgelöst werden. Nekrosen können nicht rückgängig gemacht werden.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SYM_GUNSHOT_WOUND</LocID>                             <Text>Schusswunde</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_GUNSHOT_WOUND_DESCRIPTION</LocID>                 <Text>Eine Einschuss- oder Durchschusswunde, die vom Projektil einer Schusswaffe verursacht wurde.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BALLISTIC_WOUND</LocID>                           <Text>Ballistische Wunde</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BALLISTIC_WOUND_DESCRIPTION</LocID>               <Text>Eine Durchschuss- oder Einschusswunde, die von einem Projektil verursacht wurde.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STAB_WOUND</LocID>                                <Text>Stichwunde</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STAB_WOUND_DESCRIPTION</LocID>                    <Text>Eine Wunde, die durch einen Stich verursacht wurde.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PENETRATING_WOUND</LocID>                         <Text>Penetrationswunde</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PENETRATING_WOUND_DESCRIPTION</LocID>             <Text>Eine Wunde, die durch das Eindringen eines Fremdkörpers verursacht wurde.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLAST_WOUND</LocID>                               <Text>Knallwunde</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLAST_WOUND_DESCRIPTION</LocID>                   <Text>Wunde oder Wunden, die durch eine Explosion verursacht wurden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BURN_WOUND</LocID>                                <Text>Brandwunde</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BURN_WOUND_DESCRIPTION</LocID>                    <Text>Eine Brandwunde, die durch Hitze, Kälte, Elektrizität, Chemikalien, Reibung oder Strahlung verursacht wurde, wirkt sich auf die Haut oder anderes Gewebe aus.</Text>  </GameDBLocalizedString>
+
+            <!--DIAGNOSES-->
+            <!--migrated-->
+            <GameDBLocalizedString>      <LocID>TRM_PLPX</LocID>                   <Text>Lungeneinriss</Text>  </GameDBLocalizedString>
+            
+            <!--brand new-->
+            <GameDBLocalizedString>      <LocID>TRM_003</LocID>                    <Text>Hepatosplenischer Einriss</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_003_DESCRIPTION</LocID>        <Text>Tritt auf, wenn ein Objekt in den Körper eindringt und sowohl die Leber als auch die Milz gleichzeitig einreißt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_004</LocID>                    <Text>Splenopankreatischer Einriss</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_004_DESCRIPTION</LocID>        <Text>Tritt auf, wenn ein Objekt in den Körper eindringt und sowohl das Pankreas als auch die Milz gleichzeitig einreißt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_005</LocID>                    <Text>Oberbauch-Schusswunde</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_005_DESCRIPTION</LocID>        <Text>Ein physisches Trauma, das von der Kugel einer Schusswaffe verursacht wurde, die in den Oberbauch des Patienten eingedrungen ist. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_006</LocID>                    <Text>Ballistische Unterleibswunde</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_006_DESCRIPTION</LocID>        <Text>Ein ballistisches Trauma, das durch ein Hochgeschwindigkeitsprojektil verursacht wurde und schwere Verletzungen am Skelett, den Gefäßen, den Nerven und großen Teilen des Weichgewebes nach sich gezogen hat – betrifft den Bauchraum des Patienten. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_007</LocID>                    <Text>Brust-Schusswunde</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_007_DESCRIPTION</LocID>        <Text>Ein physisches Trauma, das von der Kugel einer Schusswaffe verursacht wurde, die in die Brust des Patienten eingedrungen ist.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_008</LocID>                    <Text>Ballistische Halswunde</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_008_DESCRIPTION</LocID>        <Text>Ein ballistisches Trauma, das durch ein Hochgeschwindigkeitsprojektil verursacht wurde und schwere Verletzungen am Skelett, den Gefäßen, den Nerven und großen Teilen des Weichgewebes nach sich gezogen hat – betrifft den Halsbereich des Patienten.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_009</LocID>                    <Text>Ballistische Armwunde</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_009_DESCRIPTION</LocID>        <Text>Ein ballistisches Trauma, das durch ein Hochgeschwindigkeitsprojektil verursacht wurde und schwere Verletzungen am Skelett, den Gefäßen, den Nerven und großen Teilen des Weichgewebes nach sich gezogen hat – betrifft die obere Extremität des Patienten.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_010</LocID>                    <Text>Ballistische Beinwunde</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_010_DESCRIPTION</LocID>        <Text>Ein ballistisches Trauma, das durch ein Hochgeschwindigkeitsprojektil verursacht wurde und schwere Verletzungen am Skelett, den Gefäßen, den Nerven und großen Teilen des Weichgewebes nach sich gezogen hat – betrifft die untere Extremität des Patienten.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_011</LocID>                    <Text>Schockwunde im Unterleibsbereich</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_011_DESCRIPTION</LocID>        <Text>Die polytraumatische Penetration durch einen Körper, der die Haut durchdrungen hat, in den Körper eingedrungen ist und alle nahen Strukturen und Organen schwer beschädigt hat.</Text>  </GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_012</LocID>                    <Text>Stichwunde im Unterleibsbereich</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_012_DESCRIPTION</LocID>        <Text>Die Stichwunde ist eine spezielle Form eines penetrierenden Traumas an der Haut, das durch ein Messer oder ein spitzes Objekt verursacht wurde.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_013</LocID>                    <Text>Stichwunde im Brustbereich</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_013_DESCRIPTION</LocID>        <Text>Die Stichwunde ist eine spezielle Form eines penetrierenden Traumas an der Haut, das durch ein Messer oder ein spitzes Objekt verursacht wurde.</Text>  </GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_014</LocID>                    <Text>Schockwunde im Halsbereich</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_014_DESCRIPTION</LocID>        <Text>Die polytraumatische Penetration durch einen Körper, der die Haut durchdrungen hat, in den Körper eingedrungen ist und alle nahen Strukturen und Organen schwer beschädigt hat.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_015</LocID>                    <Text>Schockwunde im Armbereich</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_015_DESCRIPTION</LocID>        <Text>Die polytraumatische Penetration durch einen Körper, der die Haut durchdrungen hat, in den Körper eingedrungen ist und alle nahen Strukturen und Organen schwer beschädigt hat.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_016</LocID>                    <Text>Schockwunde im Beinbereich</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_016_DESCRIPTION</LocID>        <Text>Die polytraumatische Penetration durch einen Körper, der die Haut durchdrungen hat, in den Körper eingedrungen ist und alle nahen Strukturen und Organen schwer beschädigt hat.</Text>  </GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_017</LocID>                    <Text>Knalltrauma im Unterleibsbereich</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_017_DESCRIPTION</LocID>        <Text>Knalltraumata sind komplexe physische Traumata, die entstehen, wenn der Körper direkten oder indirekten Explosionen ausgesetzt ist.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_018</LocID>                    <Text>Knalltrauma im Brustbereich</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_018_DESCRIPTION</LocID>        <Text>Knalltraumata sind komplexe physische Traumata, die entstehen, wenn der Körper direkten oder indirekten Explosionen ausgesetzt ist.</Text>  </GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_019</LocID>                    <Text>Leichte Frostbeulen auf den Händen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_019_DESCRIPTION</LocID>        <Text>Frostbeulen sind potenziell ernste Verletzungen, die auftreten, wenn Körperteile Temperaturen unter dem Gefrierpunkt ausgesetzt werden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_020</LocID>                    <Text>Schwere Frostbeulen auf den Händen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_020_DESCRIPTION</LocID>        <Text>Frostbeulen sind potenziell ernste Verletzungen, die auftreten, wenn Körperteile Temperaturen unter dem Gefrierpunkt ausgesetzt werden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_021</LocID>                    <Text>Leichte Frostbeulen auf den Beinen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_021_DESCRIPTION</LocID>        <Text>Frostbeulen sind potenziell ernste Verletzungen, die auftreten, wenn Körperteile Temperaturen unter dem Gefrierpunkt ausgesetzt werden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_022</LocID>                    <Text>Schwere Frostbeulen auf den Beinen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_022_DESCRIPTION</LocID>        <Text>Frostbeulen sind potenziell ernste Verletzungen, die auftreten, wenn Körperteile Temperaturen unter dem Gefrierpunkt ausgesetzt werden.</Text>  </GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_023</LocID>                    <Text>Chemische Verbrennung eines Arms</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_023_DESCRIPTION</LocID>        <Text>Eine chemische Verbrennung, die durch den Kontakt mit einer Säure, einer Base oder einem Oxidator entstanden ist und das Gewebe schwer beschädigen kann.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_024</LocID>                    <Text>Chemische Verbrennung des Oberkörpers</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_024_DESCRIPTION</LocID>        <Text>Eine chemische Verbrennung, die durch den Kontakt mit einer Säure, einer Base oder einem Oxidator entstanden ist und das Gewebe schwer beschädigen kann.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TRM_025</LocID>                    <Text>Vom Blitz getroffen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_025_DESCRIPTION</LocID>        <Text>Eine seltene Verletzung, die durch einen direkten oder indirekten Blitzeinschlag verursacht wurde.</Text>  </GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_026</LocID>                    <Text>Hochspannungsverbrennung</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_026_DESCRIPTION</LocID>        <Text>Eine elektrische Verbrennung entsteht, wenn Strom durch den Körper fließt. Im Gegensatz zu den sichtbaren thermischen oder chemischen Verbrennungen, verursachen sie häufiger subdermale Schäden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_032</LocID>                    <Text>Niederspannungsverbrennung</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_032_DESCRIPTION</LocID>        <Text>Eine elektrische Verbrennung entsteht, wenn Strom durch den Körper fließt. Im Gegensatz zu den sichtbaren thermischen oder chemischen Verbrennungen, verursachen sie häufiger subdermale Schäden.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRM_027</LocID>                    <Text>Strahlendermatitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_027_DESCRIPTION</LocID>        <Text>Strahlendermatitis, auch bekannt als Radiodermatitis, ist eine Nebenwirkung der Strahlentherapie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_028</LocID>                    <Text>Mikrowellenverbrennung</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_028_DESCRIPTION</LocID>        <Text>Eine Verbrennung, die von Mikrowellenstrahlung verursacht wurde. Im Gegensatz zu anderen Strahlungsverbrennungen entstehen Mikrowellenverbrennungen durch Hitze.</Text>  </GameDBLocalizedString>
+            
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_029</LocID>                    <Text>Thermische Verbrennung eines Arms</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_029_DESCRIPTION</LocID>        <Text>Thermische Verbrennungen werden durch den Kontakt mit heißen Objekten oder Flüssigkeiten verursacht.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_030</LocID>                    <Text>Thermische Verbrennung eines Beins</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_030_DESCRIPTION</LocID>        <Text>Thermische Verbrennungen werden durch den Kontakt mit heißen Objekten oder Flüssigkeiten verursacht.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_031</LocID>                    <Text>Schwere thermische Verbrennung</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_031_DESCRIPTION</LocID>        <Text>Thermische Verbrennungen werden durch den Kontakt mit heißen Objekten oder Flüssigkeiten verursacht.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TRM_033</LocID>                    <Text>Sonnenbrand</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_033_DESCRIPTION</LocID>        <Text>Eine schmerzhafte Rötung der Haut, die durch ein Übermaß an ultraviolettem Licht (von der Sonne oder aus einer künstlichen Quelle) verursacht wurde.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TRM_034</LocID>                    <Text>Giftspinnenbiss</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_034_DESCRIPTION</LocID>        <Text>Bisse von Giftspinnen verursachen winzige rote Beulen, die manchmal schmerzhaft sein und jucken können. Das Gift kann aber auch ernstere Symptome auslösen.</Text>  </GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_035</LocID>                    <Text>Klapperschlangenbiss</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_035_DESCRIPTION</LocID>        <Text>Schlangenbisse weisen in der Regel zwei Stichwunden von den Fangzähnen auf. Bei Schlangenbissen ist es besonders wichtig, die Spezies zu bestimmen und dem Patienten das passende Gegengift zu verabreichen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_036</LocID>                    <Text>Biss eines nordamerikanischen Kupferkopfs</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_036_DESCRIPTION</LocID>        <Text>Schlangenbisse weisen in der Regel zwei Stichwunden von den Fangzähnen auf. Bei Schlangenbissen ist es besonders wichtig, die Spezies zu bestimmen und dem Patienten das passende Gegengift zu verabreichen.</Text>  </GameDBLocalizedString>
+
+            <!--MAIN SYMPTOMS-->
+            <GameDBLocalizedString>      <LocID>SYM_PENETRATING_PULMONARY_LACERATION_X</LocID>              <Text>Lungeneinriss</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PENETRATING_PULMONARY_LACERATION_X_DESCRIPTION</LocID>  <Text>Ein penetrierendes Trauma hat die Lunge des Patienten schwer beschädigt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LIVER_AND_SPLEEN_LACERATED</LocID>                      <Text>Einriss der Leber und der Milz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LIVER_AND_SPLEEN_LACERATED_DESCRIPTION</LocID>          <Text>Die Leber und Milz des Patienten sind schwer beschädigt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SPLEEN_AND_PANCREAS_LACERATED</LocID>                   <Text>Einriss der Milz und des Pankreas</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SPLEEN_AND_PANCREAS_LACERATED_DESCRIPTION</LocID>       <Text>Die Milz und das Pankreas des Patienten sind schwer beschädigt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_ABDOMEN_GUNSHOT</LocID>                           <Text>Oberbauch-Kavitation</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_ABDOMEN_GUNSHOT_DESCRIPTION</LocID>               <Text>Eine Schusswunde im Oberbauch des Patienten, durch die das Gewebe beschädigt wurde, sich eine Kavitation gebildet hat und ein hohes Risiko besteht, dass auch andere Organe beschädigt werden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_ABDOMEN_BALLISTICS</LocID>                        <Text>Unterbauch-Kavitation</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_ABDOMEN_BALLISTICS_DESCRIPTION</LocID>            <Text>Eine Wunde durch ein Hochgeschwindigkeitsprojektil im Unterbauch des Patienten, durch die das Gewebe beschädigt wurde, sich eine Kavitation gebildet hat und ein hohes Risiko besteht, dass auch andere Organe beschädigt werden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEST_GUNSHOT</LocID>                                   <Text>Brust-Kavitation</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEST_GUNSHOT_DESCRIPTION</LocID>                       <Text>Eine Schusswunde im Brustbereich des Patienten, durch die das Gewebe beschädigt wurde, sich eine Kavitation gebildet hat und ein hohes Risiko besteht, dass auch andere Organe beschädigt werden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NECK_BALLISTIC_WOUND</LocID>                            <Text>Hals-Kavitation</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NECK_BALLISTIC_WOUND_DESCRIPTION</LocID>                <Text>Eine Wunde durch ein Hochgeschwindigkeitsprojektil im Halsbereich des Patienten, durch die das Gewebe beschädigt wurde, sich eine Kavitation gebildet hat und ein hohes Risiko besteht, dass auch andere Strukturen beschädigt werden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_LIMB_BALLISTIC_WOUND</LocID>                      <Text>Kavitation in einer oberen Extremität</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_LIMB_BALLISTIC_WOUND_DESCRIPTION</LocID>          <Text>Eine Wunde durch ein Hochgeschwindigkeitsprojektil im Bereich einer oberen Extremität des Patienten, durch die das Gewebe beschädigt wurde, sich eine Kavitation gebildet hat und ein hohes Risiko besteht, dass auch andere Strukturen beschädigt werden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_LIMB_BALLISTIC_WOUND</LocID>                      <Text>Kavitation in einer unteren Extremität</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_LIMB_BALLISTIC_WOUND_DESCRIPTION</LocID>          <Text>Eine Wunde durch ein Hochgeschwindigkeitsprojektil im Bereich einer unteren Extremität des Patienten, durch die das Gewebe beschädigt wurde, sich eine Kavitation gebildet hat und ein hohes Risiko besteht, dass auch andere Strukturen beschädigt werden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_ABDOMEN_PENETRATING</LocID>                       <Text>Oberbauchtrauma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_ABDOMEN_PENETRATING_DESCRIPTION</LocID>           <Text>Eine Penetrationswunde im Oberbauch des Patienten, durch die ein hohes Risiko besteht, dass auch andere Organe und Strukturen beschädigt werden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_ABDOMEN_STAB</LocID>                              <Text>Unterbauchtrauma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_ABDOMEN_STAB_DESCRIPTION</LocID>                  <Text>Eine Stichwunde im Unterbauch des Patienten, durch die ein hohes Risiko besteht, dass auch andere Organe und Strukturen beschädigt werden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEST_STAB</LocID>                                      <Text>Brusttrauma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEST_STAB_DESCRIPTION</LocID>                          <Text>Eine Stichwunde im Brustbereich des Patienten, durch die ein hohes Risiko besteht, dass auch andere Organe und Strukturen beschädigt werden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NECK_PENETRATING</LocID>                                <Text>Halstrauma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NECK_PENETRATING_DESCRIPTION</LocID>                    <Text>Eine Penetrationswunde im Halsbereich des Patienten, durch die ein hohes Risiko besteht, dass auch andere Strukturen beschädigt werden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_LIMB_PENETRATING</LocID>                          <Text>Trauma einer oberen Extremität</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_LIMB_PENETRATING_DESCRIPTION</LocID>              <Text>Eine Penetrationswunde an einer oberen Extremität des Patienten, durch die ein hohes Risiko besteht, dass auch andere Strukturen beschädigt werden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_LIMB_PENETRATING</LocID>                          <Text>Trauma einer unteren Extremität</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_LIMB_PENETRATING_DESCRIPTION</LocID>              <Text>Eine Penetrationswunde an einer unteren Extremität des Patienten, durch die ein hohes Risiko besteht, dass auch andere Strukturen beschädigt werden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ABDOMINAL_TRAUMA_EXPLOSION</LocID>                      <Text>Bauchtrauma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ABDOMINAL_TRAUMA_EXPLOSION_DESCRIPTION</LocID>          <Text>Der Patient wurde im Bauchbereich von einer Explosion getroffen. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEST_TRAUMA_EXPLOSION</LocID>                          <Text>Brusttrauma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEST_TRAUMA_EXPLOSION_DESCRIPTION</LocID>              <Text>Der Patient wurde im Brustbereich von einer Explosion getroffen, die großen Schaden verursacht hat.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MILD_FROSTBITE_HAND</LocID>                             <Text>Leichte Frostbeulen auf den Händen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MILD_FROSTBITE_HAND_DESCRIPTION</LocID>                 <Text>Leichte Frostbeulen auf den Händen des Patienten.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_FROSTBITE_HAND</LocID>                           <Text>Schwere Frostbeulen auf den Händen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_FROSTBITE_HAND_DESCRIPTION</LocID>               <Text>Schwere Frostbeulen auf den Händen des Patienten.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MILD_FROSTBITE_LEG</LocID>                              <Text>Leichte Frostbeulen auf den Beinen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MILD_FROSTBITE_LEG_DESCRIPTION</LocID>                  <Text>Leichte Frostbeulen auf den Beinen des Patienten.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_FROSTBITE_LEG</LocID>                            <Text>Schwere Frostbeulen auf den Beinen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_FROSTBITE_LEG_DESCRIPTION</LocID>                <Text>Schwere Frostbeulen auf den Beinen des Patienten.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEMICAL_BURN_ARM</LocID>                               <Text>Chemische Verbrennung an einem Arm</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEMICAL_BURN_ARM_DESCRIPTION</LocID>                   <Text>Eine Brandwunde auf dem Arm des Patienten, die durch Chemikalien verursacht wurde.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEMICAL_BURN_TORSO</LocID>                             <Text>Chemische Verbrennung am Oberkörper</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEMICAL_BURN_TORSO_DESCRIPTION</LocID>                 <Text>Eine Brandwunde am Oberkörper des Patienten, die durch Chemikalien verursacht wurde.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SKIN_LESION_LIGHTNING</LocID>                           <Text>Läsionen durch einen Blitz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SKIN_LESION_LIGHTNING_DESCRIPTION</LocID>               <Text>Hautläsionen, die durch einen direkten Blitzschlag verursacht wurden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SUBDERMAL_TISSUE_DAMAGED</LocID>                        <Text>Beschädigung des subdermalen Gewebes</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SUBDERMAL_TISSUE_DAMAGED_DESCRIPTION</LocID>            <Text>Das subdermale Gewebe (unter der äußersten Hautschicht) wurde beschädigt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PIGMENTATION_CHANGES</LocID>                            <Text>Pigmentveränderungen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PIGMENTATION_CHANGES_DESCRIPTION</LocID>                <Text>Es wurden starke Pigmentveränderungen festgestellt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SKIN_AND_FAT_TISSUE_DAMAGED</LocID>                     <Text>Beschädigung der Haut und des Fettgewebes</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SKIN_AND_FAT_TISSUE_DAMAGED_DESCRIPTION</LocID>         <Text>Das Haut- und Fettgewebe zwischen den verbrannten und nicht verbrannten Bereichen weisen Beschädigungen auf.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THERMAL_BURN_ARM</LocID>                                <Text>Thermische Verbrennung an einem Arm</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THERMAL_BURN_ARM_DESCRIPTION</LocID>                    <Text>Anzeichen einer thermischen Verbrennung am Arm des Patienten.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THERMAL_BURN_LEG</LocID>                                <Text>Thermische Verbrennung an einem Bein</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THERMAL_BURN_LEG_DESCRIPTION</LocID>                    <Text>Anzeichen einer thermischen Verbrennung am Bein des Patienten.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_THERMAL_BURN</LocID>                             <Text>Schwere thermische Verbrennung</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_THERMAL_BURN_DESCRIPTION</LocID>                 <Text>Anzeichen einer schweren thermischen Verbrennung.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOW_VOLTAGE_BURN</LocID>                                <Text>Niederspannungsverbrennung</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOW_VOLTAGE_BURN_DESCRIPTION</LocID>                    <Text>Eine Brandwunde, die durch Niederspannungsstrom verursacht wurde.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SUNBURNED_SKIN</LocID>                                  <Text>Haut mit Sonnenbrand</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SUNBURNED_SKIN_DESCRIPTION</LocID>                      <Text>Hautgewebe, das zu lange dem direkten Sonnenlicht ausgesetzt war und verbrannt ist.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLACK_WIDOW_BITE</LocID>                                <Text>Biss einer Schwarzen Witwe.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLACK_WIDOW_BITE_DESCRIPTION</LocID>                    <Text>Der Biss einer Giftspinne.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RATTLESNAKE_BITE</LocID>                                <Text>Klapperschlangenbiss</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RATTLESNAKE_BITE_DESCRIPTION</LocID>                    <Text>Der Biss einer Giftschlange.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COPPERHEAD_SNAKE_BITE</LocID>                           <Text>Biss eines nordamerikanischen Kupferkopfs</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COPPERHEAD_SNAKE_BITE_DESCRIPTION</LocID>               <Text>Der Biss einer Giftschlange.</Text>  </GameDBLocalizedString>
+
+            <!--TREATMENTS-->
+            <GameDBLocalizedString>      <LocID>TRT_ANTIVENOM</LocID>                                       <Text>Gegengift</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIVENOM_DESCRIPTION</LocID>                           <Text>Eine Behandlung mit Antikörpern, die sich mit einem bestimmten Gift verbinden und es neutralisieren.\n\nBenötigtes Zimmer: Büro / Diagnoseeinheit der Traumatologie / Intensivstation</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CONCETRATED_OXYGEN</LocID>                              <Text>Konzentrierter Sauerstoff</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CONCETRATED_OXYGEN_DESCRIPTION</LocID>                  <Text>Eine Therapie, die auf dem Einatmen von konzentriertem Sauerstoff basiert.\n\nBenötigtes Zimmer: Büro / Diagnoseeinheit / Verbrennungsstation auf der Traumatologie / Intensivstation / Traumazentrum in der Notaufnahme</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_WARMED_IV_FLUIDS</LocID>                                <Text>Warme Infusionen</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_WARMED_IV_FLUIDS_DESCRIPTION</LocID>                    <Text>Infusionen mit einer Temperatur von 38–45°C/100–113°F zur Behandlung von Hypothermie.\n\nBenötigtes Zimmer: Verbrennungsstation auf der Traumatologie / Intensivstation</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PROTECTIVE_DRESSING</LocID>                             <Text>Schutzverband</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PROTECTIVE_DRESSING_DESCRIPTION</LocID>                 <Text>Ein Schutzverband.\n\nBenötigtes Zimmer: Büro / Diagnoseeinheit / Verbrennungsstation auf der Traumatologie / Intensivstation / Traumazentrum in der Notaufnahme</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_DEBRIDEMENT</LocID>                                     <Text>Wundausschneidung</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_DEBRIDEMENT_DESCRIPTION</LocID>                         <Text>Medizinische Entfernung von totem Gewebe.\n\nBenötigtes Zimmer. Büro / Diagnoseeinheit / Verbrennungsstation auf der Traumatologie / Intensivstation / Traumazentrum in der Notaufnahme</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BURN_MANAGEMENT</LocID>                                 <Text>Verbrennungsbehandlung</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BURN_MANAGEMENT_DESCRIPTION</LocID>                     <Text>Eine medizinische Prozedur zur Behandlung verschiedener Verbrennungsarten.\n\nBenötigtes Zimmer. Büro / Diagnoseeinheit / Verbrennungsstation auf der Traumatologie / Intensivstation / Traumazentrum in der Notaufnahme</Text>	</GameDBLocalizedString>
+
+            <!--SURGERIES-->
+            <GameDBLocalizedString>      <LocID>TRT_SPLENECTOMY</LocID>                                     <Text>Splenektomie</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SPLENECTOMY_DESCRIPTION</LocID>                         <Text>Die chirurgische Entfernung einer beschädigten oder eingerissenen Milz.\n\nBenötigtes Zimmer: OP-Saal auf der Traumatologie + Intensivstation</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HEPATOPLASTY</LocID>                                    <Text>Hepatoplastie</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HEPATOPLASTY_DESCRIPTION</LocID>                        <Text>Ein chirurgischer Eingriff zur Behandlung der Leber oder Teilen davon.\n\nBenötigtes Zimmer: OP-Saal auf der Traumatologie + Intensivstation</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_GASTRIC_PERFORATION_REPAIR</LocID>                      <Text>Reparatur einer Magenperforation</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_GASTRIC_PERFORATION_REPAIR_DESCRIPTION</LocID>          <Text>Ein chirurgischer Eingriff zum Verschluss von Perforationen im Magen.\n\nBenötigtes Zimmer: OP-Saal auf der Traumatologie + Intensivstation</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SMALL_BOWEL_RESECTION</LocID>                           <Text>Dünndarmresektion</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SMALL_BOWEL_RESECTION_DESCRIPTION</LocID>               <Text>Die chirurgische Entfernung eines Teils des Dünndarms.\n\nBenötigtes Zimmer: OP-Saal auf der Traumatologie + Intensivstation</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BOWEL_RESECTION</LocID>                                 <Text>Darmresektion</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BOWEL_RESECTION_DESCRIPTION</LocID>                     <Text>Die chirurgische Entfernung eines kleinen Teils des Dickdarms.\n\nBenötigtes Zimmer: OP-Saal auf der Traumatologie + Intensivstation</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PANCREATICOPLASTY</LocID>                               <Text>Pankreasplastik</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PANCREATICOPLASTY_DESCRIPTION</LocID>                   <Text>Ein chirurgischer Eingriff zur Behandlung des Pankreas oder Teilen davon.\n\nBenötigtes Zimmer: OP-Saal auf der Traumatologie + Intensivstation</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_SURGERY</LocID>                                  <Text>Unfallchirurgischer Brusteingriff</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_SURGERY_ARM</LocID>                              <Text>Unfallchirurgischer Eingriff an einer oberen Extremität</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_SURGERY_LEG</LocID>                              <Text>Unfallchirurgischer Eingriff an einer unteren Extremität</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_SURGERY_DESCRIPTION</LocID>                      <Text>Ein unfallchirurgischer Eingriff für Patienten mit akuten, lebensbedrohlichen oder potenziell lebensbedrohlichen Verletzungen.\n\nBenötigtes Zimmer: OP-Saal und Traumatologie + Intensivstation</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_LAPAROSCOPIC_PYELOPLASTY</LocID>                        <Text>Laparoskopie-Pyeloplastik</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_LAPAROSCOPIC_PYELOPLASTY_DESCRIPTION</LocID>            <Text>Ein minimaler chirurgischer Eingriff zur Behandlung der Nieren.\n\nBenötigtes Zimmer: OP-Saal auf der Traumatologie + Intensivstation</Text>	</GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_FRACTURE_SURGERY_ARM</LocID>                     <Text>Unfallfrakturoperation – Arm</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_FRACTURE_SURGERY_ARM_DESCRIPTION</LocID>         <Text>Ein unfallchirurgischer Eingriff zur Behandlung gebrochener Knochen.\n\nBenötigtes Zimmer: OP-Saal auf der Traumatologie + Intensivstation</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_FRACTURE_SURGERY_LEG</LocID>                     <Text>Unfallfrakturoperation – Bein</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_FRACTURE_SURGERY_LEG_DESCRIPTION</LocID>         <Text>Ein unfallchirurgischer Eingriff zur Behandlung gebrochener Knochen.\n\nBenötigtes Zimmer: OP-Saal auf der Traumatologie + Intensivstation</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_FRACTURE_SURGERY_THORAX</LocID>                  <Text>Unfallfrakturoperation – Brust</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_FRACTURE_SURGERY_THORAX_DESCRIPTION</LocID>      <Text>Ein unfallchirurgischer Eingriff zur Behandlung gebrochener Knochen.\n\nBenötigtes Zimmer: OP-Saal auf der Traumatologie + Intensivstation</Text>	</GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRT_VASCULAR_SURGERY</LocID>                                <Text>Vaskuläre OP</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_VASCULAR_SURGERY_DESCRIPTION</LocID>                    <Text>Ein chirurgischer Eingriff zum Verschluss und zur Reparatur von beschädigten Arterien.\n\nBenötigtes Zimmer: OP-Saal auf der Traumatologie + Intensivstation</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PULMONARY_SURGERY_X</LocID>                             <Text>Lungen-OP</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PULMONARY_SURGERY_X_DESCRIPTION</LocID>                 <Text>Pulmonare oder Lungen-OP zur Wiederherstellung oder Entfernung von beschädigtem Lungengewebe.\n\nBenötigter Raum: OP-Saal auf der Traumatologie + Intensivstation</Text>	</GameDBLocalizedString>
+
+
+            <!--SCENARIO-->
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_J</LocID>                            <Text>Traumatologie: Großes Krankenhaus</Text>	</GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>EXM_OPHTHALMOSCOPY_DESCRIPTION</LocID>                      <Text>Routineuntersuchung des Auges, die genutzt wird um den Augenhintergrund zu betrachten. \n\nBenötigter Raum: Arztzimmer / Überwachungsraum / Traumazentrum / ITS / Arztzimmer/Diagnoseraum in der Inneren Medizin / Neurologie / Traumatologie</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRT_ANTI_ARRHYTMICALS_DESCRIPTION_V2</LocID>                <Text>Medikament zur Behandlung abnormaler Herzrythmen, die intravenös oder in Tablettenform verabreicht werden. \n\nBenötigter Raum: ITS / Belieb. Büro / Diagnoseeinheit in der Notaufnahme / Chirurgie / Innere Medizin / Neurologie / Traumatologie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_WOUND_CLOSURE_DESCRIPTION_V2</LocID>                    <Text>Prozedur zum Nähen von Muskulatur und Haut. \n\nBenötigter Raum: Arztzimmer / Überwachungsraum / Traumazentrum / ITS / Büro/Diagnostik in Orthopädie / Traumatologie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ACE_INHIBITOR_DESCRIPTION</LocID>                       <Text>Medikament zur Behandlung von Bluthochdruck. \n\nBenötigter Raum: Belieb. Büro / Diagnostik außer Notaufnahme und Ansteckende Krankheiten</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIHISTAMINES_DESCRIPTION</LocID>                      <Text>Medikament zur Behandlung von Allergien, durch Hemmung der Histaminrezeptoren im menschlichen Körper. \n\nBenötigter Raum: Arztzimmer / Überwachungsraum / ITS / Büro/Diagnostik in Chirurgie / Innerer Medizin / Neurologie / Traumatologie</Text>  </GameDBLocalizedString>
+
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    

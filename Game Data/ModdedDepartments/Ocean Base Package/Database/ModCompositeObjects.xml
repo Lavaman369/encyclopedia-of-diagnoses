@@ -1,0 +1,59 @@
+<Database>
+   <GameDBCompositeObject ID="COMPOSITE_OBJECT_CAMP_BED2">       
+	<AbbreviationLocID>COMPOSITE_OBJECT_CAMP_BED2_DESC</AbbreviationLocID>
+        <Parts>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <!-- For correct preview the object at 0, 0 needs to be first -->
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <Orientation>SE</Orientation>
+                <ObjectRef>OBJECT_ANGIO_TABLE_1x</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>1</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_ANGIOGRAPH_ANIMATEDx</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>1</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_ANGIO_TRAILS_1x</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>2</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_ANGIO_TABLE_3x</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_ANGIO_TABLE_2x</ObjectRef>
+            </GameDBCompositeObjectPart>
+          
+        </Parts>
+        
+        <Tags>
+            <Tag>ui_equipment</Tag>
+            <Tag>ui_exam_table</Tag>
+            <Tag>exam_table</Tag>
+        </Tags>
+
+        <Cost>24999</Cost>
+        <IconIndex>723</IconIndex>
+   </GameDBCompositeObject>
+</Database>

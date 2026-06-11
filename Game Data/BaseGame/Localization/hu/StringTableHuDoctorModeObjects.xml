@@ -1,0 +1,30 @@
+<Database>
+    <GameDBStringTable ID="LOC_HU_OBJECTS_DOC_MODE">
+        <LanguageCode>hu</LanguageCode>
+        <LanguageNameLocalized>Magyar</LanguageNameLocalized>
+    
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+    
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_PRINTER</LocID>                                  <Text>Nyomtató</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_GROUND_PLANT_DRACENA</LocID>                     <Text>Növény – sárkányfa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_TABLE_SQUARE</LocID>                             <Text>Szögletes üvegasztal</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_CHAIR_OFFICE</LocID>                             <Text>Irodai szék</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_BOOKSHELF</LocID>                                <Text>Könyvespolc</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_CERTIFICATE</LocID>                              <Text>Diploma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_SKULL</LocID>                                    <Text>Koponya</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_FIRST_AID</LocID>                                <Text>Elsősegélycsomag</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_TABLE_MUG</LocID>                                <Text>Bögre</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_TABLE_MESS</LocID>                               <Text>Akták</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_WALL_LAMP</LocID>                                <Text>Fali lámpa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_LAPTOP</LocID>                                   <Text>Laptop – PC</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_CHARTBOARD</LocID>                               <Text>Tervezőtábla</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_CHARTBOARD_DESCRIPTION</LocID>                   <Text>A tervezőtáblát a differenciáldiagnosztika során használják, hogy segítse az orvosokat hatékonyabban feldolgozni az információt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_VENDING_MACHINE</LocID>                          <Text>Kávéautomata</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_VENDING_MACHINE_DESCRIPTION</LocID>              <Text>A kávéautomata kávét és forró italokat kínál a betegeknek és a személyzetnek, a betegeknek árusított italok bevételi forrást jelentenek.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_DLC_OFFICE_DESK</LocID>                    <Text>Üveg irodai asztal</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

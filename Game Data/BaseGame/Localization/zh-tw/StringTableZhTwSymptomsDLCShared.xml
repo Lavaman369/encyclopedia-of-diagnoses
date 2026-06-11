@@ -1,0 +1,28 @@
+<Database>
+    <GameDBStringTable ID="LOC_ZHTW_SYMPTOMS_DLC_SHARED">
+
+        <LanguageCode>zhtw</LanguageCode>
+        <LanguageNameLocalized>繁體中文</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>SYM_ESCHAR</LocID>                                    <Text>痂</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ESCHAR_DESCRIPTION</LocID>                        <Text>在傷口上硬化的已死亡組織。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VIREMIA</LocID>                                   <Text>病毒血症</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VIREMIA_DESCRIPTION</LocID>                       <Text>病毒血症是指病毒進入血液後造成的症狀。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DISTRIBUTIVE_SHOCK</LocID>                        <Text>分佈性休克</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DISTRIBUTIVE_SHOCK_DESCRIPTION</LocID>            <Text>分佈性休克是由血液異常分布於微血管中所造成。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOVOLEMIA</LocID>                               <Text> 低血容量症</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOVOLEMIA_DESCRIPTION</LocID>                   <Text>血管中血量降低的狀態，失去细胞外液。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TACHYPNEA</LocID>                                 <Text>呼吸急促</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TACHYPNEA_DESCRIPTION</LocID>                     <Text>生物因高濃度二氧化碳而出現的快速呼吸反應。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRADYPNEA</LocID>                                 <Text>呼吸徐緩</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRADYPNEA_DESCRIPTION</LocID>                     <Text>異常緩慢的呼吸。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOXEMIA</LocID>                                 <Text>缺氧</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOXEMIA_DESCRIPTION</LocID>                     <Text>缺氧是一種血氧過低的症狀。</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

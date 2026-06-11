@@ -1,0 +1,30 @@
+<Database>
+    <GameDBStringTable ID="LOC_NL_OBJECTS_DOC_MODE">
+        <LanguageCode>nl</LanguageCode>
+        <LanguageNameLocalized>Nederlands</LanguageNameLocalized>
+    
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+    
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_PRINTER</LocID>                                  <Text>Printer</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_GROUND_PLANT_DRACENA</LocID>                     <Text>Plant - Dracaena</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_TABLE_SQUARE</LocID>                             <Text>Vierkante glazen tafel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_CHAIR_OFFICE</LocID>                             <Text>Kantoorstoel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_BOOKSHELF</LocID>                                <Text>Boekenplank</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_CERTIFICATE</LocID>                              <Text>Diploma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_SKULL</LocID>                                    <Text>Schedel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_FIRST_AID</LocID>                                <Text>Verbanddoos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_TABLE_MUG</LocID>                                <Text>Beker</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_TABLE_MESS</LocID>                               <Text>Dossiers</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_WALL_LAMP</LocID>                                <Text>Muurlamp</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_LAPTOP</LocID>                                   <Text>Laptop - pc</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_CHARTBOARD</LocID>                               <Text>Whiteboard</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_CHARTBOARD_DESCRIPTION</LocID>                   <Text>Het whiteboard wordt gebruikt tijdens differentiaaldiagnose om dokters de informatie makkelijker te laten verwerken.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_VENDING_MACHINE</LocID>                          <Text>Koffiemachine</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_VENDING_MACHINE_DESCRIPTION</LocID>              <Text>Koffiemachines bevatten koffie en warme drankjes voor patiënten en personeel. Drankjes die aan patiënten worden verkocht zijn een bron van inkomsten.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_DLC_OFFICE_DESK</LocID>                    <Text>Glazen bureau</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

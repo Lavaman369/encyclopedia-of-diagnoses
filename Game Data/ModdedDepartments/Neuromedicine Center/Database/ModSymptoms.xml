@@ -1,0 +1,19 @@
+<Database>
+	<GameDBSymptom ID="SYM_SKULL_FRACTURE">
+        <DescriptionLocID>SYM_SKULL_FRACTURE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+		 <ExaminationRef>EXM_X_RAY_HEAD</ExaminationRef>
+            <ExaminationRef>EXM_CT</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_FRACTURE_SURGERY_HEAD</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>2126</IconIndex>
+    </GameDBSymptom>
+</Database>

@@ -1,0 +1,78 @@
+<Database>
+    <GameDBStringTable ID="LOC_HU_PATCH_1_1_23">
+    
+        <LanguageCode>hu</LanguageCode>
+        <LanguageNameLocalized>Magyar</LanguageNameLocalized>
+        
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            <!-- RELATED FILE: StringTable[Language]Options.xml -->
+            <GameDBLocalizedString>      <LocID>OPTIONS_NO_EMPLOYEE_LIMIT</LocID>                <Text>Alkalmazotti korlát megszüntetése (nagyon gyors PC szükséges)</Text>  </GameDBLocalizedString>
+                                                                                                 
+            <!-- Old, wasn't translated in most languages -->                                    
+            <GameDBLocalizedString>      <LocID>OPTIONS_RUN_IN_BACKGORUND</LocID>                <Text>Futtatás a háttérben</Text>  </GameDBLocalizedString>
+
+            <!--New loading tips -->
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_SELECTING_OBJ</LocID>                <Text>Válaszd ki, melyik tárgyat veszed fel a SHIFT billentyűvel.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_TAKING_OVER_PATIENTS</LocID>         <Text>Automatikusan átveheted az irányítást minden beteg fölött minden egyes osztályon.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_SURGERY_PRIORITY</LocID>             <Text>Túl sokat vár a páciens a műtétre? Tedd őket a lista élére!</Text>  </GameDBLocalizedString>
+
+            
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->                                   
+            <GameDBLocalizedString>       <LocID>CLOUD_SAVE</LocID>                              <Text>Felhőalapú mentés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_EQUIPMENT_CLONE</LocID>        <Text>Válassz másolandó tárgyat</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_DOORS_CLONE</LocID>            <Text>Válassz másolandó ajtót</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_WALLS_CLONE</LocID>            <Text>Válassz másolandó falat</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>       <LocID>TABLE_SURGERY_HEADING</LocID>                   <Text>Ütemezett műtétek itt: {1}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TABLE_SURGERY_SURGERY</LocID>                   <Text>Műtét</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TABLE_SURGERY_PRIORITY</LocID>                  <Text>Elsőbbség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TABLE_SURGERY_CANCEL_PRIORITY</LocID>           <Text>Elsőbbség törlése</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TABLE_SURGERY_ORDER</LocID>                     <Text>Sorszáma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_SURGERY_PRIORITY</LocID>                <Text>Állítsd be a legmagasabb elsőbbséget ennek a műtétnek (a tetejére)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_SURGERY_CANCEL_PRIORITY</LocID>         <Text>Műtét elsőbbségének törlése</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_TABLE_SURGERIES</LocID>                 <Text>Ütemezett műtétek kezelése az aktív osztályon</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_EQUIPMENT_CLONE</LocID>        <Text>Válassz másolandó tárgyat (alapértelmezett gyorsbillentyű: i)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_DOORS_CLONE</LocID>            <Text>Válassz másolandó ajtót (alapértelmezett gyorsbillentyű: i)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_WALLS_CLONE</LocID>            <Text>Válassz másolandó falat (alapértelmezett gyorsbillentyű: i)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_FLOORS_CLONE</LocID>           <Text>Válassz másolandó padlót (alapértelmezett gyorsbillentyű: i)</Text>  </GameDBLocalizedString>
+            
+            
+            <!-- RELATED FILE: StringTable[Language]BuildingMode.xml -->                         
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_AMBULANCE_PARKING</LocID>                <Text>Mentőautó-parkoló</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_AMBULANCE_PARKING_DESCRIPTION</LocID>    <Text>Parkolóterület mentőautók számára. Ez az előregyártott elem automatikusan lecseréli a meglévőt.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_AMBULANCE_PARKING_STRIPES</LocID>        <Text>Mentőautó-parkoló</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_AMBULANCE_UNLOADING</LocID>              <Text>Mentőautó lerakodóhely</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_AMBULANCE_UNLOADING_DESCRIPTION</LocID>  <Text>Érkező mentőautók lerakodóhelye. Ez az előregyártott elem automatikusan lecseréli a meglévőt.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_AMBULANCES_OWNED</LocID>             <Text>nem szerkeszthető aktív mentőautóval rendelkező kórházban.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_AMBULANCE_UNLOADING</LocID>          <Text>nem szerkeszthető, amíg egy mentőautó beteget vesz fel vagy ad le.</Text>  </GameDBLocalizedString>
+            
+            
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <GameDBLocalizedString>      <LocID>PATIENT_IS_BEING_CALLED</LocID>                  <Text>Jön a következő beteg</Text>  </GameDBLocalizedString>
+                                                                                                 
+            <GameDBLocalizedString>      <LocID>SAT_MOD_EXPOSED_TO_OUTDOORS</LocID>              <Text>ki van téve az időjárásnak</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>ANESTHESIOLOGIST_DESCRIPTION_V2</LocID>          <Text>Orvos az ügyeleti szobában, {1} specializációval.\n\nElérhető:\nEzen az osztályon: {2}\nAz intenzív osztályon: {3}</Text>  </GameDBLocalizedString>
+                                                                                                 
+            <GameDBLocalizedString>      <LocID>GoingToStatLab</LocID>                           <Text>Laborba megy</Text>  </GameDBLocalizedString>
+
+            <!--USG and ECG to Radiology department-->
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_RADIO_CARDIO_UNIT</LocID>                             <Text>Szív vizsgáló</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_RADIO_SONO_UNIT</LocID>                               <Text>Ultrahang vizsgáló</Text>	</GameDBLocalizedString>
+            <!-- PREFABS -->
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_CARDIOVASCULAR_UNIT_RAD_ABBR</LocID>                    <Text>Szív vizsgáló (6 x 6)</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_SONOGRAPHY_UNIT_RAD_ABBR</LocID>                        <Text>Ultrahang vizsgáló (6 x 6)</Text>	</GameDBLocalizedString>
+
+        </LocalizedStrings>
+        
+    </GameDBStringTable>
+</Database>

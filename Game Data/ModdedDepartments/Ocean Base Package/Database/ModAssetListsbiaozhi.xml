@@ -1,0 +1,15 @@
+<Database>
+
+<GameDBAsset ID="ASSET_TEX_OBJECTS_NPSY_TALL">   <Type>TEXTURE_OBJECTS</Type>   <File>MOD_ROOT/mod_npsy_objects_tall_atlas.png</File> </GameDBAsset>
+                        <!-- 纹理集 -->
+<GameDBAsset ID="ASSET_TEX_ICON_NPSY_KSBZ">     <Type>TEXTURE_CUSTOM_SPRITE</Type>  <File>MOD_ROOT/mod_npsy_icon_ksbz.png</File> </GameDBAsset>
+
+                      <!-- 科室标志 -->
+<GameDBAsset ID="ASSET_TEX_ICON_NPSY_J">     <Type>TEXTURE_CUSTOM_SPRITE</Type>  <File>MOD_ROOT/mod_npsy_icon_j.png</File> </GameDBAsset>
+
+<GameDBAsset ID="ASSET_TEX_ICON_NPSY_S">     <Type>TEXTURE_CUSTOM_SPRITE</Type>  <File>MOD_ROOT/mod_npsy_icon_s.png</File> </GameDBAsset>
+
+<GameDBAsset ID="ASSET_TEX_ICON_NPSY_K">     <Type>TEXTURE_CUSTOM_SPRITE</Type>  <File>MOD_ROOT/mod_npsy_icon_k.png</File> </GameDBAsset>
+
+<GameDBAsset ID="ASSET_TEX_ICON_NPSY_JING">     <Type>TEXTURE_CUSTOM_SPRITE</Type>  <File>MOD_ROOT/mod_npsy_icon_jing.png</File> </GameDBAsset>
+</Database>

@@ -1,0 +1,195 @@
+<Database>
+
+<GameDBSymptom ID="SYM_HEMOGLOBIN_HIGH"> 
+        <DescriptionLocID>SYM_HEMOGLOBIN_HIGH_DESC</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_CC_BLOOD_ANALYSIS</ExaminationRef>
+            <ExaminationRef>EXM_BLOOD_TEST_TESTING</ExaminationRef>
+        </Examinations>
+       
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1369</IconIndex>
+    </GameDBSymptom>
+
+	 <GameDBSymptom ID="SYM_NUMBNESS"> <!-- Beta unique -->
+        <DescriptionLocID>SYM_NUMBNESS_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_NSAIDS</TreatmentRef>
+            <TreatmentRef>TRT_HEM_MECOBALAMIN</TreatmentRef>
+        </Treatments>
+        <ShameLevel>90</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1455</IconIndex>
+    </GameDBSymptom>
+
+	<GameDBSymptom ID="SYM_PROLONGED_BLEEDING">
+        <DescriptionLocID>SYM_PROLONGED_BLEEDING_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>High</Hazard>
+        
+        <RiskOfCollapseStartHours>2</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>5</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_HYPOVOLEMIC_SHOCK</CollapseSymptomRef>
+        
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_ANTIHEMORRHAGICS</TreatmentRef>
+			 <TreatmentRef>TRT_HEM_ETAMSYLATE</TreatmentRef>、
+            <TreatmentRef>TRT_HEM_AMINOMETHYLBENZOIC_ACID</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <BleedingLevel>2</BleedingLevel>
+        <IconIndex>2112</IconIndex>
+    </GameDBSymptom>
+
+	<GameDBSymptom ID="SYM_LEUKOPENIA">
+        <DescriptionLocID>SYM_LEUKOPENIA_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_CBC_TESTING</ExaminationRef>
+        </Examinations>
+         <Treatments>
+            <TreatmentRef>TRT_HEM_G-CSF</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>2086</IconIndex>
+    </GameDBSymptom>
+
+	<GameDBSymptom ID="SYM_THROMBOCYTOPENIA">
+        <DescriptionLocID>SYM_THROMBOCYTOPENIA_DESC</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_BLOOD_TEST_TESTING</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_BLOOD_TRANSFUSION</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>        
+        <IconIndex>2798</IconIndex>
+    </GameDBSymptom>
+    
+    	<GameDBSymptom ID="SYM_LEUKOCYTOSIS">
+        <DescriptionLocID>SYM_LEUKOCYTOSIS_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_CBC_TESTING</ExaminationRef>
+        </Examinations>
+         <Treatments>
+            <TreatmentRef>TRT_DOCTOR'S_RECOMMENDATIONS</TreatmentRef>
+            <TreatmentRef>TRT_HEM_HYDROXYUREA</TreatmentRef>
+            <TreatmentRef>TRT_HEM_ALLOPURINOL</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>2086</IconIndex>
+    </GameDBSymptom>
+
+	<GameDBSymptom ID="SYM_CRP_HIGH">
+        <DescriptionLocID>SYM_CRP_HIGH_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_CRP</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_NSAIDS</TreatmentRef>
+            <TreatmentRef>TRT_ANTIBIOTICS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1555</IconIndex>
+    </GameDBSymptom>
+
+	 <GameDBSymptom ID="SYM_HEMATOCHEZIA">
+        <DescriptionLocID>SYM_HEMATOCHEZIA_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_STOOL_ANALYSIS_TESTING</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_DOCTOR'S_RECOMMENDATIONS</TreatmentRef>
+            <TreatmentRef>TRT_HEM_ETAMSYLATE</TreatmentRef>、
+            <TreatmentRef>TRT_HEM_AMINOMETHYLBENZOIC_ACID</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1541</IconIndex>
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_HEMOPTYSIS">
+        <DescriptionLocID>SYM_HEMOPTYSIS_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+         <Treatments>
+            <TreatmentRef>TRT_DOCTOR'S_RECOMMENDATIONS</TreatmentRef>
+            <TreatmentRef>TRT_HEM_ETAMSYLATE</TreatmentRef>
+            <TreatmentRef>TRT_HEM_AMINOMETHYLBENZOIC_ACID</TreatmentRef>
+        </Treatments>
+        <ShameLevel>5</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1397</IconIndex>
+    </GameDBSymptom>
+
+<GameDBSymptom ID="SYM_HEMATURIA">
+        <DescriptionLocID>SYM_HEMATURIA_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_URINE_SAMPLE_ANALYSIS_TESTING</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_ANTIBIOTICS</TreatmentRef>
+            <TreatmentRef>TRT_HEM_ETAMSYLATE</TreatmentRef>
+            <TreatmentRef>TRT_HEM_AMINOMETHYLBENZOIC_ACID</TreatmentRef>
+        </Treatments>
+        <ShameLevel>50</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1579</IconIndex>
+    </GameDBSymptom>
+
+
+</Database>

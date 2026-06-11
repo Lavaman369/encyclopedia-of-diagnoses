@@ -1,0 +1,30 @@
+<Database>
+    <GameDBStringTable ID="LOC_JA_OBJECTS_DOC_MODE">
+        <LanguageCode>ja</LanguageCode>
+        <LanguageNameLocalized>日本語</LanguageNameLocalized>
+    
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+    
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_PRINTER</LocID>                                  <Text>プリンター</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_GROUND_PLANT_DRACENA</LocID>                     <Text>植物 - ドラセナ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_TABLE_SQUARE</LocID>                             <Text>正方形のガラステーブル</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_CHAIR_OFFICE</LocID>                             <Text>オフィスチェア</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_BOOKSHELF</LocID>                                <Text>本棚</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_CERTIFICATE</LocID>                              <Text>卒業証書</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_SKULL</LocID>                                    <Text>頭蓋骨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_FIRST_AID</LocID>                                <Text>救急治療セット</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_TABLE_MUG</LocID>                                <Text>マグカップ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_TABLE_MESS</LocID>                               <Text>ファイル</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_WALL_LAMP</LocID>                                <Text>壁掛けランプ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_LAPTOP</LocID>                                   <Text>ノートパソコン</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_CHARTBOARD</LocID>                               <Text>ホワイトボード</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_CHARTBOARD_DESCRIPTION</LocID>                   <Text>ドクターが情報をより効率よく把握するために、様々な診断で用いられる。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_VENDING_MACHINE</LocID>                          <Text>コーヒー販売機</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_VENDING_MACHINE_DESCRIPTION</LocID>              <Text>患者やスタッフがコーヒーや温かい飲み物を購入できる販売機。患者が購入することで収入源の一部となる。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_DLC_OFFICE_DESK</LocID>                    <Text>ガラス張りの事務机</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

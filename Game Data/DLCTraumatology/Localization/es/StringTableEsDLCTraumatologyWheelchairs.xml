@@ -1,0 +1,27 @@
+<Database>
+    <GameDBStringTable ID="LOC_ES_DLC_TRAUMATOLOGY_WHEELCHAIRS">
+    
+        <LanguageCode>es</LanguageCode>
+        <LanguageNameLocalized>Español</LanguageNameLocalized>
+        
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            
+            <!-- RELATED FILE: StringTable[Language]BuildingMode.xml -->                         
+            <GameDBLocalizedString>      <LocID>OBJECT_WHEELCHAIR</LocID>                        <Text>Silla de ruedas</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WHEELCHAIR_DESCRIPTION</LocID>            <Text>Una silla de ruedas para trasladar pacientes fuera de riesgo.</Text>  </GameDBLocalizedString>
+
+            
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenGoingToStretcher</LocID>    <Text>Buscando una camilla/silla de ruedas</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenMovingStretcher</LocID>     <Text>Moviendo una camilla/silla de ruedas</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenReturningStretcher</LocID>  <Text>Devolviendo una camilla/silla de ruedas</Text>  </GameDBLocalizedString>
+        
+        </LocalizedStrings>
+        
+    </GameDBStringTable>
+</Database>

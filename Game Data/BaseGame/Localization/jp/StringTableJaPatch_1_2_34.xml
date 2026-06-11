@@ -1,0 +1,52 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_JA_PATCH_1_2_34">
+
+        <LanguageCode>ja</LanguageCode>
+        <LanguageNameLocalized>日本語</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->
+            <GameDBLocalizedString>      <LocID>NOTIF_AUTOSAVE_IN_PROGRESS</LocID>          <Text>オートセーブ実行中…</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_AUTOSAVE_IN_PROGRESS_TEXT</LocID>     <Text>オートセーブのファイルを作成中です。</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_AUTOSAVE_CREATED</LocID>              <Text>オートセーブファイル作成完了</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_AUTOSAVE_CREATED_TEXT</LocID>         <Text>オートセーブファイル作成完了:\n{1}</Text>  </GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <GameDBLocalizedString>      <LocID>ON_STANDBY_FOR_CRITICAL_PATIENTS</LocID>    <Text>重篤患者を待機中</Text>  </GameDBLocalizedString>
+            
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->
+            <GameDBLocalizedString>      <LocID>TAKE_OVER_ALL_DELIVERED_PATIENTS</LocID>    <Text>救急車（もしくは外傷外科DLCの場合はヘリコプター）で搬送されたすべての患者を自動的に引き継ぎます</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_FROM_EVENT</LocID>                  <Text>イベントからもたらされた症状</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>STAFF_UNAVAILABLE_LAB_ROLES</LocID>         <Text>役割に適した技術者がいません</Text>  </GameDBLocalizedString>
+            
+            <!-- An insurance company objective - "Perform 3 surgery/surgeries at Cardiology"-->
+            <GameDBLocalizedString>      <LocID>PERFORM_SURGERY_AT_DEPARTMENT</LocID>       <Text>{2}で手術を{1}回行う</Text></GameDBLocalizedString>
+            
+            <!-- An insurance company objective - "Successfully finish 3 pandemic events" -->
+            <GameDBLocalizedString>      <LocID>SUCCESSFUL_EVENTS_IN_ROW_OF_TYPE</LocID>    <Text>イベントを{1} {2}回連続で完了する</Text>  </GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Options.xml -->
+            <GameDBLocalizedString>      <LocID>OPTIONS_CODE_MODS_ENABLED</LocID>           <Text>コードMODの読み込みを有効化（十分注意してご利用ください！）</Text>  </GameDBLocalizedString>
+            
+            <!--Loading tips for DLCs-->
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_EDUCATION</LocID>               <Text>スタッフのレベルがなかなか上がりませんか？彼らを自習室に送ってスキルを訓練しましょう。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_AUTOPSY</LocID>                 <Text>検死は疑問をすべて解決してくれます…</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_JANITORS_ASSIGNMENT</LocID>     <Text>清掃マネージャーを雇うと、各部屋に清掃員を配置できるようになります。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_PHARMACY</LocID>                <Text>薬局は十分大きなものを建てるようにしましょう。早朝に大勢の患者が退院してくるため、その備えが必要です。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_CONTAGIOUSNESS</LocID>          <Text>隔離病棟外で感染症患者を入院させる場合、集団感染の発生リスクが非常に高くなります。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_HELICOPTER</LocID>              <Text>ヘリコプターはエレベーターでアクセスできる階に設置する必要があります。</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DLC_ADMIN_PATHOLOGY</LocID>                                 <Text>病院業務DLC</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_INFECTIOUS_DISEASES</LocID>                             <Text>DLC「感染症科」</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TRAUMATOLOGY</LocID>                                    <Text>外傷外科DLC</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

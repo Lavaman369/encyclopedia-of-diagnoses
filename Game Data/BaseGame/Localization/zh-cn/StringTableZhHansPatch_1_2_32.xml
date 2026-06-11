@@ -1,0 +1,21 @@
+<Database>
+    <GameDBStringTable ID="LOC_ZHHANS_PATCH_1_2_32">
+
+        <LanguageCode>zh-Hans</LanguageCode>
+        <LanguageNameLocalized>简体中文</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_ONLY_HOSPITALIZED</LocID>                <Text>患者接受治疗前需要先住院！</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>POPUP_TAKE_OVER_EVENT_PATIENTS</LocID>                 <Text>接管所有患者</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>POPUP_ACCEPT_EVENT_TAKE_OVER_EVENT_PATIENTS</LocID>    <Text>接收和接管所有患者</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>EVENT_CRASH</LocID>                     <Text>事故</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

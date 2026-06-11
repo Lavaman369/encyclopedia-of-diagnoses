@@ -1,0 +1,78 @@
+<Database>
+    <GameDBStringTable ID="LOC_KR_PATCH_1_1_23">
+    
+        <LanguageCode>kr</LanguageCode>
+        <LanguageNameLocalized>한국어</LanguageNameLocalized>
+        
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            <!-- RELATED FILE: StringTable[Language]Options.xml -->
+            <GameDBLocalizedString>      <LocID>OPTIONS_NO_EMPLOYEE_LIMIT</LocID>                <Text>직원 수 제한 비활성화(고성능 PC 필요)</Text>  </GameDBLocalizedString>
+                                                                                                 
+            <!-- Old, wasn't translated in most languages -->                                    
+            <GameDBLocalizedString>      <LocID>OPTIONS_RUN_IN_BACKGORUND</LocID>                <Text>백그라운드 실행</Text>  </GameDBLocalizedString>
+
+            <!--New loading tips -->
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_SELECTING_OBJ</LocID>                <Text>시프트 키로 어떤 물건을 집어올릴지 선택하세요</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_TAKING_OVER_PATIENTS</LocID>         <Text>각 학과의 모든 환자를 자동으로 관리할 수 있습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_SURGERY_PRIORITY</LocID>             <Text>수술을 너무 오래 기다린 환자가 있지 않나요? 해당 수술을 수술 일정 최상위로 옮기세요!</Text>  </GameDBLocalizedString>
+
+            
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->                                   
+            <GameDBLocalizedString>       <LocID>CLOUD_SAVE</LocID>                              <Text>클라우드 저장</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_EQUIPMENT_CLONE</LocID>        <Text>복사하려는 물건 선택</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_DOORS_CLONE</LocID>            <Text>복사하려는 문 선택</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_WALLS_CLONE</LocID>            <Text>복사하려는 벽 선택</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>       <LocID>TABLE_SURGERY_HEADING</LocID>                   <Text>{1}에서 진행되는 수술들</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TABLE_SURGERY_SURGERY</LocID>                   <Text>수술</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TABLE_SURGERY_PRIORITY</LocID>                  <Text>우선권</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TABLE_SURGERY_CANCEL_PRIORITY</LocID>           <Text>우선권 취소</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TABLE_SURGERY_ORDER</LocID>                     <Text>순서</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_SURGERY_PRIORITY</LocID>                <Text>해당 수술을 최우선 사항으로 설정(수술 일정 최상위로)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_SURGERY_CANCEL_PRIORITY</LocID>         <Text>해당 수술에 대한 우선권 취소</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_TABLE_SURGERIES</LocID>                 <Text>활동 중인 학과의 예정된 수술 관리</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_EQUIPMENT_CLONE</LocID>        <Text>복사하려는 물건 선택(기본 단축키: i)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_DOORS_CLONE</LocID>            <Text>복사하려는 문 선택(기본 단축키: i)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_WALLS_CLONE</LocID>            <Text>복사하려는 벽 선택(기본 단축키: i)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_FLOORS_CLONE</LocID>           <Text>복사하려는 바닥 선택(기본 단축키: i)</Text>  </GameDBLocalizedString>
+            
+            
+            <!-- RELATED FILE: StringTable[Language]BuildingMode.xml -->                         
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_AMBULANCE_PARKING</LocID>                <Text>구급차 주차</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_AMBULANCE_PARKING_DESCRIPTION</LocID>    <Text>구급차 전용 주차구역. 해당 조립식 건물이 주차구역으로 자동 교체됩니다.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_AMBULANCE_PARKING_STRIPES</LocID>        <Text>구급차 주차</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_AMBULANCE_UNLOADING</LocID>              <Text>구급차에서 환자 내리기</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_AMBULANCE_UNLOADING_DESCRIPTION</LocID>  <Text>구급차 전용 드롭 존. 해당 조립식 건물이 주차구역으로 자동 교체됩니다.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_AMBULANCES_OWNED</LocID>             <Text>활동 중인 구급차가 있는 병원에서는 편집을 할 수 없습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_AMBULANCE_UNLOADING</LocID>          <Text>구급차가 환자를 데려오거나 이송하는 중에는 편집할 수 없습니다.</Text>  </GameDBLocalizedString>
+            
+            
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <GameDBLocalizedString>      <LocID>PATIENT_IS_BEING_CALLED</LocID>                  <Text>다음 환자가 있습니다</Text>  </GameDBLocalizedString>
+                                                                                                 
+            <GameDBLocalizedString>      <LocID>SAT_MOD_EXPOSED_TO_OUTDOORS</LocID>              <Text>날씨에 노출됨</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>ANESTHESIOLOGIST_DESCRIPTION_V2</LocID>          <Text>비상 대기실에서 대기 중인 {1}전문의.\n\n이용 가능:\n해당 학과: {2}\n집중치료실(ICU): {3}</Text>  </GameDBLocalizedString>
+                                                                                                 
+            <GameDBLocalizedString>      <LocID>GoingToStatLab</LocID>                           <Text>연구실로 이동</Text>  </GameDBLocalizedString>
+
+            <!--USG and ECG to Radiology department-->
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_RADIO_CARDIO_UNIT</LocID>                             <Text>심혈관검사실(순환)</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_RADIO_SONO_UNIT</LocID>                               <Text>초음파실(외과)</Text>	</GameDBLocalizedString>
+            <!-- PREFABS -->
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_CARDIOVASCULAR_UNIT_RAD_ABBR</LocID>                    <Text>심혈관검사실(순환) - 6 x 6</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_SONOGRAPHY_UNIT_RAD_ABBR</LocID>                        <Text>초음파실(외과) - 6 x 6</Text>	</GameDBLocalizedString>
+
+        </LocalizedStrings>
+        
+    </GameDBStringTable>
+</Database>

@@ -1,0 +1,24 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_HU_PATCH_1_2_37">
+
+        <LanguageCode>hu</LanguageCode>
+        <LanguageNameLocalized>Magyar</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- Texts that should have been sent for translation with Patch 23 -->
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_ASSIST_ROLE_DPT_NOT_WORKING</LocID>         <Text>A betegfelvétel nem működik</Text>  </GameDBLocalizedString>
+
+            <!-- {1} is name of a department (in nominative case) -->
+            <!-- "Assist at surgery" should match EMPL_ROLE_SURGERY_ASSIST from StringTable[Language]Characters.xml -->
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_ASSIST_ROLE_DPT_NOT_WORKING_TEXT</LocID>    <Text>A betegfelvétel itt: {1} nem működik, mert a műtéti szerepekhez beosztott összes asszisztens a nappali műszakban le van tiltva.</Text>  </GameDBLocalizedString>
+            
+            <!-- Echocardiography needs to match <LocID>EXM_ECHO</LocID> or <LocID>EXM_ECHO_DESCRIPTION</LocID> in StringTable[Language]Examinations.xml  -->
+            <GameDBLocalizedString>      <LocID>SYM_BRAIN_ARTERIES_BLOCKED_DESCRIPTION_V2</LocID>    <Text>Az echokardiográfia kimutatta, hogy az agyban több artéria elzáródott vérrögök miatt.</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

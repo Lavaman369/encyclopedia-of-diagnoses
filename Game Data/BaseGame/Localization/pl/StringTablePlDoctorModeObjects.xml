@@ -1,0 +1,30 @@
+<Database>
+    <GameDBStringTable ID="LOC_PL_OBJECTS_DOC_MODE">
+        <LanguageCode>pl</LanguageCode>
+        <LanguageNameLocalized>Polski</LanguageNameLocalized>
+    
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+    
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_PRINTER</LocID>                                  <Text>Drukarka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_GROUND_PLANT_DRACENA</LocID>                     <Text>Roślina – dracena</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_TABLE_SQUARE</LocID>                             <Text>Kwadratowy szklany stół</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_CHAIR_OFFICE</LocID>                             <Text>Krzesło biurowe</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_BOOKSHELF</LocID>                                <Text>Półka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_CERTIFICATE</LocID>                              <Text>Dyplom</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_SKULL</LocID>                                    <Text>Czaszka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_FIRST_AID</LocID>                                <Text>Zestaw pierwszej pomocy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_TABLE_MUG</LocID>                                <Text>Kubek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_TABLE_MESS</LocID>                               <Text>Dokumenty</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_WALL_LAMP</LocID>                                <Text>Lampa ścienna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_LAPTOP</LocID>                                   <Text>Laptop</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_CHARTBOARD</LocID>                               <Text>Tablica</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_CHARTBOARD_DESCRIPTION</LocID>                   <Text>Tablicy używa się podczas diagnostyki różnicowej. Pomaga ona lekarzom lepiej przetwarzać informacje.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_VENDING_MACHINE</LocID>                          <Text>Automat do kawy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_VENDING_MACHINE_DESCRIPTION</LocID>              <Text>Automat do kawy zapewnia kawę i ciepłe napoje pacjentom i personelowi. Napoje sprzedawane pacjentom są źródłem przychodu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_DLC_OFFICE_DESK</LocID>                    <Text>Szklane biurko</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

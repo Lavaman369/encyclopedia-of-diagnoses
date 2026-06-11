@@ -1,0 +1,28 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_DE_SYMPTOMS_DLC_SHARED">
+
+        <LanguageCode>de</LanguageCode>
+        <LanguageNameLocalized>Deutsch</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>SYM_ESCHAR</LocID>                                    <Text>Schorf</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ESCHAR_DESCRIPTION</LocID>                        <Text>Totes Gewebe in einer Vollhautwunde.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VIREMIA</LocID>                                   <Text>Virämie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VIREMIA_DESCRIPTION</LocID>                       <Text>Virämie ist eine Erkrankung, bei der Viren in die Blutbahn gelangen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DISTRIBUTIVE_SHOCK</LocID>                        <Text>Distributiver Schock</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DISTRIBUTIVE_SHOCK_DESCRIPTION</LocID>            <Text>Zu einem distributiven Schock kommt es bei einer abnormalen Verteilung des Blutflusses in den kleinsten Blutgefäßen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOVOLEMIA</LocID>                               <Text>Hypovolämie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOVOLEMIA_DESCRIPTION</LocID>                   <Text>Zustand eines verringerten intravaskulären Volumens – Verlust extrazellulärer Flüssigkeiten.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TACHYPNEA</LocID>                                 <Text>Tachypnoe</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TACHYPNEA_DESCRIPTION</LocID>                     <Text>Schnelle Atmung als Reaktion des Organismus auf höhere Kohlendioxidkonzentration.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRADYPNEA</LocID>                                 <Text>Bradypnoe</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRADYPNEA_DESCRIPTION</LocID>                     <Text>Anormal langsame Atmung.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOXEMIA</LocID>                                 <Text>Hypoxämie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOXEMIA_DESCRIPTION</LocID>                     <Text>Hypoxämie ist eine Erkrankung, die zu einem anormal niedrigen Sauerstoffgehalt im Blut führt.</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

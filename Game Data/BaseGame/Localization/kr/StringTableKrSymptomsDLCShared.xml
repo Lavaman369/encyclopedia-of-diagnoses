@@ -1,0 +1,28 @@
+<Database>
+    <GameDBStringTable ID="LOC_KR_SYMPTOMS_DLC_SHARED">
+
+        <LanguageCode>kr</LanguageCode>
+        <LanguageNameLocalized>한국어</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>SYM_ESCHAR</LocID>                                    <Text>딱지</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ESCHAR_DESCRIPTION</LocID>                        <Text>전층 피부 손상에 있는 죽은 조직입니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VIREMIA</LocID>                                   <Text>바이러스 혈증</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VIREMIA_DESCRIPTION</LocID>                       <Text>바이러스 혈증은 혈액 순환에 바이러스가 침입할 때 발생하는 질환입니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DISTRIBUTIVE_SHOCK</LocID>                        <Text>분포성 쇼크</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DISTRIBUTIVE_SHOCK_DESCRIPTION</LocID>            <Text>분포성 쇼크는 가장 작은 혈관에 혈류가 비정상적으로 분포된 결과로 발생합니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOVOLEMIA</LocID>                               <Text>저혈량증</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOVOLEMIA_DESCRIPTION</LocID>                   <Text>혈관 내 혈액 감소 상태 - 세포외액의 손실입니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TACHYPNEA</LocID>                                 <Text>빈호흡</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TACHYPNEA_DESCRIPTION</LocID>                     <Text>조직 내 이산화탄소 농도의 상승으로 인한 빠른 호흡 상태입니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRADYPNEA</LocID>                                 <Text>호흡완만</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRADYPNEA_DESCRIPTION</LocID>                     <Text>비정상적으로 느린 호흡입니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOXEMIA</LocID>                                 <Text>저산소증</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOXEMIA_DESCRIPTION</LocID>                     <Text>저산소증은 혈액 내 비정상적으로 낮은 산소분포도로 인한 질환입니다.</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

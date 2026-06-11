@@ -1,0 +1,15 @@
+<Database>
+	<GameDBStringTable ID="LOC_NL_ADDON_CRP_TREATMENTS">
+	<LanguageCode>nl</LanguageCode>
+	<LanguageNameLocalized>Nederlands</LanguageNameLocalized>
+	<Contributors>
+	<Name>emilievdb</Name>
+	</Contributors>
+
+	<LocalizedStrings>
+	
+	<GameDBLocalizedString>      <LocID>TRT_CRP_INTRAVENOUS_IMMUNOGLOBULIN</LocID> 					<Text>IV immunoglobulin</Text>  </GameDBLocalizedString>
+
+	</LocalizedStrings>
+	</GameDBStringTable>
+</Database>

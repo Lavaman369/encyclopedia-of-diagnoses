@@ -1,0 +1,129 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_IT_SKILLS">
+        
+        <LanguageCode>it</LanguageCode>
+        <LanguageNameLocalized>Italiano</LanguageNameLocalized>
+
+        <Contributors>
+			<Name>Oxymoron Games</Name>
+			<Name>neoxes</Name>
+        </Contributors>
+        
+        <LocalizedStrings>
+            <!-- Departments -->
+            <GameDBLocalizedString>      <LocID>DPT_DEFAULT</LocID>                                                 <Text>Nessun Dipartimento</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_EMERGENCY</LocID>                                               <Text>Dipartimento di Emergenza e Accettazione</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_ICU</LocID>                                                     <Text>Dipartimento di Terapia Intensiva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_GENERAL_SURGERY_DEPARTMENT</LocID>                              <Text>Dipartimento di Chirurgia Generale</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_INTERNAL_MEDICINE_DEPARTMENT</LocID>                            <Text>Dipartimento di Medicina Interna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_ORTHOPAEDICS_AND_TRAUMATOLOGY</LocID>                           <Text>Dipartimento di Ortopedia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_CARDIOLOGY</LocID>                                              <Text>Dipartimento di Cardiologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_NEUROLOGY</LocID>                                               <Text>Dipartimento di Neurologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_RADIOLOGY</LocID>                                               <Text>Dipartimento di Radiologia ed Imaging</Text>  </GameDBLocalizedString>
+
+
+            <!-- Character levels-->
+            <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_1</LocID>                                              <Text>Stagista</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_2</LocID>                                              <Text>Specializzando</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_3</LocID>                                              <Text>Strutturato</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_4</LocID>                                              <Text>Ricercatore</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_5</LocID>                                              <Text>Specialista</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>NURSE_LEVEL_1</LocID>                                               <Text>Stagista</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_LEVEL_2</LocID>                                               <Text>Professionale</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_LEVEL_3</LocID>                                               <Text>Specializzato</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>LAB_SPECIALIST_LEVEL_1</LocID>                                      <Text>Stagista</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_SPECIALIST_LEVEL_2</LocID>                                      <Text>Professionista</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_SPECIALIST_LEVEL_3</LocID>                                      <Text>Specializzato</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>JANITOR_LEVEL_1</LocID>                                             <Text>Stagista</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_LEVEL_2</LocID>                                             <Text>Professionista</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_LEVEL_3</LocID>                                             <Text>Specializzato</Text>  </GameDBLocalizedString>
+            
+            
+            <!-- Doctor's QUALIFICATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_QUALIF_GENERAL_MEDICINE</LocID>                           <Text>Medicina Generale</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_QUALIF_GENERAL_MEDICINE_DESCRIPTION</LocID>               <Text>La qualifica in medicina generale consente al medico di eseguire tutti gli esami, trattamenti e terapie di base, influendo sulla loro rapidità di esecuzione.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_QUALIF_DIAGNOSIS</LocID>                                  <Text>Diagnostica</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_QUALIF_DIAGNOSIS_DESCRIPTION</LocID>                      <Text>La qualifica in diagnostica influisce sulla probabilità con cui il medico può effettuare una diagnosi errata e sulla frequenza con cui si rivelano necessari ulteriori consulti.</Text>  </GameDBLocalizedString>
+
+            <!-- Doctor's SPECIALIZATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ACUTE_MEDICINE</LocID>                               <Text>Medicina di Emergenza</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ACUTE_MEDICINE_DESCRIPTION</LocID>                   <Text>La specializzazione in medicina di emergenza consente l'accesso a procedure specifiche per la diagnosi ed il trattamento di pazienti in situazioni critiche presso il dipartimento di Emergenza e Accettazione.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ADVANCED_DIAGNOSIS</LocID>                           <Text>Diagnostica Avanzata</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ADVANCED_DIAGNOSIS_DESCRIPTION</LocID>               <Text>La specializzazione in diagnostica avanzata aumenta l'efficacia delle diagnosi e consente al medico di accedere alla diagnosi differenziale.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CRITICAL_CARE</LocID>                                <Text>Terapia Intensiva</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CRITICAL_CARE_DESCRIPTION</LocID>                    <Text>La specializzazione in terapia intensiva consente l'accesso a metodi specifici per il ripristino delle funzioni vitali compromesse, la diagnosi ed il trattamento di pazienti in condizioni critiche presso il dipartimento di Terapia Intensiva.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_GENERAL_SURGERY</LocID>                              <Text>Chirurgia Generale</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_GENERAL_SURGERY_DESCRIPTION</LocID>                  <Text>La specializzazione in chirurgia generale fornisce al medico una profonda conoscenza nel trattamento delle patologie che interessano gli organi della cavità addominale. \nNecessaria per la prescrizione e l'esecuzione di esami specialistici e trattamenti presso il dipartimento di Chirurgia Generale. \nConsente al medico di assistere in chirurgia.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_OPERATIVE_SURGERY</LocID>                            <Text>Chirurgia Operatoria</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_OPERATIVE_SURGERY_DESCRIPTION</LocID>                <Text>La specializzazione in chirurgia operatoria consente al medico di agire come chirurgo principale presso il dipartimento di Chirurgia Generale ed influisce sulla probabilità che gli interventi chirurgici si concludano con complicanze.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE</LocID>                            <Text>Medicina Interna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE_DESCRIPTION</LocID>                <Text>La specializzazione in medicina interna fornisce al medico una profonda conoscenza nel trattamento delle patologie che interessano diversi organi, sistemi ed apparati interni oltre che di malattie infettive, immunitarie e reumatiche. \nNecessaria per la prescrizione e l'esecuzione di esami specialistici e trattamenti presso il dipartimento di Medicina Interna. \nConsente al medico di assistere in chirurgia.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE_SURGERY</LocID>                    <Text>Chirurgia Interna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE_SURGERY_DESCRIPTION</LocID>        <Text>La specializzazione in chirurgia interna consente al medico di agire come chirurgo principale presso il dipartimento di Medicina Interna ed influisce sulla probabilità che gli interventi chirurgici si concludano con complicanze.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDY</LocID>                                   <Text>Ortopedia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDY_DESCRIPTION</LocID>                       <Text>La specializzazione in ortopedia fornisce al medico una profonda conoscenza nel trattamento delle patologie, malformazioni e problemi funzionali che interessano l'apparato locomotore, il sistema scheletrico e le strutture ad essi associate, come i muscoli, le articolazioni ed i legamenti. \nNecessaria per la prescrizione e l'esecuzione di esami specialistici e trattamenti presso il dipartimento di Ortopedia. \nConsente al medico di assistere in chirurgia.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDIC_SURGERY</LocID>                          <Text>Chirurgia Ortopedica</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDIC_SURGERY_DESCRIPTION</LocID>              <Text>La specializzazione in chirurgia ortopedica consente al medico di agire come chirurgo principale presso il dipartimento di Ortopedia ed influisce sulla probabilità che gli interventi chirurgici si concludano con complicanze.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIOLOGY</LocID>                                   <Text>Cardiologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIOLOGY_DESCRIPTION</LocID>                       <Text>La specializzazione in cardiologia fornisce al medico una profonda conoscenza nel trattamento delle patologie che interessano l'apparato cardiovascolare, il cuore e le arterie. \nNecessaria per la prescrizione e l'esecuzione di esami specialistici e trattamenti presso il dipartimento di Cardiologia. \nConsente al medico di assistere in chirurgia.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIO_SURGERY</LocID>                               <Text>Cardiochirurgia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIO_SURGERY_DESCRIPTION</LocID>                   <Text>La specializzazione in cardiochirurgia consente al medico di agire come chirurgo principale presso il dipartimento di Cardiologia ed influisce sulla probabilità che gli interventi chirurgici si concludano con complicanze.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEUROLOGY</LocID>                                    <Text>Neurologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEUROLOGY_DESCRIPTION</LocID>                        <Text>La specializzazione in neurologia fornisce al medico una profonda conoscenza nel trattamento delle patologie che interessano il sistema nervoso centrale e periferico. \nNecessaria per la prescrizione e l'esecuzione di esami specialistici e trattamenti presso il dipartimento di Neurologia. \nConsente al medico di assistere in chirurgia.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEURO_SURGERY</LocID>                                 <Text>Neurochirurgia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEURO_SURGERY_DESCRIPTION</LocID>                     <Text>La specializzazione in neurochirurgia consente al medico di agire come chirurgo principale presso il dipartimento di Neurologia ed influisce sulla probabilità che gli interventi chirurgici si concludano con complicanze.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ANESTHESIOLOGY</LocID>                               <Text>Anestesiologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ANESTHESIOLOGY_DESCRIPTION</LocID>                   <Text>La specializzazione in anestesiologia è necessaria per permettere al medico di agire come anestesista durante gli interventi chirurgici, riduce le complicanze post operatorie ed offre una possibilità di sopravvivenza più alta ai pazienti collassati e stabilizzati da questo medico.</Text>  </GameDBLocalizedString>
+
+            
+            <!-- Nurse's QUALIFICATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_QUALIF_PATIENT_CARE</LocID>                             <Text>Cura del Paziente</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_QUALIF_PATIENT_CARE_DESCRIPTION</LocID>                 <Text>La qualifica in cura del paziente consente all'infermiere di fornire vari gradi di assistenza al paziente.</Text>  </GameDBLocalizedString>
+
+            <!-- Nurse's SPECIALIZATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_RECEPTIONIST</LocID>                               <Text>Accettazione</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_RECEPTIONIST_DESCRIPTION</LocID>                   <Text>La specializzazione in accettazione consente all'infermiere di agire come receptionist, il primo punto di contatto con il paziente.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_MEDICAL_SURGERY</LocID>                            <Text>Chirurgia Medica</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_MEDICAL_SURGERY_DESCRIPTION</LocID>                <Text>La specializzazione in chirurgia medica consente all'infermiere di fornire assistenza durante un intervento chirurgico, rendendolo una parte importante delle squadre chirurgiche operative.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_CLINICAL_SPECIALIST</LocID>                        <Text>Clinica Medica</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_CLINICAL_SPECIALIST_DESCRIPTION</LocID>            <Text>La specializzazione in clinica medica consente all'infermiere di agire come specialista clinico e di rivelare l'aspetto dei sintomi del paziente.</Text>  </GameDBLocalizedString>
+
+            
+            <!-- Lab guys QUALIFICATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_QUALIF_SCIENCE_EDUCATION</LocID>               <Text>Biochimica</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_QUALIF_SCIENCE_EDUCATION_DESCRIPTION</LocID>   <Text>La qualifica in biochimica consente al tecnico sanitario di accedere a procedure e metodi specifici per l'esecuzione e l'analisi di vari test ed esami di laboratorio biomedico.</Text>  </GameDBLocalizedString>
+
+            <!-- Lab guys SPECIALIZATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_BIOCHEMISTRY</LocID>                      <Text>Biochimica Avanzata</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_BIOCHEMISTRY_DESCRIPTION</LocID>          <Text>La specializzazione in biochimica avanzata aumenta l'efficacia dei test di laboratorio.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_RADIOLOGY</LocID>                         <Text>Radiologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_RADIOLOGY_DESCRIPTION</LocID>             <Text>La specializzazione in radiologia consente al tecnico sanitario di utilizzare in maniera completa le macchine per la radiologia, l'imaging diagnostico ed altre apparecchiature relative alla diagnostica per immagini in generale.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_GIT</LocID>                               <Text>Endoscopia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_GIT_DESCRIPTION</LocID>                   <Text>La specializzazione in endoscopia consente al tecnico sanitario di utilizzare in maniera completa i dispositivi di esame per il tratto gastrointenstinale ed altre apparecchiature relative alla chirurgia generale.
+			</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_USG</LocID>                               <Text>Ecografia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_USG_DESCRIPTION</LocID>                   <Text>La specializzazione in ecografia consente al tecnico sanitario di utilizzare in maniera completa i dispositivi ecografici.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_CARDIOLOGY</LocID>                        <Text>Cardiologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_CARDIOLOGY_DESCRIPTION</LocID>            <Text>La specializzazione in cardiologia consente al tecnico sanitario di utilizzare in maniera completa i dispositivi di esame relativi alla cardiologia.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_NEUROLOGY</LocID>                         <Text>Neurologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_NEUROLOGY_DESCRIPTION</LocID>             <Text>La specializzazione in neurologia consente al tecnico sanitario di utilizzare in maniera completa i dispositivi di esame relativi alla neurologia.</Text>  </GameDBLocalizedString>
+
+            
+            <!-- Janitor QUALIFICATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_EFFICIENCY</LocID>                             <Text>Efficienza</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_EFFICIENCY_DESCRIPTION</LocID>                 <Text>L'efficienza influisce sulla qualità di pianificazione del lavoro di pulizia delle stanze.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_DEXTERITY</LocID>                              <Text>Destrezza</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_DEXTERITY_DESCRIPTION</LocID>                  <Text>La destrezza influisce sulla velocità durante il lavoro di pulizia delle stanze.</Text>  </GameDBLocalizedString>
+            
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

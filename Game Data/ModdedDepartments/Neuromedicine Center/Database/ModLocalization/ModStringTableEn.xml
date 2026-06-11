@@ -1,0 +1,20 @@
+<Database>
+	<GameDBStringTable ID="LOC_EN_ADDON_MOD_NMC">
+	<LanguageCode>en</LanguageCode>
+	<LanguageNameLocalized>English</LanguageNameLocalized>
+	
+	<Contributors>
+	<Name>Leo</Name>
+	</Contributors>
+	
+	<LocalizedStrings>	
+		
+	<GameDBLocalizedString>      
+	<LocID>ADDON_MOD_NMC</LocID>                       	
+	<Text>Neuromedicine Center Mod</Text>  
+	</GameDBLocalizedString>
+	
+	</LocalizedStrings>
+	</GameDBStringTable>
+</Database>
+

@@ -1,0 +1,182 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_UK_PATCH_1_1_24">
+
+        <LanguageCode>uk</LanguageCode>
+        <LanguageNameLocalized>Українська</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_UNDO</LocID>                   <Text>Скасувати останні зміни</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_UNDO_UNAVAILABLE</LocID>       <Text>Скасування неможливе Нічого не змінено, або останню дію неможливо скасувати</Text>  </GameDBLocalizedString>
+            
+            <!-- ROOM TYPES -->
+
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_UNIQUE_IM_OFFICE</LocID>               <Text>Кабінет особливих процедур</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_UNIQUE_IM_OFFICE_DESCRIPTION</LocID>   <Text>Унікальний кабінет відділення Внутрішньої медицини, в якому проводяться різноманітні мінімально інвазивні процедури.</Text>	</GameDBLocalizedString> <!--todo description-->
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_IM_UNIQUE_UNIT</LocID>              <Text>Кабінет особливих процедур</Text>	</GameDBLocalizedString>
+
+            <!--PREFABS-->
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_IM_UNIQUE_OFFICE_LARGE_ABBR</LocID>  <Text>Кабінет особливих процедур: 8 х 6</Text>	</GameDBLocalizedString>
+
+            <!--diagnoses-->
+
+            <!--ER-->
+            <GameDBLocalizedString>      <LocID>DIA_046</LocID>                  <Text>Грип В</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_046_DESCRIPTION</LocID>      <Text>Грип В викликається вірусом грипу типу В, що спричинює сезонні спалахи грипу серед людей.</Text>	</GameDBLocalizedString>
+            <!--GS-->
+            <GameDBLocalizedString>      <LocID>DIA_047</LocID>                  <Text>ГУС</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_047_DESCRIPTION</LocID>      <Text>Гемолітико-уремічним синдромом називається стан, що виникає в нирках, коли в них пошкоджуються та запалюються дрібні судини. У більшості випадків викликається бактерією Escherichia coli (кишковою паличкою).</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_048</LocID>                  <Text>Кампілобактеріоз</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_048_DESCRIPTION</LocID>      <Text>Кампілобактеріозом називається широко розповсюджене захворювання, що найчастіше викликається бактерією Campylobacter jejuni. Джерелом зараження часто буває їжа.</Text>	</GameDBLocalizedString>
+            <!--NE-->
+            <GameDBLocalizedString>      <LocID>DIA_049</LocID>                  <Text>ФКЛ</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_049_DESCRIPTION</LocID>      <Text>ФКЛ, або фарингокон'юнктивна лихоманка — це хвороба, переважно викликана мастаденовірусом людини типу В. Найчастіше діагностується у колективах молоді. Хвороба діє переважно на очі та горлянку.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_050</LocID>                  <Text>Ботулізм</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_050_DESCRIPTION</LocID>      <Text>Ботулізм — досить рідкісне та потенційно фатальне захворювання, викликане токсинами, що є результатом метаболізму бактерії Clostridium botulinum.</Text>	</GameDBLocalizedString>
+            <!--IM-->
+            <GameDBLocalizedString>      <LocID>DIA_051</LocID>                  <Text>ТІА</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_051_DESCRIPTION</LocID>      <Text>ТІА, або транзиторна ішемічна атака, дуже схожа на інсульт, але зазвичай триває менш 24 годин і не спричиняє постійного пошкодження мозку.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_052</LocID>                  <Text>Плеврит</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_052_DESCRIPTION</LocID>      <Text>Плевритом називається хвороба, при якій запалюються мембрани, що оточують легені.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_053</LocID>                  <Text>Асбестоз</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_053_DESCRIPTION</LocID>      <Text>Азбестозом називається хвороба, викликана мікроскопічними частками асбесту, які потрапили до легенів.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_054</LocID>                  <Text>Міліарія</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_054_DESCRIPTION</LocID>      <Text>Міліарія, або пітниця — це захворювання шкіри, що найчастіше трапляється в умовах спекотного та вологого клімату.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_055</LocID>                  <Text>Сігуатера</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_055_DESCRIPTION</LocID>      <Text>Сігуатера, або чігуатера, — це хвороба, викликана вживанням у їжу риби, м'ясо якої забруднено деякими токсинами.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_056</LocID>                  <Text>Емпієма плеври</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_056_DESCRIPTION</LocID>      <Text>Емпіємою плеври, або гнійним плевритом, називають накопичення гною в плевральній порожнині, викликане бактеріальною інфекцією.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_057</LocID>                  <Text>Хілоторакс</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_057_DESCRIPTION</LocID>      <Text>Хілотораксом називається накопичення лімфатичної рідини в плевральній порожнині.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_058</LocID>                  <Text>Парапневмонічний випіт</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_058_DESCRIPTION</LocID>      <Text>Парапневмонічним випітом називається стан, що виникає в результаті пневмонії, бронхоектазії, або абсцесу легенів.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_059</LocID>                  <Text>Холестеатома</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_059_DESCRIPTION</LocID>      <Text>Холестеатома — це доброякісний наріст на шкірі, зазвичай викликаний частими інфекціями середнього вуха.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_060</LocID>                  <Text>Круп</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_060_DESCRIPTION</LocID>      <Text>Круп також називають стенозуючим ларинготрахеобронхітом, він зазвичай викликається вірусною або, рідше, бактеріальною інфекцією.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_061</LocID>                  <Text>Назальний поліп</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_061_DESCRIPTION</LocID>      <Text>Назальний поліп — це доброякісне утворювання в носовій порожнині.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_062</LocID>                  <Text>Хвороба Меньєра</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_062_DESCRIPTION</LocID>      <Text>Хвороба Меньєра — це розлад внутрішнього вуха, що характеризується раптовими безпричинними запамороченнями.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_063</LocID>                  <Text>Хронічна тромбоцитемія</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_063_DESCRIPTION</LocID>      <Text>Хронічна тромбоцитемія — рідкісне захворювання, при якому тіло пацієнта виробляє набагато більше тромбоцитів, ніж потрібно.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_064</LocID>                  <Text>Подразнення від отруйного плюща</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_064_DESCRIPTION</LocID>      <Text>Подразнення від отруйного плюща — це алергійна реакція на токсин урусіол, що міститься в листі, стеблі та коріннях отруйного плюща, дуба та інших сумахових рослин.</Text>	</GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRM_001</LocID>                  <Text>Гемоторакс</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_001_DESCRIPTION</LocID>      <Text>Гемотораксом називається накопичення крові в плевральній порожнині. Найчастіше викликане травмою грудної клітки.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_002</LocID>                  <Text>Напружений пневмоторакс</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_002_DESCRIPTION</LocID>      <Text>Напружений пневмоторакс трапляється переважно в клінічних ситуаціях, таких як штучна вентиляція легенів, реанімація, або у людей з хворобами легенів.</Text>	</GameDBLocalizedString>
+
+            
+            <!-- shared symptoms used at internal medicine-->
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_EFFUSION</LocID>                           <Text>Плевральний випіт</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_EFFUSION_DESCRIPTION</LocID>               <Text>МРТ виявило плевральний випіт.</Text>  </GameDBLocalizedString>
+            
+               
+            <!--main symptoms - INTERNAL MEDICINE-->
+            <GameDBLocalizedString>      <LocID>SYM_INFLUENZA_B_DETECTED</LocID>                       <Text>Виявлено грип В</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INFLUENZA_B_DETECTED_DESCRIPTION</LocID>           <Text>Серологічні аналізи виявили антитіла, пов'язані з вірусом грипу типу В.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_E_COLI_TOXIN_DETECTED</LocID>                      <Text>Виявлено токсин кишкової палички</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_E_COLI_TOXIN_DETECTED_DESCRIPTION</LocID>          <Text>Під час аналізу стулу виявлено токсин, що виділяє кишкова паличка.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_JEJUNI_DETECTED</LocID>                          <Text>Виявлено бактерію C. jejuni</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_JEJUNI_DETECTED_DESCRIPTION</LocID>              <Text>Аналіз ФІА виявив наявність антигенів для бактерії Campylobacter jejuni.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MASTADENOVIRUS_B_DETECTED</LocID>                  <Text>Виявлено мастаденовірус типу В</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MASTADENOVIRUS_B_DETECTED_DESCRIPTION</LocID>      <Text>Аналіз ПЛР виявив мастаденовірус людини типу «Б».</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TIA_DETECTED</LocID>                               <Text>Виявлено ТІА</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TIA_DETECTED_DESCRIPTION</LocID>                   <Text>На МРТ виявлено ознаки транзиторної ішемічної атаки.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_BOTULINUM_DETECTED</LocID>                       <Text>Виявлено C. botulinum</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_BOTULINUM_DETECTED_DESCRIPTION</LocID>           <Text>Аналіз ФІА виявив присутність Clostridium botulinum.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BACTERIAL_INFECTION_DETECTED</LocID>               <Text>Виявлено бактеріальну інфекцію</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BACTERIAL_INFECTION_DETECTED_DESCRIPTION</LocID>   <Text>Аналіз ПЛР виявив сильну бактеріальну інфекцію.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ASBESTOSIS_DETECTED</LocID>                        <Text>Виявлено асбестоз</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ASBESTOSIS_DETECTED_DESCRIPTION</LocID>            <Text>Комп'ютерна томографія допомогла виявити асбестоз в легенях пацієнта.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEAT_RASH</LocID>                                  <Text>Виявлено пітницю</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEAT_RASH_DESCRIPTION</LocID>                      <Text>Аналіз симптомів та інших даних вказує на пітницю.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CIGUATOXIN_DETECTED</LocID>                        <Text>Виявлено сігуатоксин</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CIGUATOXIN_DETECTED_DESCRIPTION</LocID>            <Text>Аналіз крові виявив отруєння сігуатоксином.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMOTHORAX_DISCOVERED</LocID>                      <Text>Виявлено гемоторакс</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMOTHORAX_DISCOVERED_DESCRIPTION</LocID>          <Text>Ультразвукове дослідження виявило велику кількість крові в плевральній порожнині пацієнта.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PUNCTURED_LUNGS</LocID>                            <Text>Пробиті легені</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PUNCTURED_LUNGS_DESCRIPTION</LocID>                <Text>Ультразвукове дослідження виявило пробиття легенів.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_FLUID_INFECTED</LocID>                     <Text>Зараження плевральної рідини</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_FLUID_INFECTED_DESCRIPTION</LocID>         <Text>Біопсія плевральної рідини підтвердила наявність інфекції.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHYLOTHORAX_DETECTED</LocID>                       <Text>Виявлено хілоторакс</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHYLOTHORAX_DETECTED_DESCRIPTION</LocID>           <Text>На рентгенівському знімку виявлено хілоторакс.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_TRANSUDATE</LocID>                         <Text>Плевральний транссудат</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_TRANSUDATE_DESCRIPTION</LocID>             <Text>На МРТ виявлено присутність плеврального транссудату.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHOLESTEATOMA_DISCOVERED</LocID>                   <Text>Виявлено холестеатому</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHOLESTEATOMA_DISCOVERED_DESCRIPTION</LocID>       <Text>Комп'ютерна томографія допомогла виявити холестеатому у вусі пацієнта</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NASAL_POLYPS_DETECTED</LocID>                      <Text>Виявлено назальні поліпи</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NASAL_POLYPS_DETECTED_DESCRIPTION</LocID>          <Text>Комп'ютерна томографія допомогла виявити невеликі поліпи в носовій порожнині пацієнта.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CROUP_PRESENT</LocID>                              <Text>Виявлено круп</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CROUP_PRESENT_DESCRIPTION</LocID>                  <Text>Аналіз симптомів та інших даних вказує на круп.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MENIERES_DISEASE_PRESENT</LocID>                   <Text>Хвороба Меньєра</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MENIERES_DISEASE_PRESENT_DESCRIPTION</LocID>       <Text>Аналіз симптомів та інших даних вказує на хворобу Меньєра.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THROMBOCYTHEMIA</LocID>                            <Text>Тромбоцитемія</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THROMBOCYTHEMIA_DESCRIPTION</LocID>                <Text>Повний аналіз крові вказує на аномально велику кількість тромбоцитів.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_POISON_IVY_RASH</LocID>                            <Text>Подразнення від отруйного плюща</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_POISON_IVY_RASH_DESCRIPTION</LocID>                <Text>Аналіз симптомів та інших даних вказує на подразнення від отруйного плюща.</Text>  </GameDBLocalizedString>
+
+            <!--new trt procedures-->
+            <GameDBLocalizedString>      <LocID>TRT_BLOOD_COMPONENT_THERAPY</LocID>                    <Text>Терапія компонентів крові</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BLOOD_COMPONENT_THERAPY_DESCRIPTION</LocID>        <Text>Спеціалізований тип переливання крові, що може включати як переливання цільної крові, так і її окремих компонентів: червоні кров'яні тільця, свіжа заморожена плазма, тромбоцити, кріопреципітат, гранулоцити та RhoGAM. \n\nНеобхідна кімната: Будь-який діагностичний блок / реанімація / відділення</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FOREIGN_OBJECT_REMOVAL</LocID>                     <Text>Видалення чужорідного об'єкту</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FOREIGN_OBJECT_REMOVAL_DESCRIPTION</LocID>         <Text>Видалення чужорідного об'єкту, присутнього в рані. \n\nНеобхідна кімната: Кабінет лікаря / Спостереження / Травматичний центр / Інтенсивне терапевтичне відділення / Кабінет / Діагностичний підрозділ при травматології</Text>	</GameDBLocalizedString>
+
+            <!--internal medicine-->
+            <GameDBLocalizedString>      <LocID>TRT_THORACENTESIS</LocID>                              <Text>Торакоцентез</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_THORACENTESIS_DESCRIPTION</LocID>                  <Text>Інвазивна процедура, що проводиться для видалення рідини чи повітря з плевральної порожнини. \n\nНеобхідна кімната: Кабінет особливих процедур \n\nНеобхідне обладнання: Пристрій для торакоцентеза</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MIEP</LocID>                                       <Text>МІЕП</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MIEP_DESCRIPTION</LocID>                           <Text>Мінімально-інвазивна ендоскопічна процедура використовується для лікування різноманітних отоларингологічних захворювань. \n\nНеобхідна кімната: Кабінет особливих процедур \n\nНеобхідне обладнання: Робоча станція ЛОР</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MANNITOL_DOSES</LocID>                             <Text>Курс манітолу</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MANNITOL_DOSES_DESCRIPTION</LocID>                 <Text>Для нейтралізації отруєння сігуатоксином в тіло людини вводяться дозі манітолу. \n\nНеобхідна кімната: Діагностичний блок у відділенні внутрішньої медицини / реанімації</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HYDROXYUREA</LocID>                                <Text>Гідроксикарбамід</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HYDROXYUREA_DESCRIPTION</LocID>                    <Text>Особливі ліки, які пригнічують створення нових кров'яних тілець в кістковому мозку. \n\nНеобхідна кімната: Діагностичний блок у відділенні внутрішньої медицини / реанімації</Text>	</GameDBLocalizedString>
+
+            <!--neurology-->
+            <GameDBLocalizedString>      <LocID>TRT_BOTULINUM_ANTITOXIN</LocID>                        <Text>Антитоксин до ботулотоксину</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BOTULINUM_ANTITOXIN_DESCRIPTION</LocID>            <Text>Особливі антитіла, здатні нейтралізувати токсини, що є продуктом метаболізму бактерії Clostridium botulinum. \n\nНеобхідна кімната: Діагностичний блок в неврології / реанімації</Text>	</GameDBLocalizedString>
+            
+            <!--EXAMINATIONS - NEW-->
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_SAMPLING</LocID>                            <Text>Взяття зразка для ЗТ-ПЛР</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_SAMPLING_DESCRIPTION</LocID>                <Text>Полімеразна ланцюгова реакція зі зворотньою транскрипцією — це лабораторна методика, що поєднує зворотню транскрипцію РНК на ДНК та посилення конкретних цілей в ДНК за допомогою ПЛР. \n\nНеобхідна кімната: Лабораторія гематології \n\nЗразки: Відділення швидкої допомоги / Відділення інфекційних хвороб / Реанімація /\n\nНеобхідне обладнання: Скляні колби + Термоциклер</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_TESTING</LocID>                             <Text>Аналіз ЗТ-ПЛР</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_TESTING_DESCRIPTION</LocID>                 <Text>Полімеразна ланцюгова реакція зі зворотньою транскрипцією — це лабораторна методика, що поєднує зворотню транскрипцію РНК на ДНК та посилення конкретних цілей в ДНК за допомогою ПЛР. \n\nНеобхідна кімната: Лабораторія гематології</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_SAMPLING</LocID>                             <Text>Взяття зразка для ФІА</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_SAMPLING_DESCRIPTION</LocID>                 <Text>Ферментний імуносорбентний аналіз (ФІА) — це лабораторна методика, яку використовують для виявлення та визначення об'єму пептидів, протеїнів, антитіл та гормонів.\n\nЗразки: Відділення швидкої допомоги / Відділення внутрішньої медицини / Відділення інфекційних хвороб / Реанімація /\n\nНеобхідне обладнання: Скляні колби + Радіоімунний аналізатор</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_TESTING</LocID>                              <Text>Аналіз ФІА</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_TESTING_DESCRIPTION</LocID>                  <Text>Ферментний імуносорбентний аналіз (ФІА) — це лабораторна методика, яку використовують для виявлення та визначення об'єму пептидів, протеїнів, антитіл та гормонів.\n\nНеобхідна кімната: Лабораторія гематології</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PULSE_OXYMETRY</LocID>                             <Text>Пульсоксиметрія</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PULSE_OXYMETRY_DESCRIPTION</LocID>                 <Text>Пульсоксиметрія — це простий у використанні та ефективний метод стеження за насиченням киснем крові пацієнта.</Text>	</GameDBLocalizedString>
+
+            <!--OBJECTS - DEVICES-->
+            <GameDBLocalizedString>      <LocID>OBJECT_ENT_WORKSTATION</LocID>                         <Text>Робоча станція ЛОР</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ENT_WORKSTATION_DESCRIPTION</LocID>             <Text>Робоча станція отоларинголога для широкого спектра медичних процедур.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_THORA_DEVICE</LocID>                            <Text>Пристрій для торакоцентеза</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_THORA_DEVICE_DESCRIPTION</LocID>                <Text>Спеціальний пристрій з наведенням по ультразвуку, що використовується для торакоцентеза.</Text>	</GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SURGEON_ASSISTANTS</LocID>                             <Text>Помічники хірурга</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SURGEON_ASSISTANT</LocID>                              <Text>Помічник хірурга</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SURGEON_ASSISTANT_DESCRIPTION</LocID>                  <Text>Лікар в ординаторській з допоміжною роллю хірурга, спеціалізується на</Text>  </GameDBLocalizedString>
+            
+            <!-- Note: the name if the new room is ROOM_TYPE_UNIQUE_IM_OFFICE in this file -->
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_INTERNAL_MEDICINE_CHANGE</LocID>         <Text>Важливі зміни в грі</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_INTERNAL_MEDICINE_CHANGE_TEXT</LocID>    <Text>У відділенні Внутрішньої медицини більше не проводяться хірургічні процедури. Тепер ви можете побудувати новий кабінет особливих процедур для особливої діагностики та лікувальних процедур.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>BANNER_DLC_HOSPITAL_SERVICES</LocID>                   <Text>Оцініть доповнення «Послуги лікарні»!</Text>  </GameDBLocalizedString>
+
+            <!--NEW OBJECT-->
+            <GameDBLocalizedString>      <LocID>OBJECT_DONT_CROSS</LocID>                               <Text>Заборонена зона</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

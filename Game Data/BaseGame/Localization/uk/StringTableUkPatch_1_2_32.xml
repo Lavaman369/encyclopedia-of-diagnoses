@@ -1,0 +1,21 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_UK_PATCH_1_2_32">
+
+        <LanguageCode>uk</LanguageCode>
+        <LanguageNameLocalized>Українська</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_ONLY_HOSPITALIZED</LocID>                <Text>Пацієнта треба госпіталізувати перед лікуванням!</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>POPUP_TAKE_OVER_EVENT_PATIENTS</LocID>                 <Text>Взяти усіх пацієнтів</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>POPUP_ACCEPT_EVENT_TAKE_OVER_EVENT_PATIENTS</LocID>    <Text>Прийняти та взяти усіх пацієнтів</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>EVENT_CRASH</LocID>                     <Text>Нещасний випадок</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

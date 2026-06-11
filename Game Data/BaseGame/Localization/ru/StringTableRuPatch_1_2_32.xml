@@ -1,0 +1,21 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_RU_PATCH_1_2_32">
+
+        <LanguageCode>ru</LanguageCode>
+        <LanguageNameLocalized>Русский</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_ONLY_HOSPITALIZED</LocID>                <Text>Перед лечением пациента нужно госпитализировать!</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>POPUP_TAKE_OVER_EVENT_PATIENTS</LocID>                 <Text>Забрать всех пациентов</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>POPUP_ACCEPT_EVENT_TAKE_OVER_EVENT_PATIENTS</LocID>    <Text>Принять и забрать всех пациентов</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>EVENT_CRASH</LocID>                     <Text>Несчастный случай</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

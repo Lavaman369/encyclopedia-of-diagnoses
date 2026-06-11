@@ -1,0 +1,26 @@
+<Database>
+    <GameDBStringTable ID="LOC_KR_PATCH_1_1_27">
+
+        <LanguageCode>kr</LanguageCode>
+        <LanguageNameLocalized>한국어</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            <GameDBLocalizedString>    <LocID>OPTIONS_EDGE_SCROLLING</LocID>                  <Text>가장자리 스크롤</Text>  </GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->
+            <GameDBLocalizedString>      <LocID>CONFIRM_SEND_PATIENT_AWAY_TITLE</LocID>       <Text>환자 이송하기.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CONFIRM_SEND_PATIENT_AWAY_TEXT</LocID>        <Text>다른 병원으로 환자를 이송하시겠습니까?</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>POPUP_CONFIRM_SEND_PATIENT_AWAY</LocID>       <Text>이송</Text>  </GameDBLocalizedString>
+
+         <GameDBLocalizedString>      <LocID>SYM_PLEURAL_EFFUSION_DESCRIPTION_V2</LocID>               <Text>'폐에 물이 찬 현상'이라고도 불리는 흉수는 여러 겹의 흉막(폐를 선회하는 암막) 사이에 과잉 유체가 쌓이는 것입니다. 이 과잉 유체는 폐의 팽창을 제한하여 호흡을 방해합니다.</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

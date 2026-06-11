@@ -1,0 +1,21 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_DE_PATCH_1_2_32">
+
+        <LanguageCode>de</LanguageCode>
+        <LanguageNameLocalized>Deutsch</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_ONLY_HOSPITALIZED</LocID>                <Text>Die Patienten müssen vor der Behandlung im Krankenhaus aufgenommen werden!</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>POPUP_TAKE_OVER_EVENT_PATIENTS</LocID>                 <Text>Alle Patienten übernehmen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>POPUP_ACCEPT_EVENT_TAKE_OVER_EVENT_PATIENTS</LocID>    <Text>Akzeptieren und alle Patienten übernehmen</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>EVENT_CRASH</LocID>                     <Text>Unfall</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

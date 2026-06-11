@@ -1,0 +1,24 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_PTBR_PATCH_1_2_37">
+
+        <LanguageCode>ptbr</LanguageCode>
+        <LanguageNameLocalized>Português do Brasil</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- Texts that should have been sent for translation with Patch 23 -->
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_ASSIST_ROLE_DPT_NOT_WORKING</LocID>         <Text>Hospitalização não funciona</Text>  </GameDBLocalizedString>
+
+            <!-- {1} is name of a department (in nominative case) -->
+            <!-- "Assist at surgery" should match EMPL_ROLE_SURGERY_ASSIST from StringTable[Language]Characters.xml -->
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_ASSIST_ROLE_DPT_NOT_WORKING_TEXT</LocID>    <Text>A hospitalização não funciona em {1}. Todas as assistências para cirurgias no turno de dia estão desativadas.</Text>  </GameDBLocalizedString>
+            
+            <!-- Echocardiography needs to match <LocID>EXM_ECHO</LocID> or <LocID>EXM_ECHO_DESCRIPTION</LocID> in StringTable[Language]Examinations.xml  -->
+            <GameDBLocalizedString>      <LocID>SYM_BRAIN_ARTERIES_BLOCKED_DESCRIPTION_V2</LocID>    <Text>A ecocardiografia revelou o bloqueio de várias artérias no cérebro devido a coágulos.</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

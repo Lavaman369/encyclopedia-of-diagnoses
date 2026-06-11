@@ -1,0 +1,404 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_RU_DLC_INFECTIOUS_DISEASES">
+
+        <LanguageCode>ru</LanguageCode>
+        <LanguageNameLocalized>Русский</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>DLC_INFECTIOUS_DISEASES</LocID>                                 <Text>Дополнение «Инфекционное отделение»</Text>  </GameDBLocalizedString>
+            
+            <!-- Department and rooms-->
+            <!-- Note: the abbreviation DID is also widely used in names of rooms or in descriptions of treatments -->
+            <GameDBLocalizedString>      <LocID>DPT_INFECTIOUS_DISEASES_DEPARTMENT</LocID>                      <Text>Инфекционные заболевания</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ISOLATION_INPATIENT_WARD</LocID>                      <Text>Изоляционный бокс</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ISOLATION_INPATIENT_WARD_DESCRIPTION</LocID>          <Text>Изоляционный бокс — это отдельная палата для изоляции пациентов, страдающих от инфекционных заболеваний. Она позволяет предотвратить распространение патогенов.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INFECTIOUS_DISEASES_OFFICE</LocID>                    <Text>Кабинет инфекционного отделения</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INFECTIOUS_DISEASES_OFFICE_DESCRIPTION</LocID>        <Text>В кабинете инфекционного отделения проводятся простые осмотры и лечение инфекционных больных. Требования к персоналу:\n1 эпидемиолог </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_DID_OFFICE</LocID>                          <Text>Кабинет диагностики</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_DID_OFFICE_DESCRIPTION</LocID>              <Text>Кабинет диагностики в инфекционном отделении обеспечивает осмотр и лечебные процедуры. \n\nМин. Требования к персоналу: \n1 эпидемиолог \n(из персонала ординаторской)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_DID</LocID>            <Text>Кардиографический кабинет</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DLC_TOOLTIP_LOGISTICS_BIOHAZARD</LocID>                         <Text>Биоопасная зона, входить только в защитной маске и перчатках.</Text>  </GameDBLocalizedString>
+                                                                                                                
+            <!-- Hospitalization alias -->                                                                      
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_ISOLATION</LocID>                           <Text>Изоляционная госпитализация</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_ISOLATION_DESCRIPTION</LocID>               <Text>Госпитализация в боксе позволяет предотвратить распространение инфекции и обеспечить пациенту должный уход.\n\nНеобходимая комната: изоляционный бокс</Text>  </GameDBLocalizedString>
+                                                                                                                
+            <!-- SKILLS-->                                                                                      
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_EPIDEMIOLOGY</LocID>                             <Text>Эпидемиология</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_EPIDEMIOLOGY_DESCRIPTION</LocID>                 <Text>Эпидемиологи исследуют распространение инфекционных заболеваний и паразитов, чтобы определить источник, факторы риска, жизненный цикл паразита либо способы передачи.</Text>	</GameDBLocalizedString> <!--todo description-->
+                                                                                                                
+            <!-- Global Admin Events-->                                                                         
+            <GameDBLocalizedString>      <LocID>DAYS_LEFT</LocID>                                               <Text>Дней осталось: </Text></GameDBLocalizedString>
+                                                                                                                 
+            <GameDBLocalizedString>      <LocID>DLC_WORLD_EVENT_DISEASE_OUTBREAK</LocID>                        <Text>Вспышка эпидемии!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_WORLD_EVENT_DISEASE_OUTBREAK_TEXT</LocID>                   <Text>Вы не изолировали всех инфицированных больных. В результате часть больницы оказалась зараженной. Теперь персонал вынужден носить защитные маски и будет работать медленнее!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_WORLD_EVENT_DISEASE_OUTBREAK_TEXT_WARD</LocID>              <Text>Пациента с инфекционным заболеванием госпитализировали не в боксе. В результате часть вашей больницы оказалась зараженной. Теперь персонал вынужден носить защитные маски и будет работать медленнее!</Text></GameDBLocalizedString>
+                                                                                                                
+            <!-- ============== -->                                                                             
+            <!--EVENTS -->                                                                                      
+            <!-- ============== -->                                                                             
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_LAB_DESC</LocID>         		            <Text>Несчастный случай в университетской лаборатории вызвал выброс очень опасных патогенов. Все городские больницы должны подготовить защитное снаряжение и обращаться с новопоступившими пациентами с крайней осторожностью. </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_TOURISTS_DESC</LocID>         	            <Text>На популярном курорте зафиксирована вспышка крайне опасного заболевания. Всем вернувшимся оттуда людям, почувствовавшим недомогание, следует немедленно обратиться в ближайшую больницу. </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_CLIMATE_DESC</LocID>         	            <Text>Изменение климата привело к тому, что экзотические заболевания все больше и больше распространяются в местных условиях, особенно в это время года. </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_CORONA_DESC</LocID>                          <Text>Город накрыла очередная волна нового коронавируса Covid-19. Всем больницам и прочим медицинским учреждениям следует быть готовыми к огромному наплыву зараженных пациентов.</Text></GameDBLocalizedString>
+                                                                                                                
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->                                       
+            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_DISEASE_OUTBREAK_ENDED</LocID>               <Text>Сегодняшние новости</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_DISEASE_OUTBREAK_ENDED_TEXT</LocID>          <Text>Здоровье всего вашего персонала вернулось в норму. Вы пережили вспышку эпидемии!</Text>  </GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <!-- Satisfaction modifiers -->
+            <GameDBLocalizedString>      <LocID>DLC_INFECTED</LocID>                                            <Text>заражен</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>HIGHLY_CONTAGIOUS</LocID>                                       <Text>Очень заразная!</Text>  </GameDBLocalizedString>
+
+            <!--Doors-->
+            <GameDBLocalizedString>      <LocID>DOOR_BIOHAZARD</LocID>                     		                <Text>Биозащитная дверь</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_OVAL_WINDOW</LocID>                                        <Text>Дверь с овальным окном</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_BIOHAZARD_DOUBLE</LocID>                                   <Text>Двойная биозащитная дверь</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_OVAL_WINDOW_DOUBLE</LocID>                                 <Text>Двойная дверь с овальными окнами</Text>  </GameDBLocalizedString>
+
+            <!-- Objects-->
+            <GameDBLocalizedString>      <LocID>OBJECT_LIFE_MONITOR_OLD</LocID>                     	    	<Text>Монитор показателей жизнедеятельности</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MECHANICAL_VENTILATOR_DLC</LocID>                        <Text>Механический вентилятор</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL</LocID>                                   <Text>Стена изоляционного бокса</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL_BIOHAZARD</LocID>                         <Text>Стена изоляционного бокса</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL_CABINET</LocID>                           <Text>Настенный шкафчик изоляционного бокса</Text>  </GameDBLocalizedString>
+            <!-- Description for all three versions of isolation wall -->                                      
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL_DESCRIPTION</LocID>                       <Text>Обеспечивает защиту от всех болезней, вызываемых передающимися по воздуху патогенами.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_SANITARY_EQUIPMENT</LocID>                     <Text>Предметы гигиены</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_SANITARY_EQUIPMENT_DESCRIPTION</LocID>         <Text>Предназначены для базовой гигиены пациентов в изоляционных боксах.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AC</LocID>                    			    	<Text>Кондиционер изоляционного бокса</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AC_DESCRIPTION</LocID>                         <Text>Кондиционер обеспечивает чистым фильтрованным воздухом изолированных пациентов, повышая их комфорт.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_CAUTION</LocID>                                  <Text>Знак «Опасность»</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_CAUTION_DESCRIPTION</LocID>                      <Text>Предостережение о вспышке заболевания.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_QUARANTINE</LocID>                               <Text>Знак «Карантин»</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_QUARANTINE_DESCRIPTION</LocID>                   <Text>Только уполномоченный персонал</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AIR_DOOR</LocID>                               <Text>Изолирующая воздушная дверь</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AIR_DOOR_DESCRIPTION</LocID>                   <Text>Система негативного потока воздуха используется для уменьшения риска заражения передающимися по воздуху патогенами окружающих помещений.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_NOTICE_BOARD_X</LocID>                                   <Text>Доска для диаграмм</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_NOTICE_BOARD_X_DESCRIPTION</LocID>                       <Text>Магнитная доска для диаграмм</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DESINFECTANTS</LocID>                                    <Text>Средства для дезинфекции</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DESINFECTANTS_DESCRIPTION</LocID>                        <Text>Дезинфектанты для повседневного использования.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_INFECT1</LocID>                                   <Text>Постер «Инфекционные болезни»</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_INFECT2</LocID>                                   <Text>Постер «Малярия»</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_BENCH_X</LocID>                                <Text>Скамейка (современная)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_COFFEE_TABLE_2</LocID>                                   <Text>Кофейный столик</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AMBULANCE_X_01</LocID>                         <Text>Машина скорой помощи</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AMBULANCE_X_01_DESCRIPTION</LocID>             <Text>Новая машина скорой помощи европейского образца, способная доставить в больницу пациентов даже в самом тяжелом состоянии.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_STRETCHER_X</LocID>                            <Text>Носилки</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_BIOHAZARD</LocID>                                  <Text>Изоляционный бокс</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_DID_DEPARTMENT</LocID>                             <Text>Инфекционные заболевания</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_I</LocID>                                <Text>Инфекционные заболевания: БОЛЬШАЯ БОЛЬНИЦА</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_INFECTIOUS_DISEASES</LocID>             <Text>Шаблоны комнат отделения инфекционных заболеваний</Text>  </GameDBLocalizedString>
+
+            <!-- DIAGNOSES - MIGRATED -->
+            <GameDBLocalizedString>      <LocID>DIA_INFX</LocID>                                              	<Text>Грипп типа А</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HEPAX</LocID>                                               <Text>Гепатит A</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HEPBX</LocID>                                               <Text>Гепатит B</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CLCX</LocID>                                                <Text>Холера</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TYFX</LocID>                                                <Text>Брюшной тиф</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TBCX</LocID>                                                <Text>Туберкулез</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TULX</LocID>                                                <Text>Туляремия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PNAX</LocID>                                                <Text>Сибирская язва (легочная форма)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_RBFX</LocID>                                                <Text>Крысиная лихорадка</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CSDX</LocID>                                                <Text>Кошачья лихорадка</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PTSX</LocID>                                                <Text>Коклюш</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LEGX</LocID>                                                <Text>Легионеллез</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TPFX</LocID>                                                <Text>Тифоидная лихорадка</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ATSX</LocID>                                                <Text>Американский трипаносомоз</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TXMX</LocID>                                                <Text>Токсоплазмоз</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BABX</LocID>                                                <Text>Бабезиоз</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LYDX</LocID>                                                <Text>Болезнь Лайма</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_MUMX</LocID>                                                <Text>Свинка</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TBEX</LocID>                                                <Text>Клещевой энцефалит</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_RABX</LocID>                                                <Text>Бешенство</Text>  </GameDBLocalizedString>
+            
+            <!--DIAGNOSES - NEW -->
+            <GameDBLocalizedString>      <LocID>DIA_001</LocID>                                                 <Text>Анаплазмоз</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_001_DESCRIPTION</LocID>                                     <Text>Анаплазмоз вызывается бактерией Anaplasmosis phagocytophilum, которую разносят клещи.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_002</LocID>                                                 <Text>Эрлихиоз</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_002_DESCRIPTION</LocID>                                     <Text>Гриппоподобное заболевание, родственное анаплазмозу. Также разносится клещами.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_003</LocID>                                                 <Text>Марсельская лихорадка</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_003_DESCRIPTION</LocID>                                     <Text>Лихорадка, вызываемая риккетсиозной инфекцией, возбуждаемой бактерией Rickettsia conorii и передаваемой собачьим клещом. Главным образом встречается в бассейне Средиземного моря, Ближнем Востоке, Индии и Африке.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_004</LocID>                                                 <Text>Пятнистая лихорадка Скалистых гор</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_004_DESCRIPTION</LocID>                                     <Text>Бактериальное инфекционное заболевание, вызываемое бактерией Rickettsia rickettsii, и разносящееся различными видами клещей (американский собачий клещ, коричневый собачий клещ, древесный клещ Скалистых гор).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_005</LocID>                                                 <Text>Колорадская клещевая лихорадка</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_005_DESCRIPTION</LocID>                                     <Text>Вирусная инфекция, которая разносится древесным клещом Скалистых гор. Симптомы крайне похожи на пятнистую лихорадку Скалистых гор.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_006</LocID>                                                 <Text>Клещевая лихорадка тихоокеанского побережья</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_006_DESCRIPTION</LocID>                                     <Text>Бактериальное заболевание, вызываемое бактерией Rickettsia philipii и разносимое клещом тихоокеанского побережья.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_007</LocID>                                                 <Text>Африканская клещевая лихорадка</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_007_DESCRIPTION</LocID>                                     <Text>Африканская клещевая лихорадка — это бактериальная инфекция, вызываемая бактерией Rickettsia africae и разносимой клещами. Заболевание встречается в Африке к югу от Сахары, на Карибах и в Океании.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_008</LocID>                                                 <Text>Квинслендский клещевой тиф</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_008_DESCRIPTION</LocID>                                     <Text>Возбудителем квинслендского клещевого тифа является бактерия Rickettsia australis. Заболевание встречается лишь в восточной Австралии, включая Тасманию.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_009</LocID>                                                 <Text>Пятнистая лихорадка острова Флиндерс</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_009_DESCRIPTION</LocID>                                     <Text>Пятнистая лихорадка острова Флиндерс вызывается бактерией Rickettsia honei, главным образом встречается в юго-восточной и южной Азии, а также в Австралии.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_010</LocID>                                                 <Text>Японская пятнистая лихорадка</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_010_DESCRIPTION</LocID>                                     <Text>Японская пятнистая лихорадка встречается главным образом в теплых областях юго-западной и центральной Японии со стороны Тихого океана. Заболевание вызывается бактерией Rickettsia japonica, и передается укусом клеща.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_011</LocID>                                                 <Text>Клещевая лимфаденопатия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_011_DESCRIPTION</LocID>                                     <Text>Клещевая лимфаденопатия — это клещевой риккетсиоз, относительно часто встречающийся в центральной Европе и вызываемый бактерией Rickettsia slovaca.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_012</LocID>                                                 <Text>Рикеттсийная оспа</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_012_DESCRIPTION</LocID>                                     <Text>Рикеттсийная оспа передается клещами, обычно живущими на мышах и вызывается бактерией Rickettsia akari.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_013</LocID>                                                 <Text>Бруцеллез</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_013_DESCRIPTION</LocID>                                     <Text>Бруцеллез — это крайне заразное инфекционное заболевание, вызываемое бактериями из рода Brucella. Попадает в организм через непастеризованное молоко или непрожаренное мясо.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_014</LocID>                                                 <Text>Чикугунья</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_014_DESCRIPTION</LocID>                                     <Text>Вирус, вызывающий болезнь чикугунья, передается укусом зараженного комара. Вакцины не существует.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_015</LocID>                                                 <Text>Ку-лихорадка</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_015_DESCRIPTION</LocID>                                     <Text>Ку-лихорадка вызывается бактерией Coxiella burnetti и распространяется такими животными, как коровы, овцы, козы, кошки и собаки. Это внутриклеточный паразит, способный расти и размножаться внутри клеток зараженного организма.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_016</LocID>                                                 <Text>Лихорадка денге</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_016_DESCRIPTION</LocID>                                     <Text>Лихорадка денге — это тропическая болезнь, передаваемая с укусом зараженного комара. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_017</LocID>                                                 <Text>Лихорадка Зика</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_017_DESCRIPTION</LocID>                                     <Text>Тропическая болезнь, вызываемая вирусом Зика. Распространяется комарами рода Aedes. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_018</LocID>                                                 <Text>Эбола</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_018_DESCRIPTION</LocID>                                     <Text>Эбола — это смертоносная вирусная геморрагическая лихорадка. Вызывается эболавирусами и передается прямым контактом с телесными жидкостями зараженных.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_019</LocID>                                                 <Text>Малярия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_019_DESCRIPTION</LocID>                                     <Text>Малярия — тропическое инфекционное заболевание, вызываемое паразитами из группы плазмодиев. Распространяется через укусы зараженных комаров.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_020</LocID>                                                 <Text>Желтая лихорадка</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_020_DESCRIPTION</LocID>                                     <Text>Желтая лихорадка — тропическое вирусное заболевание, передаваемое укусами зараженных самок комаров. Вызывается вирусом желтой лихорадки, РНК-вирусом в оболочке из семейства Flaviridae.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_021</LocID>                                                 <Text>Лихорадка Западного Нила</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_021_DESCRIPTION</LocID>                                     <Text>Лихорадка Западного Нила вызывается одноименным вирусом и распространяется через зараженных комаров. У большинства людей проходит бессимптомно. Впервые вирус был обнаружен в Уганде в 1937 году.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_022</LocID>                                                 <Text>Лихорадка Ласса</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_022_DESCRIPTION</LocID>                                     <Text>Также известна как геморрагическая лихорадка Ласса, вызывается вирусом Ласса, передающимся через африканских крыс.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_023</LocID>                                                 <Text>Лихорадка Марбург</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_023_DESCRIPTION</LocID>                                     <Text>Это серьезное заболевание, которому подвержены люди и высшие приматы, вызывается одним из двух марбургвирусов — вирусом Марбург или Равн.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_024</LocID>                                                 <Text>Лептоспироз</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_024_DESCRIPTION</LocID>                                     <Text>Лептоспирозом называется заражение крови, вызываемое бактерией Leptospira. Как правило, распространяется грызунами.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_025</LocID>                                                 <Text>Заражение c. difficile</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_025_DESCRIPTION</LocID>                                     <Text>Данная болезнь вызывается бактериями, вырабатывающими токсины. Может оказаться летальной.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_026</LocID>                                                 <Text>Калифорнийская лихорадка</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_026_DESCRIPTION</LocID>                                     <Text>Калифорнийскую лихорадку (коццидиоидомикоз) вызывает грибок Coccidioides, который можно найти в почве юго-западных США, Мексике, а также Центральной и Южной Америки.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_027</LocID>                                                 <Text>COVID-19</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_027_DESCRIPTION</LocID>                                     <Text>Это заболевание вызывает недавно обнаруженный коронавирус SARS-CoV-2. Приводит к респираторной инфекции. Впервые обнаружено в китайском городе Ухань в декабре 2019 года, и с тех пор распространилось по всему миру, вызвав крупнейшую пандемию с пандемии «испанки» 1918 года.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_028</LocID>                                                 <Text>БРС</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_028_DESCRIPTION</LocID>                                     <Text>БРС — ближневосточный респираторный синдром, также известный как верблюжий грипп. Крайне заразная респираторная вирусная инфекция, вызываемая БРС-коронавирусом.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_029</LocID>                                                 <Text>ТОРС</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_029_DESCRIPTION</LocID>                                     <Text>ТОРС — тяжелый острый респираторный синдром. Вирусное респираторное заболевание, вызываемое ТОРС-коронавирусом. Первая вспышка произошла в южном Китае между ноябрем 2002 и июлем 2003.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_030</LocID>                                                 <Text>Респираторный криптоспоридиоз</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_030_DESCRIPTION</LocID>                                     <Text>Криптоспоридиоз — это паразитическое заболевание, вызываемое простейшими паразитами: криптоспоридиями.  Воздействует на респираторную систему, а также на пищеварительный тракт.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_031</LocID>                                                 <Text>Кишечный криптоспоридиоз</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_031_DESCRIPTION</LocID>                                     <Text>Криптоспоридиоз — это паразитическое заболевание, вызываемое простейшими паразитами: криптоспоридиями.  Воздействует на пищеварительный тракт, а также на респираторную систему.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_032</LocID>                                                 <Text>ХПС</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_032_DESCRIPTION</LocID>                                     <Text>ХПС, или хантавирусный пульмональный синдром, — серьезное вирусное респираторное заболевание, вызываемое хантавирусами. Распространяется грызунами.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_033</LocID>                                                 <Text>Норовирус</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_033_DESCRIPTION</LocID>                                     <Text>Норовирус, или болезнь зимней тошноты, — очень заразный вирус, вызывающий диарею и тошноту. Зараженные люди выпускают в окружающую среду миллиарды норовирусов.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_034</LocID>                                                 <Text>Ротавирус А</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_034_DESCRIPTION</LocID>                                     <Text>Ротавирус А очень заразен и вызывает жидкую диарею. Лучший метод предотвращения — вакцинация.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_035</LocID>                                                 <Text>Мелиоидоз</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_035_DESCRIPTION</LocID>                                     <Text>Мелиоидоз (болезнь Уитмора) вызывается бактерией Burkholderia pseudomallei. Распространяется как через животных, так и через зараженную почву или воду.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_036</LocID>                                                 <Text>Респираторно-синцитиальный вирус человека</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_036_DESCRIPTION</LocID>                                     <Text>РСВЧ, или ортопневмовирус человека, — это синцитиальный вирус, вызывающий респираторные заболевания.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_037</LocID>                                                 <Text>Лимфоцитарный хориоменингит</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_037_DESCRIPTION</LocID>                                     <Text>Лимфоцитарный хориоменингит — это переносимая грызунами вирусная инфекция. Ее вызывает вирус лимфоцитарного хориоменингита. Как правило, распространяется обычными мышами.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_038</LocID>                                                 <Text>Бубонная чума</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_038_DESCRIPTION</LocID>                                     <Text>Бубонная чума — один из трех видов чумы, вызываемых бактерией Yersinia pestis. Бубонная чума распространяется зараженными блохами, живущими на мелких животных. Прежде всего поражает лимфатические узлы, раздувающиеся до неимоверных размеров.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_039</LocID>                                                 <Text>Септицемическая чума</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_039_DESCRIPTION</LocID>                                     <Text>Септицемическая чума — один из трех видов чумы, вызываемых бактерией Yersinia pestis. Распространяется зараженными блохами, живущими на мелких животных. Самая редкая из всех трех форм, как правило, поражает кровь.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_040</LocID>                                                 <Text>Пневмоническая чума</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_040_DESCRIPTION</LocID>                                     <Text>Пневмоническая чума — один из трех видов чумы, вызываемых бактерией Yersinia pestis. Распространяется зараженными блохами, живущими на мелких животных. Пневмоническая форма в первую очередь поражает легкие.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_041</LocID>                                                 <Text>Вирус Нипах</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_041_DESCRIPTION</LocID>                                     <Text>Вирус Нипах — серьезное и потенциально смертельное заболевание, вызываемое РНК-вирусом рода Henipavirus Передается между людьми, а также может передаваться от одного животного к другому.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_042</LocID>                                                 <Text>Лихорадка Рифт-Валли</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_042_DESCRIPTION</LocID>                                     <Text>Лихорадка Рифт-Валли — вирусное заболевание, вызываемое вирусом ЛРВ, передаваемым через телесные жидкости животных.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_043</LocID>                                                 <Text>Возвратный тиф</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_043_DESCRIPTION</LocID>                                     <Text>Возвратный тиф — инфекционное заболевание с векторным переносом. Вызывается группой бактерий рода Borelia и передается через укусы вшей и клещей.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_044</LocID>                                                 <Text>Острый гепатит Е</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_044_DESCRIPTION</LocID>                                     <Text>Воспаление печени, вызываемое вирусом гепатита Е. Передается так же, как гепатит А, но вирусы не являются родственными. Впервые обнаружен в 1955 году, но сам вирус выделен лишь в 1983 году.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_045</LocID>                                                 <Text>Птичий грипп H5N1</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_045_DESCRIPTION</LocID>                                     <Text>Вирус гриппа типа А, подтип H5N1 — крайне заразный птичий грипп. Передается людям лишь от птиц. Первая вспышка зарегистрирована в 2004 году.</Text>  </GameDBLocalizedString>
+
+            <!--MAIN SYMPTOMS - MIGRATED-->
+            <GameDBLocalizedString>      <LocID>SYM_INFLUENZA_A_DETECTED_X</LocID>                              <Text>Обнаружен грипп типа А</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEPATITIS_A_POSITIVE_X</LocID>                              <Text>Тест на гепатит А позитивный</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEPATITIS_B_POSITIVE_X</LocID>                              <Text>Тест на гепатит В позитивный</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VIBRIO_CHOLERAE_DETECTED_X</LocID>                          <Text>Обнаружен вибрион холеры</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SALMONELLA_TYPHI_DETECTED_X</LocID>                         <Text>Обнаружена S. typhi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_M._TUBERCULOSIS_DETECTED_X</LocID>                          <Text>Обнаружен туберкулез</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_F._TULARENSIS_DETECTED_X</LocID>                            <Text>Обнаружена F. tularensis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._ANTHRACIS_DETECTED_X</LocID>                             <Text>Обнаружена B. anthracis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STREPTOBACILLUS_DETECTED_X</LocID>                          <Text>Обнаружена Streptobacillus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._HENSELAE_DETECTED_X</LocID>                              <Text>Обнаружена B. henselae</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._PERTUSSIS_DETECTED_X</LocID>                             <Text>Обнаружена B. pertussis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LEGIONELLA_DETECTED_X</LocID>                               <Text>Обнаружена легионелла</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_R._TYPHI_DETECTED_X</LocID>                                 <Text>Обнаружена R. typhi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TRYPANOSOMA_DETECTED_X</LocID>                              <Text>Обнаружена трипаносома</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TOXOPLASMOSIS_DETECTED_X</LocID>                            <Text>Обнаружен токсоплазмоз</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BABESIOSIS_DETECTED_X</LocID>                               <Text>Обнаружен бабезиоз</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LYME_DISEASE_DETECTED_X</LocID>                             <Text>Обнаружены антитела к бактериям рода Borrelia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PAROTID_INFECTED_X</LocID>                                  <Text>Обнаружен инфекционный паротид</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TBE_DETECTED_X</LocID>                                      <Text>Выявлен клещевой энцефалит</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RABIES_DETECTED_X</LocID>                                   <Text>Обнаружено бешенство</Text>  </GameDBLocalizedString>
+            
+            <!--MAIN SYMPTOMS - NEW-->
+            <GameDBLocalizedString>      <LocID>SYM_ANAPLASMNA_DETECTED</LocID>                                 <Text>Обнаружена анаплазма</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ANAPLASMNA_DETECTED_DESCRIPTION</LocID>                     <Text>Повышенный уровень иммуноглобулина указывает на присутствие бактерий Anaplasma phagocytophilum</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EHRLICHIOSIS_DETECTED</LocID>                               <Text>Обнаружен эрлихиоз</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EHRLICHIOSIS_DETECTED_DESCRIPTION</LocID>                   <Text>С помощью ПЦР обнаружены гены, характерные для эрлихиоза</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_CONORII_DETECTED</LocID>                         <Text>Обнаружена Rickettsia conorii</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_CONORII_DETECTED_DESCRIPTION</LocID>             <Text>Иммунофлуоресцентный анализ материалов биопсии выявил антитела к бактерии Rickettsia conorii</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_RICKETTSI_DETECTED</LocID>                       <Text>Обнаружена Rickettsia rickettsii</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_RICKETTSI_DETECTED_DESCRIPTION</LocID>           <Text>С помощью ПЦР обнаружено присутствие бактерии Rickettsia rickettsii.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COLTIVIRUS_ANTIBODIES_DETECTED</LocID>                      <Text>Обнаружены антитела к кольтивирусу</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COLTIVIRUS_ANTIBODIES_DETECTED_DESCRIPTION</LocID>          <Text>С помощью ПЦР с обратной цепной реакцией на красных кровяных тельцах обнаружены антитела к кольтивирусу</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_PHILIPII_DETECTED</LocID>                        <Text>Обнаружена Rickettsia philipii</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_PHILIPII_DETECTED_DESCRIPTION</LocID>            <Text>С помощью ПЦР обнаружено присутствие бактерии Rickettsia philipii</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AFRICAE_DETECTED</LocID>                         <Text>Обнаружена Rickettsia africae</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AFRICAE_DETECTED_DESCRIPTION</LocID>             <Text>С помощью ПЦР обнаружено присутствие бактерии Rickettsia africae</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AUSTRALIS_DETECTED</LocID>                       <Text>Обнаружена Rickettsia australis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AUSTRALIS_DETECTED_DESCRIPTION</LocID>           <Text>Серологический иммунофлюоресцентный анализ обнаружил присутствие бактерии Rickettsia australis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_HONEI_DETECTED</LocID>                           <Text>Обнаружена Rickettsia honei</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_HONEI_DETECTED_DESCRIPTION</LocID>               <Text>Серологический анализ подтвердил присутствие Rickettsia honei</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_JAPONICA_DETECTED</LocID>                        <Text>Обнаружена Rickettsia japonica</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_JAPONICA_DETECTED_DESCRIPTION</LocID>            <Text>С помощью ПЦР обнаружено присутствие бактерии Rickettsia japonica.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_SLOVACA_DETECTED</LocID>                         <Text>Обнаружена Rickettsia slovaca</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_SLOVACA_DETECTED_DESCRIPTION</LocID>             <Text>С помощью ПЦР обнаружено присутствие бактерии Rickettsia slovaca</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AKARI_DETECTED</LocID>                           <Text>Обнаружена Rickettsia akari</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AKARI_DETECTED_DESCRIPTION</LocID>               <Text>Серологический анализ подтвердил присутствие Rickettsia akari</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRUCELLOSIS_CONFIRMED</LocID>                               <Text>Подтвержден бруцеллез</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRUCELLOSIS_CONFIRMED_DESCRIPTION</LocID>                   <Text>Серологический анализ подтвердил присутствие бруцеллеза</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHIKV_DETECTED</LocID>                                      <Text>Обнаружен вирус чикугунья</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHIKV_DETECTED_DESCRIPTION</LocID>                          <Text>С помощью ПЦР с обратной цепной реакцией обнаружено присутствие вируса чикугунья</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COXIELLA_BURNETII_DETECTED</LocID>                          <Text>Обнаружена бактерия Coxiella burnetii</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COXIELLA_BURNETII_DETECTED_DESCRIPTION</LocID>              <Text>Серологический анализ подтвердил реакцию антител на бактерию Coxiella burnetii.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DENGUE_VIRUS_DETECTED</LocID>                               <Text>Обнаружен вирус Денге</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DENGUE_VIRUS_DETECTED_DESCRIPTION</LocID>                   <Text>С помощью ПЦР с обратной цепной реакцией обнаружено присутствие генома вируса Денге в образцах пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ZIKA_VIRUS_DETECTED</LocID>                                 <Text>Обнаружен вирус Зика</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ZIKA_VIRUS_DETECTED_DESCRIPTION</LocID>                     <Text>С помощью ПЦР с обратной цепной реакцией обнаружено присутствие вируса Зика в образцах пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EBOLA_VIRUS_DETECTED</LocID>                                <Text>Обнаружен вирус Эбола</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EBOLA_VIRUS_DETECTED_DESCRIPTION</LocID>                    <Text>Анализ ИФА обнаружил вирус Эбола.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLASMODIUM_DETECTED</LocID>                                 <Text>Обнаружены плазмодии</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLASMODIUM_DETECTED_DESCRIPTION</LocID>                     <Text>Анализ ИФА выявил в образце крови пациента антитела (IgG и IgM) к паразитам, вызывающим малярию</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_YELLOW_FEVER_VIRUS</LocID>                                  <Text>Вирус желтой лихорадки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_YELLOW_FEVER_VIRUS_DESCRIPTION</LocID>                      <Text>С помощью ПЦР с обратной цепной реакцией обнаружено присутствие генома вируса желтой лихорадки в образцах пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WEST_NILE_VIRUS</LocID>                                     <Text>Вирус Западного Нила</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WEST_NILE_VIRUS_DESCRIPTION</LocID>                         <Text>Анализ ИФА выявил антитела к вирусу Западного Нила.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LASSA_VIRUS_PRESENT</LocID>                                 <Text>Присутствует вирус Ласса</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LASSA_VIRUS_PRESENT_DESCRIPTION</LocID>                     <Text>С помощью ПЦР обнаружен вирус Ласса.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MARV_DETECTED</LocID>                                       <Text>Обнаружен marburgvirus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MARV_DETECTED_DESCRIPTION</LocID>                           <Text>С помощью ПЦР с обратной цепной реакцией обнаружен вирус Марбург.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LEPTOSPIRA_DETECTED</LocID>                                 <Text>Обнаружена лептоспира</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LEPTOSPIRA_DETECTED_DESCRIPTION</LocID>                     <Text>Культивация микробов доказало присутствие лептоспиры.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C._DIFFICILE_DETECTED</LocID>                               <Text>Обнаружена бактерия C. difficile</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C._DIFFICILE_DETECTED_DESCRIPTION</LocID>                   <Text>С помощью ПЦР обнаружено присутствие бактерии Clostridium difficile.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COCCIDIOIDES_ANTIBODIES_DETECTED</LocID>                    <Text>Обнаружены антитела к грибку Coccidioides</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COCCIDIOIDES_ANTIBODIES_DETECTED_DESCRIPTION</LocID>        <Text>Серологическое тестирование обнаружило антитела к грибку Coccidioides</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_2019_NCOV_DETECTED</LocID>                                  <Text>Обнаружен 2019-nCoV</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_2019_NCOV_DETECTED_DESCRIPTION</LocID>                      <Text>Серологическое тестирование подтвердило иммунную реакцию на выявленный в 2019 году новый коронавирус.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MERS_COV_DETECTED</LocID>                                   <Text>Обнаружен БРС-CoV</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MERS_COV_DETECTED_DESCRIPTION</LocID>                       <Text>С помощью ПЦР с обратной цепной реакцией обнаружен БРС-коронавирус.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SARS_COV_DETECTED</LocID>                                   <Text>Обнаружен ТОРС-CoV</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SARS_COV_DETECTED_DESCRIPTION</LocID>                       <Text>С помощью ПЦР с обратной цепной реакцией в анализах пациента обнаружен ТОРС-коронавирус.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CRYPTOSPORIDIUM_DETECTED</LocID>                            <Text>Обнаружены криптоспоридии</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CRYPTOSPORIDIUM_DETECTED_DESCRIPTION</LocID>                <Text>С помощью ПЦР обнаружены криптоспоридии.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OOCYST_IN_STOOL_DETECTED</LocID>                            <Text>Обнаружены ооцисты в стуле</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OOCYST_IN_STOOL_DETECTED_DESCRIPTION</LocID>                <Text>В образце стула пациента обнаружены ооцисты криптоспоридий.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HANTAVIRUS_DETECTED</LocID>                                 <Text>Обнаружен хантавирус</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HANTAVIRUS_DETECTED_DESCRIPTION</LocID>                     <Text>Серологический анализ выявил антитела, связанные с хантавирусом</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NOROVIRUS_DETECTED</LocID>                                  <Text>Обнаружен норовирус</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NOROVIRUS_DETECTED_DESCRIPTION</LocID>                      <Text>С помощью ПЦР обнаружен норовирус.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ROTAVIRUS_A_DETECTED</LocID>                                <Text>Обнаружен ротавирус A</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ROTAVIRUS_A_DETECTED_DESCRIPTION</LocID>                    <Text>С помощью ПЦР обнаружен ротавирус А.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._PSEUDOMALLEI_DETECTED</LocID>                            <Text>Обнаружена бактерия B. pseudomallei</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._PSEUDOMALLEI_DETECTED_DESCRIPTION</LocID>                <Text>Культивация микробов подтвердила присутствие бактерии Burkholderia pseudomallei.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HRSV_PRESENT</LocID>                                        <Text>Присутствие РСВЧ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HRSV_PRESENT_DESCRIPTION</LocID>                            <Text>С помощью ПЦР с обратной цепной реакцией обнаружен респираторно-синцитиальный вирус человека.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LCMV_DETECTED</LocID>                                       <Text>Обнаружен вирус лимфоцитарного хориоменингита.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LCMV_DETECTED_DESCRIPTION</LocID>                           <Text>Анализ спинномозговой жидкости выявил антитела, специфичные для вируса лимфоцитарного хориоменингита.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_BUBONIC</LocID>                                   <Text>Y. pestis - бубонная форма</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_BUBONIC_DESCRIPTION</LocID>                       <Text>Анализ материалов биопсии обнаружил бубонную форму чумы, вызываемой бактерией Yersinia pestis.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_SEPTICEMIC</LocID>                                <Text>Y. pestis - септицемическая форма</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_SEPTICEMIC_DESCRIPTION</LocID>                    <Text>Серологический анализ выявил септицемическую форму чумы, вызываемой бактерией Yersinia pestis.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_PNEUMONIC</LocID>                                 <Text>Y. pestis - пневмоническая форма</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_PNEUMONIC_DESCRIPTION</LocID>                     <Text>С помощью ПЦР обнаружены антитела к пневмонической форме чумы, вызываемой Yersinia pestis.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NIPAH_VIRUS_DETECTED</LocID>                                <Text>Обнаружен вирус Нипах</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NIPAH_VIRUS_DETECTED_DESCRIPTION</LocID>                    <Text>С помощью ПЦР обнаружен вирус Нипах.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RVF_VIRUS_DETECTED</LocID>                                  <Text>Обнаружен вирус ЛРВ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RVF_VIRUS_DETECTED_DESCRIPTION</LocID>                      <Text>Серологическое тестирование ИФА обнаружило антитела к вирусу лихорадки Рифт-Валли.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._RECURRENTIS_DETECTED</LocID>                             <Text>Обнаружена бактерия B. recurrentis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._RECURRENTIS_DETECTED_DESCRIPTION</LocID>                 <Text>С помощью ПЦР обнаружена бактерия Borrelia recurrentis.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEPATITIS_E_DETECTED</LocID>                                <Text>Обнаружен гепатит Е</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEPATITIS_E_DETECTED_DESCRIPTION</LocID>                    <Text>Серологический анализ выявил антитела, относящиеся к гепатиту Е.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_H5N1_DETECTED</LocID>                                       <Text>Обнаружен вирус H5N1</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_H5N1_DETECTED_DESCRIPTION</LocID>                           <Text>С помощью ПЦР с обратной цепной реакцией обнаружен вирус гриппа типа А H5N1.</Text>  </GameDBLocalizedString>
+
+            <!-- SYMPTOMS -->
+            <GameDBLocalizedString>      <LocID>SYM_HEMORRHAGIC_FEVER</LocID>                                   <Text>Геморрагическая лихорадка</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMORRHAGIC_FEVER_DESCRIPTION</LocID>                       <Text>Геморрагическая лихорадка воздействует на множество внутренних органов, повреждает кровеносные сосуды и влияет на способность тела к саморегуляции.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ORIFICE_BLEEDING</LocID>                                    <Text>Кровотечение из отверстий</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ORIFICE_BLEEDING_DESCRIPTION</LocID>                        <Text>Острое кровотечение из таких отверстий тела, как нос, рот, глаза и/или уши.</Text>  </GameDBLocalizedString>
+
+            <!--TREATMENTS-->
+            <GameDBLocalizedString>      <LocID>TRT_DOXYCYCLINE</LocID>                                         <Text>Доксициклин</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_DOXYCYCLINE_DESCRIPTION</LocID>                             <Text>Лечение особым антибиотиком тетрациклинового ряда, уничтожающим определенные бактерии и паразиты. \n\nНеобходимая комната: кабинет инфекционного отделения / кабинет диагностики + обычная палата в инфекционном отделении / реанимации</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_DOXYCYCLINE</LocID>                                      <Text>Внутривенный доксициклин</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_DOXYCYCLINE_DESCRIPTION</LocID>                          <Text>Лечение особым антибиотиком тетрациклинового ряда, уничтожающим определенные бактерии и паразиты. \n\nНеобходимая комната: кабинет инфекционного отделения / кабинет диагностики + изоляционный бокс в инфекционном отделении / реанимации</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MINOCYCLINE</LocID>                                         <Text>Миноциклин</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MINOCYCLINE_DESCRIPTION</LocID>                             <Text>Лечение особым антибиотиком тетрациклинового ряда, уничтожающим определенные бактерии и паразиты. \n\nНеобходимая комната: кабинет инфекционного отделения / кабинет диагностики в инфекционном отделении / реанимации</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CHLORAMPHENICOL</LocID>                                     <Text>Хлорамфеникол</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CHLORAMPHENICOL_DESCRIPTION</LocID>                         <Text>Особый антибиотик, используемый для лечения широкого спектра бактериальных инфекций. \n\nНеобходимая комната: кабинет инфекционного отделения / кабинет диагностики + обычная палата в инфекционном отделении / реанимации</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_AZITHROMYCIN</LocID>                                        <Text>Азитромицин</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_AZITHROMYCIN_DESCRIPTION</LocID>                            <Text>Антибиотик, используемый для лечения различных бактериальных инфекций. \n\nНеобходимая комната: кабинет инфекционного отделения / кабинет диагностики в инфекционном отделении / реанимации</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTRAMUSCULAR_ANTIBIOTICS</LocID>                           <Text>Внутримышечные антибиотики</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTRAMUSCULAR_ANTIBIOTICS_DESCRIPTION</LocID>               <Text>Антибиотики, вводимые в виде инъекций в крупные мышцы. \n\nНеобходимая комната: кабинет инфекционного отделения / кабинет диагностики в инфекционном отделении / реанимации</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SPECIAL_ANTIVIRAL_TREATMENT</LocID>                         <Text>Комплексная противовирусная терапия</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SPECIAL_ANTIVIRAL_TREATMENT_DESCRIPTION</LocID>             <Text>Комплексная противовирусная терапия используется в случаях, когда нет доступных антивирусных препаратов более узкого спектра действия. \n\nНеобходимая комната: кабинет инфекционного отделения / кабинет диагностики + изоляционный бокс в инфекционном отделении / реанимации</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_EXPERIMENTAL_SERUM</LocID>                                  <Text>Экспериментальная сыворотка</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_EXPERIMENTAL_SERUM_DESCRIPTION</LocID>                      <Text>Внутривенное введение экспериментальной сыворотки, предназначенной для лечения геморрагической лихорадки Эбола. \n\nНеобходимая комната: кабинет инфекционного отделения / кабинет диагностики + изоляционный бокс в инфекционном отделении / реанимации</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIMALARIAL_MEDICATION</LocID>                             <Text>Противомалярийное лечение</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIMALARIAL_MEDICATION_DESCRIPTION</LocID>                 <Text>Сочетание различных антибиотиков, других лекарств и поддерживающих веществ для лечения малярии и связанных с ней заболеваний. \n\nНеобходимая комната: кабинет инфекционного отделения / кабинет диагностики + обычная палата в инфекционном отделении / реанимации</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_PASSIVE_IMMUNOTHERAPY</LocID>                            <Text>Пассивная внутривенная иммунотерапия</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_PASSIVE_IMMUNOTHERAPY_DESCRIPTION</LocID>                <Text>Внутривенное введение доз антител, нацеленных на противодействие различным вирусным геморрагическим лихорадкам. \n\nНеобходимая комната: кабинет инфекционного отделения / кабинет диагностики + обычная палата в инфекционном отделении / реанимации</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTISENSE_THERAPY</LocID>                                   <Text>Антисмысловая терапия</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTISENSE_THERAPY_DESCRIPTION</LocID>                       <Text>Антисмысловая терапия — один из видов лечения генетических расстройств или инфекций. Основана на возможности синтеза последовательности ДНК/РНК, отключающей конкретный ген. \n\nНеобходимая комната: кабинет инфекционного отделения / кабинет диагностики + обычная палата в инфекционном отделении / реанимации</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_VANCOMYCIN</LocID>                                          <Text>Ванкомицин</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_VANCOMYCIN_DESCRIPTION</LocID>                              <Text>Вводимый внутривенно антибиотик, используемый для лечения некоторых бактериальных инфекций. \n\nНеобходимая комната: кабинет инфекционного отделения / кабинет диагностики + обычная палата в инфекционном отделении / реанимации</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FLUCONAZOLE</LocID>                                         <Text>Флюконазол</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FLUCONAZOLE_DESCRIPTION</LocID>                             <Text>Особое противогрибковое лекарство, используемое для лечения различных заболеваний, вызываемых грибками. \n\nНеобходимая комната: кабинет инфекционного отделения / кабинет диагностики + обычная палата в инфекционном отделении / реанимации</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_NITAZOXANIDE</LocID>                                        <Text>Нитазоксанид</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_NITAZOXANIDE_DESCRIPTION</LocID>                            <Text>Противопаразитное и противовирусное лекарство широкого спектра действия. \n\nНеобходимая комната: кабинет инфекционного отделения / кабинет диагностики + обычная палата в инфекционном отделении / реанимации</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_OSELTAMIVIR</LocID>                                         <Text>Осельтамивир</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_OSELTAMIVIR_DESCRIPTION</LocID>                             <Text>Противовирусное лекарство, используемое для лечения и профилактики гриппа типа А и В. \n\nНеобходимая комната: кабинет инфекционного отделения / кабинет диагностики + изоляционный бокс в инфекционном отделении / реанимации</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CIPROFLOXACIN</LocID>                                       <Text>Ципрофлоксацин</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CIPROFLOXACIN_DESCRIPTION</LocID>                           <Text>Антибиотик, используемый для лечения некоторых бактериальных инфекций. \n\nНеобходимая комната: кабинет инфекционного отделения / кабинет диагностики + обычная палата в инфекционном отделении / реанимации</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_CIPROFLOXACIN</LocID>                                    <Text>Внутривенный ципрофлоксацин</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_CIPROFLOXACIN_DESCRIPTION</LocID>                        <Text>Антибиотик, используемый для лечения некоторых бактериальных инфекций. \n\nНеобходимая комната: кабинет инфекционного отделения / кабинет диагностики + изоляционный бокс в инфекционном отделении / реанимации</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SUPPORTIVE_CARE</LocID>                                     <Text>Поддерживающая терапия</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SUPPORTIVE_CARE_DESCRIPTION</LocID>                         <Text>Поддерживающая терапия состоит из различных процедур симптоматического лечения, и применяется главным образом в случае вирусных инфекций, против которых не существует конкретного лечения. \n\nНеобходимая комната: кабинет инфекционного отделения / кабинет диагностики + обычная палата в инфекционном отделении / реанимации</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_RABIES_IMMUNE_GLOBULIN_X</LocID>                            <Text>Антирабический иммуноглобулин</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_RABIES_IMMUNE_GLOBULIN_X_DESCRIPTION</LocID>                <Text>Быстродействующая инъекция, не дающая вирусу бешенства заразить пациента. Чаще всего вводится превентивно пациентам, укушенным или оцарапанным животными с подозрением на бешенство.\n\nНеобходимая комната: кабинет инфекционного отделения / кабинет диагностики + обычная палата в инфекционном отделении / реанимации</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTERFERON_ALPHA-2B_X</LocID>                               <Text>Интерферон альфа-2b</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTERFERON_ALPHA-2B_X_DESCRIPTION</LocID>                   <Text>Крайне специфичная противовирусная терапия, используемая в лечении хронического гепатита В и С. \n\nНеобходимая комната: кабинет / кабинет диагностики в инфекционном отделении / реанимации</Text>  </GameDBLocalizedString>
+                                                                                                                
+            <GameDBLocalizedString>      <LocID>EXM_GASTROSCOPY_DESCRIPTION</LocID>                             <Text>Процедура, при которой в рот вводится гибкая трубка (эндоскоп) с присоединенной к ней крохотной камерой и источником света для обследования верхней части пищеварительного тракта.\n\nНеобходимая комната: реанимация / кабинет / кабинет диагностики в отделении общей хирургии / внутренней медицины / кардиологии / инфекционном</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>      <Text>Забор небольшого количества спинномозговой жидкости, осуществляемый с помощью прокола нижней части спины иглой, достающего до спинномозгового канала. \n\nНеобходимая комната: лаборатория гистологии. \n\nВзятие образцов: отделение неврологии / инфекционное \n\nТребуемое снаряжение: колбы + медицинская центрифуга + лабораторный анализатор.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>             <Text>Процедура получения образца стула пациента для дальнейшего анализа. \n\nНеобходимая комната: лаборатория гистологии. \n\nВзятие образцов: отделения скорой помощи / общей хирургии / внутренней медицины / реанимация / инфекционное \n\nТребуемое снаряжение: колбы + анализатор стула.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_AUDIOMETRY_DESCRIPTION</LocID>                              <Text>Аудиометрическое тестирование, определяющее состояние слуха пациента. \n\nНеобходимая комната: кабинет врача / наблюдательная палата / реанимация / кабинет/кабинет диагностики в отделении скорой помощи / реанимации / общей хирургии / внутренней медицины / инфекционном</Text>  </GameDBLocalizedString>
+                                                                                                                
+            <GameDBLocalizedString>      <LocID>TRT_INTRAVENOUS_IMMUNOGLOBULIN_DESCRIPTION</LocID>              <Text>Очищенная производная крови, содержащая антитела. Вводится внутривенно. \n\nНеобходимая комната: реанимация / кабинет/кабинет диагностики в отделении ортопедии / неврологии / инфекционном</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIVIROTICS_DESCRIPTION</LocID>                            <Text>Лекарство, подавляющее вирусные инфекции. В отличие от антибиотиков, действие противовирусных препаратов не основано на прямом уничтожении патогена. \n\nНеобходимая комната: кабинет врача / наблюдательная палата / реанимация / кабинет/кабинет диагностики в отделении общей хирургии / неврологии / инфекционном</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIDIARRHEALS_DESCRIPTION_V2</LocID>                       <Text>Лекарства, которые останавливают диарею, снимая симптомы, но не устраняя причину. Как правило, действуют, замедляя перистальтику кишечника \n\nНеобходимая комната: кабинет врача / наблюдательная палата / кабинет неотложной травматологии / ПИТ / кабинет диагностики в отделении общей хирургии / внутренних болезней / инфекционном</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIPARASITIC_DRUGS_DESCRIPTION_V2</LocID>                  <Text>Лекарства, используемые для лечения различных паразитарных инфекций. \n\nНеобходимая комната: кабинет врача / наблюдательная палата / кабинет неотложной травматологии / кабинет/кабинет диагностики в отделении внутренней медицины / инфекционном</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_NASAL_DROPS_DESCRIPTION</LocID>                             <Text>Препараты, которые очищают носовую полость и улучшают дыхание через нос. \n\nНеобходима комната: кабинет врача / наблюдательная палата / кабинет / кабинет общей диагностики в отделении внутренних болезней / отделение кардиологии / инфекционном</Text>  </GameDBLocalizedString>
+
+            <!--new hematolab for the department-->
+            <GameDBLocalizedString>       <LocID>ROOM_TYPE_HEMATOLOGY_LAB_DID</LocID>                     		<Text>Лаборатория гематологии</Text></GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    

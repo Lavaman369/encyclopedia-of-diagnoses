@@ -1,0 +1,26 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_PL_PATCH_1_1_27">
+
+        <LanguageCode>pl</LanguageCode>
+        <LanguageNameLocalized>Polski</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            <GameDBLocalizedString>    <LocID>OPTIONS_EDGE_SCROLLING</LocID>                  <Text>Przewijanie krawędzi ekranu</Text>  </GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->
+            <GameDBLocalizedString>      <LocID>CONFIRM_SEND_PATIENT_AWAY_TITLE</LocID>       <Text>Odsyłanie pacjenta.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CONFIRM_SEND_PATIENT_AWAY_TEXT</LocID>        <Text>Na pewno odesłać pacjenta do innego szpitala?</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>POPUP_CONFIRM_SEND_PATIENT_AWAY</LocID>       <Text>Odeślij</Text>  </GameDBLocalizedString>
+
+         <GameDBLocalizedString>      <LocID>SYM_PLEURAL_EFFUSION_DESCRIPTION_V2</LocID>               <Text>Płyn w jamie opłucnej, inaczej „woda w płucach”, to płyn gromadzący się między warstwami opłucnej (błon otaczających płuca). Ten nadmiar płynu upośledza oddychanie, ograniczając rozszerzanie się płuc.</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

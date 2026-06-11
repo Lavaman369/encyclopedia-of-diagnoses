@@ -1,0 +1,24 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_KR_PATCH_1_2_37">
+
+        <LanguageCode>kr</LanguageCode>
+        <LanguageNameLocalized>한국어</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- Texts that should have been sent for translation with Patch 23 -->
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_ASSIST_ROLE_DPT_NOT_WORKING</LocID>         <Text>입원 기능이 작동하지 않습니다</Text>  </GameDBLocalizedString>
+
+            <!-- {1} is name of a department (in nominative case) -->
+            <!-- "Assist at surgery" should match EMPL_ROLE_SURGERY_ASSIST from StringTable[Language]Characters.xml -->
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_ASSIST_ROLE_DPT_NOT_WORKING_TEXT</LocID>    <Text>현재 수술 어시스턴트 역할을 맡을 주간 근무자가 없기 때문에 {1} 입원 기능이 작동하지 않습니다.</Text>  </GameDBLocalizedString>
+            
+            <!-- Echocardiography needs to match <LocID>EXM_ECHO</LocID> or <LocID>EXM_ECHO_DESCRIPTION</LocID> in StringTable[Language]Examinations.xml  -->
+            <GameDBLocalizedString>      <LocID>SYM_BRAIN_ARTERIES_BLOCKED_DESCRIPTION_V2</LocID>    <Text>초음파 심장 검진 상, 혈액 응고로 인해 뇌의 여러 동맥이 막혀 있는 것이 밝혀졌습니다.</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

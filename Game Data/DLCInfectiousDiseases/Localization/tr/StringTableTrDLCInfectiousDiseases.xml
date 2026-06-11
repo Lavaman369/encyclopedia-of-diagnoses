@@ -1,0 +1,404 @@
+<Database>
+    <GameDBStringTable ID="LOC_TR_DLC_INFECTIOUS_DISEASES">
+
+        <LanguageCode>tr</LanguageCode>
+        <LanguageNameLocalized>Türkçe</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>DLC_INFECTIOUS_DISEASES</LocID>                                 <Text>Bulaşıcı Hastalıklar Bölümü DLC'si</Text>  </GameDBLocalizedString>
+            
+            <!-- Department and rooms-->
+            <!-- Note: the abbreviation DID is also widely used in names of rooms or in descriptions of treatments -->
+            <GameDBLocalizedString>      <LocID>DPT_INFECTIOUS_DISEASES_DEPARTMENT</LocID>                      <Text>Bulaşıcı Hastalıklar</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ISOLATION_INPATIENT_WARD</LocID>                      <Text>İzolasyon ünitesi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ISOLATION_INPATIENT_WARD_DESCRIPTION</LocID>          <Text>İzolasyon ünitesi, bulaşıcı hastalıklardan muzdarip hastaları izole etmek ve patojenlerin yayılmasını önlemek için kullanılan ayrı bir servistir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INFECTIOUS_DISEASES_OFFICE</LocID>                    <Text>Bulaşıcı Hastalıklar odası</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INFECTIOUS_DISEASES_OFFICE_DESCRIPTION</LocID>        <Text>Bulaşıcı hastalıklar odası, basit muayeneler ve tedaviler için poliklinik muayenehanesini temsil eder. Personel gereksinimi:\nx1 Epidemiyolog </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_DID_OFFICE</LocID>                          <Text>Teşhis ünitesi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_DID_OFFICE_DESCRIPTION</LocID>              <Text>Bulaşıcı Hastalıklar bölümündeki teşhis ünitesi, yatan hastalar için muayene ve tedavi prosedürleri sağlar. \n\nAsgari çalışan gereksinimi: \nx1 Epidemiyolog \n(Nöbetçi odasındaki personel)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_DID</LocID>            <Text>Kardiyografi ünitesi</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DLC_TOOLTIP_LOGISTICS_BIOHAZARD</LocID>                         <Text>Biyolojik tehlike alanı, yalnızca koruyucu yüz maskesi ve eldivenlerle giriş.</Text>  </GameDBLocalizedString>
+                                                                                                                
+            <!-- Hospitalization alias -->                                                                      
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_ISOLATION</LocID>                           <Text>İzolasyon yatışı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_ISOLATION_DESCRIPTION</LocID>               <Text>Bulaşıcı hastalıkların yayılmasını önlemek ve hastalara yüksek düzeyde bakım sağlamak için hastayı bir izolasyon ünitesinde hastaneye yatır.\n\nGereken oda: İzolasyon servisi</Text>  </GameDBLocalizedString>
+                                                                                                                
+            <!-- SKILLS-->                                                                                      
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_EPIDEMIOLOGY</LocID>                             <Text>Epidemiyoloji</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_EPIDEMIOLOGY_DESCRIPTION</LocID>                 <Text>Epidemiyologlar, hastalıkların ve parazitlerin dağılımını inceleyerek sebeplerini, risk faktörlerini, ilerlemesini, yaşam döngüsünü veya bulaşma şeklini belirlerler.</Text>	</GameDBLocalizedString> <!--todo description-->
+                                                                                                                
+            <!-- Global Admin Events-->                                                                         
+            <GameDBLocalizedString>      <LocID>DAYS_LEFT</LocID>                                               <Text>Kalan gün: </Text></GameDBLocalizedString>
+                                                                                                                 
+            <GameDBLocalizedString>      <LocID>DLC_WORLD_EVENT_DISEASE_OUTBREAK</LocID>                        <Text>Salgın var!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_WORLD_EVENT_DISEASE_OUTBREAK_TEXT</LocID>                   <Text>Bulaşıcı hastaların tamamını izole edemedin ve sonuç olarak hastanenin bir kısmı enfekte oldu. Personel artık yüz maskesi takmak zorunda ve çalışmaları yavaşlayacak!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_WORLD_EVENT_DISEASE_OUTBREAK_TEXT_WARD</LocID>              <Text>Bulaşıcı bir hasta izolasyon ünitesinin dışında hastaneye yatırıldı ve sonuç olarak hastanenin bir kısmı enfekte oldu. Personel artık yüz maskesi takmak zorunda ve çalışmaları yavaşlayacak!</Text></GameDBLocalizedString>
+                                                                                                                
+            <!-- ============== -->                                                                             
+            <!--EVENTS -->                                                                                      
+            <!-- ============== -->                                                                             
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_LAB_DESC</LocID>         		            <Text>Bir üniversite laboratuvarında meydana gelen kazadan dolayı çok tehlikeli patojenler ortaya çıktı. Tüm şehir hastaneleri koruyucu ekipmanlarını hazırlamalı ve yeni gelen hastalarla çok dikkatli bir şekilde ilgilenmelidir. </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_TOURISTS_DESC</LocID>         	            <Text>En gözde turistik mekânlardan birinde çok tehlikeli bir hastalık salgını bildirildi. Kendini iyi hissetmeyen tüm vatandaşlar derhal en yakın hastaneye başvurmalı. </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_CLIMATE_DESC</LocID>         	            <Text>İklim değişiklikleri, özellikle de yılın bu döneminde egzotik hastalıkların yerel bölgelere gittikçe daha fazla yayılmasına neden oldu. </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_CORONA_DESC</LocID>                          <Text>Şehre yeni bir koronavirüs Covid-19 dalgası daha geldi. Tüm hastaneler ve tıbbi tesisler çok sayıda enfekte hastaya hazırlanmalı.</Text></GameDBLocalizedString>
+                                                                                                                
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->                                       
+            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_DISEASE_OUTBREAK_ENDED</LocID>               <Text>Günlük haberler</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_DISEASE_OUTBREAK_ENDED_TEXT</LocID>          <Text>Tüm personelin sağlığı normale döndü. Salgından sağ çıkmayı başardınız!</Text>  </GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <!-- Satisfaction modifiers -->
+            <GameDBLocalizedString>      <LocID>DLC_INFECTED</LocID>                                            <Text>enfekte</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>HIGHLY_CONTAGIOUS</LocID>                                       <Text>Çok bulaşıcı!</Text>  </GameDBLocalizedString>
+
+            <!--Doors-->
+            <GameDBLocalizedString>      <LocID>DOOR_BIOHAZARD</LocID>                     		                <Text>Biyolojik tehlike kapısı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_OVAL_WINDOW</LocID>                                        <Text>Oval pencereli kapı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_BIOHAZARD_DOUBLE</LocID>                                   <Text>İkili biyolojik tehlike kapısı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_OVAL_WINDOW_DOUBLE</LocID>                                 <Text>Oval pencereli ikili kapı</Text>  </GameDBLocalizedString>
+
+            <!-- Objects-->
+            <GameDBLocalizedString>      <LocID>OBJECT_LIFE_MONITOR_OLD</LocID>                     	    	<Text>Yaşam monitörü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MECHANICAL_VENTILATOR_DLC</LocID>                        <Text>Solunum cihazı</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL</LocID>                                   <Text>İzolasyon duvarı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL_BIOHAZARD</LocID>                         <Text>İzolasyon duvarı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL_CABINET</LocID>                           <Text>İzolasyon duvarı dolabı</Text>  </GameDBLocalizedString>
+            <!-- Description for all three versions of isolation wall -->                                      
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL_DESCRIPTION</LocID>                       <Text>Hava yoluyla bulaşan patojenlerin neden olduğu tüm hastalıklara karşı koruma sağlar.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_SANITARY_EQUIPMENT</LocID>                     <Text>Hijyenik ekipman</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_SANITARY_EQUIPMENT_DESCRIPTION</LocID>         <Text>İzolasyon odalarındaki hastaların temel hijyenini sağlamaya yöneliktir.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AC</LocID>                    			    	<Text>İzolasyon kliması</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AC_DESCRIPTION</LocID>                         <Text>Klima, izole hastalar için filtrelenmiş temiz hava ve daha yüksek konfor sağlar.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_CAUTION</LocID>                                  <Text>İşaret - dikkat</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_CAUTION_DESCRIPTION</LocID>                      <Text>Salgın uyarısı.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_QUARANTINE</LocID>                               <Text>İşaret - karantina</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_QUARANTINE_DESCRIPTION</LocID>                   <Text>Yalnızca yetkili personel girebilir.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AIR_DOOR</LocID>                               <Text>İzolasyon hava kapısı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AIR_DOOR_DESCRIPTION</LocID>                   <Text>Çevredeki tesislerin hava yoluyla kirlenme riskini azaltmak için negatif hava akış sistemi kullanılır.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_NOTICE_BOARD_X</LocID>                                   <Text>Çizelge</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_NOTICE_BOARD_X_DESCRIPTION</LocID>                       <Text>Mıknatıslı çizelge.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DESINFECTANTS</LocID>                                    <Text>Dezenfeksiyon araçları</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DESINFECTANTS_DESCRIPTION</LocID>                        <Text>Günlük kullanıma uygun dezenfeksiyon araçları.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_INFECT1</LocID>                                   <Text>Poster - Enfeksiyonlar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_INFECT2</LocID>                                   <Text>Poster - Sıtma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_BENCH_X</LocID>                                <Text>Bank - modern</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_COFFEE_TABLE_2</LocID>                                   <Text>Sehpa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AMBULANCE_X_01</LocID>                         <Text>Ambulans</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AMBULANCE_X_01_DESCRIPTION</LocID>             <Text>En ağır durumdaki hastaları getirmeye hazır, Avrupa tarzı yeni ambulans.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_STRETCHER_X</LocID>                            <Text>Sedye</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_BIOHAZARD</LocID>                                  <Text>İzolasyon ünitesi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_DID_DEPARTMENT</LocID>                             <Text>Bulaşıcı Hastalıklar</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_I</LocID>                                <Text>Bulaşıcı Hastalıklar: BÜYÜK HASTANE</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_INFECTIOUS_DISEASES</LocID>             <Text>Hazır Bulaşıcı Hastalıklar bölümü odaları</Text>  </GameDBLocalizedString>
+
+            <!-- DIAGNOSES - MIGRATED -->
+            <GameDBLocalizedString>      <LocID>DIA_INFX</LocID>                                              	<Text>İnfluenza A</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HEPAX</LocID>                                               <Text>Hepatit A</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HEPBX</LocID>                                               <Text>Hepatit B</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CLCX</LocID>                                                <Text>Kolera</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TYFX</LocID>                                                <Text>Tifo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TBCX</LocID>                                                <Text>Tüberküloz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TULX</LocID>                                                <Text>Tularemi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PNAX</LocID>                                                <Text>Pulmoner şarbon</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_RBFX</LocID>                                                <Text>Sıçan humması</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CSDX</LocID>                                                <Text>Kedi tırmığı hastalığı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PTSX</LocID>                                                <Text>Boğmaca</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LEGX</LocID>                                                <Text>Lejyoner hastalığı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TPFX</LocID>                                                <Text>Tifüs</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ATSX</LocID>                                                <Text>Amerika tripanozomiyazı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TXMX</LocID>                                                <Text>Toksoplazmoz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BABX</LocID>                                                <Text>Babesioz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LYDX</LocID>                                                <Text>Lyme hastalığı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_MUMX</LocID>                                                <Text>Kabakulak</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TBEX</LocID>                                                <Text>Kene kaynaklı ensefalit</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_RABX</LocID>                                                <Text>Kuduz</Text>  </GameDBLocalizedString>
+            
+            <!--DIAGNOSES - NEW -->
+            <GameDBLocalizedString>      <LocID>DIA_001</LocID>                                                 <Text>Anaplazmoz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_001_DESCRIPTION</LocID>                                     <Text>Anaplazmoz hastalığına keneler tarafından yayılan Anaplasmosis phagocytophilum bakterileri neden olur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_002</LocID>                                                 <Text>Erlişya</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_002_DESCRIPTION</LocID>                                     <Text>Erlişya, Anaplazmoz ile yakından ilişkili ve grip benzeri bir hastalıktır. O da kenelerle yayılır.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_003</LocID>                                                 <Text>Marsilya humması</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_003_DESCRIPTION</LocID>                                     <Text>Marsilya humması, Rickettsia conorii'nin sebep olduğu riketsiyal enfeksiyon kaynaklı bir hastalıktır ve köpek kenelerinden bulaşır. Hastalık başlıca Akdeniz havzası, Orta Doğu, Hindistan Yarımadası ve Afrika'da görülür.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_004</LocID>                                                 <Text>Kayalık Dağlar benekli humması</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_004_DESCRIPTION</LocID>                                     <Text>Rickettsia rickettsii bakterisinin neden olduğu bakteriyel bir hastalık. Çeşitli kenelerden (Amerikan köpek kenesi, Kayalık Dağlar orman kenesi, kahverengi köpek kenesi) bulaşır.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_005</LocID>                                                 <Text>Kolorado kene humması</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_005_DESCRIPTION</LocID>                                     <Text>Kayalık Dağlar orman kenesiyle yayılan viral bir enfeksiyon. Semptomları Kayalık Dağlar benekli hummasına çok benzer.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_006</LocID>                                                 <Text>Pasifik Kıyısı kene humması</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_006_DESCRIPTION</LocID>                                     <Text>Pasifik kıyılarına has bir keneden bulaşan Rickettsia philipii bakterisinin neden olduğu bakteriyel hastalık.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_007</LocID>                                                 <Text>Afrika kene ısırığı humması</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_007_DESCRIPTION</LocID>                                     <Text>Afrika kene ısırığı humması (ATBF), kenelerle bulaşan Rickettsia africae bakterisinin neden olduğu bakteriyel bir enfeksiyondur. Hastalık, Sahra Altı Afrika, Karayipler ve Okyanusya'da görülür.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_008</LocID>                                                 <Text>Queensland kene tifüsü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_008_DESCRIPTION</LocID>                                     <Text>Queensland kene tifüsünün etiyolojik ajanı, Rickettsia australis bakterisidir. Hastalık, Tazmanya da dahil olmak üzere yalnızca Doğu Avustralya'da görülür.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_009</LocID>                                                 <Text>Flinders Adası benekli humması</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_009_DESCRIPTION</LocID>                                     <Text>Flinders Adası benekli hummasına Rickettsia honei bakterisi neden olur ve hastalık esas olarak güneydoğu ve güney Asya ile Avustralya'da görülür.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_010</LocID>                                                 <Text>Japon benekli humması</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_010_DESCRIPTION</LocID>                                     <Text>Japon benekli humması, esas olarak güneybatı ve orta Japonya'nın Pasifik tarafındaki sıcak bölgelerde görülür. Hastalığa kene ısırığı yoluyla bulaşan Rickettsia japonica bakterisi neden olur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_011</LocID>                                                 <Text>TİBOLA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_011_DESCRIPTION</LocID>                                     <Text>Kene kaynaklı lenfadenopati, orta Avrupa'da nispeten yaygın olan ve Rickettsia slovaca bakterisinin neden olduğu, kene kaynaklı bir riketsyozdur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_012</LocID>                                                 <Text>Rickettsialpox</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_012_DESCRIPTION</LocID>                                     <Text>Rickettsialpox, genellikle ev farelerinde yaşayan akarların yaydığı Rickettsia akari bakterisinin neden olduğu akar kaynaklı bulaşıcı bir hastalıktır.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_013</LocID>                                                 <Text>Bruselloz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_013_DESCRIPTION</LocID>                                     <Text>Bruselloz, Brucella türü bakterilerin neden olduğu, son derece bulaşıcı bir hastalıktır ve pastörize edilmemiş süt veya az pişmiş et tüketimiyle yayılır.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_014</LocID>                                                 <Text>Chikungunya</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_014_DESCRIPTION</LocID>                                     <Text>Chikungunya virüs enfeksiyonu, hastalığı taşıyan sivrisineklerin ısırmasıyla yayılır. Aşısı yoktur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_015</LocID>                                                 <Text>Q humması</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_015_DESCRIPTION</LocID>                                     <Text>Q humması, Coxiella burnetti bakterisinin neden olduğu bir hastalıktır ve sığır, koyun, keçi, kedi ve köpek gibi çeşitli hayvanlardan bulaşır. Bakteri, konak hücrelerinin içinde büyüyebilen ve üreyebilen hücre içi bir parazittir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_016</LocID>                                                 <Text>Dang humması</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_016_DESCRIPTION</LocID>                                     <Text>Dang humması, hastalığı taşıyan sivrisineklerin ısırığıyla bulaşan tropikal bir hastalıktır. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_017</LocID>                                                 <Text>Zika humması</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_017_DESCRIPTION</LocID>                                     <Text>Zika humması, Zika virüsünün neden olduğu tropikal bir hastalıktır ve Aedes sivrisineklerinden bulaşır. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_018</LocID>                                                 <Text>Ebola</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_018_DESCRIPTION</LocID>                                     <Text>Ebola virüsü hastalığı ölümcül bir viral hemorajik hummadır. Enfekte vücut sıvılarıyla doğrudan temas yoluyla yayılan ebolavirüslerden kaynaklanır.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_019</LocID>                                                 <Text>Sıtma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_019_DESCRIPTION</LocID>                                     <Text>Sıtma, plazmodyum grubundan parazitlerin neden olduğu tropikal ve bulaşıcı bir hastalıktır. Enfekte sivrisineklerin ısırması yoluyla yayılır.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_020</LocID>                                                 <Text>Sarı humma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_020_DESCRIPTION</LocID>                                     <Text>Sarı humma, enfekte dişi sivrisineklerin ısırması yoluyla yayılan tropikal bir viral hastalıktır. Hastalığa Flaviridae ailesinin zarflı RNA virüsü olan sarı humma virüsü neden olur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_021</LocID>                                                 <Text>Batı Nil humması</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_021_DESCRIPTION</LocID>                                     <Text>Batı Nil humması, Batı Nil virüsünün neden olduğu bir enfeksiyondur ve hastalık enfekte sivrisinekler yoluyla yayılır. Çoğu insan herhangi bir semptom geliştirmez. Virüs, 1937 yılında Uganda'da keşfedilmiştir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_022</LocID>                                                 <Text>Lassa humması</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_022_DESCRIPTION</LocID>                                     <Text>Lassa hemorajik humması olarak da bilinen bu hastalığa, özellikle Afrika sıçanlarından bulaşan Lassa virüsü neden olur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_023</LocID>                                                 <Text>Marburg</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_023_DESCRIPTION</LocID>                                     <Text>Marburg virüsü hastalığı, Marburg virüsü ve Ravn virüsü adlı iki marburgvirüsün neden olabildiği, insanları ve insan dışı primatları etkileyen ciddi bir hastalıktır.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_024</LocID>                                                 <Text>Leptospiroz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_024_DESCRIPTION</LocID>                                     <Text>Leptospiroz, Leptospira bakterisinin neden olduğu bir kan enfeksiyonudur ve genelde kemirgenlerden bulaşır.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_025</LocID>                                                 <Text>C. difficile enfeksiyonu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_025_DESCRIPTION</LocID>                                     <Text>Clostridium difficile enfeksiyonuna toksin üreten bakteriler neden olur. Ölümcül olabilir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_026</LocID>                                                 <Text>Vadi humması</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_026_DESCRIPTION</LocID>                                     <Text>Koksidiomikoz olarak da adlandırılan vadi humması, güneybatı ABD, Meksika ve orta ve Güney Amerika topraklarında yaşayan bir mantar olan Coccidioides'in neden olduğu bir enfeksiyondur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_027</LocID>                                                 <Text>COVID-19</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_027_DESCRIPTION</LocID>                                     <Text>COVID-19, yeni koronavirüs SARS-CoV-2'nin neden olduğu hastalıktır ve solunum yolu enfeksiyonuna yol açar. İlk olarak Aralık 2019'da Çin'in Wuhan şehrinde tespit edilen hastalık, tüm dünyaya yayıldı ve 1918 İspanyol gribi pandemisinden bu yana meydana gelen en büyük pandemiye neden oldu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_028</LocID>                                                 <Text>MERS</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_028_DESCRIPTION</LocID>                                     <Text>MERS, yani Deve gribi olarak da bilinen Orta Doğu solunum sendromu, MERS-koronavirüsün neden olduğu oldukça bulaşıcı bir viral solunum enfeksiyonudur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_029</LocID>                                                 <Text>SARS</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_029_DESCRIPTION</LocID>                                     <Text>SARS - Şiddetli akut solunum sendromu, SARS koronavirüsünün neden olduğu viral bir solunum hastalığıdır. İlk salgın, Kasım 2002 ile Temmuz 2003 tarihleri arasında Çin'in güneyinde gerçekleşti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_030</LocID>                                                 <Text>Respiratuar kripto</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_030_DESCRIPTION</LocID>                                     <Text>Kriptosporidiyoz, Cryptosporidium adlı protozoon parazitlerin neden olduğu parazitik bir hastalıktır. Solunum sistemini ve sindirim sistemini de etkiler.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_031</LocID>                                                 <Text>Bağırsak kriptosu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_031_DESCRIPTION</LocID>                                     <Text>Kriptosporidiyoz, Cryptosporidium adlı protozoon parazitlerin neden olduğu parazitik bir hastalıktır. Sindirim sistemini ve solunum sistemini de etkiler.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_032</LocID>                                                 <Text>HPS</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_032_DESCRIPTION</LocID>                                     <Text>HPS - Hantavirüs pulmoner sendromu, kemirgenlerin yaydığı hantavirüslerin neden olduğu, ciddi bir viral solunum yolları hastalığıdır.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_033</LocID>                                                 <Text>Norovirüs</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_033_DESCRIPTION</LocID>                                     <Text>Kış kusması olarak da adlandırılan Norovirüs, ishale ve kusmaya yol açan, oldukça bulaşıcı bir virüstür. Enfekte insanlar milyarlarca norovirüs parçacığı salabilir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_034</LocID>                                                 <Text>Rotavirüs A</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_034_DESCRIPTION</LocID>                                     <Text>Rotavirüs A çok bulaşıcıdır ve sulu ishale neden olur. Bu hastalıktan en iyi korunma yolu aşıdır.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_035</LocID>                                                 <Text>Melioidoz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_035_DESCRIPTION</LocID>                                     <Text>Whitmore hastalığı olarak da adlandırılan melioidoz, Burkholderia pseudomallei bakterisinin neden olduğu bulaşıcı bir hastalıktır ve hem hayvanlar hem de kirli toprak veya su yoluyla bulaşır.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_036</LocID>                                                 <Text>Solunum Sinsityal Virüsü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_036_DESCRIPTION</LocID>                                     <Text>HRSV - İnsan ortopnömovirüs olarak da bilinen, solunum yolu enfeksiyonlarına neden olan sinsityal bir virüstür.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_037</LocID>                                                 <Text>Lenfositik koriomenenjit</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_037_DESCRIPTION</LocID>                                     <Text>Lenfositik koriomenenjit, yaygın olarak ev farelerinden bulaşan lenfositik koriomenenjit virüsünün neden olduğu, kemirgen kaynaklı, viral bir bulaşıcı hastalıktır.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_038</LocID>                                                 <Text>Bübonlu veba</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_038_DESCRIPTION</LocID>                                     <Text>Bübonlu veba, Yersinia pestis bakterisinin neden olduğu üç veba türünden biridir. Bübonlu veba, küçük hayvanlar üzerinde yaşayan enfekte pireler yoluyla yayılır. Aşırı derecede şişen lenf düğümleri enfeksiyonu spesifiktir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_039</LocID>                                                 <Text>Septisemik veba</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_039_DESCRIPTION</LocID>                                     <Text>Septisemik veba, Yersinia pestis bakterisinin neden olduğu üç veba türünden biridir. Septisemik veba, küçük hayvanlar üzerinde yaşayan enfekte pireler yoluyla yayılır. Üç tür arasında en nadir olan bu hastalık, genelde kanı enfekte eder.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_040</LocID>                                                 <Text>Pnömonik veba</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_040_DESCRIPTION</LocID>                                     <Text>Pnömonik veba, Yersinia pestis bakterisinin neden olduğu üç veba türünden biridir. Pnömonik veba, küçük hayvanlar üzerinde yaşayan enfekte pireler yoluyla yayılır. Pnömonik form, pulmoner enfeksiyona sebep olur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_041</LocID>                                                 <Text>Nipah virüsü enfeksiyonu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_041_DESCRIPTION</LocID>                                     <Text>Nipah virüsü enfeksiyonu, Henipavirus cinsindeki bir RNA virüsünün neden olduğu, ciddi ve ölümcül olabilen bir hastalıktır. İnsanlar arasında yayılır, ayrıca hayvanlardan insanlara da bulaşabilir.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_042</LocID>                                                 <Text>Rift Vadisi humması</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_042_DESCRIPTION</LocID>                                     <Text>Rift Vadisi humması, hayvan vücut sıvıları yoluyla bulaşan RVF virüsünün neden olduğu viral bir hastalıktır.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_043</LocID>                                                 <Text>Tekrarlayan ateş</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_043_DESCRIPTION</LocID>                                     <Text>Tekrarlayan ateş, Borrelia cinsindeki bir grup bakterinin neden olduğu bulaşıcı ve vektör kaynaklı bir hastalıktır. Bit ısırıkları veya yumuşak gövdeli keneler yoluyla bulaşır.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_044</LocID>                                                 <Text>Akut hepatit E</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_044_DESCRIPTION</LocID>                                     <Text>Hepatit E, Hepatit E virüsünün neden olduğu bir karaciğer iltihabıdır. Bulaşma yolu Hepatit A'ya benzer, fakat virüsler birbiriyle ilgisizdir. İlk olarak 1955'te tespit edilen virüs, ancak 1983'te izole edilebildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_045</LocID>                                                 <Text>H5N1 Kuş gribi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_045_DESCRIPTION</LocID>                                     <Text>İnfluenza A virüsü - H5N1 alt tipi oldukça patojenik bir kuş gribidir. İnsanlara sadece kuşlardan bulaşabilir. İlk küresel yayılması 2004 yılında kaydedildi.</Text>  </GameDBLocalizedString>
+
+            <!--MAIN SYMPTOMS - MIGRATED-->
+            <GameDBLocalizedString>      <LocID>SYM_INFLUENZA_A_DETECTED_X</LocID>                              <Text>İnfluenza A görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEPATITIS_A_POSITIVE_X</LocID>                              <Text>Hepatit A pozitif</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEPATITIS_B_POSITIVE_X</LocID>                              <Text>Hepatit B pozitif</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VIBRIO_CHOLERAE_DETECTED_X</LocID>                          <Text>Vibrio cholerae bakterisi görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SALMONELLA_TYPHI_DETECTED_X</LocID>                         <Text>S. typhi bakterisi görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_M._TUBERCULOSIS_DETECTED_X</LocID>                          <Text>Tüberküloz tespit edildi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_F._TULARENSIS_DETECTED_X</LocID>                            <Text>F. tularensis bakterisi görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._ANTHRACIS_DETECTED_X</LocID>                             <Text>B. anthracis bakterisi görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STREPTOBACILLUS_DETECTED_X</LocID>                          <Text>Streptobacillus bakterisi görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._HENSELAE_DETECTED_X</LocID>                              <Text>B. henselae bakterisi görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._PERTUSSIS_DETECTED_X</LocID>                             <Text>B. pertussis bakterisi görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LEGIONELLA_DETECTED_X</LocID>                               <Text>Legionella bakterisi görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_R._TYPHI_DETECTED_X</LocID>                                 <Text>R. typhi bakterisi görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TRYPANOSOMA_DETECTED_X</LocID>                              <Text>Trypanosoma paraziti görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TOXOPLASMOSIS_DETECTED_X</LocID>                            <Text>Toksoplazmoz tespit edildi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BABESIOSIS_DETECTED_X</LocID>                               <Text>Babeziyoz tespit edildi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LYME_DISEASE_DETECTED_X</LocID>                             <Text>Borrelia antikorları görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PAROTID_INFECTED_X</LocID>                                  <Text>Parotid enfeksiyonu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TBE_DETECTED_X</LocID>                                      <Text>KKE tespit edildi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RABIES_DETECTED_X</LocID>                                   <Text>Kuduz tespit edildi</Text>  </GameDBLocalizedString>
+            
+            <!--MAIN SYMPTOMS - NEW-->
+            <GameDBLocalizedString>      <LocID>SYM_ANAPLASMNA_DETECTED</LocID>                                 <Text>Anaplasma bakterisi görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ANAPLASMNA_DETECTED_DESCRIPTION</LocID>                     <Text>Yüksek IgG seviyeleri Anaplasma phagocytophilum varlığını düşündürüyor.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EHRLICHIOSIS_DETECTED</LocID>                               <Text>Erlişya tespit edildi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EHRLICHIOSIS_DETECTED_DESCRIPTION</LocID>                   <Text>PCR ile, Erlişya'ya özgü spesifik genler tespit edildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_CONORII_DETECTED</LocID>                         <Text>Rickettsia conorii bakterisi görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_CONORII_DETECTED_DESCRIPTION</LocID>             <Text>Biyoptik malzemede immünofloresan analiziyle Rickettsia conorii antikorları tespit edildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_RICKETTSI_DETECTED</LocID>                       <Text>Rickettsia rickettsii bakterisi görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_RICKETTSI_DETECTED_DESCRIPTION</LocID>           <Text>PCR ile, Rickettsia rickettsii varlığı tespit edildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COLTIVIRUS_ANTIBODIES_DETECTED</LocID>                      <Text>Koltivirüs antikorları tespit edildi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COLTIVIRUS_ANTIBODIES_DETECTED_DESCRIPTION</LocID>          <Text>RT-PCR ile, kırmızı kan hücrelerinde koltiviral antikorlar keşfedildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_PHILIPII_DETECTED</LocID>                        <Text>Rickettsia philipii bakterisi görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_PHILIPII_DETECTED_DESCRIPTION</LocID>            <Text>PCR ile, Rickettsia philipii varlığı tespit edildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AFRICAE_DETECTED</LocID>                         <Text>Rickettsia africae bakterisi görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AFRICAE_DETECTED_DESCRIPTION</LocID>             <Text>PCR ile, Rickettsia africae tespit edildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AUSTRALIS_DETECTED</LocID>                       <Text>Rickettsia australis bakterisi görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AUSTRALIS_DETECTED_DESCRIPTION</LocID>           <Text>Serolojik immünofloresan testi ile, Rickettsia australis varlığı tespit edildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_HONEI_DETECTED</LocID>                           <Text>Rickettsia honei bakterisi görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_HONEI_DETECTED_DESCRIPTION</LocID>               <Text>Seroloji testinde, Rickettsia honei'ye yanıt görüldü.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_JAPONICA_DETECTED</LocID>                        <Text>Rickettsia japonica bakterisi görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_JAPONICA_DETECTED_DESCRIPTION</LocID>            <Text>PCR ile, Rickettsia japonica varlığı tespit edildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_SLOVACA_DETECTED</LocID>                         <Text>Rickettsia slovaca bakterisi görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_SLOVACA_DETECTED_DESCRIPTION</LocID>             <Text>PCR ile, Rickettsia slovaca tespit edildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AKARI_DETECTED</LocID>                           <Text>Rickettsia akari bakterisi görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AKARI_DETECTED_DESCRIPTION</LocID>               <Text>Seroloji testi ile, Rickettsia akari varlığı keşfedildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRUCELLOSIS_CONFIRMED</LocID>                               <Text>Bruselloz doğrulandı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRUCELLOSIS_CONFIRMED_DESCRIPTION</LocID>                   <Text>Seroloji testi ile, Bruselloz varlığı doğrulandı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHIKV_DETECTED</LocID>                                      <Text>CHIKV virüsü görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHIKV_DETECTED_DESCRIPTION</LocID>                          <Text>RT-PCR ile, Chikungunya virüsü varlığı tespit edildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COXIELLA_BURNETII_DETECTED</LocID>                          <Text>Coxiella burnetii görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COXIELLA_BURNETII_DETECTED_DESCRIPTION</LocID>              <Text>Seroloji testinde, Coxiella burnetii bakterisine karşı antikorlar yanıtı görüldü.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DENGUE_VIRUS_DETECTED</LocID>                               <Text>Dang virüsü görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DENGUE_VIRUS_DETECTED_DESCRIPTION</LocID>                   <Text>RT-PCR ile, hastanın serum örneklerinde dang virüsü genomu tespit edildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ZIKA_VIRUS_DETECTED</LocID>                                 <Text>Zika virüsü görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ZIKA_VIRUS_DETECTED_DESCRIPTION</LocID>                     <Text>RT-PCR ile, hastanın örneklerinde Zika virüsü tespit edildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EBOLA_VIRUS_DETECTED</LocID>                                <Text>Ebola virüsü görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EBOLA_VIRUS_DETECTED_DESCRIPTION</LocID>                    <Text>ELISA testi ile Ebola virüsü tespit edildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLASMODIUM_DETECTED</LocID>                                 <Text>Plazmodyum görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLASMODIUM_DETECTED_DESCRIPTION</LocID>                     <Text>ELISA testi ile, hastanın serum örneğinde sıtmaya karşı IgG ve IgM sınıfı antikorlar tespit edildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_YELLOW_FEVER_VIRUS</LocID>                                  <Text>Sarı humma virüsü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_YELLOW_FEVER_VIRUS_DESCRIPTION</LocID>                      <Text>RT-PCR ile, hastanın örneğinde Sarı humma virüsü genomunun varlığı doğrulandı.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WEST_NILE_VIRUS</LocID>                                     <Text>Batı Nil virüsü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WEST_NILE_VIRUS_DESCRIPTION</LocID>                         <Text>ELISA testinde, Batı Nil virüsüne karşı antikorlar tespit edildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LASSA_VIRUS_PRESENT</LocID>                                 <Text>Lassa virüsü bulundu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LASSA_VIRUS_PRESENT_DESCRIPTION</LocID>                     <Text>PCR testi ile, Lassa virüsü tespit edildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MARV_DETECTED</LocID>                                       <Text>MARV görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MARV_DETECTED_DESCRIPTION</LocID>                           <Text>RT-PCR ile, Marburg virüsü varlığı tespit edildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LEPTOSPIRA_DETECTED</LocID>                                 <Text>Leptospira bakterisi görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LEPTOSPIRA_DETECTED_DESCRIPTION</LocID>                     <Text>Mikrobiyal ekim ile, leptospira varlığı doğrulandı.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C._DIFFICILE_DETECTED</LocID>                               <Text>C. difficile görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C._DIFFICILE_DETECTED_DESCRIPTION</LocID>                   <Text>PCR tanısıyla Clostridium difficile tespit edildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COCCIDIOIDES_ANTIBODIES_DETECTED</LocID>              <Text>Coccidioides antikorları tespit edildi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COCCIDIOIDES_ANTIBODIES_DETECTED_DESCRIPTION</LocID>  <Text>Seroloji testinde, Coccidioides antikorları görüldü.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_2019_NCOV_DETECTED</LocID>                                  <Text>2019-nCoV görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_2019_NCOV_DETECTED_DESCRIPTION</LocID>                      <Text>Seroloji testi ile, hasta örneklerinde yeni 2019 koronavirüse karşı immünolojik yanıt verildiği doğrulandı.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MERS_COV_DETECTED</LocID>                                   <Text>MERS-CoV tespit edildi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MERS_COV_DETECTED_DESCRIPTION</LocID>                       <Text>RT-PCR ile, hastanın örneklerinde MERS-koronavirüs tespit edildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SARS_COV_DETECTED</LocID>                                   <Text>SARS-CoV tespit edildi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SARS_COV_DETECTED_DESCRIPTION</LocID>                       <Text>RT-PCR ile, hastanın örneklerinde SARS-koronavirüs tespit edildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CRYPTOSPORIDIUM_DETECTED</LocID>                            <Text>Cryptosporidium görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CRYPTOSPORIDIUM_DETECTED_DESCRIPTION</LocID>                <Text>PCR testi ile, Cryptosporidium tespit edildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OOCYST_IN_STOOL_DETECTED</LocID>                            <Text>Gaitada oosit görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OOCYST_IN_STOOL_DETECTED_DESCRIPTION</LocID>                <Text>Hastanın gaita örneğinde Cryptosporidium oositi görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HANTAVIRUS_DETECTED</LocID>                                 <Text>Hantavirüs görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HANTAVIRUS_DETECTED_DESCRIPTION</LocID>                     <Text>Seroloji testinde, hantavirüs ile ilişkili antikorlar tespit edildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NOROVIRUS_DETECTED</LocID>                                  <Text>Norovirüs görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NOROVIRUS_DETECTED_DESCRIPTION</LocID>                      <Text>PCR testi ile, Norovirüs görüldü.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ROTAVIRUS_A_DETECTED</LocID>                                <Text>Rotavirüs A görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ROTAVIRUS_A_DETECTED_DESCRIPTION</LocID>                    <Text>RT-PCR testi ile, Rotavirüs A tespit edildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._PSEUDOMALLEI_DETECTED</LocID>                            <Text>B. pseudomallei bakterisi görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._PSEUDOMALLEI_DETECTED_DESCRIPTION</LocID>                <Text>Mikrobiyal ekim ile, Burkholderia pseudomallei varlığı doğrulandı.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HRSV_PRESENT</LocID>                                        <Text>HRSV bulundu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HRSV_PRESENT_DESCRIPTION</LocID>                            <Text>RT-PCR testi ile, insan solunum sinsityal virüsü varlığı tespit edildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LCMV_DETECTED</LocID>                                       <Text>LCMV görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LCMV_DETECTED_DESCRIPTION</LocID>                           <Text>BOS analizinde Lenfositik koriomenenjit virüsüne özgü antikorlar görüldü.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_BUBONIC</LocID>                                   <Text>Y. pestis - bübonlu form</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_BUBONIC_DESCRIPTION</LocID>                       <Text>Biyoptik materyal analizinde Yersinia pestis enfeksiyonunun bübonlu formu tespit edildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_SEPTICEMIC</LocID>                                <Text>Y. pestis - septisemik form</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_SEPTICEMIC_DESCRIPTION</LocID>                    <Text>Seroloji testinde Yersinia pestis enfeksiyonunun septisemik formu tespit edildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_PNEUMONIC</LocID>                                 <Text>Y. pestis - pnömonik form</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_PNEUMONIC_DESCRIPTION</LocID>                     <Text>PCR testinde, Yersinia pestis'in pnömonik formuna karşı antikorlar tespit edildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NIPAH_VIRUS_DETECTED</LocID>                                <Text>Nipah virüsü görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NIPAH_VIRUS_DETECTED_DESCRIPTION</LocID>                    <Text>RT-PCR testi ile, Nipah virüsü tespit edildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RVF_VIRUS_DETECTED</LocID>                                  <Text>RVF virüsü görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RVF_VIRUS_DETECTED_DESCRIPTION</LocID>                      <Text>ELISA-seroloji testinde, Rift Vadisi humması virüsüne karşı antikorlar tespit edildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._RECURRENTIS_DETECTED</LocID>                             <Text>B. recurrentis görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._RECURRENTIS_DETECTED_DESCRIPTION</LocID>                 <Text>PCR testlerinde Borrelia recurrentis tespit edildi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEPATITIS_E_DETECTED</LocID>                                <Text>Hepatit E görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEPATITIS_E_DETECTED_DESCRIPTION</LocID>                    <Text>Seroloji testinde, Hepatit E ile ilişkili antikorlar görüldü.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_H5N1_DETECTED</LocID>                                       <Text>H5N1 görüldü</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_H5N1_DETECTED_DESCRIPTION</LocID>                           <Text>RT-PCR testi ile, H5N1 İnfluenza A virüsü tespit edildi.</Text>  </GameDBLocalizedString>
+
+            <!-- SYMPTOMS -->
+            <GameDBLocalizedString>      <LocID>SYM_HEMORRHAGIC_FEVER</LocID>                                   <Text>Hemorajik ateş</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMORRHAGIC_FEVER_DESCRIPTION</LocID>                       <Text>Hemorajik ateş, birden fazla iç organı etkiler, kan damarlarına zarar verir ve vücudun kendi kendini düzenleme yeteneğini etkiler.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ORIFICE_BLEEDING</LocID>                                    <Text>Delik kanaması</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ORIFICE_BLEEDING_DESCRIPTION</LocID>                        <Text>Burun, ağız, gözler ve/veya kulaklar gibi vücuttaki deliklerden akut kanama.</Text>  </GameDBLocalizedString>
+
+            <!--TREATMENTS-->
+            <GameDBLocalizedString>      <LocID>TRT_DOXYCYCLINE</LocID>                                         <Text>Doksisiklin</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_DOXYCYCLINE_DESCRIPTION</LocID>                             <Text>Spesifik bakteri ve parazitlere karşı kullanılan, özel bir tetrasiklin antibiyotik tedavisi. \n\nGereken oda: Bulaşıcı Hastalıklar bölümü/Yoğun Bakım Ünitesi'nde Bulaşıcı Hastalıklar odası/Teşhis ünitesi + Normal servis</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_DOXYCYCLINE</LocID>                                      <Text>İntravenöz Doksisiklin</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_DOXYCYCLINE_DESCRIPTION</LocID>                          <Text>Spesifik bakteri ve parazitlere karşı kullanılan, özel bir tetrasiklin antibiyotik tedavisi. \n\nGereken oda: Bulaşıcı Hastalıklar bölümü/Yoğun Bakım Ünitesi'nde Bulaşıcı Hastalıklar odası/Teşhis ünitesi + İzolasyon ünitesi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MINOCYCLINE</LocID>                                         <Text>Minosiklin</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MINOCYCLINE_DESCRIPTION</LocID>                             <Text>Spesifik bakteri ve parazitlere karşı kullanılan, özel bir tetrasiklin antibiyotik tedavisi. \n\nGereken oda: Bulaşıcı Hastalıklar bölümü/Yoğun Bakım Ünitesi'nde Bulaşıcı Hastalıklar odası/Teşhis ünitesi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CHLORAMPHENICOL</LocID>                                     <Text>Kloramfenikol</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CHLORAMPHENICOL_DESCRIPTION</LocID>                         <Text>Geniş bir spektrumdaki bakteriyel enfeksiyonlara karşı kullanılan özel bir antibiyotik. \n\nGereken oda: Bulaşıcı Hastalıklar bölümü/Yoğun Bakım Ünitesi'nde Bulaşıcı Hastalıklar odası/Teşhis ünitesi + Normal servis</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_AZITHROMYCIN</LocID>                                        <Text>Azitromisin</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_AZITHROMYCIN_DESCRIPTION</LocID>                            <Text>Çeşitli bakteriyel enfeksiyonlara karşı kullanılan bir antibiyotik. \n\nGereken oda: Bulaşıcı Hastalıklar bölümü/Yoğun Bakım Ünitesi'nde Bulaşıcı Hastalıklar odası/Teşhis ünitesi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTRAMUSCULAR_ANTIBIOTICS</LocID>                           <Text>İntramüsküler antibiyotik</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTRAMUSCULAR_ANTIBIOTICS_DESCRIPTION</LocID>               <Text>İntramüsküler antibiyotikler, büyük bir kasa enjeksiyon yoluyla verilir. \n\nGereken oda: Bulaşıcı Hastalıklar bölümü/Yoğun Bakım Ünitesi'nde Bulaşıcı Hastalıklar odası/Teşhis ünitesi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SPECIAL_ANTIVIRAL_TREATMENT</LocID>                         <Text>Karmaşık antiviral tedavi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SPECIAL_ANTIVIRAL_TREATMENT_DESCRIPTION</LocID>             <Text>Karmaşık antiviral tedavi, hedefli antivirallerin bulunmadığı durumlarda kullanılır. \n\nGereken oda: Bulaşıcı Hastalıklar bölümü/Yoğun Bakım Ünitesi'nde Bulaşıcı Hastalıklar odası/Teşhis ünitesi + İzolasyon ünitesi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_EXPERIMENTAL_SERUM</LocID>                                  <Text>Deneysel serum</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_EXPERIMENTAL_SERUM_DESCRIPTION</LocID>                      <Text>Ebola hemorajik ateşini tedavi etmeye yönelik deneysel intravenöz ilaç serumu. \n\nGereken oda: Bulaşıcı Hastalıklar bölümü/Yoğun Bakım Ünitesi'nde Bulaşıcı Hastalıklar odası/Teşhis ünitesi + İzolasyon ünitesi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIMALARIAL_MEDICATION</LocID>                             <Text>Antimalaryal ilaç</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIMALARIAL_MEDICATION_DESCRIPTION</LocID>                 <Text>Sıtma ve sıtmaya bağlı hastalıklara karşı çeşitli antibiyotikler, ilaçlar ve destekleyici maddeler kombinasyonu. \n\nGereken oda: Bulaşıcı Hastalıklar bölümü/Yoğun Bakım Ünitesi'nde Bulaşıcı Hastalıklar odası/Teşhis ünitesi + Normal servis</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_PASSIVE_IMMUNOTHERAPY</LocID>                            <Text>İntravenöz pasif imünoterapi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_PASSIVE_IMMUNOTHERAPY_DESCRIPTION</LocID>                <Text>Farklı viral hemorajik ateşlere yönelik spesifik antikorların intravenöz dozları. \n\nGereken oda: Bulaşıcı Hastalıklar bölümü/Yoğun Bakım Ünitesi'nde Bulaşıcı Hastalıklar odası/Teşhis ünitesi + Normal servis</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTISENSE_THERAPY</LocID>                                   <Text>Antisens tedavi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTISENSE_THERAPY_DESCRIPTION</LocID>                       <Text>Antisens terapi, genetik bozukluklar veya enfeksiyonlar için bir tedavi şeklidir. Belirli bir geni kapatacak bir RNA/DNA zinciri sentezlemek mümkündür. \n\nGereken oda: Bulaşıcı Hastalıklar bölümü/Yoğun Bakım Ünitesi'nde Bulaşıcı Hastalıklar odası/Teşhis ünitesi + Normal servis</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_VANCOMYCIN</LocID>                                          <Text>Vankomisin</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_VANCOMYCIN_DESCRIPTION</LocID>                              <Text>Bir dizi bakteriyel enfeksiyonun tedavisinde kullanılan, intravenöz bir antibiyotik. \n\nGereken oda: Bulaşıcı Hastalıklar bölümü/Yoğun Bakım Ünitesi'nde Bulaşıcı Hastalıklar odası/Teşhis ünitesi + Normal servis</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FLUCONAZOLE</LocID>                                         <Text>Flukanozol</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FLUCONAZOLE_DESCRIPTION</LocID>                             <Text>Mantar organizmalarının neden olduğu çeşitli hastalıkların tedavisinde kullanılan, özel antifungal ilaç. \n\nGereken oda: Bulaşıcı Hastalıklar bölümü/Yoğun Bakım Ünitesi'nde Bulaşıcı Hastalıklar odası/Teşhis ünitesi + Normal servis</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_NITAZOXANIDE</LocID>                                        <Text>Nitazoksanit</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_NITAZOXANIDE_DESCRIPTION</LocID>                            <Text>Geniş spektrumlu antiparazitik ve ayrıca geniş spektrumlu antiviral ilaç. \n\nGereken oda: Bulaşıcı Hastalıklar bölümü/Yoğun Bakım Ünitesi'nde Bulaşıcı Hastalıklar odası/Teşhis ünitesi + Normal servis</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_OSELTAMIVIR</LocID>                                         <Text>Oseltamivir</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_OSELTAMIVIR_DESCRIPTION</LocID>                             <Text>İnfluenza A ve B'yi tedavi etmek ve önlemek için kullanılan antiviral ilaç. \n\nGereken oda: Bulaşıcı Hastalıklar bölümü/Yoğun Bakım Ünitesi'nde Bulaşıcı Hastalıklar odası/Teşhis ünitesi + İzolasyon ünitesi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CIPROFLOXACIN</LocID>                                       <Text>Siprofloksasin</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CIPROFLOXACIN_DESCRIPTION</LocID>                           <Text>Bir dizi bakteriyel enfeksiyonu tedavi etmek için kullanılan bir antibiyotik. \n\nGereken oda: Bulaşıcı Hastalıklar bölümü/Yoğun Bakım Ünitesi'nde Bulaşıcı Hastalıklar odası/Teşhis ünitesi + Normal servis</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_CIPROFLOXACIN</LocID>                                    <Text>İntravenöz Siprofloksasin</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_CIPROFLOXACIN_DESCRIPTION</LocID>                        <Text>Bir dizi bakteriyel enfeksiyonu tedavi etmek için kullanılan antibiyotik. \n\nGereken oda: Bulaşıcı Hastalıklar bölümü/Yoğun Bakım Ünitesi'nde Bulaşıcı Hastalıklar odası/Teşhis ünitesi + İzolasyon ünitesi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SUPPORTIVE_CARE</LocID>                                     <Text>Destekleyici tedavi</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SUPPORTIVE_CARE_DESCRIPTION</LocID>                         <Text>Destekleyici tedavi, genelde spesifik bir tedavinin olmadığı viral hastalıklar için uygulanan çok sayıda semptomatik tedaviden oluşur. \n\nGereken oda: Bulaşıcı Hastalıklar bölümü/Yoğun Bakım Ünitesi'nde Bulaşıcı Hastalıklar odası/Teşhis ünitesi + Normal servis</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_RABIES_IMMUNE_GLOBULIN_X</LocID>                            <Text>Kuduz immünoglobulini</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_RABIES_IMMUNE_GLOBULIN_X_DESCRIPTION</LocID>                <Text>Hızlı etki eden bir enjeksiyondur, kuduz virüsünün hastayı enfekte etmesini önler. Genellikle kuduz taşıma riski olan bir hayvan tarafından ısırılan hastalara önleyici olarak verilir.\n\nGereken oda: Bulaşıcı Hastalıklar bölümü/Yoğun Bakım Ünitesi'nde Bulaşıcı Hastalıklar odası/Teşhis ünitesi + Normal servis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTERFERON_ALPHA-2B_X</LocID>                               <Text>İnterferon alfa-2b</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTERFERON_ALPHA-2B_X_DESCRIPTION</LocID>                   <Text>Kronik Hepatit B ve C'nin tedavisinde kullanılan, son derece spesifik bir anti-viral tedavi. \n\nGereken oda: Bulaşıcı Hastalıklar bölümü/Yoğun Bakım Ünitesi'nde oda/Teşhis ünitesi</Text>  </GameDBLocalizedString>
+                                                                                                                
+            <GameDBLocalizedString>      <LocID>EXM_GASTROSCOPY_DESCRIPTION</LocID>                             <Text>Sindirim sisteminin üst kısmını incelemek için küçük bir video kamera ve ucunda ışık kaynağı bulunan esnek bir tüpün (endoskop) ağızdan sokulduğu bir prosedür.\n\nGereken oda: Genel Cerrahi bölümü/İç Hastalıkları bölümü/Kardiyoloji bölümü/Bulaşıcı Hastalıklar bölümünde Yoğun Bakım Ünitesi/Oda/Teşhis ünitesi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>      <Text>Bel bölgesinden omurilik kanalına doğru enjeksiyon yoluyla girilerek beyin-omurilik sıvısından küçük bir örnek alınması işlemi. \n\nGereken oda: Histoloji Laboratuvarı \n\nÖrneklendirme: Nöroloji bölümü/Bulaşıcı Hastalıklar bölümü \n\nGereken ekipmanlar: Cam teçhizat + Tıbbi santrifüj + Laboratuvar analiz aracı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>             <Text>Detaylı inceleme için hastadan gaita örneği alınması. \n\nGereken oda: Histoloji Laboratuvarı \n\nÖrneklendirme: Acil Servis bölümü/Genel Cerrahi bölümü/İç Hastalıkları bölümü/Yoğun Bakım Ünitesi/Bulaşıcı Hastalıklar bölümü\n\nGereken ekipmanlar: Cam teçhizat + Gaita analiz aracı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_AUDIOMETRY_DESCRIPTION</LocID>                              <Text>Odyometrik test ile hastanın işitme seviyesi belirlenir. \n\nGerekli oda: Acil/Yoğun Bakım Ünitesi/Genel Cerrahi bölümü/İç Hastalıkları bölümü/Bulaşıcı Hastalıklar bölümünde Doktor odası/Gözlem odası/Yoğun Bakım Ünitesi/Oda/Teşhis ünitesi</Text>  </GameDBLocalizedString>
+                                                                                                                
+            <GameDBLocalizedString>      <LocID>TRT_INTRAVENOUS_IMMUNOGLOBULIN_DESCRIPTION</LocID>              <Text>İntravenöz (IV) yolla verilen antikorlar içeren, saflaştırılmış bir kan ürünü. \n\nGereken oda: Ortopedi bölümü/Nöroloji bölümü/Bulaşıcı Hastalıklar bölümünde Yoğun Bakım Ünitesi/Oda/Teşhis ünitesi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIVIROTICS_DESCRIPTION</LocID>                            <Text>Viral enfeksiyonları önleyen ilaç. Antibiyotiklerin aksine, antiviral ilaçlar patojenleri doğrudan yok etmez. \n\nGereken oda: Genel Cerrahi bölümü/Nöroloji bölümü/Bulaşıcı Hastalıklar bölümünde Doktor odası/Gözlem odası/Yoğun Bakım Ünitesi/Oda/Teşhis ünitesi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIDIARRHEALS_DESCRIPTION_V2</LocID>                       <Text>Genellikle bağırsak hareketlerini azaltarak ishali durduran, semptomları hafifleten ama hastalığın sebebini tedavi etmeyen ilaçlar. \n\nGerekli oda: Genel Cerrahi bölümü/İç Hastalıkları bölümü/Bulaşıcı Hastalıklar bölümünde Doktor odası/Gözlem odası/Travma ünitesi/Yoğun Bakım Ünitesi/Oda/Teşhis ünitesi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIPARASITIC_DRUGS_DESCRIPTION_V2</LocID>                  <Text>Çeşitli parazit enfeksiyonlarının tedavisinde kullanılan ilaçlar. \n\nGerekli oda: İç Hastalıkları bölümü/Bulaşıcı Hastalıklar bölümünde Doktor odası/Gözlem odası/Travma ünitesi/Oda/Teşhis ünitesi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_NASAL_DROPS_DESCRIPTION</LocID>                             <Text>Burun boşluğunu temizleyen ve rahat nefes almayı sağlayan ilaçlar.\n\nGerekli oda: Doktor odası/ Gözlem odası / ofis /İç Hastalıkları teşhiş ünitesi/ Kardiyoloji/Teşhis ünitesi</Text>  </GameDBLocalizedString>
+
+            <!--new hematolab for the department-->
+            <GameDBLocalizedString>       <LocID>ROOM_TYPE_HEMATOLOGY_LAB_DID</LocID>                     		<Text>Hematoloji Laboratuvarı</Text></GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    

@@ -1,0 +1,32 @@
+<Database>
+    <GameDBStringTable ID="LOC_LA_PATCH_1_2_30">
+
+        <LanguageCode>la</LanguageCode>
+        <LanguageNameLocalized>Español Latino</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- DID = department of infectious diseases, the abbreviation should be the same as in the string table for department of infectious diseases itself -->
+            <GameDBLocalizedString>    <LocID>EXM_THORAX_PERCUSSION_DESCRIPTION_V2</LocID>                 <Text>Examen basado en golpecitos sistemáticos en el tórax para identificar áreas con menos aire dentro del tórax. \n\nSala requerida: cualquier consultorio/unidad de diagnóstico</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_ANTICHOLINERGICS_DESCRIPTION_V2</LocID>                  <Text>Medicamento más utilizado en el tratamiento de la sudoración excesiva. \n\nSala requerida: consultorio médico / sala de observación / UCI / consultorio/unidad de diagnóstico del dpto. de medicina interna/dpto. de cardiología/dpto. de neurología/DEI/dpto. de traumatología</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_COLD_TILING_DESCRIPTION_V3</LocID>                       <Text>Las compresiones frías se utilizan para disminuir el dolor en distintas partes del cuerpo. \n\nSala requerida: Cualquier Consultorio / Unidad diagnóstica / UCI</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_MUCOLYTICS_DESCRIPTION_V2</LocID>                        <Text>Medicamentos líquidos que ayudan a disolver y eliminar la mucosidad de las vías respiratorias. \n\nSala requerida: consultorio médico / sala de observación / UCI / consultorio/unidad de diagnóstico del dpto. de medicina interna/DEI</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_SALINE_NASAL_SPRAY_DESCRIPTION_V2</LocID>                <Text>Aerosol nasal que enjuaga las cavidades nasales y aumenta capacidad respiratoria por nariz. \n\nSala requerida: consultorio médico / sala de observación / consultorio/unidad de diagnóstico del DEI</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>EXM_CBC_SAMPLING_DESCRIPTION_V2</LocID>                      <Text>Muestreo de sangre para un hemograma. \n\nSala requerida: laboratorio de hematología \n\nMuestreo: dpto. de emergencias / dpto. de cirugía general / dpto. de medicina interna / dpto. de ortopedia / dpto. de neurología / UCI / DEI / dpto. de traumatología \n\nEquipamiento requerido: recipientes de laboratorio + hematoanalizador</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING_DESCRIPTION_V2</LocID>    <Text>Muestreo de orina limpia de un paciente o de su catéter. \n\nSala requerida: Laboratorio de histología \n\nMuestreo: dpto. de emergencias / dpto. de cirugía general / dpto. de medicina interna / dpto. de cardiología / UCI / DEI / dpto. de traumatología \n\nEquipamiento requerido: recipientes de laboratorio + analizador de laboratorio</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER</LocID>                                <Text>Armario esquinero</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER_WALL</LocID>                           <Text>Armario esquinero empotrado a la pared</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>    <LocID>CONTROL_PROCEDURE_PATIENT_DELIVER_SAMPLE</LocID>             <Text>Entrega de muestras de laboratorio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>CONTROL_PROCEDURE_PATIENT_STAT_LAB_RESULTS</LocID>           <Text>Envío de resultados de laboratorio</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>    <LocID>BANNER_DLCS</LocID>                                          <Text>No te pierdas los DLC de Project Hospital:</Text>  </GameDBLocalizedString>
+            
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

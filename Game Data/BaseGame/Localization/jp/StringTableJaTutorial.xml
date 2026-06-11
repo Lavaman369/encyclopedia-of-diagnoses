@@ -1,0 +1,357 @@
+<Database>
+    <GameDBStringTable ID="LOC_JA_TUTORIAL">
+        
+        <LanguageCode>ja</LanguageCode>
+        <LanguageNameLocalized>日本語</LanguageNameLocalized>
+    
+        <Contributors>
+          <Name>mashitaro</Name>
+        </Contributors>
+        
+        <LocalizedStrings>
+            <!-- ======================== -->
+            <!--LEVEL 1 - DIAGNOSE: Flow 1-->
+            <!-- ======================== -->
+            <GameDBLocalizedString>      <LocID>TUTORIAL_DIAGNOSING_INTRODUCTION</LocID>    <Text>こんにちは、ボス。我々を助けるために戻ってきてくれてありがとうございます。あなたの引退には理由があったことは知っていますが、我々は今あなたのような才能ある方を必要としているのです。あなたは患者の診察が得意でしたよね</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_WELCOME</LocID>               <Text>このクリニックではスタッフに問題を抱えています。患者の面倒をみてあげてくれませんか？\nああ、心配はいりません。やり方は全て説明します</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_ZOOM_IN</LocID>               <Text><![CDATA[まずは何が起きているか確かめましょう。マウスホイールで<b><i>ズームインとアウト</i></b>、中央ボタンを押しながら動かしてスクロールが可能です]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_WALL_CONFIGURATION</LocID>    <Text><![CDATA[壁のせいで中が見えませんね。<b>お好きなように<i>見た目の変更</i></b>を行ってください]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_SELECT_PATIENT</LocID>        <Text><![CDATA[格好です。ではまず診察室で我々を待っている<b><i>患者を選択してください</i></b>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_PATIENT_CARD</LocID>          <Text>これが患者カードです。重要な情報が記載されており、またここから患者のコントロールが可能です</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_LAST_SELECTED</LocID>         <Text>右側には履歴が表示されています。最大で8人まで表示が可能です</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_PORTRAIT</LocID>              <Text>人物のポートレートをクリックすると、その人物を中央表示します</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_PATIENTS_CONTROL</LocID>      <Text>誰がこの患者を担当するか選択可能です。スタッフに任せることも、自ら対応することも可能です。今回はこのままあなたが担当してあげてください</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_NEEDS_PANEL</LocID>           <Text>カードの上側には患者の個人情報と割り当てられた診療科が表示されています。右側の欲求パネルでは各満足度とその人物の特長、特性が下に表示されています</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DIAGNOSES</LocID>             <Text>次のパネルには現在わかっている症状から診断可能な病気が表示されています。最も可能性が高いと思われるものから順に並んでいて、どれか1つ選ぶと最後に移動されます</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_SYMPTOMS</LocID>              <Text>症状パネルには既に判明している、または不明なままの症状が表示されています。またその左には現在担当している医師が表示されています。</Text>  </GameDBLocalizedString>
+            <!-- UPDATED -->  <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EXAMINATIONS</LocID>          <Text><![CDATA[この検査パネルでは不明な症状をつきとめるための検査を実行可能です。<b><i>皮膚アレルギー試験</i>を実行し</b>不明な症状を明らかにすれば、残された病気の候補は1つに絞り込まれるでしょう]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_PATIENT_DIAGNOSED</LocID>     <Text><![CDATA[既に完了しており、症状の明らかになった診断は緑色で表示されています。さあ<b><i>残っている診断を選択しましょう</i></b>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREATMENTS</LocID>            <Text><![CDATA[さああとは治療するだけです。診断のアイコンにカーソルを乗せると必要と思われる治療が表示されます。<b><i>治療内容を選択して</i></b>先に進みましょう]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_GOOD_JOB</LocID>              <Text>最初の患者の治療が完了しました。あなたの選択した治療方法によって患者は完治することもあれば、新たな症状とともに戻ってくることもあります</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_CONTINUE</LocID>              <Text>では次の患者に取り掛かりましょう。</Text>  </GameDBLocalizedString>
+
+            <!-- ======================== -->
+            <!--LEVEL 1 - DIAGNOSE: Flow 2-->
+            <!-- ======================== -->
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_OPEN_CARD</LocID>             <Text><![CDATA[こちらが次の患者です。<b><i>診察室に座っている患者をクリックしてください</i></b>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_COMPLICATED_CASE</LocID>      <Text>いくつかの検査が無効(グレー)になっていますね。これには特殊な検査室や設備が必要です</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_MISSING_STUFF</LocID>         <Text>グレーになったアイコンにカーソルを乗せると不足しているものが表示されます。今回はX線検査に必要な検査室と技師が足りません</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TOOLTIP</LocID>               <Text>このゲームではありとあらゆるアイコンにカーソルを乗せることで追加の情報が表示されます。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_FIX_MISSING_STUFF</LocID>     <Text>直ちにこの問題に対応します</Text>  </GameDBLocalizedString>
+
+            <!-- ======================== -->
+            <!--LEVEL 1 - DIAGNOSE: Flow 3-->
+            <!-- ======================== -->
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_FIXED</LocID>                 <Text><![CDATA[必要な準備は全て整ったので<b><i>再び患者カードを開いて実行可能になった検査を選択してください</i></b>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_BOOKMARK</LocID>              <Text>引き続き担当する場合、常にその患者に注意し続けてください。同じアイコンをクリックするとモードが切り替わります</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_BOOKMARKED</LocID>            <Text>これで患者はあなたの担当になりました</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_CARD_OPTIONS</LocID>          <Text>カードは右上端のXボタンを押すと閉じられます。右側の履歴リストから最後に見た人物のカードにすぐ戻れることをお忘れなく</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TIME_MANIPULATION</LocID>     <Text><![CDATA[この検査には少し時間がかかります。メインパネル中央のボタンから<b><i>早送り</i></b>が可能です]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_WAITING_FOR_RESULTS</LocID>   <Text>しばし患者を見守りましょう</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_STAT_LAB_RESULTS</LocID>      <Text>ポップアップ通知によりX線検査で新たな症状が判明したことがわかりました</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_POP_UP</LocID>                <Text>メッセージウィンドウの左下の'ポップアップ'、'ログ'ボタンでどのように通知を受け取るか変更可能です。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_POP_UP_CLOSE</LocID>          <Text>OKをクリックいて通知画面を閉じてください</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_LOG</LocID>                   <Text>画面右下のログパネルより通知メッセージを再度開くことが可能です</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_FINAL_DIAGNOSE</LocID>        <Text>X線検査により診断を行うために必要だった最後の症状の情報が得られました。これで間違いなく正しい診断を行うことができます</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_PRIORITIES</LocID>            <Text>通常、これらの試験(放射線、STAT検査室)は病気を見極める最も有効な手段ですが、長い時間がかかります。このまま治療に移るか、他の医師に委ねましょう。</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_OBJECTIVES</LocID>            <Text><![CDATA[これで基本は終わりです。クリニックの運営を続けましょう。<b><i>4人の患者を治療してください</i></b>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TUTORIAL_1_FINISHED</LocID>   <Text><![CDATA[あなたは見事成し遂げました。ご協力に感謝します！あとは我々にお任せください。他にあなたの助けを必要としている人がいるようです。<b><i>次へをクリックして先に進みましょう。</i></b>]]></Text>  </GameDBLocalizedString>
+
+            <!-- ======================== -->
+            <!--LEVEL 2 - BUILDING: Flow 1-->
+            <!-- ======================== -->
+            <GameDBLocalizedString>      <LocID>TUTORIAL_BUILDING_INTRODUCTION</LocID>              <Text>こんにちは、ボス。あなたが診断だけでなく病院の建設も得意だったことは周知のとおりです。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HELLO</LocID>                         <Text>ここは我々が最近取得した地所です！ここを使って我々に病院に設備を整える方法と、どのような選択肢があるか教えてください。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_BUILDING_MODE</LocID>                 <Text><![CDATA[ではまず小規模なクリニックを建設しましょう！まずは建設モードに切り替えてください。<b><i>画面左上のボタンをクリックする</i></b>かまたはF6キーを押してください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_FOUNDATIONS</LocID>                   <Text><![CDATA[まずは基礎を設置しなければなりません。基礎の建設ツールは既に選択済みです。<b><i>3つの部屋が入るに十分な大きさを指定してください。</i></b>20x20タイル程度で丁度よいでしょう。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_CATEGORIES</LocID>                    <Text>素晴らしい！さて次はこれが建設可能なもののリストです。主要なカテゴリは5つ、基礎、建築物、ドアと窓、オブジェクト、プレハブです。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_SUB_CATEGORIES</LocID>                <Text>各カテゴリはそれぞれサブカテゴリに分かれています。各カテゴリとアイテムについての情報をツールチップで確認しましょう！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_LOGISTICS</LocID>                     <Text><![CDATA[まず必要なのはフロアプランです。病院で最も基本的な診療科は救急科でしょう。<b><i>管理ツールを選択し</i></b>救急科を運営するにあたり必要な部屋の種類を確認してください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_LOGISTICS_ROOMS</LocID>               <Text><![CDATA[このリストには必須と任意の部屋が含まれています。<b><i>診察室、待合室、トイレを1つずつ設置すれば</i></b>クリニックの開設には十分です。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_BUILD_WALLS</LocID>                   <Text><![CDATA[やりました！フロアプランが完了したら<b><i>次に壁を建ててください</i></b>。これは建設モードの建築物カテゴリの中にあります。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_WALLS_INFO</LocID>                    <Text>お見事！壁は部屋の必須条件ではありませんが、いくつかの設備は設置のために壁を必要とします。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_WALLS_ADDITIONAL_INFO</LocID>         <Text>壁を設置する際は線モードと枠モード、そして壁の色を選択することもできます。これらのツールは建設パネルの一番下にあります。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_FLOOR_INFO</LocID>                    <Text><![CDATA[また様々な床とドア、窓を設置することもできます。各部屋にアクセスするためのドアの設置をお忘れなく。満足したら<b><i>次へをクリックしてください</i></b>。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_SELECT_ROOM</LocID>                   <Text><![CDATA[次に部屋の設備を整えましょう。いずれかの部屋の<b><i>床をクリック</i></b>してください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EQUIPMENT_INFO</LocID>                <Text>パネルに表示される設備の中には必須のもの(オレンジ色)と推奨のもの(黄色)があります。必須のものは例えば用具キャビネットのように代替候補があるものもあります。キーボードのRかまたはマウスの中央ボタンで回転が可能です。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EQUIPMENT_ADDITIONAL_INFO</LocID>     <Text>右クリックすると現在の選択をキャンセルします。いくつかの設備は稼働させるために他の設備と組み合わせる必要があるものもあります。青い矢印はその上(または下)に設置する必要があるものです。組み合わせる対象のアイテムはパネルでも青く表示されます。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EQUIPMENT_OBJECTIVE</LocID>           <Text><![CDATA[では<b><i>部屋に設備を設置</i></b>していきましょう。\n設置する際に床に表示される矢印はその設備を利用できる方向を示しています。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_OPTIONAL_EQUIPMENT</LocID>            <Text>任意の設備は主に装飾目的か、特定の機能は持たないものの環境を改善する効果があります。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_INGAME_TUTORIAL</LocID>               <Text><![CDATA[あと必要なものは医師です。今回はゲームのチュートリアル機能から1人雇用しましょう…これはサンドボックスモードでも利用可能です。<b><i>ゲーム内チュートリアルを選択</i></b>してください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_INGAME_TUTORIAL_HIRING</LocID>        <Text><![CDATA[<b><i>雇用を選択</i></b>し説明された手順に従って<b><i>救急科に医師を1人雇用</i></b>してください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_SELECT_RADIOLOGY</LocID>              <Text><![CDATA[複数の診療科を持つ場合、メインパネル上のアイコンから切り替えが可能です。<b><i>放射線科を選択し、再度管理ツールを開いてください</i></b>。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_BUILD_RADIOLOGY</LocID>               <Text><![CDATA[放射線科に必要な部屋を確認し、<b><i>必要な設備を設置しスタッフを雇いましょう</i></b>。診療科を機能させるには赤の警告全てに対処する必要があります。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_INGAME_HIRE_LAB_SPECIALIST</LocID>    <Text><![CDATA[放射線科の運営に必要な最後の手順はX線検査室のための<b><i>技師を雇う</i></b>ことです。医師を雇った時と同様に技師を雇い入れましょう。]]></Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_PATIENTS</LocID>                <Text><![CDATA[では最後の目標を達成しましょう。<b><i>患者を6人治療</i></b>してください。]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_PREFABS_CATEGORY</LocID>              <Text><![CDATA[終了の前に大きな時間の節約となるカテゴリ、プレハブを紹介します。建設モードから<b><i>プレハブのカテゴリを選択</i></b>してください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_PREFAB_CATEGORY_SELECTED</LocID>      <Text><![CDATA[診療科ごとに様々な部屋の候補が表示されています。どれか選択し、クリニックの空いている場所へ設置してください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_PREFAB_PLACED</LocID>                 <Text>これでフロアプランと全ての設備をまとめて設置できます。また必要に応じてこれらの組み合わせを自由に変更することもできます。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TUTORIAL_2_FINISHED</LocID>           <Text>お見事！あなたにとってはこの程度朝飯前でしたよね？</Text>  </GameDBLocalizedString>
+
+            <!-- ============================================== -->
+            <!--LEVEL 3 - MANAGEMENT AND HOSPITALIZATION: Flow 1-->
+            <!-- ============================================== -->
+            <GameDBLocalizedString>      <LocID>TUTORIAL_MANAGEMENT_INTRODUCTION</LocID>                    <Text>こんにちは、ボス。診断と建設についてはわかりましたのが、あなたにはもう１つ才能がおありでしたね。その前に少し気分転換といきましょう。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_WELCOME_MANAGEMENT</LocID>                    <Text>まずは病院の管理について詳しく見てみましょう。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEPARTMENT_CARD_OPEN</LocID>                  <Text><![CDATA[まずは診療科の管理からです。<b><i>診療科の管理モードに切り替えて</i></b>先に進みましょう。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEPARTMENT_CARD_INFO</LocID>                  <Text>このモードでは選択された診療科のスタッフ、部屋など全ての情報を閲覧することができます。また診療科の状態のチェックリストとしても機能します。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_CHIEF_INFO</LocID>                            <Text>ここで主任医師を指定することができます。しかしこれは従業員の総合的な能力に大きな影響を及ぼすため、注意深く選ぶ必要があるでしょう。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_CERTAINTY</LocID>                             <Text>確信レベルは診断において重要な役割を果たします。これは医師が最終的な診断を下す前にどの程度不明な症状を明らかにするかを決定します。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIRING</LocID>                                <Text><![CDATA[次に雇用オプションを見てみましょう。任意の診療科カードから<b><i>雇用ボタン</i></b>をクリックしてください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIRING_SELECTED</LocID>                       <Text>従業員には4つのカテゴリ、医師、看護師、技師、用務員があります。あなたは彼らの経験レベル、スキル、要求している給料を見ることができます。またその人物の働きに大きな影響を及ぼす特性については不明なままとなっていることが多いです。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIRING_OPTIONS</LocID>                        <Text>この候補は選択された診療科に紐付いています。つまりその診療科の専門分野の従業員のみが表示されています。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIRING_AGENCY</LocID>                         <Text>候補に満足できない場合、雇用エージェントは有料で新たな候補を見つけ出し、また不明な特性を明らかにしてくれます。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIRE_EMPLOYEE_INFO</LocID>                    <Text>従業員を雇うには彼らのポートレートをクリックし部屋にドロップしてください。従業員は自動的に最寄りの職場に配属されます。また従業員カードからも職場の割当が可能です。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIRE_EMPLOYEE_TASK</LocID>                    <Text><![CDATA[<b><i>救急科で医師を1人</i></b>また<b><i>放射線科で技師を1人</i></b>を1人雇ってください。\n\nTip: メイン画面下のボタンで診療科の切り替えが行なえます。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_LOGISTICS_SELECT</LocID>                      <Text><![CDATA[これで彼らの職場を確認することができるようになりました。<b><i>管理モードを選択してください</i></b>。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_WORKSPACES</LocID>                            <Text>職場は机と椅子、PCからなります。選択した診療科でそれらの設備が占有されているのが見えるはずです。またここで空の職場をクリックして新たな従業員を雇い入れることもできます。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EMPLOYEE_CARD</LocID>                         <Text><![CDATA[スタッフの詳しい情報を見てみましょう。<b><i>いずれかの従業員のカードを開いてください</i></b>。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EMPLOYEE_CARD_LEVELS</LocID>                  <Text>全ての従業員にはそれぞれ異なった統計値、レベル、スキル、専門分野が設定されています。技師と看護師には3段階、医師は5段階の経験レベルがあり、レベルアップすると様々な専門分野が獲得可能です。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EMPLOYEE_CARD_SKILLS</LocID>                  <Text>スキルは各人ごとに固定ですが使用することで強化されていきます。ツールチップで各スキルの効果について知ることができます。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EMPLOYEE_CARD_SPECIALIZATIONS</LocID>         <Text>専門分野は特定の診療科または部屋で働いたり、特別な検査や治療を行うことを可能にします。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EMPLOYEE_CARD_SECOND_SPECIALIZATION</LocID>   <Text>医師は1つまたは2つの専門分野を持つことができます。最初の1つは特定の診療科で働くためのもので研修医(レベル2)の時点で獲得し、2つ目は主に手術や診断に関するものでフェロー(レベル4)の時点で獲得します。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EMPLOYEE_CARD_ROLES</LocID>                   <Text>従業員の役割はその従業員が実施可能な役割を現しています。この情報により各従業員が手術の執刀医のような本当に必要な職場に就く助けとなるでしょう。</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_NIGHT_SHIFT</LocID>                           <Text><![CDATA[病院を24時間運営にするためには日勤、夜勤にそれぞれ従業員の割当が必要です。<b><i>夜勤ボタンをクリックすると</i></b>境界線とスタッフの顔ぶれが変化したことにお気づきでしょう。]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEPARTMENTS</LocID>                           <Text><![CDATA[次に管理モードを病院全体に変更しましょう。まずは各診療科の情報を確認します。病院管理カードより<b><i>診療科欄</i></b>を開いてください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEPARTMENTS_OPENED</LocID>                    <Text>現在有効な全ての診療科の一覧が表示されています。ここから各診療科の情報へ切り替えることができます。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_INSURANCE_COMPANY</LocID>                     <Text><![CDATA[保険会社はあなたにとって最も重要な提携相手です。彼らはやってくる患者の数と支払額に影響を及ぼします。病院管理カードより<b><i>保険会社欄</i></b>を開いてください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_INSURANCE_COMPANY_OPENED</LocID>              <Text>保険会社はそれぞれ必要条件を定めていますが、それを達成し契約を締結すると彼らが送ってくる患者を受入可能になります。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_AMBULANCE</LocID>                             <Text><![CDATA[次に救急車を見てみましょう。病院管理カードより<b><i>救急車欄を開いてください</i></b>。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_AMBULANCE_OPENED</LocID>                      <Text>このパネルではあなたの持つ全ての救急車の状態が表示されています。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_BUDGET</LocID>                                <Text><![CDATA[次は財務です。病院管理カードより<b><i>予算欄</i></b>を開いてください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_BUDGET_OPENED</LocID>                         <Text>ここで診療科ごとの収入、支出が確認可能です。また資金が不足した場合、ここからローンの借入も行えます。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_STATISTICS</LocID>                            <Text><![CDATA[そして最後に決して欠かせぬ統計情報です。病院管理カードより<b><i>統計欄を開いてください</i></b>。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_STATISTICS_OPENED</LocID>                     <Text>統計欄ではあなたの病院がどのように活動し、またどのような傾向があるかを確認することができます。</Text>  </GameDBLocalizedString>
+            <!-- Hospitalization -->
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEPARTMENT_HOSPITALIZATION_INFO</LocID>       <Text>では面白い部分に取り掛かりましょう。我々の病院は一般外科部門のため入院施設を必要としています。</Text>  </GameDBLocalizedString> <!-- THIS MIGHT BE WRONGLY WORDED? -->
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_BUILD_DEPARTMENT_HOSPITALIZATION</LocID>      <Text><![CDATA[診療科管理画面に切り替え、一般外科を開いてください。必要な部屋を確認し、不足しているものを<b><i>建設</i></b>してください。次に<b><i>必要なスタッフを雇用します</i></b>。入院施設を解説するには赤の警告サインが表示されている問題全てに対処しなければなりません。\nまた病棟にはさらに多くのベッドが必要となるでしょう。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_AMBULANCE_PATIENT</LocID>                     <Text><![CDATA[入院施設が完成したので、救急車が最初の患者を連れてきます。<b><i>もうまもなくです！</i></b>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_AMBULANCE_PATIENT_SELECT</LocID>              <Text><![CDATA[患者の管理を容易にするために一時停止し、また<b><i>患者をあなたの担当にしてください</i></b>。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HOSPITAL_OVERVIEW</LocID>                     <Text><![CDATA[入院の手順について説明していきましょう。まずは救急科で<i>観察</i>か<i>外傷入院</i>から始まります。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HOSPITAL_OBSERVATION</LocID>                  <Text>明確な診断が下されていない患者は観察に回され、これら患者は重大な症状を持っている場合があります。診察が完了すると患者は手当を受けるか家へ返されるか、専門の診療科で入院することになります。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HOSPITAL_OBSERVATION_INFO</LocID>             <Text>観察室に送られた患者は待機室の従業員またはクリニックの診察室で検査を受けることになります。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HOSPITAL_TRAUMA_CENTER_OVERVIEW</LocID>       <Text>外傷センターは様々なタイプの外傷や事故、救急車により運び込まれた最も深刻なケースに対応するために必須の部門です。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HOSPITAL_TRAUMA_CENTER_INFO</LocID>           <Text>外傷センターもまた観察室と同じ流れの処置を行います。明確な診断が下されるまで患者はここで検査を受けます。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HOSPITAL_TRAUMA_CENTER_TASK</LocID>           <Text><![CDATA[では我々の患者を外傷センターへ送りましょう。問題を確かめ<b><i>明確な診断に到達してください</i></b>。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEPARTMENT_HOSPITALIZATION</LocID>            <Text>診断が下されると患者は対応する診療科で入院します。全ての診療科には2つのタイプの病棟、一般病棟とHDU（高度治療室）があります。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_NORMAL_HOSPITALIZATION</LocID>                <Text>一般病棟は生命に危険のない状態の患者に適しています。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIGH_HOSPITALIZATION</LocID>                  <Text>HDU（高度治療室）は意識不明または生命に危機のある状態の患者に適しています。ここでは患者の状態が逐一ライフモニターにより監視されています。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_ICU_HOSPITALIZATION</LocID>                   <Text>意識不明になった患者はICUへ送られ、生命維持装置に繋がれて治療を受け続けます。ICUは単なる入院施設のタイプではなく独立した診療科です。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_CHANGE_DEPARTMENT</LocID>                     <Text><![CDATA[さて次はどうしましょうか？まずは<b><i>診療科の切替</i></b>が必要です。診断のツールチップを読み、どの診療科で対応するかを決めましょう。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_CHANGE_DEPARTMENT_WAIT</LocID>                <Text><![CDATA[患者が部屋に移送されるまで<b><i>待って</i></b>ください。部屋は患者の状態の深刻度により選ばれます。\nTip: 患者のポートレート左下の隠された交差ボタンを押すと患者の追跡が可能になります。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DOCTORS_ROUNDS</LocID>                        <Text>病院はスケジュール通りに運営されており、中でもいくつか重要な予定が存在しています。回診は毎朝行われ、医師が患者のもとを訪れ追加の検査指示を出します。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_NURSES_CHECKUPS</LocID>                       <Text>看護師は定期的に患者の状態をチェックし、特にHDUとICUではその頻度は高くなります。時に彼らは危険な症状を発見し、医師に知らせることもあります。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_NURSES_MEDICINE_LUNCH</LocID>                 <Text>看護師はまた決まった時刻に食事と医薬品を運びます。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEATH</LocID>                                 <Text>…そして何か恐ろしい事態になってしまったら？そう、時にありとあらゆる正しい処置を行っても患者が死亡することもあります。\nノート: 死亡は設定よりオフにすることができます。その場合患者は他の病院へ移送されます。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENT</LocID>               <Text><![CDATA[いよいよ患者の治療です。<b><i>全ての高危険度な症状へ対処してください</i></b>(いくつかは未だ不明なままです)。いくつかのアイコンが脈動していることにお気づきでしょうか。この患者は正しい処置を行わなければ死亡する危険があります。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENT_SENT_AWAY</LocID>      <Text>不幸にも患者が意識を失い、ICUが存在しない場合、患者は他の病院へ移送されます(あるいはあなたが手動で移送したかもしれません)。常に必要な役割の従業員が割り当てられているようにしましょう。時に時間が鍵となるケースもあるのですから。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENT_DEAD</LocID>           <Text>残念ながらこの患者を救うことはできませんでした。常に必要な役割の従業員が割り当てられているようにしましょう。時に時間が鍵となるケースもあるのですから。</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENTS</LocID>               <Text><![CDATA[また別の患者が病院にやってきます。彼らを救うため<b><i>全ての高危険度な症状に対処してください</i></b>(いくつかは未だ不明なままです)。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENTS_ONE_DEAD</LocID>      <Text>残念ながらこの患者を救うことはできませんでした。常に必要な役割の従業員が割り当てられているようにしましょう。時に時間が鍵となるケースもあるのですから。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENTS_ONE_SENT_AWAY</LocID> <Text>不幸にも患者が意識を失い、ICUが存在しない場合、患者は他の病院へ移送されます。常に必要な役割の従業員が割り当てられているようにしましょう。時に時間が鍵となるケースもあるのですから。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HOSPITALIZATION_END</LocID>                   <Text>この説明が病院の管理と入院に関すること全てに対し十分であればよいのですが。これでようやくあなたをお呼びした真の目的に取り掛かることができます。次の病院でまたお目にかかりましょう。</Text>  </GameDBLocalizedString>
+
+            <!-- ======= -->
+            <!--BENCHMARK-->
+            <!-- ======= -->
+            <GameDBLocalizedString>      <LocID>LEVEL_BENCHMARK</LocID>                             <Text>ベンチマーク</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_BENCHMARK</LocID>                     <Text>ベンチマークを実行中です。しばらくお待ち下さい！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_BENCHMARK_DONE</LocID>                <Text>ベンチマークが完了しました。次へボタンを押す前にスクリーンショットを取得してください。</Text>  </GameDBLocalizedString>
+
+           
+            <!-- ========= -->
+            <!--CAMPAIGN 01-->     <!--This is now level 2 of the campaign-->
+            <!-- ========= -->
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_01_WELCOME</LocID>                         <Text>こんにちは、ボス。再履修コースはいかがでしたか？うまくできましたか？ミスファイア医療における諸問題に対処するためにはあなたの全てのスキルが必要となります。あなたはかつてここで、この病院が最高の状態になる手助けをしていたのでしたね。</Text>  </GameDBLocalizedString><!--Moved to campaign level 02-->
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_01_HELP</LocID>                            <Text>しかし彼らの強欲さが原因であなたはこの病院を離れたのでした。あなた同様、我々もここで人々に最良の医療が提供できることを望んでいます。あなたの協力があればきっとこれを達成することができるでしょう。</Text>  </GameDBLocalizedString><!--Moved to campaign level 02-->
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>CAMPAIGN_01_INTRODUCTION</LocID>    <Text>こんにちは、ボス。この病院はかつてミスファイア医療に属していましたが、あまりにも急ぎすぎたためレイアウトと従業員に問題があり、非常に不効率な状態となって赤字を産み続けています。主目標はその解消です。</Text>  </GameDBLocalizedString>  <!--This is now introducing for second level-->
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_01_TASK</LocID>                            <Text>まずはこの病院を効率的なものにしなければなりません。より多くの患者の治療ができるよう最善を尽くしてください。</Text>  </GameDBLocalizedString>  
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_01_TREATED_FIRST_PATIENTS</LocID>          <Text>実に良い滑り出しでした。今度は収益の改善に取り組まなければなりません。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_01_PROFIT_ONE_DONE</LocID>                 <Text>お見事です。今やこの病院は黒字化して、あなたのおかげで更に患者は増加しています。この調子です。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_01_TREATED_SECOND_PATIENTS</LocID>         <Text>実にうまく行っています。このまま安定した黒字を維持しましょう。それにより今後の病院の拡充が可能となるのですから。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_01_PROFIT_TWO_DONE</LocID>                 <Text>信じられません、この病院はさらに多くの患者をひきつけています。あなたは一体どれほど多くの患者に対処できるでしょうか。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_01_TREATED_PATIENTS_DONE</LocID>           <Text>やはりあなたは頼りになりますね。あなたがこの病院を立て直してくださったおかげで、更に多くの患者の治療が行えるようになりました。</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>CAMPAIGN_01_NEW_HOSPITAL</LocID>   <Text>残念ながら我々の務めはまだ終わっていません。新たに買収した別の病院があなたの手腕を必要としています。またそこでお目にかかりましょう。</Text>  </GameDBLocalizedString>   <!--Moved to campaign level 02-->
+
+            <!-- ========= -->
+            <!--CAMPAIGN 02-->   <!--This is now level 1 of the campaign-->
+            <!-- ========= -->
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>CAMPAIGN_02_WELCOME</LocID>        <Text>我々はこの病院に手を焼いています。マネージャーが銀行から多額の借入を行い、既にその資金は使い果たしているのです。</Text>  </GameDBLocalizedString> <!--Updated to fit into the flow to campaign level 02-->
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_02_ROGUE_MANAGER</LocID>                   <Text>おそらくミスファイア医療はこの病院が成功することを望んでおらず、彼はそのような行動に出たのでしょう。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_02_BANK_LOANS</LocID>                      <Text>借入金が返済できない場合、この病院を閉鎖しなければなりません。どうかこの状況を救うために最善を尽くしてください。</Text>  </GameDBLocalizedString> 
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_02_BANK_LAST_LOAN</LocID>                  <Text>新任のあなたのために銀行が繋ぎ融資を行ってくれました。このような状況でなければこんな利率での借入は不可能だったでしょう。</Text>  </GameDBLocalizedString>
+            <!-- UPDATED --> <GameDBLocalizedString>      <LocID>CAMPAIGN_02_EVENTS</LocID>         <Text>収支と名声の増加に最も良いのはイベントへの対処を続けて成功させることです。しかし失敗すれば正反対の結果がもたらされることになります。イベントは病院が機能しはじめて以降発生します。</Text>  </GameDBLocalizedString> <!--Used in campaign level 03-->
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_02_TASK</LocID>                            <Text>銀行の動向に注意し、可能な限り多くの額を返済するようにしましょう。そうすれば利子の支払額も減少するのですから。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_02_TASK_DONE</LocID>                       <Text>お見事です、あなたは全ての借入金を返済し、我らの病院と企業の名声を回復したのです。</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_02_TASK_DONE_IN_TIME</LocID>               <Text>信じられません、あなたは全ての借入金を返済し、我らの病院と企業の名声を回復したのです。それも驚くほど短期間で！</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_02_NEW_HOSPITAL</LocID>                    <Text>さあ最も困難な試練が待ち構えています。準備ができたら次の病院でまたお目にかかりましょう。</Text>  </GameDBLocalizedString>    <!--Moved to campaign level 01-->
+
+            <!-- ========= -->
+            <!--CAMPAIGN 03-->
+            <!-- ========= -->
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_WELCOME</LocID>                         <Text>こんにちは、ボス。ここは我々が持つ最も機能的な病院です。しかし未だ改善の余地はあります。ここで我々の医療法人がミスファイア医療より優れていることを証明してみせましょう。その良い方法があります。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_STATE_SUPPORT</LocID>                   <Text>州政府は付近で最良の医療法人に出資することを計画しています。その補助金とあなたの手腕があれば色々なことが行えるはずです。検討すべき項目は3つあります。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_MONEY_OBJECTIVE</LocID>                 <Text>まずは出資に見合う、利益を稼ぎ出す効率的な病院であることを見せつけることです。期限までに多額の利益を稼ぎ出すのです。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_PRESTIGE_OBJECTIVE</LocID>              <Text>もう1つはより困難ですが報酬も大きくなるでしょう…それは期限までに名声を高めることです。これには患者と従業員の満足度を高めなければなりませんが、そのためには収益面を犠牲にする必要があるかもしれません。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_HOSPITALIZATION_OBJECTIVE</LocID>       <Text>最後は全ての診療科で入院施設を整え、ありとあらゆる病気と負傷に対応可能とすることです。幸いにも我々はこの3つの目標のうち1つを達成するだけで良いのです。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_EVENTS_BOOST</LocID>                    <Text>以前と同じようにイベントを活用して名声と収入を高めましょう。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_TASK</LocID>                            <Text>どの目標を目指すかはあなた次第です。あなたと病院の成功を願っています！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_TWO_OBJECTIVES_DONE</LocID>             <Text>ついにやりました！あなたのおかげで我々の医療法人が出資先に選ばれたのです。これでもっと多くの人々を救うことができます。さらに改善を続けていきましょう！</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_03_SECRET_OBJECTIVE</LocID>                <Text>信じられません、あなたは全ての目標を達成してしまったのです！あなたは病院の経営において稀有の手腕を持っています。おめでとうございます、我々の勝利です！</Text>  </GameDBLocalizedString>
+
+            <!-- ============== -->
+            <!--INGAME TUTORIALS-->
+            <!-- ============== -->
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING</LocID>                    <Text>基礎の建設</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING_MODE</LocID>               <Text><![CDATA[<b><i>建設モード</i></b>を選択してください。\n\nTip: ほとんどの部屋の幅は6タイル、通路は4タイルなので基礎は16タイルにするのが望ましいでしょう。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING_FOUNDATION_TOOLS</LocID>   <Text><![CDATA[<b><i>基礎ツール</i></b>へ移動してください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING_FOUDATIONS</LocID>         <Text><![CDATA[<b><i>基礎の建設</i></b>アイコンをクリックして、範囲をドラッグして指定してください。\n\nTip: 設置した基礎はダイナマイトツールで削除可能です。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING_CONSTRUCTION_TOOLS</LocID> <Text><![CDATA[<b><i>建築物ツール</i></b>に移動してください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING_WALLS</LocID>              <Text><![CDATA[<b><i>壁</i></b>をクリックしてください。\n\nTip: パネルの一番下に他の壁の設置ツールと削除のためのボタンがあります。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING_MATERIAL</LocID>           <Text><![CDATA[あなたのお好みの<b><i>素材</i></b>を選択し、ドラッグして壁を設置するか既存の壁を塗り替えてください。\n\nTip: パネル一番下から色とパターンを変更できます。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING_WINDOORS</LocID>           <Text><![CDATA[<b><i>ドアと窓</i></b>をクリックしてください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING_WINDOORS_PLACE</LocID>     <Text><![CDATA[<b><i>ドアと窓</i></b>を設置してください。\n\nTip: パネルの一番下で色を変更できます。]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_LAYOUT</LocID>                      <Text>建物のレイアウト</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_LAYOUT_MANAGEMENT_MODE</LocID>      <Text><![CDATA[<b><i>管理モード</i></b>を選択してください。\n\nTip: パネルの一番下で部屋へのアクセスを設定可能です。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_LAYOUT_PLACEMENT</LocID>            <Text><![CDATA[クリニックまたは病院セクションで必要な<b><i>部屋</i></b>をクリックし、建物の中へドラッグしてください。\n\nTip: 新たな部屋には壁とドアの設置をお忘れなく。]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_EQUIPMENT</LocID>                   <Text>部屋の設備</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_EQUIPMENT_BUILDING_MODE</LocID>     <Text><![CDATA[<b><i>建設モード</i></b>を選択した後、右クリックで現在のツールの選択をキャンセルしてください]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_EQUIPMENT_ROOM_SELECT</LocID>       <Text><![CDATA[<b><i>部屋</i></b>の床に白のアイコンが表示されています。これをクリックしてください。\n\nTip: 部屋の床の済に表示されているテキストは不足しているものを示しています]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_EQUIPMENT_PANEL</LocID>             <Text><![CDATA[設備パネルには必須の設備(オレンジ色)、推奨の設備(黄色)と任意の設備が表示されています。\n\nTip: 部屋の中で青く表示されている設備にマウスカーソルを乗せると、設備パネルで必要な設備が青く表示されます。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_EQUIPMENT_DECORATIONS</LocID>       <Text><![CDATA[<b><i>装飾</i></b>をクリックしてください。部屋の装飾用のオブジェクトが表示されます。\n\nTip: 装飾品は部屋の中にいる人のムードを改善させます。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_EQUIPMENT_DECALS</LocID>            <Text><![CDATA[<b><i>デカール</i></b>をクリックしてください。壁のデカールが表示されます。\n\nTip: パネルの一番下で色を変更可能です。]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING</LocID>                      <Text>スタッフの雇用</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_MANAGEMENT_MODE</LocID>      <Text><![CDATA[<b><i>管理モード</i></b>を選択してください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_BUTTON</LocID>               <Text><![CDATA[新規<b><i>スタッフ</i></b>ボタンをクリックしてください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_PROFESSION</LocID>           <Text><![CDATA[必要な<b><i>職種</i></b>を選択してください。\n\nTip: スタッフの専門分野を知りたい場合は管理パネル上に表示されたスタッフにマウスカーソルをのせてツールチップを読みましょう]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_SHIFTS</LocID>               <Text><![CDATA[<b><i>日勤または夜勤</i></b>を選択してください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_SELECTION</LocID>            <Text><![CDATA[必要な<b><i>スタッフ</i></b>を選択し配属したい部屋に配置してください。\n\nTip: 配置されたキャラクターは自動で最寄りの職場に配属されます]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_AMBULANCE</LocID>                   <Text>救急車</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_AMBULANCE_BUILDING_MODE</LocID>     <Text><![CDATA[<b><i>建設モード</i></b>を選択してください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_AMBULANCE_CONSTRUCTION_TOOLS</LocID><Text><![CDATA[<b><i>建築物ツール</i></b>へ移動してください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_AMBULANCE_CLICK</LocID>             <Text><![CDATA[<b><i>救急車</i></b>をクリックし、色を選択してください]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_AMBULANCE_PLACE</LocID>             <Text><![CDATA[<b><i>駐車用スペース</i></b>に救急車を設置してください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_AMBULANCE_PANEL</LocID>             <Text><![CDATA[<b><i>救急車パネル</i></b>を開いてください。ここで救急車が運搬可能な最大患者数を設定できます。\n\nTip: 患者数は保険会社によっても変わります。]]></Text>  </GameDBLocalizedString>
+           
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_ELEVATORS</LocID>                   <Text>エレベーター</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_ELEVATORS_BUILDING_MODE</LocID>     <Text><![CDATA[<b><i>建設モード</i></b>を選択してください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_ELEVATORS_CONSTRUCTION_TOOLS</LocID><Text><![CDATA[<b><i>建築物ツール</i></b>へ移動してください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_ELEVATORS_PLACE</LocID>             <Text><![CDATA[<b><i>エレベーター</i></b>をクリックし、建物内に設置してください。\n\nTip: エレベーターは全ての階を貫きます。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_ELEVATORS_REMOVE</LocID>            <Text><![CDATA[エレベーターを<b><i>削除</i></b>すると全てのフロアより撤去されます。\n\nTip: 特定の階に止めたくない場合はドアを削除しましょう。]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PREFABS</LocID>                     <Text>プレハブ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PREFABS_BUILDING_MODE</LocID>       <Text><![CDATA[<b><i>建設モード</i></b>を選択してください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PREFABS_CATEGORY</LocID>            <Text><![CDATA[<b><i>プレハブ</i></b>へ移動してください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PREFABS_PLACE</LocID>               <Text><![CDATA[<b><i>診療科</i></b>を選択し、次に必要な<b><i>部屋</i></b>を選択してから建物内に設置してください。\n\nTip: キーボードのRで回転が可能です。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PREFABS_COPY</LocID>                <Text><![CDATA[設置済みの部屋をプレハブとして保存したい場合は<b><i>プレハブのコピー/作成</i></b>をクリックしてください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PREFABS_COPY_SELECT</LocID>         <Text><![CDATA[<b><i>ドラッグドロップ</i></b>で保存したい部屋を範囲選択してください。または部屋を選択し<b><i>プレハブを保存</i></b>をクリックしてください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PREFABS_SAVED</LocID>               <Text><![CDATA[保存されたプレハブは<b><i>保存済のプレハブ</i></b>カテゴリ内にあります。\n\nTip: <b><i>削除</i></b>したい場合は対象のプレハブを選択し、ツールパネル内の削除ボタンをクリックしてください。]]></Text>  </GameDBLocalizedString>
+           
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_FINANCE</LocID>                     <Text>財務</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_FINANCE_PANEL</LocID>               <Text><![CDATA[<b><i>財務パネル</i></b>をクリックしてください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_FINANCE_PANEL_INFO</LocID>          <Text><![CDATA[ここで各診療科と病院全体の財務状態の<b><i>概要</i></b>を見ることができます。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_FINANCE_BANK</LocID>                <Text><![CDATA[また銀行からの借り入れも行えます。矢印をクリックし<b><i>借り入れ/返済</i></b>の切り替えが可能です。\n\nTip: 利子は毎日支払われます。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_FINANCE_OVERVIEW</LocID>            <Text><![CDATA[パネルの下の矢印で概要の<b><i>履歴</i></b>を切り替えることができます。]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_TABLES</LocID>                      <Text>キャラクター情報</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_TABLES_MANAGEMENT_MODE</LocID>      <Text><![CDATA[<b><i>管理モード</i></b>を選択してください。]]></Text>  </GameDBLocalizedString>
+            <!-- UPDATED --><GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_TABLES_OPEN</LocID>                 <Text><![CDATA[クリニック側で<b><i>患者またはスタッフ</i></b>をクリックしてください。\n\nTip: またはメインパネル上でスタッフまたは患者数をクリックしても開くことができます。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_TABLES_FILTER</LocID>               <Text><![CDATA[左上のボタンで表示内容の<b><i>フィルター</i></b>が可能です。]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_CERTAINTY</LocID>                   <Text>確実性</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_CERTAINTY_MANAGEMENT_MODE</LocID>   <Text><![CDATA[<b><i>管理モード</i></b>を選択してください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_CERTAINTY_CHANGE_LEVEL</LocID>      <Text><![CDATA[<b><i>確実性</i></b>ボタンを押してレベルを選択してください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_CERTAINTY_LOW</LocID>               <Text><![CDATA[<b><i>低</i></b>では医師はいくつかの検査をスキップしそれぞれの確率に応じて診断を下します。診断がより短時間で済みます。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_CERTAINTY_MEDIUM</LocID>            <Text><![CDATA[<b><i>中</i></b>では医師はより慎重に診断を行います。誤診率は下げられますがより時間がかかるでしょう。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_CERTAINTY_HIGH</LocID>              <Text><![CDATA[<b><i>高</i></b>では医師は全ての症状を解明しようとします。診断には非常に時間がかかりますが、誤診は起こらなくなります。]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_CLOSE_DEP</LocID>                   <Text>診療科の閉鎖</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_CLOSE_DEP_MANAGEMENT_MODE</LocID>   <Text><![CDATA[<b><i>管理モード</i></b>を選択してください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_CLOSE_DEP_CLICK</LocID>             <Text><![CDATA[<b><i>診療科の閉鎖</i></b>ボタンをクリックしてください。\n\nTip: 診療科の再構築のため、スタッフはそのままで患者を退去させるのに使えます。]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_DEP_READY</LocID>                   <Text>診療科の準備</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_DEP_READY_MANAGEMENT_MODE</LocID>   <Text><![CDATA[<b><i>管理モード</i></b>を選択してください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_DEP_READY_CHECKS</LocID>            <Text><![CDATA[<b><i>チェックマーカー</i></b>を確認してください。緑は全て問題ないことを示しています。\n\nTip: 追加のストレッチャーを設置して問題を回避しましょう。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_DEP_READY_RED_TRIANGLE</LocID>      <Text><![CDATA[<b><i>赤の警告サイン</i></b>は何か足りていないことを示しています。\n\nTip: 部屋またはスタッフ数が赤い欄が不足している項目です。]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE</LocID>                   <Text>保険会社</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_PANEL</LocID>             <Text><![CDATA[<b><i>保険会社</i></b>ボタンをクリックしてください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_CONTRACT</LocID>          <Text><![CDATA[<b><i>契約可能</i></b>な全ての保険会社が表示されています。\n\nTip: 目標を達成すると新たな会社が追加されたり、ボーナスを獲得できます。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_INFO</LocID>              <Text><![CDATA[会社ごとに毎日送り込んでくる<b><i>患者の数</i></b>が表示されます。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_PAYMENT</LocID>           <Text><![CDATA[また<b><i>支払額修正値</i></b>は治療した患者からの支払額に影響します。\n\nTip: 名声が高くなると修正値も増加します。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_DISABLE</LocID>           <Text><![CDATA[特定の会社からの患者の受け入れを中止したい場合は<b><i>無効化</i></b>ボタンをクリックしてください。]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PRESTIGE</LocID>                    <Text>名声</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PRESTIGE_INFO</LocID>               <Text><![CDATA[名声はあなたの病院の総合スコアです。<b><i>低い</i></b>と来訪する患者の数が減少します。<b><i>高い</i></b>と保険会社からの支払額が増加します。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PRESTIGE_MAIN_PANEL</LocID>         <Text><![CDATA[<b><i>名声アイコン</i></b>にマウスカーソルを載せてください。\n\nTip: 総合的な名声は各診療科の名声とイベントボーナスにより決まります。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PRESTIGE_MANAGEMENT_MODE</LocID>    <Text><![CDATA[<b><i>管理モード</i></b>を選択してください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PRESTIGE_DEPARTMENT</LocID>         <Text><![CDATA[診療科パネルの<b><i>名声</i></b>にマウスカーソルを載せてください。]]></Text>  </GameDBLocalizedString>
+            <!-- UPDATED 2018_11_26--> <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_PRESTIGE_DEP_INFO</LocID>           <Text><![CDATA[ここで診療科の名声に対する<b><i>影響</i></b>を確認できます。これはスタッフと患者の満足度に全体的な治療率を加えたものです。\n\nTip: 主にスタッフと患者の満足度が影響の大部分を占めます。]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION</LocID>                <Text>満足度</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION_CARD</LocID>           <Text><![CDATA[患者またはスタッフのカードをクリックしてください。<b><i>満足度</i></b>は右上に表示されています。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION_INFO</LocID>           <Text><![CDATA[満足度はその人物のムードを現しており、アイコンにカーソルを乗せると全ての<b><i>影響値</i></b>が表示されます。\n\nTip: より基礎的な欲求が上に表示されています。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION_HUNGER</LocID>         <Text><![CDATA[<b><i>空腹</i></b>は自動販売機とディスペンサーを必要数設置することにより、またスタッフは休憩室に冷蔵庫を設置することで、さらに入院患者は看護師により食事を運ばせることで増加します。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION_BLADDER</LocID>        <Text><![CDATA[<b><i>便意</i></b>はトイレの数と距離により増加します]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION_REST</LocID>           <Text><![CDATA[<b><i>体力</i></b>はスタッフの作業負荷を低く保ち、また休憩室を作りコーヒーを与えることで増加します。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION_DISCOMFORT</LocID>     <Text><![CDATA[<b><i>不快度</i></b>は患者を迅速に治療し、不快な症状を解消することで増加します。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_SATISFACTION_OTHERS</LocID>         <Text><![CDATA[Other <b><i>影響値</i></b>は環境や治療行為、その他その人物の特性により決まります。]]></Text>  </GameDBLocalizedString>
+            
+            <!-- ============== -->
+            <!--EVENTS ACCIDENTS-->
+            <!-- ============== -->
+            <GameDBLocalizedString>      <LocID>EVENT_HIGHWAY_CRASH</LocID>                         <Text>この地域の主要道路で交通事故が発生しました。救急チームが事故現場に向かっています。深刻な患者が多数発生することに備えておくべきでしょう。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_TRAIN_CRASH</LocID>                           <Text>大規模な鉄道事故が発生しました！医療チームが派遣され現場で負傷者の手当が行われています。地域内は深刻な負傷を負った患者の増加に備えておくべきでしょう。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_CHEMICAL_LEAK</LocID>                         <Text>化学工場で深刻な漏洩事故が発生しました。当局は地域の住民に屋内に留まるよう勧告し、救急チームは大勢の患者を近隣の病院に移送しています。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_FOOTBALL_GAME</LocID>                         <Text>2つのサッカーチームのファンが衝突し、大勢の負傷者が出ました。警察の迅速な対応により大勢が現場で治療を受けていますが、地元の病院も多数の負傷者の移送に備えておくべきでしょう。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_BUS_CRASH</LocID>                             <Text>バスの事故が発生しました！緊急チームが既に現場で負傷者の手当にあたっています。深刻な負傷者は近隣の病院へと移送されます。</Text>  </GameDBLocalizedString>
+
+            <!-- ============== -->
+            <!--EVENTS EPIDEMIC-->
+            <!-- ============== -->
+            <GameDBLocalizedString>      <LocID>EVENT_FOOD_POISONING</LocID>                        <Text>地元のレストランで食中毒が発生し、多数の被害者が出ています。既に衛生局によりレストランは閉鎖されましたが、地元の病院は患者の急増に備えておくべきでしょう。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_SPORTS_CLUB</LocID>                           <Text>帰国した旅行者が病気にかかりました。患者は空港より最寄りの病院へと直送されました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_WATER_PIPES</LocID>                           <Text>近隣都市の水源が汚染され非常事態宣言が発せられました。当該地区の病院は患者を受け入れることができず、他の病院へと患者を移送しています。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_ANIMAL_ESCAPE</LocID>                         <Text>地元のふれあい動物園で様々なウイルスや最近による感染が発生しました。当局は当該地区への立入を禁止し、病院を訪れた人は直ちに地元の病院へ行くよう勧告しています。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_FLU_OUTBREAK</LocID>                          <Text>今年の感染は例年より深刻で、より多くの人が罹患するでしょう。医師は感染の疑いのある人は病院に行くことを推奨しており、患者の急増が予想されます。</Text>  </GameDBLocalizedString>
+
+            <!-- ============== -->
+            <!--EVENTS DISASTERS-->
+            <!-- ============== -->
+            <GameDBLocalizedString>      <LocID>EVENT_FLOODS</LocID>                                <Text>深刻な水害により多くの人々が停電と物資の途絶に悩まされ、また大勢の負傷者が出ています。各病院は病人、怪我人の急増に備えておくべきでしょう。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_WINDS</LocID>                                 <Text>大きな嵐が街を包み込み、建物に深刻な打撃を与えるとともに深刻な負傷者が多数出ています。負傷者の多くが最寄りの病院へと移送されています。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_EARTHQUAKES</LocID>                           <Text>大地震が発生し、建物に深刻な打撃を与えるとともに負傷者が多数出ています。地元の病院は負傷者の受け入れ準備をしておくべきでしょう。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_HEAT</LocID>                                  <Text>強烈な熱波が街を襲いました。多くの人々が脱水症状による病気で倒れ、呼吸器に問題を抱えています。地元の病院は患者の急増に備えておくべきでしょう。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EVENT_STOCK_EXCHANGE</LocID>                        <Text>株式市場で株価が暴落しました！大勢の自殺者が出ており、脳と心臓に問題を抱えた人が急増しています。</Text>  </GameDBLocalizedString>
+
+            <!-- ============= NEW, NEED TRANSLATING ================== -->
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_WORKLOAD</LocID>                	<Text>作業負荷</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_WORKLOAD_FIND</LocID>           	<Text><![CDATA[<b><i>管理モード</i></b>を選択してください。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_WORKLOAD_STATS</LocID>           	<Text><![CDATA[いくつかの部屋では直近24時間における<b><i>作業負荷</i></b>が表示されています。0%はスタッフが何もすることがなかったことを、100%はスタッフが対応しきれなかったことを示しています。\n\nTip: 部屋ごとに最適値は変わります]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_WORKLOAD_LABS</LocID>         		<Text><![CDATA[検査室には作業負荷はありませんが、かわりに検査を待っている<b><i>検体数</i></b>が表示されます。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_WORKLOAD_WAITING</LocID>        	<Text><![CDATA[待合室でも作業負荷のかわりに<b><i>順番待ちの患者の数</i></b>が表示されます。]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_BUILDING_WINDOORS_WARNING</LocID>   <Text><![CDATA[<b><i>警告:</i></b> 孤立した建物を作らないでください。全ての建物は接続されている必要があり、さもなければ部屋は機能しません。]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHALLENGE_LEVEL_INTRO</LocID>                       <Text>こんにちは、ボス。チャレンジシナリオへようこそ。あなたの目標はシンプルです。10日間、毎日患者の{1}%を治療する。毎日5人の通院患者と1人の救急車による患者を受け入れる。1日でも失敗するとチャレンジは失敗となります。条件の判定は深夜に行われます。幸運を祈ります。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHALLENGE_LEVEL_OUTRO</LocID>                       <Text>おめでとうございます、あなたは{1}となりました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CHALLENGE_LEVEL_OUTRO_FAIL</LocID>                  <Text>残念ながら十分な数の患者の治療が行なえませんでした。また挑戦してください。</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_02_INSURANCE_BOOST</LocID>                 <Text>友好的な保険会社の条件を達成することで収入を増やすことができます。それにより目標の達成はより容易となるでしょう。</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>CHALLENGE_LEVEL_OUTRO_FAIL</LocID>                         <Text>残念ながら十分な数の患者を受け入れることができませんでした。また挑戦してください。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_02_INSURANCE_BOOST</LocID>                        <Text>友好的な保険会社の条件を達成することで収入を増やすことができます。それにより目標の達成はより容易となるでしょう。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEPARTMENT_HOSPITALIZATION_ROOM</LocID>      <Text><![CDATA[一般外科に不足している部屋を確認し<b><i>建設してください</i></b>。名前の隣に赤の数字が表示されている部屋が必須の部屋です。ツールチップでさらに追加の情報が閲覧可能です]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEPARTMENT_HOSPITALIZATION_STAFF</LocID>     <Text><![CDATA[部屋の準備が整ったら次は従業員に取り掛かりましょう。手術執刀医が必要です。役割の上にマウスカーソルを載せるとツールチップで必要なスキルの情報が表示されます。一般外科で<b><i>手術執刀医を1人雇用してください</i></b>\n入院施設を稼働させるには赤の警告サイン全てに対処する必要があります]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_BUILD_DEPARTMENT_HOSPITALIZATION_V2</LocID>  <Text><![CDATA[診療科の管理モードに切り替え<b><i>一般外科を選択してください</i></b>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENT_V2</LocID>            <Text><![CDATA[患者の手当を行ってください。アイコンが脈動している<b><i>全ての重大な症状に対処してください</i></b>(うちいくつかは未だ不明なままかもしれません)。正しい処置を行わないと患者は意識不明になり、やがて死に至ります]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENT_SENT_AWAY_V2</LocID>  <Text>不幸にも患者が意識を失い、ICUが存在しない場合、患者は他の病院へ移送されます(あるいはあなたが手動で移送したかもしれません)。常に必要な役割の従業員が割り当てられているようにしましょう。時に時間が鍵となるケースもあるのですから。また最初からやり直してください。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_TREAT_AMBULACE_PATIENT_DEAD_V2</LocID>       <Text>残念ながらこの患者を救うことはできませんでした。常に必要な役割の従業員が割り当てられているようにしましょう。時に時間が鍵となるケースもあるのですから。最初からやり直してください</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    

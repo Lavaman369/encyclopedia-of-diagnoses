@@ -1,0 +1,26 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_RU_PATCH_1_1_27">
+
+        <LanguageCode>ru</LanguageCode>
+        <LanguageNameLocalized>Русский</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            <GameDBLocalizedString>    <LocID>OPTIONS_EDGE_SCROLLING</LocID>                  <Text>Прокрутка по краю экрана</Text>  </GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->
+            <GameDBLocalizedString>      <LocID>CONFIRM_SEND_PATIENT_AWAY_TITLE</LocID>       <Text>Отправить пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CONFIRM_SEND_PATIENT_AWAY_TEXT</LocID>        <Text>Вы действительно хотите отправить пациента в другую больницу?</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>POPUP_CONFIRM_SEND_PATIENT_AWAY</LocID>       <Text>Отправить</Text>  </GameDBLocalizedString>
+
+         <GameDBLocalizedString>      <LocID>SYM_PLEURAL_EFFUSION_DESCRIPTION_V2</LocID>               <Text>Плевральный выпот, также именуемый «водой в легких» является накоплением излишка жидкости в слоях плевры (мембран, окружающих легкие). Этот излишек жидкости негативно влияет на дыхание, ограничивая расширение легких.</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

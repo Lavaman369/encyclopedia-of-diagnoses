@@ -1,0 +1,52 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_LA_PATCH_1_2_34">
+
+        <LanguageCode>la</LanguageCode>
+        <LanguageNameLocalized>Español Latino</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->
+            <GameDBLocalizedString>      <LocID>NOTIF_AUTOSAVE_IN_PROGRESS</LocID>          <Text>Guardado automático en curso...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_AUTOSAVE_IN_PROGRESS_TEXT</LocID>     <Text>El juego está creando un archivo de guardado automático.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_AUTOSAVE_CREATED</LocID>              <Text>Guardado automático creado.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_AUTOSAVE_CREATED_TEXT</LocID>         <Text>Guardado automático creado:\n{1}</Text>  </GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <GameDBLocalizedString>      <LocID>ON_STANDBY_FOR_CRITICAL_PATIENTS</LocID>    <Text>A la espera de pacientes graves</Text>  </GameDBLocalizedString>
+            
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->
+            <GameDBLocalizedString>      <LocID>TAKE_OVER_ALL_DELIVERED_PATIENTS</LocID>    <Text>Controlar automáticamente los pacientes recibidos por ambulancia (y helicóptero con el DLC de Traumatología)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_FROM_EVENT</LocID>                  <Text>Un caso de un evento</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>STAFF_UNAVAILABLE_LAB_ROLES</LocID>         <Text>No hay ningún técnico con el papel necesario.</Text>  </GameDBLocalizedString>
+            
+            <!-- An insurance company objective - "Perform 3 surgery/surgeries at Cardiology"-->
+            <GameDBLocalizedString>      <LocID>PERFORM_SURGERY_AT_DEPARTMENT</LocID>       <Text>Realiza {1} operación/es quirúrgicas en {2}</Text></GameDBLocalizedString>
+            
+            <!-- An insurance company objective - "Successfully finish 3 pandemic events" -->
+            <GameDBLocalizedString>      <LocID>SUCCESSFUL_EVENTS_IN_ROW_OF_TYPE</LocID>    <Text>Termina {1} evento(s) {2} consecutivo(s) con éxito</Text>  </GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Options.xml -->
+            <GameDBLocalizedString>      <LocID>OPTIONS_CODE_MODS_ENABLED</LocID>           <Text>Permite la carga de mods de código (¡ten cuidado!)</Text>  </GameDBLocalizedString>
+            
+            <!--Loading tips for DLCs-->
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_EDUCATION</LocID>               <Text>¿Tu personal tarda demasiado en subir de nivel? Envíales a la sala de estudio a entrenar.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_AUTOPSY</LocID>                 <Text>Una autopsia resuelve todas las dudas pendientes...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_JANITORS_ASSIGNMENT</LocID>     <Text>Una vez contrates un gerente de mantenimiento, podrás asignar salas individuales a tus conserjes.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_PHARMACY</LocID>                <Text>Asegúrate de tener una farmacia suficientemente grande como para la muchedumbre de pacientes que reciben el alta por las mañanas.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_CONTAGIOUSNESS</LocID>          <Text>Si hospitalizas a un paciente contagioso fuera de la zona de aislamiento, te arriesgas a que cause un brote de epidemia.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_HELICOPTER</LocID>              <Text>Es necesario que haya un ascensor en la planta en la que aterriza el helicóptero.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DLC_ADMIN_PATHOLOGY</LocID>                                 <Text>DLC Servicios hospitalarios</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_INFECTIOUS_DISEASES</LocID>                             <Text>DLC Departamento de Enfermedades Infecciosas</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TRAUMATOLOGY</LocID>                                    <Text>DLC Departamento de Traumatología</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

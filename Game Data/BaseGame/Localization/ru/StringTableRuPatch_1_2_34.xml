@@ -1,0 +1,52 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_RU_PATCH_1_2_34">
+
+        <LanguageCode>ru</LanguageCode>
+        <LanguageNameLocalized>Русский</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->
+            <GameDBLocalizedString>      <LocID>NOTIF_AUTOSAVE_IN_PROGRESS</LocID>          <Text>Идет автосохранение...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_AUTOSAVE_IN_PROGRESS_TEXT</LocID>     <Text>Игра создает файл автосохранения.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_AUTOSAVE_CREATED</LocID>              <Text>Автосохранение создано.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_AUTOSAVE_CREATED_TEXT</LocID>         <Text>Автосохранение создано:\n{1}</Text>  </GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <GameDBLocalizedString>      <LocID>ON_STANDBY_FOR_CRITICAL_PATIENTS</LocID>    <Text>Ожидание пациентов в критическом состоянии</Text>  </GameDBLocalizedString>
+            
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->
+            <GameDBLocalizedString>      <LocID>TAKE_OVER_ALL_DELIVERED_PATIENTS</LocID>    <Text>Автоматически принимать всех пациентов, доставленных машиной скорой помощи (или вертолетом в дополнении «Травматология»)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_FROM_EVENT</LocID>                  <Text>Случай из события</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>STAFF_UNAVAILABLE_LAB_ROLES</LocID>         <Text>Нет лаборанта с подходящей ролью</Text>  </GameDBLocalizedString>
+            
+            <!-- An insurance company objective - "Perform 3 surgery/surgeries at Cardiology"-->
+            <GameDBLocalizedString>      <LocID>PERFORM_SURGERY_AT_DEPARTMENT</LocID>       <Text>Выполнить {1} операцию/операции в {2}</Text></GameDBLocalizedString>
+            
+            <!-- An insurance company objective - "Successfully finish 3 pandemic events" -->
+            <GameDBLocalizedString>      <LocID>SUCCESSFUL_EVENTS_IN_ROW_OF_TYPE</LocID>    <Text>Успешно завершить подряд не меньше {1} {2} событий</Text>  </GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Options.xml -->
+            <GameDBLocalizedString>      <LocID>OPTIONS_CODE_MODS_ENABLED</LocID>           <Text>Включить загрузку модификаций кода (будьте осторожны!)</Text>  </GameDBLocalizedString>
+            
+            <!--Loading tips for DLCs-->
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_EDUCATION</LocID>               <Text>Ваш персонал слишком медленно поднимается в уровнях? Отправьте их потренироваться в комнату обучения.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_AUTOPSY</LocID>                 <Text>Аутопсия отвечает на все неотвеченные вопросы...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_JANITORS_ASSIGNMENT</LocID>     <Text>Наняв менеджера уборщиков, вы сможете назначать уборщикам конкретные комнаты.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_PHARMACY</LocID>                <Text>Убедитесь, что построили достаточно большую аптеку: она должна быть готова к наплыву пациентов, выписанных из стационара поутру.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_CONTAGIOUSNESS</LocID>          <Text>Если вы госпитализируете заразного пациента вне изоляционного отделения, вы рискуете вызвать вспышку эпидемии среди других пациентов.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_HELICOPTER</LocID>              <Text>Вертолеты должны базироваться на этаже, к которому есть доступ через лифт.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DLC_ADMIN_PATHOLOGY</LocID>                                 <Text>Дополнение «Услуги больницы»!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_INFECTIOUS_DISEASES</LocID>                             <Text>Дополнение «Инфекционное отделение»</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TRAUMATOLOGY</LocID>                                    <Text>Дополнение «Отделение травматологии»</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

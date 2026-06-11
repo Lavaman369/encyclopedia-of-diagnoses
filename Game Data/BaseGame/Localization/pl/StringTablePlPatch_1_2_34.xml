@@ -1,0 +1,52 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_PL_PATCH_1_2_34">
+
+        <LanguageCode>pl</LanguageCode>
+        <LanguageNameLocalized>Polski</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->
+            <GameDBLocalizedString>      <LocID>NOTIF_AUTOSAVE_IN_PROGRESS</LocID>          <Text>Autozapis w toku…</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_AUTOSAVE_IN_PROGRESS_TEXT</LocID>     <Text>Gra tworzy plik autozapisu.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_AUTOSAVE_CREATED</LocID>              <Text>Utworzono plik autozapisu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_AUTOSAVE_CREATED_TEXT</LocID>         <Text>Utworzono plik autozapisu:\n{1}</Text>  </GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <GameDBLocalizedString>      <LocID>ON_STANDBY_FOR_CRITICAL_PATIENTS</LocID>    <Text>W gotowości na przyjęcie pacjentów w stanie krytycznym</Text>  </GameDBLocalizedString>
+            
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->
+            <GameDBLocalizedString>      <LocID>TAKE_OVER_ALL_DELIVERED_PATIENTS</LocID>    <Text>Automatycznie przejmij wszystkich pacjentów przetransportowanych przez karetkę (lub śmigłowiec z DLC Traumatologia)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_FROM_EVENT</LocID>                  <Text>Przypadek z wydarzenia</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>STAFF_UNAVAILABLE_LAB_ROLES</LocID>         <Text>Brak dostępnego laboranta o pasującej roli</Text>  </GameDBLocalizedString>
+            
+            <!-- An insurance company objective - "Perform 3 surgery/surgeries at Cardiology"-->
+            <GameDBLocalizedString>      <LocID>PERFORM_SURGERY_AT_DEPARTMENT</LocID>       <Text>Przeprowadź operacje ({1}) na oddziale: {2}</Text></GameDBLocalizedString>
+            
+            <!-- An insurance company objective - "Successfully finish 3 pandemic events" -->
+            <GameDBLocalizedString>      <LocID>SUCCESSFUL_EVENTS_IN_ROW_OF_TYPE</LocID>    <Text>Ukończ z powodzeniem odpowiednią liczbę wydarzeń z rzędu ({1}{2})</Text>  </GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Options.xml -->
+            <GameDBLocalizedString>      <LocID>OPTIONS_CODE_MODS_ENABLED</LocID>           <Text>Zezwól na wczytywanie modyfikacji kodu (prosimy zachować ostrożność!)</Text>  </GameDBLocalizedString>
+            
+            <!--Loading tips for DLCs-->
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_EDUCATION</LocID>               <Text>Personel zbyt wolno zdobywa doświadczenie? Wyślij go do pracowni, by szlifował swoje umiejętnośći.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_AUTOPSY</LocID>                 <Text>Autopsja jest kluczem do wszystkich pytań bez odpowiedzi…</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_JANITORS_ASSIGNMENT</LocID>     <Text>Po zatrudnieniu menedżera woźnych możesz przydzielać poszczególnym woźnym konkretne pomieszczenia.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_PHARMACY</LocID>                <Text>Wybyduj odpowiednio dużą aptekę – musi być gotowa na zalew pacjentów wypisanych rano ze szpitala.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_CONTAGIOUSNESS</LocID>          <Text>Jeśli umieścisz pacjenta zakaźnego poza salą izolacyjną, istnieje wysokie ryzyko, że spowoduje to wybuch epidemii.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_HELICOPTER</LocID>              <Text>Śmigłowiec należy umieścić na piętrze z dostępem do windy.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DLC_ADMIN_PATHOLOGY</LocID>                                 <Text>DLC Usługi szpitalne</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_INFECTIOUS_DISEASES</LocID>                             <Text>Dodatek – Oddział Chorób Zakaźnych</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TRAUMATOLOGY</LocID>                                    <Text>Dodatek – Oddział Traumatologii</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

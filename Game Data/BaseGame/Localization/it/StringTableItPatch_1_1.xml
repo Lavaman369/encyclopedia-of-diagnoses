@@ -1,0 +1,411 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_IT_PATCH_1_1">
+    
+        <LanguageCode>it</LanguageCode>
+        <LanguageNameLocalized>Italiano</LanguageNameLocalized>
+        
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+			<Name>neoxes</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->
+            <GameDBLocalizedString>      <LocID>NEW_GAME_MAIN_MENU</LocID>                       <Text>NUOVA PARTITA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPLETED</LocID>                                <Text>Completato</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOCKED</LocID>                                   <Text>Bloccato</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCENARIOS</LocID>                                <Text>SCENARI</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>START</LocID>                                    <Text>Inizia</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>CHECK_SAVE</LocID>                               <Text>Verifica salvataggio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAN_NOT_BE_LOADED_MODS</LocID>                   <Text>La partita è stata salvata con mod e/o contenuti aggiuntivi attualmente non installati e non è stato possibile caricarla.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>GAME_SAVED</LocID>                               <Text>Partita salvata.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SCENARIO_CREATED</LocID>                         <Text>Scenario creato.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>WORKSHOP</LocID>                                 <Text>WORKSHOP</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>WORKSHOP_BROWSE</LocID>                          <Text>ESPLORA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_UPLOAD_MOD</LocID>                      <Text>CARICA MOD</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_UPLOAD_SCENARIO</LocID>                 <Text>CARICA SCENARIO</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>WORKSHOP_UPLOAD</LocID>                          <Text>Carica sul workshop</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_FOLDER</LocID>                          <Text>Cartella</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_PREVIEW_HINT</LocID>                    <Text>Carica preview.png nella cartella.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_NAME</LocID>                            <Text>Nome</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_DESCRIPTION</LocID>                     <Text>Descrizione</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_BUTTON_UPLOAD</LocID>                   <Text>Carica</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_UPDATING</LocID>                        <Text>Aggiornamento in corso (può richiedere qualche minuto)...</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>WORKSHOP_BROWSING</LocID>                        <Text>Esplorare il workshop</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKSHOP_BROWSING_TIPS</LocID>                   <Text>Project Hospital usa l'interfaccia web di Steam per cercare mod e scenari del workshop. \nDopo aver sottoscritto nuovi oggetti, riavviare il gioco per consentire a Steam di scaricare il contenuto</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SAVE_INFO_LABEL</LocID>                          <Text>Informazioni:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAVE_INFO_TIME</LocID>                           <Text><![CDATA[<b>Ora: </b>Giorno ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAVE_INFO_BALANCE</LocID>                        <Text><![CDATA[<b>Saldo: </b>$]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAVE_INFO_OLD_VERSION</LocID>                    <Text>Salvato con Project Hospital 1.0</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAVED_WITH_ADDONS</LocID>                        <Text>Salvato con contenuti aggiuntivi:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ADDON_NOT_INSTALLED</LocID>                      <Text>(Non installato!)</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TREATMENT_HOSPITALIZATION_UNAVAILABLE</LocID>    <Text>Il ricovero richiesto per questa terapia non è disponibile. Controllare la presenza di letti liberi o assegnare una priorità più alta al ricovero.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_FLOORS_PLACE</LocID>            <Text>Posiziona piani</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_FLOORS_DELETE</LocID>           <Text>Elimina piani</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HIRING_GENERATE_COST</LocID>        	 <Text>Trova nuovi candidati spendendo 2.500$</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_NUMBER_OF_INSURANCE_COMPANIES</LocID>    <Text>Numero di compagnie assicurative contrattualizzate e di contratti permessi</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>BUTTON_CREATE_SCENARIO</LocID>        	         <Text>CREA SCENARIO</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LABEL_CREATE_SCENARIO</LocID>        	         <Text>Crea scenario</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LABEL_CREATE_SCENARIO_FOLDER</LocID>        	 <Text>Cartella</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LABEL_CREATE_SCENARIO_NAME</LocID>        	     <Text>Nome</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LABEL_CREATE_SCENARIO_DESCRIPTION</LocID>        <Text>Descrizione</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIFICATIONS_SET_ALL_TO_DEFAULT_COLOR</LocID>   <Text>Tutto grigio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIFICATIONS_RESTORE_DEFAULT_COLORS</LocID>     <Text>Ripristina colori</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>PRESTIGE_PATIENTS_ALL_DAY</LocID>                <Text>Soddisfazione dei pazienti (in visita e usciti)</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>UI_ROOM_PLANNING_ONLY</LocID>                    <Text>SOLO PIANIFICAZIONE\n(NON SULLE FONDAMENTA)</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TOOLTIP_REQUIRED_HOSPITALIZATION</LocID>         <Text>Ricovero richiesto:</Text>  </GameDBLocalizedString>
+            
+            <!-- Insurance objectives -->
+            <GameDBLocalizedString>      <LocID>SAVE_PATIENT_AFTER_COLLAPSES</LocID>                           <Text>Salva un paziente dopo {1} collasso/i</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKING_CLINIC_AT_ANY_SPECIALIZED_DEPARTMENT</LocID>           <Text>Apri la clinica in qualunque dipartimento specializzato</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKING_HOSPITALIZATION_AT_ANY_SPECIALIZED_DEPARTMENT</LocID>  <Text>Apri il ricovero in qualunque dipartimento specializzato</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PERFORM_SURGERY</LocID>                                        <Text>Esegui {1} intervento/i</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PRESTIGE_AT_ANY_SPECIALIZED_DEPARTMENT</LocID>                 <Text>Ottieni prestigio {1} in qualunque dipartimento specializzato</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TREATED_PATIENTS_PER_DAY_AT_ANY_SPECIALIZED_DEPARTMENT</LocID> <Text>Tratta {1} pazienti al giorno in qualunque dipartimento specializzato</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SUCCESSFUL_EVENTS_OF_TYPE</LocID>                              <Text>Termina con successo {1} eventi {2}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SUCCESSFUL_EVENTS_IN_ROW</LocID>                               <Text>Termina con successo {1} evento/i di fila</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NUMBER_OF_FULLY_WORKING_DEPARTMENTS</LocID>                    <Text>Rendi completamente operativi {1} dipartimenti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NO_PATIENTS_SENT_AWAY_OR_WENT_AWAY_DAYS</LocID>                <Text>Non avere pazienti non trattati per {1} giorni</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NO_DEAD_PATIENTS_DAYS</LocID>                                  <Text>Non avere pazienti morti/casi impossibili per {1} giorni</Text>  </GameDBLocalizedString>
+
+            <!-- Insurance objective rewards -->
+            <GameDBLocalizedString>      <LocID>PRESTIGE_BONUS</LocID>                           <Text>{1} di bonus prestigio per {2} giorni</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UNLOCK_ALL_HOSPITALIZATIONS</LocID>              <Text>Sblocca il ricovero</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SET_MOBILE_PATIENT_COUNT</LocID>                 <Text>Aumenta a {1} il numero giornaliero di pazienti della clinica</Text>  </GameDBLocalizedString> 
+            <GameDBLocalizedString>      <LocID>SET_IMMOBILE_PATIENT_COUNT</LocID>               <Text>Aumenta a {1} il numero giornaliero di pazienti in ambulanza</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UNLOCK_EVENTS</LocID>                            <Text>Sblocca i tasti evento</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>UNLOCK_RANDOM_EVENTS</LocID>                     <Text>Eventi casuali</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>CONTRACTED_INSURANCE_COMPANY_COUNT</LocID>       <Text>Compagnie assicurative contrattualizzate:</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>PURCHASE_AMBULANCES</LocID>                      <Text>Acquista ambulanze</Text>  </GameDBLocalizedString>
+                 
+            <!-- Employee's card  roles tooltips -->
+            <GameDBLocalizedString>      <LocID>TOOLTIP_MISSING_SPECIALIZATION</LocID>           <Text>Il dipendente non possiede la specializzazione richiesta per questo ruolo, perciò non può essere abilitato</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_ONLY_SPECIALIZATION</LocID>              <Text>Il dipendente ha un solo ruolo disponibile, perciò non può essere disabilitato</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_INSURANCE_CLINIC_PATIENTS</LocID><Text>Numero di pazienti inviati in clinica ogni giorno. \nIl numero diminuisce se il prestigio dell'ospedale cala.</Text>  </GameDBLocalizedString>
+           
+            <GameDBLocalizedString>      <LocID>CANDIDATES</LocID>                               <Text>Candidati</Text>  </GameDBLocalizedString>
+           
+            <GameDBLocalizedString>      <LocID>HIRING_SHIFT_DAY_CLINIC</LocID>                  <Text>Turno diurno: Clinica</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HIRING_SHIFT_NIGHT_CLINIC</LocID>                <Text>Turno notturno: Clinica</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HIRING_SHIFT_DAY_HOSPITALIZATION</LocID>         <Text>Turno diurno: Ricovero</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HIRING_SHIFT_NIGHT_CLINIC_HOSPITALIZATION</LocID><Text>Turno notturno: Ricovero</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_RADIOLOGIST</LocID>             <Text>Tecnico di Radiologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_TECHNOLOGIST_RADIOLOGISTS</LocID>            <Text>Tecnici di Radiologia</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_EMPLOYEES_DAY_NIGH</LocID>       <Text>Personale Diurno / Notturno</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_KEYBOARD_CONTROLS</LocID>        <Text>Controlli tastiera</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LOADING_V2</LocID>                               <Text>Caricamento</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_ICU</LocID>                          <Text>Il reparto di terapia intensiva accetta solo i pazienti con una diagnosi confermata. I pazienti collassati privi di una diagnosi certa vengono trasferiti al pronto soccorso.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_NURSES</LocID>                       <Text>Se è necessario molto tempo per avviare gli esami e le terapie, controllare di avere a disposizione abbastanza infermieri per il trasporto dei pazienti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_HDU</LocID>                          <Text>Il ricovero nel reparto di terapia subintensiva è usato in prevalenza per i pazienti immobilizzati. Garantisce visite di controllo più frequenti da parte degli infermieri ed una probabilità maggiore di sopravvivere ai collassi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_OP</LocID>                           <Text>Per eseguire un intervento chirurgico è necessaria un'équipe con le seguenti figure: 1x Dottore (Chirurgo), 1x Dottore (Specializzato), 1x Dottore (Anestesiologia), 1x Infermiere (Chirurgia Medica), 1x Infermiere (Cura del Paziente), 1x Infermiere (per il trasporto del paziente)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_MANAGEMENT</LocID>                   <Text>Le aree non contrassegnate come stanze specifiche in modalità gestione hanno priorità minima per gli inservienti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_BUILDING</LocID>                     <Text>I piani superiori dell'ospedale possono essere espansi, anche oltre il piano sottostante, usando lo strumento per le fondamenta.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_JANITORS</LocID>                     <Text>Una volta finito di pulire il dipartimento di competenza, gli inservienti aiuteranno a pulirne un altro.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_MOVING_OBJ</LocID>                   <Text>Si possono muovere gli oggetti insieme ai loro accessori (come un tavolo con un PC). Per selezionare solo l'accessorio tenere premuto [CTRL].</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_RECEPTION</LocID>                    <Text>Durante la fase di triage, i receptionist assegnano una priorità più alta ai casi più critici.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_COFFEE_MAKER</LocID>                 <Text>Non c'è una macchinetta del caffè nella sala comune? Davvero? :)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_ROLES_CARD</LocID>                   <Text>Per massimizzare le prestazioni del personale è possibile abilitare o disabilitare ruoli specifici. Ad esempio, è possibile creare un'équipe chirurgica specializzata.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_OBSERVATION</LocID>                  <Text>I pazienti con i casi più complessi possono essere ricoverati e tenuti sotto osservazione, affinché i dottori della clinica siano liberi di occuparsi di altre persone.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_HIRING_PERKS</LocID>                 <Text>Si sta assumendo nuovo personale? Meglio controllare le caratteristiche dei candidati!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_DECORATIONS</LocID>                  <Text>Un ambiente pulito e ben decorato renderà soddisfatti sia i dipendenti, sia i pazienti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_BUDGET_LOANS</LocID>                 <Text>I soldi scarseggiano? Si può richiedere un prestito massimo di 500.000$ e, nel peggiore dei casi, rivendere qualche macchinario o decorazione.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_UNAVAILABLE_EXM</LocID>              <Text>Se non sono disponibili determinati esami o trattamenti, è probabile che servano una stanza o un macchinario specifico, oppure che si debba spostare il paziente in un altro dipartimento.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_GOOD_BOSS</LocID>                    <Text>Un buon primario può rendere il personale più felice ed efficiente.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_PRESTIGE</LocID>                     <Text>Il prestigio influenza sia i pagamenti da parte delle assicurazioni, sia il flusso di pazienti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_STAFF</LocID>                        <Text>Le schede dei pazienti e del personale possono essere consultate tramite il pannello a sinistra nella modalità gestione.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_BLUED_OBJ</LocID>                    <Text>Se un oggetto diventa blu, significa che manca qualche attrezzatura aggiuntiva. Quando il mouse passa sopra l'oggetto, verranno evidenziate le sue dipendenze nel pannello di costruzione. Le frecce blu saranno di aiuto nella fase di posizionamento.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_DIA_TABLE</LocID>                    <Text>La tabella delle possibili diagnosi aiuterà a capire quali sono gli esami necessari per scoprire determinati sintomi.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>SEGMENT_HEADING_ROOMS_SHARED</LocID>             <Text>Stanze Condivise</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_STATISTICS_YESTERDAY</LocID>          <Text>Ieri</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_STATISTICS_TODAY</LocID>              <Text>Oggi</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DEPARTMENT_STATISTICS</LocID>                    <Text>Statistiche dipartimento</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_PRESTIGE</LocID>              <Text>Prestigio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_SATISFACTION_STAFF</LocID>    <Text>Soddisfazione personale</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_SATISFACTION_PATIENTS</LocID> <Text>Soddisfazione pazienti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_STATISTICS_HISTORY</LocID>    <Text>Cronologia statistiche</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_WORKLOAD_DAY</LocID>          <Text>Carico diurno</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_WORKLOAD_NIGHT</LocID>        <Text>Carico notturno</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_WORKLOAD_STAFF</LocID>        <Text>Carico attuale personale</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>WORKLOAD_ON_CALL_ROOM</LocID>                    <Text>Sala Medici</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WORKLOAD_NURSES_STATION</LocID>                  <Text>Sala Infermieri</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>MANAGEMENT_HEADING_PROCEDURES</LocID>            <Text>Procedure</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>MOST_FREQUENT_MODIFIERS</LocID>                  <Text>Modificatori più frequenti:</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>CLINIC_STATISTICS_TREATED</LocID>                <Text>Trattati</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CLINIC_STATISTICS_HOSPITALIZED</LocID>           <Text>Ricoverati</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CLINIC_STATISTICS_SENT_TO_OTHER_DPT</LocID>      <Text>Trasferiti in un dipartimento specializzato</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CLINIC_STATISTICS_COLLAPSED</LocID>              <Text>Collassati</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CLINIC_STATISTICS_UNTREATED</LocID>              <Text>Non trattati</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>CLINIC_STATISTICS_TIME_TO_SEE_DOCTOR</LocID>     <Text>Attesa media per una visita</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CLINIC_STATISTICS_TIME_TO_SEE_SPECIALIST</LocID> <Text>Attesa media per esami specialistici</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>HOSPITALIZATION_STATISTICS_RELEASED</LocID>      <Text>Dimessi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZATION_STATISTICS_DEAD</LocID>          <Text>Deceduti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZATION_STATISTICS_COLLAPSED</LocID>     <Text>Collassati</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZATION_STATISTICS_UNTREATED</LocID>     <Text>Non trattati</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZATION_STATISTICS_HUNGRY</LocID>        <Text>Affamati</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>PROCEDURE_STATISTICS_EXAMINATIONS</LocID>        <Text>Esami</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PROCEDURE_STATISTICS_TREATMENTS</LocID>          <Text>Terapie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PROCEDURE_STATISTICS_STABILIZATIONS</LocID>      <Text>Stabilizzazioni</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PROCEDURE_STATISTICS_SURGERIES</LocID>           <Text>Interventi chirurgici</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NO_NIGHT_SHIFT_WITHOUT_DAY_CLINIC</LocID>        <Text>Per attivare il turno notturno nella clinica è necessario aver completato l'assegnazione del turno diurno.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NO_NIGHT_SHIFT_WITHOUT_EMERGENCY</LocID>         <Text>Per attivare il turno notturno nelle cliniche specializzate è necessario aver attivato il turno notturno nel dipartimento di Emergenza e Accettazione.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EMPLOYEE_IS_MISSING_SKILL</LocID>                <Text>Il dipendente selezionato non ha la specializzazione richiesta per questa stanza.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NO_INTERNS_IN_ON_CALL_ROOM</LocID>               <Text>Gli stagisti non possono essere assegnati alla sala medici.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_EVENT_FAILED_TEXT_V2</LocID>               <Text>L'evento non è stato completato in tempo o uno dei pazienti ha ricevuto una diagnosi errata, è deceduto o è stato trasportato altrove. Il prestigio dell'ospedale è diminuito per oggi, o almeno fino a quando non verrà completato con successo un altro evento. \nInoltre, è stata comminata una sanzione di: {1}$</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_SELECT_DEPARTMENT</LocID>           <Text>Seleziona un dipartimento</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_INGAME_HELP</LocID>                 <Text>Assistenza in gioco</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_DELETE_BUILDING</LocID>             <Text>Passa allo strumento elimina in modalità costruzione / chiudi i pannelli UI sbloccati.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_02_DESCRIPTION_V2</LocID>         <Text>Crea una piccola clinica funzionante per scoprire i diversi aspetti della fase di costruzione</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_TUTORIAL_03_DESCRIPTION_V2</LocID>         <Text>Impara come gestire un ospedale e prendi dimestichezza con l'iter di ricovero</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_01_DESCRIPTION_V2</LocID>         <Text>Usa le tue capacità per migliorare questo ospedale inefficiente</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_02_DESCRIPTION_V2</LocID>         <Text>Riuscirai a risanare i debiti di questo ospedale?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CAMPAIGN_03_DESCRIPTION_V2</LocID>         <Text>Metticela tutta! Comincia la corsa alla sovvenzione statale!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_01_DESCRIPTION_V2</LocID>        <Text>Metti alla prova le tue abilità nel dipartimento di Emergenza e Accettazione</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_02_DESCRIPTION_V2</LocID>        <Text>Metti alla prova le tue abilità nel dipartimento di Chirurgia Generale</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_03_DESCRIPTION_V2</LocID>        <Text>Metti alla prova le tue abilità nel dipartimento di Medicina Interna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_04_DESCRIPTION_V2</LocID>        <Text>Metti alla prova le tue abilità nel dipartimento di Ortopedia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_05_DESCRIPTION_V2</LocID>        <Text>Metti alla prova le tue abilità nel dipartimento di Cardiologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LEVEL_CHALLENGE_06_DESCRIPTION_V2</LocID>        <Text>Metti alla prova le tue abilità nel dipartimento di Neurologia</Text>  </GameDBLocalizedString>
+
+            <!-- Colors of notification messages in log and popups -->
+            <GameDBLocalizedString>      <LocID>NOTIF_COLOR_RED</LocID>                          <Text>rosso</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_COLOR_YELLOW</LocID>                       <Text>giallo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_COLOR_GREEN</LocID>                        <Text>verde</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_COLOR_BLUE</LocID>                         <Text>blu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_COLOR_DEFAULT</LocID>                      <Text>predefinito</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>BUTTON_SWITCH_MESSAGE_COLOR</LocID>              <Text>Cambia il colore del messaggio</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_LOCKED</LocID>                    <Text>Il tasto evento si sbloccherà dopo aver acquistato un'ambulanza ed aver reso operativo almeno uno dei seguenti dipartimenti (inclusa la clinica notturna): {1}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_LOCKED_INSURANCE</LocID>          <Text>Il tasto evento dell'utente si sbloccherà dopo aver completato il secondo obiettivo della compagnia assicurativa Fides Sanitas.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_INSURANCE_LOCKED</LocID>        <Text>La compagnia è bloccata o è stato raggiunto il numero massimo di contratti stipulati con le compagnie assicurative (3/3).</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TOOLTIP_EVENTS_MANDATORY</LocID>                 <Text> (obbligatorio)</Text>  </GameDBLocalizedString>
+
+            
+            <!-- RELATED FILE: StringTable[Language]BuildingMode.xml -->
+            <GameDBLocalizedString>      <LocID>NO_FUNDS</LocID>                                 <Text>Fondi insufficienti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_ONLY_GROUND_FLOOR</LocID>            <Text>Può essere posizionato solo al piano terra</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ELEVATOR_MARKER</LocID>                <Text>Pianificazione Ascensori</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ELEVATOR_MARKER_DESCRIPTION</LocID>    <Text>Questa funzione può essere utilizzata come strumento di pianificazione in modalità gestione, per indicare i punti in cui installare gli ascensori.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_MOVE_AREA</LocID>                        <Text>Sposta una stanza o un'area selezionata</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>MOVED_AREA</LocID>                               <Text>Area spostata</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAN_BE_MOVED</LocID>                             <Text>L'area selezionata può essere spostata.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MOVE_NOT_ALLOWED_IN_USE</LocID>                  <Text>La selezione contiene oggetti in uso.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MOVE_NOT_ALLOWED_CUTS_OBJECT</LocID>             <Text>La selezione taglia un oggetto a metà.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MOVE_NOT_ALLOWED_CONTAINS_SPECIAL_OBJECTS</LocID><Text>La selezione contiene infrastrutture.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MOVE_NOT_ALLOWED_LOCKED_AREA</LocID>             <Text>Una parte dell'area selezionata si trova al di fuori della proprietà dell'ospedale.</Text>  </GameDBLocalizedString>
+
+
+            <!-- RELATED FILE: StringTable[Language]Options.xml -->
+            <!-- New option for workplace panel color -->
+            <GameDBLocalizedString>      <LocID>OPTIONS_WORKPLACE_COLOR</LocID>                  <Text>Colore dello sfondo della postazione di lavoro</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OPTIONS_EXTENDED_EMPLOYEE_LIMIT</LocID>          <Text>Numero massimo di dipendenti a 600 (solo PC veloci)</Text>  </GameDBLocalizedString>
+
+            
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->
+            <!-- New and updated unclear department notifications  -->
+            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT_PATCH_1_1</LocID>           <Text>Il dipartimento non è in grado di trovare una diagnosi per il paziente!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT_PATCH_1_1_TEXT</LocID>      <Text>Nel dipartimento attuale non è possibile eseguire ulteriori esami. Se vuoi evitare che il paziente venga trasferito in un altro ospedale, prova a rendere disponibili più esami o a selezionare un dipartimento diverso, in base all'elenco delle possibili diagnosi.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT_TAKEN_AWAY</LocID>          <Text>Il paziente verrà trasportato in un altro ospedale.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_UNCLEAR_DEPARTMENT_TAKEN_AWAY_TEXT</LocID>     <Text>Il paziente ha atteso troppo a lungo per una diagnosi poiché il dipartimento non è in grado di eseguire ulteriori esami, verrà quindi trasferito in un altro ospedale.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_CLOSED_FOR_PATIENTS_STATISTICS</LocID>         <Text>Orario di chiusura della clinica!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_CLOSED_FOR_PATIENTS_STATISTICS_TEXT</LocID>    <Text>La clinica adesso è chiusa ai pazienti. C’erano ancora {1} pazienti in attesa.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LEFT_AFTER_LONG_WAIT</LocID>           <Text>Il paziente ha atteso troppo a lungo e se ne sta andando!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LEFT_AFTER_LONG_WAIT_TEXT</LocID>      <Text>Un paziente della clinica ha atteso troppo a lungo per una visita medica. \nSe ci sono esami in corso, il paziente ritornerà il giorno successivo.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LEFT_AFTER_LONG_VISIT</LocID>          <Text>Il paziente se ne sta andando!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_PATIENT_LEFT_AFTER_LONG_VISIT_TEXT</LocID>     <Text>Un paziente della clinica ha atteso mezza giornata in ospedale senza essere trattato o ricoverato. \nSe ci sono esami in corso, il paziente ritornerà il giorno successivo.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_NIGHT_CLINIC_OPEN</LocID>                      <Text>Adesso la clinica è aperta anche di notte!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NIGHT_CLINIC_OPEN_TEXT</LocID>                 <Text>Adesso la clinica accetta i pazienti 24/7!</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_NIGHT_CLINIC_CLOSED</LocID>                    <Text>La clinica non è più aperta anche di notte!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NIGHT_CLINIC_CLOSED_TEXT</LocID>               <Text>Senza dottori per il turno di notte, la clinica può restare aperta solo durante il giorno.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_NOT_ENOUGH_STRETCHERS</LocID>                  <Text>Non ci sono abbastanza barelle!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NOT_ENOUGH_STRETCHERS_TEXT</LocID>             <Text>Gli infermieri si lamentano perché non ci sono abbastanza barelle per trasportare tutti i pazienti al {1}.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>POPUP_ACCEPT_EVENT</LocID>                           <Text>Accetta</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>POPUP_DECLINE_EVENT</LocID>                          <Text>Rifiuta</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_RANDOM_EVENT_START</LocID>                     <Text>Ultime notizie:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_RANDOM_EVENT_START_TEXT</LocID>                <Text>{1}</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_RELEASE_NO_CLINIC_ON_DEPARTMENT</LocID>        <Text>Il paziente non può essere dimesso, deve rimanere in osservazione!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_RELEASE_NO_CLINIC_ON_DEPARTMENT_TEXT</LocID>   <Text>Un paziente dovrebbe recarsi alla clinica del {1}, ma al momento è chiusa. In alternativa, provare a ricoverare il paziente nello stesso dipartimento.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>POPUP_OPEN_DEPARTMENT_STATISTIC</LocID>              <Text>Apri le statistiche</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_PATH</LocID>                                <Text>Nessun percorso trovato</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_PATH_TEXT</LocID>                           <Text>Il personaggio non è riuscito a trovare un percorso perché potrebbe aver incontrato un ostacolo. \nCercherà un nuovo percorso, se possibile. Assicurati che non ci siano porte mancanti, ascensori bloccati o aree riservate lungo la strada.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_AVAILABLE_DOCTOR</LocID>                   <Text>Nessun diagnosta disponibile</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_NO_AVAILABLE_DOCTOR_TEXT</LocID>              <Text>Nella sala medici del {1} non c'è nessun dottore abilitato alla diagnosi dei pazienti ricoverati.</Text>  </GameDBLocalizedString>
+            
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <!-- New patient states  -->
+            <GameDBLocalizedString>      <LocID>WaitingForAmbulance</LocID>                          <Text>In attesa dell'ambulanza</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HOSPITALIZED_UnclearDiagnose</LocID>                 <Text>In attesa di una diagnosi</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>SCHEDULE_OPENING_HOURS_PATIENTS_NONSTOP</LocID>      <Text>Clinica aperta</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>SAT_MOD_PROFESSIONAL_CARE_LEVEL_1</LocID>            <Text>assistenza professionale</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_PROFESSIONAL_CARE_LEVEL_2</LocID>            <Text>assistenza professionale</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SAT_MOD_UNTREATED</LocID>                            <Text>non trattato</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>EMPLOYEE_WITHOUT_WORKSPACE</LocID>                   <Text>Dipendente senza postazione di lavoro</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>NOT_PRESCRIBABLE_DEPARTMENT</LocID>                  <Text>Non può essere prescritto in questo dipartimento</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>EMPL_ROLE_RECEPTIONIST</LocID>                       <Text>Accoglienza pazienti</Text>  </GameDBLocalizedString>
+
+
+            <!-- RELATED FILE: StringTable[Language]Tutorial.xml -->
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DOOR_PLACEMENT</LocID>                  <Text><![CDATA[Hai attrezzato con successo tutte le stanze richieste, ma hai dimenticato di posizionare una porta.<b><i> Posiziona porte</i></b> ovunque sia necessario.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_LOGISTICS_ROOMS_V2</LocID>              <Text><![CDATA[Le stanze sono divise in obbligatore (numero rosso) e facoltative (numero verde). Alcune stanze sono condivise da dipartimenti diversi. <b><i>Posiziona ognuna di queste stanze per avere una clinica funzionante: un ambulatorio, una sala d'attesa e dei servizi igienici</i></b>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_WORKSPACES_V2</LocID>                   <Text>Le postazioni di lavoro sono costituite da un tavolo, una sedia e un pc. Se costruite correttamente, compariranno nella modalità gestione. Le postazioni ti permettono di assumere nuovo personale e ti mostrano i turni diurni e notturni.</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIRING_V2</LocID>                       <Text><![CDATA[Diamo un'occhiata alle tue opzioni di assunzione. <b><i>Fai clic su una postazione di lavoro vuota</i></b> (senza ritratto) per aprire la scheda di assunzione.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_HIRE_EMPLOYEE_INFO_V2</LocID>           <Text>Fai clic sul ritratto di un candidato per assumerlo. Puoi anche assegnare la postazione di lavoro tramite la scheda del dipendente. Dopo aver assunto un dipendente puoi vedere che ruolo può ricoprire alla postazione di lavoro.</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_EMPLOYEE_CARD_V2</LocID>                <Text><![CDATA[Diamo un'occhiata più da vicino al tuo personale. <b><i>Apri la scheda di uno qualsiasi dei tuoi dipendenti</i></b>. \n\nFai clic sulla postazione di lavoro nella modalità gestione o direttamente sul dipendente nella modalità gioco.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_MANAGEMENT_TOOLS</LocID>                <Text><![CDATA[Diamo una rapida occhiata agli strumenti di gestione dell'ospedale. <b><i>Apri la scheda di gestione dell'ospedale</i></b> facendo clic su una qualsiasi categoria del pannello principale.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_MANAGEMENT_TOOLS_OPENED</LocID>         <Text>Questa scheda contiene 5 categorie: Statistiche del dipartimento, Assicurazione, Ambulanze, Budget e Statistiche. Controllale spesso, poiché ti daranno le informazioni necessarie per gestire il tuo ospedale in modo efficiente.</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_DEPARTMENT_HOSPITALIZATION_STAFF_V2</LocID><Text><![CDATA[È giunto il momento di<b><i> assumere un chirurgo</i></b> per il turno diurno in sala medici. Se passi con il mouse sopra le professioni, i tooltip ti riveleranno la specializzazione richiesta, che è possibile filtrare nella scheda di assunzione. \n\nDevi occuparti di tutti i segnali di allerta in rosso affinché il dipartimento funzioni regolarmente.]]></Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TUTORIAL_TEXT_OBJECTIVES_V2</LocID>                   <Text><![CDATA[Ora che abbiamo trattato i punti base, è giunto il momento di mettere in funzione la clinica. <b><i>Cura 4 pazienti.</i></b>\n\nDal pannello principale puoi verificare il numero di pazienti curati (in verde).]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CAMPAIGN_EVENTS</LocID>                               <Text>Un altro modo eccellente per aumentare gli introiti ed il prestigio del tuo ospedale consiste nel completare più eventi di fila, ma fai attenzione: un fallimento può condurti al risultato opposto.</Text>  </GameDBLocalizedString> <!--Used in campaign level 03-->
+
+            <!-- ingame tutorial -->
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_MANAGEMENT_MODE_1_1</LocID>      <Text><![CDATA[Seleziona la <b><i>modalità gestione</i></b>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_BUTTON_1_1</LocID>               <Text><![CDATA[Fai clic su una <b><i>postazione di lavoro</i></b> nella stanza desiderata. Lato sinistro per il turno diurno, lato destro per il turno notturno.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_PROFESSION_1_1</LocID>           <Text><![CDATA[Scegli la <b><i>professione</i></b> necessaria. \n\nSuggerimento: le professioni obbligatorie sono evidenziate in rosso, mentre quelle consigliate sono evidenziate in giallo.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_HIRING_SELECTION_1_1</LocID>            <Text><![CDATA[Seleziona uno dei <b><i>dipendenti disponibili</i></b>, che verrà assegnato alla postazione di lavoro. \n\nSuggerimento: presta attenzione alle loro caratteristiche.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_CONTRACT_1_1</LocID>          <Text><![CDATA[Qui vedi tutte le compagnie assicurative che possono essere <b><i>contrattualizzate</i></b>. \n\nSuggerimento: non è possibile stipulare più di 3 contratti alla volta.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_INSURANCE_INFO_1_1</LocID>              <Text><![CDATA[Inoltre, per ogni compagnia è indicato il numero di <b><i>pazienti</i></b> che invierà ogni giorno al tuo ospedale. \n\nSuggerimento: puoi aumentare questo numero completando gli obiettivi delle compagnie.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>INGAME_TUTORIAL_WORKLOAD_STATS_1_1</LocID>           	<Text><![CDATA[In alcune stanze è possibile visualizzare il <b><i>valore del carico di lavoro</i></b>, che rappresenta il lavoro effettuato nelle ultime 24 ore. Un valore nullo significa che il personale non ha avuto niente da fare, un valore critico significa che il personale è sovraccarico di lavoro. \n\nSuggerimento: nelle statistiche di dipartimento è disponibile un riassunto del carico di lavoro di ogni dipartimento.]]></Text>  </GameDBLocalizedString>
+
+
+            <!--==================-->
+            <!--New lab department-->
+            <!--==================-->
+            
+            <!-- RELATED FILE: StringTable[Language]BuildingMode.xml -->
+            <GameDBLocalizedString>      <LocID>DPT_LAB</LocID>                                      <Text>Dipartimento di Medicina di Laboratorio</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HEMATOLOGY_LAB</LocID>                     <Text>Laboratorio di Ematologia</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HEMATOLOGY_LAB_DESCRIPTION</LocID>         <Text>Laboratorio interamente attrezzato in grado di eseguire esami del sangue e sierologici. \n\nRequisiti min. staff: \n1x Tecnico - Biochimica</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_MICROBIOLOGY_LAB</LocID>                   <Text>Laboratorio di Microbiologia</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_MICROBIOLOGY_LAB_DESCRIPTION</LocID>       <Text>Laboratorio interamente attrezzato in grado di realizzare colture ed eseguire analisi su vari campioni. \n\nRequisiti min. staff: \n1x Tecnico - Biochimica</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HISTOLOGY_LAB</LocID>                      <Text>Laboratorio di Istologia</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HISTOLOGY_LAB_DESCRIPTION</LocID>          <Text>Laboratorio interamente attrezzato in grado di eseguire analisi microscopiche su vari campioni. \n\nRequisiti min. staff: \n1x Tecnico - Biochimica</Text></GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_SHELF_WALL</LocID>                        <Text>Scaffale da laboratorio da parete</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_SHELF_WALL_DESCRIPTION</LocID>            <Text>Lo scaffale da laboratorio contiene la vetreria e tutte le attrezzature necessarie per analisi ed esami.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MIC_INCUBATOR</LocID>                         <Text>Incubatore cellulare</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MIC_INCUBATOR_DESCRIPTION</LocID>             <Text>L'incubatore cellulare è uno strumento da laboratorio utilizzato per mantenere in condizioni ambientali ottimali le colture microbiologiche e cellulari.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_HALF_DESK</LocID>                         <Text>Banco da laboratorio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_HALF_DESK_DESCRIPTION</LocID>             <Text>Un banco da laboratorio, simile alla scrivania ma dalle dimensioni dimezzate.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_CABINET</LocID>                           <Text>Banco da laboratorio con armadio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_CABINET_DESCRIPTION</LocID>               <Text>Un banco da laboratorio, simile alla scrivania ma dalle dimensioni dimezzate, contente anche un armadio per riporre oggetti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FUME_HOOD</LocID>                             <Text>Cappa da laboratorio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FUME_HOOD_DESCRIPTION</LocID>                 <Text>La cappa da laboratorio è un'attrezzatura specialistica utilizzata per l'aspirazione di vapori nocivi o per la protezione da agenti microbici patogeni, così da limitare l'esposizione a fumi, polveri o vapori tossici o dannosi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_BURETTES</LocID>                          <Text>Vetreria da laboratorio e burette</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_BURETTES_DESCRIPTION</LocID>              <Text>La vetreria da laboratorio consiste in una serie di oggetti ed apparecchiature, tradizionalmente fatte di vetro, utilizzate per la preparazione e l'analisi dei campioni. Attrezzatura obbligatoria per i laboratori.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_HIST_LAB</LocID>       		         <Text>Laboratorio di Istologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_HEM_LAB</LocID>       			         <Text>Laboratorio di Ematologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_MIC_LAB</LocID>       			         <Text>Laboratorio di Microbiologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_LAB_DPT</LocID>       			         <Text>Medicina di Laboratorio</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HEMATOLOGY_SMALL_ABBR</LocID>            <Text>Laboratorio di Ematologia - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HEMATOLOGY_LARGE_ABBR</LocID>            <Text>Laboratorio di Ematologia - 12 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_MICROBIOLOGY_SMALL_ABBR</LocID>          <Text>Laboratorio di Microbiologia - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_MICROBIOLOGY_LARGE_ABBR</LocID>          <Text>Laboratorio di Microbiologia - 12 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HISTOLOGY_SMALL_ABBR</LocID>             <Text>Laboratorio di Istologia - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HISTOLOGY_LARGE_ABBR</LocID>             <Text>Laboratorio di Istologia - 12 x 6</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_LAB</LocID>                  <Text>Modelli per le stanze del dipartimento di Medicina di Laboratorio</Text>  </GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Examinations.xml -->
+            <!-- New descriptions of laboratory examinations
+                 These are similar to the original descriptions (for example EXM_BACTERIA_CULTIVATION_SAMPLING_DESCRIPTION), but with updated
+                 names of the required rooms (Histology Lab, Hematology Lab or Microbiology Lab) 
+            -->
+            <GameDBLocalizedString>      <LocID>EXM_BACTERIA_CULTIVATION_SAMPLING_DESCRIPTION_1_1</LocID>           <Text>La coltura batterica è un metodo biochimico per la moltiplicazione di batteri in un predeterminato medium di coltura ed in condizioni di laboratorio controllate, utilizzato per determinare il tipo di microrganismi e/o l'abbondanza nel campione in esame. \nIl campionamento consiste nella raccolta dei campioni di materiale biologico (es. liquidi corporei, espettorato, feci) prelevato dal paziente per l'analisi in laboratorio. \n\nStanze richieste: Laboratorio di Microbiologia \n\nCampionamento: Dip. di Emergenza e Accettazione / Chirurgia Generale / Medicina Interna / Neurologia / Terapia Intensiva \n\nAttrezzatura richiesta: Vetreria da laboratorio + Cappa da laboratorio + Incubatore cellulare + Microscopio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BACTERIA_CULTIVATION_TESTING_DESCRIPTION_1_1</LocID>            <Text>La coltura batterica è un metodo biochimico per la moltiplicazione di batteri in un predeterminato medium di coltura ed in condizioni di laboratorio controllate, utilizzato per determinare il tipo di microrganismi e/o l'abbondanza nel campione in esame. \n\nStanze richieste: Laboratorio di Microbiologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BIOPSY_SAMPLING_DESCRIPTION_1_1</LocID>                         <Text>La biopsia è una procedura chirurgica che consiste nel prelievo di una porzione o di un frammento di tessuto, da esaminare al microscopio con tecniche di microbiologia o biologia molecolare. \nIl campionamento consiste nella raccolta dei campioni di tessuto (es. polmonare, epatico, intestinale) prelevato dal paziente per l'analisi in laboratorio. \n\nStanze richieste: Laboratorio di Istologia \n\nCampionamento: Dip. di Emergenza e Accettazione / Chirurgia Generale / Ortopedia / Cardiologia / Neurologia / Terapia Intensiva \n\nAttrezzatura richiesta: Vetreria da laboratorio + Analizzatore da laboratorio + Microscopio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BIOPSY_TESTING_DESCRIPTION_1_1</LocID>                          <Text>La biopsia è una procedura chirurgica che consiste nel prelievo di una porzione o di un frammento di tessuto, da esaminare al microscopio con tecniche di microbiologia o biologia molecolare. \n\nStanze richieste: Laboratorio di Istologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BLOOD_TEST_SAMPLING_DESCRIPTION_1_1</LocID>                     <Text>L'esame del sangue è una tecnica di diagnostica medica che, attraverso il prelievo di sangue venoso o arterioso e l'analisi del campione tramite apparecchiature ed analizzatori, valuta la composizione del sangue ed i parametri ematici del paziente evidenziando il suo stato di salute generale ed i fattori che possono indicare problemi o patologie. \nIl campionamento consiste nella raccolta dei campioni ematici per l'analisi in laboratorio. \n\nStanze richieste: Laboratorio di Ematologia \n\nCampionamento: Qualsiasi dipartimento \n\nAttrezzatura richiesta: Vetreria da laboratorio + Analizzatore ematologico</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BLOOD_TEST_TESTING_DESCRIPTION_1_1</LocID>                      <Text>L'esame del sangue è una tecnica di diagnostica medica che, attraverso il prelievo di sangue venoso o arterioso e l'analisi del campione tramite apparecchiature ed analizzatori, valuta la composizione del sangue ed i parametri ematici del paziente evidenziando il suo stato di salute generale ed i fattori che possono indicare problemi o patologie.  \n\nStanze richieste: Laboratorio di Ematologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CBC_SAMPLING_DESCRIPTION_1_1</LocID>                            <Text>L'emocromo completo (EC), o esame emocromocitometrico, è un esame di laboratorio completo del sangue, che determina la quantità dei globuli (leucociti o globuli bianchi, eritrociti o globuli rossi, trombociti o piastrine), i livelli dell'ematocrito (HCT, percentuale del volume sanguigno occupata dagli eritrociti) e dell'emoglobina (Hb), nonché diversi altri parametri del sangue. \nIl campionamento consiste nella raccolta dei campioni ematici per l'analisi in laboratorio. \n\nStanze richieste: Laboratorio di Ematologia \n\nCampionamento: Dip. di Emergenza e Accettazione / Chirurgia Generale / Medicina Interna / Ortopedia / Neurologia / Terapia Intensiva \n\nAttrezzatura richiesta: Vetreria da laboratorio + Analizzatore ematologico</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CBC_TESTING_DESCRIPTION_1_1</LocID>                             <Text>L'emocromo completo (EC), o esame emocromocitometrico, è un esame di laboratorio completo del sangue, che determina la quantità dei globuli (leucociti o globuli bianchi, eritrociti o globuli rossi, trombociti o piastrine), i livelli dell'ematocrito (HCT, percentuale del volume sanguigno occupata dagli eritrociti) e dell'emoglobina (Hb), nonché diversi altri parametri del sangue. \n\nStanze richieste: Laboratorio di Ematologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FECAL_ELASTASE_TEST_SAMPLING_DESCRIPTION_1_1</LocID>            <Text>L'elastasi pancreatica, o fecale, è un enzima prodotto dal pancreas che interviene nei processi digestivi ed ha la funzione di favorire la digestione di alcuni alimenti. L'esame dell'elastasi è un metodo diagnostico specifico utilizzato per valutare il corretto funzionamento del pancreas, misurando i livelli di elastasi nelle feci. \nIl campionamento consiste nella raccolta dei campioni di materiale biologico (feci) prelevato dal paziente per l'analisi in laboratorio. \n\nStanze richieste: Laboratorio di Ematologia \n\nCampionamento: Dip. di Emergenza e Accettazione / Chirurgia Generale / Terapia Intensiva \n\nAttrezzatura richiesta: Vetreria da laboratorio + Analizzatore immunologico</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FECAL_ELASTASE_TEST_TESTING_DESCRIPTION_1_1</LocID>             <Text>L'elastasi pancreatica, o fecale, è un enzima prodotto dal pancreas che interviene nei processi digestivi ed ha la funzione di favorire la digestione di alcuni alimenti. L'esame dell'elastasi è un metodo diagnostico specifico utilizzato per valutare il corretto funzionamento del pancreas, misurando i livelli di elastasi nelle feci. \n\nStanze richieste: Laboratorio di Ematologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FUNGAL_CULTIVATION_SAMPLING_DESCRIPTION_1_1</LocID>             <Text>La coltura micotica è un metodo biochimico per la moltiplicazione di funghi in un predeterminato medium di coltura ed in condizioni di laboratorio controllate, utilizzato per determinare il tipo di microrganismi e/o l'abbondanza nel campione in esame. \nIl campionamento consiste nella raccolta dei campioni di materiale biologico (es. liquidi corporei, espettorato, feci) prelevato dal paziente per l'analisi in laboratorio. \n\nStanze richieste: Laboratorio di Microbiologia \n\nCampionamento: Dip. di Emergenza e Accettazione / Terapia Intensiva \n\nAttrezzatura richiesta: Vetreria da laboratorio + Cappa da laboratorio + Incubatore cellulare + Microscopio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FUNGAL_CULTIVATION_TESTING_DESCRIPTION_1_1</LocID>              <Text>La coltura micotica è un metodo biochimico per la moltiplicazione di funghi in un predeterminato medium di coltura ed in condizioni di laboratorio controllate, utilizzato per determinare il tipo di microrganismi e/o l'abbondanza nel campione in esame. \n\nStanze richieste: Laboratorio di Microbiologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PCR_SAMPLING_DESCRIPTION_1_1</LocID>                            <Text>La reazione a catena della polimerasi (PCR) è una tecnica di laboratorio che consente la moltiplicazione (amplificazione) di target specifici del DNA, frammenti di acidi nucleici dei quali si conoscono le sequenze nucleotidiche iniziali e terminali. L'amplificazione enzimatica di sequenze di DNA mediante PCR permette di ottenere in vitro, molto rapidamente e con precisione, la quantità di materiale genetico necessaria per identificare una malattia infettiva provocata da batteri o virus. \nIl campionamento consiste nella raccolta dei campioni di materiale biologico prelevati dal paziente per l'analisi in laboratorio. \n\nStanze richieste: Laboratorio di Ematologia \n\nCampionamento: Dip. di Emergenza e Accettazione / Medicina Interna / Neurologia / Terapia Intensiva \n\nAttrezzatura richiesta: Vetreria da laboratorio + Termociclatore</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PCR_TESTING_DESCRIPTION_1_1</LocID>                             <Text>La reazione a catena della polimerasi (PCR) è una tecnica di laboratorio, che consente la moltiplicazione (amplificazione) di target specifici del DNA, frammenti di acidi nucleici dei quali si conoscono le sequenze nucleotidiche iniziali e terminali. L'amplificazione mediante PCR permette di ottenere in vitro, molto rapidamente e con precisione, la quantità di materiale genetico necessaria per identificare una malattia infettiva provocata da batteri o virus. \n\nStanze richieste: Laboratorio di Ematologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PERITONEAL_FLUID_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>      <Text>La paracentesi, o peritoneocentesi, è una procedura medica invasiva, che consiste nel prelievo del fluido ascitico mediante l'introduzione di un ago sottile, in genere sotto guida ecografica, nella parete addominale del paziente sdraiato sulla schiena, o su un fianco, in modo da raggiungere la cavità peritoneale, ovvero lo spazio addominale rivestito dal peritoneo. \nIl campionamento consiste nella raccolta dei campioni di fluido peritoneale prelevato dal paziente per l'analisi in laboratorio. \n\nStanze richieste: Laboratorio di Istologia \n\nCampionamento: Dip. di Chirurgia Generale \n\nAttrezzatura richiesta: Vetreria da laboratorio + Centrifuga da laboratorio + Analizzatore da laboratorio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PERITONEAL_FLUID_ANALYSIS_TESTING_DESCRIPTION_1_1</LocID>       <Text>La paracentesi, o peritoneocentesi, è una procedura medica invasiva, che consiste nel prelievo del fluido ascitico mediante l'introduzione di un ago sottile, in genere sotto guida ecografica, nella parete addominale del paziente sdraiato sulla schiena, o su un fianco, in modo da raggiungere la cavità peritoneale, ovvero lo spazio addominale rivestito dal peritoneo. \n\nStanze richieste: Laboratorio di Istologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SEROLOGY_TESTING_SAMPLING_DESCRIPTION_1_1</LocID>               <Text>L'esame sierologico è un tipo particolare di esame del sangue, che studia in laboratorio le reazioni antigene-anticorpo, al fine di ricercare anticorpi ed antigeni specifici, ovvero le uniche proteine prodotte dal sistema immunitario umano come reazione al contatto con malattie ed agenti patogeni, quali virus, batteri e funghi. \nIl campionamento consiste nella raccolta dei campioni ematici per l'analisi in laboratorio. \n\nStanze richieste: Laboratorio di Ematologia \n\nCampionamento: Dip. di Emergenza e Accettazione / Chirurgia Generale / Medicina Interna / Ortopedia / Neurologia / Terapia Intensiva \n\nAttrezzatura richiesta: Vetreria da laboratorio + Analizzatore immunologico</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SEROLOGY_TESTING_TESTING_DESCRIPTION_1_1</LocID>                <Text>L'esame sierologico è un tipo particolare di esame del sangue, che studia in laboratorio le reazioni antigene-anticorpo, al fine di ricercare anticorpi ed antigeni specifici, ovvero le uniche proteine prodotte dal sistema immunitario umano come reazione al contatto con malattie ed agenti patogeni, quali virus, batteri e funghi. \n\nStanze richieste: Laboratorio di Ematologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>          <Text>La rachicentesi, o puntura lombare, è una procedura medica invasiva, che consiste nel prelievo del fluido cerebrospinale (CSF), mediante l'introduzione di un ago sottile nel canale vertebrale, attraverso la regione lombare della schiena del paziente sdraiato in posizione fetale, o in posizione seduta incurvata e raccolta, in modo da raggiungere lo spazio subaracnoideo tra le vertebre lombari. \nIl campionamento consiste nella raccolta dei campioni di fluido cerebrospinale prelevato dal paziente per l'analisi in laboratorio. \n\nStanze richieste: Laboratorio di Istologia \n\nCampionamento: Dip. di Neurologia \n\nAttrezzatura richiesta: Vetreria da laboratorio + Centrifuga da laboratorio + Analizzatore da laboratorio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_TESTING_DESCRIPTION_1_1</LocID>           <Text>La rachicentesi, o puntura lombare, è una procedura medica invasiva, che consiste nel prelievo del fluido cerebrospinale (CSF), mediante l'introduzione di un ago sottile nel canale vertebrale, attraverso la regione lombare della schiena del paziente sdraiato in posizione fetale, o in posizione seduta incurvata e raccolta, in modo da raggiungere lo spazio subaracnoideo tra le vertebre lombari. \n\nStanze richieste: Laboratorio di Istologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>                 <Text>L'esame delle feci è un metodo diagnostico, che consiste nella valutazioni delle feci, sia visiva, sia mediante esami chimici utili per il controllo della funzionalità del tubo digerente e per verificare l'eventuale presenza di sangue occulto e/o agenti patogeni. \nIl campionamento consiste nella raccolta dei campioni di materiale biologico (feci) prelevato dal paziente per l'analisi in laboratorio. \n\nStanze richieste: Laboratorio di Istologia \n\nCampionamento: Dip. di Emergenza e Accettazione / Chirurgia Generale / Medicina Interna / Terapia Intensiva \n\nAttrezzatura richiesta: Vetreria da laboratorio + Analizzatore di feci</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_TESTING_DESCRIPTION_1_1</LocID>                  <Text>L'esame delle feci è un metodo diagnostico, che consiste nella valutazioni delle feci, sia visiva, sia mediante esami chimici utili per il controllo della funzionalità del tubo digerente e per verificare l'eventuale presenza di sangue occulto e/o agenti patogeni. \n\nStanze richieste: Laboratorio di Istologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>          <Text>L'esame delle urine è un insieme di esami di laboratorio, che consente di analizzare con metodo biochimico le caratteristiche chimiche e fisiche delle urine e del relativo sedimento. \nIl campionamento consiste nella raccolta del flusso di urina non iniziale direttamente dal paziente o dal suo catetere per l'analisi in laboratorio. \n\nStanze richieste: Laboratorio di Istologia \n\nCampionamento: Dip. di Emergenza e Accettazione / Chirurgia Generale / Medicina Interna / Cardiologia / Terapia Intensiva \n\nAttrezzatura richiesta: Vetreria da laboratorio + Analizzatore da laboratorio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_URINE_SAMPLE_ANALYSIS_TESTING_DESCRIPTION_1_1</LocID>           <Text>L'esame delle urine è un insieme di esami di laboratorio, che consente di analizzare con metodo biochimico le caratteristiche chimiche e fisiche delle urine e del relativo sedimento. \n\nStanze richieste: Laboratorio di Istologia</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>EXM_EMG_DESCRIPTION_1_1</LocID>                                     <Text>L'elettromiografia (EMG) è un esame diagnostico, che consiste nella registrazione e riproduzione grafica dell'attività elettrica dei nervi periferici e dei muscoli scheletrici durante il loro funzionamento, realizzate per mezzo di uno strumento chiamato elettromiografo e mediante elettrodi ed agoelettrodi posizionati sulla pelle. \n\nStanze richieste: Ambulatorio / Unità Diagnostica / Reparto di Osservazione presso i Dip. di Emergenza e Accettazione / Ortopedia</Text>  </GameDBLocalizedString>
+         
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+   

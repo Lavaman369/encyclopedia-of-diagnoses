@@ -1,0 +1,185 @@
+<Database>
+	<!-- Plastic Surgery Mod by Sleepy068 -->
+	<!-- Patient Request (Breast Augmentation) -->
+	<GameDBSymptom ID="SYM_PLAS_C001">
+        <DescriptionLocID>SYM_PLAS_C001_DESC</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_SLP_AUGMENTATION_MAMMOPLASTY</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+		
+        <IconIndex>1</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_DIA_ICON_001</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_PLAS_DIA_ICON_002</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+	
+	<!-- Patient Request (Liposuction) -->
+	<GameDBSymptom ID="SYM_PLAS_C002">
+        <DescriptionLocID>SYM_PLAS_C002_DESC</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_SLP_SAL</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+		
+        <IconIndex>1</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_DIA_ICON_005</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_PLAS_DIA_ICON_006</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+	
+	<!-- Patient Request (Augmentation Rhinoplasty) -->
+	<GameDBSymptom ID="SYM_PLAS_C003">
+        <DescriptionLocID>SYM_PLAS_C003_DESC</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_SLP_RHINOPLASTY</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+		
+        <IconIndex>1</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_DIA_ICON_007</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_PLAS_DIA_ICON_008</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+	
+	<!-- Patient Request (Hair Transplant) -->
+	<GameDBSymptom ID="SYM_PLAS_C004">
+        <DescriptionLocID>SYM_PLAS_C004_DESC</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_SLP_HAIRT</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+		
+        <IconIndex>1</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_DIA_ICON_013</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_PLAS_DIA_ICON_014</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+	
+	<!-- Misaligned Eyes -->
+	<GameDBSymptom ID="SYM_PLAS_R002">
+        <DescriptionLocID>SYM_PLAS_R002_DESC</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_SLP_PLAS_EYEMSURGERY</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+		
+        <IconIndex>1</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_DIA_ICON_011</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_PLAS_DIA_ICON_012</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+	
+	<!-- Loss of Digit -->
+	<GameDBSymptom ID="SYM_PLAS_RT001">
+        <DescriptionLocID>SYM_PLAS_RT001_DESC</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>High</Hazard>
+        <PatientMobility>IMOBILE</PatientMobility>
+		
+		<RiskOfCollapseStartHours>2</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>16</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_SEPTIC_SHOCK</CollapseSymptomRef>
+		
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_SLP_PLAS_REPLANT</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+		
+        <IconIndex>1</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_DIA_ICON_027</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_PLAS_DIA_ICON_028</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+	
+	<!-- Complex Varicose Veins -->
+	<GameDBSymptom ID="SYM_PLAS_R009">
+        <DescriptionLocID>SYM_PLAS_R009_DESC</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+            <ExaminationRef>EXM_ANGIOGRAPHY</ExaminationRef>
+			<ExaminationRef>EXM_MRI</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>SUR_SLP_PLAS_ENDOVENOUS_LASER_AB</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+		
+        <IconIndex>1</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_MSYM_ICON_013</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_PLAS_MSYM_ICON_014</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+	
+	
+</Database>

@@ -1,0 +1,28 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_NL_ADDON_SEXUAL_HEALTH_SKILLS">
+        
+        <LanguageCode>nl</LanguageCode>
+        <LanguageNameLocalized>Nederlands</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Spookiieej</Name>
+        </Contributors>
+        
+        <LocalizedStrings>
+            
+		<!-- Departments -->
+			
+        <GameDBLocalizedString>      <LocID>DPT_SH</LocID>                                          <Text>Seksuele gezondheid</Text>  </GameDBLocalizedString>
+			
+		<!--Skills-->
+			
+		<GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_SH</LocID>                               <Text>Seksuele gezondheid</Text>  </GameDBLocalizedString>
+        <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_SH_DESCRIPTION</LocID>                   <Text>Seksuele gezondheid geeft toegang tot gespecialiseerde procedures voor diagnose en behandeling van kritieke patiënten in de Seksuele Gezondheid Kliniek.</Text>  </GameDBLocalizedString>
+		<GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_SH_SURGERY</LocID>                       <Text>Seksuele Gezondheid Operatie</Text>  </GameDBLocalizedString>
+        <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_SH_SURGERY_DESCRIPTION</LocID>           <Text></Text>  </GameDBLocalizedString>
+		
+		</LocalizedStrings>
+		
+		</GameDBStringTable>
+
+</Database>

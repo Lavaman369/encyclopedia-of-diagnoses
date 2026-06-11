@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <GameDBStringTable ID="LOC_RU_SKILLS">
+        
+        <LanguageCode>ru</LanguageCode>
+        <LanguageNameLocalized>Русский</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Alexandr 'Makbeth' Baranov</Name>
+            <Name>Mash</Name>
+            <Name>Dmitry 'DrD_AVEL' Korobkin</Name>
+            <Name>Todos</Name>
+            <Name>Svensken</Name>
+            <Name>Ost22</Name>
+            <Name>Mikhail 'Obsolete' Tsukanov</Name>
+            <Name>adigyran</Name>
+            <Name>Angel Bingo</Name>
+            <Name>AdmiralMaxwell</Name>
+            <Name>Alexander Z.</Name>
+        </Contributors>
+        
+        <LocalizedStrings>
+            <!-- Departments -->
+            <GameDBLocalizedString>      <LocID>DPT_DEFAULT</LocID>                                                 <Text>Без отделения</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_EMERGENCY</LocID>                                               <Text>Отделение неотложной помощи</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_ICU</LocID>                                                     <Text>Отделение интенсивной терапии</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_GENERAL_SURGERY_DEPARTMENT</LocID>                              <Text>Отделение общей хирургии</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_INTERNAL_MEDICINE_DEPARTMENT</LocID>                            <Text>Отделение внутренних болезней</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_ORTHOPAEDICS_AND_TRAUMATOLOGY</LocID>                           <Text>Отделение ортопедии</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_CARDIOLOGY</LocID>                                              <Text>Кардиология</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_NEUROLOGY</LocID>                                               <Text>Неврология</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_RADIOLOGY</LocID>                                               <Text>Радиология</Text>  </GameDBLocalizedString>
+
+
+            <!-- Character levels-->
+            <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_1</LocID>                                              <Text>Интерн</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_2</LocID>                                              <Text>Мл. ординатор</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_3</LocID>                                              <Text>Клинический ординатор</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_4</LocID>                                              <Text>Ведущий специалист</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_5</LocID>                                              <Text>Врач высшей категории</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>NURSE_LEVEL_1</LocID>                                               <Text>Младшая медсестра</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_LEVEL_2</LocID>                                               <Text>Медсестра</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_LEVEL_3</LocID>                                               <Text>Старшая медсестра</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>LAB_SPECIALIST_LEVEL_1</LocID>                                      <Text>Мл. лаборант</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_SPECIALIST_LEVEL_2</LocID>                                      <Text>Лаборант</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_SPECIALIST_LEVEL_3</LocID>                                      <Text>Старший лаборант</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>JANITOR_LEVEL_1</LocID>                                             <Text>Уборщик</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_LEVEL_2</LocID>                                             <Text>Старший уборщик</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_LEVEL_3</LocID>                                             <Text>Главный уборщик</Text>  </GameDBLocalizedString>
+            
+            
+            <!-- Doctor's QUALIFICATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_QUALIF_GENERAL_MEDICINE</LocID>                           <Text>Общая практика</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_QUALIF_GENERAL_MEDICINE_DESCRIPTION</LocID>               <Text>Квалифицированные врачи общей практики могут провести все базовые обследования и процедуры, а уровень самого навыка влияет на скорость работы врача.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_QUALIF_DIAGNOSIS</LocID>                                  <Text>Диагност.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_QUALIF_DIAGNOSIS_DESCRIPTION</LocID>                      <Text>Квалификация в диагностике влияет на то, как часто врач будет ошибаться в постановке диагноза или консультироваться с другими врачами.</Text>  </GameDBLocalizedString>
+
+            <!-- Doctor's SPECIALIZATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ACUTE_MEDICINE</LocID>                               <Text>Неотложная помощь</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ACUTE_MEDICINE_DESCRIPTION</LocID>                   <Text>Специализация в неотложной помощи дает врачу возможность проводить специализированные процедуры для диагностики и лечения больных, находящихся в критическом состоянии в отделении неотложной помощи.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ADVANCED_DIAGNOSIS</LocID>                           <Text>Продвинутая диагностика</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ADVANCED_DIAGNOSIS_DESCRIPTION</LocID>               <Text>Продвинутая специализация в диагностике заболеваний дает врачу навык дифференциальной диагностики.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CRITICAL_CARE</LocID>                                <Text>Реаниматология</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CRITICAL_CARE_DESCRIPTION</LocID>                    <Text>Специализация в реаниматологии даёт врачу возможность использовать специализированные диагностические методы, проводимые в палатах интенсивной терапии (ПИТ).</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_GENERAL_SURGERY</LocID>                              <Text>Общая хирургия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_GENERAL_SURGERY_DESCRIPTION</LocID>                  <Text>Специализация в общей хирургии позволяет врачу назначать специализированные обследования и проводить лечение в отделении общей хирургии, а также позволяет врачу ассистировать в хирургии.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_OPERATIVE_SURGERY</LocID>                            <Text>Оперативная хирургия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_OPERATIVE_SURGERY_DESCRIPTION</LocID>                <Text>Специализация в оперативной хирургии позволяет врачу проводить операции в качестве оперирующего хирурга в отделении общей хирургии и уменьшает риск осложнений на операциях.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE</LocID>                            <Text>Внутренние болезни</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE_DESCRIPTION</LocID>                <Text>Специализация в терапии внутренних болезней позволяет врачу назначать специализированные обследования и проводить лечение в отделении внутренних болезней, а также позволяет врачу ассистировать в хирургии.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE_SURGERY</LocID>                    <Text>Хирургия внутренних болезней</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE_SURGERY_DESCRIPTION</LocID>        <Text>Специализация в хирургии внутренних болезней позволяет врачу проводить операции в качестве оперирующего хирурга в отделении внутренних болезней и уменьшает риск осложнений на операциях.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDY</LocID>                                   <Text>Ортопедия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDY_DESCRIPTION</LocID>                       <Text>Специализация в ортопедии позволяет врачу назначать специализированные обследования и проводить лечение в отделении ортопедии, а также позволяет врачу ассистировать в хирургии.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDIC_SURGERY</LocID>                          <Text>Ортопедическая хирургия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDIC_SURGERY_DESCRIPTION</LocID>              <Text>Специализация в ортопедической хирургии позволяет врачу проводить операции в качестве оперирующего хирурга в ортопедическом отделении и влияет на частоту операционных осложнений.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIOLOGY</LocID>                                   <Text>Кардиология</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIOLOGY_DESCRIPTION</LocID>                       <Text>Специализация в кардиологии позволяет назначать специализированные обследования и проводить лечение в отделении кардиологии, а также позволяет врачу ассистировать в хирургии.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIO_SURGERY</LocID>                               <Text>Сердечно-сосудистая хирургия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIO_SURGERY_DESCRIPTION</LocID>                   <Text>Специализация в сердечно-сосудистой хирургии позволяет врачу проводить операции в качестве оперирующего хирурга в отделении кардиологии и влияет частоту операционных осложнений.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEUROLOGY</LocID>                                    <Text>Неврология</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEUROLOGY_DESCRIPTION</LocID>                        <Text>Специализация в неврологии позволяет проводить специализированные обследования и назначать лечение в отделении неврологии, а также позволяет врачу ассистировать в хирургии.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEURO_SURGERY</LocID>                                 <Text>Нейрохирургия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEURO_SURGERY_DESCRIPTION</LocID>                     <Text>Специализация в нейрохирургии позволяет врачу проводить операции в качестве оперирующего хирурга в отделении неврологии и влияет на частоту операционных осложнений.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ANESTHESIOLOGY</LocID>                               <Text>Анестезиология</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ANESTHESIOLOGY_DESCRIPTION</LocID>                   <Text>Специализация в анестезиологии необходима врачу, чтобы осуществлять наркоз в хирургии. Навык также увеличивает выживаемость пациентов в критическом состоянии, стабилизированных данным врачом. \nУменьшает вероятность смерти критических пациентов. \nУменьшает шанс возникновения послеоперационных осложнений после операций.</Text>  </GameDBLocalizedString>
+
+            
+            <!-- Nurse's QUALIFICATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_QUALIF_PATIENT_CARE</LocID>                             <Text>Уход за пациентами</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_QUALIF_PATIENT_CARE_DESCRIPTION</LocID>                 <Text>Медсестра способна обеспечить различные виды ухода за пациентами.</Text>  </GameDBLocalizedString>
+
+            <!-- Nurse's SPECIALIZATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_RECEPTIONIST</LocID>                               <Text>Регистратор</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_RECEPTIONIST_DESCRIPTION</LocID>                   <Text>Регистратор - первый человек, с которым начинают общение пациенты.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_MEDICAL_SURGERY</LocID>                            <Text>Операционная медсестра</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_MEDICAL_SURGERY_DESCRIPTION</LocID>                <Text>Медсестра со специализацией в хирургии представляет собой важную часть операционной хирургической бригады.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_CLINICAL_SPECIALIST</LocID>                        <Text>Клиническая медсестра</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_CLINICAL_SPECIALIST_DESCRIPTION</LocID>            <Text>Клиническая медсестра способна выявить появление симптомов у пациента.</Text>  </GameDBLocalizedString>
+
+            
+            <!-- Lab guys QUALIFICATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_QUALIF_SCIENCE_EDUCATION</LocID>               <Text>Биохимия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_QUALIF_SCIENCE_EDUCATION_DESCRIPTION</LocID>   <Text>Знания по биохимии позволяют лаборанту проводить специальные лабораторные анализы.</Text>  </GameDBLocalizedString>
+
+            <!-- Lab guys SPECIALIZATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_BIOCHEMISTRY</LocID>                      <Text>Продвинутая биохимия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_BIOCHEMISTRY_DESCRIPTION</LocID>          <Text>Углублённая специализация по биохимии значительно увеличивает эффективность лабораторных исследований.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_RADIOLOGY</LocID>                         <Text>Радиология</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_RADIOLOGY_DESCRIPTION</LocID>             <Text>Лаборант со специализацией в радиологии способен работать с рентген-аппаратами и остальным радиологическим оборудованием.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_GIT</LocID>                               <Text>Гастроэнтерология</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_GIT_DESCRIPTION</LocID>                   <Text>Лаборант со специализацией по гастроэнтерологии способен работать с устройствами для обследований, относящимся к общей хирургии.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_USG</LocID>                               <Text>УЗИ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_USG_DESCRIPTION</LocID>                   <Text>Лаборант с специализацией УЗИ способен работать с аппаратами ультразвукового исследования.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_CARDIOLOGY</LocID>                        <Text>Кардиология</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_CARDIOLOGY_DESCRIPTION</LocID>            <Text>Лаборант со специализацией по кардиологии способен работать с устройствами для обследований, относящимися к кардиологии.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_NEUROLOGY</LocID>                         <Text>Неврология</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_NEUROLOGY_DESCRIPTION</LocID>             <Text>Лаборант со специализацией в области неврологии способен работать с устройствами для обследований, относящимся к неврологии.</Text>  </GameDBLocalizedString>
+
+            
+            <!-- Janitor QUALIFICATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_EFFICIENCY</LocID>                             <Text>Эффективность</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_EFFICIENCY_DESCRIPTION</LocID>                 <Text>Эффективность влияет на то, как хорошо уборщики будут убирать различные помещения.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_DEXTERITY</LocID>                              <Text>Ловкость</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_DEXTERITY_DESCRIPTION</LocID>                  <Text>Ловкость влияет на то, как быстро уборщики делают свою работу.</Text>  </GameDBLocalizedString>
+            
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

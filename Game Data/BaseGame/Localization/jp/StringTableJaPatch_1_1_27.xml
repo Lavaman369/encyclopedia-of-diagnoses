@@ -1,0 +1,26 @@
+<Database>
+    <GameDBStringTable ID="LOC_JA_PATCH_1_1_27">
+
+        <LanguageCode>ja</LanguageCode>
+        <LanguageNameLocalized>日本語</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            <GameDBLocalizedString>    <LocID>OPTIONS_EDGE_SCROLLING</LocID>                  <Text>エッジスクロール</Text>  </GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->
+            <GameDBLocalizedString>      <LocID>CONFIRM_SEND_PATIENT_AWAY_TITLE</LocID>       <Text>患者を移送</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CONFIRM_SEND_PATIENT_AWAY_TEXT</LocID>        <Text>本当に患者を別の病院へ送りますか？</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>POPUP_CONFIRM_SEND_PATIENT_AWAY</LocID>       <Text>移送する</Text>  </GameDBLocalizedString>
+
+         <GameDBLocalizedString>      <LocID>SYM_PLEURAL_EFFUSION_DESCRIPTION_V2</LocID>               <Text>胸水は「肺水」とも呼ばれ、胸膜（肺をおおう膜組織）の層の間に過剰体液が蓄積される症状。この過剰な体液によって肺の膨張が制限され、呼吸機能が低下する。</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

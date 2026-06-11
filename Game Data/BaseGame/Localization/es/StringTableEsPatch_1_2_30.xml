@@ -1,0 +1,31 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_ES_PATCH_1_2_30">
+
+        <LanguageCode>es</LanguageCode>
+        <LanguageNameLocalized>Español</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- DID = department of infectious diseases, the abbreviation should be the same as in the string table for department of infectious diseases itself -->
+            <GameDBLocalizedString>    <LocID>EXM_THORAX_PERCUSSION_DESCRIPTION_V2</LocID>                 <Text>Inspección que consiste en tocar el tórax para identificar zonas con menos aire dentro del mismo. \n\nSala necesaria: Cualquier despacho / Unidad de diagnóstico</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_ANTICHOLINERGICS_DESCRIPTION_V2</LocID>                  <Text>Medicamento más frecuente para el tratamiento de sudor excesivo. \n\nSala necesaria: Despacho del doctor / Sala de observaciones / UCI / Despacho / Unidad de diagnóstico en el dpto. de medicina interna / Dpto. de cardiología / Dpto. de neurología / DEI / Dpto. de traumatología</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_COLD_TILING_DESCRIPTION_V3</LocID>                       <Text>Vendas compresivas frías para calmar zonas dolorosas o inflamadas del cuerpo. \n\nSala requerida: Cualquier despacho / Unidad Diagnóstica / UCI</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_MUCOLYTICS_DESCRIPTION_V2</LocID>                        <Text>Medicamentos líquidos que ayuden a disolver y a limpiar los mocos de las vías respiratorias. \n\nSala necesaria: Despacho del doctor / Sala de observaciones / UCI / Despacho / Unidad de diagnóstico en el dpto. de medicina interna / DEI</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_SALINE_NASAL_SPRAY_DESCRIPTION_V2</LocID>                <Text>Espray nasal que limpia las cavidades nasales y mejora la ventilación en las mismas. \n\nSala necesaria: Despacho del doctor / Sala de observaciones / Despacho o Unidad del diagnóstico en DEI</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>EXM_CBC_SAMPLING_DESCRIPTION_V2</LocID>                      <Text>Una muestra de sangre para realizar un conteo sanguíneo completo (CSC). \n\nSala necesaria: Laboratorio de hematología \n\nMuestras: Departamentos de emergencias, cirugía general, medicina interna, ortopedia, neurología / UCI / DEI / Dpto. de traumatología \n\nEquipamiento necesario: Matraz + analizador hematológico</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING_DESCRIPTION_V2</LocID>    <Text>Una muestra limpia de orina tomada de tu paciente o de su catéter. \n\nSala necesaria: Laboratorio de histología \n\nMuestra: Departamentos de emergencias, cirugía general, medicina interna, cardiología / UCI / DEI / Dpto. de traumatología \n\nEquipamiento necesario: Matraz + analizador de laboratorio</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER</LocID>                                <Text>Cajonera de esquina</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER_WALL</LocID>                           <Text>Cajonera de esquina instalada en la pared</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>    <LocID>CONTROL_PROCEDURE_PATIENT_DELIVER_SAMPLE</LocID>             <Text>Entrega de muestra de laboratorio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>CONTROL_PROCEDURE_PATIENT_STAT_LAB_RESULTS</LocID>           <Text>Entrega de los resultados del laboratorio</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>    <LocID>BANNER_DLCS</LocID>                                          <Text>Juega a los DLC de Project Hospital:</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

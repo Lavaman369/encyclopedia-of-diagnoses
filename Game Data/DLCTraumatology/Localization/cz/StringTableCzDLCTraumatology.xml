@@ -1,0 +1,385 @@
+<Database>
+    <GameDBStringTable ID="LOC_CZ_DLC_TRAUMATOLOGY">
+
+        <LanguageCode>cz</LanguageCode>
+        <LanguageNameLocalized>Čeština</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>DLC_TRAUMATOLOGY</LocID>                                       <Text>Oddělení Traumatologie DLC</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DPT_TRAUMATOLOGY_DEPARTMENT</LocID>                            <Text>Traumatologie</Text>  </GameDBLocalizedString>
+
+            <!-- Hospitalization alias -->
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_BURN_CENTER</LocID>                        <Text>Hospitalizace na centru popálenin</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_BURN_CENTER_DESCRIPTION</LocID>            <Text>Hospitalizuj pacienta na centru popálenin se zvláštní péčí. \n\nPotřebná místnost: Popáleninové centrum</Text>  </GameDBLocalizedString>
+
+            <!--ROOMS-->
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_BURN_UNIT</LocID>                                    <Text>Popáleninové centrum</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_BURN_UNIT_DESCRIPTION</LocID>                        <Text>Popáleninové centrum se specializuje na léčbu popálenin všeho druhu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_TRAUMATOLOGY_OFFICE</LocID>                          <Text>Ordinace</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_TRAUMATOLOGY_OFFICE_DESCRIPTION</LocID>              <Text>Ambulantní ordinace pro jednoduchá vyšetření a ošetření. Potřebný personál:\n1x Traumatolog</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_TRAUMATOLOGY_OFFICE</LocID>                <Text>Vyšetřovna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_TRAUMATOLOGY_OFFICE_DESCRIPTION</LocID>    <Text>Vyšetřovna na Traumatologii provádí vyšetření a léčebné úkony pro hospitalizované pacienty. \n\nMin. Potřebný personál:\n1x Traumatolog \n(Vzhledem k personálu na Pracovišti lékařů)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_TRAUMATOLOGY</LocID>  <Text>Kardiografie</Text>  </GameDBLocalizedString>
+
+            <!-- SKILLS-->
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_TRAUMATOLOGY</LocID>                            <Text>Traumatolog</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_TRAUMATOLOGY_DESCRIPTION</LocID>                <Text>Traumatologové se specializují na léčbu těžkých akutních fyzických zranění která vyžadují okamžitou lékařskou pomoc.</Text>	</GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_TRAUMA_SURGERY</LocID>                          <Text>Úrazová chirurgie</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_TRAUMA_SURGERY_DESCRIPTION</LocID>              <Text>Úrazový chirurg se specializuje na komplexní chirurgické zákroky pro traumatická a polytraumatická poranění.</Text>	</GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]BuildingMode.xml -->
+            <!-- DLC OBJECTS - some objects share descriptions with other objects in the base game so only their names need to be translated -->
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_DLC_HELICOPTER_01</LocID>                     <Text>Helikoptéra</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_DLC_HELICOPTER_01_DESCRIPTION</LocID>         <Text>Helikoptéra</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_DLC_HELIPORT</LocID>                             <Text>Helikoptéra</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_DLC_HELIPORT_DESCRIPTION</LocID>                 <Text>Helikoptéra přiváží nejtěžší případy.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_MARKER_HELIPORT</LocID>                             <Text>Světlo heliportu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_HELIPAD_LIGHT_RED</LocID>                               <Text>Světlo heliportu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_HELIPAD_LIGHT_GREEN</LocID>                             <Text>Světlo heliportu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_MARKER_HELIPORT_DESCRIPTION</LocID>                 <Text>Světlo heliportu poskytuje vizuální pomoc pro noční přistání.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_TALL_X</LocID>                        <Text>Skříňka s vybavením - vysoká</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_TRAUMA1</LocID>                                  <Text>Plakát - Nehody</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_TRAUMA2</LocID>                                  <Text>Plakát - Dárci krve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LIFE_MONITOR_WALL_X</LocID>                             <Text>Monitor životních funkcí - nástěnný</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TRAUMA_TOOLS</LocID>                                    <Text>Traumatologické vybavení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TRAUMA_TOOLS_DESCRIPTION</LocID>                        <Text>Speciální set vybavení, vhodný pro všechny traumatologické ambulance a vyšetřovny.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_X</LocID>                             <Text>Skříňka s vybavením</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BED_SOCKET_X</LocID>                                    <Text>Zásuvky k posteli</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_BURN_UNIT</LocID>                                 <Text>Popáleninové centrum</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_BEDSIDE_X</LocID>                               <Text>Noční stolek</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_FUTURISTIC_BED</LocID>                        <Text>Hi-tech nemocniční postel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_FUTURISTIC_BED_DESCRIPTION</LocID>            <Text>Moderní postel se skleněnými bočnicemi.</Text>  </GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_ONLY_FLOORS_WITH_ELEVATORS</LocID>                 <Text>lze umístit pouze na patra přístupná výtahy.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_ROOF_ABOVE</LocID>                                 <Text>nelze umístit pod ostatní patra.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_TRAUMATOLOGY</LocID>                   <Text>Prefaby pro Traumatologii</Text>  </GameDBLocalizedString>
+
+
+            <!-- TILES-->
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_WHITE_ROAD</LocID>                      	     	   <Text>Bílá cesta</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_YELLOW_ROAD</LocID>                           	   <Text>Žlutá cesta</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_LINE_YELLOW</LocID>                           	   <Text>Cesta se žlutou čárou</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_LINE_WIDE_WHITE</LocID>                             <Text>Cesta s tlustou bílou čárou</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_LINE_WIDE_YELLOW</LocID>                            <Text>Cesta s tlustou žlutou čárou</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_WARNING_LINES_L</LocID>                             <Text>Varovné čáry</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_WARNING_LINES_R</LocID>                             <Text>Varovné čáry</Text>  </GameDBLocalizedString>
+
+            <!-- OCCUPATIONS-->
+            <GameDBLocalizedString>      <LocID>OCCUPATION_POLICE</LocID>                         	     	   <Text>Policista</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_FIREFIGHTER</LocID>                                 <Text>Hasič</Text>	</GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Tutorial.xml -->
+            <!-- ============== -->
+            <!--EVENTS ACCIDENTS-->
+            <!-- ============== -->
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_TD_ROBBERY</LocID>                          <Text>Právě byla nahlášena ozbrojená loupež následovaná přestřelkou v ulicích v centru města. Všichni podezřelí byli zadrženi a pohotovostní služby transportují zraněné do blízkých nemocnic. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_TD_FIRE</LocID>                             <Text>Výšková budova začala hořet v městské rezidenční čtvrti. Hasiči a policisté jsou na místě a evakuovali obyvatele. Vaše nemocnice by se měla připravit na vysoký počet popálenin.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_TD_POWERPLANT</LocID>                       <Text>V místní elektrárně došlo k výbuchu následovanému požárem. Všechny pohotovostní služby jsou již na místě a transportují zraněné do blízkých nemocnic.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_TD_TERRORIST</LocID>                        <Text>Na místním letišti právě došlo k teroristickému útoku. Policie uzavřela celou oblast, ale stále je zde spousta mrtvých a zraněných. Sanitky začaly převážet nejtěžší zranění do nejbližších nemocnic.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_TD_SHOOTOUT</LocID>                         <Text>Policejní honička s uneseným obrněným vozem skončila přestrelkou a po celé oblasti zůstaly zraněné osoby.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_TD_FOREST</LocID>                           <Text>Posádky hasičů bojují s obrovským lesním požárem, který přinutil tisíce lidí opustit jejich domovy a zanechal za sebou stovky zraněných. Nemocnice v celém regionu se musí připravit na zvýšený počet vážně zraněných pacientů.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_TD_PYRO</LocID>                             <Text>V městském přístavu explodoval sklad plný pyrotechniky, který podpálil nedaleké budovy a vážně zranil stovky lidí. Pohotovostní služby přepravují zraněné do místních nemocnic.</Text>  </GameDBLocalizedString>
+
+
+            <!--SYMPTOMS-->
+            <GameDBLocalizedString>      <LocID>SYM_LARGE_ARTERIES_DAMAGED</LocID>                    <Text>Poškození větších tepen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LARGE_ARTERIES_DAMAGED_DESCRIPTION</LocID>        <Text>Některé větší tepny jsou poškozeny a mohou způsobit život ohrožující komplikace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOXIA</LocID>                                   <Text>Hypoxie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOXIA_DESCRIPTION</LocID>                       <Text>Hypoxie je stav při snížené hladině kyslíku v krvi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOTHERMIA</LocID>                               <Text>Podchlazení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOTHERMIA_DESCRIPTION</LocID>                   <Text>Podchlazení je stav lidského organismu, kdy je tělesná teplota výrazně nízká.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FOREIGN_OBJECT_PRESENT</LocID>                    <Text>Cizí objekt přítomen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FOREIGN_OBJECT_PRESENT_DESCRIPTION</LocID>        <Text>Cizí předmět nebo jeho části jsou stále přítomny v ráně a mohou vést k vážným komplikacím.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LIVER_DAMAGED</LocID>                             <Text>Poškození jater</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LIVER_DAMAGED_DESCRIPTION</LocID>                 <Text>Vážné vnitřní poškození jater může způsobit život ohrožující komplikace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SPLEEN_DAMAGED</LocID>                            <Text>Poškození sleziny</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SPLEEN_DAMAGED_DESCRIPTION</LocID>                <Text>Vážné vnitřní poškození sleziny může způsobit život ohrožující komplikace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LUNGS_PERFORATED</LocID>                          <Text>Perforovaná plíce</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LUNGS_PERFORATED_DESCRIPTION</LocID>              <Text>Perforace (proděravění) plicních membrán a tkáně může způsobit život ohrožující komplikace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PANCREAS_DAMAGED</LocID>                          <Text>Poškození pankreatu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PANCREAS_DAMAGED_DESCRIPTION</LocID>              <Text>Vážné vnitřní poškození pankreatu (slinivky břišní) může způsobit život ohrožující komplikace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_KIDNEY_DAMAGED</LocID>                            <Text>Poškození ledviny</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_KIDNEY_DAMAGED_DESCRIPTION</LocID>                <Text>Vážné vnitřní poškození ledviny může způsobit život ohrožující komplikace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STOMACH_PERFORATED</LocID>                        <Text>Perforace žaludku</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STOMACH_PERFORATED_DESCRIPTION</LocID>            <Text>Perforace (proděravění) žaludku může způsobit život ohrožující komplikace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SMALL_INTESTINE_PERFORATED</LocID>                <Text>Perforace tenkého střeva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SMALL_INTESTINE_PERFORATED_DESCRIPTION</LocID>    <Text>Vážná perforace (proděravění) tenkého střeva může způsobit život ohrožující komplikace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LARGE_INTESTINE_PERFORATED</LocID>                <Text>Perforace tlustého střeva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LARGE_INTESTINE_PERFORATED_DESCRIPTION</LocID>    <Text>Vážná perforace (proděravění) tlustého střeva může způsobit život ohrožující komplikace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TIBIAL_FRACTURE</LocID>                           <Text>Fraktura tibie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TIBIAL_FRACTURE_DESCRIPTION</LocID>               <Text>Zlomenina holenní kosti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FEMORAL_FRACTURE</LocID>                          <Text>Fraktura femuru</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FEMORAL_FRACTURE_DESCRIPTION</LocID>              <Text>Zlomenina stehenní kosti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ULNAR_FRACTURE</LocID>                            <Text>Fraktura ulny</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ULNAR_FRACTURE_DESCRIPTION</LocID>                <Text>Zlomenina loketní kosti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RADIAL_FRACTURE</LocID>                           <Text>Fraktura radia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RADIAL_FRACTURE_DESCRIPTION</LocID>               <Text>Zlomenina vřetenní kosti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HUMERAL_FRACTURE</LocID>                          <Text>Fraktura humeru</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HUMERAL_FRACTURE_DESCRIPTION</LocID>              <Text>Zlomenina kosti pažní.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FRAGMENTED_RIBS</LocID>                           <Text>Zlomená žebra</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FRAGMENTED_RIBS_DESCRIPTION</LocID>               <Text>Zlomenina jednoho nebo více žeber.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLISTERS</LocID>                                  <Text>Puchýře</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLISTERS_DESCRIPTION</LocID>                      <Text>Malá kapsa s tekutinou v prostoru mezi horní vrstvou kůže (epidermis) a vrstvami pod ní, nejčastěji způsobená poškozením kůže třením nebo teplem.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DESQUAMATION</LocID>                              <Text>Deskvamace</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DESQUAMATION_DESCRIPTION</LocID>                  <Text>Odlupování vnějších membrán buněk kůže v podobě drobných šupinek.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DARK_SKIN</LocID>                                 <Text>Tmavá kůže</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DARK_SKIN_DESCRIPTION</LocID>                     <Text>Abnormální ztmavnutí kůže.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NECROSIS</LocID>                                  <Text>Nekróza</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NECROSIS_DESCRIPTION</LocID>                      <Text>Předčasná smrt tkáně způsobená vlastními enzymy. Nastává, když do tkáně proudí příliš málo krve. Může být způsobena úrazem, zářením nebo chemikáliemi. Nekróza je nezvratná.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>SYM_GUNSHOT_WOUND</LocID>                             <Text>Střelná rána</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_GUNSHOT_WOUND_DESCRIPTION</LocID>                 <Text>Vstupní nebo vstupní i výstupní rána způsobená střelou vystřelenou ze střelné zbraně.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BALLISTIC_WOUND</LocID>                           <Text>Balistická rána</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BALLISTIC_WOUND_DESCRIPTION</LocID>               <Text>Vstupní nebo vstupní i výstupní rána způsobená vysokorychlostním projektilem.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STAB_WOUND</LocID>                                <Text>Bodná rána</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STAB_WOUND_DESCRIPTION</LocID>                    <Text>Rána způsobená bodnutím.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PENETRATING_WOUND</LocID>                         <Text>Protržení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PENETRATING_WOUND_DESCRIPTION</LocID>             <Text>Rána způsobená vniknutím cizího předmětu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLAST_WOUND</LocID>                               <Text>Rána od exploze</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLAST_WOUND_DESCRIPTION</LocID>                   <Text>Rána nebo rány způsobené výbuchem.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BURN_WOUND</LocID>                                <Text>Popálenina</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BURN_WOUND_DESCRIPTION</LocID>                    <Text>Popálenina způsobená teplem, chladem, elektřinou, chemikáliemi, třením nebo zářením postihující pokožku nebo jiné tkáně.</Text>  </GameDBLocalizedString>
+
+            <!--DIAGNOSES-->
+            <!--migrated-->
+            <GameDBLocalizedString>      <LocID>TRM_PLPX</LocID>                   <Text>Natržení plic</Text>  </GameDBLocalizedString>
+
+            <!--brand new-->
+            <GameDBLocalizedString>      <LocID>TRM_003</LocID>                    <Text>Hepatosplenická lacerace</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_003_DESCRIPTION</LocID>        <Text>Nastane, když cizí předmět pronikne do těla a poškodí játra a slezinu současně.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_004</LocID>                    <Text>Splenopankreatická lacerace</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_004_DESCRIPTION</LocID>        <Text>Nastane, když cizí předmět pronikne do těla a poškodí slezinu a slinivku břišní současně.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_005</LocID>                    <Text>Postřelení v horní části břicha</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_005_DESCRIPTION</LocID>        <Text>Fyzické trauma způsobené kulkou ze střelné zbraně - pronikající do horní části břicha pacienta.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_006</LocID>                    <Text>Balistické poranění břicha</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_006_DESCRIPTION</LocID>        <Text>Balistické trauma způsobené letícím projektilem s vysokou rychlostí končící komplexními poraněními skeletu, cév a nervů s velkými defekty měkkých tkání - postižena je břišní oblast pacienta.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_007</LocID>                    <Text>Postřelení hrudníku</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_007_DESCRIPTION</LocID>        <Text>Fyzické trauma způsobené kulkou ze střelné zbraně pronikající do hrudníku pacienta.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_008</LocID>                    <Text>Balistické poranění krku</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_008_DESCRIPTION</LocID>        <Text>Balistické trauma způsobené letícím projektilem s vysokou rychlostí končícími komplexními poraněními skeletu, cév a nervů s velkými defekty měkkých tkání - postižena je krční oblast pacienta.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_009</LocID>                    <Text>Balistické poranění ruky</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_009_DESCRIPTION</LocID>        <Text>Balistické trauma způsobené letícím projektilem s vysokou rychlostí končícími komplexními poraněními skeletu, cév a nervů s velkými defekty měkkých tkání - postižena je horní končetina pacienta.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_010</LocID>                    <Text>alistické poranění nohy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_010_DESCRIPTION</LocID>        <Text>Balistické trauma způsobené letícím projektilem s vysokou rychlostí končícími komplexními poraněními skeletu, cév a nervů s velkými defekty měkkých tkání - postižena je dolní končetina pacienta.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_011</LocID>                    <Text>Tříštívé poranění břicha</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_011_DESCRIPTION</LocID>        <Text>Polytraumatická penetrace objektem, který prorazí kůži a vstoupí do těla, se silným poškozením všech sousedních struktur a orgánů.</Text>  </GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_012</LocID>                    <Text>Pobodání břicha</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_012_DESCRIPTION</LocID>        <Text>Bodná rána je specifická forma pronikajícího poranění kůže, která je výsledkem působení nože nebo podobného ostrého předmětu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_013</LocID>                    <Text>Pobodání hrudníku</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_013_DESCRIPTION</LocID>        <Text>Bodná rána je specifická forma pronikajícího poranění kůže, která je výsledkem působení nože nebo podobného ostrého předmětu.</Text>  </GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_014</LocID>                    <Text>Tříštivé poranění krku</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_014_DESCRIPTION</LocID>        <Text>Polytraumatická penetrace objektem, který prorazí kůži a vstoupí do těla, se silným poškozením všech sousedních struktur a orgánů.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_015</LocID>                    <Text>Tříštivé poranění ruky</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_015_DESCRIPTION</LocID>        <Text>Polytraumatická penetrace objektem, který prorazí kůži a vstoupí do těla, se silným poškozením všech sousedních struktur a orgánů.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_016</LocID>                    <Text>Tříštivé poranění nohy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_016_DESCRIPTION</LocID>        <Text>Polytraumatická penetrace objektem, který prorazí kůži a vstoupí do těla, se silným poškozením všech sousedních struktur a orgánů.</Text>  </GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_017</LocID>                    <Text>Poranění břicha z exploze</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_017_DESCRIPTION</LocID>        <Text>Poranění z exploze je komplexní druh fyzického traumatu způsobeného přímým nebo nepřímým vystavením výbuchu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_018</LocID>                    <Text>Poranění hrudníku z exploze</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_018_DESCRIPTION</LocID>        <Text>Poranění z exploze je komplexní druh fyzického traumatu způsobeného přímým nebo nepřímým vystavením výbuchu.</Text>  </GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_019</LocID>                    <Text>Mírné omrzliny na rukou</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_019_DESCRIPTION</LocID>        <Text>Omrzliny jsou potenciálně vážná zranění způsobená vystavením částí těla teplotám pod bodem mrazu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_020</LocID>                    <Text>Silné omrzliny na rukou</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_020_DESCRIPTION</LocID>        <Text>Omrzliny jsou potenciálně vážná zranění způsobená vystavením částí těla teplotám pod bodem mrazu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_021</LocID>                    <Text>Mírné omrzliny na nohou</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_021_DESCRIPTION</LocID>        <Text>Omrzliny jsou potenciálně vážná zranění způsobená vystavením částí těla teplotám pod bodem mrazu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_022</LocID>                    <Text>Silné omrzliny na nohou</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_022_DESCRIPTION</LocID>        <Text>Omrzliny jsou potenciálně vážná zranění způsobená vystavením částí těla teplotám pod bodem mrazu.</Text>  </GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_023</LocID>                    <Text>Chemická popálenina ruky</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_023_DESCRIPTION</LocID>        <Text>Chemické popáleniny způsobené kontaktem s kyselinou, zásadou nebo oxidačním činidlem, které mohou způsobit rozsáhlé poškození tkání.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_024</LocID>                    <Text>Chemická popálenina torza</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_024_DESCRIPTION</LocID>        <Text>Chemické popáleniny způsobené kontaktem s kyselinou, zásadou nebo oxidačním činidlem, které mohou způsobit rozsáhlé poškození tkání.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRM_025</LocID>                    <Text>Zásah bleskem</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_025_DESCRIPTION</LocID>        <Text>Vzácné zranění způsobené přímým nebo nepřímým zásahem bleskem.</Text>  </GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_026</LocID>                    <Text>Popálenina z vysokého napětí</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_026_DESCRIPTION</LocID>        <Text>Popáleniny elektrickým proudem jsou důsledkem průchodu elektřiny tělem. Na rozdíl od viditelných tepelných nebo chemických popálenin způsobuje větší poškození pod pokožkou.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_032</LocID>                    <Text>Popálenina z nízkého napětí</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_032_DESCRIPTION</LocID>        <Text>Popáleniny elektrickým proudem jsou důsledkem průchodu elektřiny tělem. Na rozdíl od viditelných tepelných nebo chemických popálenin způsobuje větší poškození pod pokožkou.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRM_027</LocID>                    <Text>Radiační dermatitida</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_027_DESCRIPTION</LocID>        <Text>Radiační dermatitida, známá také jako rentgenová dermatitida, je vedlejším účinkem radiační terapie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_028</LocID>                    <Text>Popálenina mikrovlnami</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_028_DESCRIPTION</LocID>        <Text>Popáleniny způsobené mikrovlnným zářením. Na rozdíl od jiných popálenin radiací je poškození mikrovlnným zářením způsobeno teplem.</Text>  </GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_029</LocID>                    <Text>Popálenina ruky</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_029_DESCRIPTION</LocID>        <Text>Popáleniny jsou způsobeny kontaktem s horkým předmětem nebo kapalinou.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_030</LocID>                    <Text>Popálenina nohy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_030_DESCRIPTION</LocID>        <Text>Popáleniny jsou způsobeny kontaktem s horkým předmětem nebo kapalinou.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_031</LocID>                    <Text>Závažná popálenina</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_031_DESCRIPTION</LocID>        <Text>Popáleniny jsou způsobeny kontaktem s horkým předmětem nebo kapalinou.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRM_033</LocID>                    <Text>Úžeh</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_033_DESCRIPTION</LocID>        <Text>Červená bolestivá kůže, která se objeví po nadměrném vystavení ultrafialovému světlu, ať už ze slunečního záření nebo z umělých zdrojů.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRM_034</LocID>                    <Text>Kousnutí jedovatým pavoukem</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_034_DESCRIPTION</LocID>        <Text>Kousnutí jedovatých pavouků provází drobné červené hrbolky, které jsou někdy bolestivé a svědící. Jed může také způsobit závažnější příznaky.</Text>  </GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_035</LocID>                    <Text>Uštknutí chřestýšem</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_035_DESCRIPTION</LocID>        <Text>Uštknutí hadem obvykle zanechá dvě bodné rány od tesáků. Určení druhu hada a poskytnutí správného protijedu je naléhavým úkolem.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_036</LocID>                    <Text>Uštknutí ploskolebcem</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_036_DESCRIPTION</LocID>        <Text>Uštknutí hadem obvykle zanechá dvě bodné rány od tesáků. Určení druhu hada a poskytnutí správného protijedu je naléhavým úkolem.</Text>  </GameDBLocalizedString>
+
+            <!--MAIN SYMPTOMS-->
+            <GameDBLocalizedString>      <LocID>SYM_PENETRATING_PULMONARY_LACERATION_X</LocID>              <Text>Ostré natržení plic</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PENETRATING_PULMONARY_LACERATION_X_DESCRIPTION</LocID>  <Text>Vážné poškození plic v důsledku ostrého poranění.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LIVER_AND_SPLEEN_LACERATED</LocID>                      <Text>Protržení jater a sleziny</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LIVER_AND_SPLEEN_LACERATED_DESCRIPTION</LocID>          <Text>Pacientova játra a slezina jsou vážně poraněny.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SPLEEN_AND_PANCREAS_LACERATED</LocID>                   <Text>Protržení pankreatu a sleziny</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SPLEEN_AND_PANCREAS_LACERATED_DESCRIPTION</LocID>       <Text>Pacientova slezina a slinivka břišní jsou vážně poraněny.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_ABDOMEN_GUNSHOT</LocID>                           <Text>Kavitace v horní části břicha</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_ABDOMEN_GUNSHOT_DESCRIPTION</LocID>               <Text>Střelná rána v oblasti horní části břicha pacienta s poškozenou tkání, dutinou vytvořenou letícím projektilem a vysokým rizikem poškození dalších orgánů.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_ABDOMEN_BALLISTICS</LocID>                        <Text>Kavitace v dolní části břicha</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_ABDOMEN_BALLISTICS_DESCRIPTION</LocID>            <Text>Zásah vysokorychlostním projektilem v oblasti dolní části břicha pacienta s poškozenou tkání, dutinou vytvořenou letícím projektilem a vysokým rizikem poškození dalších orgánů.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEST_GUNSHOT</LocID>                                   <Text>Kavitace hrudníku</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEST_GUNSHOT_DESCRIPTION</LocID>                       <Text>Střelná rána v oblasti hrudníku pacienta s poškozenou tkání, dutinou vytvořenou letícím projektilem a vysokým rizikem poškození dalších orgánů.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NECK_BALLISTIC_WOUND</LocID>                            <Text>Kavitace v krční oblasti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NECK_BALLISTIC_WOUND_DESCRIPTION</LocID>                <Text>Rána z vysokorychlostního projektilu v krční oblasti pacienta s poškozenou tkání, dutinou vytvořenou letícím projektilem a vysokým rizikem poškození dalších struktur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_LIMB_BALLISTIC_WOUND</LocID>                      <Text>Kavitace horní končetiny</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_LIMB_BALLISTIC_WOUND_DESCRIPTION</LocID>          <Text>Rána z vysokorychlostního projektilu v oblasti horní končetiny pacienta s poškozenou tkání, dutinou vytvořenou letícím projektilem a vysokým rizikem poškození dalších struktur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_LIMB_BALLISTIC_WOUND</LocID>                      <Text>Kavitace dolní končetiny</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_LIMB_BALLISTIC_WOUND_DESCRIPTION</LocID>          <Text>Rána z vysokorychlostního projektilu v oblasti dolní končetiny pacienta s poškozenou tkání, dutinou vytvořenou letícím projektilem a vysokým rizikem poškození dalších struktur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_ABDOMEN_PENETRATING</LocID>                       <Text>Poranění horní části břicha</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_ABDOMEN_PENETRATING_DESCRIPTION</LocID>           <Text>Rozsáhlá rána v oblasti horní části břicha pacienta s vysokým rizikem poškození více orgánů a struktur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_ABDOMEN_STAB</LocID>                              <Text>Pobodání podbrišku</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_ABDOMEN_STAB_DESCRIPTION</LocID>                  <Text>Bodná rána v oblasti podbřišku pacienta s vysokým rizikem poškození více orgánů a struktur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEST_STAB</LocID>                                      <Text>Pobodání hrudníku</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEST_STAB_DESCRIPTION</LocID>                          <Text>Bodná rána v oblasti hrudníku pacienta s vysokým rizikem poškození více orgánů a struktur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NECK_PENETRATING</LocID>                                <Text>Poranění krku</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NECK_PENETRATING_DESCRIPTION</LocID>                    <Text>Rozsáhlá rána v oblasti krku pacienta s vysokým rizikem poškození více struktur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_LIMB_PENETRATING</LocID>                          <Text>Poranění horní končetiny</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_LIMB_PENETRATING_DESCRIPTION</LocID>              <Text>Rozsáhlá rána na horní končetině pacienta s vysokým rizikem poškození více struktur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_LIMB_PENETRATING</LocID>                          <Text>Poranění dolní končetiny</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_LIMB_PENETRATING_DESCRIPTION</LocID>              <Text>Rozsáhlá rána na dolní končetině pacienta s vysokým rizikem poškození více struktur.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ABDOMINAL_TRAUMA_EXPLOSION</LocID>                      <Text>Poranění břicha</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ABDOMINAL_TRAUMA_EXPLOSION_DESCRIPTION</LocID>          <Text>Pacient byl vystaven explozi, která zasáhla jeho břicho.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEST_TRAUMA_EXPLOSION</LocID>                          <Text>Poranění hrudníku</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEST_TRAUMA_EXPLOSION_DESCRIPTION</LocID>              <Text>Pacientovu hruď zasáhla exploze, která způsobila rozsáhlé poškození.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MILD_FROSTBITE_HAND</LocID>                             <Text>Mírné omrzliny na rukou</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MILD_FROSTBITE_HAND_DESCRIPTION</LocID>                 <Text>Mírná forma omrzliny lokalizovaná na rukou pacienta.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_FROSTBITE_HAND</LocID>                           <Text>Silné omrzliny na rukou</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_FROSTBITE_HAND_DESCRIPTION</LocID>               <Text>Silná forma omrzliny lokalizovaná na rukou pacienta.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MILD_FROSTBITE_LEG</LocID>                              <Text>Mírné omrzliny na nohou</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MILD_FROSTBITE_LEG_DESCRIPTION</LocID>                  <Text>Mírná forma omrzliny lokalizovaná na nohou pacienta.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_FROSTBITE_LEG</LocID>                            <Text>Silné omrzliny na nohou</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_FROSTBITE_LEG_DESCRIPTION</LocID>                <Text>Silná forma omrzliny lokalizovaná na nohou pacienta.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEMICAL_BURN_ARM</LocID>                               <Text>Chemické popáleniny na paži</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEMICAL_BURN_ARM_DESCRIPTION</LocID>                   <Text>Popálenina způsobená vystavením se agresivním chemikáliím, lokalizovaná na pacientově paži.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEMICAL_BURN_TORSO</LocID>                             <Text>Chemické popáleniny na trupu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEMICAL_BURN_TORSO_DESCRIPTION</LocID>                 <Text>Popálenina způsobená vystavením se agresivním chemikáliím, lokalizovaná na pacientovém trupu.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SKIN_LESION_LIGHTNING</LocID>                           <Text>Rána po zásahu bleskem</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SKIN_LESION_LIGHTNING_DESCRIPTION</LocID>               <Text>Kožní léze způsobené přímým úderem blesku.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SUBDERMAL_TISSUE_DAMAGED</LocID>                        <Text>Podkožní vazivo poškozeno</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SUBDERMAL_TISSUE_DAMAGED_DESCRIPTION</LocID>            <Text>Subdermální (nacházející se pod kůží) vazivo je poškozeno.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PIGMENTATION_CHANGES</LocID>                            <Text>Pigmentační změny</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PIGMENTATION_CHANGES_DESCRIPTION</LocID>                <Text>Byly objeveny závažné změny pigmentace.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SKIN_AND_FAT_TISSUE_DAMAGED</LocID>                     <Text>Poškozená kůže a tuková tkáň</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SKIN_AND_FAT_TISSUE_DAMAGED_DESCRIPTION</LocID>         <Text>Kůže a tuková tkáň mezi spálenou a nespálenou oblastí vykazují značné poškození.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THERMAL_BURN_ARM</LocID>                                <Text>Popálení paže</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THERMAL_BURN_ARM_DESCRIPTION</LocID>                    <Text>Známky tepelného popálení lokalizované na pacientově paži.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THERMAL_BURN_LEG</LocID>                                <Text>Popálení nohy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THERMAL_BURN_LEG_DESCRIPTION</LocID>                    <Text>Známky tepelného popálení lokalizované na pacientově noze.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_THERMAL_BURN</LocID>                             <Text>Závažné popálení</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_THERMAL_BURN_DESCRIPTION</LocID>                 <Text>Známky závažného tepelného popálení.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOW_VOLTAGE_BURN</LocID>                                <Text>Popálenina od nízkého napětí</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOW_VOLTAGE_BURN_DESCRIPTION</LocID>                    <Text>Popálenina způsobená vystavením nízkonapěťové elektřině.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SUNBURNED_SKIN</LocID>                                  <Text>Sluncem spálená kůže</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SUNBURNED_SKIN_DESCRIPTION</LocID>                      <Text>Kožní tkáň spálená při dlouhodobém vystavení přímému slunečnímu záření.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLACK_WIDOW_BITE</LocID>                                <Text>Kousnutí černé vdovy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLACK_WIDOW_BITE_DESCRIPTION</LocID>                    <Text>Kousnuti jedovatého pavouka.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RATTLESNAKE_BITE</LocID>                                <Text>Uštknutí chřestýše</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RATTLESNAKE_BITE_DESCRIPTION</LocID>                    <Text>Uštknutí jedovatým hadem.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COPPERHEAD_SNAKE_BITE</LocID>                           <Text>Uštknutí ploskolebce</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COPPERHEAD_SNAKE_BITE_DESCRIPTION</LocID>               <Text>Uštknutí jedovatým hadem.</Text>  </GameDBLocalizedString>
+
+            <!--TREATMENTS-->
+            <GameDBLocalizedString>      <LocID>TRT_ANTIVENOM</LocID>                                       <Text>Protijed</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIVENOM_DESCRIPTION</LocID>                           <Text>Léčba pomocí protilátek, které se vážou na specifický jed a neutralizují jej. \n\nPožadovaná místnost: Ordinace/Vyšetřovna na Traumatologii / JIP</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CONCETRATED_OXYGEN</LocID>                              <Text>Koncentrovaný kyslík</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CONCETRATED_OXYGEN_DESCRIPTION</LocID>                  <Text>Terapie založená na dýchání koncentrovaného kyslíku. \n\nPožadovaná místnost: Ordinace/Vyšetřovna / Popáleninové centrum na Traumatologii / JIP / Trauma centrum na Pohotovosti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_WARMED_IV_FLUIDS</LocID>                                <Text>Zahřáté IV tekutiny</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_WARMED_IV_FLUIDS_DESCRIPTION</LocID>                    <Text>Intravenózní tekutiny používané k léčbě podchlazení se zahřívají na teplotu 38-45 °C / 100-113 °F. \n\nPožadovaná místnost: Popáleninové centrum na Traumatologii / JIP</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PROTECTIVE_DRESSING</LocID>                             <Text>Ochranný obvaz</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PROTECTIVE_DRESSING_DESCRIPTION</LocID>                 <Text>Ochranný obvaz. \n\nPožadovaná místnost: Ordinace/Vyšetřovna / Popáleninové centrum na Traumatologii / JIP / Trauma centrum na Pohotovosti</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_DEBRIDEMENT</LocID>                                     <Text>Debridement</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_DEBRIDEMENT_DESCRIPTION</LocID>                         <Text>Lékařské odstranění odumřelé tkáně. \n\nPožadovaná místnost: Ordinace/Vyšetřovna / Popáleninové centrum na Traumatologii / JIP / Trauma centrum na Pohotovosti</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BURN_MANAGEMENT</LocID>                                 <Text>Ošetření popálenin</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BURN_MANAGEMENT_DESCRIPTION</LocID>                     <Text>Lékařský postup k léčbě různých druhů popálenin. \n\nPožadovaná místnost: Ordinace/Vyšetřovna/ Popáleninové centrum na Traumatologii / JIP / Trauma centrum na Pohotovosti</Text>	</GameDBLocalizedString>
+
+            <!--SURGERIES-->
+            <GameDBLocalizedString>      <LocID>TRT_SPLENECTOMY</LocID>                                     <Text>Splenektomie</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SPLENECTOMY_DESCRIPTION</LocID>                         <Text>Chirurgický zákrok k odstranění poškozené nebo narušené sleziny. \n\nPožadovaná místnost: Operační sál na Traumatologii + JIP</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HEPATOPLASTY</LocID>                                    <Text>Hepatoplastika</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HEPATOPLASTY_DESCRIPTION</LocID>                        <Text>Chirurgický zákrok, který léčí játra nebo jejich část. \n\nPožadovaná místnost: Operační sál na Traumatologii + JIP</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_GASTRIC_PERFORATION_REPAIR</LocID>                      <Text>Operace perforace žaludku</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_GASTRIC_PERFORATION_REPAIR_DESCRIPTION</LocID>          <Text>Chirurgický zákrok k uzavření perforace v žaludku. \n\nPožadovaná místnost: Operační sál na Traumatologii + JIP</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SMALL_BOWEL_RESECTION</LocID>                           <Text>Resekce tenkého střeva</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SMALL_BOWEL_RESECTION_DESCRIPTION</LocID>               <Text>Chirurgický zákrok, při kterém se odstraní část tenkého střeva. \n\nPožadovaná místnost: Operační sál na Traumatologii + JIP</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BOWEL_RESECTION</LocID>                                 <Text>Resekce tlustého střeva</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BOWEL_RESECTION_DESCRIPTION</LocID>                     <Text>Chirurgický zákrok, při kterém se odstraní malá část tlustého střeva. \n\nPožadovaná místnost: Operační sál na Traumatologii + JIP</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PANCREATICOPLASTY</LocID>                               <Text>Pankreatikoplastika</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PANCREATICOPLASTY_DESCRIPTION</LocID>                   <Text>Chirurgický zákrok, který léčí slinivku nebo její část. \n\nPožadovaná místnost: Operační sál na Traumatologii + JIP</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_SURGERY</LocID>                                  <Text>Traum. operace trupu</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_SURGERY_ARM</LocID>                              <Text>Traum. operace paže</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_SURGERY_LEG</LocID>                              <Text>Traum. operace nohy</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_SURGERY_DESCRIPTION</LocID>                      <Text>Traumatologická operace pacientů s akutními, život ohrožujícími nebo potenciálně život ohrožujícími chirurgickými stavy. \n\nPožadovaná místnost: Operační sál na Traumatologii + JIP</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_LAPAROSCOPIC_PYELOPLASTY</LocID>                        <Text>Laparoskopická pyeloplastika</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_LAPAROSCOPIC_PYELOPLASTY_DESCRIPTION</LocID>            <Text>Minimálně invazivní chirurgický zákrok, který léčí ledviny. \n\nPožadovaná místnost: Operační sál na Traumatologii + JIP</Text>	</GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_FRACTURE_SURGERY_ARM</LocID>                     <Text>Traum. operace zlomenin - paže</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_FRACTURE_SURGERY_ARM_DESCRIPTION</LocID>         <Text>Chirurgický zákrok, který opravuje zlomené kosti. \n\nPožadovaná místnost: Operační sál na Traumatologii + JIP</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_FRACTURE_SURGERY_LEG</LocID>                     <Text>Traum. operace zlomenin - noha</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_FRACTURE_SURGERY_LEG_DESCRIPTION</LocID>         <Text>Chirurgický zákrok, který opravuje zlomené kosti. \n\nPožadovaná místnost: Operační sál na Traumatologii + JIP</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_FRACTURE_SURGERY_THORAX</LocID>                  <Text>Traum. operace zlomenin - trup</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_FRACTURE_SURGERY_THORAX_DESCRIPTION</LocID>      <Text>Chirurgický zákrok, který opravuje zlomené kosti. \n\nPožadovaná místnost: Operační sál na Traumatologii + JIP</Text>	</GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRT_VASCULAR_SURGERY</LocID>                                <Text>Cévní chirurgie</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_VASCULAR_SURGERY_DESCRIPTION</LocID>                    <Text>Chirurgický zákrok k šití a fixaci poškozených tepen. \n\nPožadovaná místnost: Operační sál na Traumatologii + JIP</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PULMONARY_SURGERY_X</LocID>                             <Text>Plicní chirurgie</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PULMONARY_SURGERY_X_DESCRIPTION</LocID>                 <Text>Plicní chirurgie je chirurgický zákrok prováděný k opravě nebo odstranění částí poškozené plicní tkáně. \n\nPožadovaná místnost: Operační sál na Traumatologii + JIP</Text>	</GameDBLocalizedString>
+
+            <!-- todo dlc related trt and exams - not to translate by qloc, do it manually-->
+            <GameDBLocalizedString>      <LocID>EXM_OPHTHALMOSCOPY_DESCRIPTION</LocID>                      <Text>Rutinní vyšetření očí, které se používá k prohlédnutí očního pozadí. \n\nPotřebná místnost: Ordinace / Vyšetřovna / Pokoj - pozorování / Trauma centrum / JIP / na Pohotovosti / JIP / Interně / Neurologii / Traumatologii</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRT_ANTI_ARRHYTMICALS_DESCRIPTION_V2</LocID>                <Text>Léčiva obvykle podávaná intravenózně k potlačení abnormálních rytmů srdce. \n\nPotřebná místnost: JIP / Jakákoliv Ordinace / Vyšetřovna na Pohotovosti / Chirurgii / Interně / Neurologii / Traumatologii</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_WOUND_CLOSURE_DESCRIPTION_V2</LocID>                    <Text>Šití... \n\nPotřebná místnost:  Ordinace / Pokoj - pozorovací / Trauma centrum / JIP / Ordinace/Vyšetřovna na Ortopedii / Traumatologii</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ACE_INHIBITOR_DESCRIPTION</LocID>                       <Text>Léčivo používané mimo jiné k snížení vysokého krevního tlaku. \n\nPotřebná místnost: Jakákoliv Ordinace / Vyšetřovna na všech odděleních kromě Pohotovosti a Infekčního</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIHISTAMINES_DESCRIPTION</LocID>                      <Text>Léčivé přípravky proti alergii, působí proti aktivitě histaminových receptorů v lidském těle. \n\nPotřebná místnost: Ordinace / Pokoj - pozorování / Vyšetřovna / JIP / na Chirurgii / Interně / Neurologii / Traumatologii</Text>  </GameDBLocalizedString>
+
+            <!--SCENARIO-->
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_J</LocID>                            <Text>Traumatologie: Velká nemocnice</Text>	</GameDBLocalizedString>
+
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>

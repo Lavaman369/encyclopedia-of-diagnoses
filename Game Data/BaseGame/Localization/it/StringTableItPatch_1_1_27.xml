@@ -1,0 +1,27 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_IT_PATCH_1_1_27">
+
+        <LanguageCode>it</LanguageCode>
+        <LanguageNameLocalized>Italiano</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+			<Name>neoxes</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            <GameDBLocalizedString>    <LocID>OPTIONS_EDGE_SCROLLING</LocID>                  <Text>Scorrimento ai bordi</Text>  </GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->
+            <GameDBLocalizedString>      <LocID>CONFIRM_SEND_PATIENT_AWAY_TITLE</LocID>       <Text>Trasferire un paziente.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CONFIRM_SEND_PATIENT_AWAY_TEXT</LocID>        <Text>Si vuole davvero trasferire questo paziente in un altro ospedale?</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>POPUP_CONFIRM_SEND_PATIENT_AWAY</LocID>       <Text>Trasferire</Text>  </GameDBLocalizedString>
+
+         <GameDBLocalizedString>      <LocID>SYM_PLEURAL_EFFUSION_DESCRIPTION_V2</LocID>               <Text>Il versamento pleurico, o acqua nei polmoni, è una condizione patologica caratterizzata dalla presenza di un accumulo anomalo di fluido all'interno della cavità pleurica, tra gli strati della pleura (le membrane che avvolgono e rivestono i polmoni), che può impedire la respirazione e limitare l'espansione dei polmoni. In base all'analisi del liquido pleurico si distinguno due tipi di versamenti, trasudativi o essudativi. Il trasudato pleurico è un liquido trasparente, a bassa concentrazione proteica e cellulare, derivato dal plasma in seguito a variazioni della pressione o delle permeabilità capillare, oppure per fenomeni di stasi della circolazione venosa o linfatica. L'essudato pleurico è un liquido torbido, ad elevata concentrazione proteica e cellulare, che si forma durante i processi infiammatori acuti.</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

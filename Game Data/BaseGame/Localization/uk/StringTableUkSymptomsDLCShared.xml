@@ -1,0 +1,28 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_UK_SYMPTOMS_DLC_SHARED">
+
+        <LanguageCode>uk</LanguageCode>
+        <LanguageNameLocalized>Українська</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>SYM_ESCHAR</LocID>                                    <Text>Струп</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ESCHAR_DESCRIPTION</LocID>                        <Text>Мертва тканина на поверхні рани.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VIREMIA</LocID>                                   <Text>Віремія</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VIREMIA_DESCRIPTION</LocID>                       <Text>Віремія — це медичний стан, при якому у кров пацієнта потрапляють віруси.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DISTRIBUTIVE_SHOCK</LocID>                        <Text>Розподільний шок</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DISTRIBUTIVE_SHOCK_DESCRIPTION</LocID>            <Text>Розподільний шок виникає через аномальний розподіл потоку крові у найменших кровоносних судинах.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOVOLEMIA</LocID>                               <Text>Гіповолемія</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOVOLEMIA_DESCRIPTION</LocID>                   <Text>Стан, який вирізняється зменшеним внутрішньосудинним об'ємом — втратою позаклітинної рідини.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TACHYPNEA</LocID>                                 <Text>Тахіпнея</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TACHYPNEA_DESCRIPTION</LocID>                     <Text>Швидке дихання, яке є реакцією організму на підвищену концентрацію двуокису вуглецю.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRADYPNEA</LocID>                                 <Text>Брадіпнея</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRADYPNEA_DESCRIPTION</LocID>                     <Text>Аномально повільне дихання.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOXEMIA</LocID>                                 <Text>Гіпоксемія</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOXEMIA_DESCRIPTION</LocID>                     <Text>Гіпоксемія — це медичний стан, при якому в крові аномально низький рівень кисня.</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

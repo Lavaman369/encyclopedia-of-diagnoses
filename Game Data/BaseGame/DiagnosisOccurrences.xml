@@ -1,0 +1,13 @@
+﻿<Database>
+    <GameDBDiagnosisOccurrence ID="OCCURRENCE_COMMON">
+        <OccurrenceRate>100</OccurrenceRate>
+    </GameDBDiagnosisOccurrence>
+    
+    <GameDBDiagnosisOccurrence ID="OCCURRENCE_UNCOMMON">
+        <OccurrenceRate>75</OccurrenceRate>
+    </GameDBDiagnosisOccurrence>
+    
+    <GameDBDiagnosisOccurrence ID="OCCURRENCE_RARE">
+        <OccurrenceRate>50</OccurrenceRate>
+    </GameDBDiagnosisOccurrence>
+</Database>

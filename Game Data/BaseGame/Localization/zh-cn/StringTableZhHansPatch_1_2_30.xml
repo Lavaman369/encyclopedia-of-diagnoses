@@ -1,0 +1,32 @@
+<Database>
+    <GameDBStringTable ID="LOC_ZHHANS_PATCH_1_2_30">
+
+        <LanguageCode>zh-Hans</LanguageCode>
+        <LanguageNameLocalized>简体中文</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- DID = department of infectious diseases, the abbreviation should be the same as in the string table for department of infectious diseases itself -->
+            <GameDBLocalizedString>    <LocID>EXM_THORAX_PERCUSSION_DESCRIPTION_V2</LocID>                 <Text>基于系统地敲击胸部以确定胸腔内气体较少区域的检查。\n\n需求房间：任何门诊室/诊断室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_ANTICHOLINERGICS_DESCRIPTION_V2</LocID>                  <Text>治疗多汗症最常用的药物。\n\n需求房间：医生办公室/观察室/重症监护室/内科/心脏科/神经内科/传染病科/创伤科的门诊室/诊断室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_COLD_TILING_DESCRIPTION_V3</LocID>                       <Text>冰敷可以有效缓解受伤部位的肿胀，减轻疼痛感。\n\n需求房间：任何门诊室/诊断室/重症监护室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_MUCOLYTICS_DESCRIPTION_V2</LocID>                        <Text>有助于溶解和清除呼吸道粘液的液体药物。\n\n需求房间：医生办公室/观察室/重症监护室/内科/传染病科的门诊室/诊断室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_SALINE_NASAL_SPRAY_DESCRIPTION_V2</LocID>                <Text>一种鼻腔喷雾剂，用以清洁鼻腔，增加鼻孔的通气能力。\n\n需求房间：医生办公室/观察室/传染病科的门诊室/诊断室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>EXM_CBC_SAMPLING_DESCRIPTION_V2</LocID>                      <Text>血常规化验的血液取样。\n\n需求房间：血液学实验室\n\n取样：急诊科/普外科/内科/骨科/神经内科/重症监护室/传染病科/创伤科\n\n所需设备：玻璃器皿 + 血液分析仪</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING_DESCRIPTION_V2</LocID>    <Text>从患者或通过患者导管采集中段尿。\n\n需求房间：组织学实验室\n\n取样：急诊科/普外科/内科/心脏科/重症监护室/传染病科/创伤科\n\n所需设备：玻璃器皿 + 实验室分析仪</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER</LocID>                                <Text>角柜</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER_WALL</LocID>                           <Text>壁挂式角柜</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>    <LocID>CONTROL_PROCEDURE_PATIENT_DELIVER_SAMPLE</LocID>             <Text>实验室样品交接</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>CONTROL_PROCEDURE_PATIENT_STAT_LAB_RESULTS</LocID>           <Text>实验室结果交付</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>    <LocID>BANNER_DLCS</LocID>                                          <Text>查看主题医院的DLC：</Text>  </GameDBLocalizedString>
+            
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

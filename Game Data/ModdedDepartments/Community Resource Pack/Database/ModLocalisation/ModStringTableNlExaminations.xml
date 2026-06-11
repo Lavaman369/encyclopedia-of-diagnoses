@@ -1,0 +1,16 @@
+<Database>
+    <GameDBStringTable ID="LOC_NL_ADDON_CRP_EXAMINATIONS">
+
+        <LanguageCode>nl</LanguageCode>
+        <LanguageNameLocalized>Nederlands</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>emilievdb</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+
+			
+</LocalizedStrings>
+</GameDBStringTable>
+</Database>

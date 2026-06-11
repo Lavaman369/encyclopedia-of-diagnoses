@@ -1,0 +1,21 @@
+
+<Database>
+	<GameDBStringTable ID="LOC_ZHHANS_ADDON_MOD_NMC">
+	<LanguageCode>zh-Hans</LanguageCode>
+	<LanguageNameLocalized>简体中文</LanguageNameLocalized>
+	
+	<Contributors>
+	<Name>Leo</Name>
+	</Contributors>
+	
+	<LocalizedStrings>	
+		
+	<GameDBLocalizedString>      
+	<LocID>ADDON_MOD_NMC</LocID>                       	
+	<Text>神经医学中心MOD</Text>  
+	</GameDBLocalizedString>
+	
+	</LocalizedStrings>
+	</GameDBStringTable>
+</Database>
+

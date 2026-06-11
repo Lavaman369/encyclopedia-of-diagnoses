@@ -1,0 +1,27 @@
+<Database>
+    <GameDBStringTable ID="LOC_ZHHANS_DLC_TRAUMATOLOGY_WHEELCHAIRS">
+    
+        <LanguageCode>zh-Hans</LanguageCode>
+        <LanguageNameLocalized>简体中文</LanguageNameLocalized>
+        
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            
+            <!-- RELATED FILE: StringTable[Language]BuildingMode.xml -->                         
+            <GameDBLocalizedString>      <LocID>OBJECT_WHEELCHAIR</LocID>                        <Text>轮椅</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WHEELCHAIR_DESCRIPTION</LocID>            <Text>用于移动非危重病人的轮椅</Text>  </GameDBLocalizedString>
+            
+            
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenGoingToStretcher</LocID>    <Text>正在取用一个担架/轮椅</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenMovingStretcher</LocID>     <Text>移动一个担架/轮椅</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenReturningStretcher</LocID>  <Text>归还一个担架/轮椅</Text>  </GameDBLocalizedString>
+    
+        </LocalizedStrings>
+        
+    </GameDBStringTable>
+</Database>

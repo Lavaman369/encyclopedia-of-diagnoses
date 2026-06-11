@@ -1,0 +1,404 @@
+<Database>
+    <GameDBStringTable ID="LOC_KR_DLC_INFECTIOUS_DISEASES">
+
+        <LanguageCode>kr</LanguageCode>
+        <LanguageNameLocalized>한국어</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>DLC_INFECTIOUS_DISEASES</LocID>                                 <Text>감염내과 DLC</Text>  </GameDBLocalizedString>
+            
+            <!-- Department and rooms-->
+            <!-- Note: the abbreviation DID is also widely used in names of rooms or in descriptions of treatments -->
+            <GameDBLocalizedString>      <LocID>DPT_INFECTIOUS_DISEASES_DEPARTMENT</LocID>                      <Text>전염병</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ISOLATION_INPATIENT_WARD</LocID>                      <Text>격리 구역</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ISOLATION_INPATIENT_WARD_DESCRIPTION</LocID>          <Text>격리 구역은 전염병에 감염된 환자를 격리하기 위해 분리된 병동으로 병원체의 확산을 막는 데 사용됩니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INFECTIOUS_DISEASES_OFFICE</LocID>                    <Text>감염내과실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INFECTIOUS_DISEASES_OFFICE_DESCRIPTION</LocID>        <Text>감염 진찰실은 간단한 검사와 치료를 위한 외래 임상 진료실을 대표합니다. 필요 직원:\n전염병학자 x1 </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_DID_OFFICE</LocID>                          <Text>진단 구역</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_DID_OFFICE_DESCRIPTION</LocID>              <Text>감염내과 내 감염 진단 구역은 입원한 환자들의 검사 및 치료를 담당합니다. \n\n최소 필요 직원: \n전염병학자 x1 \n(당직실 담당 직원)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_DID</LocID>            <Text>심박동 기록 구역</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DLC_TOOLTIP_LOGISTICS_BIOHAZARD</LocID>                         <Text>생물재해 지역으로 보호 장비인 페이스 마스크 및 장갑을 착용해야 합니다.</Text>  </GameDBLocalizedString>
+                                                                                                                
+            <!-- Hospitalization alias -->                                                                      
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_ISOLATION</LocID>                           <Text>격리 입원</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_ISOLATION_DESCRIPTION</LocID>               <Text>감염성 질환의 확산을 방지하기 위해 격리 구역에 환자를 입원시키고 높은 수준의 치료를 실시하세요.\n\n필요한 방: 격리 병동</Text>  </GameDBLocalizedString>
+                                                                                                                
+            <!-- SKILLS-->                                                                                      
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_EPIDEMIOLOGY</LocID>                             <Text>전염병학</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_EPIDEMIOLOGY_DESCRIPTION</LocID>                 <Text>전염병학자는 질병과 기생생물의 분포를 조사하여 질병의 원인, 위험 요인, 진행 상황, 수명 주기 또는 전염 방식을 밝힙니다.</Text>	</GameDBLocalizedString> <!--todo description-->
+                                                                                                                
+            <!-- Global Admin Events-->                                                                         
+            <GameDBLocalizedString>      <LocID>DAYS_LEFT</LocID>                                               <Text>남은 일수: </Text></GameDBLocalizedString>
+                                                                                                                 
+            <GameDBLocalizedString>      <LocID>DLC_WORLD_EVENT_DISEASE_OUTBREAK</LocID>                        <Text>전염병 발생!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_WORLD_EVENT_DISEASE_OUTBREAK_TEXT</LocID>                   <Text>감염된 모든 환자를 격리하지 못한 결과로 병원의 일부에 감염되고 말았습니다. 이제 모든 직원이 페이스 마스크를 착용해야 하며, 업무 속도가 느려집니다!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_WORLD_EVENT_DISEASE_OUTBREAK_TEXT_WARD</LocID>              <Text>감염 환자들이 격리 구역 외에 입원된 결과로 병원의 일부에 감염되고 말았습니다. 이제 모든 직원이 페이스 마스크를 착용해야 하며, 업무 속도가 느려집니다!</Text></GameDBLocalizedString>
+                                                                                                                
+            <!-- ============== -->                                                                             
+            <!--EVENTS -->                                                                                      
+            <!-- ============== -->                                                                             
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_LAB_DESC</LocID>         		            <Text>대학교 연구실에서 매우 위험한 병원체가 사고로 유출되었습니다. 모든 시립 병원들은 보호 장비를 준비해야 하며 앞으로 발생할 환자들을 매우 조심스럽게 다루어야 합니다. </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_TOURISTS_DESC</LocID>         	            <Text>유명 관광지에서 매우 위험한 질병의 발생이 보고되었습니다. 귀가 중인 시민들 중 몸이 좋지 않다고 느끼는 시민들은 즉시 가까운 병원에 이를 알려야 합니다. </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_CLIMATE_DESC</LocID>         	            <Text>기후 변화로 인해 이국적인 질병이 점점 더 자주 현지로 퍼지고 있습니다. 특히 이 시기에는 더욱 그렇죠. </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_CORONA_DESC</LocID>                          <Text>하지만 새로운 코로나바이러스, COVID-19가 도시를 강타했고 모든 병원과 의료시설에서는 막대한 수의 감염 환자에 대비해야 합니다.</Text></GameDBLocalizedString>
+                                                                                                                
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->                                       
+            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_DISEASE_OUTBREAK_ENDED</LocID>               <Text>데일리 뉴스</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_DISEASE_OUTBREAK_ENDED_TEXT</LocID>          <Text>직원들의 건강이 모두 회복되었습니다. 전염병 발생으로부터 잘 견뎌내셨습니다!</Text>  </GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <!-- Satisfaction modifiers -->
+            <GameDBLocalizedString>      <LocID>DLC_INFECTED</LocID>                                            <Text>감염</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>HIGHLY_CONTAGIOUS</LocID>                                       <Text>전염성이 매우 강합니다!</Text>  </GameDBLocalizedString>
+
+            <!--Doors-->
+            <GameDBLocalizedString>      <LocID>DOOR_BIOHAZARD</LocID>                     		                <Text>생물재해 문</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_OVAL_WINDOW</LocID>                                        <Text>타원형 창이 달린 문</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_BIOHAZARD_DOUBLE</LocID>                                   <Text>생물재해 이중문</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_OVAL_WINDOW_DOUBLE</LocID>                                 <Text>타원형 창이 달린 이중문</Text>  </GameDBLocalizedString>
+
+            <!-- Objects-->
+            <GameDBLocalizedString>      <LocID>OBJECT_LIFE_MONITOR_OLD</LocID>                     	    	<Text>생명유지 모니터</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MECHANICAL_VENTILATOR_DLC</LocID>                        <Text>기계적 인공호흡기</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL</LocID>                                   <Text>격리벽</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL_BIOHAZARD</LocID>                         <Text>격리벽</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL_CABINET</LocID>                           <Text>격리벽 캐비닛</Text>  </GameDBLocalizedString>
+            <!-- Description for all three versions of isolation wall -->                                      
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL_DESCRIPTION</LocID>                       <Text>공기 중으로 전염될 수 있는 병원체에 의해 야기되는 모든 질병으로부터 보호합니다.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_SANITARY_EQUIPMENT</LocID>                     <Text>위생 장비</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_SANITARY_EQUIPMENT_DESCRIPTION</LocID>         <Text>환자의 기본적인 위생을 위한 격리실용으로 설계되었습니다.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AC</LocID>                    			    	<Text>격리실 에어컨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AC_DESCRIPTION</LocID>                         <Text>격리된 환자에게 맑은 공기와 안락함을 제공하기 위한 에어컨.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_CAUTION</LocID>                                  <Text>표지판 - 주의</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_CAUTION_DESCRIPTION</LocID>                      <Text>발생 경보.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_QUARANTINE</LocID>                               <Text>표지판 - 격리</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_QUARANTINE_DESCRIPTION</LocID>                   <Text>관계자 외 출입 금지.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AIR_DOOR</LocID>                               <Text>격리실 에어 커튼</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AIR_DOOR_DESCRIPTION</LocID>                   <Text>음성 공기흐름 시스템은 주변 시설의 공기 중 오염 위험을 줄이기 위해 사용됩니다.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_NOTICE_BOARD_X</LocID>                                   <Text>차트판</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_NOTICE_BOARD_X_DESCRIPTION</LocID>                       <Text>자석 차트판</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DESINFECTANTS</LocID>                                    <Text>살균 도구</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DESINFECTANTS_DESCRIPTION</LocID>                        <Text>일상적인 용도로 적합한 살균 도구.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_INFECT1</LocID>                                   <Text>포스터 - 감염</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_INFECT2</LocID>                                   <Text>포스터 - 말라리아</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_BENCH_X</LocID>                                <Text>벤치 - 모던</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_COFFEE_TABLE_2</LocID>                                   <Text>커피 테이블</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AMBULANCE_X_01</LocID>                         <Text>구급차</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AMBULANCE_X_01_DESCRIPTION</LocID>             <Text>새로운 유럽 스타일의 구급차로, 가장 심각한 질병에 걸린 환자를 데려올 수 있습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_STRETCHER_X</LocID>                            <Text>들것</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_BIOHAZARD</LocID>                                  <Text>격리 구역</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_DID_DEPARTMENT</LocID>                             <Text>전염병</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_I</LocID>                                <Text>전염병: 대형 종합 병원</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_INFECTIOUS_DISEASES</LocID>             <Text>감염내과 견본</Text>  </GameDBLocalizedString>
+
+            <!-- DIAGNOSES - MIGRATED -->
+            <GameDBLocalizedString>      <LocID>DIA_INFX</LocID>                                              	<Text>인플루엔자 A형</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HEPAX</LocID>                                               <Text>A형 간염</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HEPBX</LocID>                                               <Text>B형 간염</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CLCX</LocID>                                                <Text>콜레라</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TYFX</LocID>                                                <Text>장티푸스</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TBCX</LocID>                                                <Text>결핵</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TULX</LocID>                                                <Text>야생토끼병</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PNAX</LocID>                                                <Text>폐 탄저병</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_RBFX</LocID>                                                <Text>쥐물음열</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CSDX</LocID>                                                <Text>고양이 찰상병</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PTSX</LocID>                                                <Text>백일해</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LEGX</LocID>                                                <Text>리지오넬라병</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TPFX</LocID>                                                <Text>발진티푸스</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ATSX</LocID>                                                <Text>미국 트리파노소마증</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TXMX</LocID>                                                <Text>톡소플라즈마병</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BABX</LocID>                                                <Text>바베시아병</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LYDX</LocID>                                                <Text>라임 병</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_MUMX</LocID>                                                <Text>볼거리</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TBEX</LocID>                                                <Text>진드기매개뇌염</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_RABX</LocID>                                                <Text>광견병</Text>  </GameDBLocalizedString>
+            
+            <!--DIAGNOSES - NEW -->
+            <GameDBLocalizedString>      <LocID>DIA_001</LocID>                                                 <Text>아나플라즈마증</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_001_DESCRIPTION</LocID>                                     <Text>아나플라즈마감염증은 진드기에 의해 전파되는 아나플라스마 파고사이토필룸에 의해 발생합니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_002</LocID>                                                 <Text>엘리히증</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_002_DESCRIPTION</LocID>                                     <Text>엘리히증은 아나플라즈마증과 매우 연관이 높은 감기 같은 질병입니다. 이 또한 진드기에 의해 전파됩니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_003</LocID>                                                 <Text>부토뇌즈열</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_003_DESCRIPTION</LocID>                                     <Text>부토뇌즈열은 리케차 코노리로 인해 발생된 리케차 감염병에 의한 열로, 개의 진드기로 전염됩니다. 이 질병은 주로 지중해 유역, 중동, 인도 아대륙 및 아프리카에서 발생합니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_004</LocID>                                                 <Text>로키산 홍반열</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_004_DESCRIPTION</LocID>                                     <Text>다양한 진드기(개참진드기, 로키산 숲진드기, 갈색개 참진드기)에 의해 전파되는 리케차 리케치에 의한 박테리아성 질병입니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_005</LocID>                                                 <Text>콜로라도 진드기 열</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_005_DESCRIPTION</LocID>                                     <Text>로키산 숲진드기에 의해 전파되는 바이러스 감염으로, 증상은 로키산 홍반열과 비슷합니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_006</LocID>                                                 <Text>태평양 연안 진드기 열</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_006_DESCRIPTION</LocID>                                     <Text>리케차 필리피에 의해 발생하는 박테리아성 질병으로, 태평양 연안 진드기에 의해 전파됩니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_007</LocID>                                                 <Text>아프리카 진드기열</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_007_DESCRIPTION</LocID>                                     <Text>아프리카 진드기열 - ATBF는 리케차아프리카에 의한 발생되는 박테리아성 감염으로 진드기에 의해 전파됩니다. 이 질병은 사하라 사막 이남의 아프리카, 캐리비안 및 오세아니아에서 발병합니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_008</LocID>                                                 <Text>퀸스랜드 진드기 티푸스</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_008_DESCRIPTION</LocID>                                     <Text>퀸스랜드 진드기 티푸스의 원인처는 리케차 오스트레일리아 바이러스입니다. 이 질병은 태즈메이니아를 포함한 호주 동부에서만 발병합니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_009</LocID>                                                 <Text>플린더스 섬 홍반열</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_009_DESCRIPTION</LocID>                                     <Text>플린더스 섬 홍반열은 리케차 호네이에 의해 발생하며, 이 질병은 주로 동남아시아와 남아시아 및 호주에서 발병합니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_010</LocID>                                                 <Text>일본 홍반열</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_010_DESCRIPTION</LocID>                                     <Text>일본 홍반열은 주로 일본 남서부와 중부 태평양을 따라 따뜻한 지역에서 발병합니다. 이 질병은 리케차 자포니카에 의해 발생하며, 진드기에 물려 전염됩니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_011</LocID>                                                 <Text>TIBOLA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_011_DESCRIPTION</LocID>                                     <Text>진드기 매개 림프샘 장애(TIBOLA)는 진드기를 매개로 한 리케차병으로 중앙 유럽에서는 비교적 흔한 질병으로 리케차 슬로바카에 의해 발생합니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_012</LocID>                                                 <Text>리케차폭스</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_012_DESCRIPTION</LocID>                                     <Text>리케차폭스는 진드기를 매개로 한 전염병으로 리케차 아카리에 의해 발생되며 생쥐의 진드기에 의해 주로 전파됩니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_013</LocID>                                                 <Text>브루셀라증</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_013_DESCRIPTION</LocID>                                     <Text>브루셀라증은 브루셀라과의 박테리아에 의해 발생하는 전염성이 매우 강한 질병이며 살균되지 않은 우유나 설익은 육류의 섭취로 인해 전파됩니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_014</LocID>                                                 <Text>치쿤구니야</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_014_DESCRIPTION</LocID>                                     <Text>치쿤구니야 바이러스 감염병은 감염된 모기에 물려 확진됩니다. 또한 아직 백신이 개발되지 않았습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_015</LocID>                                                 <Text>큐열</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_015_DESCRIPTION</LocID>                                     <Text>큐열은 코시엘라 버네티에 인한 질병으로 소, 양, 염소, 고양이, 개 등 다양한 동물에 의해 전파됩니다. 박테리아는 세포 내 기생충으로 숙주 세포 안에서 성장과 번식이 가능합니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_016</LocID>                                                 <Text>뎅기열</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_016_DESCRIPTION</LocID>                                     <Text>뎅기열은 열대성 질환으로 감염된 모기에 물려 전염됩니다. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_017</LocID>                                                 <Text>지카열</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_017_DESCRIPTION</LocID>                                     <Text>지카열은 열대성 질환으로 지카 바이러스에 의해 발생되며 에데스모기에 의해 전파됩니다. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_018</LocID>                                                 <Text>에볼라</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_018_DESCRIPTION</LocID>                                     <Text>에볼라 바이러스는 치명적인 바이러스 출혈열입니다. 에볼라 바이러스에 의해 발생하며, 감염된 체액과 직접 접촉하여 전파됩니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_019</LocID>                                                 <Text>말라리아</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_019_DESCRIPTION</LocID>                                     <Text>말라리아는 말라리아 원충 무리의 기생충에 의해 발생하는 열대 전염병입니다. 이 질병은 감염된 모기에게 물려 전파됩니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_020</LocID>                                                 <Text>황열</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_020_DESCRIPTION</LocID>                                     <Text>황열은 감염된 암컷 모기에게 물려 전파되는 열대 바이러스성질환입니다. 이 질병은 황열 바이러스에 의해 발생하며 플라비비리대과의 RNA 바이러스로 뒤덮여있습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_021</LocID>                                                 <Text>웨스트나일열</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_021_DESCRIPTION</LocID>                                     <Text>웨스트나일열은 웨스트나일 바이러스에 의해 발생하는 감염으로 이 질병은 감염된 모기에 의해 전파됩니다. 대부분의 환자들이 증상을 보이지 않습니다. 이 바이러스는 1937년 우간다에서 발견되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_022</LocID>                                                 <Text>라사열</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_022_DESCRIPTION</LocID>                                     <Text>라사 출혈열로도 알려진 이 질병은 라사 바이러스에 의해 발생하여 아프리카 쥐에 의해서만 전파됩니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_023</LocID>                                                 <Text>마르부르크</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_023_DESCRIPTION</LocID>                                     <Text>마르부르크 바이러스병은 인간과 비인간 영장류에게서 발병할 수 있는 치명적인 질병입니다. 마르부르크 바이러스 또는 레이븐 바이러스에 의해 발생합니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_024</LocID>                                                 <Text>렙토스피라증</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_024_DESCRIPTION</LocID>                                     <Text>렙토스피라증은 렙토스피라 박테리아에 의해 발생되는 혈액 감염으로 특히 설치류에 의해 전파됩니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_025</LocID>                                                 <Text>클로스트리듐 디피실리 감염</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_025_DESCRIPTION</LocID>                                     <Text>클로스트리듐 디피실리 감염은 독소 생성 박테리아에 의해 발생됩니다. 치명적일 수 있습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_026</LocID>                                                 <Text>밸리열</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_026_DESCRIPTION</LocID>                                     <Text>콕시디오이데스 진균증으로도 불리는 밸리열은 미국 서남부, 멕시코, 그리고 중앙 및 남아메리카의 토양에 사는 콕시디오이데스 곰팡이로 인한 감염입니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_027</LocID>                                                 <Text>코로나바이러스감염증-19</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_027_DESCRIPTION</LocID>                                     <Text>코로나바이러스감염증-19는 신종 코로나바이러스 중증급성호흡기증후군 코로나바이러스-2에 의해 발생하는 질병으로, 호흡기 감염에 의해 전파됩니다. 2019년 12월, 중국 우한에서 처음 발견된 이 질병은 전 세계로 확산되어 1918년 스페인 독감 유행 이후 가장 큰 전염병을 일으켰습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_028</LocID>                                                 <Text>메르스</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_028_DESCRIPTION</LocID>                                     <Text>낙타 감기로도 알려져 있는 메르스 - 중동호흡기 증후군은 메르스 코로나바이러스에 의해 발생하는 전염성이 강한 바이러스성 호흡기 감염증입니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_029</LocID>                                                 <Text>사스</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_029_DESCRIPTION</LocID>                                     <Text>사스 - 중증급성호흡기증후군는 사스 코로나바이러스로 인해 발생하는 바이러스성 호흡 질환입니다. 첫 번째 발병은 2002년 11월과 2003년 7월 사이에 중국 남부에서 발생했습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_030</LocID>                                                 <Text>호흡기 크립토스포리디오시스증</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_030_DESCRIPTION</LocID>                                     <Text>크립토스포리디오시스증은 크립토스포리듐이라는 원생동물 기생충에 의해 발생하는 기생충 질병입니다. 호흡기와 소화관에 영향을 미칩니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_031</LocID>                                                 <Text>창자 크립토스포리디오시스증</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_031_DESCRIPTION</LocID>                                     <Text>크립토스포리디오시스증은 크립토스포리듐이라는 원생동물 기생충에 의해 발생하는 기생충 질병입니다. 소화기관과 호흡기에 영향을 미칩니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_032</LocID>                                                 <Text>한타바이러스 폐증후군(HPS)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_032_DESCRIPTION</LocID>                                     <Text>한타바이러스 폐증후군(HPS)는 심각한 바이러스성 호흡기 질환으로 설치류에 의해 전파된 한타바이러스에 의해 발생합니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_033</LocID>                                                 <Text>노로바이러스</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_033_DESCRIPTION</LocID>                                     <Text>겨울철 구토 질병으로도 불리는 노로바이러스는 설사와 구토를 유발하며 전염성이 매우 강한 바이러스입니다. 감염된 사람은 수십억 개의 노로바이러스 간접 전이 입자를 퍼트릴 수 있습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_034</LocID>                                                 <Text>로타바이러스 A형</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_034_DESCRIPTION</LocID>                                     <Text>로타바이러스 A형는 전염성이 매우 강하며 물설사를 일으킵니다. 최고의 예방은 백신입니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_035</LocID>                                                 <Text>멜리오이도시스</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_035_DESCRIPTION</LocID>                                     <Text>휘트모어병으로도 불리는 멜리오이도시스는 부르콜데리아 슈도말라이로 발생하는 전염병으로 동물과 오염된 토양 및 물에 의해 전염됩니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_036</LocID>                                                 <Text>호흡기세포융합바이러스</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_036_DESCRIPTION</LocID>                                     <Text>호흡기세포융합바이러스로 알려진 이 세포융합바이러스는 호흡기 감염을 일으킵니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_037</LocID>                                                 <Text>림프구성 맥락수막염</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_037_DESCRIPTION</LocID>                                     <Text>림프구성 맥락수막염은 설치류에 의한 바이러스 감염병으로 림프구성 맥락수막염바이러스에 의해 발생하며 흔히 생쥐에 의해 전파됩니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_038</LocID>                                                 <Text>서혜 임파선종 페스트</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_038_DESCRIPTION</LocID>                                     <Text>서혜 임파선종 페스트는 예르시니아 페스티스에 의해 발생되는 3가지 페스티스 중 하나로, 소형 동물에 사는 감염된 벼룩에 의해 전파됩니다. 림프절의 감염 시, 림프절이 심하게 부어오릅니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_039</LocID>                                                 <Text>패혈성 페스트</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_039_DESCRIPTION</LocID>                                     <Text>패혈성 페스트는 예르시니아 페스티스에 의해 발생되는 3가지 페스티스 중 하나로, 소형 동물에 사는 감염된 벼룩에 의해 전파됩니다. 3가지 페스티스 중 가장 희귀하며 감염 시 특히 혈액에 영향을 미칩니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_040</LocID>                                                 <Text>폐렴성 페스트</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_040_DESCRIPTION</LocID>                                     <Text>폐렴성 페스트는 예르시니아 페스티스에 의해 발생되는 3가지 페스티스 중 하나로, 소형 동물에 사는 감염된 벼룩에 의해 전파됩니다. 폐렴성 페스트는 폐 감염을 일킵니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_041</LocID>                                                 <Text>니파 바이러스 감염</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_041_DESCRIPTION</LocID>                                     <Text>니파 바이러스 감염은 헤니파바이러스 속 RNA 바이러스에 의해 발생되는 심각하고 잠재적으로 치명적인 질병입니다. 사람들 사이에 전파되며 동물에서 인간으로 전염될 수도 있습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_042</LocID>                                                 <Text>리프트밸리열</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_042_DESCRIPTION</LocID>                                     <Text>리프트밸리열(RVF)은 바이러스 질병으로 동물의 체액을 통해 전염되는 리프트밸리열 바이러스로 발생합니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_043</LocID>                                                 <Text>재귀열</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_043_DESCRIPTION</LocID>                                     <Text>재귀열은 보렐리아 속 박테리아 무리에 의해 발생하는 전염성 매개 질환으로, 이 또는 물렁진드기를 통해 전염됩니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_044</LocID>                                                 <Text>급성 E형 간염</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_044_DESCRIPTION</LocID>                                     <Text>E형 간염은 E형 간염 바이러스에 의해 발생하는 간염입니다. A형 간염과 비슷하게 전염되지만, 바이러스는 A형 간염과 관련이 없습니다. 1955년에 처음 기록되었지만 바이러스는 1983년에 처음으로 격리되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_045</LocID>                                                 <Text>조류독감(H5N1)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_045_DESCRIPTION</LocID>                                     <Text>인플루엔자 A형 바이러스 - 서브타입 H5N1은 고병원성 조류독감입니다. 인간에게 전염되는 경로는 오직 조류에 의해서입니다. 세계 최초의 확산은 2004년에 기록되었습니다.</Text>  </GameDBLocalizedString>
+
+            <!--MAIN SYMPTOMS - MIGRATED-->
+            <GameDBLocalizedString>      <LocID>SYM_INFLUENZA_A_DETECTED_X</LocID>                              <Text>인플루엔자 A형 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEPATITIS_A_POSITIVE_X</LocID>                              <Text>A형 간염 양성</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEPATITIS_B_POSITIVE_X</LocID>                              <Text>B형 간염 양성</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VIBRIO_CHOLERAE_DETECTED_X</LocID>                          <Text>비브리오 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SALMONELLA_TYPHI_DETECTED_X</LocID>                         <Text>장티푸스균 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_M._TUBERCULOSIS_DETECTED_X</LocID>                          <Text>결핵 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_F._TULARENSIS_DETECTED_X</LocID>                            <Text>프란시셀라 툴라렌시스 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._ANTHRACIS_DETECTED_X</LocID>                             <Text>탄저균 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STREPTOBACILLUS_DETECTED_X</LocID>                          <Text>스트렙토바실루스 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._HENSELAE_DETECTED_X</LocID>                              <Text>바르토넬라 헨셀라 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._PERTUSSIS_DETECTED_X</LocID>                             <Text>보르데텔라 백일해균 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LEGIONELLA_DETECTED_X</LocID>                               <Text>레지오넬라균 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_R._TYPHI_DETECTED_X</LocID>                                 <Text>발진열 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TRYPANOSOMA_DETECTED_X</LocID>                              <Text>트리파노소마 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TOXOPLASMOSIS_DETECTED_X</LocID>                            <Text>톡소플라즈마 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BABESIOSIS_DETECTED_X</LocID>                               <Text>바베시아 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LYME_DISEASE_DETECTED_X</LocID>                             <Text>보렐리아 항체 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PAROTID_INFECTED_X</LocID>                                  <Text>귀밑샘 감염</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TBE_DETECTED_X</LocID>                                      <Text>TBE 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RABIES_DETECTED_X</LocID>                                   <Text>광견병 검출됨</Text>  </GameDBLocalizedString>
+            
+            <!--MAIN SYMPTOMS - NEW-->
+            <GameDBLocalizedString>      <LocID>SYM_ANAPLASMNA_DETECTED</LocID>                                 <Text>아나플라즈마 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ANAPLASMNA_DETECTED_DESCRIPTION</LocID>                     <Text>IgE 레벨 상승은 아나플라즈마 파고사이토필룸의 존재를 암시합니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EHRLICHIOSIS_DETECTED</LocID>                               <Text>엘리히증 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EHRLICHIOSIS_DETECTED_DESCRIPTION</LocID>                   <Text>PCR 검사에서 엘리히증의 특유의 유전자가 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_CONORII_DETECTED</LocID>                         <Text>리케차 코노리 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_CONORII_DETECTED_DESCRIPTION</LocID>             <Text>면역형광법 검사에서 리케차 코노리 항체가 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_RICKETTSI_DETECTED</LocID>                       <Text>리케차 리케치 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_RICKETTSI_DETECTED_DESCRIPTION</LocID>           <Text>PCR 검사에서 리케차 리케치가 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COLTIVIRUS_ANTIBODIES_DETECTED</LocID>                      <Text>콜로라도 진드기열 항체 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COLTIVIRUS_ANTIBODIES_DETECTED_DESCRIPTION</LocID>          <Text>RT-PCR 검사에서 적혈구 내 콜로라도 진드기열 항체가 발견되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_PHILIPII_DETECTED</LocID>                        <Text>리케차 필리피 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_PHILIPII_DETECTED_DESCRIPTION</LocID>            <Text>PCR 검사에서 리케차 필리피가 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AFRICAE_DETECTED</LocID>                         <Text>리케차 아프리카 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AFRICAE_DETECTED_DESCRIPTION</LocID>             <Text>PCR 검사에서 리케차 아프리카가 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AUSTRALIS_DETECTED</LocID>                       <Text>리케차 오스트레일리아 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AUSTRALIS_DETECTED_DESCRIPTION</LocID>           <Text>면역혈청학적검사에서 리케차 오스트레일리아가 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_HONEI_DETECTED</LocID>                           <Text>리케차 호네이 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_HONEI_DETECTED_DESCRIPTION</LocID>               <Text>혈청학적 검사에서 리케차 호네이에 대한 반응이 발견되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_JAPONICA_DETECTED</LocID>                        <Text>리케차 자포니카 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_JAPONICA_DETECTED_DESCRIPTION</LocID>            <Text>PCR 검사에서 리케차 자포니카가 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_SLOVACA_DETECTED</LocID>                         <Text>리케차 슬로바카 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_SLOVACA_DETECTED_DESCRIPTION</LocID>             <Text>PCR 검사에서 리케차 슬로바카가 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AKARI_DETECTED</LocID>                           <Text>리케차 아카리 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AKARI_DETECTED_DESCRIPTION</LocID>               <Text>혈청학적 검사에서 리케차 아카리의 존재가 발견되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRUCELLOSIS_CONFIRMED</LocID>                               <Text>브루셀라증 확인됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRUCELLOSIS_CONFIRMED_DESCRIPTION</LocID>                   <Text>혈청학적 검사에서 리케차 아카리의 존재가 확인되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHIKV_DETECTED</LocID>                                      <Text>치쿤구니야 바이러스 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHIKV_DETECTED_DESCRIPTION</LocID>                          <Text>RT-PCR 검사에서 치쿤구니야가 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COXIELLA_BURNETII_DETECTED</LocID>                          <Text>콕시엘라 부르네티 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COXIELLA_BURNETII_DETECTED_DESCRIPTION</LocID>              <Text>혈청학적 검사에서 콕시엘라 부르네티 박테리아에 대한 항체반응이 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DENGUE_VIRUS_DETECTED</LocID>                               <Text>뎅기열 바이러스 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DENGUE_VIRUS_DETECTED_DESCRIPTION</LocID>                   <Text>RT-PCR에서 환자의 혈청 검체 내 뎅기열 바이러스 게놈이 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ZIKA_VIRUS_DETECTED</LocID>                                 <Text>지카 바이러스 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ZIKA_VIRUS_DETECTED_DESCRIPTION</LocID>                     <Text>RT-PCR에서 환자의 검체 내 지카 바이러스가 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EBOLA_VIRUS_DETECTED</LocID>                                <Text>에볼라 바이러스 발견됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EBOLA_VIRUS_DETECTED_DESCRIPTION</LocID>                    <Text>효소결합면역흡착제 검정법(ELISA) 검사에서 에볼라 바이러스가 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLASMODIUM_DETECTED</LocID>                                 <Text>말라리아 원충 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLASMODIUM_DETECTED_DESCRIPTION</LocID>                     <Text>효소결합면역흡착제 검정법(ELISA) 검사에서 환자 혈청 검체 내 말라리아에 대한 IgG 및 IgM급 항체가 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_YELLOW_FEVER_VIRUS</LocID>                                  <Text>황열 바이러스</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_YELLOW_FEVER_VIRUS_DESCRIPTION</LocID>                      <Text>RT-PCR 검사에서 환자의 검체 내 황열 바이러스 게놈의 존재가 확인되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WEST_NILE_VIRUS</LocID>                                     <Text>웨스트나일 바이러스</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WEST_NILE_VIRUS_DESCRIPTION</LocID>                         <Text>효소결합면역흡착제 검정법(ELISA) 검사에서 웨스트나일 바이러스에 대한 항체가 발견되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LASSA_VIRUS_PRESENT</LocID>                                 <Text>라사 바이러스 확인됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LASSA_VIRUS_PRESENT_DESCRIPTION</LocID>                     <Text>PCR 검사에서 라사 바이러스가 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MARV_DETECTED</LocID>                                       <Text>마르부르크 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MARV_DETECTED_DESCRIPTION</LocID>                           <Text>RT-PCR 검사에서 마르부르크 바이러스가 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LEPTOSPIRA_DETECTED</LocID>                                 <Text>렙토스피라 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LEPTOSPIRA_DETECTED_DESCRIPTION</LocID>                     <Text>미생물 재배를 통해 렙토스피라의 존재가 입증되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C._DIFFICILE_DETECTED</LocID>                               <Text>클로스트리듐 디피실리 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C._DIFFICILE_DETECTED_DESCRIPTION</LocID>                   <Text>PCR 진단에서 클로스트리듐 디피실리가 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COCCIDIOIDES_ANTIBODIES_DETECTED</LocID>                    <Text>콕시디오이데스 항체 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COCCIDIOIDES_ANTIBODIES_DETECTED_DESCRIPTION</LocID>        <Text>혈청학적 검사에서 콕시디오이데스 항체가 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_2019_NCOV_DETECTED</LocID>                                  <Text>코로나 19 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_2019_NCOV_DETECTED_DESCRIPTION</LocID>                      <Text>환자의 검체 내 2019 신종 코로나바이러스에 대한 면역학적 반응이 혈청학적 검사에서 확인되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MERS_COV_DETECTED</LocID>                                   <Text>메르스 코로나바이러스 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MERS_COV_DETECTED_DESCRIPTION</LocID>                       <Text>RT-PCR 검사에서 환자의 검체 내 메르스 코로나바이러스가 식별되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SARS_COV_DETECTED</LocID>                                   <Text>중증급성호흡기증후군 코로나바이러스 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SARS_COV_DETECTED_DESCRIPTION</LocID>                       <Text>RT-PCR 검사에서 환자의 검체 내 중증급성호흡기증후군 코로나바이러스가 식별되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CRYPTOSPORIDIUM_DETECTED</LocID>                            <Text>크립토스포리듐 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CRYPTOSPORIDIUM_DETECTED_DESCRIPTION</LocID>                <Text>PCR 검사에서 크립토스포리듐이 식별되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OOCYST_IN_STOOL_DETECTED</LocID>                            <Text>대변에서 오시스트 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OOCYST_IN_STOOL_DETECTED_DESCRIPTION</LocID>                <Text>환자의 대변 시료에서 크립토스포리듐의 오시스트가 발견되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HANTAVIRUS_DETECTED</LocID>                                 <Text>한타바이러스 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HANTAVIRUS_DETECTED_DESCRIPTION</LocID>                     <Text>혈청학적 검사에서 한타바이러스 관련 항체가 식별되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NOROVIRUS_DETECTED</LocID>                                  <Text>노로바이러스 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NOROVIRUS_DETECTED_DESCRIPTION</LocID>                      <Text>PCR 검사에서 노로바이러스가 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ROTAVIRUS_A_DETECTED</LocID>                                <Text>로타바이러스 A형 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ROTAVIRUS_A_DETECTED_DESCRIPTION</LocID>                    <Text>PT-PCR 검사에서 로타바이러스 A형이 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._PSEUDOMALLEI_DETECTED</LocID>                            <Text>부르콜데리아 슈도말라이 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._PSEUDOMALLEI_DETECTED_DESCRIPTION</LocID>                <Text>미생물 재배에서 부르콜데리아 슈도말라이가 확인되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HRSV_PRESENT</LocID>                                        <Text>호흡기세포융합바이러스 확인됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HRSV_PRESENT_DESCRIPTION</LocID>                            <Text>PT-PCR 검사에서 호흡기세포융합바이러스가 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LCMV_DETECTED</LocID>                                       <Text>림프구성 맥락수막염바이러스 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LCMV_DETECTED_DESCRIPTION</LocID>                           <Text>뇌척수액 분석에서 림프구성 맥락수막염바이러스의 특유 항체가 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_BUBONIC</LocID>                                   <Text>예르시니아 페스티스 - 서혜 임파선종</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_BUBONIC_DESCRIPTION</LocID>                       <Text>생체검사 물질 분석에서 예르시니아 페스티스 감염의 서혜 임파선종이 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_SEPTICEMIC</LocID>                                <Text>예르시니아 페스티스 - 패혈증</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_SEPTICEMIC_DESCRIPTION</LocID>                    <Text>혈청학적 검사 예르시니아 페스티스 감염의 패혈증이 발견되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_PNEUMONIC</LocID>                                 <Text>예르시니아 페스티스 - 폐렴</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_PNEUMONIC_DESCRIPTION</LocID>                     <Text>PCR 검사에서 예르시니아 페스티스 - 폐렴에 대한 항체가 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NIPAH_VIRUS_DETECTED</LocID>                                <Text>니파 바이러스 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NIPAH_VIRUS_DETECTED_DESCRIPTION</LocID>                    <Text>PT-PCR 검사에서 니파 바이러스가 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RVF_VIRUS_DETECTED</LocID>                                  <Text>리프트밸리열 바이러스 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RVF_VIRUS_DETECTED_DESCRIPTION</LocID>                      <Text>효소결합면역흡착제 검정법(ELISA) - 혈청학적 검사에서 리프트밸리열 바이러스에 대한 항체가 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._RECURRENTIS_DETECTED</LocID>                             <Text>회귀열보렐리아 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._RECURRENTIS_DETECTED_DESCRIPTION</LocID>                 <Text>PCR 검사에서회귀열보렐리아가 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEPATITIS_E_DETECTED</LocID>                                <Text>E형 간염 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEPATITIS_E_DETECTED_DESCRIPTION</LocID>                    <Text>혈청학적 검사에서 B형 간염 바이러스 관련 항체가 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_H5N1_DETECTED</LocID>                                       <Text>조류독감(H5N1) 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_H5N1_DETECTED_DESCRIPTION</LocID>                           <Text>PT-PCR 검사에서 A형 조류독감(H5N1) 바이러스가 검출되었습니다.</Text>  </GameDBLocalizedString>
+
+            <!-- SYMPTOMS -->
+            <GameDBLocalizedString>      <LocID>SYM_HEMORRHAGIC_FEVER</LocID>                                   <Text>출혈열</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMORRHAGIC_FEVER_DESCRIPTION</LocID>                       <Text>출혈열은 여러 내부 장기에 영향을 미치고, 혈관을 손상시키며, 스스로를 조절하는 신체의 능력에 영향을 미칩니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ORIFICE_BLEEDING</LocID>                                    <Text>오리피스 출혈</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ORIFICE_BLEEDING_DESCRIPTION</LocID>                        <Text>코, 입, 눈 및/또는 귀와 같은 신체의 구멍(오리피스)에서 발생하는 급성 과대 출혈입니다.</Text>  </GameDBLocalizedString>
+
+            <!--TREATMENTS-->
+            <GameDBLocalizedString>      <LocID>TRT_DOXYCYCLINE</LocID>                                         <Text>독시사이클린</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_DOXYCYCLINE_DESCRIPTION</LocID>                             <Text>특정 박테리아 및 기생충과 싸우는 데 사용되는 특수 테트라사이클린계항균제 치료법입니다. \n\n필요한 방: 감염내과실 / 감염내과의 진단 구역 + 일반 병동 / 집중치료실(ICU)</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_DOXYCYCLINE</LocID>                                      <Text>정맥용 독시사이클린</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_DOXYCYCLINE_DESCRIPTION</LocID>                          <Text>특정 박테리아 및 기생충과 싸우는 데 사용되는 특수 테트라사이클린계항균제 치료법입니다. \n\n필요한 방: 감염내과실 / 감염내과의 진단 구역 + 격리 구역 / 집중치료실(ICU)</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MINOCYCLINE</LocID>                                         <Text>미노사이클린</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MINOCYCLINE_DESCRIPTION</LocID>                             <Text>특정 박테리아 및 기생충과 싸우는 데 사용되는 특수 테트라사이클린계항균제 치료법입니다. \n\n필요한 방: 감염내과실 / 감염내과의 진단 구역 / 집중치료실(ICU)</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CHLORAMPHENICOL</LocID>                                     <Text>클로람페니콜</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CHLORAMPHENICOL_DESCRIPTION</LocID>                         <Text>다양한 박테리아 감염에 사용되는 특수 항생제입니다. \n\n필요한 방: 감염내과실 / 감염내과의 진단 구역 + 일반 병동 / 집중치료실(ICU)</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_AZITHROMYCIN</LocID>                                        <Text>아지트로마이신</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_AZITHROMYCIN_DESCRIPTION</LocID>                            <Text>다양한 박테리아 감염에 사용되는 항생제입니다. \n\n필요한 방: 감염내과실 / 감염내과의 진단 구역 / 집중치료실(ICU)</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTRAMUSCULAR_ANTIBIOTICS</LocID>                           <Text>IM 항생제</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTRAMUSCULAR_ANTIBIOTICS_DESCRIPTION</LocID>               <Text>근육내 항생제는 대근육에 주입되어 전달됩니다. \n\n필요한 방: 감염내과실 / 감염내과의 진단 구역 / 집중치료실(ICU)</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SPECIAL_ANTIVIRAL_TREATMENT</LocID>                         <Text>복합 항바이러스제</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SPECIAL_ANTIVIRAL_TREATMENT_DESCRIPTION</LocID>             <Text>복합 항바이러스제는 사용 가능한 타깃 항바이러스제가 없는 경우에 사용됩니다. \n\n필요한 방: 감염내과실 / 감염내과의 진단 구역 + 격리 구역 / 집중치료실(ICU)</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_EXPERIMENTAL_SERUM</LocID>                                  <Text>실험용 혈청</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_EXPERIMENTAL_SERUM_DESCRIPTION</LocID>                      <Text>에볼라 출혈열을 치료하는 실험 정맥용 약물 혈청입니다. \n\n필요한 방: 감염내과실 / 감염내과의 진단 구역 + 격리 구역 / 집중치료실(ICU)</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIMALARIAL_MEDICATION</LocID>                             <Text>말라리아 치료제</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIMALARIAL_MEDICATION_DESCRIPTION</LocID>                 <Text>말라리아 및 말라리아 관련 질병에 맞서 싸우는 다양한 항생제, 약물 및 지원 물질을 조합하여 만든 치료제입니다. \n\n필요한 방: 감염내과실 / 감염내과의 진단 구역 + 일반 병동 / 집중치료실(ICU)</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_PASSIVE_IMMUNOTHERAPY</LocID>                            <Text>IV 자극 면역 치료</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_PASSIVE_IMMUNOTHERAPY_DESCRIPTION</LocID>                <Text>서로 다른 바이러스성 출혈열을 대상으로 한 특정 항체의 정맥 투여량입니다. \n\n필요한 방: 감염내과실 / 감염내과의 진단 구역 + 일반 병동 / 집중치료실(ICU)</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTISENSE_THERAPY</LocID>                                   <Text>안티센스 요법</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTISENSE_THERAPY_DESCRIPTION</LocID>                       <Text>안티센스 요법은 유전 질환이나 감염을 위한 치료의 한 형태입니다. 특정한 유전자를 끊어내는 RNA/DNA의 종류와 합성할 수 있습니다. \n\n필요한 방: 감염내과실 / 감염내과의 진단 구역 + 일반 병동 / 집중치료실(ICU)</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_VANCOMYCIN</LocID>                                          <Text>반코마이신</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_VANCOMYCIN_DESCRIPTION</LocID>                              <Text>다수의 박테리아 감염을 치료하는 정맥 항생제입니다. \n\n필요한 방: 감염내과실 / 감염내과의 진단 구역 + 일반 병동 / 집중치료실(ICU)</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FLUCONAZOLE</LocID>                                         <Text>플루코나졸</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FLUCONAZOLE_DESCRIPTION</LocID>                             <Text>곰팡이 유기체에 의해 발생하는 다양한 질환을 치료하는 특수 항진균성 약물입니다. \n\n필요한 방: 감염내과실 / 감염내과의 진단 구역 + 일반 병동 / 집중치료실(ICU)</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_NITAZOXANIDE</LocID>                                        <Text>니타조사나이드</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_NITAZOXANIDE_DESCRIPTION</LocID>                            <Text>광역 스펙트럼 구충제 및 광역 스펙트럼 항바이러스제입니다. \n\n필요한 방: 감염내과실 / 감염내과의 진단 구역 + 일반 병동 / 집중치료실(ICU)</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_OSELTAMIVIR</LocID>                                         <Text>오셀타미비르</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_OSELTAMIVIR_DESCRIPTION</LocID>                             <Text>인플루엔자 A형 및 B형을 치료하고 예방하는 데 사용되는 항바이러스제입니다. \n\n필요한 방: 감염내과실 / 감염내과의 진단 구역 + 격리 구역 / 집중치료실(ICU)</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CIPROFLOXACIN</LocID>                                       <Text>시프로플록사신</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CIPROFLOXACIN_DESCRIPTION</LocID>                           <Text>다수의 박테리아 감염을 치료하는 데 사용되는 항생제입니다. \n\n필요한 방: 감염내과실 / 감염내과의 진단 구역 + 일반 병동 / 집중치료실(ICU)</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_CIPROFLOXACIN</LocID>                                    <Text>정맥용 시프로플록사신</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_CIPROFLOXACIN_DESCRIPTION</LocID>                        <Text>다수의 박테리아 감염을 치료하는 데 사용되는 항생제입니다. \n\n필요한 방: 감염내과실 / 감염내과의 진단 구역 + 격리 구역 / 집중치료실(ICU)</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SUPPORTIVE_CARE</LocID>                                     <Text>지지 요법</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SUPPORTIVE_CARE_DESCRIPTION</LocID>                         <Text>지지 요법은 다수의 대증요법으로 구성되어 있으며, 특정한 치료법이 없는 바이러스성 질환에 주로 사용됩니다. \n\n필요한 방: 감염내과실 / 감염내과의 진단 구역 + 일반 병동 / 집중치료실(ICU)</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_RABIES_IMMUNE_GLOBULIN_X</LocID>                            <Text>광견병 면역글로불린</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_RABIES_IMMUNE_GLOBULIN_X_DESCRIPTION</LocID>                <Text>감염된 환자의 광견병 바이러스를 막아주는 빠르게 작용하는 주사. 광견병일 가능성이 있는 동물에게 물린 환자에게 종종 선제적으로 투여됩니다.\n\n필요한 방: 감염내과실 / 감염내과의 진단 구역 + 일반 병동 / 집중치료실(ICU)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTERFERON_ALPHA-2B_X</LocID>                               <Text>인터페론 알파-2b</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTERFERON_ALPHA-2B_X_DESCRIPTION</LocID>                   <Text>매우 특수한 항바이러스성 물질로 만성 B형, C형 간염을 치료하는데 사용된다. \n\n필요한 방: 사무실 / 감염내과의 진단 구역 / 집중치료실(ICU)</Text>  </GameDBLocalizedString>
+                                                                                                                
+            <GameDBLocalizedString>      <LocID>EXM_GASTROSCOPY_DESCRIPTION</LocID>                             <Text>끝부분에 소형 카메라와 광원이 장착된 유연한 튜브(내시경)를 구강으로 삽입하여 소화관의 상부를 검사하는 시술입니다.\n\n필요한 방: 집중치료실(ICU) / 사무실 / 일반 외과 / 내과 / 순환기내과 / 감염내과의 진단 구역</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>      <Text>뇌척수액 샘플 추출은 바늘을 등 아래쪽을 통해 척추관 안으로 삽입하여 소량의 체액을 빼내어 수행됩니다. \n\n필요한 방: 조직학 연구실 \n\n샘플 추출: 신경의학과/ 감염내과 \n\n필요 장비: 유리그릇 + 의료용 원심 분리기 + 연구실 분석기</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>             <Text>추가 분석을 위해 환자 대변 샘플을 수집하는 절차입니다. \n\n필요한 방: 조직학 연구실 \n\n샘플 추출: 응급학과 / 일반 외과 / 내과 / 집중치료실(ICU) / 감염내과 \n\n필요 장비: 유리그릇 + 대변 분석기</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_AUDIOMETRY_DESCRIPTION</LocID>                              <Text>청력 검사에서 환자의 청력 수준이 결정됩니다. \n\n필요한 방: 진찰실 / 관찰실 / 집중치료실(ICU) / 사무실 / 응급실 / 집중치료실(ICU) / 일반 외과 / 내과 / 감염내과의 진단 구역</Text>  </GameDBLocalizedString>
+                                                                                                                
+            <GameDBLocalizedString>      <LocID>TRT_INTRAVENOUS_IMMUNOGLOBULIN_DESCRIPTION</LocID>              <Text>깨끗한 피의 항체가 정맥주사(IV)를 통해 투여되는 약품. \n\n필요한 방: 집중치료실(ICU) / 사무실 / 정형외과 / 신경의학과 / 감염내과 내 진단 구역</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIVIROTICS_DESCRIPTION</LocID>                            <Text>바이러스 감염의 증식을 억제하기 위한 의약품으로, 항생제와는 다르게 이 약물은 병원체를 직접적으로 파괴하지는 않습니다. \n\n필요한 방: 진찰실 / 관찰실 / 집중치료실(ICU) / 사무실 / 일반 외과 / 신경의학과 / 감염내과 내 진단 구역</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIDIARRHEALS_DESCRIPTION_V2</LocID>                       <Text>설사를 늦추거나 멎게 하는 약으로, 증상을 완화시켜 주지만 원인 치료는 불가합니다. \n\n필요한 방: 진찰실 / 관찰실 / 중증외상센터 / 집중 치료실(ICU) / 사무실 / 일반 외과 / 내과 / 감염내과 내 진단 구역</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIPARASITIC_DRUGS_DESCRIPTION_V2</LocID>                  <Text>인체 장기에 영향을 줄 수 있는 다양한 기생충 감염을 치료하기 위한 약. \n\n필요한 방: 진찰실 / 관찰실 / 중증외상센터 / 사무실 / 내과 / 감염내과 내 진단 구역</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_NASAL_DROPS_DESCRIPTION</LocID>                             <Text>비강을 청소하고 코를 통한 호흡을 도와주는 약품 \n\n필요한 방: 진료실 / 단기응급병동 / 내과 / 순환기내과의 진료실과 치료실 / 감염내과 내 진단 구역</Text>  </GameDBLocalizedString>
+
+            <!--new hematolab for the department-->
+            <GameDBLocalizedString>       <LocID>ROOM_TYPE_HEMATOLOGY_LAB_DID</LocID>                     		<Text>혈액학 검사실</Text></GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    

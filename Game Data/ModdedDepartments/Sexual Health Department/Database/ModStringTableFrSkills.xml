@@ -1,0 +1,28 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_FR_ADDON_SEXUAL_HEALTH_SKILLS">
+        
+        <LanguageCode>fr</LanguageCode>
+        <LanguageNameLocalized>Français</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Mikeo</Name>
+        </Contributors>
+        
+        <LocalizedStrings>
+            
+		<!-- Departments -->
+			
+        <GameDBLocalizedString>      <LocID>DPT_SH</LocID>                                          <Text>Santé Sexuelle</Text>  </GameDBLocalizedString>
+			
+		<!--Skills-->
+			
+		<GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_SH</LocID>                               <Text>Santé Sexuelle</Text>  </GameDBLocalizedString>
+        <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_SH_DESCRIPTION</LocID>                   <Text>Le département de Santé Sexuelle donne accès à des procédures spécialisées pour diagnostiquer et traiter des patients à sa clinique.</Text>  </GameDBLocalizedString>
+		<GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_SH_SURGERY</LocID>                       <Text>Chirurgie santé sexuelle</Text>  </GameDBLocalizedString>
+        <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_SH_SURGERY_DESCRIPTION</LocID>           <Text></Text>  </GameDBLocalizedString>
+		
+		</LocalizedStrings>
+		
+		</GameDBStringTable>
+
+</Database>

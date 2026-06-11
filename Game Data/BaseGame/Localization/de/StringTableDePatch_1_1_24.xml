@@ -1,0 +1,182 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_DE_PATCH_1_1_24">
+
+        <LanguageCode>de</LanguageCode>
+        <LanguageNameLocalized>Deutsch</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_UNDO</LocID>                   <Text>Letzte Änderung rückgängig machen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_UNDO_UNAVAILABLE</LocID>       <Text>Es hat sich nichts geändert oder die letzte Aktion kann nicht rückgängig gemacht werden.</Text>  </GameDBLocalizedString>
+            
+            <!-- ROOM TYPES -->
+
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_UNIQUE_IM_OFFICE</LocID>               <Text>Sonderverfahreneinheit</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_UNIQUE_IM_OFFICE_DESCRIPTION</LocID>   <Text>Eine einzigartige interne Medizinabteilung, die für diverse, spezielle minimalinvasive Verfahren eingesetzt wird.</Text>	</GameDBLocalizedString> <!--todo description-->
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_IM_UNIQUE_UNIT</LocID>              <Text>Sonderverfahreneinheit</Text>	</GameDBLocalizedString>
+
+            <!--PREFABS-->
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_IM_UNIQUE_OFFICE_LARGE_ABBR</LocID>  <Text>Sonderverfahreneinheit – 8 x 6</Text>	</GameDBLocalizedString>
+
+            <!--diagnoses-->
+
+            <!--ER-->
+            <GameDBLocalizedString>      <LocID>DIA_046</LocID>                  <Text>Grippe B</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_046_DESCRIPTION</LocID>      <Text>Grippe B wird vom Grippevirus B ausgelöst, der für saisonale Grippeausbrüche bei Menschen verantwortlich ist.</Text>	</GameDBLocalizedString>
+            <!--GS-->
+            <GameDBLocalizedString>      <LocID>DIA_047</LocID>                  <Text>HUS</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_047_DESCRIPTION</LocID>      <Text>Das Hämolytisch-urämisches Syndrom bezieht sich auf den Zustand, wenn kleine Blutgefäße in den Nieren beschädigt werden und sich entzünden. In den meisten Fällen ist Escherichia coli (E. coli) dafür verantwortlich.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_048</LocID>                  <Text>Campylobacteriose</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_048_DESCRIPTION</LocID>      <Text>Die Campylobacteriose ist eine Infektion, die in den meisten Fällen von Campylobacter jejuni ausgelöst wird. Es handelt sich hierbei häufig um eine Lebensmittelvergiftung.</Text>	</GameDBLocalizedString>
+            <!--NE-->
+            <GameDBLocalizedString>      <LocID>DIA_049</LocID>                  <Text>PCF</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_049_DESCRIPTION</LocID>      <Text>Das „Phrayngoconjuctival fever“ bezeichnet einen Zustand, der meistens vom Mastadenovirus B des Menschen ausgelöst wird. Er sorgt für kleine Ausbrüche, die sich hauptsächlich bei jungen Menschen in Gruppen ereignen. Die Krankheit betrifft sowohl den Rachen als auch die Augen.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_050</LocID>                  <Text>Fleischvergiftung</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_050_DESCRIPTION</LocID>      <Text>Die Fleischvergiftung ist eine seltene und potenziell tödliche Krankheit, die von Toxinen der Bakterien namens Clostridium botulinum ausgelöst wird.</Text>	</GameDBLocalizedString>
+            <!--IM-->
+            <GameDBLocalizedString>      <LocID>DIA_051</LocID>                  <Text>TIA</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_051_DESCRIPTION</LocID>      <Text>Eine transitorische ischämische Attacke ähnelt einem Schlaganfall, hält aber nur bis zu 24 Stunden an und verursacht keine Folgeschäden.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_052</LocID>                  <Text>Pleuritis</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_052_DESCRIPTION</LocID>      <Text>Pleuritis bezieht sich auf einen Zustand, bei dem die Lungenmembranen entzündet sind.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_053</LocID>                  <Text>Asbestose</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_053_DESCRIPTION</LocID>      <Text>Die Asbestose beschreibt einen Zustand, der durch mikroskopisch kleine Asbestablagerungen in der Lunge hervorgerufen wird.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_054</LocID>                  <Text>Miliaria</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_054_DESCRIPTION</LocID>      <Text>Die Miliaria, auch „Schweißausschlag“ genannt, ist eine Hautkrankheit, die vor allem in heißen und feuchten Umgebungen zum Vorschein kommt.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_055</LocID>                  <Text>Ciguatera</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_055_DESCRIPTION</LocID>      <Text>Ciguatera, auch bekannt als Ciguatera-Fischvergiftung, ist eine Lebensmittelvergiftung, die von Fischfleisch mit bestimmten Toxinen ausgelöst wird.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_056</LocID>                  <Text>Pleuraempyem</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_056_DESCRIPTION</LocID>      <Text>Bei einem Pleuraempyem handelt es sich um eine Ansammlung von Eiter innerhalb des Brustfells, die von einer bakteriellen Infektion ausgelöst wird.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_057</LocID>                  <Text>Chylothorax</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_057_DESCRIPTION</LocID>      <Text>Der Chylothorax ist eine Ansammlung von Lymphflüssigkeit im Bereich der Pleurahöhle.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_058</LocID>                  <Text>Parapneumonischer Erguss</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_058_DESCRIPTION</LocID>      <Text>Der parapneumonische Erguss beschreibt einen Zustand, der durch eine Lungenentzündung, Bronchiektase oder einen Lungenabszess ausgelöst wird.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_059</LocID>                  <Text>Cholesteatom</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_059_DESCRIPTION</LocID>      <Text>Das Cholesteatom ist ein gutartiger Hautwuchs, der oft durch wiederholte Mittelohrentzündungen verursacht wird.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_060</LocID>                  <Text>Kehlkopfdiphtherie</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_060_DESCRIPTION</LocID>      <Text>Die Kehlkopfdiphtherie, auch bekannt als Laryngotracheobronchitis, wird häufig durch eine virale und seltener durch eine bakterielle Infektion verursacht.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_061</LocID>                  <Text>Nasenpolyp</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_061_DESCRIPTION</LocID>      <Text>Ein Nasenpolyp ist eine gutartige Wucherung in der Nasenhöhle.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_062</LocID>                  <Text>Menière-Krankheit</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_062_DESCRIPTION</LocID>      <Text>Die Menière-Krankheit (Morbus Menière) ist eine Erkrankung des Innenohres, die sich durch Schwindelanfälle mit unbekannter Ursache äußert.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_063</LocID>                  <Text>Essentielle Thrombozythämie</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_063_DESCRIPTION</LocID>      <Text>Die essentielle Thrombozythämie beschreibt einen ungewöhnlichen Zustand, wenn der Körper eines Patienten mehr Blutplättchen als notwendig produziert.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_064</LocID>                  <Text>Giftefeu-Ausschlag</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_064_DESCRIPTION</LocID>      <Text>Der Giftefeu-Ausschlag ist eine allergische Reaktion gegen das Urushiol-Harz, das sich in den Blättern, Stängeln und Wurzeln des Giftefeus, der Eiche und des Sumachs befindet.</Text>	</GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRM_001</LocID>                  <Text>Hämothorax</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_001_DESCRIPTION</LocID>      <Text>Ein Hämothorax ist eine Blutansammlung im Pleuraraum und tritt häufig infolge von Brustverletzungen auf.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_002</LocID>                  <Text>Spannungspneumothorax</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_002_DESCRIPTION</LocID>      <Text>Der Spannungspneumothorax tritt am ehesten in Krankenhäusern bei Beatmungen, Reanimationen oder Menschen mit Lungenkrankheiten auf.</Text>	</GameDBLocalizedString>
+
+            
+            <!-- shared symptoms used at internal medicine-->
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_EFFUSION</LocID>                           <Text>Pleuraerguss</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_EFFUSION_DESCRIPTION</LocID>               <Text>Das MRT hat einen Pleuraerguss ergeben.</Text>  </GameDBLocalizedString>
+            
+               
+            <!--main symptoms - INTERNAL MEDICINE-->
+            <GameDBLocalizedString>      <LocID>SYM_INFLUENZA_B_DETECTED</LocID>                       <Text>Grippe B entdeckt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INFLUENZA_B_DETECTED_DESCRIPTION</LocID>           <Text>Der Serologietest hat Grippevirus-B-Antikörper entdeckt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_E_COLI_TOXIN_DETECTED</LocID>                      <Text>E. coli-Toxin entdeckt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_E_COLI_TOXIN_DETECTED_DESCRIPTION</LocID>          <Text>Die Stuhlanalyse hat ein Toxin entdeckt, das von E. coli produziert wurde.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_JEJUNI_DETECTED</LocID>                          <Text>C. jejuni entdeckt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_JEJUNI_DETECTED_DESCRIPTION</LocID>              <Text>EGIT hat Antigene für Campylobacter jejuni entdeckt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MASTADENOVIRUS_B_DETECTED</LocID>                  <Text>Mastadenovirus B entdeckt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MASTADENOVIRUS_B_DETECTED_DESCRIPTION</LocID>      <Text>Die PKR-Untersuchung hat den menschlichen Mastadenovirus B entdeckt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TIA_DETECTED</LocID>                               <Text>TIA entdeckt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TIA_DETECTED_DESCRIPTION</LocID>                   <Text>Das MRT hat Elemente einer transitorischen ischämischen Attacke ergeben.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_BOTULINUM_DETECTED</LocID>                       <Text>C. botulinum entdeckt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_BOTULINUM_DETECTED_DESCRIPTION</LocID>           <Text>EGIT hat Spuren von Clostridium botulinum entdeckt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BACTERIAL_INFECTION_DETECTED</LocID>               <Text>Bakterielle Infektion entdeckt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BACTERIAL_INFECTION_DETECTED_DESCRIPTION</LocID>   <Text>Die PKR-Untersuchung hat eine starke bakterielle Infektion nachgewiesen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ASBESTOSIS_DETECTED</LocID>                        <Text>Asbestose entdeckt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ASBESTOSIS_DETECTED_DESCRIPTION</LocID>            <Text>Die CT-Untersuchung hat Asbestose in der Lunge des Patienten nachgewiesen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEAT_RASH</LocID>                                  <Text>Hitzeausschlag</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEAT_RASH_DESCRIPTION</LocID>                      <Text>Die Evaluierung aller Symptome und bekannten Details bestätigen den Hitzeausschlag.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CIGUATOXIN_DETECTED</LocID>                        <Text>Ciguatoxin entdeckt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CIGUATOXIN_DETECTED_DESCRIPTION</LocID>            <Text>Der Bluttest hat eine Ciguatoxin-Vergiftung bestätigt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMOTHORAX_DISCOVERED</LocID>                      <Text>Hämothorax entdeckt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMOTHORAX_DISCOVERED_DESCRIPTION</LocID>          <Text>Die Ultraschalluntersuchung hat eine große Menge Blut im Pleuraraum des Patienten festgestellt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PUNCTURED_LUNGS</LocID>                            <Text>Lungenpunktion</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PUNCTURED_LUNGS_DESCRIPTION</LocID>                <Text>Die Ultraschalluntersuchung hat eine Lungenpunktion ergeben.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_FLUID_INFECTED</LocID>                     <Text>Pleuralflüssigkeit entdeckt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_FLUID_INFECTED_DESCRIPTION</LocID>         <Text>Die Biopsie der Pleuralflüssigkeit hat eine Infektion bestätigt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHYLOTHORAX_DETECTED</LocID>                       <Text>Chylothorax entdeckt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHYLOTHORAX_DETECTED_DESCRIPTION</LocID>           <Text>Die Röntgenuntersuchung hat Chylothorax diagnostiziert.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_TRANSUDATE</LocID>                         <Text>Pleuraltranssudat</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_TRANSUDATE_DESCRIPTION</LocID>             <Text>Das MRT hat Spuren von Pleuraltranssudat nachgewiesen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHOLESTEATOMA_DISCOVERED</LocID>                   <Text>Cholesteatom entdeckt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHOLESTEATOMA_DISCOVERED_DESCRIPTION</LocID>       <Text>Die CT-Untersuchung hat Cholesteatom im Ohr des Patienten entdeckt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NASAL_POLYPS_DETECTED</LocID>                      <Text>Nasenpolypen entdeckt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NASAL_POLYPS_DETECTED_DESCRIPTION</LocID>          <Text>Die CT-Untersuchung hat kleine Polypen in der Nasenhöhle des Patienten nachgewiesen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CROUP_PRESENT</LocID>                              <Text>Kehlkopfdiphtherie entdeckt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CROUP_PRESENT_DESCRIPTION</LocID>                  <Text>Die Evaluierung aller Symptome und bekannten Details bestätigen die Kehlkopfdiphtherie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MENIERES_DISEASE_PRESENT</LocID>                   <Text>Menière-Krankheit</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MENIERES_DISEASE_PRESENT_DESCRIPTION</LocID>       <Text>Die Evaluierung aller Symptome und bekannten Details bestätigen die Menière-Krankheit.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THROMBOCYTHEMIA</LocID>                            <Text>Thrombozythämie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THROMBOCYTHEMIA_DESCRIPTION</LocID>                <Text>Die Blutuntersuchung hat eine ungewöhnlich hohe Menge an Blutplättchen nachgewiesen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_POISON_IVY_RASH</LocID>                            <Text>Giftefeu-Ausschlag</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_POISON_IVY_RASH_DESCRIPTION</LocID>                <Text>Die Evaluierung aller Symptome und bekannten Details bestätigen einen Giftefeu-Ausschlag.</Text>  </GameDBLocalizedString>
+
+            <!--new trt procedures-->
+            <GameDBLocalizedString>      <LocID>TRT_BLOOD_COMPONENT_THERAPY</LocID>                    <Text>Blutbestandteiltherapie</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BLOOD_COMPONENT_THERAPY_DESCRIPTION</LocID>        <Text>Eine spezialisierte Bluttransfusion, bestehend aus Vollblut oder individuellen Bestandteilen wie roten Blutkörperchen, frisch gefrorenem Plasma, Blutplättchen, Cryoprecipitate, Granulozytteilchen und Rhogam. \n\nBenötigter Raum: Irgendein Diagnostik / ITS / Überwachungsraum / Überwachungsstation</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FOREIGN_OBJECT_REMOVAL</LocID>                     <Text>Fremdkörperentfernung</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FOREIGN_OBJECT_REMOVAL_DESCRIPTION</LocID>         <Text>Die Entfernung eines Fremdkörpers in der Wunde. \n\nBenötigter Raum: Arztzimmer / Überwachungsraum / Traumazentrum / ITS / Diagnostik auf der Traumatologie</Text>	</GameDBLocalizedString>
+
+            <!--internal medicine-->
+            <GameDBLocalizedString>      <LocID>TRT_THORACENTESIS</LocID>                              <Text>Pleurapunktion</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_THORACENTESIS_DESCRIPTION</LocID>                  <Text>Ein invasives Verfahren, um Flüssigkeit oder Luft aus dem Pleuraraum zu entfernen. \n\nBenötigter Raum: Sonderverfahreneinheit \n\nBenötigte Ausrüstung: Pleurapunktionsapparat</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MIEP</LocID>                                       <Text>MIE</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MIEP_DESCRIPTION</LocID>                           <Text>Eine minimal-invasive Endoskopie kommt bei der Behandlung von HNO-Krankheiten zum Einsatz. \n\nBenötigter Raum: Sonderverfahreneinheit \n\nBenötigte Ausrüstung: HNO-Workstation</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MANNITOL_DOSES</LocID>                             <Text>Mannit-Dosen</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MANNITOL_DOSES_DESCRIPTION</LocID>                 <Text>Patienten werden zur Bekämpfung einer Ciguatoxin-Vergiftung mit Mannit-Dosen versorgt. \n\nBenötigter Raum: Diagnostik auf der Innere Medizin</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HYDROXYUREA</LocID>                                <Text>Hydroxyharnstoff</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HYDROXYUREA_DESCRIPTION</LocID>                    <Text>Ein spezielles Medikament, das die Produktion von Blutkörperchen im Knochenmark unterdrückt. \n\nBenötigter Raum: Diagnostik auf der Innere Medizin</Text>	</GameDBLocalizedString>
+
+            <!--neurology-->
+            <GameDBLocalizedString>      <LocID>TRT_BOTULINUM_ANTITOXIN</LocID>                        <Text>Botulinum-Antitoxin</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BOTULINUM_ANTITOXIN_DESCRIPTION</LocID>            <Text>Spezielle Antikörper, die von Clostridium botulinum erzeugtes Gift neutralisieren. \n\nBenötigter Raum: Diagnostik auf der Neurologie</Text>	</GameDBLocalizedString>
+            
+            <!--EXAMINATIONS - NEW-->
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_SAMPLING</LocID>                            <Text>RT-PKR-Proben</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_SAMPLING_DESCRIPTION</LocID>                <Text>Die reverse Transkriptase-Polymerase-Kettenreaktion ist eine Labortechnik, die die reverse Transkriptase der RNA in die DNA und die Verstärkung spezifischer DNA-Ziele mittels PKR kombiniert.\n\nBenötigter Raum: Hämatologielabor\n\nProben: Notaufnahme / Abteilung für Infektionskrankheiten / ITS\n\nBenötigte Ausrüstung: Glaswaren + Thermocycler</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_TESTING</LocID>                             <Text>RT-PKR-Tests</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_TESTING_DESCRIPTION</LocID>                 <Text>Die reverse Transkriptase-Polymerase-Kettenreaktion ist eine Labortechnik, die die reverse Transkriptase der RNA in die DNA und die Verstärkung spezifischer DNA-Ziele mittels PKR kombiniert.\n\nBenötigter Raum: Hämatologielabor</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_SAMPLING</LocID>                             <Text>EGIT-Proben</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_SAMPLING_DESCRIPTION</LocID>                 <Text>Der enzymgekoppelte Immunadsorptionstest ist eine Labortechnik für die Ermittlung und Quantifizierung von Peptiden, Proteinen, Antikörpern und Hormonen.\n\nProben: Notaufnahme / Diagnostik in Innerer Medizin / Abteilung für Infektionskrankheiten / ITS\n\nBenötigte Ausrüstung: Glaswaren + RIA</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_TESTING</LocID>                              <Text>EGIT-Tests</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_TESTING_DESCRIPTION</LocID>                  <Text>Der enzymgekoppelte Immunadsorptionstest ist eine Labortechnik für die Ermittlung und Quantifizierung von Peptiden, Proteinen, Antikörpern und Hormonen.\n\nBenötigter Raum: Hämatologielabor</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PULSE_OXYMETRY</LocID>                             <Text>Pulsoximetrie</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PULSE_OXYMETRY_DESCRIPTION</LocID>                 <Text>Die Pulsoximetrie ist eine einfache und effektive Methode zur Beobachtung der Sauerstoffsättigung des Patienten.</Text>	</GameDBLocalizedString>
+
+            <!--OBJECTS - DEVICES-->
+            <GameDBLocalizedString>      <LocID>OBJECT_ENT_WORKSTATION</LocID>                         <Text>HNO-Workstation</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ENT_WORKSTATION_DESCRIPTION</LocID>             <Text>Die Hals-Nasen-Ohren-Workstation bietet eine breite Palette an HNO-Verfahren.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_THORA_DEVICE</LocID>                            <Text>Pleurapunktionsapparat</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_THORA_DEVICE_DESCRIPTION</LocID>                <Text>Ein spezielles UPG-Gerät (Uterosalpingographie) für Pleurapunktionsverfahren.</Text>	</GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SURGEON_ASSISTANTS</LocID>                             <Text>Chirurgenassistenten</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SURGEON_ASSISTANT</LocID>                              <Text>Chirurgenassistent</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SURGEON_ASSISTANT_DESCRIPTION</LocID>                  <Text>Ein Arzt im Bereitschaftszimmer als Chirurgenassistent, spezialisiert in</Text>  </GameDBLocalizedString>
+            
+            <!-- Note: the name if the new room is ROOM_TYPE_UNIQUE_IM_OFFICE in this file -->
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_INTERNAL_MEDICINE_CHANGE</LocID>         <Text>Wichtige Spieländerungen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_INTERNAL_MEDICINE_CHANGE_TEXT</LocID>    <Text>Die interne Medizinabteilung stellt keine chirurgischen Eingriffe mehr zur Verfügung. Du kannst ab jetzt eine neue Sonderverfahreneinheit bauen, die spezielle Untersuchungen und Behandlungen durchführt.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>BANNER_DLC_HOSPITAL_SERVICES</LocID>                   <Text>Schau dir den DLC „Krankenhausleistungen“ an!</Text>  </GameDBLocalizedString>
+
+            <!--NEW OBJECT-->
+            <GameDBLocalizedString>      <LocID>OBJECT_DONT_CROSS</LocID>                               <Text>Kein Zutritt</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

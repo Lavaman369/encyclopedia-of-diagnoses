@@ -1,0 +1,32 @@
+<Database>
+    <GameDBStringTable ID="LOC_HU_PATCH_1_2_30">
+
+        <LanguageCode>hu</LanguageCode>
+        <LanguageNameLocalized>Magyar</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- DID = department of infectious diseases, the abbreviation should be the same as in the string table for department of infectious diseases itself -->
+            <GameDBLocalizedString>    <LocID>EXM_THORAX_PERCUSSION_DESCRIPTION_V2</LocID>                 <Text>A mellkas rendszeresen kopogtatása alapján végzett vizsgálat, a mellkason belüli, kevesebb levegővel rendelkező területek meghatározására. \n\nSzükséges szoba: Bármilyen rendelő / vizsgáló</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_ANTICHOLINERGICS_DESCRIPTION_V2</LocID>                  <Text>A leggyakrabban használt gyógyszerek a túlzott izzadás kezelésére. \n\nSzükséges szoba: Orvosi rendelő / Megfigyelő szoba / Intenzív oszt. / Rendelő / Vizsgáló az belgyógyászati osztályon / Kardiológiai oszt. / Neurológiai oszt. / Fertőző oszt. / Traumatológiai oszt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_COLD_TILING_DESCRIPTION_V3</LocID>                       <Text>Hideg kompressziós kötés testtáji fájdalmak enyhítéséhez. \n\nSzükséges helyiség: Bármely rendelő / vizsgáló / Intenzív</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_MUCOLYTICS_DESCRIPTION_V2</LocID>                        <Text>Folyékony gyógyszerek, amelyek segítenek feloldani és kitisztítani a nyálkát a légutakból. \n\nSzükséges szoba: Orvosi rendelő / Megfigyelő szoba / Intenzív oszt. / Rendelő / Vizsgáló a belgyógyászaton / Fertőző oszt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_SALINE_NASAL_SPRAY_DESCRIPTION_V2</LocID>                <Text>Az orrüreg tisztítására használható spray, amely ezáltal segíti az orron át légzést. \n\nSzükséges szoba: Orvosi rendelő / Megfigyelő szoba / Rendelő / Vizsgáló a fertőző osztályon</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>EXM_CBC_SAMPLING_DESCRIPTION_V2</LocID>                      <Text>Vér mintavétele teljes vérképhez. \n\nSzükséges szoba: Hematológiai labor \n\nMintavételezés: Sürgősségi oszt. / Sebészeti oszt. / Belgyógyászati oszt. /Ortopédiai oszt. / Neurológiai oszt. / Intenzív oszt. / Fertőző oszt. / Traumatológiai oszt. \n\nSzükséges felszerelés: Üvegedények + Vérképelemző</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING_DESCRIPTION_V2</LocID>    <Text>A beteg középsugaras vizeletének vagy katéterének mintavételezése. \n\nSzükséges szoba: Szövettani labor \n\nMintavételezés: Sürgősségi oszt. / Sebészeti oszt. / Belgyógyászati oszt. / Kardiológiai oszt. / Intenzív oszt. / Fertőző oszt. / Traumatológiai oszt. \n\nSzükséges felszerelés: Üvegedények + általános elemző</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER</LocID>                                <Text>Sarokszekrény</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER_WALL</LocID>                           <Text>Fali sarokszekrény</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>    <LocID>CONTROL_PROCEDURE_PATIENT_DELIVER_SAMPLE</LocID>             <Text>Laborminta-átadó</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>CONTROL_PROCEDURE_PATIENT_STAT_LAB_RESULTS</LocID>           <Text>Laboreredmény kiadása</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>    <LocID>BANNER_DLCS</LocID>                                          <Text>Nézd meg a DLC-ket a Project Hospitalhoz:</Text>  </GameDBLocalizedString>
+            
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

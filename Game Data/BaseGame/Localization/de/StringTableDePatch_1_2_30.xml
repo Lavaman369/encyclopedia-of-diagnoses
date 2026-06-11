@@ -1,0 +1,32 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_DE_PATCH_1_2_30">
+
+        <LanguageCode>de</LanguageCode>
+        <LanguageNameLocalized>Deutsch</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- DID = department of infectious diseases, the abbreviation should be the same as in the string table for department of infectious diseases itself -->
+            <GameDBLocalizedString>    <LocID>EXM_THORAX_PERCUSSION_DESCRIPTION_V2</LocID>                 <Text>Eine Untersuchung, bei der systematisch auf den Brustkorb geklopft wird, um Bereiche mit weniger Luft im Brustkorb zu identifizieren. \n\nBenötigtes Zimmer: Belieb. Büro / Diagnostik</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_ANTICHOLINERGICS_DESCRIPTION_V2</LocID>                  <Text>Ein Medikament, das meist zur Behandlung von übermäßigem Schwitzen verwendet wird. \n\nBenötigtes Zimmer: Arztzimmer / Überwachungsraum / Intensivstation / Büro / Diagnostik in der Abteilung für innere Medizin / Kardiologie / Neurologie / Abteilung für ansteckende Krankheiten / Traumatologie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_COLD_TILING_DESCRIPTION_V3</LocID>                       <Text>Kalte Umschläge werden zur Beruhigung schmerzhafter Körperregionen angewandt. \n\nBenötigter Raum: Büro / Diagnostik / ITS</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_MUCOLYTICS_DESCRIPTION_V2</LocID>                        <Text>Schleimlösende flüssige Medikamente zur Befreiung der Atemwege. \n\nBenötigtes Zimmer: Arztzimmer / Überwachungsraum / Intensivstation / Büro / Diagnostik in der Abteilung für innere Medizin / Abteilung für ansteckende Krankheiten</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_SALINE_NASAL_SPRAY_DESCRIPTION_V2</LocID>                <Text>Ein Nasenspray, der zum Ausspülen der Nasenhöhlen verwendet wird, um das Atmen zu erleichtern. \n\nBenötigtes Zimmer: Arztzimmer / Überwachungsraum / Büro / Diagnostik in der Abteilung für ansteckende Krankheiten</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>EXM_CBC_SAMPLING_DESCRIPTION_V2</LocID>                      <Text>Blutprobe für ein komplettes Blutbild. \n\nBenötigtes Zimmer: Hämatologielabor \n\nProben: Notfallabteilung / Abteilung für Allgemeinchirurgie / Abteilung für innere Medizin / Orthopädie / Neurologie / Intensivstation / Abteilung für ansteckende Krankheiten / Traumatologie \n\nBenötigte Ausrüstung: Glaswaren + Blutanalyse</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING_DESCRIPTION_V2</LocID>    <Text>Entnahme von Mittelstrahlurin eines Patienten oder aus dem Katheder eines Patienten. \n\nBenötigtes Zimmer: Histologielabor \n\nProben: Notfallabteilung / Abteilung für Allgemeinchirurgie / Abteilung für innere Medizin / Kardiologie / Intensivstation / Abteilung für ansteckende Krankheiten / Traumatologie \n\nBenötigte Ausrüstung: Glaswaren + Laboranalyse</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER</LocID>                                <Text>Eckschrank</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER_WALL</LocID>                           <Text>Wandeckschrank</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>    <LocID>CONTROL_PROCEDURE_PATIENT_DELIVER_SAMPLE</LocID>             <Text>Laborprobenübergabe</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>CONTROL_PROCEDURE_PATIENT_STAT_LAB_RESULTS</LocID>           <Text>Laborergebniszustellung</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>    <LocID>BANNER_DLCS</LocID>                                          <Text>Überprüfe DLCs für Project Hospital:</Text>  </GameDBLocalizedString>
+            
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

@@ -1,0 +1,797 @@
+<Database>
+    <GameDBStringTable ID="LOC_IT_BUILDING_MODE">
+        
+        <LanguageCode>it</LanguageCode>
+        <LanguageNameLocalized>Italiano</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+			<Name>neoxes</Name>
+        </Contributors>
+        
+        <LocalizedStrings>
+            <!--actually in beta-->
+            <!--indoor flooring-->
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CONSTRUCTION</LocID>      	            <Text>Pavimento da costruzione</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_WHITE_TILES</LocID>      	            <Text>Piastrelle</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_GREEN_LINE</LocID>      		            <Text>Piastrelle con linea larga</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_BLUE_LINE</LocID>      		            <Text>Piastrelle con linea</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CERAMIC_APRICOT</LocID>                  <Text>Piastrelle scure</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CERAMIC_BEIGE</LocID>                    <Text>Piastrelle chiare</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CERAMIC_TINY</LocID>                     <Text>Piastrelle piccole</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CERAMIC_MED</LocID>               		<Text>Piastrelle medie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CERAMIC_MED_COLOR</LocID>                <Text>Piastrelle scure medie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CERAMIC_MED_AMAZON</LocID>               <Text>Piastrelle chiare medie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CERAMIC_FILLED</LocID>      		    	<Text>Piastrelle medie colorate</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_WHITE</LocID>      			            <Text>Resina bianca</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_BLACK</LocID>     			            <Text>Resina nera</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_BLUE</LocID>      		            	<Text>Resina scura</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_COLORED_DARK_LINE</LocID>      		    <Text>Resina scura con linea</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_COLORED_LIGHT</LocID>      		        <Text>Resina chiara</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_COLORED_LIGHT_LINE</LocID>      		    <Text>Resina chiara con linea</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_WOOD_RIGHT</LocID>                       <Text>Legno chiaro</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_WOOD_LEFT</LocID>                        <Text>Legno chiaro</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_WOOD_DARK_RIGHT</LocID>                  <Text>Legno scuro</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_WOOD_DARK_LEFT</LocID>      	            <Text>Legno scuro</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_LINO_COLORED_LIGHT</LocID>      		    <Text>Linoleum chiaro</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_LINO_LIGHT_LINE</LocID>      		    <Text>Linoleum chiaro con linea</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_LINO_COLORED_DARK</LocID>      		    <Text>Linoleum scuro</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_LINO_DARK_LINE</LocID>      		    	<Text>Linoleum scuro con linea</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_PANNELS</LocID>      		    		<Text>Pannelli lucidi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_ROOF</LocID>      		    			<Text>Copertura per tetto</Text>  </GameDBLocalizedString>
+            
+            <!--outdoor flooring-->
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CONCRETE_BRICK</LocID>                   <Text>Selciato in cemento</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_INTERLOCKING_PAWMENT</LocID>             <Text>Selciato ad incastro</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_GRASS</LocID>                            <Text>Erba chiara</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_GRASS_DARK</LocID>                       <Text>Erba scura</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_ROAD</LocID>                             <Text>Asfalto</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_LINE</LocID>                             <Text>Asfalto con linea bianca</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_ROAD_DETAIL</LocID>                      <Text>Asfalto (variazione)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_ROAD_DRAIN_LEFT</LocID>                  <Text>Asfalto con tombino</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_PEDESTRIAN_CROSSING_NW</LocID>           <Text>Attraversamento pedonale</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_PEDESTRIAN_CROSSING_NE</LocID>           <Text>Attraversamento pedonale</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_ROAD_AMBULANCE_L</LocID>                 <Text>Area per Ambulanza</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_ROAD_AMBULANCE_R</LocID>                 <Text>Area per Ambulanza</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CONSTRUCTION_OUTSIDE</LocID>             <Text>Terreno di costruzione</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_SAND</LocID>                             <Text>Sabbia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_GRAVEL</LocID>                           <Text>Ghiaia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_DIRT</LocID>                             <Text>Terreno</Text>  </GameDBLocalizedString>
+            
+            <!--not present in game-->
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_TILES</LocID>                            <Text>Piastrelle grandi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_GRASS_01</LocID>                         <Text>Erba1</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_GRASS_02</LocID>                         <Text>Erba2</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_GRASS_03</LocID>                         <Text>Erba3</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_NONE</LocID>                             <Text>Vuoto</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_CERAMIC_BLUE</LocID>      	            <Text>Ceramica blu</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_RANDOM_COLORED</LocID>      		        <Text>Colorazione casuale</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_DONT_USE</LocID>      		    		<Text>Test</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_DEFAULT</LocID>                           <Text>Parete bianca</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_CONCRETE_TILES</LocID>                    <Text>Pannelli in cemento</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_BRICKS</LocID>                            <Text>Mattoni rossi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_BRICKS_SOCLE</LocID>                      <Text>Mattoni rossi con base in cemento</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_CONCRETE_OUTSIDE</LocID>                  <Text>Parete con motivo alla base</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_CONCRETE_OUTSIDE_BOTTOM</LocID>           <Text>Parete con motivo in alto</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_CONCRETE_OUTSIDE_TOP</LocID>              <Text>Parete con motivo in basso</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_CONCRETE_COLOR</LocID>                    <Text>Parete colorata con mattoni alla base</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_CONCRETE_COLOR_BOTTOM</LocID>             <Text>Parete colorata con mattoni in alto</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_CONCRETE_COLOR_TOP</LocID>                <Text>Parete colorata con mattoni in basso</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_PLATES</LocID>                            <Text>Pannelli lucidi bianchi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_PLATES_COLORED</LocID>                    <Text>Pannelli lucidi colorati</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_LIGHTWOOD_ALL</LocID>                     <Text>Parete in legno chiaro</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_LIGHTWOOD_TOP</LocID>                     <Text>Parete con legno chiaro in alto</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_LIGHTWOOD_BOTTOM</LocID>                  <Text>Parete con legno chiaro in basso</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_DARKWOOD_ALL</LocID>                      <Text>Parete in legno scuro</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_DARKWOOD_TOP</LocID>                      <Text>Parete con legno scuro in alto</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_DARKWOOD_BOTTOM</LocID>                   <Text>Parete con legno scuro in basso</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_CERAMIC_WHITE</LocID>                     <Text>Piastrelle bianche</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_CERAMIC_WHITE_HALF</LocID>                <Text>Parete con piastrelle bianche</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_CERAMIC_WHITE_HALF_COLORED</LocID>        <Text>Parete colorata con piastrelle bianche</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_CERAMIC_WHITE_LINE</LocID>                <Text>Piastrelle bianche con linea colorata</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_CERAMIC_ORANGE</LocID>                    <Text>Piastrelle colorate</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_CERAMIC_COLORED_HALF_WHITE</LocID>        <Text>Parete con piastrelle colorate</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_CERAMIC_COLORED_HALF</LocID>              <Text>Parete colorata con piastrelle colorate</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_WC</LocID>                                <Text>Parete divisoria per bagno</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_GREEN</LocID>                             <Text>Parete colorata</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_LINE</LocID>                              <Text>Parete con striscia colorata</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_TWOLINES</LocID>                          <Text>Parete con doppia striscia colorata</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_THICK_LINE_ORANGE</LocID>                 <Text>Parete con striscia colorata spessa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_LINE_HALF_BLUE</LocID>                    <Text>Parete colorata in basso con striscia bianca</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_HALF_GREEN</LocID>                        <Text>Parete con strisce colorate agli estremi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_HALF</LocID>                              <Text>Parete colorata in basso</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_UPPER_HALF</LocID>                        <Text>Parete colorata in alto</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_LINE_ORANGE</LocID>                       <Text>Parete colorata con striscia bianca</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_WOOND_PANELING_ORANGE</LocID>             <Text>Parete colorata in basso con paracolpi in legno</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WALL_TYPE_TEST</LocID>                           	<Text>Test</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>WINDOW_DEFAULT</LocID>                              <Text>Finestra con tenda da sole</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WINDOW_TALL</LocID>                                 <Text>Finestra alta</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>GLASS_WALL_DOUBLELINES</LocID>                      <Text>Finestra a vetrata</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WINDOW_FLAT</LocID>                                 <Text>Finestra di osservazione</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>GLASS_WALL_COLOR</LocID>                            <Text>Finestra a vetrata colorata</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WINDOW_GLASS_TALL</LocID>                           <Text>Finestra in vetro alta</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>WINDOW_GLASS_SMALL</LocID>                          <Text>Finestra in vetro bassa</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DOOR_DEFAULT</LocID>                                <Text>Porta</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_WINDOW</LocID>                                 <Text>Porta con finestra</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_XRAY</LocID>                                   <Text>Porta schermata</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_DOUBLE_XRAY</LocID>                            <Text>Porta doppia schermata</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_WC</LocID>                                     <Text>Porta da bagno</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_DOUBLE</LocID>                                 <Text>Porta doppia con finestra</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_DOUBLE_SLIDING</LocID>                         <Text>Porte scorrevoli</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_TALL_WINDOW_SINGLE</LocID>                     <Text>Porta con finestra</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_DOUBLE_WINDOW</LocID>                     		<Text>Porta doppia con finestra</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_GLASS</LocID>                     				<Text>Porta in vetro</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_DOUBLE_GLASS</LocID>                     		<Text>Porta doppia in vetro</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_RESTRICTED</LocID>                     		<Text>Porta Area Riservata</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_RESTRICTED_DOUBLE</LocID>                     	<Text>Porta doppia Area Riservata</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_DOUBLE_ELEVATOR</LocID>                     	<Text>Porte scorrevoli in metallo</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_WAITING</LocID>                           <Text>Sala d'Attesa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_WAITING_DESCRIPTION</LocID>               <Text>La sala d'attesa è il luogo dove i pazienti si trattengono prima di essere ricevuti. Questo tipo di stanza dovrebbe essere collocata nei pressi di ogni ambulatorio, laboratorio e stanza di esame, come quelle di radiologia ed imaging.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_DOCTORS_OFFICE</LocID>                    <Text>Ambulatorio Medico</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_DOCTORS_OFFICE_DESCRIPTION</LocID>        <Text>Ambulatorio clinico diagnostico di medicina di base, utilizzato per esami e trattamenti di base. Requisiti min. staff:\n1x Dottore - Medicina di Emergenza</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_COMMON_ROOM</LocID>                       <Text>Sala Comune</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_COMMON_ROOM_DESCRIPTION</LocID>           <Text>La sala comune è il luogo dove il personale dell'ospedale può riposare, studiare e mangiare.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_RECEPTION</LocID>                         <Text>Accettazione</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_RECEPTION_DESCRIPTION</LocID>             <Text>L'accettazione è il luogo adibito al ricevimento dei pazienti, dove il personale addetto all'accoglienza garantisce che i pazienti ricevano un triage corretto all'arrivo, assegnando la priorità corretta in base al grado di rischio. \n\nRequisiti min. staff: \n1x Infermiere - Accettazione</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CORRIDOR</LocID>                          <Text>Corridoio</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CORRIDOR_DESCRIPTION</LocID>              <Text>Il corridoio è un luogo di passaggio, comunicazione e disimpegno tra locali adiacenti, può essere usato per assegnare l'area ad uno specifico dipartimento, abilitare l'illuminazione automatica ed il servizio di pulizia degli inservienti. \n\nRequisiti min. staff: \nNessuno</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB</LocID>                          <Text>Laboratorio di Analisi</Text>  </GameDBLocalizedString> <!-- Lab at Emergency -->
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_DESCRIPTION</LocID>              <Text>Il laboratorio di analisi offre un'ampia varietà di esami per confutare diverse diagnosi. \nRequisiti min. staff:\n1x Tecnico - Biochimica</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_GS</LocID>                       <Text>Laboratorio di Chirurgia</Text>  </GameDBLocalizedString> <!-- Lab at General surgery -->
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_GS_DESCRIPTION</LocID>           <Text>Il laboratorio di chirurgia offre un'ampia varietà di esami per confutare diverse diagnosi. \nRequisiti min. staff:\n1x Tecnico - Biochimica</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_IM</LocID>                       <Text>Laboratorio di Medicina Interna</Text>  </GameDBLocalizedString> <!-- Lab at Internal medicine -->
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_IM_DESCRIPTION</LocID>           <Text>Il laboratorio di medicina interna offre un'ampia varietà di esami per confutare diverse diagnosi. \nRequisiti min. staff:\n1x Tecnico - Biochimica</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_OT</LocID>                       <Text>Laboratorio di Ortopedia</Text>  </GameDBLocalizedString> <!-- Lab at Orthopaedy -->
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_OT_DESCRIPTION</LocID>           <Text>Il laboratorio di ortopedia offre un'ampia varietà di esami per confutare diverse diagnosi. \nRequisiti min. staff:\n1x Tecnico - Biochimica</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_CAR</LocID>                      <Text>Laboratorio di Cardiologia</Text>  </GameDBLocalizedString> <!-- Lab at Cardiology -->
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_CAR_DESCRIPTION</LocID>          <Text>Il laboratorio di cardiologia offre un'ampia varietà di esami per confutare diverse diagnosi. \nRequisiti min. staff:\n1x Tecnico - Biochimica</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_NE</LocID>                       <Text>Laboratorio di Neurologia</Text>  </GameDBLocalizedString> <!-- Lab at Neourology -->
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_STAT_LAB_NE_DESCRIPTION</LocID>           <Text>Il laboratorio di neurologia offre un'ampia varietà di esami per confutare diverse diagnosi. \nRequisiti min. staff:\n1x Tecnico - Biochimica</Text>  </GameDBLocalizedString>
+           
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_X_RAY_ROOM</LocID>                        <Text>Sala Raggi X</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_X_RAY_ROOM_DESCRIPTION</LocID>            <Text>La sala raggi X fornisce immagini radiologiche di diverse parti del corpo umano, raffiguranti strutture al di sotto della pelle e dei muscoli. \n\nRequisiti min. staff: \n1x Tecnico - Radiologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CT_ROOM</LocID>                           <Text>Sala TC</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CT_ROOM_DESCRIPTION</LocID>               <Text>La sala TC fornisce immagini dettagliate di diverse parti del corpo umano utilizzando la tomografia computerizzata (TC), tecnica di imaging radiodiagnostica che sfrutta le proprietà dei raggi X. \n\nRequisiti min. staff: \n1x Tecnico - Radiologia</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_MRI_ROOM</LocID>                          <Text>Sala MRI</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_MRI_ROOM_DESCRIPTION</LocID>              <Text>La sala MRI fornisce immagini dettagliate di diverse parti del corpo umano utilizzando l'imaging a risonanza magnetica (MRI), tecnica di imaging radiodiagnostica che sfrutta le proprietà del campo magnetico e delle onde radio. \n\nRequisiti min. staff: \n1x Tecnico - Radiologia</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ANGIOGRAPHY_ROOM</LocID>                  <Text>Sala Angiografica</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ANGIOGRAPHY_ROOM_DESCRIPTION</LocID>      <Text>La sala angiografica fornisce immagini dettagliate di vasi sanguigni o linfatici del corpo umano utilizzando l'angiografia (ANGIO), detta anche arteriografia, tecnica di imaging radiodiagnostica che sfrutta le proprietà dei raggi X e prevede l'infusione di un mezzo di contrasto. \n\nRequisiti min. staff: \n1x Tecnico - Radiologia</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ER_OBSERVATION_ROOM</LocID>               <Text>Reparto di Osservazione</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ER_OBSERVATION_ROOM_DESCRIPTION</LocID>   <Text>Il reparto di osservazione breve intensiva (OBI) è il luogo adibito ed utilizzato per eseguire esami ed accertamenti su pazienti che necessitano approfondimenti clinici, al fine di evitare il rischio di dimissioni e/o ricoveri inappropriati. Durante la degenza, i pazienti si trovano sotto la continua supervisione medica. \n\nRequisiti min. staff: \n1x Dottore \n(Personale della Sala Medici)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_WC</LocID>      			                <Text>Servizi Igienici</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_WC_DESCRIPTION</LocID>      			    <Text>I servizi igienici sono il luogo che contiene l'insieme delle apparecchiature e degli impianti destinati all'espletamento dei bisogni fisiologici ed alla cura dell'igiene personale. \n\nRequisiti min. staff: \nNessuno</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CLEANING_CLOSET</LocID>                   <Text>Ripostiglio Pulizie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CLEANING_CLOSET_DESCRIPTION</LocID>       <Text>Il ripostiglio per le pulizie è il luogo che contiene tutte le attrezzature necessarie agli inservienti per la pulizia del dipartimento.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_DIAGNOSTIC_SONOGRAPHY_UNIT_GS</LocID>                     <Text>Unità di Ecografia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_DIAGNOSTIC_SONOGRAPHY_UNIT_GS_DESCRIPTION</LocID>         <Text>L'unità di ecografia diagnostica fornisce esami e trattamenti specifici a base di ultrasuoni. \n\nRequisiti min. staff: \n1x Tecnico - Ecografia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_DIAGNOSTIC_SONOGRAPHY_UNIT_OT</LocID>                     <Text>Unità di Ecografia</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_DIAGNOSTIC_SONOGRAPHY_UNIT_OT_DESCRIPTION</LocID>         <Text>L'unità di ecografia diagnostica fornisce esami e trattamenti specifici a base di ultrasuoni. \n\nRequisiti min. staff: \n1x Tecnico - Ecografia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_DIAGNOSTIC_SONOGRAPHY_UNIT_CAR</LocID>                    <Text>Unità di Ecografia</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_DIAGNOSTIC_SONOGRAPHY_UNIT_CAR_DESCRIPTION</LocID>        <Text>L'unità di ecografia diagnostica fornisce esami e trattamenti specifici a base di ultrasuoni. \n\nRequisiti min. staff: \n1x Tecnico - Ecografia</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_GS</LocID>                <Text>Unità di Cardiologia</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_GS_DESCRIPTION</LocID>    <Text>L'unità di cardiologia diagnostica fornisce vari metodi di esame e trattamenti relativi all'apparato cardiovascolare umano. \n\nRequisiti min. staff: \n1x Tecnico - Cardiologia</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_IM</LocID>                <Text>Unità di Cardiologia</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_IM_DESCRIPTION</LocID>    <Text>L'unità di cardiologia diagnostica fornisce vari metodi di esame e trattamenti relativi all'apparato cardiovascolare umano. \n\nRequisiti min. staff: \n1x Tecnico - Cardiologia</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_CAR</LocID>               <Text>Unità di Cardiologia</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_CAR_DESCRIPTION</LocID>   <Text>L'unità di cardiologia diagnostica fornisce vari metodi di esame e trattamenti relativi all'apparato cardiovascolare umano. \n\nRequisiti min. staff: \n1x Tecnico - Cardiologia</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_NE</LocID>                <Text>Unità di Cardiologia</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_NE_DESCRIPTION</LocID>    <Text>L'unità di cardiologia diagnostica fornisce vari metodi di esame e trattamenti relativi all'apparato cardiovascolare umano. \n\nRequisiti min. staff: \n1x Tecnico - Cardiologia</Text></GameDBLocalizedString>
+
+            <!--UPDATED--><GameDBLocalizedString>      <LocID>ROOM_TYPE_NEURODIAGNOSTIC_UNIT_NE</LocID>                   <Text>Unità di Neurologia</Text>  </GameDBLocalizedString>
+            <!--UPDATED--><GameDBLocalizedString>      <LocID>ROOM_TYPE_NEURODIAGNOSTIC_UNIT_NE_DESCRIPTION</LocID>       <Text>L'unità di neurologia diagnostica fornisce esami neurologici specifici. \n\nRequisiti min. staff: \n1x Tecnico - Neurologia</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_TRAUMA_CENTER</LocID>                      <Text>Pronto Soccorso</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_TRAUMA_CENTER_DESCRIPTION</LocID>          <Text>Il pronto soccorso è il punto di ingresso principale per i pazienti critici portati dalle ambulanze ed accetta anche pazienti collassati. \n\nRequisiti min. staff: \n1x Dottore - Medicina di Emergenza \n1x Infermiere \n(Personale della Sala Medici e della Sala Infermieri)</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_GS_OFFICE</LocID>                               <Text>Unità Diagnostica</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_GS_OFFICE_DESCRIPTION</LocID>                   <Text>L'unità diagnostica, presso il dipartimento di Chirurgia Generale, fornisce procedure di esame, terapie e trattamenti per i pazienti ricoverati. \n\nRequisiti min. staff: \n1x Dottore \n(Personale della Sala Medici)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_IM_OFFICE</LocID>                               <Text>Unità Diagnostica</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_IM_OFFICE_DESCRIPTION</LocID>                   <Text>L'unità diagnostica, presso il dipartimento di Medicina Interna, fornisce procedure di esame, terapie e trattamenti per i pazienti ricoverati. \n\nRequisiti min. staff: \n1x Dottore \n(Personale della Sala Medici)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_OT_OFFICE</LocID>                               <Text>Unità Diagnostica</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_OT_OFFICE_DESCRIPTION</LocID>                   <Text>L'unità diagnostica, presso il dipartimento di Ortopedia, fornisce procedure di esame, terapie e trattamenti per i pazienti ricoverati. \n\nRequisiti min. staff: \n1x Dottore \n(Personale della Sala Medici)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_CARDIOLOGY_OFFICE</LocID>                       <Text>Unità Diagnostica</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_CARDIOLOGY_OFFICE_DESCRIPTION</LocID>           <Text>L'unità diagnostica, presso il dipartimento di Cardiologia, fornisce procedure di esame, terapie e trattamenti per i pazienti ricoverati. \n\nRequisiti min. staff: \n1x Dottore \n(Personale della Sala Medici)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_NEUROLOGY_OFFICE</LocID>                        <Text>Unità Diagnostica</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_NEUROLOGY_OFFICE_DESCRIPTION</LocID>            <Text>L'unità diagnostica, presso il dipartimento di Neurologia, fornisce procedure di esame, terapie e trattamenti per i pazienti ricoverati. \n\nRequisiti min. staff: \n1x Dottore \n(Personale della Sala Medici)</Text></GameDBLocalizedString>
+              
+            <!-- Room types for testing - will need update -->
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_NURSES_STATION</LocID>                            <Text>Sala Infermieri</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_NURSES_STATION_DESCRIPTION</LocID>                <Text>La sala infermieri è il luogo dove si trovano e lavorano tutti gli infermieri necessari per gestire un dipartimento. \n\nRequisiti min. staff: \n1-3x Infermiere</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ON_CALL_ROOM</LocID>                              <Text>Sala Medici</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ON_CALL_ROOM_DESCRIPTION</LocID>                  <Text>La sala medici è il luogo dove si trovano e lavorano tutti i dottori necessari per gestire un dipartimento. \n\nRequisiti min. staff: \n1x Dottore</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_WARD</LocID>                            <Text>Reparto di Degenza</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_WARD_DESCRIPTION</LocID>                <Text>Il reparto di degenza è il luogo adibito ed utilizzato per il normale ricovero dei pazienti. Durante la degenza, i pazienti si trovano sotto la continua supervisione medica. \n\nRequisiti min. staff: \n1x Dottore \n1x Infermiere \n(Personale della Sala Medici e della Sala Infermieri)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HIGH_PRIORITY_INPATIENT_WARD</LocID>              <Text>Reparto TS</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_HIGH_PRIORITY_INPATIENT_WARD_DESCRIPTION</LocID>  <Text>Il reparto di terapia subintensiva è il luogo adibito ed utilizzato per il ricovero dei pazienti non troppo critici, ma che necessitano comunque di un livello più alto di assistenza medica, di un costante monitoraggio e di un eventuale supporto alle funzioni vitali. Durante il ricovero, i pazienti si trovano sotto la continua supervisione medica. \n\nRequisiti min. staff: \n1x Dottore \n1x Infermiere \n(Personale della Sala Medici e della Sala Infermieri)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INTENSIVE_CARE_UNIT</LocID>                       <Text>Reparto TI</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INTENSIVE_CARE_UNIT_DESCRIPTION</LocID>           <Text>Il reparto di terapia intensiva è il luogo adibito ed utilizzato per il ricovero dei pazienti critici, che necessitano del più alto livello di assistenza medica, di un costante monitoraggio e di un supporto alle funzioni vitali. \n\nRequisiti min. staff: \n1x Dottore - Terapia Intensiva \n1x Infermiere \n(Personale della Sala Medici e della Sala Infermieri)</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_GENERAL_SURGERY_OFFICE</LocID>                <Text>Ambulatorio di Chirurgia Generale</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_GENERAL_SURGERY_OFFICE_DESCRIPTION</LocID>    <Text>Ambulatorio clinico diagnostico di Chirurgia Generale, utilizzato per esami e trattamenti di base. \n\nRequisiti min. staff: \n1x Dottore - Chirurgia Generale</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INTERNAL_MEDICINE_OFFICE</LocID>              <Text>Ambulatorio di Medicina Interna</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INTERNAL_MEDICINE_OFFICE_DESCRIPTION</LocID>  <Text>Ambulatorio clinico diagnostico di Medicina Interna, utilizzato per esami e trattamenti di base. \n\nRequisiti min. staff: \n1x Dottore - Medicina Interna</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ORTHOPAEDICS_OFFICE</LocID>                   <Text>Ambulatorio di Ortopedia</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ORTHOPAEDICS_OFFICE_DESCRIPTION</LocID>       <Text>Ambulatorio clinico diagnostico di Ortopedia, utilizzato per esami e trattamenti di base. \n\nRequisiti min. staff: \n1x Dottore - Ortopedia</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOLOGY_OFFICE</LocID>                     <Text>Ambulatorio di Cardiologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOLOGY_OFFICE_DESCRIPTION</LocID>         <Text>Ambulatorio clinico diagnostico di Cardiologia, utilizzato per esami e trattamenti di base. \n\nRequisiti min. staff: \n1x Dottore - Cardiologia</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_NEUROLOGY_OFFICE</LocID>                      <Text>Ambulatorio di Neurologia</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_NEUROLOGY_OFFICE_DESCRIPTION</LocID>          <Text>Ambulatorio clinico diagnostico di Neurologia, utilizzato per esami e trattamenti di base. \n\nRequisiti min. staff: \n1x Dottore - Neurologia</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_OPERATING_ROOM</LocID>                    <Text>Sala Operatoria</Text></GameDBLocalizedString>
+            <!--UPDATED--><GameDBLocalizedString>      <LocID>ROOM_TYPE_OPERATING_ROOM_DESCRIPTION</LocID>        <Text>La sala operatoria è il luogo dove viene praticata la chirurgia ed eseguite tutte le relative procedure. La stanza è completamente attrezzata, contiene tutte le apparecchiature e gli strumenti necessari, e deve essere realizzata con rigide regole che garantiscano elevati standard di igiene ed asepsi. \n\nRequisiti min. staff: \n1x Dottore - Chirurgo \n1x Dottore - Assistente \n1x Dottore \n1x Anestesista \n1x Infermiere - Chirurgia Medica \n1x Infermiere \n(Personale della Sala Medici e della Sala Infermieri)</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_OP</LocID>                        		<Text>Sala Operatoria</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_OP_DESCRIPTION</LocID>            		<Text>Adesivo murale.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_CHAIR_DEFAULT</LocID>                        <Text>Sedia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CHAIR_DEFAULT_DESCRIPTION</LocID>            <Text>Una semplice sedia, utile per le sale d'attesa o per l'accettazione, può essere unita ai tavoli da pranzo ed utilizzata dal personale per consumare i pasti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CHAIR_SMALL</LocID>                          <Text>Sgabello</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CHAIR_SMALL_DESCRIPTION</LocID>              <Text>Lo sgabello è una piccola sedia da lavoro, utilizzata nei laboratori o anche negli ambulatori.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CHAIR_OFFICE_01</LocID>                      <Text>Sedia da ufficio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CHAIR_OFFICE_01_DESCRIPTION</LocID>          <Text>La sedia da ufficio è la sedia da lavoro di base per il personale, può essere unita alle scrivanie.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_FANCY_CHAIR</LocID>                          <Text>Sedia elegante</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FANCY_CHAIR_DESCRIPTION</LocID>              <Text>Una sedia elegante, utile per le sale d'attesa o per l'accettazione, può essere unita ai tavoli da pranzo ed utilizzata dal personale per consumare i pasti.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER</LocID>                               <Text>Poster - Informazioni</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_DESCRIPTION</LocID>                   <Text>Una decorazione ed una distrazione per i pazienti annoiati.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_ARTERIES</LocID>                      <Text>Poster - Arterie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_ARTERIES_DESCRIPTION</LocID>          <Text>Una decorazione ed una distrazione per i pazienti annoiati.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_DIGESTION</LocID>                     <Text>Poster - Digestione</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_DIGESTION_DESCRIPTION</LocID>         <Text>Una decorazione ed una distrazione per i pazienti annoiati.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_EYE</LocID>                           <Text>Poster - Occhio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_EYE_DESCRIPTION</LocID>               <Text>Una decorazione ed una distrazione per i pazienti annoiati.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_HEART</LocID>                         <Text>Poster - Cuore</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_HEART_DESCRIPTION</LocID>             <Text>Una decorazione ed una distrazione per i pazienti annoiati.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_LIVER</LocID>                         <Text>Poster - Fegato</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_LIVER_DESCRIPTION</LocID>             <Text>Una decorazione ed una distrazione per i pazienti annoiati.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_SKULL</LocID>                         <Text>Poster - Cranio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_SKULL_DESCRIPTION</LocID>             <Text>Una decorazione ed una distrazione per i pazienti annoiati.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_TENIS</LocID>                         <Text>Poster - Gomito del tennista</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_TENIS_DESCRIPTION</LocID>             <Text>Una decorazione ed una distrazione per i pazienti annoiati.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_VEINS</LocID>                         <Text>Poster - Vene</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_VEINS_DESCRIPTION</LocID>             <Text>Una decorazione ed una distrazione per i pazienti annoiati.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DEFAULT_PLANT</LocID>                        <Text>Cactus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DEFAULT_PLANT_DESCRIPTION</LocID>            <Text>Il cactus è una pianta grassa ornamentale, una decorazione spinosa.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WC</LocID>                                   <Text>WC</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WC_DESCRIPTION</LocID>                       <Text>Il WC è un apparecchio sanitario destinato allo smaltimento dei bisogni fisiologici. Chiaro. Semplice. Bianco.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MIRROR</LocID>                               <Text>Specchio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MIRROR_DESCRIPTION</LocID>                   <Text>Un semplice specchio da parete, utile per prendersi cura del proprio aspetto, rappresenta una decorazione ed aggiunge un tocco di stile all'ambiente.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_INFO_TV</LocID>                              <Text>Monitor Informativo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_INFO_TV_DESCRIPTION</LocID>                  <Text>Il monitor informativo fornisce informazioni utili ai pazienti in attesa e permette di visualizzare l'ordine della coda ed i turni dei ticket erogati dalla biglietteria automatica.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_HAND_DRYER</LocID>                           <Text>Asciugamani</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_HAND_DRYER_DESCRIPTION</LocID>               <Text>L'asciugamani è un dispositivo elettrico che emette aria calda e consente ai pazienti di asciugarsi le mani nei servizi igienici.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_COFFEE_TABLE</LocID>                         <Text>Tavolino da caffè</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_COFFEE_TABLE_DESCRIPTION</LocID>             <Text>Il tavolino da caffè è un piccolo oggetto decorativo, su di esso possono essere collocati diversi oggetti, come TV o radio.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BUCKET_CART</LocID>                          <Text>Carrello per le pulizie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BUCKET_CART_DESCRIPTION</LocID>              <Text>Il carrello per le pulizie contiene tutto il necessario per l'igiene dei dipartimenti ed è utilizzato dagli inservienti per la pulizia di diverse zone.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WATER_DISPENSER</LocID>                      <Text>Erogatore d'acqua</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WATER_DISPENSER_DESCRIPTION</LocID>          <Text>L'erogatore d'acqua fornisce ristoro per pazienti e personale.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SINK</LocID>                                 <Text>Lavandino</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SINK_DESCRIPTION</LocID>                     <Text>Un lavandino per i servizi igienici.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_GROUND_PLANT</LocID>                         <Text>Pianta - Yucca</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_GROUND_PLANT_DESCRIPTION</LocID>             <Text>Una decorazione. Pianta da interno.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_GROUND_PLANT_ANTHURIUM</LocID>               <Text>Pianta - Anthurium</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_GROUND_PLANT_ANTHURIUM_DESCRIPTION</LocID>   <Text>Una decorazione. Pianta da interno.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_GROUND_PLANT_02</LocID>                      <Text>Pianta - Sanseveria</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_GROUND_PLANT_02_DESCRIPTION</LocID>          <Text>Una decorazione. Pianta da interno.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN</LocID>                            <Text>Cestino dei rifiuti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN_DESCRIPTION</LocID>                <Text>Una decorazione. Il cestino dei rifiuti è un contenitore destinato a raccogliere e smaltire la spazzatura.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN_02</LocID>                         <Text>Cestino dei rifiuti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN_02_DESCRIPTION</LocID>             <Text>Una decorazione. Il cestino dei rifiuti è un contenitore destinato a raccogliere e smaltire la spazzatura.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_QUEUE_MACHINE</LocID>                        <Text>Biglietteria automatica</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_QUEUE_MACHINE_DESCRIPTION</LocID>            <Text>La biglietteria automatica è il sistema che eroga i ticket per la gestione delle code, regolando il flusso dei pazienti dalla sala d'attesa verso le stanze adiacenti. L'ordine della coda ed i turni vengono visualizzati sul monitor informativo.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FRIDGE</LocID>                               <Text>Frigorifero</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FRIDGE_DESCRIPTION</LocID>                   <Text>Il frigorifero è un elettrodomestico per la conservazione di alimenti a bassa temperatura, fornisce cibo per il personale.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LOCKER</LocID>                               <Text>Armadietto</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LOCKER_DESCRIPTION</LocID>                   <Text>L'armadietto è un mobile utile per riporre abiti ed effetti personali.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CARD_FILE</LocID>                            <Text>Schedario alto</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CARD_FILE_DESCRIPTION</LocID>                <Text>Lo schedario è un mobile utile per la conservazione e la consultazione di schede e documenti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CARD_FILE_SMALL</LocID>                      <Text>Schedario</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CARD_FILE_SMALL_DESCRIPTION</LocID>          <Text>Lo schedario è un mobile utile per la conservazione e la consultazione di schede e documenti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SHELF</LocID>                                <Text>Scaffale per le pulizie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SHELF_DESCRIPTION</LocID>                    <Text>Lo scaffale per le pulizie contiene tutte le attrezzature necessarie per l'igiene dei dipartimenti. Ad ogni scaffale corrisponde una postazione di lavoro per gli inservienti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BOOKCASE</LocID>                             <Text>Libreria</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BOOKCASE_DESCRIPTION</LocID>                 <Text>La libreria contiene libri e riviste mediche, consente al personale di studiare e migliorare nel tempo libero.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_VENDING_MACHINE</LocID>                      <Text>Distributore automatico di snack</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_VENDING_MACHINE_DESCRIPTION</LocID>          <Text>Il distributore automatico di snack fornisce cibo per pazienti e personale. Gli snack venduti ai pazienti sono una fonte di guadagno.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STANDING_LAMP</LocID>                        <Text>Lampada da visita</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STANDING_LAMP_DESCRIPTION</LocID>            <Text>La lampada da visita è una fonte di luce che può essere usata negli studi e negli ambulatori medici.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PC</LocID>                                   <Text>PC</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PC_DESCRIPTION</LocID>                       <Text>Il PC è uno strumento di lavoro indispensabile che può essere collocato sulle scrivanie e sui banconi dell'accettazione. Ad ogni PC corrisponde una postazione di lavoro per i dipendenti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TV</LocID>                                   <Text>TV</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TV_DESCRIPTION</LocID>                       <Text>La TV è un elettrodomestico per la ricezione dei programmi televisivi, può essere utilizzata negli ambulatori o nelle sale comuni per intrattenere il personale durante il tempo libero.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RADIO</LocID>                                <Text>Radio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RADIO_DESCRIPTION</LocID>                    <Text>La radio è un elettrodomestico per la ricezione dei programmi radiofonici, può essere utilizzata negli ambulatori o nelle sale comuni per intrattenere il personale durante il tempo libero.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PRINTER</LocID>                              <Text>Stampante</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PRINTER_DESCRIPTION</LocID>                  <Text>La stampante è un dispositivo elettronico utilizzato per stampare documenti e prescrizioni mediche. Il ricettario medico è un'alternativa più economica.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PAPER_HOLDER</LocID>                         <Text>Ricettario medico</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PAPER_HOLDER_DESCRIPTION</LocID>             <Text>Il ricettario medico è utilizzato per scrivere le prescrizioni mediche. La stampante è un'alternativa più efficiente.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CLOCK_WALL</LocID>                           <Text>Orologio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CLOCK_WALL_DESCRIPTION</LocID>               <Text>L'orologio scandisce il tempo e rappresenta un'utile decorazione.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_DRAWERS</LocID>                      <Text>Armadio con cassetti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_DRAWERS_DESCRIPTION</LocID>          <Text>L'armadio è un mobile decorativo utile per riporre oggetti, attrezzatura, farmaci e materiale sanitario. Altri piccoli oggetti possono essere posizionati sopra di esso.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_DOORS</LocID>                        <Text>Armadio con ante</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_DOORS_DESCRIPTION</LocID>            <Text>L'armadio è un mobile decorativo utile per riporre oggetti, attrezzatura, farmaci e materiale sanitario. Altri piccoli oggetti possono essere posizionati sopra di esso.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_WALL</LocID>                         <Text>Armadio da parete</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_WALL_DESCRIPTION</LocID>             <Text>L'armadio è un mobile decorativo utile per riporre oggetti, attrezzatura, farmaci e materiale sanitario.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SINK_KITCHEN</LocID>                         <Text>Lavello da incasso</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SINK_KITCHEN_DESCRIPTION</LocID>             <Text>Il lavello da incasso è utile per lavare le mani e le attrezzature.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DRESSING_SCREEN</LocID>                      <Text>Paravento</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DRESSING_SCREEN_DESCRIPTION</LocID>          <Text>Il paravento è un mobile utile per separare gli ambienti, come divisorio e per garantire la privacy dei pazienti mentre si cambiano.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TABLE_LAMP</LocID>                           <Text>Lampada da tavolo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TABLE_LAMP_DESCRIPTION</LocID>               <Text>Una decorazione. La lampada da tavolo è una fonte di luce.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EYE_TEST</LocID>                             <Text>Tabella di misurazione della vista</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EYE_TEST_DESCRIPTION</LocID>                 <Text>La tabella di misurazione della vista, o tabella di Snellen, è uno strumento standard utilizzato per misurare l'acuità visiva durante l'esame della vista. Attrezzatura obbligatoria per gli ambulatori, da appendere sulle pareti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_XRAY_VIEWER</LocID>                          <Text>Diafanoscopio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_XRAY_VIEWER_DESCRIPTION</LocID>              <Text>Il diafanoscopio è uno schermo luminoso utilizzato per l'osservazione e l'esame di immagini a raggi X.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_XRAY_CONTROL_PANEL</LocID>                   <Text>Pannello di controllo radiografia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_XRAY_CONTROL_PANEL_DESCRIPTION</LocID>       <Text>Il pannello di controllo per il sistema di radiografia è utilizzato dall'operatore per comandare gli strumenti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET</LocID>                    <Text>Armadio ospedaliero</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_DESCRIPTION</LocID>        <Text>L'armadio ospedaliero può contenere i farmaci, gli strumenti e l'attrezzatura necessaria per tutte le stanze in cui si svolgono esami e procedure di trattamento.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_WALL</LocID>               <Text>Armadio ospedaliero da parete</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_WALL_DESCRIPTION</LocID>   <Text>L'armadio ospedaliero può contenere i farmaci, gli strumenti e l'attrezzatura necessaria per tutte le stanze in cui si svolgono esami e procedure di trattamento.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_LEFT</LocID>                  <Text>Bancone accettazione - Sinistra</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_LEFT_DESCRIPTION</LocID>      <Text>Il bancone è un'attrezzatura fondamentale ed obbligatoria per l'accettazione, la farmacia ed i negozi. Un PC posizionato sopra di esso creerà una postazione di lavoro.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_MIDDLE</LocID>                <Text>Bancone accettazione - Centro</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_MIDDLE_DESCRIPTION</LocID>    <Text>Il bancone è un'attrezzatura fondamentale ed obbligatoria per l'accettazione, la farmacia ed i negozi. Un PC posizionato sopra di esso creerà una postazione di lavoro.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_RIGHT</LocID>                 <Text>Bancone accettazione - Destra</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_RIGHT_DESCRIPTION</LocID>     <Text>Il bancone è un'attrezzatura fondamentale ed obbligatoria per l'accettazione, la farmacia ed i negozi. Un PC posizionato sopra di esso creerà una postazione di lavoro.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_SINK</LocID>                             <Text>Lavandino da laboratorio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_SINK_DESCRIPTION</LocID>                 <Text>Il lavandino da laboratorio è utilizzato principalmente per igenizzare la vetreria e le strumentazioni. Attrezzatura obbligatoria per i laboratori.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ACCUSCOPE</LocID>                            <Text>Microscopio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ACCUSCOPE_DESCRIPTION</LocID>                <Text>Il microscopio è uno strumento di laboratorio utilizzato per analizzare una vasta gamma di coluture e campioni microbiologici. Attrezzatura obbligatoria per i laboratori.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN_03</LocID>                         <Text>Cestino dei rifiuti a rischio biologico</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN_03_DESCRIPTION</LocID>             <Text>Il cestino dei rifiuti a rischio biologico è un contenitore destinato a raccogliere e smaltire in modo sicuro il materiale biologico ed i rifiuti sanitari pericolosi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_SHELF</LocID>                            <Text>Scaffale da laboratorio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_SHELF_DESCRIPTION</LocID>                <Text>Lo scaffale da laboratorio contiene la vetreria e tutte le attrezzature necessarie per analisi ed esami.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_EQUIPMENT</LocID>                        <Text>Vetreria da laboratorio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_EQUIPMENT_DESCRIPTION</LocID>            <Text>La vetreria da laboratorio consiste in una serie di oggetti ed apparecchiature, tradizionalmente fatte di vetro, utilizzate per la preparazione e l'analisi dei campioni. Attrezzatura obbligatoria per i laboratori.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_HEMATOLOGY_ANALYZER</LocID>                  <Text>Analizzatore ematologico</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_HEMATOLOGY_ANALYZER_DESCRIPTION</LocID>      <Text>L'analizzatore ematologico è uno strumento di laboratorio multiuso utilizzato per analizzare, saggiare e studiare campioni di sangue opportunamente preparati e confezionati secondo rigidi protocolli.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ULTRACENTRIFUGE</LocID>                      <Text>Centrifuga da laboratorio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ULTRACENTRIFUGE_DESCRIPTION</LocID>          <Text>La centrifuga da laboratorio è uno strumento multiuso utilizzato per preparare i campioni di sangue da sottoporre ad analisi. Attrezzatura obbligatoria per i laboratori.</Text>  </GameDBLocalizedString>   
+            <GameDBLocalizedString>      <LocID>OBJECT_RIA</LocID>              		            <Text>Analizzatore immunologico</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RIA_DESCRIPTION</LocID>              		<Text>L'analizzatore immunologico è uno strumento di laboratiorio utilizzato per misurare diverse concentrazioni di antigeni mediante la tecnica del dosaggio radioimmunologico (RIA).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STAT_LAB_FRIDGE</LocID>              		<Text>Frigorifero da laboratorio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STAT_LAB_FRIDGE_DESCRIPTION</LocID>          <Text>Un frigorifero da laboratorio, utilizzato per la conservazione di vari campioni biologici.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TREE</LocID>                                 <Text>Albero</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TREE_DESCRIPTION</LocID>                     <Text>Una decorazione per esterni. Un semplice albero.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STREET_LAMP</LocID>                          <Text>Lampione</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STREET_LAMP_DESCRIPTION</LocID>              <Text>Una decorazione per esterni. Il lampione è una fonte di luce.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TREE_SMALL</LocID>                           <Text>Albero piccolo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TREE_SMALL_DESCRIPTION</LocID>               <Text>Una decorazione per esterni. Un semplice albero.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_THUYA</LocID>              		            <Text>Albero - Thuja</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_THUYA_DESCRIPTION</LocID>              		<Text>Una decorazione per esterni. Un albero di thuja.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BUSH_MEDIUM</LocID>                          <Text>Cespuglio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BUSH_MEDIUM_DESCRIPTION</LocID>              <Text>Una decorazione per esterni. Un piccolo cespuglio.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ROOF_VENT</LocID>                          	<Text>Presa d'aria</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ROOF_VENT_DESCRIPTION</LocID>                <Text>Una decorazione per il tetto. Una sempice presa d'aria.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ROOF_AIRCOND</LocID>                         <Text>Condizionatore</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ROOF_AIRCOND_DESCRIPTION</LocID>             <Text>Una decorazione per il tetto. Il motore di un codizionatore.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_MOBILE</LocID>                       <Text>Carrello multifunzione</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_MOBILE_DESCRIPTION</LocID>           <Text>Il carrello multifunzione è utile per riporre e trasportare oggetti, attrezzatura, farmaci e materiale sanitario. Altri piccoli oggetti possono essere posizionati sopra di esso.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DEZINFECTION</LocID>                         <Text>Dispenser di disinfettante</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DEZINFECTION_DESCRIPTION</LocID>             <Text>Il dispenser automatico di disinfettante è utilizzato per erogare gel e liquidi igenizzanti. Può sostituire un lavandino.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EXAM_LAMP_ROOF</LocID>                       <Text>Lampada da visita a soffitto</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EXAM_LAMP_ROOF_DESCRIPTION</LocID>           <Text>La lampada da visita è una fonte di luce che può essere usata negli studi e negli ambulatori medici.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_BEDSIDE</LocID>                      <Text>Comodino</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_BEDSIDE_DESCRIPTION</LocID>          <Text>Il comodino è un piccolo mobile che può essere unito al letto ospedaliero e nel quale i pazienti possono riporre i propri effetti personali.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PLASTIC_HAMPER</LocID>                       <Text>Carrello portasacco</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PLASTIC_HAMPER_DESCRIPTION</LocID>           <Text>Il carrello portasacco è un contenitore mobile destinato a raccogliere diversi oggetti, come la spazzatura o la biancheria sporca.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BED_SOCKET</LocID>                       	<Text>Trave testaletto</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BED_SOCKET_DESCRIPTION</LocID>           	<Text>La trave testaletto è un dispositivo sanitario che integra funzioni differenti, quali illuminazione diretta ed indiretta, distribuzione elettrica, componenti per segnali, allarmi, monitoraggio e distribuzione di ossigeno e gas medicali.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PRIVACY_SCREEN</LocID>                       <Text>Paravento a tenda</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PRIVACY_SCREEN_DESCRIPTION</LocID>          	<Text>Il paravento a tenda è un arredamento utile per separare gli ambienti, come divisorio e per garantire la privacy dei pazienti mentre si cambiano.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_TALL</LocID>               <Text>Armadio ospedaliero alto</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_TALL_DESCRIPTION</LocID>   <Text>L'armadio ospedaliero può contenere i farmaci, gli strumenti e l'attrezzatura necessaria per tutte le stanze in cui si svolgono esami e procedure di trattamento.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_MOBILE</LocID>             <Text>Armadio ospedaliero mobile</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_MOBILE_DESCRIPTION</LocID> <Text>L'armadio ospedaliero può contenere i farmaci, gli strumenti e l'attrezzatura necessaria per tutte le stanze in cui si svolgono esami e procedure di trattamento.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MOBILE_WORKSTATION</LocID>             		<Text>Postazione di lavoro mobile</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MOBILE_WORKSTATION_DESCRIPTION</LocID> 		<Text>La postazione di lavoro mobile è una postazione di lavoro attrezzata con tutto il necessario per i dipendenti, usata dai dottori in determinate stanze dove non è possibile collocare PC e scrivanie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LIFE_MONITOR_WALL</LocID>             		<Text>Monitor per parametri vitali</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LIFE_MONITOR_WALL_DESCRIPTION</LocID> 		<Text>Il monitor per parametri vitali è utilizzato per rilevare e monitorare i parametri ed i segni vitali dei pazienti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DEFIBRILLATOR</LocID>                        <Text>Defibrillatore</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DEFIBRILLATOR_DESCRIPTION</LocID>            <Text>Il defibrillatore è un dispositivo medico che rileva le alterazioni del ritmo cardiaco ed eroga, se necessario e possibile, una scarica elettrica al cuore per ripristinarne la normale attività elettrica.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FLUID_STAND</LocID>                          <Text>Asta per fleboclisi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FLUID_STAND_DESCRIPTION</LocID>              <Text>(Accessorio)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_OPERATING_ROOM_LIGHS</LocID>                 <Text>Lampada da sala operatoria</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_OPERATING_ROOM_LIGHS_DESCRIPTION</LocID>     <Text>La lampada da sala operatoria è una lampada da visita medica montata a soffitto. Attrezzatura obbligatoria per le sale operatorie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_USG_FAST</LocID>                             <Text>Ecografo FAST</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_USG_FAST_DESCRIPTION</LocID>                 <Text>L'ecografo è uno strumento diagnostico ad ultrasuoni utilizzato per effettuare e registrare ecografie. La metodica FAST è una tecnica molto utilizzata nella medicina d'urgenza, specifica per i dipartimenti di Emergenza e Accettazione e Terapia Intensiva.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ANESTHETIC_MACHINE</LocID>                   <Text>Sistema mobile di anestesia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ANESTHETIC_MACHINE_DESCRIPTION</LocID>       <Text>Il sistema mobile di anestesia è un dispositivo elettromedicale, utilizzato durante gli interventi chirurgici, che integra tutta la strumentazione e l'attrezzatura utile per indurre l'anestesia generale e monitorare i segni vitali del paziente.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MONITORING_MACHINE</LocID>                   <Text>Monitor per parametri vitali avanzato</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MONITORING_MACHINE_DESCRIPTION</LocID>       <Text>Il monitor per parametri vitali è utilizzato per rilevare e monitorare i parametri ed i segni vitali dei pazienti. Modello avanzato con funzionalità aggiuntive.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LIFE_SUPPORT</LocID>                   		<Text>Sistema di supporto vitale</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LIFE_SUPPORT_DESCRIPTION</LocID>       		<Text>Il sistema di supporto vitale è un dispositivo medico che integra tutta la strumentazione e l'attrezzatura necessaria per il supporto di base alle funzioni vitali (BLS) e la rianimazione cardiopolmonare. Attrezzatura obbligatoria per il reparto di terapia intensiva.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DEFIBRILATOR_WALL</LocID>                   	<Text>Defibrillatore da parete</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DEFIBRILATOR_WALL_DESCRIPTION</LocID>       	<Text>Il defibrillatore è un dispositivo medico che rileva le alterazioni del ritmo cardiaco ed eroga, se necessario e possibile, una scarica elettrica al cuore per ripristinarne la normale attività elettrica.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STAND_STAINLESS</LocID>                   	<Text>Tavolo per attrezzatura in acciaio inox</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STAND_STAINLESS_DESCRIPTION</LocID>       	<Text>Il tavolo per attrezzatura offre spazio per diversi oggetti e strumenti che possono essere posizionati sopra di esso.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_NOTICE_BOARD</LocID>                   		<Text>Bacheca</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_NOTICE_BOARD_DESCRIPTION</LocID>       		<Text>Una decorazione. Una bacheca destinata all'affissione di note, documenti ed avvisi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_INFO_BOARD</LocID>                   		<Text>Bacheca informativa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_INFO_BOARD_DESCRIPTION</LocID>       		<Text>Una decorazione. Una bacheca informativa per supportare i pazienti nello scegliere il dipartimento adatto.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_OXYGEN_TANK</LocID>                   		<Text>Serbatoio di gas medicale</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_OXYGEN_TANK_DESCRIPTION</LocID>       		<Text>Un serbatoio contenente gas medicale (ossigeno, protossido di azoto) in varie concentrazioni, da utilizzare per i trattamenti che ne richiedono la somministrazione.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MECHANICAL_VENTILATOR</LocID>                <Text>Ventilatore meccanico</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MECHANICAL_VENTILATOR_DESCRIPTION</LocID>    <Text>Il ventilatore meccanico, detto anche respiratore nel linguaggio comune, è un apparecchio che funge da polmone artificiale, utilizzato per insufflare nei polmoni dei pazienti una determinata miscela di gas al fine di supportare o sostituire la respirazione.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_EQUIPMENT2</LocID>                       <Text>Vetreria da laboratorio e provette</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_EQUIPMENT2_DESCRIPTION</LocID>           <Text>La vetreria da laboratorio consiste in una serie di oggetti ed apparecchiature, tradizionalmente fatte di vetro, utilizzate per la preparazione e l'analisi dei campioni. Attrezzatura obbligatoria per i laboratori.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ANGIO_CONTROL_PANEL</LocID>                	<Text>Pannello di controllo angiografia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ANGIO_CONTROL_PANEL_DESCRIPTION</LocID>    	<Text>Il pannello di controllo per l'angiografo è utilizzato dall'operatore per comandare gli strumenti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RADIOLOGY_VIEWER</LocID>                		<Text>Monitor per radiologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RADIOLOGY_VIEWER_DESCRIPTION</LocID>    		<Text>Il monitor per radiologia è utilizzato per analizzare immagini radiodiagnostiche.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ANGIO_IMAGING</LocID>                		<Text>Monitor per sala operatoria</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ANGIO_IMAGING_DESCRIPTION</LocID>    		<Text>Il monitor per la sala operatoria è utilizzato per ottenere imaging digitale in tempo reale durante gli interventi chirurgici.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SUCTION_MACHINE</LocID>                		<Text>Aspiratore chirurgico</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SUCTION_MACHINE_DESCRIPTION</LocID>   		<Text>L'aspiratore chirurgico è uno strumento elettromedicale utilizzato per aspirare i vari fluidi corporei che potrebbero ostruire gli orifizi del paziente durante gli interventi chirurgici. Attrezzatura obbligatoria per le sale operatorie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SURGERY_INSTRUMENTS</LocID>                	<Text>Strumenti chirurgici</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SURGERY_INSTRUMENTS_DESCRIPTION</LocID>   	<Text>Gli strumenti chirurgici consistono nell'insieme di ferri, strumenti da taglio, pinze, divaricatori, morsetti, attrezzatura ed accessori necessari per eseguire un intervento chirurgico. Attrezzatura obbligatoria per le sale operatorie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ELECTROCAUTERY_MACHINE</LocID>               <Text>Elettrocauterio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ELECTROCAUTERY_MACHINE_DESCRIPTION</LocID>   <Text>L'elettrocauterio è uno strumento elettromedicale utilizzato per bruciare e rimuovere i tessuti a scopo terapeutico o per sigillare i vasi sanguigni durante gli interventi chirurgici.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_INSTRUMETNS_TABLE</LocID>                	<Text>Tavolo per strumenti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_INSTRUMETNS_TABLE_DESCRIPTION</LocID>   		<Text>Un tavolo per strumenti, dove posizionare ferri ed attrezzi chirurgici, concepito per usi tecnici.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SCRUBS_SHELF_WALL</LocID>                	<Text>Scaffale per camici da parete</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SCRUBS_SHELF_WALL_DESCRIPTION</LocID>   		<Text>Lo scaffale per camici contiene abiti professionali, camici e divise per sanitari, infermieri, medici e chirurghi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SCRUBS_SHELF</LocID>                			<Text>Scaffale per camici</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SCRUBS_SHELF_DESCRIPTION</LocID>   			<Text>Lo scaffale per camici contiene abiti professionali, camici e divise per sanitari, infermieri, medici e chirurghi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WARMING_CABINET</LocID>                		<Text>Armadio riscaldante</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WARMING_CABINET_DESCRIPTION</LocID>   		<Text>L'armadio riscaldante è un elettrodomestico utile per riscaldare coperte, farmaci, liquidi per la somministrazione per via endovenosa e chirurgica.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WARMING_CABINET_DOUBLE</LocID>               <Text>Armadio riscaldante alto</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WARMING_CABINET_DOUBLE_DESCRIPTION</LocID>   <Text>L'armadio riscaldante è un elettrodomestico utile per riscaldare coperte, farmaci, liquidi per la somministrazione per via endovenosa e chirurgica.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SCRUBBING_SINK</LocID>               		<Text>Lavandino chirurgico</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SCRUBBING_SINK_DESCRIPTION</LocID>   		<Text>Il lavandino chirurgico è utilizzato dai medici per la preparazione degli interventi chirurgici e per lavare e sterilizzare gli strumenti chirurgici. Attrezzatura obbligatoria per le sale operatorie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SCRUBS_SHELF_TALL</LocID>               		<Text>Scaffale per camici alto</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SCRUBS_SHELF_TALL_DESCRIPTION</LocID>   		<Text>Lo scaffale per camici contiene abiti professionali, camici e divise per sanitari, infermieri, medici e chirurghi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN_04</LocID>                         <Text>Cestino dei rifiuti a rischio biologico</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TRASH_BIN_04_DESCRIPTION</LocID>             <Text>Il cestino dei rifiuti a rischio biologico è un contenitore destinato a raccogliere e smaltire in modo sicuro il materiale biologico ed i rifiuti sanitari pericolosi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ROOF_SATELITE</LocID>                        <Text>Antenna parabolica</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ROOF_SATELITE_DESCRIPTION</LocID>            <Text>Un'antenna parabolica, da posizionare sul tetto.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FENCE_IRON</LocID>                         	<Text>Recinzione in ferro</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FENCE_IRON_DESCRIPTION</LocID>             	<Text>Una decorazione per esterni. La recinzione è utile per delimitare aree e percorsi esterni.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FENCE_GLASS</LocID>                         	<Text>Recinzione in vetro</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FENCE_GLASS_DESCRIPTION</LocID>             	<Text>Una decorazione per esterni. La recinzione è utile per delimitare aree e percorsi esterni.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FENCE_ROPE</LocID>                         	<Text>Recinzione in corda</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FENCE_ROPE_DESCRIPTION</LocID>             	<Text>Una decorazione per esterni. La recinzione è utile per delimitare aree e percorsi esterni.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FOUNTAIN</LocID>                         	<Text>Fontana</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FOUNTAIN_DESCRIPTION</LocID>             	<Text>Una decorazione per esterni. Una semplice fontana.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_OUTSIDE_TRASH_BIN</LocID>                    <Text>Cestino dei rifiuti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_OUTSIDE_TRASH_BIN_DESCRIPTION</LocID>        <Text>Una decorazione per esterni. Il cestino dei rifiuti è un contenitore destinato a raccogliere e smaltire la spazzatura.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SIGN_HOSPITAL</LocID>                        <Text>Segnale ospedale</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SIGN_HOSPITAL_DESCRIPTION</LocID>            <Text>Una decorazione per esterni. Un segnale realizzato su cartelli, utilizzato per dare indicazioni, agevolare e rendere il più possibile sicura la circolazione stradale.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SIGN_CROSSWALK</LocID>                       <Text>Segnale attraversamento pedonale</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SIGN_CROSSWALK_DESCRIPTION</LocID>           <Text>Una decorazione per esterni. Un segnale realizzato su cartelli, utilizzato per dare indicazioni, agevolare e rendere il più possibile sicura la circolazione stradale.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TREE_TALL</LocID>                        	<Text>Albero alto</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TREE_TALL_DESCRIPTION</LocID>            	<Text>Una decorazione per esterni. Un semplice albero.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TREE_YOUNG</LocID>                        	<Text>Albero giovane</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TREE_YOUNG_DESCRIPTION</LocID>            	<Text>Una decorazione per esterni. Un semplice albero.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CONCRETE_FLOWER_POT</LocID>                  <Text>Fioriera tonda</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CONCRETE_FLOWER_POT_DESCRIPTION</LocID>      <Text>Una decorazione per esterni. La fioriera è un supporto decorativo per piantine e fiori ornamentali.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WOODEN_FLOWER_POT</LocID>                    <Text>Fioriera rettangolare</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WOODEN_FLOWER_POT_DESCRIPTION</LocID>        <Text>Una decorazione per esterni. La fioriera è un supporto decorativo per piantine e fiori ornamentali.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_HEDGE</LocID>                         		<Text>Siepe</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_HEDGE_DESCRIPTION</LocID>             		<Text>Una decorazione per esterni. La siepe è un elemento divisiorio ornamentale composto da una fila di arbusti e cespugli.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FLOWERS_SMALL</LocID>                        <Text>Fiori bassi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FLOWERS_SMALL_DESCRIPTION</LocID>            <Text>Una decorazione per esterni. Alcuni fiori dal gambo basso, utili come decorazione e per comporre aiuole.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FLOWERS_TALL</LocID>                         <Text>Fiori alti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_FLOWERS_TALL_DESCRIPTION</LocID>             <Text>Una decorazione per esterni. Alcuni fiori dal gambo alto, utili come decorazione e per comporre aiuole.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BUSH</LocID>                         		<Text>Arbusto</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BUSH_DESCRIPTION</LocID>             		<Text>Una decorazione per esterni. Un semplice arbusto.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ULTRASONOGRAPH</LocID>                       <Text>Ecografo</Text>     </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ULTRASONOGRAPH_DESCRIPTION</LocID>           <Text>L'ecografo è uno strumento diagnostico ad ultrasuoni utilizzato per effettuare e registrare ecografie. Attrezzatura obbligatoria per le unità di ecografia.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DIALISIS</LocID>                         	<Text>Macchina per dialisi e plasmaferesi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DIALISIS_DESCRIPTION</LocID>             	<Text>La macchina per dialisi e plasmaferesi è un'apparecchiatura che funge da rene artificiale, utilizzata per filtrare e depurare il sangue dei pazienti che necessitano di dialisi o plasmaferesi. Attrezzatura obbligatoria per le unità diagnostiche nei dipartimenti di Neurologia e Chirurgia Generale.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ELECTROENCEPHALOGRAPH</LocID>                <Text>Elettroencefalografo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ELECTROENCEPHALOGRAPH_DESCRIPTION</LocID>    <Text>L'elettroencefalografo è uno strumento diagnostico utilizzato per misurare l'attività elettrica del cervello, effettuare e registrare elettroencefalogrammi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ELASTOGRAPH</LocID>                         	<Text>Ecografo per elastografia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ELASTOGRAPH_DESCRIPTION</LocID>             	<Text>L'ecografo è uno strumento diagnostico ad ultrasuoni utilizzato per effettuare e registrare ecografie. L'elastografia è una metodica diagnostica utilizzata per valutare in modo non invasivo le proprietà elastiche e la rigidità dei tessuti molli.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TABLE_SQUERE</LocID>                         <Text>Tavolo quadrato</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TABLE_SQUERE_DESCRIPTION</LocID>             <Text>Un semplice tavolo quadrato, su cui posizionare decorazioni, strumenti ed attrezzature.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TABLE_EQUIPMENT</LocID>                      <Text>Tavolo per attrezzatura</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TABLE_EQUIPMENT_DESCRIPTION</LocID>          <Text>Il tavolo per attrezzatura offre spazio per diversi oggetti e strumenti che possono essere posizionati sopra di esso.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TONOMETER</LocID>                         	<Text>Tonometro</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TONOMETER_DESCRIPTION</LocID>             	<Text>Il tonometro è uno strumento diagnostico utilizzato per valutare la vista e misurare il tono oculare, cioè la pressione intraoculare del paziente.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_AUDIOMETER</LocID>                         	<Text>Audiometro</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_AUDIOMETER_DESCRIPTION</LocID>             	<Text>L'audiometro è uno strumento diagnostico utilizzato per valutare l'acuità dell'udito e determinare il livello di alcune funzioni uditive del paziente.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CRP_SCAN</LocID>                         	<Text>Analizzatore rapido di CRP</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CRP_SCAN_DESCRIPTION</LocID>             	<Text>L'analizzatore rapido di CRP è uno strumento di laboratorio utilizzato per l'analisi CRP, un esame del sangue che misura in modo molto veloce la concentrazione della proteina C-reattiva (CRP).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SPIROMETER</LocID>                         	<Text>Spirometro</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SPIROMETER_DESCRIPTION</LocID>             	<Text>Lo spirometro è uno strumento diagnostico utilizzato per valutare la respirazione e misurare il volume polmonare del paziente mentre inspira ed espira l'aria.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SHOCKWAVE</LocID>                         	<Text>Litotritore</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_SHOCKWAVE_DESCRIPTION</LocID>             	<Text>Il litotritore è uno strumento elettromedicale utilizzato per la terapia con onde d'urto, trattamento non invasivo che frammenta i calcoli e ne agevola l'espulsione o l'estrazione.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ELECTROMYOGRAPH</LocID>                      <Text>Elettromiografo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ELECTROMYOGRAPH_DESCRIPTION</LocID>          <Text>L'elettromiografo è uno strumento diagnostico utilizzato per misurare l'attività elettrica dei muscoli, effettuare e registrare elettromiogrammi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_ANALYZER</LocID>                      	<Text>Analizzatore da laboratorio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LAB_ANALYZER_DESCRIPTION</LocID>          	<Text>L'analizzatore da laboratorio è uno strumento multiuso utilizzato per analizzare, saggiare e studiare varie sostanze e campioni biologici opportunamente preparati e confezionati secondo rigidi protocolli.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STOOL_ANALYZER</LocID>                      	<Text>Analizzatore di feci</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_STOOL_ANALYZER_DESCRIPTION</LocID>          	<Text>L'analizzatore di feci è uno strumento di laboratorio utilizzato per analizzare e studiare campioni di feci umane opportunamente preparati e confezionati secondo rigidi protocolli.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_THERMAL_CYCLER</LocID>                      	<Text>Termociclatore</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_THERMAL_CYCLER_DESCRIPTION</LocID>          	<Text>Il termociclatore è uno strumento di laboratorio utilizzato per condurre automaticamente le variazioni cicliche di temperatura necessarie per l'analisi di materiale genetico tramite la tecnica della reazione a catena della polimerasi (PCR).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ELEKTROCARDIOGRAPH</LocID>                   <Text>Elettrocardiografo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ELEKTROCARDIOGRAPH_DESCRIPTION</LocID>       <Text>L'elettrocardiografo è uno strumento diagnostico utilizzato per misurare l'attività elettrica del cuore, effettuare e registrare elettrocardiogrammi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CAMPIMETER</LocID>                   		<Text>Perimetro oftalmico</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_CAMPIMETER_DESCRIPTION</LocID>       		<Text>Il perimetro oftalmico è uno strumento diagnostico utilizzato per valutare la funzionalità della visione centrale o periferica del paziente attraverso l'esame della perimetria standard.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ROOF_WALL</LocID>                   			<Text>Cornicione</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ROOF_WALL_DESCRIPTION</LocID>       			<Text>Il cornicione è un elemento decorativo del tetto, utile per delimitarne il bordo del tetto.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MEAL_TRAY_DELIVERY</LocID>                   <Text>Carrello per la distribuzione dei pasti</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MEAL_TRAY_DELIVERY_DESCRIPTION</LocID>       <Text>Il carrello per la distribuzione dei pasti è utilizzato trasportare gli alimenti e fornire cibo ai pazienti ricoverati.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_OPHTHALMIC_EQUIPMENT</LocID>                 <Text>Riunito di oftalmologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_OPHTHALMIC_EQUIPMENT_DESCRIPTION</LocID>     <Text>Il riunito di oftalmologia è un dispositivo elettromedicale che integra tutta la strumentazione e l'attrezzatura utile per gli esami della vista e le procedure relative alle patologie degli occhi.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_SIMPLE_CROSS</LocID>       			<Text>Croce</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_SIMPLE_CROSS_DESCRIPTION</LocID>       <Text>Adesivo murale. \nNota: La croce rossa è un simbolo protetto della Croce Rossa (ICRC) e non può essere inclusa.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_MED_CROSS</LocID>       			    <Text>Croce medica</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ARROW_L</LocID>       			        <Text>Freccia sinistra</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ARROW_R</LocID>       			        <Text>Freccia destra</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_NUMBERS_0</LocID>       			    <Text>Numero 0</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_NUMBERS_1</LocID>       			    <Text>Numero 1</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_NUMBERS_2</LocID>       			    <Text>Numero 2</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_NUMBERS_3</LocID>       			    <Text>Numero 3</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_NUMBERS_4</LocID>       			    <Text>Numero 4</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_NUMBERS_5</LocID>       			    <Text>Numero 5</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_NUMBERS_6</LocID>       			    <Text>Numero 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_NUMBERS_7</LocID>       			    <Text>Numero 7</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_NUMBERS_8</LocID>       			    <Text>Numero 8</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_NUMBERS_9</LocID>       			    <Text>Numero 9</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_DPT_ER</LocID>       			        <Text>Emergenza e Accettazione</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_DPT_ICU</LocID>       			        <Text>Terapia Intensiva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_DPT_IM</LocID>       			        <Text>Medicina Interna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_DPT_GS</LocID>       			        <Text>Chirurgia Generale</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_DPT_OT</LocID>       			        <Text>Ortopedia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_DPT_NE</LocID>       			        <Text>Neurologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_DPT_CAR</LocID>       			        <Text>Cardiologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_DPT_RAD</LocID>       			        <Text>Radiologia ed Imaging</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ROOM_GP</LocID>       			        <Text>Ambulatorio Medico</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ROOM_WAIT</LocID>       			    <Text>Sala d'Attesa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ROOM_STAT_LAB</LocID>       			<Text>Laboratorio di Analisi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ROOM_RECEPTION</LocID>       			<Text>Accettazione</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ROOM_CLEANING</LocID>       			<Text>Ripostiglio Pulizie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ROOM_WC</LocID>       			        <Text>Servizi Igienici</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ROOM_OPERATING</LocID>       			<Text>Sala Operatoria</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ROOM_NEURODIAGNOSTIC</LocID>       	<Text>Unità di Neurologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ROOM_XRAY</LocID>       			    <Text>Sala Raggi X</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ROOM_COMMON</LocID>       			    <Text>Sala Comune</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_INPATIENT_WARD</LocID>       			<Text>Reparto di Degenza</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ROOM_ONCALL</LocID>       			    <Text>Sala Medici</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_NURSES_STATION</LocID>       			<Text>Sala Infermieri</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ROOM_CT</LocID>       			        <Text>Sala TC</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_INPATIENT_OFFICE</LocID>       		<Text>Unità Diagnostica</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_SONOGRAPHY_UNIT</LocID>       			<Text>Unità di Ecografia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_CORRIDOR</LocID>       			    <Text>Corridoio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_CARDIOVASCULAR_UNIT</LocID>       		<Text>Unità di Cardiologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ROOM_OBSERVATION</LocID>       		<Text>Reparto di Osservazione</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_HIGH_PRIORITY</LocID>       			<Text>Reparto TS</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_ANGIOGRAPHY</LocID>       			    <Text>Angiografia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_MRI</LocID>       			            <Text>MRI</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECALS_DESCRIPTION</LocID>       			<Text>Adesivo murale.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_ELEVATOR</LocID>                      <Text>Ascensore</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_ELEVATOR_DESCRIPTION</LocID>          <Text>Nota: una volta costruito, l'ascensore viene automaticamente posizionato su tutti i piani.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_PILLAR_DEFAULT</LocID>                       <Text>Pilastro quadrato</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PILLAR_DEFAULT_DESCRIPTION</LocID>           <Text>Gli oggetti che devono essere attaccati alle pareti possono anche essere attaccati ai pilastri.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PILLAR_CIRCLE_BIG</LocID>                    <Text>Pilastro tondo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PILLAR_CIRCLE_BIG_DESCRIPTION</LocID>        <Text>Gli oggetti che devono essere attaccati alle pareti possono anche essere attaccati ai pilastri.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_DINING_TABLE</LocID>               <Text>Tavolo da pranzo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_DINING_TABLE_DESCRIPTION</LocID>   <Text>Un semplice tavolo da pranzo, dai molteplici usi, può essere unito alle sedie ed utilizzato dal personale per consumare i pasti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_CAMP_BED</LocID>                   <Text>Lettino da visita</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_CAMP_BED_DESCRIPTION</LocID>       <Text>Il lettino da visita è un dispositivo medico utilizzato per le maggior parte degli accertamenti, esami e trattamenti. Attrezzatura obbligatoria per gli ambulatori e le unità.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_BENCH</LocID>                      <Text>Panca</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_BENCH_DESCRIPTION</LocID>          <Text>La panca offre due posti a sedere per i pazienti in coda nelle sale d'attesa o in accettazione.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_SOFA</LocID>                       <Text>Divano</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_SOFA_DESCRIPTION</LocID>           <Text>Il divano è un sedile imbottito, comodo per più persone, che può essere collocato negli ambulatori o in sale comuni ed è utilizzato dal personale per rilassarsi, leggere libri e godersi il tempo libero.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_DRESSING_SCREEN</LocID>            <Text>Paravento</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_DRESSING_SCREEN_DESCRIPTION</LocID><Text>Una decorazione.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_OFFICE_DESK</LocID>                <Text>Scrivania da ufficio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_OFFICE_DESK_DESCRIPTION</LocID>    <Text>La scrivania da ufficio è un mobile destinato ad attività di lavoro e studio, utilizzata come supporto per la maggior parte degli strumenti. Attrezzatura obbligatoria per ambulatori e varie stanze. Un PC posizionato sopra di essa creerà una postazione di lavoro.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_LAB_DESK</LocID>                   <Text>Scrivania da laboratorio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_LAB_DESK_DESCRIPTION</LocID>       <Text>La scrivania da laboratorio è un mobile destinato ad attività di lavoro e studio, utilizzata come supporto per la maggior parte degli strumenti. Attrezzatura obbligatoria per i laboratori. Un PC posizionato sopra di essa creerà una postazione di lavoro.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_BASIC_BED</LocID>                  <Text>Letto ospedaliero</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_BASIC_BED_DESCRIPTION</LocID>      <Text>Il letto ospedaliero di base è adatto a vari reparti di degenza.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_MODERN_BED</LocID>                 <Text>Letto ospedaliero moderno</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_MODERN_BED_DESCRIPTION</LocID>     <Text>Il letto ospedaliero moderno è adatto a vari reparti di degenza ed offre maggiore comfort ai pazienti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_STRETCHER</LocID>       			<Text>Barella</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_STRETCHER_DESCRIPTION</LocID>      <Text>La barella è usata per trasportare pazienti infermi, malati e feriti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_OPERATING_TABLE</LocID>       		<Text>Tavolo operatorio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_OPERATING_TABLE_DESCRIPTION</LocID><Text>Il tavolo operatorio è un dispositivo medico fondamentale per l'effettuazione degli interventi chirurgici. Attrezzatura obbligatoria per le sale operatorie.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_OFFICE_DESK2</LocID>               <Text>Scrivania da ufficio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_OFFICE_DESK2_DESCRIPTION</LocID>   <Text>La scrivania da ufficio è un mobile destinato ad attività di lavoro e studio, utilizzata come supporto per la maggior parte degli strumenti. Attrezzatura obbligatoria per ambulatori e varie stanze. Un PC posizionato sopra di essa creerà una postazione di lavoro.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_OUTSIDE_BENCH</LocID>              <Text>Panchina</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_OUTSIDE_BENCH_DESCRIPTION</LocID>  <Text>La panchina è un sedile fisso installato all'aperto.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AMBULANCE_01</LocID>               <Text>Ambulanza</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AMBULANCE_01_DESCRIPTION</LocID>   <Text>L'ambulanza è un veicolo a motore attrezzato, adibito al soccorso ed al trasporto di malati, feriti e pazienti in gravissime condizioni. L'acquisto di un'ambulanza dà accesso a casi critici più difficili.</Text>  </GameDBLocalizedString>
+           
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_XRAY</LocID>                          <Text>Sistema di radiografia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_XRAY_DESCRIPTION</LocID>              <Text>Il sistema di radiografia è un'apparecchiatura diagnostica utilizzata per la radiografia, tecnica di imaging a raggi X che prevede l'acquisizione e l'elaborazione di immagini del corpo umano. La strumentazione è controllata dall'operatore tramite un pannello di controllo collocato nella stessa stanza.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_CT</LocID>                            <Text>Tomografo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_CT_DESCRIPTION</LocID>                <Text>Il tomografo è un'apparecchiatura diagnostica utilizzata per la tomografia computerizzata (TC), tecnica di imaging che prevede l'acquisizione e l'elaborazione di immagini dettagliate in sezione e tridimensionali dell'anatomia umana (organi interni, tessuti, vasi sanguigni).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_MRI</LocID>                           <Text>Scanner MRI</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_MRI_DESCRIPTION</LocID>               <Text>Lo scanner MRI è un'apparecchiatura diagnostica utilizzata per la risonanza magnetica (MRI), tecnica di imaging che prevede l'acquisizione e l'elaborazione di immagini dettagliate del corpo umano.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_ANGIOGRAPH</LocID>                 <Text>Angiografo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_ANGIOGRAPH_DESCRIPTION</LocID>     <Text>L'angiografo è un'apparecchiatura diagnostica utilizzata per l'angiografia (ANGIO), tecnica di imaging che prevede l'acquisizione e l'elaborazione di immagini del lume dei vasi sanguigni, dei vasi linfatici e degli organi del corpo umano. La strumentazione è controllata dall'operatore tramite un pannello di controllo collocato nella stessa stanza.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_GP_OFFICE_SIMPLE_ABBR</LocID>            <Text>Ambulatorio Medico - 6 x 4</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_X_RAY_ABBR</LocID>                       <Text>Sala Raggi X - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_ANGIOGRAPHY_ABBR</LocID>                 <Text>Sala Angiografica - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_CT_ABBR</LocID>                          <Text>Sala TC - 10 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_MRI_ABBR</LocID>                         <Text>Sala MRI - 10 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_COMMON_ROOM_ABBR</LocID>                 <Text>Sala Comune - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_GP_OFFICE_LARGE_ABBR</LocID>             <Text>Ambulatorio Medico - 6 x 8</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_GP_OFFICE_SMALL_ABBR</LocID>             <Text>Ambulatorio Medico - 6 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_WAITING_ROOM_LARGE_ABBR</LocID>          <Text>Sala d'Attesa - 6 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_WAITING_ROOM_SMALL_ABBR</LocID>          <Text>Sala d'Attesa - 9 x 4</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_RESTROOM_ABBR</LocID>                    <Text>Servizi Igienici - 6 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_RESTROOM_SMALL_ABBR</LocID>              <Text>Servizi Igienici - 6 x 4</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_CORRIDOR_LARGE_ABBR</LocID>              <Text>Corridoio - 12 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_CORRIDOR_SMALL_ABBR</LocID>              <Text>Corridoio - 12 x 4</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_RECEPTION_LARGE_ABBR</LocID>             <Text>Accettazione - 6 x 16</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_RECEPTION_SMALL_ABBR</LocID>             <Text>Accettazione - 6 x 6</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_ON_CALL_ROOM_LARGE_ABBR</LocID>          <Text>Sala Medici - 10 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_ON_CALL_ROOM_SMALL_ABBR</LocID>          <Text>Sala Medici - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_ON_CALL_ROOM_LARGE_GS_ABBR</LocID>          <Text>Sala Medici - 10 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_ON_CALL_ROOM_SMALL_GS_ABBR</LocID>          <Text>Sala Medici - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_ON_CALL_ROOM_LARGE_ICU_ABBR</LocID>          <Text>Sala Medici - 10 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_ON_CALL_ROOM_SMALL_ICU_ABBR</LocID>          <Text>Sala Medici - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_ON_CALL_ROOM_LARGE_IM_ABBR</LocID>          <Text>Sala Medici - 10 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_ON_CALL_ROOM_SMALL_IM_ABBR</LocID>          <Text>Sala Medici - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_ON_CALL_ROOM_LARGE_OT_ABBR</LocID>          <Text>Sala Medici - 10 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_ON_CALL_ROOM_SMALL_OT_ABBR</LocID>          <Text>Sala Medici - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_ON_CALL_ROOM_LARGE_CAR_ABBR</LocID>          <Text>Sala Medici - 10 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_ON_CALL_ROOM_SMALL_CAR_ABBR</LocID>          <Text>Sala Medici - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_ON_CALL_ROOM_LARGE_NE_ABBR</LocID>          <Text>Sala Medici - 10 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_ON_CALL_ROOM_SMALL_NE_ABBR</LocID>          <Text>Sala Medici - 8 x 6</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_NURSES_STATION_LARGE_NE_ABBR</LocID>        <Text>Sala Infermieri - 10 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_NURSES_STATION_SMALL_NE_ABBR</LocID>        <Text>Sala Infermieri - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_NURSES_STATION_LARGE_CAR_ABBR</LocID>        <Text>Sala Infermieri - 10 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_NURSES_STATION_SMALL_CAR_ABBR</LocID>        <Text>Sala Infermieri - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_NURSES_STATION_LARGE_OT_ABBR</LocID>        <Text>Sala Infermieri - 10 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_NURSES_STATION_SMALL_OT_ABBR</LocID>        <Text>Sala Infermieri - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_NURSES_STATION_LARGE_IM_ABBR</LocID>        <Text>Sala Infermieri - 10 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_NURSES_STATION_SMALL_IM_ABBR</LocID>        <Text>Sala Infermieri - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_NURSES_STATION_LARGE_ICU_ABBR</LocID>        <Text>Sala Infermieri - 10 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_NURSES_STATION_SMALL_ICU_ABBR</LocID>        <Text>Sala Infermieri - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_NURSES_STATION_LARGE_GS_ABBR</LocID>        <Text>Sala Infermieri - 10 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_NURSES_STATION_SMALL_GS_ABBR</LocID>        <Text>Sala Infermieri - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_NURSES_STATION_LARGE_ABBR</LocID>        <Text>Sala Infermieri - 10 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_NURSES_STATION_SMALL_ABBR</LocID>        <Text>Sala Infermieri - 8 x 6</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_OBSERVATION_ROOM_LARGE_ABBR</LocID>      <Text>Reparto di Osservazione - 14 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_OBSERVATION_ROOM_SMALL_ABBR</LocID>      <Text>Reparto di Osservazione - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_TRAUMA_CENTER_ABBR</LocID>               <Text>Pronto Soccorso - 6 x 6</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_STAT_LAB_ER_ABBR</LocID>                 <Text>Laboratorio di Analisi - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_STAT_LAB_IM_ABBR</LocID>                 <Text>Laboratorio Medico - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_STAT_LAB_OT_ABBR</LocID>                 <Text>Laboratorio di Ortopedia - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_STAT_LAB_GS_ABBR</LocID>                 <Text>Laboratorio di Chirurgia - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_STAT_LAB_CAR_ABBR</LocID>                <Text>Laboratorio di Cardiologia - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_STAT_LAB_NE_ABBR</LocID>                 <Text>Laboratorio di Neurologia - 8 x 6</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_CLEANING_CLOSET_ABBR</LocID>             <Text>Ripostiglio Pulizie - 4 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_INPATIENT_WARD_LARGE_ABBR</LocID>        <Text>Reparto di Degenza - 12 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_INPATIENT_WARD_SMALL_ABBR</LocID>        <Text>Reparto di Degenza - 4 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HIGH_PRIORITY_WARD_LARGE_ABBR</LocID>    <Text>Reparto TS - 12 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_HIGH_PRIORITY_WARD_SMALL_ABBR</LocID>    <Text>Reparto TS - 4 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_ICU_LARGE_ABBR</LocID>                   <Text>Reparto TI - 16 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_ICU_SMALL_ABBR</LocID>                   <Text>Reparto TI - 8 x 6</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_OUTPATIENT_GS_OFFICE_LARGE_ABBR</LocID>  <Text>Ambulatorio di Chirurgia Generale - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_OUTPATIENT_GS_OFFICE_SMALL_ABBR</LocID>  <Text>Ambulatorio di Chirurgia Generale - 6 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_OUTPATIENT_IM_OFFICE_LARGE_ABBR</LocID>  <Text>Ambulatorio di Medicina Interna - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_OUTPATIENT_IM_OFFICE_SMALL_ABBR</LocID>  <Text>Ambulatorio di Medicina Interna - 6 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_OUTPATIENT_OT_OFFICE_LARGE_ABBR</LocID>  <Text>Ambulatorio di Ortopedia - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_OUTPATIENT_OT_OFFICE_SMALL_ABBR</LocID>  <Text>Ambulatorio di Ortopedia - 6 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_OUTPATIENT_CAR_OFFICE_LARGE_ABBR</LocID>  <Text>Ambulatorio di Cardiologia - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_OUTPATIENT_CAR_OFFICE_SMALL_ABBR</LocID>  <Text>Ambulatorio di Cardiologia - 6 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_OUTPATIENT_NE_OFFICE_LARGE_ABBR</LocID>  <Text>Ambulatorio di Neurologia - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_OUTPATIENT_NE_OFFICE_SMALL_ABBR</LocID>  <Text>Ambulatorio di Neurologia - 6 x 6</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_INPATIENT_GS_OFFICE_ABBR</LocID>         <Text>Unità Diagnostica - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_INPATIENT_GS_OFFICE_SMALL_ABBR</LocID>   <Text>Unità Diagnostica - 6 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_INPATIENT_IM_OFFICE_ABBR</LocID>         <Text>Unità Diagnostica - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_INPATIENT_IM_OFFICE_SMALL_ABBR</LocID>   <Text>Unità Diagnostica - 6 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_INPATIENT_OT_OFFICE_ABBR</LocID>         <Text>Unità Diagnostica - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_INPATIENT_OT_OFFICE_SMALL_ABBR</LocID>   <Text>Unità Diagnostica - 6 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_INPATIENT_CAR_OFFICE_ABBR</LocID>         <Text>Unità Diagnostica - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_INPATIENT_CAR_OFFICE_SMALL_ABBR</LocID>   <Text>Unità Diagnostica - 6 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_INPATIENT_NE_OFFICE_ABBR</LocID>         <Text>Unità Diagnostica - 8 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_INPATIENT_NE_OFFICE_SMALL_ABBR</LocID>   <Text>Unità Diagnostica - 6 x 6</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_SONOGRAPHY_UNIT_GS_ABBR</LocID>          <Text>Unità di Ecografia - 6 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_SONOGRAPHY_UNIT_OT_ABBR</LocID>          <Text>Unità di Ecografia - 6 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_SONOGRAPHY_UNIT_CAR_ABBR</LocID>          <Text>Unità di Ecografia - 6 x 6</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_CARDIOVASCULAR_UNIT_CAR_ABBR</LocID>      <Text>Unità di Cardiologia - 6 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_CARDIOVASCULAR_UNIT_GS_ABBR</LocID>      <Text>Unità di Cardiologia - 6 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_CARDIOVASCULAR_UNIT_IM_ABBR</LocID>      <Text>Unità di Cardiologia - 6 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_CARDIOVASCULAR_UNIT_NE_ABBR</LocID>      <Text>Unità di Cardiologia - 6 x 6</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_NEUROLAB_NE_ABBR</LocID>      <Text>Unità di Neurologia - 6 x 6</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_OPERATING_THEATRE_GS_ABBR</LocID>           <Text>Sala Operatoria - 12 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_OPERATING_THEATRE_IM_ABBR</LocID>           <Text>Sala Operatoria - 12 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_OPERATING_THEATRE_OT_ABBR</LocID>           <Text>Sala Operatoria - 12 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_OPERATING_THEATRE_CAR_ABBR</LocID>           <Text>Sala Operatoria - 12 x 6</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_OPERATING_THEATRE_NE_ABBR</LocID>           <Text>Sala Operatoria - 12 x 6</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>ALLOWED</LocID>                                     <Text>può essere posizionato qui.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ALLOWED_ROOM</LocID>                                <Text>può essere posizionato qui.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ALLOWED_CROPS_ROOM</LocID>                          <Text>può essere posizionato qui, ma taglierà un'altra stanza.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_BLOCKED</LocID>                         <Text>è bloccato da un altro oggetto.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_BLOCKED_ALREADY_PLACED</LocID>          <Text>è già stato posizionato qui.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_BLOCKING_NEIGHBOURS</LocID>             <Text>può essere posizionato qui, ma bloccherà l'accesso a un altro oggetto.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_ATTACHMENT_NO_PARENT</LocID>            <Text>deve essere unito a un altro oggetto.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_ATTACHMENT_WRONG_PARENT</LocID>         <Text>non può essere unito a questo tipo di oggetto.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_NO_ACCESS</LocID>                       <Text>non sarà accessibile qui.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_NO_WALL</LocID>                         <Text>deve essere posizionato su una parete.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_ONLY_INDOORS</LocID>                    <Text>può essere posizionato solo all'interno.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_ONLY_OUTDOORS</LocID>                   <Text>può essere posizionato solo all'esterno.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_LOCKED_AREA</LocID>                     <Text>non può essere posizionato al di fuori della proprietà dell'ospedale.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>MISSING_REQUIREMENT</LocID>                         <Text>(requisito mancante)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CONNECTED</LocID>                                   <Text>può essere posizionato qui (connesso).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SIZE_REQUIREMENT_NOT_MATCHED</LocID>                <Text>deve avere dimensioni minime:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_BLOCKED_ROOM</LocID>                    <Text>è bloccato da un'altra stanza.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ALLOWED_NOT_ACCESSIBLE</LocID>                      <Text>può essere posizionato qui, ma non sarà utilizzabile.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ALLOWED_ADDS_FOUNDATIONS</LocID>                    <Text>può essere posizionato qui, con costi aggiuntivi per le fondamenta.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_AT_DEPARTMENT</LocID>                   <Text>non è consentito nel dipartimento attualmente selezionato.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_LOCKED_INSURANCE</LocID>                <Text>non è stato ancora sbloccato.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_LIMIT_REACHED</LocID>                   <Text>ha raggiunto il limite complessivo.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_ROOF</LocID>                            <Text>non è permesso sul tetto.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_TOO_CLOSE</LocID>                       <Text>non può essere posizionato così vicino alle pareti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_IN_MIDAIR</LocID>                       <Text>non può essere posizionato a mezz'aria.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>THIS_PREFAB</LocID>                                 <Text>Questo prefabbricato</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DELETE_ROOM_HINT</LocID>                            <Text>Elimina le stanze facendo clic sulle tessere che coprono.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>BUILDING_CREATE_FLOOR</LocID>                       <Text>Aggiungi un nuovo piano</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>BUILDING_CREATE_FOUNDATIONS</LocID>                 <Text>Costruisci fondamenta</Text>  </GameDBLocalizedString>
+           
+            <!-- ============= DEPRECATED ================== -->
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_NURSERY_ROOM</LocID>                      <Text>DISAPPROVATO</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_NURSERY_ROOM_DESCRIPTION</LocID>          <Text>DISAPPROVATO</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_PHARMACY_STORAGE</LocID>                  <Text>DISAPPROVATO</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_PHARMACY_STORAGE_DESCRIPTION</LocID>      <Text>DISAPPROVATO</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_EQUIPMENT_STORAGE</LocID>                 <Text>DISAPPROVATO</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_EQUIPMENT_STORAGE_DESCRIPTION</LocID>     <Text>DISAPPROVATO</Text>  </GameDBLocalizedString>
+ 
+             <!-- ============= NEW, NEED TRANSLATING ================== -->
+             <GameDBLocalizedString>      <LocID>OBJECT_DESK_FLOWER</LocID>                 			<Text>Fiore</Text>  </GameDBLocalizedString>
+             <GameDBLocalizedString>      <LocID>OBJECT_DESK_FLOWER_DESCRIPTION</LocID>     			<Text>Un fiore in vaso, decorazione per ambulatori e sale d'attesa.</Text>  </GameDBLocalizedString>
+             <GameDBLocalizedString>      <LocID>OBJECT_COFFEE_MACHINE</LocID>                 		<Text>Macchina per il caffè</Text>  </GameDBLocalizedString>
+             <GameDBLocalizedString>      <LocID>OBJECT_COFFEE_MACHINE_DESCRIPTION</LocID>     		<Text>La macchina per il caffè riduce la fame, il sonno e l'esaurimento.</Text>  </GameDBLocalizedString>
+             <GameDBLocalizedString>      <LocID>OBJECT_PALM</LocID>                 				<Text>Albero - Palma</Text>  </GameDBLocalizedString>
+             <GameDBLocalizedString>      <LocID>OBJECT_PALM_DESCRIPTION</LocID>     				<Text>Un albero di palma.</Text>  </GameDBLocalizedString>
+             <GameDBLocalizedString>      <LocID>OBJECT_STREET_LAMP_SMALL</LocID>                 	<Text>Lampione verticale</Text>  </GameDBLocalizedString>
+             <GameDBLocalizedString>      <LocID>OBJECT_STREET_LAMP_SMALL_DESCRIPTION</LocID>     	<Text>Una decorazione per esterni. Il lampione è una fonte di luce.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_MIDDLE_INFO</LocID>             <Text>Bancone accettazione - Informazioni</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_RECEPTION_DESK_MIDDLE_INFO_DESCRIPTION</LocID> <Text>Il bancone è un'attrezzatura fondamentale ed obbligatoria per l'accettazione, la farmacia ed i negozi. Un PC posizionato sopra di esso creerà una postazione di lavoro.</Text>  </GameDBLocalizedString>
+            
+             <!-- Same as PREFAB_OBJECT_XRAY, PREFAB_OBJECT_CT, PREFAB_OBJECT_MRI -->
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_X_RAY</LocID>                      <Text>Sistema di radiografia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_X_RAY_DESCRIPTION</LocID>          <Text>Il sistema di radiografia è un'apparecchiatura diagnostica utilizzata per la radiografia, tecnica di imaging a raggi X che prevede l'acquisizione e l'elaborazione di immagini del corpo umano. La strumentazione è controllata dall'operatore tramite un pannello di controllo collocato nella stessa stanza.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_CT</LocID>                         <Text>Tomografo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_CT_DESCRIPTION</LocID>             <Text>Il tomografo è un'apparecchiatura diagnostica utilizzata per la tomografia computerizzata (TC), tecnica di imaging che prevede l'acquisizione e l'elaborazione di immagini dettagliate in sezione e tridimensionali dell'anatomia umana (organi interni, tessuti, vasi sanguigni).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_MRI</LocID>                        <Text>Scanner MRI</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_MRI_DESCRIPTION</LocID>            <Text>Lo scanner MRI è un'apparecchiatura diagnostica utilizzata per la risonanza magnetica (MRI), tecnica di imaging che prevede l'acquisizione e l'elaborazione di immagini dettagliate del corpo umano.</Text>  </GameDBLocalizedString>
+            
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+
+

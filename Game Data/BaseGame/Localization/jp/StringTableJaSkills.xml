@@ -1,0 +1,127 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_JA_SKILLS">
+        
+        <LanguageCode>ja</LanguageCode>
+        <LanguageNameLocalized>日本語</LanguageNameLocalized>
+    
+        <Contributors>
+          <Name>mashitaro</Name>
+        </Contributors>
+        
+        <LocalizedStrings>
+            <!-- Departments -->
+            <GameDBLocalizedString>      <LocID>DPT_DEFAULT</LocID>                                                 <Text>診療科なし</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_EMERGENCY</LocID>                                               <Text>救急</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_ICU</LocID>                                                     <Text>ICU</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_GENERAL_SURGERY_DEPARTMENT</LocID>                              <Text>一般外科</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_INTERNAL_MEDICINE_DEPARTMENT</LocID>                            <Text>内科</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_ORTHOPAEDICS_AND_TRAUMATOLOGY</LocID>                           <Text>整形外科</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_CARDIOLOGY</LocID>                                              <Text>循環器科</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_NEUROLOGY</LocID>                                               <Text>神経科</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DPT_RADIOLOGY</LocID>                                               <Text>放射線科</Text>  </GameDBLocalizedString>
+
+
+            <!-- Character levels-->
+            <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_1</LocID>                                              <Text>インターン</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_2</LocID>                                              <Text>研修医</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_3</LocID>                                              <Text>担当医</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_4</LocID>                                              <Text>フェロー</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTOR_LEVEL_5</LocID>                                              <Text>専門家</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>NURSE_LEVEL_1</LocID>                                               <Text>インターン看護婦</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_LEVEL_2</LocID>                                               <Text>正規看護婦</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_LEVEL_3</LocID>                                               <Text>専門看護婦</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>LAB_SPECIALIST_LEVEL_1</LocID>                                      <Text>技師</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_SPECIALIST_LEVEL_2</LocID>                                      <Text>上級技師</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LAB_SPECIALIST_LEVEL_3</LocID>                                      <Text>最上級技師</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>JANITOR_LEVEL_1</LocID>                                             <Text>用務員</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_LEVEL_2</LocID>                                             <Text>上級用務員</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>JANITOR_LEVEL_3</LocID>                                             <Text>最上級用務員</Text>  </GameDBLocalizedString>
+            
+            
+            <!-- Doctor's QUALIFICATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_QUALIF_GENERAL_MEDICINE</LocID>                           <Text>総合医学</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_QUALIF_GENERAL_MEDICINE_DESCRIPTION</LocID>               <Text>総合医学のスキルは基礎的な診断と治療の効率と速度に影響を与えます</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_QUALIF_DIAGNOSIS</LocID>                                  <Text>診断</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_QUALIF_DIAGNOSIS_DESCRIPTION</LocID>                      <Text>診断のスキルは患者の診断や他の医師との相談において誤診の確率を低下させます</Text>  </GameDBLocalizedString>
+
+            <!-- Doctor's SPECIALIZATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ACUTE_MEDICINE</LocID>                               <Text>急性医学</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ACUTE_MEDICINE_DESCRIPTION</LocID>                   <Text>急性医学のスキルは緊急科における重篤な患者に対し特殊な診断と治療が可能になります</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ADVANCED_DIAGNOSIS</LocID>                           <Text>上級診断</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ADVANCED_DIAGNOSIS_DESCRIPTION</LocID>               <Text>上級診断のスキルは特別な診断方法の利用が可能になります</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CRITICAL_CARE</LocID>                                <Text>緊急医学</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CRITICAL_CARE_DESCRIPTION</LocID>                    <Text>緊急医学のスキルはICUにおいて特別な治療方法の利用が可能になります</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_GENERAL_SURGERY</LocID>                              <Text>一般外科</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_GENERAL_SURGERY_DESCRIPTION</LocID>                  <Text>一般外科のスキルは一般外科における診断と治療に影響を与え、また手術の補助が可能になります</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_OPERATIVE_SURGERY</LocID>                            <Text>手術</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_OPERATIVE_SURGERY_DESCRIPTION</LocID>                <Text>手術のスキルを持つ医師は一般外科で執刀医を務めることができ、またスキルが高くなるとより複雑な手術が可能になります</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE</LocID>                            <Text>内科</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE_DESCRIPTION</LocID>                <Text>内科のスキルは内科における診断と治療に影響を与え、また手術の補助が可能になります</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE_SURGERY</LocID>                    <Text>内科手術</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_INTERNAL_MEDICINE_SURGERY_DESCRIPTION</LocID>        <Text>内科手術のスキルを持つ医師は内科で執刀医を務めることができ、またスキルが高くなるとより複雑な手術が可能になります</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDY</LocID>                                   <Text>整形学</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDY_DESCRIPTION</LocID>                       <Text>整形学のスキルは整形外科における診断と治療に影響を与え、また手術の補助が可能になります</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDIC_SURGERY</LocID>                          <Text>整形手術</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ORTHOPAEDIC_SURGERY_DESCRIPTION</LocID>              <Text>整形手術のスキルを持つ医師は整形外科で執刀医を務めることができ、またスキルが高くなるとより複雑な手術が可能になります</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIOLOGY</LocID>                                   <Text>循環器学</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIOLOGY_DESCRIPTION</LocID>                       <Text>循環器学のスキルは循環器科における診断と治療に影響を与え、また手術の補助が可能になります</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIO_SURGERY</LocID>                               <Text>循環器手術</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_CARDIO_SURGERY_DESCRIPTION</LocID>                   <Text>循環器手術のスキルを持つ医師は循環器科で執刀医を務めることができ、またスキルが高くなるとより複雑な手術が可能になります</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEUROLOGY</LocID>                                    <Text>神経学</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEUROLOGY_DESCRIPTION</LocID>                        <Text>神経学のスキルは神経科における診断と治療に影響を与え、また手術の補助が可能になります</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEURO_SURGERY</LocID>                                 <Text>神経手術</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_NEURO_SURGERY_DESCRIPTION</LocID>                     <Text>神経手術のスキルを持つ医師は神経科で執刀医を務めることができ、またスキルが高くなるとより複雑な手術が可能になります</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ANESTHESIOLOGY</LocID>                               <Text>麻酔</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_ANESTHESIOLOGY_DESCRIPTION</LocID>                   <Text>麻酔のスキルを持つ医師は手術において麻酔医師を務めることができ、手術への参加により意識不明となった患者の生存率を向上させます。\n意識不明の患者の死亡率が低下します。\n手術後の急変率が低下します。</Text>  </GameDBLocalizedString>
+
+            
+            <!-- Nurse's QUALIFICATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_QUALIF_PATIENT_CARE</LocID>                             <Text>患者の手当</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_QUALIF_PATIENT_CARE_DESCRIPTION</LocID>                 <Text>様々なタイプの患者の世話をすることができます</Text>  </GameDBLocalizedString>
+
+            <!-- Nurse's SPECIALIZATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_RECEPTIONIST</LocID>                               <Text>受付担当</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_RECEPTIONIST_DESCRIPTION</LocID>                   <Text>受付担当は最初に患者に応対します</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_MEDICAL_SURGERY</LocID>                            <Text>手術補助</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_MEDICAL_SURGERY_DESCRIPTION</LocID>                <Text>手術補助スキルを持つ看護師は手術で重要な役割を果たします</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_CLINICAL_SPECIALIST</LocID>                        <Text>看護専門技術</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_NURSE_SPEC_CLINICAL_SPECIALIST_DESCRIPTION</LocID>            <Text>看護専門技術のスキルを持つ看護師は患者の症状を明らかにします</Text>  </GameDBLocalizedString>
+
+            
+            <!-- Lab guys QUALIFICATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_QUALIF_SCIENCE_EDUCATION</LocID>               <Text>生化学</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_QUALIF_SCIENCE_EDUCATION_DESCRIPTION</LocID>   <Text>生化学のスキルを持つ技師は検査室において様々なSTAT試験が可能になります</Text>  </GameDBLocalizedString>
+
+            <!-- Lab guys SPECIALIZATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_BIOCHEMISTRY</LocID>                      <Text>上級生化学</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_BIOCHEMISTRY_DESCRIPTION</LocID>          <Text>上級英科学のスキルを持つ技師は検査室における試験の成果が向上します</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_RADIOLOGY</LocID>                         <Text>放射線技術</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_RADIOLOGY_DESCRIPTION</LocID>             <Text>放射線技術のスキルを持つ研究者は放射線を利用した撮影機やその他設備を利用することができます</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_GIT</LocID>                               <Text>GIT技術</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_GIT_DESCRIPTION</LocID>                   <Text>GIT技術のスキルを持つ研究者は一般外科に関係する検査機械を使用することができます</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_USG</LocID>                               <Text>超音波技術</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_USG_DESCRIPTION</LocID>                   <Text>超音波技術のスキルを持つ研究者は超音波検査機械を使用することができます</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_CARDIOLOGY</LocID>                        <Text>循環器技術</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_CARDIOLOGY_DESCRIPTION</LocID>            <Text>循環器技術のスキルを持つ研究者は循環器科に関係する検査機械を使用することができます</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_NEUROLOGY</LocID>                         <Text>神経科技術</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_LAB_SPECIALIST_SPEC_NEUROLOGY_DESCRIPTION</LocID>             <Text>神経科技術のスキルを持つ研究者は神経科に関係する検査機械を使用することができます</Text>  </GameDBLocalizedString>
+
+            
+            <!-- Janitor QUALIFICATIONS -->
+            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_EFFICIENCY</LocID>                             <Text>作業効率</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_EFFICIENCY_DESCRIPTION</LocID>                 <Text>作業効率のスキルを持つ用務員は様々な部屋をより効率的に清掃することができます</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_DEXTERITY</LocID>                              <Text>スピード</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_JANITOR_QUALIF_DEXTERITY_DESCRIPTION</LocID>                  <Text>スピードのスキルは清掃作業の速度に影響します</Text>  </GameDBLocalizedString>
+            
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

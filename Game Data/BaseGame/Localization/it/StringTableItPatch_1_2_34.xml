@@ -1,0 +1,52 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_IT_PATCH_1_2_34">
+
+        <LanguageCode>it</LanguageCode>
+        <LanguageNameLocalized>Italiano</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->
+            <GameDBLocalizedString>      <LocID>NOTIF_AUTOSAVE_IN_PROGRESS</LocID>          <Text>Salvataggio automatico in corso...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_AUTOSAVE_IN_PROGRESS_TEXT</LocID>     <Text>Il gioco sta creando un file di salvataggio automatico.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>NOTIF_AUTOSAVE_CREATED</LocID>              <Text>Salvataggio automatico creato.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_AUTOSAVE_CREATED_TEXT</LocID>         <Text>Salvataggio automatico creato:\n{1}</Text>  </GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <GameDBLocalizedString>      <LocID>ON_STANDBY_FOR_CRITICAL_PATIENTS</LocID>    <Text>In attesa per pazienti critici</Text>  </GameDBLocalizedString>
+            
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->
+            <GameDBLocalizedString>      <LocID>TAKE_OVER_ALL_DELIVERED_PATIENTS</LocID>    <Text>Controlla automaticamente tutti i pazienti arrivati in ambulanza o in eliambulanza</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_FROM_EVENT</LocID>                  <Text>Da un evento - Un caso clinico proveniente da un evento</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>STAFF_UNAVAILABLE_LAB_ROLES</LocID>         <Text>Non sono disponibili tecnici con un ruolo adatto.</Text>  </GameDBLocalizedString>
+            
+            <!-- An insurance company objective - "Perform 3 surgery/surgeries at Cardiology"-->
+            <GameDBLocalizedString>      <LocID>PERFORM_SURGERY_AT_DEPARTMENT</LocID>       <Text>Esegui {1} interventi presso il {2}</Text></GameDBLocalizedString>
+            
+            <!-- An insurance company objective - "Successfully finish 3 pandemic events" -->
+            <GameDBLocalizedString>      <LocID>SUCCESSFUL_EVENTS_IN_ROW_OF_TYPE</LocID>    <Text>Termina con successo {1} {2} evento/i di fila</Text>  </GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Options.xml -->
+            <GameDBLocalizedString>      <LocID>OPTIONS_CODE_MODS_ENABLED</LocID>           <Text>Abilita il caricamento delle mod (attenzione!)</Text>  </GameDBLocalizedString>
+            
+            <!--Loading tips for DLCs-->
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_EDUCATION</LocID>               <Text>Il personale aumenta di livello troppo lentamente? Occorre migliorare le loro abilità nell'aula studio.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_AUTOPSY</LocID>                 <Text>L'autopsia risponde a tutte le domande senza risposta...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_JANITORS_ASSIGNMENT</LocID>     <Text>Dopo aver assunto un direttore degli inservienti, si potranno assegnare stanze singole agli inservienti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_PHARMACY</LocID>                <Text>Occorre costruire una farmacia abbastanza grande, dev'essere pronta per servire moltitudini di pazienti che vengono dimessi al mattino dal ricovero.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_CONTAGIOUSNESS</LocID>          <Text>Ricoverando un paziente contagioso al di fuori del reparto di isolamento, il rischio che causi un'epidemia sarà molto alto.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>LOADING_TIP_HELICOPTER</LocID>              <Text>Le eliambulanze devono essere posizionate su una superficie con accesso all'ascensore.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DLC_ADMIN_PATHOLOGY</LocID>                                 <Text>DLC Servizi Ospedalieri</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_INFECTIOUS_DISEASES</LocID>                             <Text>DLC Dipartimento di Malattie Infettive</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TRAUMATOLOGY</LocID>                                    <Text>DLC Dipartimento di Traumatologia</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

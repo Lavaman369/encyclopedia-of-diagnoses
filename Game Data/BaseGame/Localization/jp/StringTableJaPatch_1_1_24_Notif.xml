@@ -1,0 +1,18 @@
+<Database>
+    <GameDBStringTable ID="LOC_JA_PATCH_1_1_24_NOTIF">
+
+        <LanguageCode>ja</LanguageCode>
+        <LanguageNameLocalized>日本語</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>NOTIF_WAITING_FOR_PLAYER</LocID>                            <Text>手続きが完了しました。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_WAITING_FOR_PLAYER_TEXT</LocID>                       <Text><![CDATA[<i>{1}</i>を完了したことで予定されていた手続きは全て終了しました。]]></Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

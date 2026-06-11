@@ -1,0 +1,32 @@
+<Database>
+    <GameDBStringTable ID="LOC_JA_PATCH_1_2_30">
+
+        <LanguageCode>ja</LanguageCode>
+        <LanguageNameLocalized>日本語</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- DID = department of infectious diseases, the abbreviation should be the same as in the string table for department of infectious diseases itself -->
+            <GameDBLocalizedString>    <LocID>EXM_THORAX_PERCUSSION_DESCRIPTION_V2</LocID>                 <Text>胸の中で空気が少ない箇所を特定するために、胸部をたたいて行われる検査。\n\n必要な部屋：任意の診察室、診断室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_ANTICHOLINERGICS_DESCRIPTION_V2</LocID>                  <Text>過剰な汗の分泌を治療するために最もよく用いられる薬。\n\n必要な部屋：一般内科、循環器科、神経科、感染症科、外傷外科の診療所、観察室、集中治療室、診察室、診断室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_COLD_TILING_DESCRIPTION_V3</LocID>                       <Text>冷却弾性包帯は、身体の痛みのある部位を鎮めるために用いられる。\n\n前提条件：部屋全般、外来・院内診察室、および集中治療室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_MUCOLYTICS_DESCRIPTION_V2</LocID>                        <Text>気道から痰を排出しやすくする液体の薬。\n\n必要な部屋：一般内科、感染症科の診療所、観察室、集中治療室、診察室、診断室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_SALINE_NASAL_SPRAY_DESCRIPTION_V2</LocID>                <Text>鼻腔を洗浄し、通気性を向上させる鼻腔用スプレー。\n\n必要な部屋：感染症科の診療所、観察室、診察室、診断室</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>EXM_CBC_SAMPLING_DESCRIPTION_V2</LocID>                      <Text>全血球計算（CBC）検査に使用する血液の採取。\n\n必要な部屋：血液学研究室 \n\nサンプル抽出：救急救命科、一般外科、一般内科、整形外科、神経科、集中治療科、感染症科、外傷外科 \n\n必要な機材：ガラス器具＋血液分析装置</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING_DESCRIPTION_V2</LocID>    <Text>患者、または患者のカテーテルからの中間尿の採取。\n\n必要な部屋：病理組織研究室 \n\nサンプル抽出：救急救命科、一般外科、一般内科、整形外科、集中治療科、感染症科、外傷外科 \n\n必要な機材：ガラス器具＋ラボ分析装置</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER</LocID>                                <Text>コーナーキャビネット</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER_WALL</LocID>                           <Text>壁掛け式コーナーキャビネット</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>    <LocID>CONTROL_PROCEDURE_PATIENT_DELIVER_SAMPLE</LocID>             <Text>検査サンプルの引き渡し</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>CONTROL_PROCEDURE_PATIENT_STAT_LAB_RESULTS</LocID>           <Text>検査結果の告知</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>    <LocID>BANNER_DLCS</LocID>                                          <Text>プロジェクトホスピタルのDLCをチェック</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

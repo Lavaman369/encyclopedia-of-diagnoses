@@ -1,0 +1,178 @@
+<Database>
+    <GameDBStringTable ID="LOC_KR_EXAMINATIONS">
+
+        <LanguageCode>kr</LanguageCode>
+        <LanguageNameLocalized>한국어</LanguageNameLocalized>
+
+        <Contributors>
+          <Name>Kimbel_Byungseok</Name>
+          <Name>Teirone</Name>
+          <Name>Dr.LimHY</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- Examinations -->
+            <GameDBLocalizedString>      <LocID>EXM_RECEPTION_FAST</LocID>                                      <Text>접수처 환자분류</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_RECEPTION_DESCRIPTION</LocID>                               <Text>환자의 증상에 따라 우선 순위를 높일 수 있습니다. \n\n필요한 방: 접수처</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ABDOMINAL_PALPATION</LocID>                                 <Text>복부 촉진</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ABDOMINAL_PALPATION_DESCRIPTION</LocID>                     <Text>신체 검사 유형. 의사는 환자의 복부 9개 부위를 표면적으로 깊게 두번 촉진합니다. \n\n필요한 방: 모든 진료실 / 치료실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ANGIOGRAPHY</LocID>                                         <Text>혈관조영술</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ANGIOGRAPHY_DESCRIPTION</LocID>                             <Text>혈관조영술은 혈관 및 신체기관의 동정맥과 심장의 내벽을 시각화 하는 데 사용하는 검사입니다. \n\n필요한 방: 심혈관조영실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_AUDIOMETRY</LocID>                                          <Text>청력 검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_AUDIOMETRY_DESCRIPTION</LocID>                              <Text>청력 검사는 환자의 청력 수준을 결정하는 검사입니다. \n\n필요한 방: 모든 진료실 / 치료실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BACTERIA_CULTIVATION_SAMPLING</LocID>                       <Text>세균 시료채취</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BACTERIA_CULTIVATION_SAMPLING_DESCRIPTION</LocID>           <Text>세균 시료채취은 추가 분석을 위해 환자로부터 표본을 채취하는 검사입니다.(예:체액, 가래, 대변) \n\n필요한 방: 진단검사실 \n\n필요한 장비: 유리제품 + 현미경</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BACTERIA_CULTIVATION_TESTING</LocID>                        <Text>세균 배양검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BACTERIA_CULTIVATION_TESTING_DESCRIPTION</LocID>            <Text>세균 배양검사는 환자로부터 얻은 특정 표본을 배양하여 미생물의 종류 및 존재 여부를 확인하는 검사입니다. \n\n필요한 방: 진단검사실 \n\n필요한 장비: 유리제품 + 현미경</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BARRIUM_SWALLOV_X_RAY</LocID>                               <Text>위장관바륨조영술</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BARRIUM_SWALLOV_X_RAY_DESCRIPTION</LocID>                   <Text>환자가 X-ray에 나타나는 황산바륨 혼합물(조영제)을 삼켜 식도, 위, 내장을 검사하는 데 사용되는 검사입니다. \n\n필요한 방: X-ray실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BASIC_VISUAL_TEST</LocID>                                   <Text>기본 시력 검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BASIC_VISUAL_TEST_DESCRIPTION_V2</LocID>                    <Text>환자의 시력을 검사하는 데 사용되는 일반적인 시각 검사입니다. \n\n필요한 방: 응급실 / 일반 외과 / 내과 / 순환기내과 / 신경의학과 / 감염내과의 아무 진찰실 \n\n필요 장비: 시력 검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BIOPSY_SAMPLING</LocID>                                     <Text>조직 생검</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BIOPSY_SAMPLING_DESCRIPTION</LocID>                         <Text>추가 검사를 위해 환자의 조직(폐, 간, 내장) 부위 시료를 채취하는 절차입니다. \n\n필요한 방: 진단검사실 \n\n필요한 장비: 유리조각 + 현미경</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BIOPSY_TESTING</LocID>                                      <Text>조직 생검 병리검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BIOPSY_TESTING_DESCRIPTION</LocID>                          <Text>생체검사 과정에서 채취한 조직 부위를 현미경으로 검사해 보다 구체적인 검사를 위해 다양한 준비를 합니다. \n\n필요한 방: 진단검사실 \n\n필요한 장비: 유리제품 + 현미경</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BLOOD_PRESSURE_AND_PULSE_MEASUREMENT</LocID>                <Text>혈압 측정</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BLOOD_PRESSURE_AND_PULSE_MEASUREMENT_DESCRIPTION</LocID>    <Text>혈압계를 사용하여 환자의 혈압과 맥박(심장 박동 빈도)을 수동으로 측정합니다. \n\n필요한 방: 모든 진료실 / 치료실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BLOOD_TEST_SAMPLING</LocID>                                 <Text>채혈(일반혈액)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BLOOD_TEST_SAMPLING_DESCRIPTION</LocID>                     <Text>추가 분석 및 검사를 위해 환자의 혈액(심장 또는 동맥) 표본을 수집합니다. \n\n필요한 방: 진단검사실 \n\n필요한 장비: 혈액분석기</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BLOOD_TEST_TESTING</LocID>                                  <Text>일반혈액검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_BLOOD_TEST_TESTING_DESCRIPTION</LocID>                      <Text>환자의 혈액 표본을 검사실에서 분석합니다 \n\n필요한 방: 진단검사실 \n\n필요한 장비: 혈액분석기</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CBC_SAMPLING</LocID>                                        <Text>채혈(전혈구계산)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CBC_SAMPLING_DESCRIPTION</LocID>                            <Text>전혈구계산 검사를 위해 혈액 표본을 수집합니다. \n\n필요한 방: 진단검사실 \n\n필요한 장비: 혈액분석기</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CBC_TESTING</LocID>                                         <Text>전혈구계산검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CBC_TESTING_DESCRIPTION</LocID>                             <Text>전혈구계산(CBC)검사는 혈액에서 발견되는 모든 혈구(적혈구, 백혈구, 혈소판)를 계산하고 어떤 혈구가 증감하는지 확인하는 검사입니다. \n\n필요한 방: 진단검사실 \n\n필요한 장비: 혈액분석기</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CC_BLOOD_ANALYSIS</LocID>                                   <Text>중환자 혈액가스검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CC_BLOOD_ANALYSIS_DESCRIPTION</LocID>                       <Text>집중치료실(ICU)에서 주로 사용되는 특수 혈액을 분석합니다. \n\n필요한 방: 집중치료실(ICU) \n\n필요한 장비: 혈액분석기</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CC_ECHO</LocID>                                             <Text>중환자 심초음파</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CC_ECHO_DESCRIPTION</LocID>                                 <Text>집중치료실(ICU)나 중증외상센터에서 주로 사용되는 특수 중환자 심초음파로, 심장이 제대로 뛰는지 심낭(심장 주변의 주머니) 또는 폐를 둘러 싼 체액이 있는지도 확인할 수 있습니다. \n\n필요한 방: 집중치료실(ICU) \n\n필요한 장비: 빠른 초음파검사기(USG)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CRP</LocID>                                                 <Text>CRP 검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CRP_DESCRIPTION</LocID>                                     <Text>C-반응단백질 검사는 염증성 및 감염성 질환을 나타내는 C-반응단백질의 농도를 측정하는 빠른 혈액 검사입니다. \n\n필요한 방: 모든 진료실 / 치료실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CT</LocID>                                                  <Text>CT</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CT_DESCRIPTION</LocID>                                      <Text>컴퓨터단층촬영(CT)은 환자의 내부 장기, 뼈의 상세한 이미지영상을 생성하는 검사입니다. 조영제를 정맥주사나 섭취를 통해 광범위한 질병을 찾아낼 수 있습니다. \n\n필요한 방: CT실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CT_ENTEROGRAPHY</LocID>                                     <Text>CT(장조영증강)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CT_ENTEROGRAPHY_DESCRIPTION</LocID>                         <Text>장조영증강 CT는 환자가 액체 조영제를 섭취한 후 조영제 정맥주사를 주입하여 장의 고해상도 이미지영상을 생성하는 검사입니다. \n\n필요한 방: CT실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_EAR_EXAMINATION</LocID>                                     <Text>귀 검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_EAR_EXAMINATION_DESCRIPTION</LocID>                         <Text>환자의 외이도, 고막을 포함한 귀 검사 및 육안 검사를 합니다. \n\n필요한 방: 모든 진료실 / 치료실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ECG</LocID>                                                 <Text>심전도</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ECG_DESCRIPTION</LocID>                                     <Text>심전도(ECG)는 피부의 전극으로 심장의 전기적 활동을 기록하는 검사입니다. \n\n필요한 방: 심혈관검사실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_EEG</LocID>                                                 <Text>뇌파 검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_EEG_DESCRIPTION</LocID>                                     <Text>뇌파 검사(EEG)는 환자에게 많은 전극을 포함하는 모자를 착용시켜 뇌의 전기적 활동을 기록하는 검사입니다. \n\n필요한 방: 신경검사실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ECHO</LocID>                                                <Text>심초음파</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ECHO_DESCRIPTION</LocID>                                    <Text>심초음파 검사는 환자의 심장과 대정맥, 동맥이 심장에서 들어오고 나가는 것을 평가하는 초음파 검사입니다. \n\n필요한 방: 심혈관검사실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_EMG</LocID>                                                 <Text>근전도</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_EMG_DESCRIPTION</LocID>                                     <Text>근전도(EMG)는 환자의 근육에 전기적 활동을 기록하고 평가하는 검사입니다. \n\n필요한 방: 진료실 / 단기응급병동 / 정형외과의 진료실과 치료실 </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_EVALUATION</LocID>                                          <Text>종합평가</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_EVALUATION_DESCRIPTION</LocID>                              <Text>진단을 지정하기 위해 최근에 실시한 모든 증상 및 검사를 고려해야 합니다. \n\n필요한 방: 모든 진료실 / 치료실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FAST</LocID>                                                <Text>FAST 초음파</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FAST_DESCRIPTION</LocID>                                    <Text>중증외상환자나 집중치료실환자를 평가하는 데 사용되는 특수초음파 검사입니다. \n\n필요한 방: 중증외상센터, 집중치료실(ICU)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FECAL_ELASTASE_TEST_SAMPLING</LocID>                        <Text>엘라스타아제 측정 시료채취</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FECAL_ELASTASE_TEST_SAMPLING_DESCRIPTION</LocID>            <Text>췌장에서 생산되는 엘라스타아제의 양을 정량화 하기 위해 환자의 대변 표본을 수집합니다. 이 검사는 췌장의 실제 기능을 반영합니다. \n\n필요한 방: 진단검사실 \n\n필요한 장비: 방사면역측정기</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FECAL_ELASTASE_TEST_TESTING</LocID>                         <Text>엘라스타아제 측정 검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FECAL_ELASTASE_TEST_TESTING_DESCRIPTION</LocID>             <Text>환자의 대변 표본에서 엘라스타아제 농도를 측정합니다. 이 검사는 췌장의 실제 기능을 반영합니다. \n\n필요한 방: 진단검사실 \n\n필요한 장비: 방사면역측정기</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FUNGAL_CULTIVATION_SAMPLING</LocID>                         <Text>진균 시료채취</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FUNGAL_CULTIVATION_SAMPLING_DESCRIPTION</LocID>             <Text>곰팡이의 존재 여부를 확인하기 위해 환자의 신체에서 다양한 표본을 배양하고자 채취합니다. \n\n필요한 방: 진단검사실 \n\n필요한 장비: 유리제품 + 현미경</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FUNGAL_CULTIVATION_TESTING</LocID>                          <Text>진균 배양검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_FUNGAL_CULTIVATION_TESTING_DESCRIPTION</LocID>              <Text>환자의 신체에서 채취한 진균 표본을 검사실에서 배양합니다. \n\n필요한 방: 진단검사실 \n\n필요한 장비: 유리제품 + 현미경</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_GASTROSCOPY</LocID>                                         <Text>위내시경 검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_GASTROSCOPY_DESCRIPTION</LocID>                             <Text>끝에 작은 비디오 카메라와 광원이 있는 유연한 튜브(내시경)를 입을 통해 식도로 삽입하여 위, 십이지장까지 검사하는 절차입니다. \n\n필요한 방: 외과 / 내과 / 순환기내과의 진료실과 치료실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_GONIOSCOPY</LocID>                                          <Text>전방각경 검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_GONIOSCOPY_DESCRIPTION</LocID>                              <Text>전방각경검사는 눈의 배수 시스템을 평가하는 데 사용되는 시력 검사입니다.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>EXM_HEART_MONITORING</LocID>                                    <Text>심장 모니터링</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_HEART_MONITORING_DESCRIPTION</LocID>                        <Text>심장의 전기적 활동에 대해 장기 관찰합니다. \n\n필요한 방: 집중치료실(ICU) / 중증외상센터 / 단기응급병동 \n\n필요한 장비: 라이프 모니터 / 마취대</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>EXM_CHEST_LISTENING</LocID>                                     <Text>흉부 청진</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CHEST_LISTENING_DESCRIPTION</LocID>                         <Text>환자의 심장과 폐를 청진기로 청진합니다. \n\n필요한 방: 모든 진료실 / 치료실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_LARYNGOSCOPY</LocID>                                        <Text>후두경 검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_LARYNGOSCOPY_DESCRIPTION</LocID>                            <Text>끝에 작은 비디오 카메라와 광원이 있는 유연한 후두경를 코를 통해 삽입하여 후두, 성대문, 성대를 검사하는 절차입니다. 후두경검사는 기관 삽관을 용이하게 하기 위해 사용 됩니다. \n\n필요한 방: 진료실 / 단기응급병동 / 집중치료실(ICU)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_MRI</LocID>                                                 <Text>MRI</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_MRI_DESCRIPTION</LocID>                                     <Text>자기공명영상(MRI)은 자기장 및 전파기술을 사용하여 신체와 내부 장기의 해부학, 생리학에 대한 상세한 이미지영상을 제공합니다. \n\n필요한 방: MRI실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_NASAL_CAVITY_INSPECTION</LocID>                             <Text>비강 검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_NASAL_CAVITY_INSPECTION_DESCRIPTION</LocID>                 <Text>환자의 비강을 포함한 코 검사 및 육안 검사를 합니다. \n\n필요한 방: 모든 진료실 / 치료실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_NECK_PALPATION</LocID>                                      <Text>목 촉진</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_NECK_PALPATION_DESCRIPTION</LocID>                          <Text>환자의 목을 촉진합니다. \n\n필요한 방: 모든 진료실 / 치료실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_NEUROLOGICAL_TESTING</LocID>                                <Text>신경학적 검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_NEUROLOGICAL_TESTING_DESCRIPTION</LocID>                    <Text>환자의 중추신경계에 대한 정보를 제공하는 간단하고 구체적인 질문과 신체검진입니다. \n\n필요한 방: 모든 진료실 / 치료실</Text>  </GameDBLocalizedString>
+<!--
+            <GameDBLocalizedString>      <LocID>EXM_OBSERVATION</LocID>                                         <Text>관찰</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_OBSERVATION_DESCRIPTION</LocID>                             <Text>환자의 상태가 악화되지 않도록 24시간 동안 환자를 관찰합니다.</Text>  </GameDBLocalizedString>
+-->
+            <GameDBLocalizedString>      <LocID>EXM_OPHTHALMOSCOPY</LocID>                                      <Text>검안경 검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_OPHTHALMOSCOPY_DESCRIPTION</LocID>                          <Text>검안경 검사법은 안저, 망막을 시각화하는 절차입니다.  \n\n필요한 방: 진료실 / 단기응급병동 / 중증외상센터 / 집중치료실(ICU) / 내과 / 신경과의 진료실과 치료실 </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ORAL_CAVITY_INSPECTION</LocID>                              <Text>구강 검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ORAL_CAVITY_INSPECTION_DESCRIPTION</LocID>                  <Text>환자의 구강 검사 및 육안 검사를 합니다. \n\n필요한 방: 모든 진료실 / 치료실 </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PCR_SAMPLING</LocID>                                        <Text>PCR 시료채취</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PCR_SAMPLING_DESCRIPTION</LocID>                            <Text>검사실에서 중합효소 연쇄반응 분석을 위한 생물학적 물질의 표본. 검사는 빠르고, 싸고, 정확합니다. \n\n필요한 방: 진단검사실 \n\n필요한 장비: PCR 기계</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PCR_TESTING</LocID>                                         <Text>PCR 검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PCR_TESTING_DESCRIPTION</LocID>                             <Text>중합효소 연쇄반응은 박테리아나 바이러스에 의한 감염성 질환을 확인하는 빠른 검사 방법입니다. 검사는 빠르고, 싸고, 정확합니다. \n\n필요한 방: 진단검사실 \n\n필요한 장비: PCR 기계</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PERIMETRY</LocID>                                           <Text>시야 검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PERIMETRY_DESCRIPTION</LocID>                               <Text>시야검사는 시야측정계를 사용하여 체계적으로 시야범위를 측정하는 검사입니다. \n\n필요한 방: 신경과의 진료실과 치료실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PERITONEAL_FLUID_ANALYSIS_SAMPLING</LocID>                  <Text>복강 천자</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PERITONEAL_FLUID_ANALYSIS_SAMPLING_DESCRIPTION</LocID>      <Text>복부 벽면을 통해 큰 바늘과 주사기를 이용해 복막액 표본을 채취하는 절차입니다. \n\n필요한 방: 진단검사실 \n\n필요한 장비: 원심분리기 + 다목적 분석기</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PERITONEAL_FLUID_ANALYSIS_TESTING</LocID>                   <Text>복수 검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PERITONEAL_FLUID_ANALYSIS_TESTING_DESCRIPTION</LocID>       <Text>복막강 내에서 채취한 장액을 분석하는 생화학 검사입니다. \n\n필요한 방: 진단검사실 \n\n필요한 장비: 원심분리기 + 다목적 분석기</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</LocID>                     <Text>신체 검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PHYSICAL_AND_VISUAL_EXAMINATION_DESCRIPTION</LocID>         <Text>환자의 신체 특정 부위를 검사합니다. \n\n필요한 방: 모든 진료실 / 치료실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_INTERVIEW</LocID>                                           <Text>병력 청취</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_INTERVIEW_DESCRIPTION</LocID>                               <Text>가능한 한 많은 정보를 얻기 위해 환자와 인터뷰를 합니다. \n\n필요한 방: 모든 진료실 / 치료실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SEROLOGY_TESTING_SAMPLING</LocID>                           <Text>채혈(혈청학)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SEROLOGY_TESTING_SAMPLING_DESCRIPTION</LocID>               <Text>혈청 검사를 위한 혈액 표본 채취 절차입니다. \n\n필요한 방: 진단검사실 \n\n필요한 장비: 원심분리기 + 방사면역측정기</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SEROLOGY_TESTING_TESTING</LocID>                            <Text>혈청학적검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SEROLOGY_TESTING_TESTING_DESCRIPTION</LocID>                <Text>특정 항체와 항원을 검사하는 특별한 혈액검사. 항체는 병원균을 중화시키기 위해 인간의 면역체계에 의해 만들어진 단백질입니다. \n\n필요한 방: 진단검사실 \n\n필요한 장비: 원심분리기 + 방사면역측정기</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SKIN_INJECTION_TEST</LocID>                                 <Text>피부알레르기검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SKIN_INJECTION_TEST_DESCRIPTION</LocID>                     <Text>특정 알레르기 유발 물질에 대한 알레르기 반응을 확인하거나 부인하기 위해 소량의 다른 알레르기 추출물을 보통 팔에 주사합니다.  \n\n필요한 방: 응급의학과 / 집중치료실 / 신경과의 진료실과 치료실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SPEECH_LISTENING</LocID>                                    <Text>음성 청취</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SPEECH_LISTENING_DESCRIPTION</LocID>                        <Text>환자의 말소리를 듣습니다.  \n\n필요한 방: 모든 진료실 / 치료실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_SAMPLING</LocID>                      <Text>요추 천자</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_SAMPLING_DESCRIPTION</LocID>          <Text>요추 천자는 척추에 허리를 통해 바늘을 삽입하여 뇌척수액을 소량 추출하는 절차입니다. \n\n필요한 방: 진단검사실 \n\n필요한 장비: 원심분리기 + 다목적 분석기</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_TESTING</LocID>                       <Text>뇌척수액 검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_TESTING_DESCRIPTION</LocID>           <Text>검사실에서 뇌척수액을 분석하는 과정입니다. \n\n필요한 방: 진단검사실 \n\n필요한 장비: 원심분리기 + 다목적 분석기</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SPIROMETRY</LocID>                                          <Text>폐기능검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SPIROMETRY_DESCRIPTION</LocID>                              <Text>폐활량측정법은 가장 일반적인 폐 기능 검사중 하나입니다. \n\n필요한 방: 응급의학과 / 집중치료실 / 내과의 진료실과 치료실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_SAMPLING</LocID>                             <Text>대변 채취</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_SAMPLING_DESCRIPTION</LocID>                 <Text>추가 분석을 위해 환자의 대변 표본을 수집하는 절차입니다. \n\n필요한 방: 진단검사실 \n\n필요한 장비: 대변 분석기</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_TESTING</LocID>                              <Text>대변 검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_TESTING_DESCRIPTION</LocID>                  <Text>박테리아, 혈액, 기생충 등에 대한 환자의 대변을 분석합니다. \n\n필요한 방: 진단검사실 \n\n필요한 장비: 대변 분석기</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SWEAT_CHLORIDE_TEST</LocID>                                 <Text>땀 염화물 검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SWEAT_CHLORIDE_TEST_DESCRIPTION</LocID>                     <Text>낭포성 섬유증 진단에 사용되는 특별한 생화학 검사입니다. \n\n필요한 방: 내과의 진료실과 치료실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_TEMPERATURE_MEASUREMENT</LocID>                             <Text>체온 측정</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_TEMPERATURE_MEASUREMENT_DESCRIPTION</LocID>                 <Text>현재 체온을 측정하기 위한 검사입니다. \n\n필요한 방: 모든 진료실 / 치료실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_THORAX_PERCUSSION</LocID>                                   <Text>흉부 타진</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_THORAX_PERCUSSION_DESCRIPTION</LocID>                       <Text>흉부를 체계적으로 감청하여 흉부 내 공기가 적은 부위를 확인하는 검사입니다. \n\n필요한 방: 외과 / 내과 / 순환기내과의 진료실과 치료실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_TONOMETRY</LocID>                                           <Text>안압계 검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_TONOMETRY_DESCRIPTION</LocID>                               <Text>눈 안의 압력을 측정하는 검사입니다. \n\n필요한 방: 신경 검사실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_TRANSIENT_ELASTOGRAPHY</LocID>                              <Text>순간탄성측정 검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_TRANSIENT_ELASTOGRAPHY_DESCRIPTION</LocID>                  <Text>장기 내부 연조직의 탄성특성과 강성을 매핑하는 특수 초음파화상진단법 입니다. \n\n필요한 방: 초음파실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_URGENT_BLOOD_ANALYSIS</LocID>                               <Text>패혈증 혈액검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_URGENT_BLOOD_ANALYSIS_DESCRIPTION</LocID>                   <Text>패혈증 혈액검사는 패혈증을 겪을 수 있는 환자의 수술 후 관리에 사용됩니다. \n\n필요한 방: 심혈관검사실 \n\n필요한 장비: 다목적 분석기</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING</LocID>                      <Text>소변 채취</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING_DESCRIPTION</LocID>          <Text>환자 또는 환자의 카테터에서 소변 표본을 수집합니다. \n\n필요한 방: 진단검사실 \n\n필요한 장비: 다목적 분석기</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_URINE_SAMPLE_ANALYSIS_TESTING</LocID>                       <Text>소변 검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_URINE_SAMPLE_ANALYSIS_TESTING_DESCRIPTION</LocID>           <Text>환자의 소변 표본을 생화학 분석합니다. \n\n필요한 방: 진단검사실 \n\n필요한 장비: 다목적 분석기</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_USG</LocID>                                                 <Text>초음파 검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_USG_DESCRIPTION</LocID>                                     <Text>초음파 검사는 초음파 검사기를 사용하여 연조직과 장기를 모두 시각화 하는 의료 영상 기법입니다. \n\n필요한 방: 초음파실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_X_RAY_BACK</LocID>                                          <Text>등 X-ray </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_X_RAY_BACK_DESCRIPTION</LocID>                              <Text>척추의 X-ray 영상. \n\n필요한 방: X-ray실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_X_RAY_HEAD</LocID>                                          <Text>머리 X-ray </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_X_RAY_HEAD_DESCRIPTION</LocID>                              <Text>두개골의 X-ray 영상. \n\n필요한 방: X-ray실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_X_RAY_LOWER_LIMB</LocID>                                    <Text>다리 X-ray</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_X_RAY_LOWER_LIMB_DESCRIPTION</LocID>                        <Text>다리 뼈의 X-ray 영상. \n\n필요한 방: X-ray실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_X_RAY_TORSO</LocID>                                         <Text>흉부 X-ray</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_X_RAY_TORSO_DESCRIPTION</LocID>                             <Text>흉부 X-ray 영상. \n\n필요한 방: X-ray실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_X_RAY_UPPER_LIMB</LocID>                                    <Text>팔 X-ray</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_X_RAY_UPPER_LIMB_DESCRIPTION</LocID>                        <Text>팔 뼈의 X-ray 영상. \n\n필요한 방: X-ray실</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>EXM_DIFFERENTIAL_DIAGNOSIS</LocID>                              <Text>감별진단</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_DIFFERENTIAL_DIAGNOSIS_DESCRIPTION</LocID>                  <Text>가능한 진단의 수를 줄이는 특수 사례를 검토합니다. 전문진단의학 기술이 있는 의사만 수행할 수 있습니다. </Text>  </GameDBLocalizedString>
+
+            <!--
+            <GameDBLocalizedString>      <LocID>EXM_ANALYTIC_INTERVIEW</LocID>                                  <Text>분석적 인터뷰</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ANALYTIC_INTERVIEW_DESCRIPTION</LocID>                      <Text>전문진단의학 기술이 있는 의사만 수행할 수 있는 특별한 인터뷰. 환자의 숨겨진 증상을 찾아 냅니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CONSULTATIVE_EXAMINATIONS</LocID>                           <Text>상담 검사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_CONSULTATIVE_EXAMINATIONS_DESCRIPTIONS</LocID>              <Text>전문진단의학 기술이 있는 의사만 수행할 수 있는 특별한 검사. 환자의 숨겨진 증상을 발견하기 위한 검사를 제안합니다.</Text>  </GameDBLocalizedString>
+-->
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

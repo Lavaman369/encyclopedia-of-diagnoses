@@ -1,0 +1,299 @@
+﻿<Database>
+
+	<!-- Insecticide Cream -->
+	
+	<GameDBTreatment ID="TRT_SH_INSECTICIDE_CREAM">
+        <AbbreviationLocID>TRT_SH_INSECTICIDE_CREAM_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_SPEC_SH</SkillRef>
+				<SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+                <Tag>sh_office</Tag>
+				<Tag>ward</Tag>
+				<Tag>icu</Tag>
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+
+            <DressLevel>FULL</DressLevel>
+            <DressLevelAfter>FULL</DressLevelAfter>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
+        <Cost>50</Cost>
+		<IconIndex>2021</IconIndex>
+        <CustomIconBigAssetRef>ASSET_MOD_SH_ICON_IC</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_MOD_SH_ICON_IC_SMALL</CustomIconSmallAssetRef>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+
+	<!-- Antiretroviral -->
+	
+	<GameDBTreatment ID="TRT_SH_ANTIRETROVIRAL">
+        <AbbreviationLocID>TRT_SH_ANTIRETROVIRAL_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredDoctorQualificationList>
+				<SkillRef>SKILL_DOC_SPEC_SH</SkillRef>
+				<SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+                <Tag>examinations_basic_equipment</Tag>
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+
+            <DressLevel>FULL</DressLevel>
+            <DressLevelAfter>FULL</DressLevelAfter>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
+        <Cost>100</Cost>
+        <IconIndex>1883</IconIndex>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+
+	<!-- Antiviral -->
+	
+	<GameDBTreatment ID="TRT_SH_ANTIVIRAL_MEDICATION">
+        <AbbreviationLocID>TRT_SH_ANTIVIRAL_MEDICATION_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredDoctorQualificationList>
+				<SkillRef>SKILL_DOC_SPEC_SH</SkillRef>
+				<SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+                <Tag>examinations_basic_equipment</Tag>
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+
+            <DressLevel>FULL</DressLevel>
+            <DressLevelAfter>FULL</DressLevelAfter>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
+        <Cost>100</Cost>
+        <IconIndex>1883</IconIndex>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+
+	<!-- Cryotherapy -->
+	
+    <GameDBTreatment ID="TRT_SH_CRYOTHERAPY">
+        <AbbreviationLocID>TRT_SH_CRYOTHERAPY_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel><!--TODO just for testing-->
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_SPEC_SH</SkillRef>
+				<SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>sit_exam</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>doc_equipment</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+                <Tag>examinations_basic_equipment</Tag>
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptTreatmentProcedure</ProcedureScript>
+
+            <AnimationSetupSitting>
+                <AnimationNameIn>stand_treatment_in</AnimationNameIn> <!--TODO tempAnim-->
+                <AnimationNameIdle>stand_treatment_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_treatment_out</AnimationNameOut>
+            </AnimationSetupSitting>
+            <AnimationSetupLying>
+                <AnimationNameIn>stand_treatment_in</AnimationNameIn>
+                <AnimationNameIdle>stand_treatment_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_treatment_out</AnimationNameOut>
+            </AnimationSetupLying>
+
+            <DressLevel>HALF_TOP</DressLevel>
+            <DressLevelAfter>FULL</DressLevelAfter>
+            <BottomProcedure>true</BottomProcedure>
+        </Procedure>
+        <TreatmentType>PROCEDURE</TreatmentType>
+        <Cost>100</Cost>
+        <IconIndex>1419</IconIndex>
+        <DurationHours>1</DurationHours>
+    </GameDBTreatment>
+
+	<!-- Antibiotics -->
+	
+	<GameDBTreatment ID="TRT_SH_ANTIBIOTICS">
+        <AbbreviationLocID>TRT_SH_ANTIBIOTICS_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredDoctorQualificationList>
+				<SkillRef>SKILL_DOC_SPEC_SH</SkillRef>
+				<SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+                <Tag>examinations_basic_equipment</Tag>
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
+        <Cost>50</Cost>
+        <IconIndex>1887</IconIndex>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+
+	<!-- Doctor's Recommendations (SH) -->
+	
+	<GameDBTreatment ID="TRT_SH_DOCTOR'S_RECOMMENDATIONS">
+        <AbbreviationLocID>TRT_SH_DOCTOR'S_RECOMMENDATIONS_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_SPEC_SH</SkillRef>
+				<SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredDoctorQualificationList>
+            
+            <RequiredRoomTags>
+                <Tag>examinations_basic_equipment</Tag>
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptTreatmentPrescription</ProcedureScript>
+
+            <AnimationSetupSitting>
+                <AnimationNameIn>sit_doc_recommendation_in</AnimationNameIn>
+                <AnimationNameIdle>sit_doc_recommendation_idle</AnimationNameIdle>
+                <AnimationNameOut>sit_doc_recommendation_out</AnimationNameOut>
+            </AnimationSetupSitting>
+
+            <DressLevel>FULL</DressLevel>
+            <DressLevelAfter>FULL</DressLevelAfter>
+        </Procedure>
+        <TreatmentType>PRESCRIPTION</TreatmentType>
+        <Cost>50</Cost>
+        <IconIndex>1901</IconIndex>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+
+	<!-- PREP -->
+
+	<GameDBTreatment ID="TRT_SH_PREP">
+		<AbbreviationLocID>TRT_SH_PREP_DESCRIPTION</AbbreviationLocID>
+		<DiscomfortLevel>None</DiscomfortLevel>
+		<Procedure>
+			<StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+			<RequiredDoctorQualificationList>
+				<SkillRef>SKILL_DOC_SPEC_SH</SkillRef>
+				<SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+			</RequiredDoctorQualificationList>
+
+			<RequiredRoomTags>
+				<Tag>examinations_basic_equipment</Tag>
+			</RequiredRoomTags>
+
+			<ProcedureScript>ProcedureScriptTreatmentPrescription</ProcedureScript>
+
+			<AnimationSetupSitting>
+				<AnimationNameIn>sit_doc_recommendation_in</AnimationNameIn>
+				<AnimationNameIdle>sit_doc_recommendation_idle</AnimationNameIdle>
+				<AnimationNameOut>sit_doc_recommendation_out</AnimationNameOut>
+			</AnimationSetupSitting>
+
+			<DressLevel>FULL</DressLevel>
+			<DressLevelAfter>FULL</DressLevelAfter>
+		</Procedure>
+		<TreatmentType>PRESCRIPTION</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
+		<Cost>100</Cost>
+		<CustomIconBigAssetRef>ASSET_MOD_SH_ICON_PREP</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_MOD_SH_ICON_PREP_SMALL</CustomIconSmallAssetRef>
+		<DurationHours>0</DurationHours>
+	</GameDBTreatment>
+
+	<!-- Viagra -->
+
+	<GameDBTreatment ID="TRT_SH_VIAGRA">
+		<AbbreviationLocID>TRT_SH_VIAGRA_DESCRIPTION</AbbreviationLocID>
+		<DiscomfortLevel>None</DiscomfortLevel>
+		<Procedure>
+			<StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+			<RequiredDoctorQualificationList>
+				<SkillRef>SKILL_DOC_SPEC_SH</SkillRef>
+				<SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+			</RequiredDoctorQualificationList>
+
+			<RequiredRoomTags>
+				<Tag>examinations_basic_equipment</Tag>
+			</RequiredRoomTags>
+
+			<ProcedureScript>ProcedureScriptTreatmentPrescription</ProcedureScript>
+
+			<AnimationSetupSitting>
+				<AnimationNameIn>sit_doc_recommendation_in</AnimationNameIn>
+				<AnimationNameIdle>sit_doc_recommendation_idle</AnimationNameIdle>
+				<AnimationNameOut>sit_doc_recommendation_out</AnimationNameOut>
+			</AnimationSetupSitting>
+
+			<DressLevel>FULL</DressLevel>
+			<DressLevelAfter>FULL</DressLevelAfter>
+		</Procedure>
+		<TreatmentType>PRESCRIPTION</TreatmentType>
+		<PharmacyPickup>true</PharmacyPickup>
+		<Cost>100</Cost>
+		<CustomIconBigAssetRef>ASSET_MOD_SH_ICON_VIAGRA</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_MOD_SH_ICON_VIAGRA_SMALL</CustomIconSmallAssetRef>
+		<DurationHours>0</DurationHours>
+	</GameDBTreatment>
+
+</Database>

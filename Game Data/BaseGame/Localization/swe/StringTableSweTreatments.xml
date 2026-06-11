@@ -1,0 +1,305 @@
+<Database>
+    <GameDBStringTable ID="LOC_SWE_TREATMENTS">
+
+        <LanguageCode>swe</LanguageCode>
+        <LanguageNameLocalized>Svenska (PH, Doctor Mode, Hospital Services)</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Christoffer Rydström</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- Treatments -->
+            <GameDBLocalizedString>      <LocID>TRT_A1AT_REPLACEMENT</LocID>                                    <Text>AAT-ersättning</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_A1AT_REPLACEMENT_DESCRIPTION</LocID>                        <Text>Ersättningsbehandling intravenös väg för patienter med brist på alfa 1-antitrypsin. \n\nRum: Mottagning / Diagnostisk enhet hos kirurgiska, Internmedicinska / IVA / Sjuksal / Lätt-IVA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ABDOMINAL_SURGERY</LocID>                                   <Text>Kirurgi, buk</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ABDOMINAL_SURGERY_DESCRIPTION</LocID>                       <Text>Kirurgi i buken. \n\nRum: Operationssal hos Kirurgi + IVA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ACE_INHIBITOR</LocID>                                       <Text>ACE-hämmare</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRT_ACE_INHIBITOR_DESCRIPTION</LocID>                           <Text>Läkemedel som används vid behandling av högt blodtryck. \n\nRum: Alla mottagningar / Diagnostisk enhet hos alla avdelningar undantaget Akutmottag</Text>  </GameDBLocalizedString>
+            <!--GameDBLocalizedString>      <LocID>TRT_ACE_INHIBITOR_DESCRIPTION</LocID>                           <Text>Läkemedel som används vid behandling av högt blodtryck. \n\nRum: Alla mottagningar / Diagnostisk enhet hos alla avdelningar undantaget Allmänmedicinska</Text>  </GameDBLocalizedString-->
+            
+            <GameDBLocalizedString>      <LocID>TRT_ANALGESICS</LocID>                                          <Text>Smärtstillande</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANALGESICS_DESCRIPTION</LocID>                              <Text>Läkemedel, ofta i pillerform, som lindrar smärta. \n\nRum: Alla mottagningar / Diagnostisk enhet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTACIDS</LocID>                                            <Text>Syrabindande</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTACIDS_DESCRIPTION</LocID>                                <Text>Syrabindande medel är ämnen som neutraliserar magsyran. De används för lindring av halsbränna, dyspepsi, eller uppstötningar. \n\nRum: Mottagning / Diagnostisk enhet hos Kirurgiska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTI_INFLAMMATORY_CREAM</LocID>                             <Text>Antiinflammatorisk kräm</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTI_SEIZURES_MEDICINE</LocID>                              <Text>Antiepileptiskt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTI_SEIZURES_MEDICINE_DESCRIPTION</LocID>                  <Text>Läkemedel som behandlar olika typer och former av anfall. \n\nRum: Alla diagnostiska enheter / IVA</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRT_ANTI_ARRHYTMICALS</LocID>                                   <Text>Frekvensreglerande</Text>  </GameDBLocalizedString>
+            <!--GameDBLocalizedString>      <LocID>TRT_ANTI_ARRHYTMICALS</LocID>                                   <Text>Antiarytmika</Text>  </GameDBLocalizedString-->
+
+            <GameDBLocalizedString>      <LocID>TRT_ANTIBIOTIC_OINTMENT</LocID>                                 <Text>Antibakteriell salva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIBIOTIC_OINTMENT_DESCRIPTION</LocID>                     <Text>En särskild salva som appliceras till det infekterade området på huden. \n\nRum: Allmänmottagning / Observation / Mottagning/Diagnostisk enhet hos Neurologiska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIBIOTICS</LocID>                                         <Text>Antibiotika</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIBIOTICS_DESCRIPTION</LocID>                             <Text>Läkemedel i olika former som används för behandling av olika bakterieinfektioner. \n\nRum: Alla mottagningar / Diagnostisk enhet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIDEPRESSIVES</LocID>                                     <Text>Antidepressiva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIDIARRHEALS</LocID>                                      <Text>Antidiarrémedel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIFUNGAL_OINTMENT</LocID>                                 <Text>Svampmedel, salva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIFUNGAL_OINTMENT_DESCRIPTION</LocID>                     <Text>Salva mot svampinfektioner med få bieffekter och långvarig bot. \n\nRum: Allmänmottagning / Observation</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIHEMORRHAGICS</LocID>                                    <Text>Hemostatika</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIHEMORRHAGICS_DESCRIPTION</LocID>                        <Text>Blodstillande läkemedel. \n\nRum: Alla mottagningar / Diagnostisk enhet</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRT_ANTIHISTAMINES</LocID>                                      <Text>Antihistaminer</Text>  </GameDBLocalizedString>
+            <!--GameDBLocalizedString>      <LocID>TRT_ANTIHISTAMINES</LocID>                                      <Text>Antihistamin</Text>  </GameDBLocalizedString-->
+
+            <GameDBLocalizedString>      <LocID>TRT_ANTIHISTAMINES_DESCRIPTION</LocID>                          <Text>Läkemedel för behandling av allergi, som binder histaminreceptorer vilka orsakar allergiska symtomer. \n\nRum: Allmänmottagning / Observation / IVA / Mottagning/Diagnostisk enhet hos Kirurgiska / Internmedicinska / Neurologiska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIHYPERTENSIVES</LocID>                                   <Text>Blodtryckssänkande medel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIHYPERTENSIVES_DESCRIPTION</LocID>                       <Text>Läkemedel som behandlar högt blodtryck. \n\nRum: Allmänmottagning / Observation / IVA / Mottagning/Diagnostisk enhet hos Kirurgiska / Kardiologiska / Neurologiska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTICHOLINERGICS</LocID>                                    <Text>Antikolinergika</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTICHOLINERGICS_DESCRIPTION</LocID>                        <Text>Den vanligaste typen av läkemedel för behandling av abnorm svettning. \n\nRum: Allmänmottagning / Observation / IVA / Mottagning/Diagnostisk enhet hos Internmedicinska / Kardiologiska / Neurologiska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIMYCOTICS</LocID>                                        <Text>Antimykotikum</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIMYCOTICS_DESCRIPTION</LocID>                            <Text>Svampdödande medel som används för behandling av flera olika arter av svampinfektioner. \n\nRum: Allmänmottagning / Observation / IVA / Mottagning/Diagnostisk enhet hos Internmedicinska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIPARASITIC_DRUGS</LocID>                                 <Text>Antiparasitära medel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIPSYCHOTICS</LocID>                                      <Text>Neuroleptika</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIPSYCHOTICS_DESCRIPTION</LocID>                          <Text>Läkemedel som används för behandling av olika psykotiska tillstånd. \n\nRum: IVA / Mottagning/Diagnostisk enhet hos Internmedicinska / Neurologiska</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRT_ANTIPYRETICS</LocID>                                        <Text>Febernedsättande</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIPYRETICS_DESCRIPTION</LocID>                            <Text>Läkemedel som används för att sänka kroppstemperatur orsakad av feber. \n\nRum: Alla mottagningar / Diagnostisk enhet</Text>  </GameDBLocalizedString>
+
+            <!--GameDBLocalizedString>      <LocID>TRT_ANTIPYRETICS</LocID>                                        <Text>Antipyretika</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIPYRETICS_DESCRIPTION</LocID>                            <Text>Febernesättande läkemedel som används för att sänka kroppstemperatur orsakad av feber. \n\nRum: Alla mottagningar / Diagnostisk enhet</Text>  </GameDBLocalizedString-->
+
+            <GameDBLocalizedString>      <LocID>TRT_ANTISEPTICS</LocID>                                         <Text>Antiinfektiva medel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTITAPEWORM_PILLS</LocID>                                  <Text>Maskmedel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTITAPEWORM_PILLS_DESCRIPTION</LocID>                      <Text>Tabletter som används för behandling av bandmaskinfektioner. \n\nRum: Allmänmottagning / Observation</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTITHYROID_MEDICATION</LocID>                              <Text>Tyreostatika</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTITHYROID_MEDICATION_DESCRIPTION</LocID>                  <Text>Läkemedel för behandling av hypertyreos genom att minska bildandet av sköldkörtelhormon. \n\nRum: IVA / Mottagning/Diagnostisk enhet hos Kirurgiska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTITUSICS</LocID>                                          <Text>Hostdämpande</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIVIROTICS</LocID>                                        <Text>Virushämmare</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIVIROTICS_DESCRIPTION</LocID>                            <Text>Preparat som hämmar virusinfektioner. Till skillnad från antibiotika, förstör inte dessa läkemedel patogenen. \n\nRum: Allmänmottagning / Observation / IVA / Mottagning/Diagnostisk enhet hos Kirurgiska / Neurologiska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANXIOLYTICS</LocID>                                         <Text>Ångestdämpande</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ARM_CAST</LocID>                                            <Text>Gipsning, arm</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ARM_ORTHOSIS</LocID>                                        <Text>Ortos, arm</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ARTIFICIAL_VENTILATION</LocID>                              <Text>Respirator</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BAND_LIGATION</LocID>                                       <Text>Bandligatur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BAND_LIGATION_DESCRIPTION</LocID>                           <Text>Endoskopisk behandling som förhindrar blödning hos åderbråcken i matstrupen. \n\nRum: Operationssal</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BANDAGE</LocID>                                             <Text>Förband</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRT_BANDAGE_DESCRIPTION</LocID>                                 <Text>En lång smal tygremsa med ett vitt spektrum av användningsområden. \n\nRum: Alla mottagningar / Diagnostisk enhet / Observation / Akutrum / IVA</Text>  </GameDBLocalizedString>
+            <!--GameDBLocalizedString>      <LocID>TRT_BANDAGE_DESCRIPTION</LocID>                                 <Text>En lång smal tygremsa med ett vitt spektrum av användningsområden. \n\nRum: Alla mottagningar / Diagnostisk enhet / Observation / Akutmottag / IVA</Text>  </GameDBLocalizedString-->
+
+            <GameDBLocalizedString>      <LocID>TRT_B-COMPLEX_SUPPLEMENT</LocID>                                <Text>B-vitamin komplex</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_B-COMPLEX_SUPPLEMENT_DESCRIPTION</LocID>                    <Text>Kosttillskott av B-vitaminer. \n\nRum: Allmänmottagning / Observation / Mottagning/Diagnostisk enhet hos Internmedicinska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BETA_BLOCKERS</LocID>                                       <Text>Betablockerare</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BLOOD_TRANSFUSION</LocID>                                   <Text>Blodtransfusion</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BLOOD_TRANSFUSION_DESCRIPTION</LocID>                       <Text>Överföring av blod på grund av allvarlig blodbrist, sjukdom, eller systemisk skada på blodceller. \n\nRum: Alla mottagningar / Diagnostisk enhet / Sjuksal / Unit</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BONE_STRENGTH_PILLS</LocID>                                 <Text>Benstärkande tabletter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BONE_STRENGTH_PILLS_DESCRIPTION</LocID>                     <Text>Stödjande läkemedel som förbättrar styrkan i patientens skelett. \n\nRum: Allmänmottagning / Observation / Mottagning/Diagnostisk enhet hos Kirurgiska / Internmedicinska / Ortopediska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BOSTON_BRACE</LocID>                                        <Text>Bostonkorsett</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BOSTON_BRACE_DESCRIPTION</LocID>                            <Text>En typ av ortos som ofta används mot skolios. \n\nRum: Mottagning / Diagnostisk enhet hos Ortopediska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BRONCHODILATORS</LocID>                                     <Text>Luftrörsvidgande medel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BRONCHODILATORS_DESCRIPTION</LocID>                         <Text>Medicinering som vidgar bronkerna och bronkiolerna, minskar luftvägsmotståndet, och därmed ökar luftflödet till lungorna. \n\nRum: Alla mottagningar / Diagnostisk enhet / IVA undantaget Kirurgiska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CARDIAC_SURGERY</LocID>                                     <Text>Hjärt-kärlkirurgi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CARDIAC_SURGERY_DESCRIPTION</LocID>                         <Text>Hjärt- och kärlkirurgi används ofta i behandlingen av olika hjärtsjukdomar. \n\nRum: Operationssal hos Kardiologiska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CLOSED_REDUCTION</LocID>                                    <Text>Sluten reposition</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CLOSED_REDUCTION_DESCRIPTION</LocID>                        <Text>En procedur där man försiktigt manövrerar ben och leder tillbaka till rätt position. \n\nRum: Mottagning / Diagnostisk enhet hos Ortopediska.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CLOT_PREVENTING_DRUGS</LocID>                               <Text>Blodförtunnande</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CLOT_PREVENTING_DRUGS_DESCRIPTION</LocID>                   <Text>Läkemedel som förhindrar blodplättar från att fastna i varandra och koagulera. \n\nRum: IVA / Mottagning / Diagnostisk enhet hos Kardiologiska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_COLD_TILING</LocID>                                         <Text>Kylomslag</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_COMPRESSION_WRAPS</LocID>                                   <Text>Tryckförband</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CORTICOSTEROID_INJECTIONS</LocID>                           <Text>Injektion, kortikosteroider</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CORTICOSTEROID_INJECTIONS_DESCRIPTION</LocID>               <Text>Syntetiska steroidhormoner som används mot inflammation, och används mot ett stort antal sjukdomar. \n\nRum: IVA / Mottagning/Diagnostisk enhet hos Ortopediska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CORTICOSTEROIDS</LocID>                                     <Text>Kortikosteroider</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CORTICOSTEROIDS_DESCRIPTION</LocID>                         <Text>Syntetiska steroidhormoner används i behandling av inflammation, och kan användas mot ett flertal olika sjukdomar. \n\nRUm: Alla mottagningar / Diagnostisk enhet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CRANIOTOMY</LocID>                                          <Text>Kraniotomi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CRANIOTOMY_DESCRIPTION</LocID>                              <Text>Neurologisk kirurgi som ger tillträde till hjärnan. \n\nRum: Operationssal hos Neurologiska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_DEFIBRILLATION</LocID>                                      <Text>Defibrillering</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_DESMOPRESSIN</LocID>                                        <Text>Desmopressin</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_DESMOPRESSIN_DESCRIPTION</LocID>                            <Text>Syntetiskt hormon med en anti-urindrivande effekt som kan stimulera faktorer som ligger bakom processen för blodkoagulation, används till patient med genetisk blodkoagulationsstörningar. \n\nRum: Allmänmottagning / Observation / IVA / Mottagning/Diagnostisk enhet hos Internmedicinska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_DIALYSIS</LocID>                                            <Text>Dialys</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_DIALYSIS_DESCRIPTION</LocID>                                <Text>Är en process för att ta bort avfallsprodukterna från cellernas metabolism från blodomloppet, när njurarna inte kan upprätthålla denna funktion. \n\nRum: Diagnostisk enhet hos Kirurgiska \n\nUtrustning: Dialysmaskin</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_DIET_MODIFICATION</LocID>                                   <Text>Dietmodifikation</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_DIET_MODIFICATION_DESCRIPTION</LocID>                       <Text>Råd eller recept angående förändringar i den dagliga kosten, mat, drycker, osv. \n\nRum: Alla mottagningar / Diagnostisk enhet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_DIURETICS</LocID>                                           <Text>Urindrivande</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_DIURETICS_DESCRIPTION</LocID>                               <Text>Preparat som sänker mängden natrium och vatten i kroppen. \n\nRum: IVA / Mottagning/Diagnostisk enhet hos Kirurgiska / Internmedicinska / Kardiologiska / Neurology</Text>  </GameDBLocalizedString>            <GameDBLocalizedString>      <LocID>TRT_DOCTOR'S_RECOMMENDATIONS</LocID>                            <Text>Recommendations</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_DOCTOR'S_RECOMMENDATIONS</LocID>                            <Text>Riktlinjer</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_DOCTOR'S_RECOMMENDATIONS_DESCRIPTION</LocID>                <Text>Läkaren förklarar hur på bästa sätt stödja behandlingen. \n\nRum: Alla mottagningar / Diagnostisk enhet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_EAR_DROPS</LocID>                                           <Text>Örondroppar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_EAR_DROPS_DESCRIPTION</LocID>                               <Text>Läkemedel i vätskeform som behandlar specifika symtomer i örat. Kan innehålla olika verksamma ämnen t.ex. antibiotika. Mottagning / Diagnostisk enhet hos Kirurgiska / Internmedicinska / Neurologiska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ELBOW_PAD</LocID>                                           <Text>Armbågsskydd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ELBOW_PAD_DESCRIPTION</LocID>                               <Text>Vadderad skydd för armbågen. \n\nRum: Mottagning / Diagnostisk enhet hos Ortopediska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_EMERGENCY_CARE</LocID>                                      <Text>Akutvård</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_EMERGENCY_CARE_DESCRIPTION</LocID>                          <Text>Stabilisering genom akut behandling av sårskador och trauma, samt stoppa alla pågående blödningar. \n\nAlla mottagningar / Diagnostisk enhet / IVA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ENDOSCOPIC_CAUTERIZATION</LocID>                            <Text>Endoskopisk kauterisation</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ENDOSCOPIC_CAUTERIZATION_DESCRIPTION</LocID>                <Text>Endoskopisk kauterisation är en kirurgisk metod där en elektrisk krets bränner (kauteriserar) för att öppna eller stänga vävnad. Används ofta till att stoppa blödningar under en operation. \n\nRum: Operationssal hos Kirurgiska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ENDOSCOPIC_SURGERY</LocID>                                  <Text>Endoskopisk kirurgi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ENDOSCOPIC_SURGERY_DESCRIPTION</LocID>                      <Text>En operation med endoskopiska instrument som skapar mindre sår. \n\nRum: Operationssal hos Ortopediska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ETHANOL_DOSES</LocID>                                       <Text>Etanolbehandling</Text>  </GameDBLocalizedString>
+
+             <GameDBLocalizedString>      <LocID>TRT_ETHANOL_DOSES_DESCRIPTION</LocID>                          <Text>Etanol är en väldigt effektiv behandling mot metanolförgiftning. \n\nRum: IVA / Allmänmottagning / Akutrum / Observation / \nMottagning/Diagnostisk enhet / Sjuksal / Lätt-IVA hos Internmedicinska</Text>  </GameDBLocalizedString>
+             <!--GameDBLocalizedString>      <LocID>TRT_ETHANOL_DOSES_DESCRIPTION</LocID>                          <Text>Etanol är en väldigt effektiv behandling mot metanolförgiftning. \n\nRum: IVA / Allmänmottagning / Akutmottag / Observation / \nMottagning/Diagnostisk enhet / Sjuksal / Lätt-IVA hos Internmedicinska</Text>  </GameDBLocalizedString-->
+
+            <GameDBLocalizedString>      <LocID>TRT_EXERCISE</LocID>                                            <Text>Fysisk aktivitet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_EYE_DROPS</LocID>                                           <Text>Ögondroppar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_EYE_SURGERY</LocID>                                         <Text>Ögonkirurgi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_EYE_SURGERY_DESCRIPTION</LocID>                             <Text>En väldigt känslig form av kirurgi till patientens öga. \n\nRum: Operationssal hos Neurologiska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FOOT_CREAM</LocID>                                          <Text>Fotkräm</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FOOT_CREAM_DESCRIPTION</LocID>                              <Text>En kräm, salva, eller lotion som appliceras till patientens fot för behandling av olika symtomer och sjukdomar. \n\nRum: Allmänmottagning / Observation / Mottagning/Diagnostisk enhet hos Ortopediska</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FRACTURE_SURGERY_ARM</LocID>                                <Text>Frakturkirurgi, arm</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FRACTURE_SURGERY_ARM_DESCRIPTION</LocID>                    <Text>Kirurgi där patientens arm justeras och rätas ut, samt reparation av benbrott. \n\nRum: Operationssal hos Ortopediska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FRACTURE_SURGERY_HEAD</LocID>                               <Text>Frakturkirurgi, huvud</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FRACTURE_SURGERY_HEAD_DESCRIPTION</LocID>                   <Text>Kirurgi där patientens skallben justeras och rätas ut, samt reparation av benbrott. \n\nRum: Operationssal hos Ortopediska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FRACTURE_SURGERY_LEG</LocID>                                <Text>Frakturkirurgi, ben</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FRACTURE_SURGERY_LEG_DESCRIPTION</LocID>                    <Text>Kirurgi där patientens ben justeras och rätas ut, samt reparation av benbrott. \n\nRum: Operationssal hos Ortopediska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HIP_REPLACEMENT_SURGERY</LocID>                             <Text>Höftledsplastik</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HIP_REPLACEMENT_SURGERY_DESCRIPTION</LocID>                 <Text>Kirurgi som ersätter en bruten eller skadad höftled mot en konstgjord. \n\nRum: Operationssal hos Ortopediska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HOME_TREATMENT</LocID>                                      <Text>Behandling i hemmet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HOME_TREATMENT_DESCRIPTION</LocID>                          <Text>Patienten kan själv fortsätta behandlingen i sitt hem. Vidare slutenvård ej nödvändig. \n\nRum: Alla mottagningar / Diagnostisk enhet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_HIGH_PRIORITY</LocID>                       <Text>Inläggning, lätt-IVA</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_HIGH_PRIORITY_DESCRIPTION</LocID>           <Text>Patienten läggs in på en lättare intensivvårdsavdelning. \n\nRum: Lätt-IVA</Text>  </GameDBLocalizedString>
+            <!--GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_HIGH_PRIORITY_DESCRIPTION</LocID>           <Text>Patienten läggs in på en lättare IVA-avdelning. \n\nRum: Lätt-IVA</Text>  </GameDBLocalizedString-->
+
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_IVA</LocID>                                 <Text>Inläggning, IVA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_IVA_DESCRIPTION</LocID>                     <Text>Patienten läggs in på intensivvårdsavdelning. \n\nRum: IVA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_NORMAL</LocID>                              <Text>Inläggning, sjuksal </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_NORMAL_DESCRIPTION</LocID>                  <Text>Patienten läggs in på en vanlig sjuksal. \n\nRum: Sjuksal</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_OBSERVATION</LocID>                         <Text>Observation</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_OBSERVATION_DESCRIPTION</LocID>             <Text>Patienten läggs in på observation för eventuella symtomer och sjukdomar. \n\nRum: Observation</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_TRAUMA</LocID>                              <Text>Akut inläggning, akutrum</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_TRAUMA_DESCRIPTION</LocID>                  <Text>Akutrummet tar emot kritiska patienter när de anländer till sjukhuset. \n\nRum: Akutrum</Text>  </GameDBLocalizedString>
+
+            <!--GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_TRAUMA</LocID>                              <Text>Akut inläggning, akutmottag</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_TRAUMA_DESCRIPTION</LocID>                  <Text>Akutmottaget tar emot kritiska patienter när de anländer till sjukhuset. \n\nRum: Akutmottag</Text>  </GameDBLocalizedString-->
+
+            <GameDBLocalizedString>      <LocID>TRT_CHELATION_THERAPY</LocID>                                   <Text>Kelatterapi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CHELATION_THERAPY_DESCRIPTION</LocID>                       <Text>En behandling som renar kroppen från tungmetaller (t.ex. kvicksilver). \n\nRum: IVA / Sjuksal / Lätt-IVA / Mottagning/Diagnostisk enhet hos Internmedicinska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CHOLECALCIFEROL_SUPPLEMENT</LocID>                          <Text>D-vitamin, tillskott</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CHOLECALCIFEROL_SUPPLEMENT_DESCRIPTION</LocID>              <Text>Kosttillskott av vitamin D3. \n\nRum: Mottagning / Diagnostisk enhet hos Ortopediska.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INCISION_AND_DRAINAGE</LocID>                               <Text>Ingrepp och dränage</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INCISION_AND_DRAINAGE_DESCRIPTION</LocID>                   <Text>Ett ingrepp som dränerar en varbildning. \n\nRum: Alla diagnostiska enheter / IVA / Observation / Allmänmottagning</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INDUCED_COMA</LocID>                                        <Text>Konstgjord koma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INDUCED_COMA_DESCRIPTION</LocID>                            <Text>Ett tillvägagångssätt där man via narkosmedel försätter patienten i en kontrollerad koma innan kirurgi eller hos allvarligt sjuka patienter för bättre återhämtning. \n\nRum: Operationssal</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INSULIN_THERAPY</LocID>                                     <Text>Insulinbehandling</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INSULIN_THERAPY_DESCRIPTION</LocID>                         <Text>Medel som sänker nivån av blodsocker. \n\nRum: Mottagning / Diagnostisk enhet hos Internmedicinska.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTERFERON_ALPHA-2B</LocID>                                 <Text>Interferon alfa-2</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTERFERON_ALPHA-2B_DESCRIPTION</LocID>                     <Text>En väldigt specifik form av antiviral terapi som behandlar kronisk hepatit B och C. \n\nRum: Mottagning / Diagnostisk enhet hos Kirurgiska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTRAVENOUS_ANTIBIOTICS</LocID>                             <Text>Antibiotika, intravenöst</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTRAVENOUS_ANTIBIOTICS_DESCRIPTION</LocID>                 <Text>En metod där antibiotika insättes intravenöst för mer effektiv behandling. \n\nRum: Alla mottagningar / sjuksalar / enheter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTRAVENOUS_ATROPINE</LocID>                                <Text>Atropin, intravenöst</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTRAVENOUS_ATROPINE_DESCRIPTION</LocID>                    <Text>Intravenös injicering av atropin för effektivare behandling. \n\nRum: Alla mottagningar / sjuksal / enheter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTRAVENOUS_CALCIUM_GLUCONATE</LocID>                       <Text>Kalciumglukonat, intravenöst</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTRAVENOUS_CALCIUM_GLUCONATE_DESCRIPTION</LocID>           <Text>Intravenöst komplement av kalciumglukonat. \n\nRum: Alla mottagningar / sjuksal / enheter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTRAVENOUS_CORTICOSTEROIDS</LocID>                         <Text>Kortikosteroider, intravenöst</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTRAVENOUS_CORTICOSTEROIDS_DESCRIPTION</LocID>             <Text>Intravenös injicering av binjurebarkshormoner (kortikosteroider). \n\nRum: Alla mottagningar / sjuksal / enheter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTRAVENOUS_IMMUNOGLOBULIN</LocID>                          <Text>Immunglobuliner, intravenöst</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTRAVENOUS_IMMUNOGLOBULIN_DESCRIPTION</LocID>              <Text>En renad blodprodukt innehållandes antikroppar injiceras intravenöst. \n\nRum: IVA / Mottagning/Diagnostisk enhet hos Ortopediska / Neurologiska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTRAVENOUS_INFUSION</LocID>                                <Text>Infusioner, intravenöst</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTRAVENOUS_INFUSION_DESCRIPTION</LocID>                    <Text>En behandling där läkemedel och vätska tillförs blodomloppet intravenöst. \n\nRum: Alla mottagningar / sjuksal / enheter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTRAVENOUS_NUTRITION</LocID>                               <Text>Matning, intravenöst</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTRAVENOUS_NUTRITION_DESCRIPTION</LocID>                   <Text>Intravenös matning, eller parenteral näring, är en behandling där patienten intar näring direkt i blodbanan, och kringgår därmed den normala vägen genom mag-tarm. Den intravenösa näringen inehåller många viktiga näringsämnen och säkerhetställer att kroppen fungerar korrekt och förhindrar undernäring. \n\nRum: Alla mottagningar / sjuksal / enheter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IRON_SUPPLEMENT</LocID>                                     <Text>Järn, tillskott</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IRON_SUPPLEMENT_DESCRIPTION</LocID>                         <Text>Tillskott av järn. \n\nRum: Allmänmottagning / Observation</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_JOINT_SURGERY_ARM</LocID>                                   <Text>Ledkirurgi, arm</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_JOINT_SURGERY_ARM_DESCRIPTION</LocID>                       <Text>Kirurgi hos patientens arm för att laga en led eller rekonstruera ledband. \n\nRum: Operationssal hos Ortopediska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_JOINT_SURGERY_LEG</LocID>                                   <Text>Ledkirurgi, ben</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_JOINT_SURGERY_LEG_DESCRIPTION</LocID>                       <Text>Kirurgi hos patientens ben för att laga en led eller rekonstruera ledband. \n\nRum: Operationssal hos Ortopediska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_LAPAROSCOPIC_SURGERY</LocID>                                <Text>Laparoskopi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_LAPAROSCOPIC_SURGERY_DESCRIPTION</LocID>                    <Text>Laparoskopi är en form av minimalt invasiv titthålskirurgi. Det utförs via ett litet snitt som alla kirurgiska verktyg förs in genom. \n\nRum: Operationssal hos Kirurgiska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_LEG_CAST</LocID>                                            <Text>Gipsning, ben</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_LEG_ORTHOSIS</LocID>                                        <Text>Ortos, ben</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_LIFE_SUPPORT</LocID>                                        <Text>Livsuppehållande</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRT_LIFE_SUPPORT_DESCRIPTION</LocID>                            <Text>Livsuppehållande behandling som assisterar eller upprätthåller vitala funktioner under koma. \n\nRum: IVA / Akutrum</Text>  </GameDBLocalizedString>
+            <!--GameDBLocalizedString>      <LocID>TRT_LIFE_SUPPORT_DESCRIPTION</LocID>                            <Text>Livsuppehållande behandling som assisterar eller upprätthåller vitala funktioner under koma. \n\nRum: IVA / Akutmottag</Text>  </GameDBLocalizedString-->
+
+            <GameDBLocalizedString>      <LocID>TRT_LIVER_CONTROL_MEDICATION</LocID>                            <Text>Lever, medicinering</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_LIVER_CONTROL_MEDICATION_DESCRIPTION</LocID>                <Text>Läkemedel som används vid behandling av olika leversjukdomar. \n\nRum: IVA / Mottagning / Diagnostisk enhet hos Kirurgiska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MUCOLYTICS</LocID>                                          <Text>Slemlösande</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MUCOLYTICS_DESCRIPTION</LocID>                              <Text>Flytande medel som används till att lösa upp och rensa slem från luftvägarna. \n\nRum: Allmänmottagning / Observation / IVA / Mottagning/Diagnostisk enhet hos Internmedicinska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_NASAL_DROPS</LocID>                                         <Text>Näsdroppar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_NASAL_DROPS_DESCRIPTION</LocID>                             <Text>Medel som rensar näshålan och förbättrar det nasala luftflödet. \n\nRum: Allmänmottagning / Observation / Mottagning/Diagnostisk enhet hos Internmedicinska / Kardiologiska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_NITRATES</LocID>                                            <Text>Nitrater</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_NITRATES_DESCRIPTION</LocID>                                <Text>Nitrater vidgar kroppens blodkärl. \n\nRum: Sjuksal / Lätt-IVA / IVA / Mottagning/Diagnostisk enhet hos Kardiologiska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_NSAIDS</LocID>                                              <Text>NSAID-läkemedel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_NSAIDS_DESCRIPTION</LocID>                                  <Text>Icke-steroida antiinflammatoriska medel, eller NSAID, behandlar olika inflammatoriska tillstånd och är smärtstillande. \n\nRum: Alla mottagningar / Diagnostisk enhet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_NUMBING_OINTMENT</LocID>                                    <Text>Bedövande salva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_OSTEOMYELITIS_SURGERY</LocID>                               <Text>Osteomyelit, kirurgi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_OSTEOMYELITIS_SURGERY_DESCRIPTION</LocID>                   <Text>En operation där död benvävnad avlägsnas, dränage och rensning av infekterad benvävnad, och återställande av det lokala blodflödet. \n\nRum: Operationssal hos Ortopediska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_OXYGENOTHERAPY</LocID>                                      <Text>Syrgasterapi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PERICARDIOCENTESIS</LocID>                                  <Text>Perikardpunktion</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PERICARDIOCENTESIS_DESCRIPTION</LocID>                      <Text>Behandling där hjärtsäcken punkteras för att tömmas på överflödig vätska eller blod, och därmed lätta på trycket och återställa funktion hos hjärtat. \n\nRum: Operationssal hos Kardiologiska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PERT</LocID>                                                <Text>PERT</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRT_PERT_DESCRIPTION</LocID>                                    <Text>PERT, pankreasenzymersättningsterapi, innehåller en blandning av enzymer från bukspottkörteln (t.ex. lipaser, amylaser, och proteaser). Dessa enzymer hjälper till vid nedbrytningen av fett, kolhydrater, och proteiner. PERT ges till patienter som inte själva kan producera tillräckligt stora mängder av dessa enzymer. \n\nRum: IVA / Akutrum / Observation / Mottagning/Diagnostisk enhet hos Kirurgiska</Text>  </GameDBLocalizedString>
+            <!--GameDBLocalizedString>      <LocID>TRT_PERT_DESCRIPTION</LocID>                                    <Text>PERT, pankreasenzymersättningsterapi, innehåller en blandning av enzymer från bukspottkörteln (t.ex. lipaser, amylaser, och proteaser). Dessa enzymer hjälper till vid nedbrytningen av fett, kolhydrater, och proteiner. PERT ges till patienter som inte själva kan producera tillräckligt stora mängder av dessa enzymer. \n\nRum: IVA / Akutmottag / Observation / Mottagning/Diagnostisk enhet hos Kirurgiska</Text>  </GameDBLocalizedString-->
+
+            <GameDBLocalizedString>      <LocID>TRT_PLASMAPHERESIS</LocID>                                      <Text>Plasmaferes</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PLASMAPHERESIS_DESCRIPTION</LocID>                          <Text>En metod där patientens plasma avlägsnas för att ersättas av plasma från en frisk donator. \n\nRum: Diagnostisk enhet hos Neurologiska. \n\nUtrustning: Dialysmaskin</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PLATELET_TRANSFUSION</LocID>                                <Text>Trombocyt, transfusion</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PLATELET_TRANSFUSION_DESCRIPTION</LocID>                    <Text>En särskild typ av blodtransfusion där endast blodplättarna (trombocyter) förs över. \n\nRum: Alla mottagningar / Diagnostisk enhet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PRESSURE_BANDAGE</LocID>                                    <Text>Tryckförband</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PRESSURE_BANDAGE_DESCRIPTION</LocID>                        <Text>Förband för större skador eller pulsåderskada som stoppar eller minskar en blödning. \n\nRum: Alla mottagningar / Diagnostisk enhet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PROLIFERATION_THERAPY</LocID>                               <Text>Proloterapi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PROLIFERATION_THERAPY_DESCRIPTION</LocID>                   <Text>Injektion-baserad terapi för kroniska muskuloskeletala tillstånd där specifika celler växer och förökar sig i högre takt. \n\nRum: Mottagning/Diagnostisk enhet hos Ortopediska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PROTON_PUMP_INHIBITORS</LocID>                              <Text>PPI</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PROTON_PUMP_INHIBITORS_DESCRIPTION</LocID>                  <Text>PPI, eller protonpumpshämmare, är läkemedel som minskar produktionen av magsyra för att behandla magsår och uppstötningar. \n\nRum: IVA / Mottagning / Diagnostisk enhet hos Kirurgiska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PULMONARY_SURGERY</LocID>                                   <Text>Lungkirurgi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PULMONARY_SURGERY_DESCRIPTION</LocID>                       <Text>Lungkirurgi är operationer som lagar eller avlägsnar lungvävnad (t.ex. hos lungcancer. \n\nRum: Operationssal hos Internmedicinska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PURGATIVES</LocID>                                          <Text>Laxermedel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PURGATIVES_DESCRIPTION</LocID>                              <Text>Laxermedel är läkemedel som i huvudsak används till behandling av förstoppning genom att öka avsöndringen av vatten i tarmen, men även genom att öka dess muskelrörelser. \n\nRum: Allmänmottagning / Observation / Mottagning/Diagnostisk enhet hos Kirurgiska / Internmedicinska/ Neurologiska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_RABIES_IMMUNE_GLOBULIN</LocID>                              <Text>Rabies-\nimmunglobulin</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_RABIES_IMMUNE_GLOBULIN_DESCRIPTION</LocID>                  <Text>En snabbverkande injektion som förhindrar att rabiesviruset infekterar patienten. Ges ofta till patienter som har blivit bitna av djur som kan bära på rabies. \n\nRum: IVA / Mottagning / Diagnostisk enhet hos Neurologiska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_REHABILITATION</LocID>                                      <Text>EMS</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_REHABILITATION_DESCRIPTION</LocID>                          <Text>Elektrisk muskelstimulering är en behandling som används vid olika skador eller sjukdomar som påverkar det muskuloskeletala systemet. \n\nRum: Diagnostisk enhet hos Ortopediska. \n\nUtrustning: EMG</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_REHYDRATION</LocID>                                         <Text>Rehydrering</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_REHYDRATION_DESCRIPTION</LocID>                             <Text>Patienten ordineras vätska för att återställa kroppens vätskebalans och elektrolyter i blodomloppet. Ges för att upprätthålla lämpligt blodtryck och organfunktion. \n\nRum: Alla mottagningar / diagnostisk enheter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_RENAL_VASCULAR_SURGERY</LocID>                              <Text>Renovaskulär kirurgi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_RENAL_VASCULAR_SURGERY_DESCRIPTION</LocID>                  <Text>Kirurgi hos njurens (reno-) blodkärl (-vaskulär). \n\nRum: Operationssal hos Kardiologiska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_REPLANTATION</LocID>                                        <Text>Replantation</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_REPLANTATION_DESCRIPTION</LocID>                            <Text>Kirurgisk återfästning av en kroppsdel (t.ex. ett finger eller en fot). \n\nRum: Mottagning/Diagnostisk enhet hos Ortopediska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_REST</LocID>                                                <Text>Vila</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_REST_DESCRIPTION</LocID>                                    <Text>Ordination om vila. Dvs. frånvaro av fysisk aktivitet, vilket kan gynna patienten. \n\nRum: Alla mottagningar / diagnostisk enheter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_RICE</LocID>                                                <Text>RICE</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_RICE_DESCRIPTION</LocID>                                    <Text>Metod för behandling av lemmar som drabbats av stukning eller benbrott. Initialförkortning av engelskans "Rest, Ice, Compression, Elevation" - Vila, Kyla, Kompression, Högläge. \n\nRum: Alla mottagningar / Diagnostisk enheter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SALINE_NASAL_SPRAY</LocID>                                  <Text>Nasal saltlösning</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SALINE_NASAL_SPRAY_DESCRIPTION</LocID>                      <Text>Ett nässpray med koksaltlösning som sköljer näshålan och ökar det nasala luftflödet. \n\nRum: Allmänmottagning / Observation</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SHOCK_WAVE_LITHOTRIPSY</LocID>                              <Text>Litotripsi, stötvåg</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SHOCK_WAVE_LITHOTRIPSY_DESCRIPTION</LocID>                  <Text>En vanlig behandlingsmetod som bryter sönder stenar i urinledaren (kopplingen mellan njuren och urinblåsan). Det är ett alternativ utan kirurgiska ingrepp som använder stötvågor av ultraljud till att bryta ner stenarna i mindre delar, som sen obehindrat kan passera genom hela urinsystemet. \n\nRum: Sonografisk enhet hos Kirurgiska \n\nUtrustning: Stötvågsbehandling</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SLEEPING_DRUGS</LocID>                                      <Text>Sömnmedel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SLEEPING_DRUGS_DESCRIPTION</LocID>                          <Text>Läkemedel för patienter med insomningsproblem. \n\nRum: Alla mottagningar / diagnostisk enheter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SPASMOLYTICS</LocID>                                        <Text>Kramplösande medel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SPASMOLYTICS_DESCRIPTION</LocID>                            <Text>Medel i flytande eller tablettform som hämmar olika typer av kramper och spasmer. \n\nRum: Alla mottagningar / diagnostisk enheter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_STAPEDECTOMY</LocID>                                        <Text>Stapeskirurgi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_STAPEDECTOMY_DESCRIPTION</LocID>                            <Text>Kirurgi där det minsta benet i mellanörat, stigbygeln (stapes), tas bort och byts ut mot en protes. \n\nRum: Operationssal hos Internmedicinska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_STEROID_TOPICAL_CREAM</LocID>                               <Text>Kortikosteroid, kräm</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_STEROID_TOPICAL_CREAM_DESCRIPTION</LocID>                   <Text>En salva, lotion, eller kräm som innehåller kortikosteroider (ett stresshormon) som används vid lokal behandling av olika sjukdomar. \n\nRum: Alla mottagningar / diagnostisk enheter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_STOMACHICS</LocID>                                          <Text>Magstimulerande</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_STOMACHICS_DESCRIPTION</LocID>                              <Text>Medel som stärker och stimulerar magen och har ett brett användningsområde. \n\nRum: Alla mottagningar / Diagnostisk enhet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SYNTHETIC_THYROID_HORMONES</LocID>                          <Text>Syntetiskt T4+T3</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SYNTHETIC_THYROID_HORMONES_DESCRIPTION</LocID>              <Text>Syntetiskt sköldkörtelhormon tyroxin (T4) och trijodtyronin (T3). Används för behandling av hypotyreos. De är syntetiska och ej utvunnet från djurs sköldkörtlar och har färre biverkningar. \n\nRum: IVA / Mottagning / Diagnostisk enhet hos Kirurgiska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_THROMBOLYTICS</LocID>                                       <Text>Trombolys\n-behandling</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRT_THROMBOLYTICS_DESCRIPTION</LocID>                           <Text>Särskild medicinering som löser upp och bekämpar blodproppar, som begränsar blodflödet till kroppen organ. \n\nRum: IVA / Akutrum Mottagning / Diagnostisk enhet hos Kardiologiska</Text>  </GameDBLocalizedString>
+            <!--GameDBLocalizedString>      <LocID>TRT_THROMBOLYTICS_DESCRIPTION</LocID>                           <Text>Särskild medicinering som löser upp och bekämpar blodproppar, som begränsar blodflödet till kroppen organ. \n\nRum: IVA / Akutmottag Mottagning / Diagnostisk enhet hos Kardiologiska</Text>  </GameDBLocalizedString-->
+
+            <GameDBLocalizedString>      <LocID>TRT_TPA</LocID>                                                 <Text>PA, intravenöst</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TPA_DESCRIPTION</LocID>                                     <Text>Intravenös plasminogenaktivator stödjer återhämtningen efter ett slaganfall i hjärnan. \n\nRum: IVA / Mottagning / Diagnostisk enhet hos Kardiologiska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRANQUILIZERS</LocID>                                       <Text>Lugnande medel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRANQUILIZERS_DESCRIPTION</LocID>                           <Text>Medel som lindrar ångest, fruktan, spändhet, rastlöshet, och andra psykiska störningar. \n\nRum: Alla mottagningar / diagnostiska enheter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRIPLE_THERAPY_TREATMENT</LocID>                            <Text>Trippelbehandling</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRIPLE_THERAPY_TREATMENT_DESCRIPTION</LocID>                <Text>Särskild behandling med tre typer av antibiotika för patienter som lider av helicobacter pylori eller sår hos tolvfingertarmen. \n\nRum: IVA / Mottagning/Diagnostisk enhet hos Kirurgiska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_VASODILATORS</LocID>                                        <Text>Kärlvidgande</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_VASODILATORS_DESCRIPTION</LocID>                            <Text>Medel som utvidgar blodkärlen. \n\nRum: Allmänmottagning / Observation / IVA / Mottagning/Diagnostisk enhet hos Kardiologiska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_VITAMIN_SUPPLEMENTATION</LocID>                             <Text>Vitamintillskott</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_VITAMIN_SUPPLEMENTATION_DESCRIPTION</LocID>                 <Text>Tillskott av olika vitaminer och mineraler för att återställa balansen i kroppen. \n\nRum: Alla mottagningar / Diagnostisk enhet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_VP_SHUNTING</LocID>                                         <Text>VP-shunt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_VP_SHUNTING_DESCRIPTION</LocID>                             <Text>Ventrikuloperitoneal shunt är en kirurgisk procedur som behandlar intrakraniellt tryck. \n\nRum: Operationssal hos Neurologiska</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_WOUND_CLOSURE</LocID>                                       <Text>Sårstängning</Text>  </GameDBLocalizedString>
+
+            <!-- ============= NEW, NEED TRANSLATING ================== -->
+            <!-- Similar as TRT_FRACTURE_SURGERY_HEAD -->
+            <GameDBLocalizedString>      <LocID>TRT_FRACTURE_SURGERY_HEAD_OT</LocID>                            <Text>Frakturkirurgi, huvud</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>CONTROL_PROCEDURE_IVA_STABILIZATION</LocID>                     <Text>Stabilisering IVA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CONTROL_PROCEDURE_TRAUMA_STABILIZATION</LocID>                  <Text>Stabilisering Trauma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CONTROL_PROCEDURE_COLLAPSE_LOW</LocID>                          <Text>Första hjälpen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CONTROL_PROCEDURE_COLLAPSE_MEDIUM</LocID>                       <Text>Första hjälpen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>CONTROL_PROCEDURE_COLLAPSE_HIGH</LocID>                         <Text>Första hjälpen</Text>  </GameDBLocalizedString>
+            
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

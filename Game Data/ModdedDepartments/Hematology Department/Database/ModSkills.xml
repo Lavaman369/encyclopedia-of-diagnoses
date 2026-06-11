@@ -1,0 +1,14 @@
+<Database>
+
+<GameDBSkill ID="SKILL_DOC_SPEC_HEM">
+        <AbbreviationLocID>SKILL_DOC_SPEC_HEM_DESC</AbbreviationLocID>
+        <ParentSkill>SKILL_DOC_QUALIF_GENERAL_MEDICINE</ParentSkill>	
+        <ExtraLevelingPercent>70</ExtraLevelingPercent>
+		<IconIndex>430</IconIndex>
+
+    <CustomIconAssetRef>ASSET_MOD_ICON_HEM</CustomIconAssetRef>
+    <CustomIconLightBackgroundAssetRef>ASSET_MOD_ICON_HEM</CustomIconLightBackgroundAssetRef>
+    
+</GameDBSkill>
+
+</Database>

@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <GameDBStringTable ID="LOC_RU_SYMPTOMS">
+
+        <LanguageCode>ru</LanguageCode>
+        <LanguageNameLocalized>Русский</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Alexandr 'Makbeth' Baranov</Name>
+            <Name>Mash</Name>
+            <Name>Dmitry 'DrD_AVEL' Korobkin</Name>
+            <Name>Todos</Name>
+            <Name>Svensken</Name>
+            <Name>Ost22</Name>
+            <Name>Mikhail 'Obsolete' Tsukanov</Name>
+            <Name>adigyran</Name>
+            <Name>Angel Bingo</Name>
+            <Name>AdmiralMaxwell</Name>
+            <Name>Alexander Z.</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- Symptoms-->
+            <GameDBLocalizedString>      <LocID>SYM_A1AT_DEFICIENCY</LocID>                                 <Text>Дефицит альфа-1-антитрипсина</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_A1AT_DEFICIENCY_DESCRIPTION</LocID>                     <Text>Альфа-1-антитрипсин играет важную роль в подавлении повреждения, потенциально нанесенных иммунной системой. Пациенты с дефицитом альфа-1-антитрипсина часто испытывают прогрессирующую деградацию тканей легких. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ABDOMINAL_CRAMPS</LocID>                                <Text>Спазмы в животе</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ABDOMINAL_CRAMPS_DESCRIPTION</LocID>                    <Text>Интенсивные судороги и спазмы в области живота. Гладкая мускулатура продолжительно сокращается, вызывая сильные схватывающие боли в животе.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ABDOMINAL_GUARDING</LocID>                              <Text>Напряжение мышц брюшной стенки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ABDOMINAL_GUARDING_DESCRIPTION</LocID>                  <Text>Напряжение мышц брюшной стенки (защиты брюшины) в ответ на оказываемое давление в брюшной области.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ABDOMINAL_INJURY</LocID>                                <Text>Травма брюшной области</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ABDOMINAL_INJURY_DESCRIPTION</LocID>                    <Text>Пациент получил травму в брюшной области.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ABDOMINAL_PAIN</LocID>                                  <Text>Боли в области живота</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ABDOMINAL_PAIN_DESCRIPTION</LocID>                      <Text>Пациент ощущает интенсивную боль в области живота.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ABDOMINAL_SWELLING</LocID>                              <Text>Вздутие живота</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ABDOMINAL_SWELLING_DESCRIPTION</LocID>                  <Text>Расширение области живота, сопровождающееся дискомфортом и болями.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ACIDOSIS</LocID>                                        <Text>Ацидоз</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ACIDOSIS_DESCRIPTION</LocID>                            <Text>Кровь пациента высокой кислотности, с уровнем pH ниже 7,35.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_AMNESIA_ABOUT_TRAUMA</LocID>                            <Text>Посттравматическая амнезия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_AMNESIA_ABOUT_TRAUMA_DESCRIPTION</LocID>                <Text>Пациент дезориентирован и не способен запомнить события, которые произошли во время или сразу после перенесенной травмы мозга.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ANEMIA</LocID>                                          <Text>Анемия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ANEMIA_DESCRIPTION</LocID>                              <Text>Кровь пациента содержит малое количество здоровых красных кровяных телец.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ANKLE_BRUISE</LocID>                                    <Text>Ушиб лодыжки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ANKLE_BRUISE_DESCRIPTION</LocID>                        <Text>Гематома возникает из-за капиллярного повреждения во время травмы.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ANKLE_INJURY</LocID>                                    <Text>Травма лодыжки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ANKLE_INJURY_DESCRIPTION</LocID>                        <Text>Пациент получил травму лодыжки.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ANXIETY</LocID>                                         <Text>Беспокойство</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ANXIETY_DESCRIPTION</LocID>                             <Text>Пациент проявляет сильное беспокойство и нервозность.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ASTASIS</LocID>                                         <Text>Астазия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ASTASIS_DESCRIPTION</LocID>                             <Text>Неспособность стоять или ходить из-за моторных нарушений.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ATHEROSCLEROSIS</LocID>                                 <Text>Атеросклероз</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ATHEROSCLEROSIS_DESCRIPTION</LocID>                     <Text>Сужение артерий вследствие развившегося заболевания, нарушающего кровообращение.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_AZOTEMIA</LocID>                                        <Text>Азотемия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_AZOTEMIA_DESCRIPTION</LocID>                            <Text>Аномально высокие уровни содержания соединений азота в крови.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BACK_INJURY</LocID>                                     <Text>Травма спины</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BACK_INJURY_DESCRIPTION</LocID>                         <Text>Пациент получил травму спины.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BACK_PAIN</LocID>                                       <Text>Боли в спине</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BACK_PAIN_DESCRIPTION</LocID>                           <Text>Пациент испытывает интенсивную боль в спине.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BACTEREMIA</LocID>                                      <Text>Бактериемия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BACTEREMIA_DESCRIPTION</LocID>                          <Text>Наличие бактерий в крови.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BAD_BREATH</LocID>                                      <Text>Запах изо рта</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BAD_BREATH_DESCRIPTION</LocID>                          <Text>Также известен как галитоз. Неприятный запах изо рта.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLOATING</LocID>                                        <Text>Метеоризм</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLOATING_DESCRIPTION</LocID>                            <Text>Аномальное скопление газов или жидкостей в ЖКТ.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLOOD_LOSS</LocID>                                      <Text>Потеря крови</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLOOD_LOSS_DESCRIPTION</LocID>                          <Text>Гиповолемия - это потеря значительного объема крови.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLURRED_VISION</LocID>                                  <Text>Затуманенное зрение</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLURRED_VISION_DESCRIPTION</LocID>                      <Text>Недостаток остроты зрения.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BONE_FRACTURE_VISIBLE</LocID>                           <Text>Обнаженная кость</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BONE_FRACTURE_VISIBLE_DESCRIPTION</LocID>               <Text>Возникает при открытом переломе кости (перелом кости с разрывом кожных покровов и выходом кости через рану наружу).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRADYCARDIA</LocID>                                     <Text>Брадикардия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRADYCARDIA_DESCRIPTION</LocID>                         <Text>Частота сердечных сокращений в покое менее 60 ударов в минуту. Нормальный ритм в покое - от 60 и до 100 ударов.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BREATHING_DIFFICULTIES</LocID>                          <Text>Проблемы с дыханием</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BREATHING_DIFFICULTIES_DESCRIPTION</LocID>              <Text>У пациента есть неопределённые проблемы с дыханием.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRUISE</LocID>                                          <Text>Ушиб</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRUISE_DESCRIPTION</LocID>                              <Text>Ушиб возникает из-за повреждения капилляров во время травмы</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BURNING_EYE</LocID>                                     <Text>Жжение глаз</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BURNING_EYE_DESCRIPTION</LocID>                         <Text>Пациент ощущает жжение в глазах.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BUTTERFLY_RASH</LocID>                                  <Text>Скуловая сыпь</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BUTTERFLY_RASH_DESCRIPTION</LocID>                      <Text>Очень необычная сыпь на лице в форме бабочки.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CARDIOMEGALY</LocID>                                    <Text>Кардиомегалия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CARDIOMEGALY_DESCRIPTION</LocID>                        <Text>Аномальное увеличение сердца.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CEREBROSPINAL_FLUID_LEAKAGE</LocID>                     <Text>Протекание спинномозговой жидкости</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CEREBROSPINAL_FLUID_LEAKAGE_DESCRIPTION</LocID>         <Text>У пациента из носа или уха вытекает спинномозговая жидкость из-за дефекта черепа.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CLOUDY_URINE</LocID>                                    <Text>Мутная моча</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CLOUDY_URINE_DESCRIPTION</LocID>                        <Text>Прозрачность мочи пациента снижена, она выглядит мутной.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COMA</LocID>                                            <Text>Кома</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COMA_DESCRIPTION</LocID>                                <Text>Пациент находится в бессознательном состоянии и не может быть приведён в сознание.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CONFUSION</LocID>                                       <Text>Замешательство</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CONFUSION_DESCRIPTION</LocID>                           <Text>Пациент находится в замешательстве. Он растерян и дезориентирован.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CONSTIPATION</LocID>                                    <Text>Запор</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CONSTIPATION_DESCRIPTION</LocID>                        <Text>Пациент не может опорожнить кишечник.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CRAMPS</LocID>                                          <Text>Судороги</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CRAMPS_DESCRIPTION</LocID>                              <Text>У пациента наблюдаются внезапные конвульсивные, непреднамеренные сокращения мышц, сопровождаемые резкой и ноющей болью.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CREATINE_KINASE_HIGH</LocID>                            <Text>Повышенный уровень креатинкиназы</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CREATINE_KINASE_HIGH_DESCRIPTION</LocID>                <Text>У пациента повышенный уровень креатинкиназы (КК) во всех тканях, особенно в мышцах. Высокий уровень КК указывает на повреждения мышц.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CRP_HIGH</LocID>                                        <Text>Повышенный СРБ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CRP_HIGH_DESCRIPTION</LocID>                            <Text>У пациента высокий уровень С-реактивного белка в крови (С-РБ), это ответная реакция на инфекцию печени.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CRUMBLY_NAIL</LocID>                                    <Text>Ломкость ногтей</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CRUMBLY_NAIL_DESCRIPTION</LocID>                        <Text>Ногти пациента имеют ломкий, нездоровый вид. Они часто обламываются, расслаиваются, растрескиваются, представляют трудности с отращиванием.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CYANOSIS</LocID>                                        <Text>Цианоз</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CYANOSIS_DESCRIPTION</LocID>                            <Text>Кожа и губы пациента имеют синюшный цвет.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DARK_URINE</LocID>                                      <Text>Темная моча</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DARK_URINE_DESCRIPTION</LocID>                          <Text>Моча пациента имеет тёмный коричнево-бурый цвет.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DEGLOVED_SKIN</LocID>                                   <Text>Рваная рана</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DEGLOVED_SKIN_DESCRIPTION</LocID>                       <Text>Обширные участки кожи оторваны от основной ткани.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DEHYDRATION</LocID>                                     <Text>Обезвоживание</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DEHYDRATION_DESCRIPTION</LocID>                         <Text>У пациента нехватка воды в организме.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DEPRESSION</LocID>                                      <Text>Депрессия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DEPRESSION_DESCRIPTION</LocID>                          <Text>Пациент находится в состоянии отчаяния и уныния.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DIARRHEA</LocID>                                        <Text>Диарея</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DIARRHEA_DESCRIPTION</LocID>                            <Text>У пациента происходит частое опорожнение с фекалиями в жидкой форме.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DIMINISHED_HEARING</LocID>                              <Text>Снижение слуха</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DIMINISHED_HEARING_DESCRIPTION</LocID>                  <Text>У пациента нарушен слух. Имеет место частичное (тугоухость) снижение способности воспринимать звуки.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DIZZINESS</LocID>                                       <Text>Головокружение</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DIZZINESS_DESCRIPTION</LocID>                           <Text>У пациента головокружение.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DRY_COUGH</LocID>                                       <Text>Сухой кашель</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DRY_COUGH_DESCRIPTION</LocID>                           <Text>Пациент кашляет без мокроты или слизи.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DYSPHAGIA</LocID>                                       <Text>Дисфагия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DYSPHAGIA_DESCRIPTION</LocID>                           <Text>Пациент испытывает трудности или дискомфорт при глотании.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DYSPNEA</LocID>                                         <Text>Одышка</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DYSPNEA_DESCRIPTION</LocID>                             <Text>Внезапные затруднения дыхания, известные также как одышка.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DYSURIA</LocID>                                         <Text>Дизурия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DYSURIA_DESCRIPTION</LocID>                             <Text>Пациент жалуется нарушение мочеиспускания и чувство жжения при мочеиспускании.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EAR_FLUID_DRAINAGE</LocID>                              <Text>Выделения из уха</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EAR_FLUID_DRAINAGE_DESCRIPTION</LocID>                  <Text>У пациента из уха сочится неопределённая жидкость.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EDEMA</LocID>                                           <Text>Отек</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EDEMA_DESCRIPTION</LocID>                               <Text>У пациента выявлены части тела, которые отекли от избытка водянистой жидкости, собирающейся в органах и внеклеточных тканевых пространствах организма.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ELBOW_PAIN</LocID>                                      <Text>Боль в локте</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ELBOW_PAIN_DESCRIPTION</LocID>                          <Text>Пациент жалуется на боли в области локтя.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ELBOW_STIFFNESS</LocID>                                 <Text>Ригидность локтя</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ELBOW_STIFFNESS_DESCRIPTION</LocID>                     <Text>Локоть сустава пациента имеет ограниченный диапазон движения.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EXCESSIVE_BURPING</LocID>                               <Text>Чрезмерная отрыжка</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EXCESSIVE_BURPING_DESCRIPTION</LocID>                   <Text>Пациент жалуется на чрезмерное выделение газа из своего желудка (отрыжка).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EXHAUSTION</LocID>                                      <Text>Истощение</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EXHAUSTION_DESCRIPTION</LocID>                          <Text>У пациента состояние крайней физической или умственной усталости.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EYE_PAIN</LocID>                                        <Text>Глазная боль</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EYE_PAIN_DESCRIPTION</LocID>                            <Text>Пациент жалуется на боль в глазах.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FAT_MALABSORPTION</LocID>                               <Text>Нарушение всасывания жира</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FAT_MALABSORPTION_DESCRIPTION</LocID>                   <Text>Жир плохо всасывается из тонкой кишки.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FAINTING</LocID>                                        <Text>Обморок</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FAINTING_DESCRIPTION</LocID>                            <Text>Обморок - это временная потеря сознания.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FATIGUE</LocID>                                         <Text>Утомление</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FATIGUE_DESCRIPTION</LocID>                             <Text>Прогрессивная усталость от психических, физических нагрузок или болезней.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FEVER</LocID>                                           <Text>Жар</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FEVER_DESCRIPTION</LocID>                               <Text>Температура тела пациента между 37.5 и 39.5 °C.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FINGER_NUMBNESS</LocID>                                 <Text>Онемение пальца</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FINGER_NUMBNESS_DESCRIPTION</LocID>                     <Text>Пациент жалуется на онемение в одном или нескольких пальцах.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FLATULENCE</LocID>                                      <Text>Вздутие живота</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FLATULENCE_DESCRIPTION</LocID>                          <Text>Пациент жалуется на чрезмерные выделения газа из кишечника.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FREQUENT_FALLING</LocID>                                <Text>Частые падения</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FREQUENT_FALLING_DESCRIPTION</LocID>                    <Text>Пациент имеет тенденцию часто падать.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FREQUENT_URINATION</LocID>                              <Text>Частое мочеиспускание</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FREQUENT_URINATION_DESCRIPTION</LocID>                  <Text>Частые призывы к мочеиспусканию с небольшим количеством мочи.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_GALLBLADDER_RUPTURE</LocID>                             <Text>Разрыв желчного пузыря</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_GALLBLADDER_RUPTURE_DESCRIPTION</LocID>                 <Text>Желчный пузырь пациента разорвался!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HAIR_LOSS</LocID>                                       <Text>Потеря волос</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HAIR_LOSS_DESCRIPTION</LocID>                           <Text>Выпадение волос, также известное как алопеция, является частичным или полным отсутствием волос в областях тела, на которых они обычно присутствуют.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HALLUCINATION</LocID>                                   <Text>Галлюцинации</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HALLUCINATION_DESCRIPTION</LocID>                       <Text>Восприятие несуществующих объектов и явлений сенсорной системой человека при отсутствии внешнего раздражителя.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HAND_PAIN</LocID>                                       <Text>Боль в руке</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HAND_PAIN_DESCRIPTION</LocID>                           <Text>Пациент жалуется на боли в руке.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HAND_WEAKNESS</LocID>                                   <Text>Слабость рук</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HAND_WEAKNESS_DESCRIPTION</LocID>                       <Text>Заметная слабость мышц руки, что приводит к снижению силовых показателей руки.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HARMFUL_ANTIBODIES</LocID>                              <Text>Аутоиммунные антитела</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HARMFUL_ANTIBODIES_DESCRIPTION</LocID>                  <Text>Были обнаружены специфические аутоиммунные антитела. Эти антитела заставляют собственную иммунную систему пациента атаковать свое тело.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEAD_TRAUMA</LocID>                                     <Text>Травма головы</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEAD_TRAUMA_DESCRIPTION</LocID>                         <Text>Пациент получил травму головы.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEADACHE</LocID>                                        <Text>Головная боль</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEADACHE_DESCRIPTION</LocID>                            <Text>Пациент жалуется на головные боли.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEARING_DIFFICULTIES</LocID>                            <Text>Нарушения слуха</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEARING_DIFFICULTIES_DESCRIPTION</LocID>                <Text>Трудности с восприятием звуков, ослабление слуха и звон в ушах.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEART_FAILURE</LocID>                                   <Text>Сердечная недостаточность</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEART_FAILURE_DESCRIPTION</LocID>                       <Text>Сердце не в состоянии поддерживать достаточный кровоток для удовлетворения потребностей организма.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEAT_CRAMPS</LocID>                                     <Text>Лихорадочные судороги</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEAT_CRAMPS_DESCRIPTION</LocID>                         <Text>Тело пациента охвачено судорогами из-за очень высокой температуры тела.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMATOCHEZIA</LocID>                                    <Text>Гематохезия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMATOCHEZIA_DESCRIPTION</LocID>                        <Text>Гематохезия - это присутствие крови в стуле.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMATURIA</LocID>                                       <Text>Гематурия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMATURIA_DESCRIPTION</LocID>                           <Text>Гематурия - это присутствие крови в моче.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMIPARESIS</LocID>                                     <Text>Гемипарез</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMIPARESIS_DESCRIPTION</LocID>                         <Text>Гемипарез это ослабление мышц одной стороны тела.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMOGLOBIN_LOW</LocID>                                  <Text>Низкий гемоглобин</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMOGLOBIN_LOW_DESCRIPTION</LocID>                      <Text>У пациента низкий уровень гемоглобина в крови.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMOPTYSIS</LocID>                                      <Text>Кровохарканье</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMOPTYSIS_DESCRIPTION</LocID>                          <Text>Кровохарканье, или гемоптизис, - откашливание мокроты с кровью из гортани, бронхов или лёгких.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMORRHAGE</LocID>                                      <Text>Кровоизлияние</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMORRHAGE_DESCRIPTION</LocID>                          <Text>Кровоизлияние, также известное как кровотечение - это выход крови из разорванного кровеносного сосуда.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HOARSENESS</LocID>                                      <Text>Охриплость</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HOARSENESS_DESCRIPTION</LocID>                          <Text>Голос пациента звучит хриплым, осиплым и напряженным. Утрата чистоты звучания голоса происходит вследствие неполного смыкания голосовых складок (связок).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HUNGER</LocID>                                          <Text>Голод</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HUNGER_DESCRIPTION</LocID>                              <Text>Пациент голоден.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPERACIDITY</LocID>                                    <Text>Повышенная кислотность</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPERACIDITY_DESCRIPTION</LocID>                        <Text>Повышенная кислотность - избыточное выделение желудком желудочной кислоты.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPERLIPIDEMIA</LocID>                                  <Text>Гиперлипидемия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPERLIPIDEMIA_DESCRIPTION</LocID>                      <Text>Гиперлипидемия - это повышенный уровень липидов в крови.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPERPYREXIA</LocID>                                    <Text>Сильный жар</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPERPYREXIA_DESCRIPTION</LocID>                        <Text>Температура тела пациента выше 39.5 °C.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPERTENSION</LocID>                                    <Text>Гипертензия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPERTENSION_DESCRIPTION</LocID>                        <Text>Артериальная гипертензия, также известная как высокое кровяное давление, это стойкое повышение артериального давления от 140/90 мм рт.ст. и выше.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOCALCAEMIA</LocID>                                   <Text>Гипокальциемия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOCALCAEMIA_DESCRIPTION</LocID>                       <Text>Гипокальциемия - значительное понижение содержания общего и ионизированного кальция в плазме крови.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOTENSION</LocID>                                     <Text>Гипотензия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOTENSION_DESCRIPTION</LocID>                         <Text>Артериальная гипотензия - снижение артериального давления ниже 90/60 мм рт.ст. или более, чем на 20 % от обычных значений среднего артериального давления пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOVOLEMIC_SHOCK</LocID>                               <Text>Гиповолемич. шок</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOVOLEMIC_SHOCK_DESCRIPTION</LocID>                   <Text>Гиповолемический шок - неотложное патологическое состояние, обусловленное быстрым и значительным уменьшением объёма циркулирующей крови. При этом артериальное давление резко падает, не обеспечивая нормальное кровоснабжение главных внутренних органов пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEST_PAIN</LocID>                                      <Text>Боли в груди</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEST_PAIN_DESCRIPTION</LocID>                          <Text>Пациент жалуется на боли, локализованные в области грудной клетки.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHILLS</LocID>                                          <Text>Озноб</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHILLS_DESCRIPTION</LocID>                              <Text>Озноб - болезненное ощущение холода при высокой температуре тела, сопровождающееся мышечной дрожью (жевательных мышц, затем мышц плечевого пояса, спины и конечностей) и спазмом кожных мышц («гусиная кожа»).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INABILITY_TO_MOVE_THE_JOINT</LocID>                     <Text>Малоподвижность суставов</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INABILITY_TO_MOVE_THE_JOINT_DESCRIPTION</LocID>         <Text>Ограниченный диапазон движения или невозможность движения определенного сустава.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INCREASED_ICP</LocID>                                   <Text>Повышение ВЧД</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INCREASED_ICP_DESCRIPTION</LocID>                       <Text>Внутричерепная гипертензия - повышение давления в полости черепа. Возникает в результате увеличения объёма внутричерепного содержимого: спинномозговой жидкости (ликвора), тканевой жидкости (отёк мозга), крови (венозный застой) или появления инородной ткани (например, при опухоли мозга).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INDIGESTION</LocID>                                     <Text>Диспепсия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INDIGESTION_DESCRIPTION</LocID>                         <Text>Диспепсия (несварение)- это совокупность симптомов, возникающих при нарушении процессов переваривания пищи в желудке и замедлении его опорожнения. Пациент жалуется на тяжесть, переполнение, раннее насыщение и болезненный дискомфорт в верхней части живота.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INFECTED_WOUND</LocID>                                  <Text>Заражение раны</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INFECTED_WOUND_DESCRIPTION</LocID>                      <Text>Патогенные организмы вызвали заражение раны.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INFLAMMED_SINUSES</LocID>                               <Text>Синусит</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INFLAMMED_SINUSES_DESCRIPTION</LocID>                   <Text>Воспаление слизистой оболочки одной или нескольких придаточных пазух носа.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INJURY_TO_THE_ARM</LocID>                               <Text>Травма руки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INJURY_TO_THE_ARM_DESCRIPTION</LocID>                   <Text>Пациент получил травму руки в области от локтевого сустава до кисти.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INJURY_TO_THE_COLLARBONE</LocID>                        <Text>Травма ключицы</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INJURY_TO_THE_COLLARBONE_DESCRIPTION</LocID>            <Text>Пациент получил травму ключицы.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INJURY_TO_THE_FOOT</LocID>                              <Text>Травма ступни</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INJURY_TO_THE_FOOT_DESCRIPTION</LocID>                  <Text>Пациент получил травму ступни.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INJURY_TO_THE_HAND</LocID>                              <Text>Травма кисти</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INJURY_TO_THE_HAND_DESCRIPTION</LocID>                  <Text>Пациент получил травму кисти одной из рук.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INJURY_TO_THE_HEAD</LocID>                              <Text>Травма головы</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INJURY_TO_THE_HEAD_DESCRIPTION</LocID>                  <Text>Пациент получил травму головы.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INJURY_TO_THE_CHEST</LocID>                             <Text>Травма груди</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INJURY_TO_THE_CHEST_DESCRIPTION</LocID>                 <Text>Пациент получил травму груди.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INJURY_TO_THE_LEG</LocID>                               <Text>Травма ноги</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INJURY_TO_THE_LEG_DESCRIPTION</LocID>                   <Text>Пациент получил травму ноги.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INTERNAL_BLEEDING_STOMACH</LocID>                       <Text>Желудочное кровотечение</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INTERNAL_BLEEDING_STOMACH_DESCRIPTION</LocID>           <Text>Фиброгастродуоденоскопия (ФГДС) обнаружила кровоточащую язву желудка.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INTESTINAL_BLEEDING</LocID>                             <Text>Кишечное кровотечение</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INTESTINAL_BLEEDING_DESCRIPTION</LocID>                 <Text>У пациента кровотечение в желудочно-кишечном тракте.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INTRACRANIAL_HEMORRHAGE</LocID>                         <Text>Внутричерепное кровоизлияние</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INTRACRANIAL_HEMORRHAGE_DESCRIPTION</LocID>             <Text>У пациента кровотечение в черепе.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_IRREGULAR_HEARTBEAT</LocID>                             <Text>Нерегулярное сердцебиение</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_IRREGULAR_HEARTBEAT_DESCRIPTION</LocID>                 <Text>У пациента нерегулярное сердцебиение, также известное, как аритмия.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_IRRITABILITY</LocID>                                    <Text>Раздражимость</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_IRRITABILITY_DESCRIPTION</LocID>                        <Text>Пациент постоянно взволнован и легко раздражается практически по любому поводу. Раздражительность проявляется агрессивностью, внезапными вспышками гнева и постоянной неудовлетворённостью.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_IRRITABLE_COUGH</LocID>                                 <Text>Сухой кашель</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_IRRITABLE_COUGH_DESCRIPTION</LocID>                     <Text>Горло пациента сильно раздражено. Постоянный сухой кашель.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ITCHING</LocID>                                         <Text>Зуд</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ITCHING_DESCRIPTION</LocID>                             <Text>Зуд - неприятное ощущение раздражения, которое выражается в острой потребности потереть или почесать некоторый участок кожи (или слизистой).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ITCHING_EYE</LocID>                                     <Text>Зуд глаз</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ITCHING_EYE_DESCRIPTION</LocID>                         <Text>Зуд - неприятное ощущение раздражения, которое выражается в острой потребности потереть или почесать некоторый участок кожи (или слизистой).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ITCHY_BLISTERS</LocID>                                  <Text>Зудящие волдыри</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ITCHY_BLISTERS_DESCRIPTION</LocID>                      <Text>Волдыри - небольшие участки вздувшейся кожи, наполненной жидкостью. Могут вызывать зуд.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_JAUNDICE</LocID>                                        <Text>Желтуха</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_JAUNDICE_DESCRIPTION</LocID>                            <Text>Желтуха, также известная как болезнь Госпела, представляет собой желтоватую пигментацию кожи и глаз из-за высокого уровня билирубина.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_KNEE_INJURY</LocID>                                     <Text>Травма колена</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_KNEE_INJURY_DESCRIPTION</LocID>                         <Text>Пациент получил травму колена.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LDL_HIGH_LEVEL</LocID>                                  <Text>Повышенный ЛПНП</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LDL_HIGH_LEVEL_DESCRIPTION</LocID>                      <Text>Повышение уровней холестерина ЛПНП (липопротеины низкой плотности) в крови выше нормы.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LEUKOCYTOSIS</LocID>                                    <Text>Лейкоцитоз</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LEUKOCYTOSIS_DESCRIPTION</LocID>                        <Text>Количество белых кровяных телец в крови выше нормы.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LEUKOPENIA</LocID>                                      <Text>Лейкопения</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LEUKOPENIA_DESCRIPTION</LocID>                          <Text>Количество белых кровяных телец в крови ниже нормы.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LIMITED_ARM_MOTION</LocID>                              <Text>Ограниченное движение руки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LIMITED_ARM_MOTION_DESCRIPTION</LocID>                  <Text>Пациент имеет ограниченный диапазон движения руки.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LIMITED_LEG_MOTION</LocID>                              <Text>Ограничение движения ноги</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LIMITED_LEG_MOTION_DESCRIPTION</LocID>                  <Text>Пациент имеет ограниченный диапазон движения ноги.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LIPIDURIA</LocID>                                       <Text>Липидурия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LIPIDURIA_DESCRIPTION</LocID>                           <Text>Липидурия - присутствие липидов в моче.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LFT_HIGH_LEVEL</LocID>                                  <Text>Ненормальный ТФП</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LFT_HIGH_LEVEL_DESCRIPTION</LocID>                      <Text>Повышенное значение теста функции печени (ТФП) указывает на повреждения печени.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LONG_REACT_TIME</LocID>                                 <Text>Увеличенное время реакции</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LONG_REACT_TIME_DESCRIPTION</LocID>                     <Text>Задержка времени ответов на вопросы.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOSS_OF_APETITE</LocID>                                 <Text>Потеря аппетита</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOSS_OF_APETITE_DESCRIPTION</LocID>                     <Text>Пациент отказывается от еды.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOSS_OF_BLADDER_CONTROL</LocID>                         <Text>Недержание мочи</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOSS_OF_BLADDER_CONTROL_DESCRIPTION</LocID>             <Text>Неконтролируемое мочеиспускание.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOSS_OF_VISION</LocID>                                  <Text>Потеря зрения</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOSS_OF_VISION_DESCRIPTION</LocID>                      <Text>Внезапная полная или частичная слепота.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LUNG_FINDINGS</LocID>                                   <Text>Аномалия в легких</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LUNG_FINDINGS_DESCRIPTION</LocID>                       <Text>Рентгеновский снимок указывает на нарушение в работе легких.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MALAISE</LocID>                                         <Text>Недомогание</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MALAISE_DESCRIPTION</LocID>                             <Text>Чувство дискомфорта, беспокойства, а также иногда и боли.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MALNUTRITION</LocID>                                    <Text>Недоедание</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MALNUTRITION_DESCRIPTION</LocID>                        <Text>Отсутствие правильного питания, вызванное нехваткой продуктов питания в рационе или же их однообразие.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MANDIBULAR_INJURY</LocID>                               <Text>Травма нижней челюсти</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MANDIBULAR_INJURY_DESCRIPTION</LocID>                   <Text>Пациент получил травму нижней челюсти (челюстной кости).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MOUTH_OPENING_DIFFICULTIES</LocID>                      <Text>Тризм</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MOUTH_OPENING_DIFFICULTIES_DESCRIPTION</LocID>          <Text>Пациент не может открыть рот из-за спазма челюстных мышц.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MULTIPLE_ARTERIES_DAMAGE</LocID>                        <Text>Множественные повреждения артерий</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MULTIPLE_ARTERIES_DAMAGE_DESCRIPTION</LocID>            <Text>Повреждение нескольких небольших артерий из-за большой раны.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MUSCLES_AND_JOINTS_PAIN</LocID>                         <Text>Боль в мышцах и суставах</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MUSCLES_AND_JOINTS_PAIN_DESCRIPTION</LocID>             <Text>Пациент ощущает боль в мышцах и суставах.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MUSCLES_AND_SKIN_DAMAGED</LocID>                        <Text>Повреждение кожи и мышц</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MUSCLES_AND_SKIN_DAMAGED_DESCRIPTION</LocID>            <Text>Обширное повреждение кожи и мышечных тканей.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MUSCLE_PAIN</LocID>                                     <Text>Мышечная боль</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MUSCLE_PAIN_DESCRIPTION</LocID>                         <Text>Общее ощущение боли в мышцах, также именуемое миалгией.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MUSCLE_WEAKNESS</LocID>                                 <Text>Мышечная слабость</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MUSCLE_WEAKNESS_DESCRIPTION</LocID>                     <Text>Ощущение слабости в некоторых группах мышц.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NAIL_DISCOLORATION</LocID>                              <Text>Обесцвечивание ногтей</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NAIL_DISCOLORATION_DESCRIPTION</LocID>                  <Text>Ногти пациента обесцветились, в то время как должны быть розового или белого цвета.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NASAL_CONGESTION</LocID>                                <Text>Заложенность носа</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NASAL_CONGESTION_DESCRIPTION</LocID>                    <Text>Заложенность полости носа пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NASAL_DEFORMITY</LocID>                                 <Text>Деформация носа</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NASAL_DEFORMITY_DESCRIPTION</LocID>                     <Text>Нос пациента выглядит деформированным.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NAUSEA</LocID>                                          <Text>Тошнота</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NAUSEA_DESCRIPTION</LocID>                              <Text>Пациента преследует чувство тошноты с постоянным рвотными позывами.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NECK_PAIN</LocID>                                       <Text>Боль в шее</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NECK_PAIN_DESCRIPTION</LocID>                           <Text>Пациент испытывает сильную боль в шее.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NOSEBLEEDS</LocID>                                      <Text>Носовое кровотечение</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NOSEBLEEDS_DESCRIPTION</LocID>                          <Text>У пациента кровотечение из носа.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NUMBNESS</LocID>                                        <Text>Онемение</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NUMBNESS_DESCRIPTION</LocID>                            <Text>Онемение с ощущением покалывания или потерей чувствительности в какой-либо части тела.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NIGHT_SWEATS</LocID>                                    <Text>Повышенное потоотделение во время сна</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NIGHT_SWEATS_DESCRIPTION</LocID>                        <Text>Повторяющиеся эпизоды повышенного потоотделения во время сна.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OCULAR_HYPERTENSION</LocID>                             <Text>Окулярная гипертензия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OCULAR_HYPERTENSION_DESCRIPTION</LocID>                 <Text>Повышенное внутриглазное давление.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OESOPHAGUS_ABNORMALITIES</LocID>                        <Text>Нарушения пищевода</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OESOPHAGUS_ABNORMALITIES_DESCRIPTION</LocID>            <Text>Рентгеновский снимок выявил аномалии в работе пищевода.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OLIGURIA</LocID>                                        <Text>Олигурия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OLIGURIA_DESCRIPTION</LocID>                            <Text>Очень низкое выделение почками мочи.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OPEN_WOUND</LocID>                                      <Text>Открытая рана</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OPEN_WOUND_DESCRIPTION</LocID>                          <Text>Открытая рана на повреждённом участке.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OSTEOPOROSIS</LocID>                                    <Text>Остеопороз</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OSTEOPOROSIS_DESCRIPTION</LocID>                        <Text>Состояние, когда кости постепенно ослабляются, увеличивая тем самым риск перелома.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OTALGIA</LocID>                                         <Text>Оталгия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OTALGIA_DESCRIPTION</LocID>                             <Text>Оталгия - болевой синдром в одном или сразу двух ушах.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OTORHINOLARYNGOLOGICAL_FINDINGS</LocID>                 <Text>ЛОР-патология</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OTORHINOLARYNGOLOGICAL_FINDINGS_DESCRIPTION</LocID>     <Text>Оториноларингологичечские исследования обнаружили отклонения в нормальной работе уха, горла или носа.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PAIN</LocID>                                            <Text>Боль</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PAIN_DESCRIPTION</LocID>                                <Text>Чувство боли в поражённом участке.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PAIN_IN_THE_EARS</LocID>                                <Text>Боль в ушах</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PAIN_IN_THE_EARS_DESCRIPTION</LocID>                    <Text>Неприятная боль в ушном канале.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PAINFUL_CERVICAL_LYMPH_NODES</LocID>                    <Text>Болезненные лимфоузлы</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PAINFUL_CERVICAL_LYMPH_NODES_DESCRIPTION</LocID>        <Text>Увеличенные в размерах шейные лимфатические узлы вызывают болезненные ощущения, усиливающиеся при пальпации.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PAINFUL_URINATION</LocID>                               <Text>Болезненное мочеиспускание</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PAINFUL_URINATION_DESCRIPTION</LocID>                   <Text>Дискомфорт при мочеиспускании.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PAINFUL_VESICULAR_RASH</LocID>                          <Text>Болезненная везикулярная сыпь</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PAINFUL_VESICULAR_RASH_DESCRIPTION</LocID>              <Text>Болезненная везикулярная сыпь с наполненными жидкостью волдырями.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PALE_SKIN</LocID>                                       <Text>Бледная кожа</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PALE_SKIN_DESCRIPTION</LocID>                           <Text>Необычно светлый цвет кожи, по сравнению с обычным цветом.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PALPITATIONS</LocID>                                    <Text>Сердцебиение</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PALPITATIONS_DESCRIPTION</LocID>                        <Text>Повышенное или неровное сердцебиение.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PERSISTENT_URGE_TO_URINATE</LocID>                      <Text>Частые позывы к мочеиспусканию</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PERSISTENT_URGE_TO_URINATE_DESCRIPTION</LocID>          <Text>Пациент испытывает слишком частые позывы к мочеиспусканию.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PETECHIAE</LocID>                                       <Text>Петехии</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PETECHIAE_DESCRIPTION</LocID>                           <Text>Крошечные фиолетовые, красные или коричневые пятна на коже.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PHOTOPHOBIA</LocID>                                     <Text>Светобоязнь</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PHOTOPHOBIA_DESCRIPTION</LocID>                         <Text>Болезненные ощущения при попадании света на глаза. Данные ощущения вызывают сильный дискомфорт.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PNEUMATOCELE</LocID>                                    <Text>Пневматоцеле</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PNEUMATOCELE_DESCRIPTION</LocID>                        <Text>Пневматоцеле - тонкостенное, газонаполненное пространство в легких.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_POLYURIA</LocID>                                        <Text>Полиурия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_POLYURIA_DESCRIPTION</LocID>                            <Text>Пациент мочится больше, чем обычно и выпускает чрезмерное количество мочи.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_POOR_BALANCE</LocID>                                    <Text>Потеря баланса</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_POOR_BALANCE_DESCRIPTION</LocID>                        <Text>Временная потеря баланса во время стояния или ходьбы.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PORTAL_HYPERTENSION</LocID>                             <Text>Портальная гипертензия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PORTAL_HYPERTENSION_DESCRIPTION</LocID>                 <Text>Синдром повышенного давления в системе воротной вены печени.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PROLONGED_BLEEDING</LocID>                              <Text>Длительное кровотечение</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PROLONGED_BLEEDING_DESCRIPTION</LocID>                  <Text>У пациента было обнаружено неостанавливающееся кровотечение.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PROTEINURIA</LocID>                                     <Text>Протеинурия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PROTEINURIA_DESCRIPTION</LocID>                         <Text>Анализ образцов мочи подтвердил очень высокий уровень содержания белка.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PULMONARY_ARTERY_BLOCKAGE</LocID>                       <Text>Тромбоэмболия лёгочной артерии</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PULMONARY_ARTERY_BLOCKAGE_DESCRIPTION</LocID>           <Text>Ангиография выявила закупорку лёгочной артерии тромбами, которые образуются и приносятся током крови чаще из крупных вен нижних конечностей или таза (эмболия).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PURPURA</LocID>                                         <Text>Пурпура</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PURPURA_DESCRIPTION</LocID>                             <Text>Пурпура - имеющиеся на коже небольшие капиллярные излияния крови, в виде синяков.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RASH</LocID>                                            <Text>Сыпь</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RASH_DESCRIPTION</LocID>                                <Text>Сыпь может влиять на цвет кожи, приводить к её сухости, растрескиванию, отёку. Часто вызывает болезненные ощущения или зуд.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RASH_ON_ARM</LocID>                                     <Text>Сыпь на руке</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RASH_ON_ARM_DESCRIPTION</LocID>                         <Text>Аномальное изменение цвета и текстуры кожи на руке вследствие патологических высыпаний.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RASH_ON_LEG</LocID>                                     <Text>Сыпь на ноге</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RASH_ON_LEG_DESCRIPTION</LocID>                         <Text>Аномальное изменение цвета и текстуры кожи на ноге вследствие патологических высыпаний.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RASH_ON_NECK</LocID>                                    <Text>Сыпь на шее</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RASH_ON_NECK_DESCRIPTION</LocID>                        <Text>Аномальное изменение цвета и текстуры кожи на шее вследствие патологических высыпаний.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RASH_ON_TORSO</LocID>                                   <Text>Сыпь на торсе</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RASH_ON_TORSO_DESCRIPTION</LocID>                       <Text>Аномальное изменение цвета и текстуры кожи груди и живота вследствие патологических высыпаний.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RED_EYE</LocID>                                         <Text>Покраснение глаз</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RED_EYE_DESCRIPTION</LocID>                             <Text>Изменение цвета склеры, с белого на красный вследствие расширения мельчайших кровеносных сосудов, которые покрывают поверхность глазного яблока.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RED_SWOLLEN_TONSILS</LocID>                             <Text>Красные отёкшие миндалины</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RED_SWOLLEN_TONSILS_DESCRIPTION</LocID>                 <Text>Покрасневшие и отёкшие миндалины. Иногда отёк настолько значительный, что миндалины могут перекрывать дыхательные пути.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_REDNESS</LocID>                                         <Text>Гиперемия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_REDNESS_DESCRIPTION</LocID>                             <Text>Неопределённое покраснение конкретной области или областей на теле.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_REDNESS_OF_SWELLING</LocID>                             <Text>Гиперемия и отёк</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_REDNESS_OF_SWELLING_DESCRIPTION</LocID>                 <Text>Покраснение отёкшей области, вызванное воспалением.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_REDNESS_OF_SKIN</LocID>                                 <Text>Гиперемия кожи</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_REDNESS_OF_SKIN_DESCRIPTION</LocID>                     <Text>Покраснение кожных покровов, вызванное воспалительным процессом.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RESPIRATORY_FAILURE</LocID>                             <Text>Дыхательная недостаточность</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RESPIRATORY_FAILURE_DESCRIPTION</LocID>                 <Text>Патологическое состояние, при котором не обеспечивается должный газообмен и нормальный газовый состав крови.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RINGING_IN_THE_EARS</LocID>                             <Text>Тиннитус</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RINGING_IN_THE_EARS_DESCRIPTION</LocID>                 <Text>Также называется звоном в ушах, это ощущение звона или другого шума без какого-либо внешнего источника.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SAGGING_SHOULDER</LocID>                                <Text>Отвисающее плечо</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SAGGING_SHOULDER_DESCRIPTION</LocID>                    <Text>Редкое заболевание, характеризующееся опускающимися плечами, которое растягивает плечевое сплетение и вызывает боль, но без признаков неврологических нарушений.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SCRATCHINESS_IN_THE_EYE</LocID>                         <Text>Царапина роговицы глаза</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SCRATCHINESS_IN_THE_EYE_DESCRIPTION</LocID>             <Text>Царапины глаза сравнительно широко распространены. В большинстве случаев царапается именно роговица глаза.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEPTIC_SHOCK</LocID>                                    <Text>Септический шок</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEPTIC_SHOCK_DESCRIPTION</LocID>                        <Text>Угрожающее жизни осложнение тяжелых инфекционных заболеваний, характеризующееся снижением перфузии тканей, что нарушает доставку кислорода и других веществ к тканям и приводит к развитию синдрома полиорганной недостаточности.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_ARM_PAIN</LocID>                                 <Text>Сильная боль в руке</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_ARM_PAIN_DESCRIPTION</LocID>                     <Text>Сильная боль в руке может возникать при различных травмах или, если сопровождается сдавлением в области груди, может быть признаком сердечного приступа.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_HEMORRHAGE</LocID>                               <Text>Сильное кровотечение</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_HEMORRHAGE_DESCRIPTION</LocID>                   <Text>Сильное кровотечение из конечностей, особенно артериальное, всегда смертельно опасно.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_LEG_PAIN</LocID>                                 <Text>Сильная боль в ноге</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_LEG_PAIN_DESCRIPTION</LocID>                     <Text>Сильная боль в ноге, возникшая из-за большого количества различных травм.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_PAIN_IN_ANKLE</LocID>                            <Text>Сильная боль в лодыжке</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_PAIN_IN_ANKLE_DESCRIPTION</LocID>                <Text>Сильная боль в лодыжке с покраснением вокруг пораженного участка, но без поверхностного повреждения кожи.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SHOULDER_INJURY</LocID>                                 <Text>Травма плеча</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SHOULDER_INJURY_DESCRIPTION</LocID>                     <Text>Пациент говорит что было травмировано плечо.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SKIN_AVULSION</LocID>                                   <Text>Разрыв кожных покровов</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SKIN_AVULSION_DESCRIPTION</LocID>                       <Text>Кожа отделяется в зоне повреждения.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SKULL_BASIS_FRACTURE</LocID>                            <Text>Перелом основания черепа</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SKULL_BASIS_FRACTURE_DESCRIPTION</LocID>                <Text>Перелом кости в районе основания черепа.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SKULL_FRACTURE</LocID>                                  <Text>Перелом костей черепа</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SKULL_FRACTURE_DESCRIPTION</LocID>                      <Text>Перелом различных костей черепа, иногда со смещением вовнутрь. Перелом считается тяжёлым, если происходит сдавление внутричерепных структур.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SLEEPING_DIFFICULTIES</LocID>                           <Text>Проблемы со сном</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SLEEPING_DIFFICULTIES_DESCRIPTION</LocID>               <Text>Сложности с засыпанием, частые пробуждения ночью, усталость.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SLURRED_SPEECH</LocID>                                  <Text>Несвязная речь</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SLURRED_SPEECH_DESCRIPTION</LocID>                      <Text>Также именуется как дизартия. Проявляется в виде плохого произношения слов, бормотания. изменения скорости или ритма при разговоре.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SNEEZING</LocID>                                        <Text>Чихание</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SNEEZING_DESCRIPTION</LocID>                            <Text>Энергичное и судорожное выдыхание воздуха из легких через нос и рот. Защитный безусловный рефлекс.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SORE_THROAT</LocID>                                     <Text>Боль в горле</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SORE_THROAT_DESCRIPTION</LocID>                         <Text>Включает боль, жжение или зуд в задней стенки горла, боль при глотании и повышенную чувствительность в шее.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SPASMS</LocID>                                          <Text>Спазмы</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SPASMS_DESCRIPTION</LocID>                              <Text>Различные виды непроизвольной мышечной активности.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SPUTUM_COUGH</LocID>                                    <Text>Кашель с мокротой</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SPUTUM_COUGH_DESCRIPTION</LocID>                        <Text>Сильный кашель, высвобождающий слизь из верхних и нижних дыхательных путей.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STEATORRHEA</LocID>                                     <Text>Стеаторея</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STEATORRHEA_DESCRIPTION</LocID>                         <Text>Стеаторея - выделение избыточного количества жира с каловыми массами. Стул становится бледным и имеет неприятный запах.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STIFFNESS</LocID>                                       <Text>Слабая подвижность</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STIFFNESS_DESCRIPTION</LocID>                           <Text>Снижение подвижности, связанное с болью в пораженной области.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STIFFNESS_IN_THE_HIP</LocID>                            <Text>Слабая подвижность бедра</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STIFFNESS_IN_THE_HIP_DESCRIPTION</LocID>                <Text>Снижение подвижности, связанное с болью в области тазобедренного сустава.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STIFFNESS_IN_THE_KNEE</LocID>                           <Text>Слабая подвижность колена</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STIFFNESS_IN_THE_KNEE_DESCRIPTION</LocID>               <Text>Снижение подвижности, связанное с болью в коленном суставе.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STIFFNESS_OF_THE_BACK</LocID>                           <Text>Слабая подвижность спины</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STIFFNESS_OF_THE_BACK_DESCRIPTION</LocID>               <Text>Снижение подвижности, связанное с болью в спинальной области спины.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STIFFNESS_OF_THE_JOINTS</LocID>                         <Text>Слабая подвижность суставов</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STIFFNESS_OF_THE_JOINTS_DESCRIPTION</LocID>             <Text>Снижение подвижности, связанное с болью в суставах.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STIFFNESS_OF_THE_NECK</LocID>                           <Text>Слабая подвижность шеи</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STIFFNESS_OF_THE_NECK_DESCRIPTION</LocID>               <Text>Снижение подвижности, связанное с болью в шее.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STOMACH_PAIN</LocID>                                    <Text>Боль в животе</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STOMACH_PAIN_DESCRIPTION</LocID>                        <Text>Ощущение боли в животе может быть связано со многими заболеваниями. Необходимо проведение дальнейшей диагностики.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STRONG-SMELLING_URINE</LocID>                           <Text>Резкий запах мочи</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STRONG-SMELLING_URINE_DESCRIPTION</LocID>               <Text>Сильный запах мочи может указывать на инфекцию в мочевых путях, но также это может быть результатом употребления определенной пищи.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SUPPURATIVE_TONSILS</LocID>                             <Text>Гнойный тонзиллит</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SUPPURATIVE_TONSILS_DESCRIPTION</LocID>                 <Text>Воспаление паренхимы миндалин с тенденцией к образованию абсцессов. Миндалины выглядят красными и могут быть сильно отёкшими.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SWALLOV_PAIN</LocID>                                    <Text>Боль при глотании</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SWALLOV_PAIN_DESCRIPTION</LocID>                        <Text>Дискомфорт при глотании. Боль остро выражена в области шеи или под грудиной. Чаще всего это похоже на сильное ощущение сдавливания или жжения.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SWEATING</LocID>                                        <Text>Потение</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SWEATING_DESCRIPTION</LocID>                            <Text>Чрезмерное производство жидкостей, выделяемых потовыми железами кожи.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SWELLING</LocID>                                        <Text>Отёк</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SWELLING_DESCRIPTION</LocID>                            <Text>Припухлость пораженного участка кожи из-за скопления жидкости вследствие воспаления или синяка.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SWELLING_JOINTS</LocID>                                 <Text>Отёк суставов</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SWELLING_JOINTS_DESCRIPTION</LocID>                     <Text>Заполнение суставов жидкостью, приводящее к отёкам.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SWELLING_KNEE</LocID>                                   <Text>Отёк колена</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SWELLING_KNEE_DESCRIPTION</LocID>                       <Text>Опухлость колена из-за отёка.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SWELLING_LIMBS</LocID>                                  <Text>Отёк конечностей</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SWELLING_LIMBS_DESCRIPTION</LocID>                      <Text>Отёчное увеличение конечностей.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SWOLLEN_EAR_LOBE</LocID>                                <Text>Отёк мочки уха</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SWOLLEN_EAR_LOBE_DESCRIPTION</LocID>                    <Text>Отёк мочки уха из-за воспаления или травмы.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SWOLLEN_EAR_CANAL</LocID>                               <Text>Отёк слухового прохода</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SWOLLEN_EAR_CANAL_DESCRIPTION</LocID>                   <Text>Сужение ушного канала из-за набухания поверхностных тканей.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SWOLLEN_EYELIDS</LocID>                                 <Text>Отёк век</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SWOLLEN_EYELIDS_DESCRIPTION</LocID>                     <Text>Временное увеличение век.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SWOLLEN_LYMPH_NODES</LocID>                             <Text>Увеличенные лимфоузлы</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SWOLLEN_LYMPH_NODES_DESCRIPTION</LocID>                 <Text>Увеличенные/отёкшие лимфатические узлы являются признаком инфекционных, аутоиммунных или онкологических заболеваний.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SWOLLEN_THYROID_GLAND</LocID>                           <Text>Увеличенная щитовидная железа</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SWOLLEN_THYROID_GLAND_DESCRIPTION</LocID>               <Text>Аномальное увеличение щитовидной железы может быть временным симптомом воспаления железы. Воспаление вызывает отек с выделением жидкости внутри железы, что приводит к её увеличению.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TACHYCARDIA</LocID>                                     <Text>Тахикардия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TACHYCARDIA_DESCRIPTION</LocID>                         <Text>Тахикардия (повышенная частота сердцебиения) является распространенным симптомом, вызываемым реакцией со стороны симпатической нервной системы, и возникает при различных заболеваниях или когда человек подвергается опасности.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TENDERNESS</LocID>                                      <Text>Повышенная сенситивность</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TENDERNESS_DESCRIPTION</LocID>                          <Text>Пораженный участок очень чувствителен при касании.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THICKENING_AND_DISTORTION_OF_THE_NAIL</LocID>           <Text>Утолщение ногтей</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THICKENING_AND_DISTORTION_OF_THE_NAIL_DESCRIPTION</LocID><Text>Утолщение и искривление ногтей пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THIRST</LocID>                                          <Text>Жажда</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THIRST_DESCRIPTION</LocID>                              <Text>Желание попить.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THUMB_PAIN</LocID>                                      <Text>Боль в большом пальце</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THUMB_PAIN_DESCRIPTION</LocID>                          <Text>Жжение и боль в большом пальце.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TREMOR</LocID>                                          <Text>Тремор</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TREMOR_DESCRIPTION</LocID>                              <Text>Непреднамеренное ритмическое сокращение мышц, связанное с движениями (колебаниями) одной или нескольких частей тела (например, ладони, руки, ноги).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TROUBLE_RISING</LocID>                                  <Text>Затруднения при вставании</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TROUBLE_RISING_DESCRIPTION</LocID>                      <Text>Затруднения при вставании из лежачего или сидячего положения.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ULNAR_CLAW</LocID>                                      <Text>Птичья лапа</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ULNAR_CLAW_DESCRIPTION</LocID>                          <Text>Положение кисти, характеризующееся переразгибанием основных и сгибанием средних и концевых фаланг пальцев (особенно IV и V) с одновременным разведением пальцев.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UNCONSCIOUSNESS</LocID>                                 <Text>Бессознательное состояние</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UNCONSCIOUSNESS_DESCRIPTION</LocID>                     <Text>Состояние полного или почти полного отсутствия реакции на внешние раздражители.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UNSTOPPABLE_BLEEDING</LocID>                            <Text>Непрерывное кровотечение</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UNSTOPPABLE_BLEEDING_DESCRIPTION</LocID>                <Text>Кровотечение - состояние, при котором кровь быстро выходит из системы кровообращения. Кровотечение может быть вызвано большой раной или из-за повреждения нескольких вен или артерий.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VISUAL_FIELD_LIMITED</LocID>                            <Text>Сужение полей зрения</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VISUAL_FIELD_LIMITED_DESCRIPTION</LocID>                <Text>Периметрия показала, что у пациента cужение полей зрения.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VITAMIN_DEFICIENCY</LocID>                              <Text>Дефицит витаминов</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VITAMIN_DEFICIENCY_DESCRIPTION</LocID>                  <Text>Отсутствие различных витаминов, минералов или других питательных веществ в кровотоке.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VOMITING</LocID>                                        <Text>Рвота</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VOMITING_DESCRIPTION</LocID>                            <Text>Рвота - это непроизвольное вытеснение содержимого желудка через рот или иногда через нос.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WADDLING_GAIT</LocID>                                   <Text>Неуклюжая походка</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WADDLING_GAIT_DESCRIPTION</LocID>                       <Text>Аномальный тип ходьбы, вызванный влиянием различных дефектов бёдер.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WALKING_DIFFICULTIES</LocID>                            <Text>Нарушения равновесия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WALKING_DIFFICULTIES_DESCRIPTION</LocID>                <Text>Проявляется неустойчивой походкой, неожиданными падениями, покачиванием, нарушением координации.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WARMTH</LocID>                                          <Text>Ощущение теплоты</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WARMTH_DESCRIPTION</LocID>                              <Text>Ощущение тепла в пораженной области (один из пяти признаков воспаления или инфекции, из-за увеличения кровотока в этой области).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WATERY_EYES</LocID>                                     <Text>Слезотечение</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WATERY_EYES_DESCRIPTION</LocID>                         <Text>Мокрые глаза могут быть результатом постоянной или чрезмерной работы слёзных желез, или по причине заблокированной дренажной системы глаз.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WEAKNESS</LocID>                                        <Text>Слабость</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WEAKNESS_DESCRIPTION</LocID>                            <Text>Также именуемое как астения, это состояние, когда человек страдает от крайней временной или хронической слабости и испытывает усталость, потерю энергии и силы.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WEIGHT_GAIN</LocID>                                     <Text>Увеличение веса</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WEIGHT_GAIN_DESCRIPTION</LocID>                         <Text>Увеличение массы тела, как правило, без видимых или известных причин.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WEIGHT_LOSS</LocID>                                     <Text>Потеря веса</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WEIGHT_LOSS_DESCRIPTION</LocID>                         <Text>Уменьшение массы тела, как правило, без видимых или известных причин (является основным симптомом многих злокачественных заболеваний).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WHEEZING</LocID>                                        <Text>Хрипота</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WHEEZING_DESCRIPTION</LocID>                            <Text>Хрипящие, свистящие и сопящие звуки при вдохе и выдохе.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WRIST_PAIN</LocID>                                      <Text>Боль в запястье</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WRIST_PAIN_DESCRIPTION</LocID>                          <Text>Напряженная и жгучая боль в запястье.</Text>  </GameDBLocalizedString>
+
+            <!-- Main symptoms -->
+            <GameDBLocalizedString>      <LocID>SYM_ACL_INJURY</LocID>                                      <Text>Травма ПКС</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ACL_INJURY_DESCRIPTION</LocID>                          <Text>МРТ выявила повреждение передней крестообразной связки (ПКС) в колене пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_AIRWAYS_INFECTED</LocID>                                <Text>Инфекция дыхательных путей</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_AIRWAYS_INFECTED_DESCRIPTION</LocID>                    <Text>Бактериальный посев образца мокроты пациента выявил наличие бактерий в дыхательных путях.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ALLERGEN_DETECTED</LocID>                               <Text>Обнаружен аллерген</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ALLERGEN_DETECTED_DESCRIPTION</LocID>                   <Text>Аллергологическая проба выявила специфический аллерген, который вызвал раздражение на коже пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ALLERGIC_CONJUNCTIVITIS</LocID>                         <Text>Аллергический конъюнктивит</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ALLERGIC_CONJUNCTIVITIS_DESCRIPTION</LocID>             <Text>Аллергологическая проба выявила специфический аллерген, который раздражает глаза пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ALLERGY_DISCOVERED</LocID>                              <Text>Обнаружена аллергия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ALLERGY_DISCOVERED_DESCRIPTION</LocID>                  <Text>Аллергологический тест с прокалыванием кожи (прик-тест) выявил повышенную чувствительность к некоторым аллергенам.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ARTERIAL_STENOSIS</LocID>                               <Text>Артериальный стеноз</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ARTERIAL_STENOSIS_DESCRIPTION</LocID>                   <Text>Коронарная ангиография показала сужение коронарных артерий (артерии, питающие сердце кровью).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ANKLE_CONTUSION</LocID>                                 <Text>Ушиб лодыжки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ANKLE_CONTUSION_DESCRIPTION</LocID>                     <Text>Рентгеновский снимок не показал переломов костей.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ANKLE_FRACTURE</LocID>                                  <Text>Перелом лодыжки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ANKLE_FRACTURE_DESCRIPTION</LocID>                      <Text>Рентген показал простой перелом лодыжки.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ANKLE_SPRAIN</LocID>                                    <Text>Растяжение связок лодыжки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ANKLE_SPRAIN_DESCRIPTION</LocID>                        <Text>МРТ лодыжки пациента подтвердило, что у пациента растяжение связок.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_AORTIC_ANEURYSM</LocID>                                 <Text>Аневризма аорты</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_AORTIC_ANEURYSM_DESCRIPTION</LocID>                     <Text>Эхокардиография выявила аневризму грудной аорты.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ARM_PENETRATION</LocID>                                 <Text>Проникающее ранение руки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ARM_PENETRATION_DESCRIPTION</LocID>                     <Text>Проникающее ранение руки стало причиной глубокой раны.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ASPERGILLOMA_DISCOVERED</LocID>                         <Text>Обнаружена аспергиллома</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ASPERGILLOMA_DISCOVERED_DESCRIPTION</LocID>             <Text>На КТ легких пациента обнаружена большая грибковая масса – аспергиллома.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ATOPIC_ECZEMA_FINDINGS</LocID>                          <Text>Обнаружена атипичная экзема</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ATOPIC_ECZEMA_FINDINGS_DESCRIPTION</LocID>              <Text>Симптомы указывают на атипичный дерматит.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._ANTHRACIS_DETECTED</LocID>                           <Text>Обнаружена B. anthracis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._ANTHRACIS_DETECTED_DESCRIPTION</LocID>               <Text>Лаборанты провели полимеразную цепную реакцию (ПЦР) и выявили bacillus anthracis в образце крови пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._HENSELAE_DETECTED</LocID>                            <Text>Обнаружена Bartonella henselae</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._HENSELAE_DETECTED_DESCRIPTION</LocID>                <Text>Лаборанты, использующие полимеразную цепную реакцию (ПЦР), обнаружили Bartonella henselae в образце крови пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._PERTUSSIS_DETECTED</LocID>                           <Text>Обнаружена Bordetella pertussis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._PERTUSSIS_DETECTED_DESCRIPTION</LocID>               <Text>Посев из мокроты пациента выявил Bordetella pertussis.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BABESIOSIS_DETECTED</LocID>                             <Text>Обнаружен бабезиоз</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BABESIOSIS_DETECTED_DESCRIPTION</LocID>                 <Text>Лаборанты при помощи полимеразной цепной реакции (ПЦР) выявили наличие инфекции Babesia в образце крови пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BACTERIAL_BLEPHARITIS</LocID>                           <Text>Бактериальный блефарит</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BACTERIAL_BLEPHARITIS_DESCRIPTION</LocID>               <Text>Посев образца, взятого с кожи пациента, подтверждает наличие бактериальной инфекции.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BACTERIAL_CONJUNCTIVITIS</LocID>                        <Text>Бактериальный конъюнктивит</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BACTERIAL_CONJUNCTIVITIS_DESCRIPTION</LocID>            <Text>Посев из образца, взятого из глаз пациента, подтвердил наличие бактериального конъюнктивита.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BEEF_TAPEWORM_PRESENT</LocID>                           <Text>Обнаружен бычий цепень</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BEEF_TAPEWORM_PRESENT_DESCRIPTION</LocID>               <Text>В образцах стула пациента на основании макро- и микроскопического исследования были обнаружены членники  бычьего цепня.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BELLYBUTTON_PAIN</LocID>                                <Text>Боль в пупочной области</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BELLYBUTTON_PAIN_DESCRIPTION</LocID>                    <Text>Сильная боль в области вокруг пупка.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLADDER_INFECTION</LocID>                               <Text>Инфекция мочевого пузыря</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLADDER_INFECTION_DESCRIPTION</LocID>                   <Text>Была обнаружена инфекция мочевого пузыря.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLADDER_LINING_DEFECTED</LocID>                         <Text>Повреждение стенки мочевого пузыря</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLADDER_LINING_DEFECTED_DESCRIPTION</LocID>             <Text>Цистография обнаружила различные повреждения в стенке мочевого пузыря.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLADDER_STONES_DETECTED</LocID>                         <Text>Камни в мочевом пузыре</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLADDER_STONES_DETECTED_DESCRIPTION</LocID>             <Text>Во время УЗИ было обнаружено несколько камней в мочевом пузыре пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLUNT_KIDNEY_CONTUSION</LocID>                          <Text>Ушиб почки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLUNT_KIDNEY_CONTUSION_DESCRIPTION</LocID>              <Text>КТ выявила ушиб почки пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLUNT_PANCREAS_CONTUSION</LocID>                        <Text>Ушиб поджелудочной железы</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLUNT_PANCREAS_CONTUSION_DESCRIPTION</LocID>            <Text>УЗИ показало незначительный ушиб поджелудочной железы без повреждения протоков и без разрывов.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLUNT_PANCREAS_LACERATION</LocID>                       <Text>Разрыв поджелудочной железы</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLUNT_PANCREAS_LACERATION_DESCRIPTION</LocID>           <Text>УЗИ выявило значительный проксимальный разрыв и повреждение паренхимы поджелудочной железы.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLUNT_PULMONARY_CONTUSION</LocID>                       <Text>Ушиб легкого</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLUNT_PULMONARY_CONTUSION_DESCRIPTION</LocID>           <Text>КТ выявила ушиб легких.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLUNT_SPLEEN_CONTUSION</LocID>                          <Text>Ушиб селезенки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLUNT_SPLEEN_CONTUSION_DESCRIPTION</LocID>              <Text>КТ выявила ушиб селезенки.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLUNT_SPLEEN_RUPTURE</LocID>                            <Text>Разрыв селезенки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLUNT_SPLEEN_RUPTURE_DESCRIPTION</LocID>                <Text>КТ выявила разрыв селезенки, который произошел из-за тупой травмы.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BONE_INFECTED</LocID>                                   <Text>Инфекция костей</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BONE_INFECTED_DESCRIPTION</LocID>                       <Text>МРТ выявила признаки наличия инфекции в костной ткани пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRAIN_ARTERIES_BLOCKED</LocID>                          <Text>Тромбоз артерий головного мозга</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRAIN_ARTERIES_BLOCKED_DESCRIPTION</LocID>              <Text>КТ выявила закупорку нескольких артерий в головном мозге из-за тромбов.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRAIN_HEMATOMAS</LocID>                                 <Text>Гематомы головного мозга</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRAIN_HEMATOMAS_DESCRIPTION</LocID>                     <Text>КТ выявила как и эпидуральную так и внутрицеребральную гематомы.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRAIN_INFLAMMATION</LocID>                              <Text>Воспаление мозга</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRAIN_INFLAMMATION_DESCRIPTION</LocID>                  <Text>Анализ спинномозговой жидкости показал большое количество белых кровяных телец, что является симптомом воспаления головного мозга.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRAIN_TISSUE_DAMAGED</LocID>                            <Text>Повреждения ткани мозга</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRAIN_TISSUE_DAMAGED_DESCRIPTION</LocID>                <Text>МРТ выявило поврежденную ткань головного мозга, возможно, из-за ишемического инсульта.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRONCHIAL_HYPERREACTIVITY</LocID>                       <Text>Бронхиальная гиперреакт.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRONCHIAL_HYPERREACTIVITY_DESCRIPTION</LocID>           <Text>Специальный бронхиальный тест указывает на то, что у пациента астма.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRONCHIAL_INFECTION</LocID>                             <Text>Бронхиальная инфекция</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRONCHIAL_INFECTION_DESCRIPTION</LocID>                 <Text>Бактериальный посев образца мокроты из бронхов (отхаркивающаяся слизь) подтвердил наличие бактерий.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CALF_CONTUSION</LocID>                                  <Text>Ушиб голени</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CALF_CONTUSION_DESCRIPTION</LocID>                      <Text>Рентгенологическое обследование не выявило переломов костей голени пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CARBOXYHEMOGLOBIN_HIGH_LEVEL</LocID>                    <Text>Высокий уровень COHb</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CARBOXYHEMOGLOBIN_HIGH_LEVEL_DESCRIPTION</LocID>        <Text>Анализ крови показал высокий уровень карбоксигемоглобина (COHb) в крови пациента, что указывает на отравление угарным газом.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CAROTID_ARTERIES_BLOCKED</LocID>                        <Text>Тромбоз сонных артерий</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CAROTID_ARTERIES_BLOCKED_DESCRIPTION</LocID>            <Text>Ультразвуковое допплерографическое исследование сосудов шеи (УЗДГ) выявило закупорку сонных артерий тромбами.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CELIAC_ANTIBODIES_DETECTED</LocID>                      <Text>Целиакия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CELIAC_ANTIBODIES_DETECTED_DESCRIPTION</LocID>          <Text>Тест на серологию выявил специфические целиакические антитела.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CEREBRAL_CONTUSION_FINDINGS</LocID>                     <Text>Ушиб головного мозга</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CEREBRAL_CONTUSION_FINDINGS_DESCRIPTION</LocID>         <Text>КТ головы выявиа признаки ушиба головного мозга пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHR._FATIGUE_SYNDROME</LocID>                           <Text>Синдром хронической усталости</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHR._FATIGUE_SYNDROME_DESCRIPTION</LocID>               <Text>Оценка всех симптомов пациента указывает на синдром хронической усталости.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CLAVICLE_FRACTURE</LocID>                               <Text>Перелом ключицы</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CLAVICLE_FRACTURE_DESCRIPTION</LocID>                   <Text>КТ показала простой перелом ключицы.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CLAVICLE_SHAFT_FRACTURE</LocID>                         <Text>Перелом ключицы</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CLAVICLE_SHAFT_FRACTURE_DESCRIPTION</LocID>             <Text>КТ показала перелом оси ключицы.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CLOSED_ANGLE</LocID>                                    <Text>Закрытый УПК глаза</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CLOSED_ANGLE_DESCRIPTION</LocID>                        <Text>Гониоскопическое обследование выявило закрытый угол передней камеры (УПК) глаза между радужкой и роговицей, что указывает на закрытоугольную глаукому.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CLOTTING_FACTOR_LOW</LocID>                             <Text>Дефицит факторов свёртывания</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CLOTTING_FACTOR_LOW_DESCRIPTION</LocID>                 <Text>Анализ крови пациента показал низкую концентрацию факторов свёртывания, что указывает на различные коагулопатии.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CLUSTER_HEADACHE_FINDINGS</LocID>                       <Text>Кластерные головные боли</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CLUSTER_HEADACHE_FINDINGS_DESCRIPTION</LocID>           <Text>Результаты МРТ указывают на наличие кластерных болей в голове пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CONCUSSION</LocID>                                      <Text>Сотрясение мозга</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CONCUSSION_DESCRIPTION</LocID>                          <Text>КТ мозга пациента указывает на сотрясение мозга.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CONSTANT_BRONCHIAL_INFECTION</LocID>                    <Text>Хроническая бронхиальная инфекция</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CONSTANT_BRONCHIAL_INFECTION_DESCRIPTION</LocID>        <Text>Рентген показал хроническое раздражение бронхов вследствие широко распространённой инфекции.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CROHN_DISEASE_DISCOVERED</LocID>                        <Text>Обнаружена болезнь Крона</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CROHN_DISEASE_DISCOVERED_DESCRIPTION</LocID>            <Text>КТ выявила симптомы болезни Крона: утолщение стенки тонкой кишки, уплотнение клетчатки, воспалительный инфильтрат, стриктуры, увеличение регионарных лимфатических узлов.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CYSTIC_DUCT_OBSTRUCTED</LocID>                          <Text>Кистозная трансформация желчных протоков</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CYSTIC_DUCT_OBSTRUCTED_DESCRIPTION</LocID>              <Text>УЗИ показало кистозную трансформацию желчных протоков.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DEGENERATIVE_FINDINGS</LocID>                           <Text>Дегенеративные изменения позвоночника</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DEGENERATIVE_FINDINGS_DESCRIPTION</LocID>               <Text>МРТ шейного отдела выявила признаки дегенеративно-дистрофических изменений шейного отдела позвоночника пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DEMYELINIZATION_FINDINGS</LocID>                        <Text>Демиелинизация</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DEMYELINIZATION_FINDINGS_DESCRIPTION</LocID>            <Text>Биопсия икроножного нерва с последующим анализом обнаружила признаки демиелинизации - патологического процесса избирательного повреждения миелиновой оболочки, проходящей вокруг нервных волокон.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DEPICTION_OF_FEMUR_FRACTURE</LocID>                     <Text>Перелом бедренной кости</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DEPICTION_OF_FEMUR_FRACTURE_DESCRIPTION</LocID>         <Text>Рентген показал перелом бедренной кости.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DEPICTION_OF_HUMERUS_FRACTURE</LocID>                   <Text>Перелом плечевой кости</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DEPICTION_OF_HUMERUS_FRACTURE_DESCRIPTION</LocID>       <Text>Рентген показал перелом плечевой кости.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DEPICTION_OF_TIBIA_FRACTURE</LocID>                     <Text>Перелом большеберцовой кости</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DEPICTION_OF_TIBIA_FRACTURE_DESCRIPTION</LocID>         <Text>Рентген показал перелом большеберцовой кости.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DEPICTION_OF_ULNAR_FRACTURE</LocID>                     <Text>Перелом локтевой кости</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DEPICTION_OF_ULNAR_FRACTURE_DESCRIPTION</LocID>         <Text>Рентген показал перелом локтевой кости.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DIFFUSE_AXONAL_INJURY</LocID>                           <Text>ДАП головного мозга</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DIFFUSE_AXONAL_INJURY_DESCRIPTION</LocID>               <Text>МРТ выявила многочисленные признаки диффузно аксонального повреждения головного мозга.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DILATED_VENTRICLE</LocID>                               <Text>Гипертрофия левого желудочка</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DILATED_VENTRICLE_DESCRIPTION</LocID>                   <Text>Ангиография сердца пациента показала расширение полости (дилатация) и утолщение стенок левого желудочка сердца.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DUODENITIS_DISCOVERED</LocID>                           <Text>Обнаружен дуоденит</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DUODENITIS_DISCOVERED_DESCRIPTION</LocID>               <Text>Гастроскопия выявила воспаление двенадцатиперстной кишки.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_E._HISTOLYTICA_DISCOVERED</LocID>                       <Text>Обнаружена E. histolytica</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_E._HISTOLYTICA_DISCOVERED_DESCRIPTION</LocID>           <Text>Бактериальный посев выявил присутствие Entamoeba histolytica в анализе кала пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EAR_CANAL_INFECTED</LocID>                              <Text>Инфицирован ушной канал</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EAR_CANAL_INFECTED_DESCRIPTION</LocID>                  <Text>Обследование наружного уха выявило инфекцию наружного слухового прохода.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EBV_DETECTED</LocID>                                    <Text>Обнаружен ВЭБ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EBV_DETECTED_DESCRIPTION</LocID>                        <Text>Серологическое исследование обнаружило антигены, специфичные к вирусу Эпшетйна-Барра.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ELBOW_MUSCLES_DAMAGED</LocID>                           <Text>Повреждение локтевых мышц</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ELBOW_MUSCLES_DAMAGED_DESCRIPTION</LocID>               <Text>МРТ показала признаки воспаления локтевых мышц. Скорее всего это произошло из-за их сильного перенапряжения.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ELBOW_TENDONS_DAMAGED</LocID>                           <Text>Повреждение локтевых сухожилий</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ELBOW_TENDONS_DAMAGED_DESCRIPTION</LocID>               <Text>МРТ показала повреждения сухожилий локтевых мышц.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EMPHYSEMA_DISCOVERED</LocID>                            <Text>Обнаружена эмфизема</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EMPHYSEMA_DISCOVERED_DESCRIPTION</LocID>                <Text>КТ выявила эмфизему в легких.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ENDOCARDITIS_DETECTED</LocID>                           <Text>Признаки эндокардита</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ENDOCARDITIS_DETECTED_DESCRIPTION</LocID>               <Text>Эхокардиография обнаружила вегетации на трикуспидальном клапане сердца и клапанную регургитацию, что доказывает поражения эндокарда и сильно похоже на проявления инфекционного эндокардита.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_F._TULARENSIS_DETECTED</LocID>                          <Text>Обнаружена F. tularensis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_F._TULARENSIS_DETECTED_DESCRIPTION</LocID>              <Text>Лаборанты обнаружили Francisella tularensis при бактериальном посеве мокроты пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FEET_PENETRATION</LocID>                                <Text>Проникающее ранение стопы</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FEET_PENETRATION_DESCRIPTION</LocID>                    <Text>Проникающее ранение стопы стало причиной глубокой раны.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FEMUR_FRACTURE</LocID>                                  <Text>Перелом бедра</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FEMUR_FRACTURE_DESCRIPTION</LocID>                      <Text>Рентген показал простой перелом бедренной кости.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FEMUR_FRAGMENTS_FRACTURE</LocID>                        <Text>Оскольчатый перелом бедра</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FEMUR_FRAGMENTS_FRACTURE_DESCRIPTION</LocID>            <Text>Рентген показал множественные фрагменты кости при переломе бедренной кости.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FIBROTIC_LIVER_TISSUE</LocID>                           <Text>Фиброзное замещение тканей</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FIBROTIC_LIVER_TISSUE_DESCRIPTION</LocID>               <Text>Поврежденная ткань печени заменяется фиброзной тканью в результате реакции организма, направленной на изоляцию очага воспаления от окружающих тканей.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FIBULA_FRACTURE</LocID>                                 <Text>Перелом малоберцовой кости</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FIBULA_FRACTURE_DESCRIPTION</LocID>                     <Text>Рентген показал простой перелом малоберцовой кости.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FINGER_FRACTURE</LocID>                                 <Text>Перелом пальца</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FINGER_FRACTURE_DESCRIPTION</LocID>                     <Text>Рентген показал простой перелом пальца.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FLAIL_CHEST</LocID>                                     <Text>Флотация рёберного окна</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FLAIL_CHEST_DESCRIPTION</LocID>                         <Text>КТ выявила множественные переломы рёбер, образующие патологически подвижный фрагмент грудной клетки, не связанный костно с позвоночником и перемещающийся в зависимости от внутригрудного давления.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FLUID_IN_MIDDLE_EAR</LocID>                             <Text>Жидкость в среднем ухе</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FLUID_IN_MIDDLE_EAR_DESCRIPTION</LocID>                 <Text>Обследование уха пациента с отоскопией показало жидкость в среднем ухе.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FOREARM_CONTUSION</LocID>                               <Text>Ушиб предплечья</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FOREARM_CONTUSION_DESCRIPTION</LocID>                   <Text>Рентген исключил наличие переломов в предплечье.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FORMATE_TOXIC_LEVEL</LocID>                             <Text>Формиаты в крови</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FORMATE_TOXIC_LEVEL_DESCRIPTION</LocID>                 <Text>В крови пациента обнаружены токсичные количества солей и эфиров муравьиной кислоты - формиатов.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FRACTURE_OF_MANDIBLE</LocID>                            <Text>Перелом нижней челюсти</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FRACTURE_OF_MANDIBLE_DESCRIPTION</LocID>                <Text>Рентген показал перелом нижней челюсти пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FRACTURE_OF_NOSE</LocID>                                <Text>Перелом носа</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FRACTURE_OF_NOSE_DESCRIPTION</LocID>                    <Text>Оценка всех симптомов указывает на перелом костей носа.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FUNGAL_INFECTION</LocID>                                <Text>Грибковая инфекция</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FUNGAL_INFECTION_DESCRIPTION</LocID>                    <Text>Микологическая экспертиза выявила грибковую инфекцию.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_GALLSTONES_DISCOVERED</LocID>                           <Text>Обнаружены желчные камни</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_GALLSTONES_DISCOVERED_DESCRIPTION</LocID>               <Text>УЗИ желчного пузыря выявило наличие большого количества желчных камней.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_GASTRIC_ULCERS_DISCOVERED</LocID>                       <Text>Обнаружена язва желудка</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_GASTRIC_ULCERS_DISCOVERED_DESCRIPTION</LocID>           <Text>Гастроскопия показала несколько язв в желудке.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_GASTRITIS_DISCOVERED</LocID>                            <Text>Обнаружен гастрит</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_GASTRITIS_DISCOVERED_DESCRIPTION</LocID>                <Text>Гастроскопия выявила обширное воспаление слизистой оболочки желудка.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_GIANT_CELLS</LocID>                                     <Text>Гигантоклеточный артериит</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_GIANT_CELLS_DESCRIPTION</LocID>                         <Text>Ангиография выявила воспаление в подкладке височных артерий, указывающих на гигантоклеточный артериит.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_GIARDIA_LAMBLIA_DISCOVERED</LocID>                      <Text>Обнаружены лямблии</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_GIARDIA_LAMBLIA_DISCOVERED_DESCRIPTION</LocID>          <Text>В образце кала с помощью иммунохроматографического экспресс-теста выявили специфический антиген GSA 65, который в большом количестве продуцирует Giardia Lamblia в кишечнике пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_GRANULOMAS_EYES</LocID>                                 <Text>Гранулёмы глаза</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_GRANULOMAS_EYES_DESCRIPTION</LocID>                     <Text>Офтальмологическое обследование выявило у пациента гранулёмы, затрагивающие глаза.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_GRANULOMAS_HEART</LocID>                                <Text>Гранулёмы сердца</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_GRANULOMAS_HEART_DESCRIPTION</LocID>                    <Text>МРТ выявила гранулёмы, поражающие сердце.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_GRANULOMAS_LUNGS</LocID>                                <Text>Гранулёмы легких</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_GRANULOMAS_LUNGS_DESCRIPTION</LocID>                    <Text>Рентген выявил гранулёмы, поражающие легкие.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_GUILLAIN-BARRE_FINDINGS</LocID>                         <Text>Синдром Гийена-Барре</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_GUILLAIN-BARRE_FINDINGS_DESCRIPTION</LocID>             <Text>Анализ спинномозговой жидкости выявил многочисленные признаки синдрома Гийена-Барре.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_H._PYLORI_DETECTED</LocID>                              <Text>Обнаружена helicobacter pylori</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_H._PYLORI_DETECTED_DESCRIPTION</LocID>                  <Text>Исследование показало наличие специфических антител, указывающих на Helicobacter pylori.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HAND_BURSAE_INFLAMMED</LocID>                           <Text>Воспаление суставной сумки запястья</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HAND_BURSAE_INFLAMMED_DESCRIPTION</LocID>               <Text>УЗИ показало воспалительные изменения в синовиальных сумках запястья и кисти пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HAND_PENETRATION</LocID>                                <Text>Проникающее ранение головы</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HAND_PENETRATION_DESCRIPTION</LocID>                    <Text>Проникающее ранение головы стало причиной глубокой раны.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HAPTOGLOBIN_HIGH</LocID>                                <Text>Низкий уровень гаптоглобина</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HAPTOGLOBIN_HIGH_DESCRIPTION</LocID>                    <Text>Лабораторные тесты показали снижение уровня гаптоглобина.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEART_ATTACK</LocID>                                    <Text>Сердечный приступ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEART_ATTACK_DESCRIPTION</LocID>                        <Text>На ЭКГ явный сердечный приступ! Кардиограмма: отрицательный зубец T, уменьшение амплитуды зубца R, углубление зубца Q, элевация комплекса ST приобретает форму "кошачьей спинки", характерной для острой фазы инфаркта миокарда.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEART_FAILING</LocID>                                   <Text>Сердечная недостаточность</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEART_FAILING_DESCRIPTION</LocID>                       <Text>ЭхоКГ выявила регургитацию трехстворчатого клапана.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEPATITIS_A_POSITIVE</LocID>                            <Text>Гепатит А - положительный</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEPATITIS_A_POSITIVE_DESCRIPTION</LocID>                <Text>Специфический анализ на антитела против антигена вирусного гепатита А в сыворотке крови пациента обнаружил: anti-HAV IgM при отсутствии anti-HAV IgG, что свидетельствует о его заболевании вирусным гепатитом A.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEPATITIS_B_POSITIVE</LocID>                            <Text>Гепатит B - положительный</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEPATITIS_B_POSITIVE_DESCRIPTION</LocID>                <Text>Лабораторная диагностика выявила антитела anti-HBs против антигена HBsAg вирусного гепатита B, а также a-HBc IgG и a-HBc IgM в сыворотке крови пациента, что свидетельствует о его заболевании вирусным гепатитом B.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HIGH_CHLORIDE_LEVEL</LocID>                             <Text>Высокий уровень хлоридов</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HIGH_CHLORIDE_LEVEL_DESCRIPTION</LocID>                 <Text>Анализ пота показал высокий уровень содержания хлоридов.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HIGH_SUGAR_LEVEL</LocID>                                <Text>Гипергликемия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HIGH_SUGAR_LEVEL_DESCRIPTION</LocID>                    <Text>Анализ крови выявил гипергликемию - клинический симптом, обозначающий значительное увеличение содержания глюкозы (сахара) в сыворотке крови по сравнению с нормой в 3,3-5,5 ммоль/л.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HIP_JOINTS_DAMAGED</LocID>                              <Text>Повреждение тазобедренных суставов</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HIP_JOINTS_DAMAGED_DESCRIPTION</LocID>                  <Text>МРТ выявила поврежденные тазобедренные суставы.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HUMERUS_FRACTURE</LocID>                                <Text>Перелом плеча</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HUMERUS_FRACTURE_DESCRIPTION</LocID>                    <Text>Рентген показал простой перелом плечевой кости.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HUMERUS_FRAGMENTS_FRACTURE</LocID>                      <Text>Оскольчатый перелом плеча</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HUMERUS_FRAGMENTS_FRACTURE_DESCRIPTION</LocID>          <Text>Рентген показал фрагменты костей при переломе плеча.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPERTENSIVE_FINDINGS</LocID>                           <Text>Признаки гипертензии</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPERTENSIVE_FINDINGS_DESCRIPTION</LocID>               <Text>Эхокардиография выявила гипертрофию и ремоделирование левого желудочка, уменьшенный резерв коронарного кровотока и бессимптомную ишемию миокарда.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HISTOPLASMA_DETECTED</LocID>                            <Text>Обнаружена гистоплазма</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HISTOPLASMA_DETECTED_DESCRIPTION</LocID>                <Text>ПЦР-тестирование выявило присутствие гистоплазмы в крови пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHLORINE_DETECTED</LocID>                               <Text>Обнаружен хлор</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHLORINE_DETECTED_DESCRIPTION</LocID>                   <Text>В крови пациента обнаружен хлор.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_IBS-D_CONFIRMED</LocID>                                 <Text>Обнаружен СРК</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_IBS-D_CONFIRMED_DESCRIPTION</LocID>                     <Text>Специальный анализ крови обнаружил признаки синдрома раздраженного кишечника (СРК) - с вздутием, болями и коликами в нижней части живота с преобладанием диареи.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INFLAMMED_BILDUCT</LocID>                               <Text>Воспаление желчного протока</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INFLAMMED_BILDUCT_DESCRIPTION</LocID>                   <Text>Желчные протоки закупорены и воспалены.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INFLAMMED_MYOCARDIUM</LocID>                            <Text>Воспаление миокарда</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INFLAMMED_MYOCARDIUM_DESCRIPTION</LocID>                <Text>МРТ-сканирование выявило признаки воспаления мышц сердца.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INFLAMMED_THYROID</LocID>                               <Text>Воспаление щитовидной железы</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INFLAMMED_THYROID_DESCRIPTION</LocID>                   <Text>Лабораторный анализ биопсии щитовидной железы выявил большое воспаление.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INFLUENZA_A_DETECTED</LocID>                            <Text>Обнаружен вирус гриппа А</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INFLUENZA_A_DETECTED_DESCRIPTION</LocID>                <Text>Специальный тест на серологию обнаружил наличие антигенов вируса гриппа A.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INSOMNIA_REVEALED</LocID>                               <Text>Обнаружена бессонница</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INSOMNIA_REVEALED_DESCRIPTION</LocID>                   <Text>Оценка всех недавних симптомов у пациента свидетельствует о том, что он страдает бессонницей.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INSTEP_CONTUSION</LocID>                                <Text>Ушиб подъёма стопы</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INSTEP_CONTUSION_DESCRIPTION</LocID>                    <Text>Рентген исключил возможный перелом кости.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INTESTINAL_FISTULA</LocID>                              <Text>Кишечный свищ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INTESTINAL_FISTULA_DESCRIPTION</LocID>                  <Text>Рентген с барием показал свищ кишечника, который соединяет две различные части тонкой кишки.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INTRACRANIAL_HEMATOMA</LocID>                           <Text>Внутричерепная гематома</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INTRACRANIAL_HEMATOMA_DESCRIPTION</LocID>               <Text>Компьютерная томография показала внутричерепную гематому.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_KIDNEY_INTERSTITIUM_ABSCESS</LocID>                     <Text>Абсцесс интерстиции почек</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_KIDNEY_INTERSTITIUM_ABSCESS_DESCRIPTION</LocID>         <Text>МРТ обследование выявило интерстициальный абсцесс почки.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_KIDNEY_PROGRESSIVE_DAMAGE</LocID>                       <Text>Нарушения в почках</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_KIDNEY_PROGRESSIVE_DAMAGE_DESCRIPTION</LocID>           <Text>На КТ с введением контрастного вещества обнаружила признаки прогрессирующего повреждения почек.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_KIDNEY_STONES_DISCOVERED</LocID>                        <Text>Обнаружены камни в почках</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_KIDNEY_STONES_DISCOVERED_DESCRIPTION</LocID>            <Text>КТ-обследование показало на снимках множественные и достаточно крупные конкрементные образования в почках.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_KIDNEY_TISSUE_DAMAGED</LocID>                           <Text>Повреждения паренхимы почек</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_KIDNEY_TISSUE_DAMAGED_DESCRIPTION</LocID>               <Text>МРТ тканей почек показала определенный уровень повреждения паренхимы почки.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_KIDNEY_TISSUE_INFLAMMED</LocID>                         <Text>Воспалена ткань почки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_KIDNEY_TISSUE_INFLAMMED_DESCRIPTION</LocID>             <Text>При анализе биопсии были обнаружены признаки воспаления в биоптатах почки.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_KNEE_BURSAE_INFLAMMED</LocID>                           <Text>Воспаление сумки коленного сустава</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_KNEE_BURSAE_INFLAMMED_DESCRIPTION</LocID>               <Text>УЗИ выявило воспаление сумки коленного сустава пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_KNEE_JOINT_DAMAGED</LocID>                              <Text>Повреждение коленного сустава</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_KNEE_JOINT_DAMAGED_DESCRIPTION</LocID>                  <Text>МРТ показало серьезные повреждения коленного сустава.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_KNEE_SPRAIN</LocID>                                     <Text>Растяжение коленных связок</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_KNEE_SPRAIN_DESCRIPTION</LocID>                         <Text>МРТ коленного сустава пациента подтвердила растяжение связок колена.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LACTOSE_INTOLERANCE_DETECTED</LocID>                    <Text>Непереносимость лактозы</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LACTOSE_INTOLERANCE_DETECTED_DESCRIPTION</LocID>        <Text>Специальный тест на переносимость лактозы не выявил повышения уровня сахара после потребления лактозы.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LARYNX_INFECTED</LocID>                                 <Text>Инфекция гортани</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LARYNX_INFECTED_DESCRIPTION</LocID>                     <Text>Инфекция гортани и голосовых связок.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LEAD_LEVELS_HIGH</LocID>                                <Text>Высокий уровень свинца</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LEAD_LEVELS_HIGH_DESCRIPTION</LocID>                    <Text>Очень высокое содержание свинца в крови.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LEG_PENETRATION</LocID>                                 <Text>Проникающее ранение ноги</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LEG_PENETRATION_DESCRIPTION</LocID>                     <Text>Глубокое проникающее ранение ноги.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LEGIONELLA_DETECTED</LocID>                             <Text>Обнаружена Legionella</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LEGIONELLA_DETECTED_DESCRIPTION</LocID>                 <Text>ПЦР-диагностика показала признаки наличия бактерии Legionella pneumophila.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LIVER_CONTUSION</LocID>                                 <Text>Ушиб печени</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LIVER_CONTUSION_DESCRIPTION</LocID>                     <Text>КТ-сканирование выявило повреждение тканей печени, вызванное тупой травмой.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LIVER_LACERATION</LocID>                                <Text>Разрыв печени</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LIVER_LACERATION_DESCRIPTION</LocID>                    <Text>Обследование на FAST УЗИ показало разрыв печени.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOW_HEMATOCRIT</LocID>                                  <Text>Низкий гематокрит</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOW_HEMATOCRIT_DESCRIPTION</LocID>                      <Text>Анализ крови выявил низкий уровень гематокрита (показывает объем красных кровяных клеток в крови).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LUNG_EMBOLISM</LocID>                                   <Text>Эмболия легких</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LUNG_EMBOLISM_DESCRIPTION</LocID>                       <Text>Пульмонологическая ангиография выявила эмболию легких.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LUNG_TISSUE_FINDINGS</LocID>                            <Text>Инфекция в лёгких</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LUNG_TISSUE_FINDINGS_DESCRIPTION</LocID>                <Text>КТ выявила серьезную бактериальную инфекцию в легких и бронхах.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LUPUS_FINDINGS</LocID>                                  <Text>Обнаружена волчанка</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LUPUS_FINDINGS_DESCRIPTION</LocID>                      <Text>Учитывая все симптомы и обследования, всё указывает на диагноз волчанки.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LYME_DISEASE_DETECTED</LocID>                           <Text>Обнаружены антитела к боррелии</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LYME_DISEASE_DETECTED_DESCRIPTION</LocID>               <Text>Серологический тест выявил антитела к бактериям боррелии типа спирохет (болезнь Лайма).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_M._TUBERCULOSIS_DETECTED</LocID>                        <Text>Обнаружен туберкулез</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_M._TUBERCULOSIS_DETECTED_DESCRIPTION</LocID>            <Text>Mycobacterium tuberculosis был обнаружен ПЦР.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MAC_DETECTED</LocID>                                    <Text>Обнаружен MAC</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MAC_DETECTED_DESCRIPTION</LocID>                        <Text>Mycobacterium avium complex был обнаружен ПЦР.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MASTOID_CELLS_INFECTED</LocID>                          <Text>Обнаружен мастоидит</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MASTOID_CELLS_INFECTED_DESCRIPTION</LocID>              <Text>КТ выявила инфекцию ячеистых структур сосцевидного отростка височной кости.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MEDIAN_NERVE_COMPRESSION</LocID>                        <Text>Cдавление срединного нерва</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MEDIAN_NERVE_COMPRESSION_DESCRIPTION</LocID>            <Text>КТ обнаружила сдавление срединного нерва в кисти.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_METATARSAL_FRACTURE</LocID>                             <Text>Перелом плюсневых костей</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_METATARSAL_FRACTURE_DESCRIPTION</LocID>                 <Text>Рентген показал простой перелом плюсневвых костей стопы.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MIGRAINE_DETECTED</LocID>                               <Text>Обнаружена мигрень</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MIGRAINE_DETECTED_DESCRIPTION</LocID>                   <Text>МРТ выявило различные признаки, указывающие на наличие мигрени.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MITRAL_STENOSIS</LocID>                                 <Text>Митральный стеноз</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MITRAL_STENOSIS_DESCRIPTION</LocID>                     <Text>Эхокардиография выявила стеноз митрального клапана сердца.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MITRAL_VALVE_PROLAPSED</LocID>                          <Text>Пролапс митрального клапана</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MITRAL_VALVE_PROLAPSED_DESCRIPTION</LocID>              <Text>Коронарная ангиография обнаружила пролапс митрального клапана.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MUSCLES_INFLAMMED</LocID>                               <Text>Воспаление мышц</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MUSCLES_INFLAMMED_DESCRIPTION</LocID>                   <Text>МРТ обнаружила обширное воспаление мышц и кожи.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MYOCARDIAL_CONTUSION</LocID>                            <Text>Ушиб миокарда</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MYOCARDIAL_CONTUSION_DESCRIPTION</LocID>                <Text>Эхокардиография выявила ушиб миокарда.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MYOCARDIAL_SCARRING</LocID>                             <Text>Рубцевание миокарда</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MYOCARDIAL_SCARRING_DESCRIPTION</LocID>                 <Text>Выявилось, как результат инфаркта миокарда и некоторых наследственных заболеваний сердца.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NARROWED_ARTERIES</LocID>                               <Text>Сужение артерий</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NARROWED_ARTERIES_DESCRIPTION</LocID>                   <Text>Ангиография обнаружила суженные артерии, которые необходимо лечить хирургическим путем.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NASAL_OBSTRUCTION</LocID>                               <Text>Заложенность носа</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NASAL_OBSTRUCTION_DESCRIPTION</LocID>                   <Text>Заложенность носа вызывает затруднение дыхания и раздражение вокруг носа.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NASAL_VIRAL_INFECTION</LocID>                           <Text>Носовая вирусная инфекция</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NASAL_VIRAL_INFECTION_DESCRIPTION</LocID>               <Text>Осмотр полости носа выявил вирусную инфекцию в носу пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NECK_BONE_SPURS</LocID>                                 <Text>Шпоры в костях шеи</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NECK_BONE_SPURS_DESCRIPTION</LocID>                     <Text>МРТ обнаружила шпоры в костях шеи.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NEUROMYELITIS_DISCOVERED</LocID>                        <Text>Обнаружен нейромиелит</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NEUROMYELITIS_DISCOVERED_DESCRIPTION</LocID>            <Text>МРТ выявила признаки нейромиелита зрительного нерва (воспаление и демиелинизация зрительного нерва).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NO_PULSE_PRESENT</LocID>                                <Text>Пульс отсутствует</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NO_PULSE_PRESENT_DESCRIPTION</LocID>                    <Text>Пульс пациента не ощущается (прикосновением пальца).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OBSTRUCTED_AIRWAYS</LocID>                              <Text>Обструкция дыхательных путей</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OBSTRUCTED_AIRWAYS_DESCRIPTION</LocID>                  <Text>Спирометрия показала, что у пациента обструктивная болезнь легких.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OLECRANON_BURSAE_INFLAMMED</LocID>                      <Text>Воспаленные сумок локтевого отростка</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OLECRANON_BURSAE_INFLAMMED_DESCRIPTION</LocID>          <Text>УЗИ показало, что у пациента воспаление сумок локтевого отростка.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OPEN_HEAD_WOUND</LocID>                                 <Text>Открытая рана головы</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OPEN_HEAD_WOUND_DESCRIPTION</LocID>                     <Text>Пациент получил открытую рану головы.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OPTIC_NERVE_ATROPHY</LocID>                             <Text>Атрофия зрительного нерва</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OPTIC_NERVE_ATROPHY_DESCRIPTION</LocID>                 <Text>Функциональная неврологическая МРТ выявила атрофию зрительного нерва.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OTOSCLEROSIS_DISCOVERED</LocID>                         <Text>Обнаружен отосклероз</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OTOSCLEROSIS_DISCOVERED_DESCRIPTION</LocID>             <Text>КТ показало аномальное утолщение костной ткани вблизи соединения среднего уха с внутренним ухом.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OUT-OF-PLACE_ANKLE</LocID>                              <Text>Вывих лодыжки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OUT-OF-PLACE_ANKLE_DESCRIPTION</LocID>                  <Text>Рентген визуально деформированной и смещенной лодыжки пациента подтвердил ее вывих.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OUT-OF-PLACE_KNEE</LocID>                               <Text>Вывих коленного сустава</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OUT-OF-PLACE_KNEE_DESCRIPTION</LocID>                   <Text>Рентген визуально деформированного и смещенного колена пациента подтвердил вывих коленного сустава.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OUT-OF-PLACE_SHOULDER</LocID>                           <Text>Вывих плечевого сустава</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OUT-OF-PLACE_SHOULDER_DESCRIPTION</LocID>               <Text>Рентген визуально деформированного и смещенного плеча пациента подтвердил вывих его сустава.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OUTER_EAR_INFECTED</LocID>                              <Text>Инфекция наружного уха</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OUTER_EAR_INFECTED_DESCRIPTION</LocID>                  <Text>При визуальном обследовании внешнего ушного канала обнаружена бактериальная инфекция.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_P._AERUGINOSA</LocID>                                   <Text>Синегнойная палочка</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_P._AERUGINOSA_DESCRIPTION</LocID>                       <Text>Микробиологический посев обнаружил присутствие Psuedomonas aeruginosa, что свидетельствует о наличии инфекции.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_P._MENINGITIS</LocID>                                   <Text>Пневмококковый менингит</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_P._MENINGITIS_DESCRIPTION</LocID>                       <Text>Микробиологический посев спинной жидкости выявил наличие Streptococcus pneumoniae, которая может вызывать менингит.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PANCREATIC_ELASTASE_LOW_LEVEL</LocID>                   <Text>Понижена панкреатическая эластаза</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PANCREATIC_ELASTASE_LOW_LEVEL_DESCRIPTION</LocID>       <Text>Тест на фекальную эластазу показал низкий уровень панкреатической эластазы в образце кала.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PANCREATIC_TISSUE_INFLAMMED</LocID>                     <Text>Воспаление поджелудочной железы</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PANCREATIC_TISSUE_INFLAMMED_DESCRIPTION</LocID>         <Text>КТ выявила значительные признаки воспаления в поджелудочной железе.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PAPULAS_AND_VESICLES</LocID>                            <Text>Папулы и везикулы</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PAPULAS_AND_VESICLES_DESCRIPTION</LocID>                <Text>Физикальное и визуальное обследование выявили на коже пациента красные папулы (узелки) и везикулы (волдыри, заполненные жидкостью полостные образования диаметром менее 5 см, возвышающиеся над поверхностью кожи и содержащие серозную или серозно-кровянистую жидкость).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PAROTID_INFECTED</LocID>                                <Text>Инфекция околоушной железы</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PAROTID_INFECTED_DESCRIPTION</LocID>                    <Text>Серологическое исследование выявило антитела, специфичные для инфекции околоушной слюнной железы.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PENETRATING_KIDNEY_LACERATION</LocID>                   <Text>Разрыв почки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PENETRATING_KIDNEY_LACERATION_DESCRIPTION</LocID>       <Text>Обследование на FAST УЗИ выявило разрыв почки, приводящее к внутреннему кровотечению.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PENETRATING_PANCREAS_LACERATION</LocID>                 <Text>Разрыв поджелудочной железы</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PENETRATING_PANCREAS_LACERATION_DESCRIPTION</LocID>     <Text>Обследование на FAST УЗИ выявило разрыв головки поджелудочной железы, приводящее к кровотечению.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PENETRATING_PULMONARY_LACERATION</LocID>                <Text>Разрыв легкого</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PENETRATING_PULMONARY_LACERATION_DESCRIPTION</LocID>    <Text>Обследование на FAST УЗИ выявило разрыв лёгкого - тяжелое, опасное для жизни патологическое состояние, сопровождающееся нарушением целостности ткани легкого и плевры, приводящее к гемотораксу (кровотечение в плевральную полость).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PENETRATING_SPLEEN_RUPTURE</LocID>                      <Text>Разрыв селезенки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PENETRATING_SPLEEN_RUPTURE_DESCRIPTION</LocID>          <Text>FAST УЗИ выявило разрыв селезёнки, который привёл к массивному внутреннему кровотечению.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PERITONEAL_FLUID_INFECTED</LocID>                       <Text>Внутрибрюшная инфекция</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PERITONEAL_FLUID_INFECTED_DESCRIPTION</LocID>           <Text>Анализ перитонеальной жидкости выявил признаки, которые свидетельствуют о внутрибрюшной инфекции.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PNEUMONIC_LUNGS</LocID>                                 <Text>Симптомы пневмонии</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PNEUMONIC_LUNGS_DESCRIPTION</LocID>                     <Text>Рентген показал наличие экссудата (жидкости) в лёгких пациента. Основываясь на данных результатах, а также на осмотре пациента, всё указывает на пневмонию.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_POLYMYOSITIS_FINDINGS</LocID>                           <Text>Обнаружен полимиозит</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_POLYMYOSITIS_FINDINGS_DESCRIPTION</LocID>               <Text>ЭМГ мышц пациента выявила отклонения, которые свидетельствуют о серьезной форме полиомиозита (воспаление мышц и тканей).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PORK_TAPEWORM_PRESENT</LocID>                           <Text>Обнаружен свиной цепень</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PORK_TAPEWORM_PRESENT_DESCRIPTION</LocID>               <Text>При микроскопическом анализе кала было обнаружены онкосферы цепня, а также обнаружены характерные зрелые членики в фекалиях, что указывает на кишечный тениоз (свиной цепень).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PORTAL_VEIN_BLOCKED</LocID>                             <Text>Закупорка воротной вены</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PORTAL_VEIN_BLOCKED_DESCRIPTION</LocID>                 <Text>Компьютерная томография (КТ) с ангиографией (визуализация артерий или вен) обнаружила кровяной сгусток, блокирующий воротную вену.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PSEUDOFRACTURES</LocID>                                 <Text>Зоны Лоозера (псевдопереломы)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PSEUDOFRACTURES_DESCRIPTION</LocID>                     <Text>КТ выявила множественные псевдопереломы в теле пациента. Зоны Лоозера - рентгенологический признак уменьшения плотности кости, сходны с переломами костей, но ими не являются.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PULMONARY_DAMAGE</LocID>                                <Text>Коллапс лёгкого</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PULMONARY_DAMAGE_DESCRIPTION</LocID>                    <Text>Рентгенография выявила повреждение легких, которое привело к пневмотораксу (коллапсу легкого) из-за выхода воздуха из поврежденного легкого в грудную полость.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PULMONARY_HYPERTENSION_DETECTED</LocID>                 <Text>Обнаружена легочная гипертензия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PULMONARY_HYPERTENSION_DETECTED_DESCRIPTION</LocID>     <Text>Эхокардиография (ЭхоКГ) выявила лёгочную гипертензию (повышение лёгочного сосудистого сопротивления).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_R._TYPHI_DETECTED</LocID>                               <Text>Обнаружена R. typhi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_R._TYPHI_DETECTED_DESCRIPTION</LocID>                   <Text>Серология обнаружила антигены Rickettsia typhi (возбудитель сыпного тифа) в сыворотке крови пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RABIES_DETECTED</LocID>                                 <Text>Обнаружено бешенство</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RABIES_DETECTED_DESCRIPTION</LocID>                     <Text>Проведённое ПЦР-исследование (полимеразная цепная реакция) выявило в образце крови пациента присутствие вируса бешенства.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RADIUS_FRACTURE</LocID>                                 <Text>Перелом лучевой кости</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RADIUS_FRACTURE_DESCRIPTION</LocID>                     <Text>На рентгеновском снимке выявлен простой перелом лучевой кости предплечья.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RAYNAUD'S_FINDINGS</LocID>                              <Text>Болезнь Рейно</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RAYNAUD'S_FINDINGS_DESCRIPTION</LocID>                  <Text>Полное физикальное обследование пациента выявило классические симптомы, указывающие на болезнь Рейно.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RENAL_HYPERTENSION</LocID>                              <Text>Почечная гипертензия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RENAL_HYPERTENSION_DESCRIPTION</LocID>                  <Text>Биопсия ткани почек у пациента показала признаки повреждения почек, вызывающие системную гипертензию.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RETINA_SCARRING</LocID>                                 <Text>Рубцевание сетчатки глаза</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RETINA_SCARRING_DESCRIPTION</LocID>                     <Text>Ангиография обнаружила поврежденные участки сетчатки.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RETINOPATHY_DISCOVERED</LocID>                          <Text>Обнаружена ретинопатия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RETINOPATHY_DISCOVERED_DESCRIPTION</LocID>              <Text>Офтальмоскопия показала повреждение кровеносных сосудов сетчатки, вызывающее ретинопатию.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RIBS_FRACTURE</LocID>                                   <Text>Перелом ребер</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RIBS_FRACTURE_DESCRIPTION</LocID>                       <Text>Рентгеновский снимок выявил множественные переломы ребер.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RH._FEVER</LocID>                                       <Text>Ревматическая лихорадка</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RH._FEVER_DESCRIPTION</LocID>                           <Text>ЭКГ выявила симптомы ревматической лихорадки, затрагивающей сердце.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RHEUMATOID_FACTOR</LocID>                               <Text>Ревматоидный фактор</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RHEUMATOID_FACTOR_DESCRIPTION</LocID>                   <Text>Серологические тесты выявили наличие ревматоидного фактора в образце крови пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RSV_AND_ADVS_PRESENT</LocID>                            <Text>Присутствие РСВ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RSV_AND_ADVS_PRESENT_DESCRIPTION</LocID>                <Text>Серологическое исследование обнаружило присутствие антител респираторно-синцитиального вируса человека.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_S-IBM_FINDINGS</LocID>                                  <Text>Найден спорадический миозит с включениями</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_S-IBM_FINDINGS_DESCRIPTION</LocID>                      <Text>ЭМГ (электромиография) показала результаты, указывающие на спорадический миозит с включениями.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_S._MENINGITIS</LocID>                                   <Text>Обнаружена S. meningitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_S._MENINGITIS_DESCRIPTION</LocID>                       <Text>Анализ спинномозговой жидкости пациента выявил наличие стафилококков, что является признаком менингита.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_S._PYOGENES_PRESENT</LocID>                             <Text>Обнаружена S. pyogenes</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_S._PYOGENES_PRESENT_DESCRIPTION</LocID>                 <Text>Бактериальный посев подтвердил присутствие Streptococcus pyogenes.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SALMONELLA_TYPHI_DETECTED</LocID>                       <Text>Обнаружена S. typhi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SALMONELLA_TYPHI_DETECTED_DESCRIPTION</LocID>           <Text>Бактериальный посев выявил Salmonella typhi в образце крови пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SALMONELLOSIS_CONFIRMED</LocID>                         <Text>Сальмонеллез подтвержден</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SALMONELLOSIS_CONFIRMED_DESCRIPTION</LocID>             <Text>Бактериальный посев подтвердил инфекцию сальмонеллы в образце стула пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SCLERA_CHANGES</LocID>                                  <Text>Изменения склеры</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SCLERA_CHANGES_DESCRIPTION</LocID>                      <Text>УЗИ показало изменения в склере, которые указывают на аутоиммунное воспаление склеры.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SCLEROTIC_LIVER_TISSUE</LocID>                          <Text>Склероз тканей печени</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SCLEROTIC_LIVER_TISSUE_DESCRIPTION</LocID>              <Text>При повреждении тканей печени часть тканей заменяется рубцовой тканью, которая намного грубее, чем здоровая ткань. Также данная ткань утрачивает способность выполнять обычные функции в печени.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SCRATCHED_CORNEA</LocID>                                <Text>Порез роговицы</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SCRATCHED_CORNEA_DESCRIPTION</LocID>                    <Text>Гониоскопическое обследование показало небольшую травму роговицы, из-за попадания инородного тела в глаз.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SCOLIOTIC_FINDINGS</LocID>                              <Text>Сколиотические изменения позвоночника</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SCOLIOTIC_FINDINGS_DESCRIPTION</LocID>                  <Text>Физикальное обследование и рентгенография показали аномальные (сколиотические) искривления позвоночника пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SHIFTED_VERTEBRA</LocID>                                <Text>Переломы и вывихи позвонков</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SHIFTED_VERTEBRA_DESCRIPTION</LocID>                    <Text>Рентгенография показала у пациента на снимке переломы и вывихи позвонков.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SHOULDER_SPRAIN</LocID>                                 <Text>Растяжение связок плеча</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SHOULDER_SPRAIN_DESCRIPTION</LocID>                     <Text>Обследование МРТ плеча пациента подтвердило растяжение.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SPATULA_TEST_POSITIVE</LocID>                           <Text>Положительный результат теста со шпателем</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SPATULA_TEST_POSITIVE_DESCRIPTION</LocID>               <Text>Оценка симптомов пациента была завершена с помощью теста с медицинским шпателем (сокращение жевательных мышц при ударе по шпателю, лежащему на зубах нижней челюсти), который показал тризм (спазм жевательных мышц) и тем самым подтвердил столбняк.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STOOL_CONTAINING_BACTERIAS</LocID>                      <Text>Campylobacter в кале</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STOOL_CONTAINING_BACTERIAS_DESCRIPTION</LocID>          <Text>Бактериальный посев образца кала пациента подтвердил наличие Campylobacter.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STREP_SKIN_INFECTION</LocID>                            <Text>Стрептококковая инфекция кожи</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STREP_SKIN_INFECTION_DESCRIPTION</LocID>                <Text>Посев соскоба кожи подтвердил заражение стрептококками.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STREPTOBACILLUS_DETECTED</LocID>                        <Text>Обнаружены стрептобациллы</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STREPTOBACILLUS_DETECTED_DESCRIPTION</LocID>            <Text>Серологическое исследование выявило антитела, специфичные для Streptobacillus - рода аэробных, грамотрицательных бактерий.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STRESS_VERTEBRAL_FRACTURE</LocID>                       <Text>Стрессовый перелом в позвоночнике</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STRESS_VERTEBRAL_FRACTURE_DESCRIPTION</LocID>           <Text>МРТ показала небольшой усталостный перелом одного поясничного позвонка. В отличие от перелома вызванного одним сильным ударом, стрессовые переломы - результат накопившихся микротравм от циклических нагрузок.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SUPERFICIAL_THROMBOSIS</LocID>                          <Text>Поверхностный тромбоз</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SUPERFICIAL_THROMBOSIS_DESCRIPTION</LocID>              <Text>УЗИ показало поверхностный тромбоз вен.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SWOLLEN_PERICARDIUM</LocID>                             <Text>Воспаление перикарда</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SWOLLEN_PERICARDIUM_DESCRIPTION</LocID>                 <Text>КТ выявила отёк и раздражение перикарда (воспаление мешка, в котором находится сердце).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_T._PEDIS_DETECTED</LocID>                               <Text>Обнаружен опоясывающий лишай</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_T._PEDIS_DETECTED_DESCRIPTION</LocID>                   <Text>Посев грибка доказал, что на подошвах ног и между пальцев есть признаки дерматофитии.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TBE_DETECTED</LocID>                                    <Text>Обнаружен КВЭ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TBE_DETECTED_DESCRIPTION</LocID>                        <Text>В анализе СМЖ (спинномозговой жидкости) обнаружен клещевой вирусный энцефалит.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TIBIA_FRACTURE</LocID>                                  <Text>Перелом большеберцовой кости</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TIBIA_FRACTURE_DESCRIPTION</LocID>                      <Text>Рентген показал простой перелом большеберцовой кости.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TIBIA_SPIRAL_FRACTURE</LocID>                           <Text>Спиральный перелом большеберцовой кости</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TIBIA_SPIRAL_FRACTURE_DESCRIPTION</LocID>               <Text>Рентген показал сложный спиральный перелом большеберцовой кости.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THALASSEMIA_DISCOVERED</LocID>                          <Text>Обнаружена талассемия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THALASSEMIA_DISCOVERED_DESCRIPTION</LocID>              <Text>Анализы крови показали результат, который похож на признак талассемии.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THORAX_CONTUSION</LocID>                                <Text>Ушиб грудной клетки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THORAX_CONTUSION_DESCRIPTION</LocID>                    <Text>Рентген не показал каких-либо сломанных костей у пациента с ушибом грудной клетки.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TOXOPLASMOSIS_DETECTED</LocID>                          <Text>Обнаружен токсоплазмоз</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TOXOPLASMOSIS_DETECTED_DESCRIPTION</LocID>              <Text>Серологическое исследование выявило токсоплазмоз в анализе крови пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TRAUMATIC_AORTIC_RUPTURE</LocID>                        <Text>Травматический разрыв аорты</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TRAUMATIC_AORTIC_RUPTURE_DESCRIPTION</LocID>            <Text>Пациент пережил травматический разрыв аорты, что привело к обширному внутреннему кровоизлиянию.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TRAUMATIC_CARDIAC_ARREST</LocID>                        <Text>Травматическая остановка сердца</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TRAUMATIC_CARDIAC_ARREST_DESCRIPTION</LocID>            <Text>Пациент пережил остановку сердца в результате травмы грудной клетки.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TRICUSPID_REGURGITATION</LocID>                         <Text>Трикуспидальная недостаточность</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TRICUSPID_REGURGITATION_DESCRIPTION</LocID>             <Text>Эхокардиография выявила регургитацию трехстворчатого клапана.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THROMBOCYTOPENIA_DETECTED</LocID>                       <Text>Обнаружена тромбоцитопения</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THROMBOCYTOPENIA_DETECTED_DESCRIPTION</LocID>           <Text>Исследование образцов крови выявило низкий уровень тромбоцитов (ниже 150тыс/мл).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TRYPANOSOMA_DETECTED</LocID>                            <Text>Обнаружена трипаносома</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TRYPANOSOMA_DETECTED_DESCRIPTION</LocID>                <Text>Серологическое исследование выявило антитела к Trypanosoma cruzi в анализе крови пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TSH_LEVEL_HIGH</LocID>                                  <Text>TSH - высокий уровень</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TSH_LEVEL_HIGH_DESCRIPTION</LocID>                      <Text>Высокий уровень TSH (тиреотропин - стимулирующий гормон щитовидной железы) в крови указывает на снижение функций щитовидной железы.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TSH_LEVEL_LOW</LocID>                                   <Text>TSH - низкий уровень</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TSH_LEVEL_LOW_DESCRIPTION</LocID>                       <Text>Низкий уровень TSH (тиреотропин - стимулирующий гормон щитовидной железы) в крови указывает на гипертиреоз (гиперактивность щитовидной железы).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TUBULUS_INFLAMMED</LocID>                               <Text>Явления пиелонефрита</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TUBULUS_INFLAMMED_DESCRIPTION</LocID>                   <Text>Лабораторный анализ биоптата, взятого из почки, выявил воспалительный процесс с поражением канальцевой (тубулярной) системы почек.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TYMPANIC_MEMBRANE_INFLAMMED</LocID>                     <Text>Воспаление барабанной перепонки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TYMPANIC_MEMBRANE_INFLAMMED_DESCRIPTION</LocID>         <Text>Отоскопическое обследование выявило воспаление барабанной перепонки.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ULCERS_IN_COLON_DISCOVERED</LocID>                      <Text>Язвы кишечника</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ULCERS_IN_COLON_DISCOVERED_DESCRIPTION</LocID>          <Text>Специализированный диагностический метод под названием КТ-энтерография выявил множественные язвы в толстой кишке пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ULNA_FRACTURE</LocID>                                   <Text>Перелом локтевой кости</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ULNA_FRACTURE_DESCRIPTION</LocID>                       <Text>Рентген выявил простой перелом локтевой кости.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ULNA_FRAGMENTS_FRACTURE</LocID>                         <Text>Оскольчатый перелом локтевой кости</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ULNA_FRAGMENTS_FRACTURE_DESCRIPTION</LocID>             <Text>Рентген выявил множество костных фрагментов в сломанной локтевой кости.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ULNAR_NERVE_COMPRESSION</LocID>                         <Text>Защемление локтевого нерва</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ULNAR_NERVE_COMPRESSION_DESCRIPTION</LocID>             <Text>Тестирование электромиографией мышц, контролируемых локтевым нервом указывает на защемление локтевого нерва.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_URETHRAL_STONES_DETECTED</LocID>                        <Text>Обнаружен камень в мочеточнике</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_URETHRAL_STONES_DETECTED_DESCRIPTION</LocID>            <Text>УЗИ показало большой камень, блокирующий мочеточник (трубку, соединяющую почки и мочевой пузырь).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VARICES_IN_OESOPHAGUS</LocID>                           <Text>Варикозное расширение вен в пищеводе</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VARICES_IN_OESOPHAGUS_DESCRIPTION</LocID>               <Text>Гастроскопия показала множество варикозно расширенных вен в пищеводе.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VEIN_OCCLUSION</LocID>                                  <Text>Центральная окклюзия вен сетчатки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VEIN_OCCLUSION_DESCRIPTION</LocID>                      <Text>Ангиография показала окклюзию (закупорку) вен в сетчатке.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VIBRIO_CHOLERAE_DETECTED</LocID>                        <Text>Обнаружены холерные вибрионы</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VIBRIO_CHOLERAE_DETECTED_DESCRIPTION</LocID>            <Text>Посев бактериологического материала из образца стула выявило наличие грамотрицательных факультативно анаэробных подвижных бактерий Vibrio cholerae.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VIRAL_INFECTION_OF_OESOPHAGUS</LocID>                   <Text>Инфекция пищевода</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VIRAL_INFECTION_OF_OESOPHAGUS_DESCRIPTION</LocID>       <Text>Гастроскопия обнаружила обширную инфекцию пищевода у пациента, приведшую к абсцессу.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WHITE_PATCHES_ON_TONSILS</LocID>                        <Text>Белые пятна на миндалинах</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WHITE_PATCHES_ON_TONSILS_DESCRIPTION</LocID>            <Text>Обесцвечивание или белые пятна на миндалинах указывают на воспалительный процесс в горле пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WIDESPREAD_PAINFUL_RASH</LocID>                         <Text>Обширная болезненная сыпь</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WIDESPREAD_PAINFUL_RASH_DESCRIPTION</LocID>             <Text>Путем визуального осмотра пациента была обнаружена обширная, болезненная сыпь, охватывающая все тело.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WRIST_CONTUSION</LocID>                                 <Text>Ушиб запястья</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WRIST_CONTUSION_DESCRIPTION</LocID>                     <Text>Рентгенологическое обследование показало отсутствие переломов костей у пациента с ушибом запястья.</Text>  </GameDBLocalizedString>
+
+            <!-- Surgery complication symptoms -->
+            <GameDBLocalizedString>      <LocID>SYM_CARDIAC_TAMPONADE</LocID>                               <Text>Тампонада сердца</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CARDIAC_TAMPONADE_DESCRIPTION</LocID>                   <Text>Опасное для жизни послеоперационное состояние, при котором перикард (мешочек, окружающий сердце) заполняется кровью, что затрудняет работу сердца.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLEEDING_FROM_THE_WOUND</LocID>                         <Text>Хирургическое кровотечение</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLEEDING_FROM_THE_WOUND_DESCRIPTION</LocID>             <Text>Кровотечение из хирургического разреза.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WOUND_INFECTION</LocID>                                 <Text>Заражение раны</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WOUND_INFECTION_DESCRIPTION</LocID>                     <Text>Инфекция хирургической раны.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRAIN_SWELLING</LocID>                                  <Text>Отек мозга</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRAIN_SWELLING_DESCRIPTION</LocID>                      <Text>Отек головного мозга, вызванный хирургическим вмешательством.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UNSTABLE_BLOOD_PRESSURE</LocID>                         <Text>Нестабильное кровяное давление</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UNSTABLE_BLOOD_PRESSURE_DESCRIPTION</LocID>             <Text>Нестабильное кровяное давление как реакция на хирургическое вмешательство.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEIZURES</LocID>                                        <Text>Послеоперационные судороги</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEIZURES_DESCRIPTION</LocID>                            <Text>Короткие эпизоды приступов, судороги (внезапные непроизвольные мышечные движения), вызванные аномальной активностью нейронов в послеоперационный период.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ABSCESS</LocID>                                         <Text>Абсцесс</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ABSCESS_DESCRIPTION</LocID>                             <Text>Появление ограниченного очага нагноения внутри ткани вокруг хирургической раны.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ALVEOLAR_COLLAPSE</LocID>                               <Text>Альвеолярный стаз</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ALVEOLAR_COLLAPSE_DESCRIPTION</LocID>                   <Text>Коллапс мельчайших частей легочной ткани (альвеол) после седации и механической вентиляции во время операции.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEPSIS</LocID>                                          <Text>Сепсис</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEPSIS_DESCRIPTION</LocID>                              <Text>Послеоперационное осложнение и опасное для жизни состояние, вызванное ответом организма на инфекцию.</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

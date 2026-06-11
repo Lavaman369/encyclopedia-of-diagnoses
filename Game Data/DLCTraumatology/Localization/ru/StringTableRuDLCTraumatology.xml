@@ -1,0 +1,385 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_RU_DLC_TRAUMATOLOGY">
+
+        <LanguageCode>ru</LanguageCode>
+        <LanguageNameLocalized>Русский</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>DLC_TRAUMATOLOGY</LocID>                                       <Text>Дополнение «Отделение травматологии»</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>DPT_TRAUMATOLOGY_DEPARTMENT</LocID>                            <Text>Травматология</Text>  </GameDBLocalizedString>
+
+            <!-- Hospitalization alias -->
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_BURN_CENTER</LocID>                        <Text>Госпитализация в ожоговую палату</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_BURN_CENTER_DESCRIPTION</LocID>            <Text>Госпитализация пациента в ожоговую палату с особым уходом.\n\nНеобходимая комната: Ожоговая палата</Text>  </GameDBLocalizedString>
+
+            <!--ROOMS-->
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_BURN_UNIT</LocID>                                    <Text>Ожоговая палата</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_BURN_UNIT_DESCRIPTION</LocID>                        <Text>В ожоговой палате производится лечение ожогов всех видов.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_TRAUMATOLOGY_OFFICE</LocID>                          <Text>Кабинет травматологии</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_TRAUMATOLOGY_OFFICE_DESCRIPTION</LocID>              <Text>В кабинете отделения травматологии проводят простые осмотры и лечение больных. Требования к персоналу:\n1 травматолог</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_TRAUMATOLOGY_OFFICE</LocID>                <Text>Кабинет диагностики</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_TRAUMATOLOGY_OFFICE_DESCRIPTION</LocID>    <Text>Кабинет диагностики в отделении травматологии обеспечивает осмотр и лечебные процедуры для госпитализированных пациентов. \n\nМин. персонал: \n1 травматолог \n(из персонала ординаторской)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_TRAUMATOLOGY</LocID>  <Text>Кардиографический кабинет</Text>  </GameDBLocalizedString>
+
+            <!-- SKILLS-->
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_TRAUMATOLOGY</LocID>                            <Text>Травматология</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_TRAUMATOLOGY_DESCRIPTION</LocID>                <Text>Травматологи специализируются на лечении серьезных физических травм, требующих немедленного медицинского внимания.</Text>	</GameDBLocalizedString>
+                                                                                                            
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_TRAUMA_SURGERY</LocID>                          <Text>Хирургия травм</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_TRAUMA_SURGERY_DESCRIPTION</LocID>              <Text>Хирург травматологии специализируется на сложных хирургических операциях, необходимых при травмах и политравмах.</Text>	</GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]BuildingMode.xml -->
+            <!-- DLC OBJECTS - some objects share descriptions with other objects in the base game so only their names need to be translated -->
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_DLC_HELICOPTER_01</LocID>                     <Text>Вертолет</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_DLC_HELICOPTER_01_DESCRIPTION</LocID>         <Text>Вертолет</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_DLC_HELIPORT</LocID>                             <Text>Вертолет</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>PREFAB_OBJECT_DLC_HELIPORT_DESCRIPTION</LocID>                 <Text>Вертолет доставляет в больницу наиболее сильно пострадавших пациентов.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_MARKER_HELIPORT</LocID>                             <Text>Фонарь вертолетной площадки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_HELIPAD_LIGHT_RED</LocID>                               <Text>Фонарь вертолетной площадки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_HELIPAD_LIGHT_GREEN</LocID>                             <Text>Фонарь вертолетной площадки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DLC_MARKER_HELIPORT_DESCRIPTION</LocID>                 <Text>Фонари вертолетной площадки дают визуальные подсказки для ночных приземлений.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_TALL_X</LocID>                        <Text>Шкафчик для инструментов — высокий</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_TRAUMA1</LocID>                                  <Text>Постер — несчастные случаи</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_TRAUMA2</LocID>                                  <Text>Постер — доноры крови</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LIFE_MONITOR_WALL_X</LocID>                             <Text>Монитор показателей жизнедеятельности — настенный</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TRAUMA_TOOLS</LocID>                                    <Text>Инструменты травматолога</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_TRAUMA_TOOLS_DESCRIPTION</LocID>                        <Text>Особый набор медицинских инструментов, подходящих для всех комнат отделения травматологии.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_EQUIPMENT_CABINET_X</LocID>                             <Text>Шкафчик для инструментов</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_BED_SOCKET_X</LocID>                                    <Text>Крепление для кровати</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_BURN_UNIT</LocID>                                 <Text>Ожоговая палата</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_CABINET_BEDSIDE_X</LocID>                               <Text>Прикроватная тумбочка</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_FUTURISTIC_BED</LocID>                        <Text>Высокотехнологичная больничная кровать</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_FUTURISTIC_BED_DESCRIPTION</LocID>            <Text>Современная кровать со стеклянными боковыми ограждениями.</Text>  </GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_ONLY_FLOORS_WITH_ELEVATORS</LocID>                 <Text>можно разместить лишь на этажах, доступных через лифты.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOT_ALLOWED_ROOF_ABOVE</LocID>                                 <Text>нельзя разместить под другими этажами.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_TRAUMATOLOGY</LocID>                   <Text>Шаблоны комнат отделения травматологии</Text>  </GameDBLocalizedString>
+
+
+            <!-- TILES-->
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_WHITE_ROAD</LocID>                      	     	   <Text>Белая дорожка</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_YELLOW_ROAD</LocID>                           	   <Text>Желтая дорожка</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_LINE_YELLOW</LocID>                           	   <Text>Дорожка с желтой полосой</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_LINE_WIDE_WHITE</LocID>                             <Text>Дорожка с широкой белой полосой</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_LINE_WIDE_YELLOW</LocID>                            <Text>Дорожка с широкой желтой полосой</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_WARNING_LINES_L</LocID>                             <Text>Предостерегающие линии</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>FLOOR_TYPE_WARNING_LINES_R</LocID>                             <Text>Предостерегающие линии</Text>  </GameDBLocalizedString>
+                                                                                                            
+            <!-- OCCUPATIONS-->                                                                             
+            <GameDBLocalizedString>      <LocID>OCCUPATION_POLICE</LocID>                         	     	   <Text>Полицейский</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OCCUPATION_FIREFIGHTER</LocID>                                 <Text>Пожарный</Text>	</GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Tutorial.xml -->
+            <!-- ============== -->
+            <!--EVENTS ACCIDENTS-->
+            <!-- ============== -->
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_TD_ROBBERY</LocID>                          <Text>Нам только что сообщили о вооруженном ограблении с перестрелкой на улицах центра города. Все подозреваемые задержаны, и аварийные службы уже перевозят раненых в ближайшие больницы. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_TD_FIRE</LocID>                             <Text>В жилом квартале города загорелся небоскреб. Здание окружено пожарными и полицией, которые эвакуируют жильцов. Вашей больнице нужно ждать большого количества больных с ожогами.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_TD_POWERPLANT</LocID>                       <Text>На местной электростанции произошел взрыв, приведший к пожару. Все аварийные службы уже на месте, и перевозят раненых в ближайшие больницы.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_TD_TERRORIST</LocID>                        <Text>В местном аэропорту произошла террористическая атака. Полиция закрыла весь аэропорт, и оттуда сообщают о большом количестве мертвых и раненых. Машины скорой помощи уже перевозят наиболее тяжело пострадавших жертв в ближайшие больницы.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_TD_SHOOTOUT</LocID>                         <Text>Полицейская погоня за угнанной инкассаторской машиной, сопровождаемая перестрелкой, привела к большому количеству пострадавших по всему маршруту.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_TD_FOREST</LocID>                           <Text>Пожарные команды сражаются с огромным лесным пожаром, выгнавшим из дома тысячи людей, сотни из которых получили различные травмы. Больницы в данном регионе должны быть готовы к увеличению числа пациентов с серьезными травмами.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_TD_PYRO</LocID>                             <Text>В городском порту взорвался склад с пиротехническими изделиями. Взрыв поджег ближайшие здания и нанес серьезные травмы сотням людей. Аварийные службы перевозят раненых в местные больницы.</Text>  </GameDBLocalizedString>
+
+
+            <!--SYMPTOMS-->
+            <GameDBLocalizedString>      <LocID>SYM_LARGE_ARTERIES_DAMAGED</LocID>                    <Text>Повреждение крупных артерий</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LARGE_ARTERIES_DAMAGED_DESCRIPTION</LocID>        <Text>Некоторые крупные артерии пациента повреждены, что может привести к угрозе жизни.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOXIA</LocID>                                   <Text>Гипоксия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOXIA_DESCRIPTION</LocID>                       <Text>Гипоксия — это состояние, вызываемое падением уровня кислорода в крови.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOTHERMIA</LocID>                               <Text>Гипотермия</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HYPOTHERMIA_DESCRIPTION</LocID>                   <Text>Гипотермия — это состояние, вызванное падением внутренней температуры тела.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FOREIGN_OBJECT_PRESENT</LocID>                    <Text>Присутствие инородного объекта</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FOREIGN_OBJECT_PRESENT_DESCRIPTION</LocID>        <Text>В ране все еще присутствует инородный объект или его фрагменты, что может привести к серьезным осложнениям.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LIVER_DAMAGED</LocID>                             <Text>Повреждение печени</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LIVER_DAMAGED_DESCRIPTION</LocID>                 <Text>Серьезное внутреннее повреждение печени, что может привести к осложнениям, угрожающим жизни.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SPLEEN_DAMAGED</LocID>                            <Text>Повреждение селезенки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SPLEEN_DAMAGED_DESCRIPTION</LocID>                <Text>Серьезное внутреннее повреждение селезенки, что может привести к осложнениям, угрожающим жизни.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LUNGS_PERFORATED</LocID>                          <Text>Перфорация легких</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LUNGS_PERFORATED_DESCRIPTION</LocID>              <Text>Перфорация мембран и тканей легких.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PANCREAS_DAMAGED</LocID>                          <Text>Повреждение поджелудочной железы</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PANCREAS_DAMAGED_DESCRIPTION</LocID>              <Text>Серьезное внутреннее повреждение тканей поджелудочной железы, что может привести к осложнениям, угрожающим жизни.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_KIDNEY_DAMAGED</LocID>                            <Text>Повреждение почки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_KIDNEY_DAMAGED_DESCRIPTION</LocID>                <Text>Серьезное внутреннее повреждение тканей почки, что может привести к осложнениям, угрожающим жизни.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STOMACH_PERFORATED</LocID>                        <Text>Перфорация желудка</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STOMACH_PERFORATED_DESCRIPTION</LocID>            <Text>Перфорация желудка, которая может привести к осложнениям, угрожающим жизни.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SMALL_INTESTINE_PERFORATED</LocID>                <Text>Перфорация тонкой кишки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SMALL_INTESTINE_PERFORATED_DESCRIPTION</LocID>    <Text>Серьезная перфорация тонкой кишки, которая может привести к осложнениям, угрожающим жизни.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LARGE_INTESTINE_PERFORATED</LocID>                <Text>Перфорация толстой кишки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LARGE_INTESTINE_PERFORATED_DESCRIPTION</LocID>    <Text>Серьезная перфорация толстой кишки, которая может привести к осложнениям, угрожающим жизни.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TIBIAL_FRACTURE</LocID>                           <Text>Перелом большеберцовой кости</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TIBIAL_FRACTURE_DESCRIPTION</LocID>               <Text>Перелом большеберцовой кости — одной из основных костей голени.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FEMORAL_FRACTURE</LocID>                          <Text>Перелом бедренной кости</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FEMORAL_FRACTURE_DESCRIPTION</LocID>              <Text>Перелом бедренной кости — кости, являющейся основой бедра</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ULNAR_FRACTURE</LocID>                            <Text>Перелом локтевой кости</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ULNAR_FRACTURE_DESCRIPTION</LocID>                <Text>Перелом локтевой кости — одной из двух костей, расположенных в предплечье.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RADIAL_FRACTURE</LocID>                           <Text>Перелом лучевой кости</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RADIAL_FRACTURE_DESCRIPTION</LocID>               <Text>Перелом лучевой кости — одной из двух костей, расположенных в предплечье.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HUMERAL_FRACTURE</LocID>                          <Text>Перелом плечевой кости</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HUMERAL_FRACTURE_DESCRIPTION</LocID>              <Text>Перелом плечевой кости — кости, расположенной в области плеча.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FRAGMENTED_RIBS</LocID>                           <Text>Перелом ребер</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_FRAGMENTED_RIBS_DESCRIPTION</LocID>               <Text>Перелом и/или фрагментация ребер.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLISTERS</LocID>                                  <Text>Волдыри</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLISTERS_DESCRIPTION</LocID>                      <Text>Небольшой «карман» жидкости, расположенной между верхним слоем кожи (эпидермисом) и более глубокими слоями, чаще всего появляющийся в результате повреждения кожи трением или высокой температурой.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DESQUAMATION</LocID>                              <Text>Шелушение</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DESQUAMATION_DESCRIPTION</LocID>                  <Text>Состояние, в котором организм сбрасывает верхний слой кожи.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DARK_SKIN</LocID>                                 <Text>Потемнение кожи</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DARK_SKIN_DESCRIPTION</LocID>                     <Text>Аномальное потемнение кожи</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NECROSIS</LocID>                                  <Text>Некроз</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NECROSIS_DESCRIPTION</LocID>                      <Text>Преждевременная смерть тканей тела, вызванная собственными энзимами. Вызывается недостаточным поступлением крови в ткани тела. Может быть вызван травмами, радиацией или воздействием химических веществ. Некроз является необратимым процессом.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SYM_GUNSHOT_WOUND</LocID>                             <Text>Огнестрельная рана</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_GUNSHOT_WOUND_DESCRIPTION</LocID>                 <Text>Обычная или сквозная рана, вызванная пулей, выпущенной из огнестрельного оружия.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BALLISTIC_WOUND</LocID>                           <Text>Баллистическая рана</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BALLISTIC_WOUND_DESCRIPTION</LocID>               <Text>Обычная или сквозная рана, вызванная небольшим объектом, движущимся на большой скорости.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STAB_WOUND</LocID>                                <Text>Колотая рана</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STAB_WOUND_DESCRIPTION</LocID>                    <Text>Рана, вызванная уколом острого предмета.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PENETRATING_WOUND</LocID>                         <Text>Проникающая рана</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PENETRATING_WOUND_DESCRIPTION</LocID>             <Text>Рана, вызванная проникновением в тело инородного предмета.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLAST_WOUND</LocID>                               <Text>Взрывная рана</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLAST_WOUND_DESCRIPTION</LocID>                   <Text>Рана или раны, вызванные взрывом.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BURN_WOUND</LocID>                                <Text>Ожоговая рана</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BURN_WOUND_DESCRIPTION</LocID>                    <Text>Ожоговая рана, вызванная высокой или низкой температурой, электричеством, химикатами, трением или радиацией, воздействует на кожу и/или прочие ткани тела.</Text>  </GameDBLocalizedString>
+
+            <!--DIAGNOSES-->
+            <!--migrated-->
+            <GameDBLocalizedString>      <LocID>TRM_PLPX</LocID>                   <Text>Легочный разрыв</Text>  </GameDBLocalizedString>
+            
+            <!--brand new-->
+            <GameDBLocalizedString>      <LocID>TRM_003</LocID>                    <Text>Гепатоспленический разрыв</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_003_DESCRIPTION</LocID>        <Text>Происходит в тех случаях, когда в тело проникает объект, одновременно повреждающий печень и селезенку.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_004</LocID>                    <Text>Спленопанкреатический разрыв</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_004_DESCRIPTION</LocID>        <Text>Происходит в тех случаях, когда в тело проникает объект, одновременно повреждающий поджелудочную и селезенку.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_005</LocID>                    <Text>Огнестрельная рана верхней части живота</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_005_DESCRIPTION</LocID>        <Text>Физическая травма, вызванная пулей, выпущенной из огнестрельного оружия и попавшей в верхнюю часть живота пациента. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_006</LocID>                    <Text>Баллистическая рана живота</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_006_DESCRIPTION</LocID>        <Text>Баллистическая травма, вызванная попаданием в тело небольшого предмета, летевшего на большой скорости, что привело к серьезным повреждениям костей, сосудов и нервов, а также травме мягких тканей — в животе пациента. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_007</LocID>                    <Text>Огнестрельная рана груди</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_007_DESCRIPTION</LocID>        <Text>Физическая травма, вызванная пулей, выпущенной из огнестрельного оружия, и попавшей в грудную клетку пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_008</LocID>                    <Text>Баллистическая рана шеи</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_008_DESCRIPTION</LocID>        <Text>Баллистическая травма, вызванная попаданием в тело небольшого предмета, летевшего на большой скорости, что привело к серьезным повреждениям костей, сосудов и нервов, а также травме мягких тканей в шее пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_009</LocID>                    <Text>Баллистическая рана руки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_009_DESCRIPTION</LocID>        <Text>Баллистическая травма, вызванная попаданием в тело небольшого предмета, летевшего на большой скорости, что привело к серьезным повреждениям костей, сосудов и нервов, а также травме мягких тканей в верхней конечности пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_010</LocID>                    <Text>Баллистическая рана ноги</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_010_DESCRIPTION</LocID>        <Text>Баллистическая травма, вызванная попаданием в тело небольшого предмета, летевшего на большой скорости, что привело к серьезным повреждениям костей, сосудов и нервов, а также травме мягких тканей в нижней конечности пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_011</LocID>                    <Text>Рваная рана живота</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_011_DESCRIPTION</LocID>        <Text>Политравма, вызванная проникновением в тело объекта, пробившего кожу и нанесшего сильные повреждения всем системам и органам в этой области.</Text>  </GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_012</LocID>                    <Text>Колотая рана живота</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_012_DESCRIPTION</LocID>        <Text>Колотая рана — это особый вид проникающего ранения, вызванного уколом ножа или иного заостренного предмета.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_013</LocID>                    <Text>Колотая рана груди</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_013_DESCRIPTION</LocID>        <Text>Колотая рана — это особый вид проникающего ранения, вызванного ударом ножа или иного заостренного предмета.</Text>  </GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_014</LocID>                    <Text>Рваная рана шеи</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_014_DESCRIPTION</LocID>        <Text>Политравма, вызванная проникновением в тело объекта, пробившего кожу и нанесшего сильные повреждения всем системам и органам в этой области.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_015</LocID>                    <Text>Рваная рана руки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_015_DESCRIPTION</LocID>        <Text>Политравма, вызванная проникновением в тело объекта, пробившего кожу и нанесшего сильные повреждения всем системам и органам в этой области.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_016</LocID>                    <Text>Рваная рана ноги</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_016_DESCRIPTION</LocID>        <Text>Политравма, вызванная проникновением в тело объекта, пробившего кожу и нанесшего сильные повреждения всем системам и органам в этой области.</Text>  </GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_017</LocID>                    <Text>Взрывная травма живота</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_017_DESCRIPTION</LocID>        <Text>Взрывная травма — это комплексный тип физической травмы, являющейся следствием прямого или непрямого воздействия взрыва.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_018</LocID>                    <Text>Взрывная травма груди</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_018_DESCRIPTION</LocID>        <Text>Взрывная травма — это комплексный тип физической травмы, являющейся следствием прямого или непрямого воздействия взрыва.</Text>  </GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_019</LocID>                    <Text>Слабое обморожение рук</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_019_DESCRIPTION</LocID>        <Text>Обморожение — это потенциально серьезная травма, вызванная длительным воздействием на части тела температуры ниже нуля.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_020</LocID>                    <Text>Серьезное обморожение рук</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_020_DESCRIPTION</LocID>        <Text>Обморожение — это потенциально серьезная травма, вызванная длительным воздействием на части тела температуры ниже нуля.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_021</LocID>                    <Text>Слабое обморожение ног</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_021_DESCRIPTION</LocID>        <Text>Обморожение — это потенциально серьезная травма, вызванная длительным воздействием на части тела температуры ниже нуля.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_022</LocID>                    <Text>Серьезное обморожение ног</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_022_DESCRIPTION</LocID>        <Text>Обморожение — это потенциально серьезная травма, вызванная длительным воздействием на части тела температуры ниже нуля.</Text>  </GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_023</LocID>                    <Text>Химический ожог руки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_023_DESCRIPTION</LocID>        <Text>Химический ожог, вызванный контактом с кислотой, щелочью или окислителем, серьезно повреждающим ткани тела.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_024</LocID>                    <Text>Химический ожог торса</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_024_DESCRIPTION</LocID>        <Text>Химический ожог, вызванный контактом с кислотой, щелочью или окислителем, серьезно повреждающим ткани тела.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TRM_025</LocID>                    <Text>Удар молнии</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_025_DESCRIPTION</LocID>        <Text>Редкая травма, вызванная прямым или непрямым попаданием молнии.</Text>  </GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_026</LocID>                    <Text>Ожог током высокого напряжения</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_026_DESCRIPTION</LocID>        <Text>Электрический ожог вызывается прохождением через тело электрического тока. В отличие от более заметных тепловых или химических ожогов, вызывает больше субдермальных повреждений.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_032</LocID>                    <Text>Ожог током низкого напряжения</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_032_DESCRIPTION</LocID>        <Text>Электрический ожог вызывается прохождением через тело электрического тока. В отличие от более заметных тепловых или химических ожогов, вызывает больше субдермальных повреждений.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRM_027</LocID>                    <Text>Радиационный дерматит</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_027_DESCRIPTION</LocID>        <Text>Радиационный или рентгеновский дерматит является побочным эффектом радиационной терапии.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_028</LocID>                    <Text>Микроволновой ожог</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_028_DESCRIPTION</LocID>        <Text>Ожог, вызванный микроволновым излучением. В отличие от прочих радиационных ожогов, микроволновые ожоги являются тепловыми.</Text>  </GameDBLocalizedString>
+            
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_029</LocID>                    <Text>Тепловой ожог руки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_029_DESCRIPTION</LocID>        <Text>Тепловые ожоги вызываются контактом с раскаленным объектом или жидкостью.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_030</LocID>                    <Text>Тепловой ожог ноги</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_030_DESCRIPTION</LocID>        <Text>Тепловые ожоги вызываются контактом с раскаленным объектом или жидкостью.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_031</LocID>                    <Text>Серьезный тепловой ожог</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_031_DESCRIPTION</LocID>        <Text>Тепловые ожоги вызываются контактом с раскаленным объектом или жидкостью.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TRM_033</LocID>                    <Text>Солнечный ожог</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_033_DESCRIPTION</LocID>        <Text>Болезненное покраснение кожи вследствие чрезмерного воздействия ультрафиолетового света (из естественного или искусственных источников).</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TRM_034</LocID>                    <Text>Укус ядовитого паука</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_034_DESCRIPTION</LocID>        <Text>Укусы ядовитых пауков вызывают крохотные красные волдыри, которые часто болят и чешутся. Впрыснутый яд также может вызвать более серьезные симптомы.</Text>  </GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRM_035</LocID>                    <Text>Укус гремучей змеи</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_035_DESCRIPTION</LocID>        <Text>Укусы змей обычно отличаются двумя ранками, проколотыми клыками. Требуют срочного определения вида змеи и подбора правильного противоядия.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_036</LocID>                    <Text>Укус змеи-медянки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_036_DESCRIPTION</LocID>        <Text>Укусы змей обычно отличаются двумя ранками, проколотыми клыками. Требуют срочного определения вида змеи и подбора правильного противоядия.</Text>  </GameDBLocalizedString>
+
+            <!--MAIN SYMPTOMS-->
+            <GameDBLocalizedString>      <LocID>SYM_PENETRATING_PULMONARY_LACERATION_X</LocID>              <Text>Легочный разрыв</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PENETRATING_PULMONARY_LACERATION_X_DESCRIPTION</LocID>  <Text>Проникающая травма вызвала серьезное повреждение легких пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LIVER_AND_SPLEEN_LACERATED</LocID>                      <Text>Повреждение печени и селезенки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LIVER_AND_SPLEEN_LACERATED_DESCRIPTION</LocID>          <Text>Печень и селезенка пациента серьезно повреждены.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SPLEEN_AND_PANCREAS_LACERATED</LocID>                   <Text>Повреждение селезенки и поджелудочной</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SPLEEN_AND_PANCREAS_LACERATED_DESCRIPTION</LocID>       <Text>Поджелудочная и селезенка пациента серьезно повреждены.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_ABDOMEN_GUNSHOT</LocID>                           <Text>Полость в верхней части живота</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_ABDOMEN_GUNSHOT_DESCRIPTION</LocID>               <Text>Огнестрельная рана верхней части живота пациента. Прохождение пули оставило полость, повредившую ткани вокруг. С высокой вероятностью пострадали и другие органы.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_ABDOMEN_BALLISTICS</LocID>                        <Text>Полость в нижней части живота</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_ABDOMEN_BALLISTICS_DESCRIPTION</LocID>            <Text>Баллистическая рана нижней части живота пациента. Прохождение инородного предмета оставило полость, повредившую ткани вокруг. С высокой вероятностью пострадали и другие органы.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEST_GUNSHOT</LocID>                                   <Text>Полость в груди</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEST_GUNSHOT_DESCRIPTION</LocID>                       <Text>Огнестрельная рана груди пациента. Прохождение пули оставило полость, повредившую ткани вокруг. С высокой вероятностью пострадали и другие органы.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NECK_BALLISTIC_WOUND</LocID>                            <Text>Полость в шее</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NECK_BALLISTIC_WOUND_DESCRIPTION</LocID>                <Text>Баллистическая рана шеи пациента. Прохождение инородного предмета оставило полость, повредившую ткани вокруг. С высокой вероятностью пострадали и другие структуры.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_LIMB_BALLISTIC_WOUND</LocID>                      <Text>Полость в верхней конечности</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_LIMB_BALLISTIC_WOUND_DESCRIPTION</LocID>          <Text>Баллистическая рана верхней конечности пациента. Прохождение инородного предмета оставило полость, повредившую ткани вокруг. С высокой вероятностью пострадали и другие структуры.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_LIMB_BALLISTIC_WOUND</LocID>                      <Text>Полость в нижней конечности</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_LIMB_BALLISTIC_WOUND_DESCRIPTION</LocID>          <Text>Баллистическая рана нижней конечности пациента. Прохождение инородного предмета оставило полость, повредившую ткани вокруг. С высокой вероятностью пострадали и другие структуры.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_ABDOMEN_PENETRATING</LocID>                       <Text>Травма верхней части живота</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_ABDOMEN_PENETRATING_DESCRIPTION</LocID>           <Text>Проникающая рана верхней части живота пациента с высоким риском повреждения других органов и систем организма.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_ABDOMEN_STAB</LocID>                              <Text>Травма нижней части живота</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_ABDOMEN_STAB_DESCRIPTION</LocID>                  <Text>Проникающая рана нижней части живота пациента с высоким риском повреждения других органов и систем организма.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEST_STAB</LocID>                                      <Text>Травма груди</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEST_STAB_DESCRIPTION</LocID>                          <Text>Проникающая рана груди пациента с высоким риском повреждения других органов и систем организма.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NECK_PENETRATING</LocID>                                <Text>Травма шеи</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NECK_PENETRATING_DESCRIPTION</LocID>                    <Text>Проникающая рана шеи пациента с высоким риском повреждения других структур организма.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_LIMB_PENETRATING</LocID>                          <Text>Травма верхней конечности</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_UPPER_LIMB_PENETRATING_DESCRIPTION</LocID>              <Text>Проникающая рана верхней конечности пациента с высоким риском повреждения других структур организма.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_LIMB_PENETRATING</LocID>                          <Text>Травма нижней конечности</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOWER_LIMB_PENETRATING_DESCRIPTION</LocID>              <Text>Проникающая рана нижней конечности пациента с высоким риском повреждения других структур организма.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ABDOMINAL_TRAUMA_EXPLOSION</LocID>                      <Text>Травма живота</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ABDOMINAL_TRAUMA_EXPLOSION_DESCRIPTION</LocID>          <Text>Пациент пострадал от взрыва, воздействие которого пришлось на живот. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEST_TRAUMA_EXPLOSION</LocID>                          <Text>Травма груди</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEST_TRAUMA_EXPLOSION_DESCRIPTION</LocID>              <Text>Грудь пациента пострадала от взрыва, серьезно повредившего ее.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MILD_FROSTBITE_HAND</LocID>                             <Text>Слабое обморожение рук</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MILD_FROSTBITE_HAND_DESCRIPTION</LocID>                 <Text>Слабая форма обморожения рук пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_FROSTBITE_HAND</LocID>                           <Text>Серьезное обморожение рук</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_FROSTBITE_HAND_DESCRIPTION</LocID>               <Text>Серьезная форма обморожения рук пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MILD_FROSTBITE_LEG</LocID>                              <Text>Слабое обморожение ног</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MILD_FROSTBITE_LEG_DESCRIPTION</LocID>                  <Text>Слабая форма обморожения ног пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_FROSTBITE_LEG</LocID>                            <Text>Серьезное обморожение ног</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_FROSTBITE_LEG_DESCRIPTION</LocID>                <Text>Серьезная форма обморожения ног пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEMICAL_BURN_ARM</LocID>                               <Text>Химический ожог руки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEMICAL_BURN_ARM_DESCRIPTION</LocID>                   <Text>Химический ожог руки пациента, вызванный воздействием агрессивных химикатов.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEMICAL_BURN_TORSO</LocID>                             <Text>Химический ожог торса</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHEMICAL_BURN_TORSO_DESCRIPTION</LocID>                 <Text>Химический ожог торса пациента, вызванный воздействием агрессивных химикатов.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SKIN_LESION_LIGHTNING</LocID>                           <Text>Язвы, вызванные молнией</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SKIN_LESION_LIGHTNING_DESCRIPTION</LocID>               <Text>Язвенное поражение кожи, вызванное прямым попаданием молнии.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SUBDERMAL_TISSUE_DAMAGED</LocID>                        <Text>Субдермальное повреждение тканей</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SUBDERMAL_TISSUE_DAMAGED_DESCRIPTION</LocID>            <Text>Субдермальное (скрытое внешним слоем кожи) повреждение тканей.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PIGMENTATION_CHANGES</LocID>                            <Text>Изменение пигментации</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PIGMENTATION_CHANGES_DESCRIPTION</LocID>                <Text>Обнаружено серьезное изменение пигментации.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SKIN_AND_FAT_TISSUE_DAMAGED</LocID>                     <Text>Повреждение кожи и жировой ткани</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SKIN_AND_FAT_TISSUE_DAMAGED_DESCRIPTION</LocID>         <Text>Кожа и жировая ткань между обожженной и необожженной областью показывают признаки расслоения.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THERMAL_BURN_ARM</LocID>                                <Text>Тепловой ожог руки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THERMAL_BURN_ARM_DESCRIPTION</LocID>                    <Text>Признаки теплового ожога руки пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THERMAL_BURN_LEG</LocID>                                <Text>Тепловой ожог ноги</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THERMAL_BURN_LEG_DESCRIPTION</LocID>                    <Text>Признаки теплового ожога ноги пациента.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_THERMAL_BURN</LocID>                             <Text>Серьезный тепловой ожог</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SEVERE_THERMAL_BURN_DESCRIPTION</LocID>                 <Text>Признаки серьезного теплового ожога</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOW_VOLTAGE_BURN</LocID>                                <Text>Ожог током низкого напряжения</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LOW_VOLTAGE_BURN_DESCRIPTION</LocID>                    <Text>Ожог, вызванный воздействием электричества низкого напряжения.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SUNBURNED_SKIN</LocID>                                  <Text>Солнечный ожог кожи</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SUNBURNED_SKIN_DESCRIPTION</LocID>                      <Text>Ожог кожи, вызванный длительным воздействием прямого солнечного света.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLACK_WIDOW_BITE</LocID>                                <Text>Укус черной вдовы</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BLACK_WIDOW_BITE_DESCRIPTION</LocID>                    <Text>Укус ядовитого паука</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RATTLESNAKE_BITE</LocID>                                <Text>Укус гремучей змеи</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RATTLESNAKE_BITE_DESCRIPTION</LocID>                    <Text>Укус ядовитой змеи.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COPPERHEAD_SNAKE_BITE</LocID>                           <Text>Укус змеи-медянки</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COPPERHEAD_SNAKE_BITE_DESCRIPTION</LocID>               <Text>Укус ядовитой змеи.</Text>  </GameDBLocalizedString>
+
+            <!--TREATMENTS-->
+            <GameDBLocalizedString>      <LocID>TRT_ANTIVENOM</LocID>                                       <Text>Противоядие</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIVENOM_DESCRIPTION</LocID>                           <Text>Лечение с помощью антител, связывающих и нейтрализующих определенный яд. \n\nНеобходимая комната: Кабинет/Кабинет диагностики в отд. Травматологии / Реанимации</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CONCETRATED_OXYGEN</LocID>                              <Text>Концентрированный кислород</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CONCETRATED_OXYGEN_DESCRIPTION</LocID>                  <Text>Терапия, основанная на дыхании воздухом, обогащенным кислородом. \n\nНеобходимая комната: Кабинет диагностики / Ожоговая палата в отд. Травматологии / Реанимации / Кабинет неотложной травматологии в отд. Скорой помощи</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_WARMED_IV_FLUIDS</LocID>                                <Text>Теплая жидкость внутривенно</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_WARMED_IV_FLUIDS_DESCRIPTION</LocID>                    <Text>Внутривенное введение жидкостей, нагретых до температуры 38-45°C/100-113°F, чтобы вывести пациента из состояния гипотермии. \n\nНеобходимая комната: Ожоговая палата в отд. Травматологии / Реанимации</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PROTECTIVE_DRESSING</LocID>                             <Text>Защитная перевязка</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PROTECTIVE_DRESSING_DESCRIPTION</LocID>                 <Text>Перевязка бинтами для защиты от инфекции. \n\nНеобходимая комната: Кабинет диагностики / Ожоговая палата в отд. Травматологии / Реанимации / Кабинет неотложной травматологии в отд. Скорой помощи</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_DEBRIDEMENT</LocID>                                     <Text>Очистка раны</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_DEBRIDEMENT_DESCRIPTION</LocID>                         <Text>Медицинская процедура по очистке раны от омертвевших тканей. \n\nНеобходимая комната: Кабинет диагностики / Ожоговая палата в отд. Травматологии / Реанимации / Кабинет неотложной травматологии в отд. Скорой помощи</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BURN_MANAGEMENT</LocID>                                 <Text>Лечение ожогов</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BURN_MANAGEMENT_DESCRIPTION</LocID>                     <Text>Медицинские процедуры для лечения различных ожогов. \n\nНеобходимая комната: Кабинет/Кабинет диагностики/ Ожоговая палата в отд. Травматологии / Реанимации / Кабинет неотложной травматологии в отд. Скорой помощи</Text>	</GameDBLocalizedString>
+
+            <!--SURGERIES-->
+            <GameDBLocalizedString>      <LocID>TRT_SPLENECTOMY</LocID>                                     <Text>Спленектомия</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SPLENECTOMY_DESCRIPTION</LocID>                         <Text>Хирургическая процедура для удаления поврежденной или разорванной селезенки. \n\nНеобходимая комната: Операционная в отд. Травматологии + Реанимация</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HEPATOPLASTY</LocID>                                    <Text>Гепатопластия</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HEPATOPLASTY_DESCRIPTION</LocID>                        <Text>Хирургическая процедура для лечения травмированной печени или ее части. \n\nНеобходимая комната: Операционная в отд. Травматологии + Реанимация</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_GASTRIC_PERFORATION_REPAIR</LocID>                      <Text>Исправление перфорации желудка</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_GASTRIC_PERFORATION_REPAIR_DESCRIPTION</LocID>          <Text>Хирургическая процедура для устранения перфорации желудка. \n\nНеобходимая комната: Операционная в отд. Травматологии + Реанимация</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SMALL_BOWEL_RESECTION</LocID>                           <Text>Резекция тонкой кишки</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SMALL_BOWEL_RESECTION_DESCRIPTION</LocID>               <Text>Хирургическая процедура по удалению части тонкой кишки. \n\nНеобходимая комната: Операционная в отд. Травматологии + Реанимация</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BOWEL_RESECTION</LocID>                                 <Text>Резекция толстой кишки</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BOWEL_RESECTION_DESCRIPTION</LocID>                     <Text>Хирургическая процедура по удалению небольшой части толстой кишки. \n\nНеобходимая комната: Операционная в отд. Травматологии + Реанимация</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PANCREATICOPLASTY</LocID>                               <Text>Панкреопластика</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PANCREATICOPLASTY_DESCRIPTION</LocID>                   <Text>Хирургическая процедура для лечения травмированной поджелудочной или ее части. \n\nНеобходимая комната: Операционная в отд. Травматологии + Реанимация</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_SURGERY</LocID>                                  <Text>Хирургия травм груди</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_SURGERY_ARM</LocID>                              <Text>Хирургия травм верхней конечности</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_SURGERY_LEG</LocID>                              <Text>Хирургия травм нижней конечности</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_SURGERY_DESCRIPTION</LocID>                      <Text>Хирургия травм для пациентов в остром, угрожающем жизни или потенциально угрожающем жизни состоянии, требующем хирургического вмешательства. \n\nНеобходимая комната: Операционная в отд. Травматологии + Реанимация</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_LAPAROSCOPIC_PYELOPLASTY</LocID>                        <Text>Лапароскопическая пиелопластика</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_LAPAROSCOPIC_PYELOPLASTY_DESCRIPTION</LocID>            <Text>Минимально инвазивная хирургическая процедура для лечения почек. \n\nНеобходимая комната: Операционная в отд. Травматологии + Реанимация</Text>	</GameDBLocalizedString>
+
+            <!-- Note: identical descriptions -->
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_FRACTURE_SURGERY_ARM</LocID>                     <Text>Операция на сломанной руке</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_FRACTURE_SURGERY_ARM_DESCRIPTION</LocID>         <Text>Хирургическая операция для фиксации перелома. \n\nНеобходимая комната: Операционная в отд. Травматологии + Реанимация</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_FRACTURE_SURGERY_LEG</LocID>                     <Text>Операция на сломанной ноге</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_FRACTURE_SURGERY_LEG_DESCRIPTION</LocID>         <Text>Хирургическая операция для фиксации перелома. \n\nНеобходимая комната: Операционная в отд. Травматологии + Реанимация</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_FRACTURE_SURGERY_THORAX</LocID>                  <Text>Операция на сломанных ребрах</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_TRAUMA_FRACTURE_SURGERY_THORAX_DESCRIPTION</LocID>      <Text>Хирургическая операция для фиксации перелома. \n\nНеобходимая комната: Операционная в отд. Травматологии + Реанимация</Text>	</GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRT_VASCULAR_SURGERY</LocID>                                <Text>Васкулярная операция</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_VASCULAR_SURGERY_DESCRIPTION</LocID>                    <Text>Хирургическая процедура по сшиванию и исправлению поврежденных артерий. \n\nНеобходимая комната: Операционная в отд. Травматологии + Реанимация</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PULMONARY_SURGERY_X</LocID>                             <Text>Операция на легком</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_PULMONARY_SURGERY_X_DESCRIPTION</LocID>                 <Text>Операция на легких с целью удаления поврежденных участков тканей легких. \n\nНеобходимая комната: Операционная в отд. Травматологии + Реанимация</Text>	</GameDBLocalizedString>
+
+
+            <!--SCENARIO-->
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_J</LocID>                            <Text>Травматология: Большая больница</Text>	</GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>EXM_OPHTHALMOSCOPY_DESCRIPTION</LocID>                      <Text>Осмотр глазного дна с помощью специальных инструментов (офтальмоскопа или фундус-линзы), который позволяет оценить сетчатку, диск зрительного нерва, сосуды глазного дна и определить различную патологию. \n\nНеобходима комната: кабинет врача / наблюдательная палата / кабинет неотложной травматологии / ПИТ / кабинет / кабинет общей диагностики в отделении внутренних болезней / отделение неврологии / Травматология</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRT_ANTI_ARRHYTMICALS_DESCRIPTION_V2</LocID>                <Text>Лекарства обычно назначаются внутривенно или в таблетках, чтобы ослаблять ненормальный сердечный ритм. \n\nНеобходима комната: ПИТ / любой кабинет / диагностический кабинет в отделении скорой помощи / отделение общей хирургии / отделение внутренних болезней / отделение неврологии / Травматология</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_WOUND_CLOSURE_DESCRIPTION_V2</LocID>                    <Text>Процедура зашивания мышц и кожи. \n\nНеобходима комната: кабинет врача / наблюдательная палата / кабинет неотложной травматологии / ПИТ / кабинет диагностики в отделении ортопедии / Травматология</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ACE_INHIBITOR_DESCRIPTION</LocID>                       <Text>Препараты на основе ингибиторов АПФ наиболее широко используются для лечения артериальной гипертензии и сердечной недостаточности. \n\nНеобходима комната: любой кабинет / кабинет общей диагностики кроме отделения неотложной и инфекционной болезней</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIHISTAMINES_DESCRIPTION</LocID>                      <Text>Применяют при лечении аллергии, осуществляющие конкурентную блокаду рецепторов гистамина в организме, которые и отвечают за симптомы аллергии. \n\nНеобходима комната: кабинет врача / наблюдательная палата / ПИТ / кабинет / кабинет общей диагностики в отделении общей хирургии / отделение внутренних болезней / отделение неврологии / Травматология</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    

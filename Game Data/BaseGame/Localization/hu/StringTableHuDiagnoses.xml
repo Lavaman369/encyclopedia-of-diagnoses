@@ -1,0 +1,519 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_HU_DIAGNOSES">
+
+        <LanguageCode>hu</LanguageCode>
+        <LanguageNameLocalized>Magyar</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>CrypterEmerald</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+
+            <!-- ============================ -->
+            <!-- Diagnoses - Emergency -->
+            <!-- ============================ -->
+            <GameDBLocalizedString>      <LocID>DIA_PTI</LocID>                         <Text>Horgasfejű galandféreg</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PTI_DESCRIPTION</LocID>             <Text>Ez a parazita az emberi emésztőrendszerben él. Általában a sertésektől származik, ha azok takarmánya vagy a víz emberi ürülékkel szennyezett. A nem teljesen átsütött sertéshús okozhat fertőzést.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BTI</LocID>                         <Text>Simafejű galandféreg</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BTI_DESCRIPTION</LocID>             <Text>Ez a parazita az emberi emésztőrendszerben él. Általában a szarvasmarháktól származik, ha azok takarmánya vagy a víz emberi ürülékkel szennyezett. A nem teljesen átsütött marhahús okozhat fertőzést.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CKX</LocID>                         <Text>Bárányhimlő</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CKX_DESCRIPTION</LocID>             <Text>A bárányhimlő egy kiemelten fertőző betegség, melyet a varicella zoster vírus okoz. Jellegzetes piros pöttyös kiütést okoz a bőrön, mely viszket és kivakarva csúnya heget hagy maga után.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HRZ</LocID>                         <Text>Övsömör</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HRZ_DESCRIPTION</LocID>             <Text>Az övsömört a varicella-zoster vírus reaktiválódása okozza (ez felelős a bárányhimlőért is). Széles csíkban piros foltokat és hólyagokat eredményez a bőrön. Az övsömör komoly fájdalommal jár.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ONM</LocID>                         <Text>Körömgomba</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ONM_DESCRIPTION</LocID>             <Text>Másnéven Tinea unguium vagy Onychomycosis, az ujjakat és a körmöket megtámadó gombás fertőzés.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ATF</LocID>                         <Text>Lábgomba</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ATF_DESCRIPTION</LocID>             <Text>Másnéven Tinea pedis, angolul Athlete’s foot egy erősen fertőző gombás bőrfertőzés, mely a lábfejet és a körmöket támadja meg.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_IDA</LocID>                         <Text>Vashiányos vérszegénység</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_IDA_DESCRIPTION</LocID>             <Text>A vérszegénység definíció szerint a vér oxigénszállító képessség ének visszaesése. Ezt a vörös vérsejtszám vagy a hemoglobinszám csökkenése okozhatja. A leggyakoribb vérszegénység típus.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LIN</LocID>                         <Text>Laktóz intolerancia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LIN_DESCRIPTION</LocID>             <Text>A laktózintoleranciában szenvedők nem képesek megemészteni a laktózt, mely egy cukorfajta a tejtermékekben. Az így felgyülemlett laktóz puffadást, hasmenést vagy hasi fájdalmat eredményezhet.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CLD</LocID>                         <Text>Megfázás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CLD_DESCRIPTION</LocID>             <Text>A megfázás vagy közönséges nátha egy vírusos fertőzés, amely a felső légutakat, így az orrot és a torkot támadja meg.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ASN</LocID>                         <Text>Arcüreg-\ngyulladás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ASN_DESCRIPTION</LocID>             <Text>Az arcüreg, homloküreg gyulladását jelenti. Megdagadt orcák jellemzik és az arcüregben genny és nyálka halmozódhat fel.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_APH</LocID>                         <Text>Torok-\ngyulladás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_APH_DESCRIPTION</LocID>             <Text>Vírusos vagy bakteriális fertőzés okozta gyulladás a torokban.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ANG</LocID>                         <Text>Bakteriális mandulagyulladás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ANG_DESCRIPTION</LocID>             <Text>Bakteriális fertőzés, mely a mandulák gyulladásához vezet. A leggyakoribb baktériumcsalád, mely ilyen fertőzést okoz, a Streptococcus.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ANV</LocID>                         <Text>Vírusos mandulagyulladás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ANV_DESCRIPTION</LocID>             <Text>Vírusos fertőzés, mely a mandulák gyulladásához vezet.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LAR</LocID>                         <Text>Gégehurut</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LAR_DESCRIPTION</LocID>             <Text>A gégefő gyulladását jelenti. Okozhatja baktérium vagy vírus, illetve egyes esetekben túlzott kiabálás is.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_INF</LocID>                         <Text>Influenza</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_INF_DESCRIPTION</LocID>             <Text>Az Influenza egy gyakori, fertőző betegség, amelyet az influenza nevű vírustörzs okoz.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BRN</LocID>                         <Text>Hörghurut</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BRN_DESCRIPTION</LocID>             <Text>Másnéven hörgőgyulladás, mely az alsó légutakban található hörgők többnyire vírus okozta gyulladása.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HFV</LocID>                         <Text>Szénanátha</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HFV_DESCRIPTION</LocID>             <Text>A szénanátha egy allergiás nátha típus, ami az orr gyulladását okozza és mint minden nátha esetében, túlzott allergiás reakció váltja ki az immunrendszer részéről (pl. pollenek miatt). </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ACD</LocID>                         <Text>Kontakt dermatitisz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ACD_DESCRIPTION</LocID>             <Text>Idegen anyag / allergén anyag okozta érintés miatt kialakult bőrirritáció vagy kiütés.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_GEW</LocID>                         <Text>Golfkönyök</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_GEW_DESCRIPTION</LocID>             <Text>Orvosi kifejezéssel élve medial epicondylitis, melyet jellemzően kisugárzó fájdalom jellemez a könyöktől a csuklóig. Általában sokszor ismétlődő mozdulat okozza, mely irritálja az izmokat és az inakat, melyek az adott mozdulatokért felelősek.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SCS</LocID>                         <Text>Scoliosis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SCS_DESCRIPTION</LocID>             <Text>Másnéven oldalirányú gerincferdülés, általában C vagy S alakban. Többnyire fájdalommentes.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_RYS</LocID>                         <Text>Raynaud betegség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_RYS_DESCRIPTION</LocID>             <Text>A Raynaud betegség hideg és zsibbadt kezeket, ujjakat és lábfejet eredményez a kinti hideg idő hatására.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CFS</LocID>                         <Text>Krónikus fáradtság</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CFS_DESCRIPTION</LocID>             <Text>Ez egy nagyon összetett szindróma, mely nem magyarázható meg az egészég adott állapotával (így tehát orvosilag nincs kiváltó oka).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_INS</LocID>                         <Text>Álmatlanság</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_INS_DESCRIPTION</LocID>             <Text>Az álmatlanság vagy inszomnia rendszeres rossz alvást jelent. Ezt okozhatja a nehéz elalvás, többször felébredés alvás közben és a túl korán kelés.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRM_ACT</LocID>                         <Text>Kar zúzódás</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_ACT_DESCRIPTION</LocID>             <Text>A zúzódást lila folt jelzi a sérült szövet környékén.</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_HCT</LocID>                         <Text>Kézfej zúzódás</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_HCT_DESCRIPTION</LocID>             <Text>A zúzódást lila folt jelzi a sérült szövet környékén.</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_FCT</LocID>                         <Text>Lábfej zúzódás</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_FCT_DESCRIPTION</LocID>             <Text>A zúzódást lila folt jelzi a sérült szövet környékén.</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_ACN</LocID>                         <Text>Boka zúzódás</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_ACN_DESCRIPTION</LocID>             <Text>A zúzódást lila folt jelzi a sérült szövet környékén.</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_LCT</LocID>                         <Text>Láb zúzódás</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_LCT_DESCRIPTION</LocID>             <Text>A zúzódást lila folt jelzi a sérült szövet környékén.</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_CCT</LocID>                         <Text>Mellkasi zúzódás</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_CCT_DESCRIPTION</LocID>             <Text>A zúzódást lila folt jelzi a sérült szövet környékén.</Text>   </GameDBLocalizedString>
+
+            <!-- ============================ -->
+            <!-- Diagnoses - General surgery department-->
+            <!-- ============================ -->
+
+            <GameDBLocalizedString>      <LocID>DIA_HEPA</LocID>                        <Text>Hepatitisz A</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HEPA_DESCRIPTION</LocID>            <Text>A hepatitisz a máj vírusos fertőzése. Az A vírus ürüléken keresztül terjed és jellemzően a rossz higiéniájú területeken gyakori.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HEPB</LocID>                        <Text>Hepatitisz B</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HEPB_DESCRIPTION</LocID>            <Text>A hepatitisz a máj vírusos fertőzése. A B vírus vérrel és szexuális úton, valamint anya és gyermeke között terjed.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_EPI</LocID>                         <Text>Hasnyálmirigy elégtelenség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_EPI_DESCRIPTION</LocID>             <Text>A hasnyálmirigy olyan sérülésére utal, mely befolyásolja a működőképességet. A vékonybélben felszívódó tápanyagok egy része így nem hasznosul, ami táplálkozási zavart okoz.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_THD</LocID>                         <Text>Hashimoto thyreoditis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_THD_DESCRIPTION</LocID>             <Text>Autoimmun pajzsmirigy gyulladás, amely során az immunrendszer tönkreteszi a pajzsmirigyet.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HPT</LocID>                         <Text>Pajzsmirigy alulműködés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HPT_DESCRIPTION</LocID>             <Text>A pajzsmirigy elégtelen működése, melynek során a pajzsmirigy nem termel elegendő hormont.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HRT</LocID>                         <Text>Grave betegség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HRT_DESCRIPTION</LocID>             <Text>A pajzsmirigy túlzott hormon termelése miatt kialakuló belső elválasztású mirigy betegség.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OES</LocID>                         <Text>Nyelőcső gyulladás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OES_DESCRIPTION</LocID>             <Text>A nyelőcső belső falának gyulladása, melyet gyakran a reflux okoz.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OEV</LocID>                         <Text>Nyelőcső visszér</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OEV_DESCRIPTION</LocID>             <Text>Másnéven esophagealis varix, ami az abnormálisra duzzadt ereket jelenti a nyelőcsőben. Általában májbetegség által kiváltott magas vérnyomás okozza.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HBP</LocID>                         <Text>H. pylori fertőzés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HBP_DESCRIPTION</LocID>             <Text>A helicobacter pylori baktérium az emésztőrendszer felső részében található. A gyomorfekély elsőszámú okozója.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_GAU</LocID>                         <Text>Gyomorfekély</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_GAU_DESCRIPTION</LocID>             <Text>Sebet vagy sérülést jelent a gyomorszájnál, patkóbélnél vagy a nyelőcsőben. Leggyakrabban a H. pylori baktérium vagy a hosszútávú, túlzott, nem szteroidos gyulladáscsökkentők használata okozza.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_GAS</LocID>                         <Text>Gyomorhurut</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_GAS_DESCRIPTION</LocID>           	<Text>A gyomor belső falának gyulladása. Többnyire rossz táplálkozás, sok alkohol fogyasztása vagy egyes gyógyszerek túlzott használata okozza. Gyógyítása protonpumpa gátló segítségével, illetve az alkohol mellőzésével és a tünetet kiváltó gyógyszer szedésének befejezésével történik.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_DUO</LocID>                         <Text>Patkóbél gyulladás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_DUO_DESCRIPTION</LocID>             <Text>A patkóbél falának gyulladása, ez a vékonybél első szakasza, kb. 30 cm hosszú és C alakja van.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_APP</LocID>                         <Text>Vakbél gyulladás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_APP_DESCRIPTION</LocID>             <Text>Fertőzés miatt a vakbél megdagad és elzáródik. A vakbél kilyukadása végzetes lehet, ezért a vakbélgyulladás az egyik leggyakoribb ok a hasi műtétre.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CRH</LocID>                         <Text>Crohn betegség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CRH_DESCRIPTION</LocID>             <Text>Emésztőrendszeri gyulladás, mely kiterjed a teljes bélrendszerre. Ismeretlen eredetű betegség, de genetikai, környezeti és autoimmun okai is vannak.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ULC</LocID>                         <Text>Fekélyes vastagbél gyulladás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ULC_DESCRIPTION</LocID>             <Text>A bélrendszeri gyulladások következtében a vastagbélben fekélyek jönnek létre. Ismeretlen eredetű betegség, de genetikai, környezeti és autoimmun okai is vannak.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_IBS</LocID>                         <Text>Irritábilis bélszindróma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_IBS_DESCRIPTION</LocID>             <Text>Krónikus belgyógyászati probléma, mely hosszútávú kezelést igényel. Nem fertőző. Diéta módosítás és gyógyszerek segítségével a tünetek elnyomhatók.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_FDR</LocID>                         <Text>Bakteriális gasztroenteritisz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_FDR_DESCRIPTION</LocID>             <Text>Másnéven gyomor- és bélhurut, ami gyakori belgyógyászati betegség és általában néhány nap alatt elmúlik.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_FOI</LocID>                         <Text>Bél fisztula</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_FOI_DESCRIPTION</LocID>             <Text>A fisztula abnormális anatómiai kapcsolatot jelent két üreges terület között.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PER</LocID>                         <Text>Hashártya gyulladás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PER_DESCRIPTION</LocID>             <Text>A hashártya bakteriális fertőzése. A hashártya egy membrán / hártya, mely a hasfalat és a belső szerveket választja el a hasüregben. A betegség kezelésének elmulasztása szinte minden esetben halálos kimenetelű. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HEF</LocID>                         <Text>Máj fibrózis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HEF_DESCRIPTION</LocID>             <Text>A májon kialakult jelentős mennyiségű sebszövet. Ennek oka állandó gyulladás vagy egy másik májbetegség jelenléte is lehet, melyet vírusos vagy bakteriális fertőzés okozott, továbbá rossz táplálkozás, túlzott alkoholfogyasztás, stb. is állhat a háttérben. Kezelés nélkül májzsugorodást okoz.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CIR</LocID>                         <Text>Májzsugorodás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CIR_DESCRIPTION</LocID>             <Text>A máj hosszútávú károsodásának eredménye, az egészéges szövet helyén sebszövet alakul ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CLT</LocID>                         <Text>Epekő</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CLT_DESCRIPTION</LocID>             <Text>Az epekő jellemzően bilirubinból (epefesték), mely a hem bomlásterméke, epesavból és kálciumból áll össze az epében. Az epekő nem okoz tüneteket, viszont ha elzárja az epecsatornát, veszélyes komplikációkkal járhat.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CLS</LocID>                         <Text>Epehólyag gyulladás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CLS_DESCRIPTION</LocID>             <Text>Fertőzés okozta gyulladás, melyet általában az epehólyag elzáródása okoz (epekő miatt). </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CLA</LocID>                         <Text>Epeút gyulladás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CLA_DESCRIPTION</LocID>             <Text>Fertőzéses betegség, melyet a patkóbélből felszivárgó baktériumok okoznak. Jellemzően az epekő miatt részben elzáródott epevezeték okozza.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_APT</LocID>                         <Text>Hasnyálmirigy gyulladás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_APT_DESCRIPTION</LocID>             <Text>A hasnyálmirigy gyulladását jelenti. Többnyire epekő miatti epevezeték elzáródás vagy túlzott alkoholfogyasztás okozza.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_COE</LocID>                         <Text>Glutén érzékenység</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_COE_DESCRIPTION</LocID>             <Text>Másnéven lisztérzékenység, mely egy autoimmun betegség, aminek során az immunrendszer kilöki a búzában, rozsban és árpában található glutént. Ez a reakció a vékonybél gyulladásához és ezáltal nem megfelelő tápanyag felszívódáshoz vezet.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ANS</LocID>                         <Text>Vese gyulladás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ANS_DESCRIPTION</LocID>             <Text>Pontosabban érgomoly gyulladást jelent a vesében, mely a vese szűrőképességét befolyásolja. Fertőzés vagy autoimmun reakció is okozhatja.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TIN</LocID>                         <Text>Interstitial nephritis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TIN_DESCRIPTION</LocID>             <Text>Szövetek közötti gyulladás, mely a veséket érinti. Fertőzés vagy gyógyszeres kezelés mellékhatása lehet.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PNS</LocID>                         <Text>Pielográfia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PNS_DESCRIPTION</LocID>             <Text>A vese gyulladása, melyet jellemzően a húgycsőből feljutó baktériumok okoznak.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ARF</LocID>                         <Text>Akut veseelégtelenség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ARF_DESCRIPTION</LocID>             <Text>A veseműködés leállását eredményezi, mely ellehetetleníti a vér tisztítását, illetve a vizeletképződést. Számos oka lehet, de legtöbbször szövetsérülés vagy csökkenő véráram okozza a vesében. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CKD</LocID>                         <Text>Krónikus vesebetegség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CKD_DESCRIPTION</LocID>             <Text>A vese idővel egyre nehezebben képes ellátni a feladatát. Leggyakoribb oka a kezeletlen cukorbetegség.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_COK</LocID>                         <Text>Vesekő</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_COK_DESCRIPTION</LocID>             <Text>A vesekő jellemzően koncentrált kálciumból áll. Bár a vesekő általában magától kimosódik a szervezetból a húgyvezetéken át, ez komoly fájdalommal jár.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_COU</LocID>                         <Text>Uréterkő</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_COU_DESCRIPTION</LocID>             <Text>Az uréterkő jellemzően koncentrált kálciumból áll. Bár az uréterkő általában magától kimosódik a szervezetból a húgyvezetéken át, néha azonban elakadhat, ami komoly fájdalommal jár.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CIB</LocID>                         <Text>Hólyagkő</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CIB_DESCRIPTION</LocID>             <Text>A hólyagkő a húgyhólyagban képződhet, ha a vizelet kikristályosodik. Csak akkor jár tünetekkel, ha vizelési gondok merülnek fel.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ACS</LocID>                         <Text>Húgyúti fertőzés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ACS_DESCRIPTION</LocID>             <Text>Másképpen hólyagfertőzés, általában az E. coli felelős ezen fertőzés húgyhólyagban történő kialakulásában, mely jellemzően az emésztőrendszerben található meg. A nők esetében a rövidebb húgyút következtében százszor gyakrabban fordul elő, mint férfiaknál.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_INC</LocID>                         <Text>Interstitial cystitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_INC_DESCRIPTION</LocID>             <Text>Szövetek közötti gyulladás a húgyhólyagban.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRM_LIP</LocID>                         <Text>Máj felszakadás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_LIP_DESCRIPTION</LocID>             <Text>Májsérülés, mely akkor következik be, ha egy objektum keresztülhatol a test szövetein és fizikailag felsérti a májat.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_LIB</LocID>                         <Text>Máj zúzódás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_LIB_DESCRIPTION</LocID>             <Text>A máj megzúzódhat, ha a felsőhasat fizikai trauma éri.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SRB</LocID>                         <Text>Belső léprepedés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SRB_DESCRIPTION</LocID>             <Text>Fizikai behatás vagy sérülés következtében megsérült lép, nyílt seb nélkül.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SRP</LocID>                         <Text>Léphasadás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SRP_DESCRIPTION</LocID>             <Text>Idegen objektum testbe hatolása felsérti és nyílt sebet okoz a lépen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SCB</LocID>                         <Text>Lép zúzódás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SCB_DESCRIPTION</LocID>             <Text>Zúzódás alakulhat ki a lépben, ha a felsőhasat közvetlen fizikai trauma éri.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_PCB</LocID>                         <Text>Hasnyálmirigy zúzódás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_PCB_DESCRIPTION</LocID>             <Text>A hasnyálmirigy megzúzódhat, ha a felsőhasat fizikai trauma éri.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_PLB</LocID>                         <Text>Belső hasnyálmirigy repedés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_PLB_DESCRIPTION</LocID>             <Text>Fizikai behatás vagy sérülés következtében megsérült hasnyálmirigy, nyílt seb nélkül.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_PCP</LocID>                         <Text>Hasnyálmirigy hasadás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_PCP_DESCRIPTION</LocID>             <Text>Idegen objektum testbe hatolása felsérti és nyílt sebet okoz a hasnyálmirigyen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_KLP</LocID>                         <Text>Belső vese repedés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_KLP_DESCRIPTION</LocID>             <Text>Fizikai behatás vagy sérülés következtében megsérült vese, nyílt seb nélkül.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_KCB</LocID>                         <Text>Vese hasadás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_KCB_DESCRIPTION</LocID>             <Text>Zúzódás alakulhat ki a vesében, ha a deréktájat közvetlen fizikai trauma éri.</Text>  </GameDBLocalizedString>
+
+            <!-- ======================================== -->
+            <!-- Diagnoses - Internal medicine department -->
+            <!-- ======================================== -->
+            <GameDBLocalizedString>      <LocID>DIA_CLC</LocID>                         <Text>Kolera</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CLC_DESCRIPTION</LocID>             <Text>Bakteriális fertőzés, ami általában vízben terjed. A modern szennyvízelvezetés és szennyvíz tisztítás sikerrel eltüntette a kolerát az iparosodott országokból.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TYF</LocID>                         <Text>Tífusz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TYF_DESCRIPTION</LocID>             <Text>Bakteriális fertőzés, ami általában vízben és ételben terjed. Iparosodott országokban rendkívül ritka.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SLM</LocID>                         <Text>Salmonellosis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SLM_DESCRIPTION</LocID>             <Text>Salmonella által okozott emésztőrendszeri fertőzés. Az emberekre a fertőzött víz vagy étel elfogyasztása révén terjed. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_AMB</LocID>                         <Text>Amoebiasis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_AMB_DESCRIPTION</LocID>             <Text>Amőbás fertőzés, melyet az Entamoeba histolytica okoz és vízben vagy ürülékkel szennyezett ételben terjed.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_GRD</LocID>                         <Text>Giardia lamblia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_GRD_DESCRIPTION</LocID>             <Text>Az egyik leggyakoribb cseppfertőzéssel terjedő bélrendszeri fertőzés. Közvetlen emberi érintéssel vagy fertőzött étel fogyasztásával is bekerülhet a szervezetbe.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TBC</LocID>                         <Text>Tuberkulózis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TBC_DESCRIPTION</LocID>             <Text>Szabadabb nyelvezetben tüdőbaj, mely rendkívül fertőző bakteriális eredető betegség. Főleg a tödőt, de más belső szervet, vagy akár az agyat is megtámadhatja. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TUL</LocID>                         <Text>Tularaemia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TUL_DESCRIPTION</LocID>             <Text>Fertőzéses betegség, mely a bőrt, a szemeket, a nyirokcsomókat vagy a tüdőt támadja. A Francisella tularensis baktérium okozza. Erősen fertőző és halált is okozhat, azonban hatékonyan fel lehet lépni ellene.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PNA</LocID>                         <Text>Tüdő anthrax</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PNA_DESCRIPTION</LocID>             <Text>Veszélyes fertőzés, melyet a Bacillus anthracis baktérium okoz. A baktérium spóráival terjed. Általában belélegezve, étellel együtt elfogyasztva vagy bőrön keletkezett seben keresztül jut a testbe.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_RBF</LocID>                         <Text>Patkányharapási láz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_RBF_DESCRIPTION</LocID>             <Text>Akut, lázzal járó, bakteriális betegség, melyet a rágcsálók terjesztenek, elsősorban vizeletükben és ürülékükben található meg. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CSD</LocID>                         <Text>Macskakarmolás betegség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CSD_DESCRIPTION</LocID>             <Text>Az Macskakarmolás betegség egy gyakori fertőzéses betegség, melyet a Bartonella henelae okoz. Macskák terjeszthetik, az emberre a karmolásukkal vagy harapásukkal kerülhet át. A baktérium jelenléte emberekben nehezen mutatható ki, mert nagyon sokáig, akár 6 hétig is tarthat a tenyésztés.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PMI</LocID>                         <Text>Nem-TBC típusú tüdőbetegség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PMI_DESCRIPTION</LocID>             <Text>Mycobaktériumos fertőzés, mely nem-tuberkulózis típusú és meglehetősen gyakori. Olyan betegeknél gyakori, akiknek legyengült az immunrendszerük, illetve korábban volt már tüdőbetegségük.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PTS</LocID>                         <Text>Szamárköhögés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PTS_DESCRIPTION</LocID>             <Text>Másnéven pertusszisz, egy erősen fertőző légúti betegség. A Bordetella pertussis baktérium okozza. Mielőtt létezett volna hatásos ellenszere, a szamárköhögést gyermekbetegségnek gondolták. Jellemzően a legyengült immunrendszerű embereket támadja meg.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LEG</LocID>                         <Text>Legionárius betegség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LEG_DESCRIPTION</LocID>             <Text>A Legionella pneumophila baktérium okozza. A betegség veszélyes tüdőgyulladássá fejlődhet, mely emberek között is könnyen terjed. Orvosi segítség nélkül általában halálos betegség.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TPF</LocID>                         <Text>Kiütéses tífusz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TPF_DESCRIPTION</LocID>             <Text>Nem összekeverendő a „klasszikus” tífusszal. A kiütéses tífuszt a Rickettsia Typhi baktérium okozza és a tetvek, illetve bolhák hordozzák. Először 1528-ban dokumentálták. Hirtelen lefolyású betegség, mely hasonló tüneteket produkál, mint az influenza.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_IMN</LocID>                         <Text>Fertőző mononukleózis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_IMN_DESCRIPTION</LocID>             <Text>Általában az Epstein-Barr vírus okozza, mellyel gyermekkorban fertőződhet meg az egyén. Nincs rá gyógymód. 1920-ban csókláz néven dokumentálták.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HPM</LocID>                         <Text>Hisztoplazmózis </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HPM_DESCRIPTION</LocID>             <Text>Gombás fertőzés, melyet a Histoplasma capsulatum gombafaj okoz és amely főként a tüdőt támadja. A tünetek egyénenként változnak. Korábbi fertőzés után részleges immunitás alakul ki. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ASP</LocID>                         <Text>Aspergillosis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ASP_DESCRIPTION</LocID>             <Text>Légúti betegség, mellyet az Aspergillus gombafaj okoz. Ha a beteg immunrendszere legyengült állapotban van, továbbterjedhet a tüdőre is. A tüdőt elérő fertőzést csak műtéti úton lehet eltávolítani.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ATS</LocID>                         <Text>Chagas-kór</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ATS_DESCRIPTION</LocID>             <Text>Más néven amerikai trypanosomiasis, mely egy veszélyes parazitafertőzés, a Trypanosoma cruzi okozza. Orvosi segítség nélkül életveszélyes szív- és emésztőrendszeri komplikációkkal járhat.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TXM</LocID>                         <Text>Toxoplasmosis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TXM_DESCRIPTION</LocID>             <Text>A Toxoplasma gondii nevű parazita okozza. A tünetei hasonlítanak az influenza tüneteihez. Nem kellőképpen megfőzött ételben, illetve macskaürülékben található meg.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BAB</LocID>                         <Text>Babeziózis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BAB_DESCRIPTION</LocID>             <Text>A Babesia parazita okozta parazitafertőzés. Összehasonlítható a maláriával. Kullancsok hordozzák és a Lyme-kór gyakori velejárója.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LYD</LocID>                         <Text>Lyme-kór</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LYD_DESCRIPTION</LocID>             <Text>A közönséges kullancs vagy a szarvas kullancs csípése okozza. Egyidejűleg a Borrelia burgdorferi baktériumot is az emberi testbe juttathatja, amely közvetlen kiváltó oka a betegségnek.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HLA</LocID>                         <Text>Hemolitikus anémia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HLA_DESCRIPTION</LocID>             <Text>A hemolízis, azaz vérsejtoldás következménye, mely a vörös vérsejtek abnormális lebomlását jelenti az erekben, vagy bárhol az emberi testben.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TCP</LocID>                         <Text>Thrombocytopénia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TCP_DESCRIPTION</LocID>             <Text>A vérlemezkék számának jelentős csökkenését jelenti, ezzel lelassítva a véralvadást és a vérrög képződést pl. sebek esetén a vérzés megállítása érdekében.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HPL</LocID>                         <Text>Hemofília</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HPL_DESCRIPTION</LocID>             <Text>Másképp vérzékenység, mely egy örökölt betegség és lassítja a véralvadást. Ennek következtében a vér képtelen időben elállítani a vérzést, így az átlagnál jóval komolyabb vérveszteséget okoz a legkisebb sérülés esetén is.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_THL</LocID>                         <Text>Thalassaemia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_THL_DESCRIPTION</LocID>             <Text>Örökölt betegség, mely abnormális hemoglobin fejlődést okoz, ezáltal kevesebb oxigént képes megkötni és a vörös vérsejt hatékonyságát rontja.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SRCL</LocID>                        <Text>Sarcoidosis - Tüdő</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SRCL_DESCRIPTION</LocID>            <Text>Sejtcsomósodást idéz elő, mely gyulladáshoz vezet a tüdőben. Valamely külső anyag hatására kialakuló abnormális immunreakció eredménye. Nincs ellenszere, de megfelelő gyógyszerek segítségével a betegség megállítható.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SRCE</LocID>                        <Text>Sarcoidosis - Szem</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SRCE_DESCRIPTION</LocID>            <Text>Sejtcsomósodást idéz elő, mely gyulladáshoz vezet a szemben. Valamely külső anyag hatására kialakuló abnormális immunreakció eredménye. Nincs ellenszere, de megfelelő gyógyszerek segítségével a betegség megállítható.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SRCH</LocID>                        <Text>Sarcoidosis - Szív</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SRCH_DESCRIPTION</LocID>            <Text>Sejtcsomósodást idéz elő, mely gyulladáshoz vezet a szívben. Valamely külső anyag hatására kialakuló abnormális immunreakció eredménye. Nincs ellenszere, de megfelelő gyógyszerek segítségével a betegség megállítható.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_DM1</LocID>                         <Text>Diabetes</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_DM1_DESCRIPTION</LocID>             <Text>Más néven cukorbetegség, amely a glükóz lebomlását akadályozza. Többféle diabetes is létezik, de hatására a glükóz szintje jellemzően túl magas a vérben.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CFB</LocID>                         <Text>Cisztás fibrózis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CFB_DESCRIPTION</LocID>             <Text>Örökölt betegség, mely komoly sérülést okozhat a tüdőben visszatérő tüdőgyulladás miatt. Befolyásolja továbbá az emésztőrendszerből felvett tápanyag mennyiséget is.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OTE</LocID>                         <Text>Külsőfül gyulladás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OTE_DESCRIPTION</LocID>             <Text>A hallócsatorna külső részének gyulladása, melyet általában baktérium okoz.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OME</LocID>                         <Text>Középfül gyulladás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OME_DESCRIPTION</LocID>             <Text>Gyulladás vagy fertőzés következtében vérömleny alakul ki a középfülben. Inkább csak gyermekek esetén alakul ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ASO</LocID>                         <Text>ASOM</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ASO_DESCRIPTION</LocID>             <Text>A heveny gennyes középfül gyulladás egy nagyon fájdalmas verziója a középfül gyulladásnak.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_AMT</LocID>                         <Text>Heveny mastoiditis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_AMT_DESCRIPTION</LocID>             <Text>Fertőzéses és gyulladással járó betegség, melyet a halántékcsont mögött található csecsnyúlvány gyulladása okoz. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OTS</LocID>                         <Text>Otosclerosis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OTS_DESCRIPTION</LocID>             <Text>Abnormális csontszövet vastagodást jelent a középfül körül, amely a középfül és a belső fül közti hang terjedésre hat ki, ezáltal hallásvesztést okozva.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OOR</LocID>                         <Text>Fülfolyás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OOR_DESCRIPTION</LocID>             <Text>Másnéven otorrhea, ami a fül gyulladását jelenti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_MUM</LocID>                         <Text>Mumpsz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_MUM_DESCRIPTION</LocID>             <Text>Fültőmirigy gyulladásként is ismert betegség, mely a fültőmirigy fertőzés okozta gyulladását jelenti (egy- vagy mindkét oldali). Baktérium vagy vírus is okozhatja. Létezik megelőző oltás.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PNM</LocID>                         <Text>Tüdőgyulladás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PNM_DESCRIPTION</LocID>             <Text>A tüdőben kialakult fertőzés. Lehet enyhe vagy életveszélyes lefolyású is.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BPN</LocID>                         <Text>Légcső gyulladás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BPN_DESCRIPTION</LocID>             <Text>Elsősorban a hörgőket érintő gyulladásos betegség.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BES</LocID>                         <Text>Hörgőtágulás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BES_DESCRIPTION</LocID>             <Text>A tüdő légutainak megnagyobbodását és sérülését idézi elő.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SCB</LocID>                         <Text>Egyszerű krónikus hörghurut</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SCB_DESCRIPTION</LocID>             <Text>Hosszú lefolyású betegség, régen tartó köhögés állandó irritáció mellett a hörgőknél és a légcsőben.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_EMP</LocID>                         <Text>Emphysema</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_EMP_DESCRIPTION</LocID>             <Text>Más néven tüdőtágulás, melynek során a hólyagocskák - a légzacskók - megsérülnek vagy elhalnak, ezzel légszomjat előidézve még nyugalmi helyzetben is.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CPD</LocID>                         <Text>COPD</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CPD_DESCRIPTION</LocID>             <Text>Magyarul krónikus obstruktív tüdőbetegség, mely gyulladást okoz a tüdőben és ezzel gátolja a levegő áramlását a légutakban.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ASM</LocID>                         <Text>Asztma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ASM_DESCRIPTION</LocID>             <Text>A légutak szűkülésével, megdagadásával és erős nyálkaképződéssel jár. Krónikus légúti betegség és a pontos tünetek mindenkinél másképp jelentkezhetnek, továbbá okozhatja allergiás reakció is.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PMX</LocID>                         <Text>Légmell</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PMX_DESCRIPTION</LocID>             <Text>Másnéven pneumothorax akkor alakul ki, ha a tüdőből a mellkasba jut valamennyi levegő, ezáltal gátolva a tüdő megnagyobbodását levegővételkor.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CEL</LocID>                         <Text>Cellulitisz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CEL_DESCRIPTION</LocID>             <Text>Gyakori bakteriáis bőrfertőzés, melyet jellemzően a streptococci és staphylococci baktériumcsaládok okoznak.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ADS</LocID>                         <Text>Atópiás dermatitisz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ADS_DESCRIPTION</LocID>             <Text>Közismertebb nevén ekcéma, mely bőrpírt és viszketést okoz. Krónikus bőrbetegség.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LUP</LocID>                         <Text>Lupus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LUP_DESCRIPTION</LocID>             <Text>A lupus egy autoimmun betegség. Rendkívül nehéz diagnosztizálni.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRM_CMP</LocID>                         <Text>Szénmonoxid mérgezés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_CMP_DESCRIPTION</LocID>             <Text>Jelentős mennyiségű szénmonoxid belégzésekor alakul ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_CGP</LocID>                         <Text>Klórgáz mérgezés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_CGP_DESCRIPTION</LocID>             <Text>Jelentős mennyiségű klórgáz belégzésekor alakul ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_MTP</LocID>                         <Text>Metilalkohol mérgezés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_MTP_DESCRIPTION</LocID>             <Text>Más néven metanol mérgezés, mely viszonylag ritka mérgezés típus és komoly anyagcsere problémát, vakságot, maradandó idegrendszeri zavarokat vagy halált okozhat.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_LDP</LocID>                         <Text>Ólom mérgezés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_LDP_DESCRIPTION</LocID>             <Text>A testben felhalmozódott ólom okozta mérgezés.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_PCT</LocID>                         <Text>Tüdő zúzódás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_PCT_DESCRIPTION</LocID>             <Text>A mellkast kellő erővel érő fizikai behatás vagy sérülés zúzódást okozhat a tüdőben és annak környezetében.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_PLP</LocID>                         <Text>Tüdő repedés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_PLP_DESCRIPTION</LocID>             <Text>Ha egy idegen tárgy behatol a testbe és felsérti a tüdő szövetét, nyílt seb alakulhat ki. Ez a seb könnyen tovább nőhet, lényegében repedést hozva ezzel létre.</Text>  </GameDBLocalizedString>
+
+            <!-- ====================================== -->
+            <!-- Diagnoses - Orthopaedy -->
+            <!-- ====================================== -->
+            <GameDBLocalizedString>      <LocID>DIA_CTS</LocID>                         <Text>Alagút szindróma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CTS_DESCRIPTION</LocID>             <Text>A csuklóban található mediánus ideg károsodása következtében jöhet létre, amikor az azt körülvevő szövetek nyomást gyakorolnak rá. Fájdalommal és zsibbadással jár a kézfejben. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CUS</LocID>                         <Text>Kubitális csatorna szindróma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CUS_DESCRIPTION</LocID>             <Text>A könyöknél található ulnáris ideg összenyomódásának hatására alakul ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_RAT</LocID>                         <Text>Reumatoid artitisz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_RAT_DESCRIPTION</LocID>             <Text>Más néven izületi csúz, mely egy, az izületeket befolyásoló krónikus autoimmun betegség. Jellemzően megdagadt, fájdalmas és tapintásra meleg izületeket eredményez. A fájdalom és az izületi merevség pihenés után rosszabbodhat. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HOA</LocID>                         <Text>Csípő osteoarthritis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HOA_DESCRIPTION</LocID>             <Text>Az osteoarthritis a porcok leépülését és deformálódását eredményezi az érintett izületben. A csípő esetében nehezíti és fájdalmassá teszi a járást.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_KOA</LocID>                         <Text>Térd osteoarthritis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_KOA_DESCRIPTION</LocID>             <Text>Az egyik leggyakoribb Arthritis típus. A térd porcainak lassú leépülését, illetve fájdalmas és merev izületet eredményez.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_DMS</LocID>                         <Text>Dermatomyositis  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_DMS_DESCRIPTION</LocID>             <Text>Az izmok krónikus, egyre erősödő gyulladása. Tünetei a bőrpír és az idővel gyengülő izmok.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_IBM</LocID>                         <Text>Zárvány myositis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_IBM_DESCRIPTION</LocID>             <Text>Az izmok krónikus, egyre erősödő gyulladása. Az ujjak és a térd hajlításánál a legészrevehetőbb.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PMS</LocID>                         <Text>Polymyositis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PMS_DESCRIPTION</LocID>             <Text>Az izmok krónikus, egyre erősödő gyulladása. Eleinte csupán gyengülést okoz a törzs izomzatában, ahonnan aztán továbbterjed.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SDS</LocID>                         <Text>Spondylolysis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SDS_DESCRIPTION</LocID>             <Text>Másnéven csigolyaív sérülés, mely valamely csigolya sérülését jelenti. Fájdalommal járhat. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SDL</LocID>                         <Text>Csigolya csuszamlás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SDL_DESCRIPTION</LocID>             <Text>Más néven Spondylolisthesis, mely egy csigolya elcsúszását jelenti. Számos oka lehet, pl. elfajulás, sérülés, veleszületett rendellenesség, rosszindulatú elváltozás, stb.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CSL</LocID>                         <Text>Nyaki spondylosis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CSL_DESCRIPTION</LocID>             <Text>A gerinc nyaki szakaszának elváltozását jelenti. Sokszor együtt jár a korosodással kialakuló gerinc elváltozással.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OSM</LocID>                         <Text>Heveny csontvelő gyulladás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OSM_DESCRIPTION</LocID>             <Text>Csontszövetet támadó bakteriális fertőzés. Krónikussá is válhat, melyet rendkívül nehéz kezelni.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CDD</LocID>                         <Text>Gerinccsatorna szűkület</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CDD_DESCRIPTION</LocID>             <Text>A gerinccsatorna abnormális szűkülete a gerincvelőt és az ideggyökereket érinti.  Kellemetlenséget, fájdalmat vagy mozgásképtelenséget eredményezhet az előrehaladottságtól függően.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BOT</LocID>                         <Text>Térd nyáktömlő gyulladás </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BOT_DESCRIPTION</LocID>             <Text>A nyáktömlő egy apró, folyadékot tartalmazó zsák, mely a csont és a súrlódó szövetek közötti behatásokat csillapítja. A gyulladás következtében ez a tömlő dagad meg.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BOH</LocID>                         <Text>Kéz nyáktömlő gyulladás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BOH_DESCRIPTION</LocID>             <Text>A nyáktömlő egy apró, folyadékot tartalmazó zsák, mely a csont és a súrlódó szövetek közötti behatásokat csillapítja. A gyulladás következtében ez a tömlő dagad meg.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_AOM</LocID>                         <Text>Csontpuhulás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_AOM_DESCRIPTION</LocID>             <Text>Másnéven angolkór, mely gyermekkorban alakul ki és a csontok lágyulásához vezet az elégtelen anyagcsere következtében.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TEW</LocID>                         <Text>Teniszkönyök</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TEW_DESCRIPTION</LocID>             <Text>Orvosi kifejezéssel élve lateral epicondylitis, melyet jellemzően kisugárzó fájdalom jellemez a könyöktől a csuklóig. Általában sokszor ismétlődő mozdulat okozza, mely irritálja az izmokat és az inakat, melyek az adott mozdulatokért felelősek.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OLB</LocID>                         <Text>Könyök nyáktömlő gyulladás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_OLB_DESCRIPTION</LocID>             <Text>A nyáktömlő egy apró, folyadékot tartalmazó zsák, mely a csont és a súrlódó szövetek közötti behatásokat csillapítja. A gyulladás következtében ez a tömlő dagad meg.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRM_DWH</LocID>                         <Text>Mély seb a kézen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_DWH_DESCRIPTION</LocID>             <Text>Vérző seb (mély, sima vagy egyenetlen). Össze kell varrni.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_DWA</LocID>                         <Text>Mély seb a karon</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_DWA_DESCRIPTION</LocID>             <Text>Vérző seb (mély, sima vagy egyenetlen). Össze kell varrni.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_DWL</LocID>                         <Text>Mély seb a lábon</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_DWL_DESCRIPTION</LocID>             <Text>Vérző seb (mély, sima vagy egyenetlen). Össze kell varrni.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_DWF</LocID>                         <Text>Mély seb a lábfejen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_DWF_DESCRIPTION</LocID>             <Text>Vérző seb (mély, sima vagy egyenetlen). Össze kell varrni.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SHS</LocID>                         <Text>Váll ficam</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SHS_DESCRIPTION</LocID>             <Text>Ficam során az izületek körüli ínszalagok meghúzódhatnak vagy akár el is szakadhatnak, ha a kelleténél nagyobb terhelésnek vannak kitéve.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SHD</LocID>                         <Text>Kificamodott váll</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SHD_DESCRIPTION</LocID>             <Text>Luxációként is ismert, melynek során a csontok abnormális távolságba kerülnek egymástól. Jellemzően együtt jár a környező szövetek károsodásával.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_KSP</LocID>                         <Text>Térd ficam</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_KSP_DESCRIPTION</LocID>             <Text>Ficam során az izületek körüli ínszalagok meghúzódhatnak vagy akár el is szakadhatnak, ha a kelleténél nagyobb terhelésnek vannak kitéve.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_KDL</LocID>                         <Text>Kificamodott térd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_KDL_DESCRIPTION</LocID>             <Text>Luxációként is ismert, melynek során a csontok abnormális távolságba kerülnek egymástól. Jellemzően együtt jár a környező szövetek károsodásával.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_ASP</LocID>                         <Text>Bokaficam</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_ASP_DESCRIPTION</LocID>             <Text>Ficam során az izületek körüli ínszalagok meghúzódhatnak vagy akár el is szakadhatnak, ha a kelleténél nagyobb terhelésnek vannak kitéve.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_DLA</LocID>                         <Text>Kificamodott boka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_DLA_DESCRIPTION</LocID>             <Text>Luxációként is ismert, melynek során a csontok abnormális távolságba kerülnek egymástól. Jellemzően együtt jár a környező szövetek károsodásával.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_ACL</LocID>                         <Text>Keresztszalag sérülés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_ACL_DESCRIPTION</LocID>             <Text>A térd elülső keresztszalagja felelős a comb és a lábszár csontjainak előremozduló szétválásának megakadályozásáért. Sportolók esetében gyakori sérülés és általában befelé csavarodó mozdulat okozza.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SFU</LocID>                         <Text>Singcsont törés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SFU_DESCRIPTION</LocID>             <Text>A singcsont az alkar egyik csontja, mely a környező szövet és bőr megsértése nélkül tört el.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_OFU</LocID>                         <Text>Nyílt singcsont törés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_OFU_DESCRIPTION</LocID>             <Text>A nyílt törés egy olyan törés típus, melynek során a csont áttöri a környező szöveteket és a bőrt is, ezzel gyakran láthatóvá téve magát a csontot is. A singcsont az alkar egyik csontja.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_CFU</LocID>                         <Text>Komplex singcsont törés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_CFU_DESCRIPTION</LocID>             <Text>Azon nyílt törést jelenti, melynek során a csont szilánkosra törik, ezzel számos apróbb sérülést is okozva. A singcsont az alkar egyik csontja.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SFR</LocID>                         <Text>Orsócsont törés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SFR_DESCRIPTION</LocID>             <Text>Az orsócsont az alkar egyik csontja, mely a környező szövet és bőr megsértése nélkül tört el.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SFH</LocID>                         <Text>Felkarcsont törés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SFH_DESCRIPTION</LocID>             <Text>A felkarcsont egyszerű törése, a környező szövet és bőr megsértése nélküli törést jelenti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_OFH</LocID>                         <Text>Nyílt felkarcsont törés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_OFH_DESCRIPTION</LocID>             <Text>A nyílt törés egy olyan törés típus, melynek során a csont áttöri a környező szöveteket és a bőrt is, ezzel gyakran láthatóvá téve magát a csontot is. A felkarcsont a kar felső részében található.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_CFH</LocID>                         <Text>Komplex felkarcsont törés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_CFH_DESCRIPTION</LocID>             <Text>Azon nyílt törést jelenti, melynek során a csont szilánkosra törik, ezzel számos apróbb sérülést is okozva. A felkarcsont a kar felső részében található.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_BRR</LocID>                         <Text>Bordatörés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_BRR_DESCRIPTION</LocID>             <Text>Egy vagy több borda egyszerű törése, a környező szövet és bőr megsértése nélkül.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SFF</LocID>                         <Text>Combcsont törés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SFF_DESCRIPTION</LocID>             <Text>A combcsont egyszerű törése, a környező szövet és bőr megsértése nélküli törést jelenti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_OFF</LocID>                         <Text>Nyílt combcsont törés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_OFF_DESCRIPTION</LocID>             <Text>A nyílt törés egy olyan törés típus, melynek során a csont áttöri a környező szöveteket és a bőrt is, ezzel gyakran láthatóvá téve magát a csontot is. A combcsont a combban található.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_CFF</LocID>                         <Text>Komplex combcsont törés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_CFF_DESCRIPTION</LocID>             <Text>Azon nyílt törést jelenti, melynek során a csont szilánkosra törik, ezzel számos apróbb sérülést is okozva. A combcsont a combban található.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SFT</LocID>                         <Text>Sípcsont törés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SFT_DESCRIPTION</LocID>             <Text>A sípcsont egyszerű törése, a környező szövet és bőr megsértése nélküli törést jelenti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_OFT</LocID>                         <Text>Nyílt sípcsont törés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_OFT_DESCRIPTION</LocID>             <Text>A nyílt törés egy olyan törés típus, melynek során a csont áttöri a környező szöveteket és a bőrt is, ezzel gyakran láthatóvá téve magát a csontot is. A sípcsont az alsó lábszár nagy csontja.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SPT</LocID>                         <Text>Spirális sípcsont törés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SPT_DESCRIPTION</LocID>             <Text>Spirális törés, melynek során a környező szövet nem sérül meg.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SFI</LocID>                         <Text>Szárkapocscsont törés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SFI_DESCRIPTION</LocID>             <Text>A szárkapocscsont egyszerű törése, a környező szövet és bőr megsértése nélküli törést jelenti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_ANF</LocID>                         <Text>Boka törés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_ANF_DESCRIPTION</LocID>             <Text>Egy vagy több csont törése a bokában, a környező szövet megsértése nélkül.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_MBF</LocID>                         <Text>Lábközépcsont törés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_MBF_DESCRIPTION</LocID>             <Text>Egy vagy több csont törése a lábközépben, a környező szövet megsértése nélkül.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_FOF</LocID>                         <Text>Ujj törés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_FOF_DESCRIPTION</LocID>             <Text>Egy vagy több csont törése az ujjakban, a környező szövet megsértése nélkül.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SFC</LocID>                         <Text>Kulcscsont törés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SFC_DESCRIPTION</LocID>             <Text>A kulcscsont egyszerű törése, a környező szövet és bőr megsértése nélküli törést jelenti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SHC</LocID>                         <Text>Elmozdult kulcscsont törés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_SHC_DESCRIPTION</LocID>             <Text>A kulcscsont törése után a töréstől elmozduló csontdarabokat jelenti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_MNF</LocID>                         <Text>Állkapocs törés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_MNF_DESCRIPTION</LocID>             <Text>Eltört állkapocs. Gyakran kétpontos törést jelent. Akadályozza a száj kinyitását.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_NSF</LocID>                         <Text>Orrtörés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_NSF_DESCRIPTION</LocID>             <Text>Egy vagy több csont törése az orrban, ami általában vérzéssel is jár.</Text>  </GameDBLocalizedString>
+
+            <!-- ===================== -->
+            <!-- Diagnoses - Cardiology-->
+            <!-- ===================== -->
+            <GameDBLocalizedString>      <LocID>DIA_ARR</LocID>                         <Text>Akut reumás láz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ARR_DESCRIPTION</LocID>             <Text>A szívet, izmokat, izületeket és az agyat érintő gyulladásos betegség. Általában streptococcus torokfertőzés után alakul ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_MST</LocID>                         <Text>Mitrális billentyűszűkület</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_MST_DESCRIPTION</LocID>             <Text>A szívben található kétcsúcsú billentyű szűkületét jelenti, mely ezáltal csökkenti a vér áramlásának sebességét.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TRS</LocID>                         <Text>Triscupid billentyű elégtelenség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TRS_DESCRIPTION</LocID>             <Text>A szívben található triscupid billentyű nem képes teljesen bezáródni, ezáltal a vér visszaáramolhat rajta, ezáltal ellenáramlást okozva az erekben.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HHD</LocID>                         <Text>HHD szívbetegség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HHD_DESCRIPTION</LocID>             <Text>Hypertensiv szívbetegségként ismert komplikációk összessége, melyeket a magas vérnyomás okoz és szívelégtelenséghez vezethetnek.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_IHD</LocID>                         <Text>IHD szívbetegség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_IHD_DESCRIPTION</LocID>             <Text>Ischaemiás, másnéven coronaria syndroma, számos szívvel és érrendszerrel kapcsolatos betegség gyűjtőneve, melyeket az artériák meszesedése okoz és szívelégtelenséghez vezethet.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HRD</LocID>                         <Text>Hypertensiv vesebetegség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HRD_DESCRIPTION</LocID>             <Text>A vese valamely betegségének vagy sérülésének következtében kialakuló magas vérnyomást jelenti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ANP</LocID>                         <Text>Szívgörcs</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ANP_DESCRIPTION</LocID>             <Text>Másnéven angina pectoris, mely jelentős mellkasi fájdalommal jár és a szívizomba jutó elégtelen mennyiségű vér okozza. Sok esetben a coronaria syndroma (IHD) tüneteként jelentkezik.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_AMI</LocID>                         <Text>Szívinfarktus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_AMI_DESCRIPTION</LocID>             <Text>Másnéven szívroham akkor következik be, ha a szívizomba nem tud vér áramlani. Az érintett izomszövet könnyen elhalhat, ezzel a beteg életét is jelentős veszélynek téve ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TAA</LocID>                         <Text>Kidülledő mellkasi aorta</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TAA_DESCRIPTION</LocID>             <Text>A mellkasi aorta egy része kitágul és lufiszerűvé alakul. Ez a tágulás kihasadhat, mely azonnali halálhoz vezet.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PEM</LocID>                         <Text>Tüdőembólia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PEM_DESCRIPTION</LocID>             <Text>A tüdő egyik artériájának elzáródását jelenti. Az elzáródást általában mélyvénás trombózis okozza.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ECT</LocID>                         <Text>Endokarditisz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ECT_DESCRIPTION</LocID>             <Text>Másnéven szívbelhártya-gyulladás, mely a szív belső szövetének fertőzése miatt alakul ki. Sok esetben bakteriálisan fertőzött szívbillentyűkről terjed át.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PCT</LocID>                         <Text>Szívburok gyulladás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PCT_DESCRIPTION</LocID>             <Text>A szív körüli burok gyulladását jelenti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_INM</LocID>                         <Text>Szívizom gyulladás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_INM_DESCRIPTION</LocID>             <Text>A szívizom guylladása befolyásolja a szív pumpáló erejét, elektromos jeleit, ezzel csökkentve a szív hatékonyságát, illetve nagy valószínűséggel szívritmuszavart is okoz.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CAR</LocID>                         <Text>Szívleállás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CAR_DESCRIPTION</LocID>             <Text>A szív hirtelen leállását és ezzel a véráram megszűnését jelenti. Szívinfarktus vagy erős szívritmuszavar következménye.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CHF</LocID>                         <Text>Szívelégtelenség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CHF_DESCRIPTION</LocID>             <Text>Szívelégtelenség során a szív képtelen elegendő mennyiségű vért juttatni a test különböző részeibe.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_STK</LocID>                         <Text>Agyvérzés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_STK_DESCRIPTION</LocID>             <Text>Másnéven szélütés, stroke, mely akkor alakul ki, ha az agy egy részébe nem jut elegendő mennyiségű vér, ezzel az agyi sejtek elhalását előidézve.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ATH</LocID>                         <Text>Érelmeszesedés -\nNyaki verőér</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ATH_DESCRIPTION</LocID>             <Text>Érelmeszesedés során a nyaki verőérben felgyülemlenek a vérlemezkék, melyek egymáshoz tapadnak, leszűkítve ezzel az eret, mely végős soron a vér áramlását akadályozza. Akár évtizedekig is tünetmentes lehet, általában 50%-os szűkület esetén kezdenek kialakulni az első tünetek.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TPB</LocID>                         <Text>Tromboflebitisz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TPB_DESCRIPTION</LocID>             <Text>Az erekben fellépő gyulladás következtében vérrögök keletkeznek, melyek elzárják a vér útját.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PVT</LocID>                         <Text>Kapuvéna trombózis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PVT_DESCRIPTION</LocID>             <Text>A kapuvéna (a belek és a máj között) vérrög okozta elzáródása.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PEB</LocID>                         <Text>Tüdő hypertónia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PEB_DESCRIPTION</LocID>             <Text>A szív és a tüdő közötti erekben fellépő magas vérnyomást jelenti. Sokszor a tüdőben keletkező nagy, vagy sok apró vérrög okozza.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PAD</LocID>                         <Text>Perifériás artériás érbetegség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PAD_DESCRIPTION</LocID>             <Text>A végtagokba jutó elégtelen mennyiségű vér (pl. érszükület) miatt kialakuló betegség.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_MVP</LocID>                         <Text>Mitrális prolapsus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_MVP_DESCRIPTION</LocID>             <Text>A szívben található két mitrális billentyű egyike a pitvar felé boltosul a bal kamra összehúzódásakor. Jellemzően szívinfarktus után alakul ki, amely a bal kamra működését befolyásolta.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_DCP</LocID>                         <Text>Dilatatív cardiomyopathia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_DCP_DESCRIPTION</LocID>             <Text>A szív jelentős megduzzadását jelenti, melynek következtében a szív képtelen elegendő mennyiségű vért juttatni a véráramba.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_GCA</LocID>                         <Text>Óriássejtes arteritis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_GCA_DESCRIPTION</LocID>             <Text>Az artéria belső falának gyulladását jelenti, jellemzően a fej oldalsó részén található halánték artériák esetében.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRM_BCI</LocID>                         <Text>Cardialis sérülés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_BCI_DESCRIPTION</LocID>             <Text>Fizikai behatás okozta mellkasi sérülés, melynek következtében a szív is sérülést szenved el.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_FLC</LocID>                         <Text>Ablakos bordatörés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_FLC_DESCRIPTION</LocID>             <Text>Életveszélyes sérülés, melynek során valamilyen külső behatás miatt a mellkas bordái eltörnek és levegővétel során nem mozognak együtt a mellkas többi részével.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_TCA</LocID>                         <Text>Baleseti szívleállás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_TCA_DESCRIPTION</LocID>             <Text>Külső behatás (sérülés, ütés, testbe hatoló tárgy) miatti szívleállás. Azonnali sebészeti beavatkozást igényel, melynek elmulasztása minden esetben halállal végződik.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_TAR</LocID>                         <Text>Aorta repedés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_TAR_DESCRIPTION</LocID>             <Text>Az aorta, vagyis a legnagyobb ér megrepedése jellemzően betegség (aorta anurysma, aorta dissectio), vagy fizikai behatás eredménye. Gyakran halálos kimenetelű a jelentős vérveszteség miatt. </Text>  </GameDBLocalizedString>
+
+            <!-- ===================== -->
+            <!-- Diagnoses - Neurology -->
+            <!-- ===================== -->
+            <GameDBLocalizedString>      <LocID>DIA_TBE</LocID>                         <Text>Kullancs okozta agyvelőgyulladás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TBE_DESCRIPTION</LocID>             <Text>Fertőző betegség, melyet a kullancsok hordoznak és amely az idegrendszerre és az agyra van hatással.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ECS</LocID>                         <Text>Agyvelőgyulladás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ECS_DESCRIPTION</LocID>             <Text>Agyi gyulladás, melyet jellemzően autimmun reakció vagy vírus okoz.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_RAB</LocID>                         <Text>Veszettség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_RAB_DESCRIPTION</LocID>             <Text>Halálos vírus, melyet a fertőzött állatok nyálában lehet megtalálni. Emberre az érintett állat harapásával terjedhet.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PMN</LocID>                         <Text>Pneumococcus meningitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PMN_DESCRIPTION</LocID>             <Text>Másnéven pneumococcal meningitis, mely a gerincvelőt és az agyat befedő membránok gyulladását jelenti pneumococcus fertőzés miatt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SMN</LocID>                         <Text>Staphylococcus meningitis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SMN_DESCRIPTION</LocID>             <Text>Másnéven staphylococcal meningitis, mely a gerincvelőt és az agyat befedő membránok gyulladását jelenti staphylococcus fertőzés miatt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_MIG</LocID>                         <Text>Migrén</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_MIG_DESCRIPTION</LocID>             <Text>Erős fejfájás, melynek nem feltétlenül van előjele.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_GBS</LocID>                         <Text>Guillain-Barré-szindróma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_GBS_DESCRIPTION</LocID>             <Text>Veszélyes betegség, melynek során az immunrendszer megtámadja az idegrendszert.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_NMO</LocID>                         <Text>Látóideg gyulladás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_NMO_DESCRIPTION</LocID>             <Text>Autoimmun betegség, amely során az immunrendszer megtámadja a szemben és a gerincben lévő idegeket. Szklerózis multiplex esetén gyakori. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_IPD</LocID>                         <Text>Gyulladásos polyneuropathia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_IPD_DESCRIPTION</LocID>             <Text>Krónikus immunrendszer betegség, mely a perifériás idegrendszert támadja meg és amely lerombolja az idegeket, illetve rostokat védő és elválasztó rétegeket.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TTN</LocID>                         <Text>Tetanusz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TTN_DESCRIPTION</LocID>             <Text>Veszélyes bakteriális fertőzés, mely az idegrendszert támadja.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BLP</LocID>                         <Text>Szemhéj gyulladás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BLP_DESCRIPTION</LocID>             <Text>A szemhéjak átmeneti megnagyobbodása.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CJN</LocID>                         <Text>Kötőhártya gyulladás (bakteriális)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CJN_DESCRIPTION</LocID>             <Text>Gyulladásos betegség, mely a szem fehér részének legkülső rétegét érinti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CAN</LocID>                         <Text>Kötőhártya gyulladás (allergiás)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CAN_DESCRIPTION</LocID>             <Text>Gyulladásos betegség, mely a szem fehér részének legkülső rétegét érinti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_GLC</LocID>                         <Text>Nyílt zugú glaukóma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_GLC_DESCRIPTION</LocID>             <Text>A szemben fellépő rendellenesen nagy nyomás hatására a látóideg sérülését idézi elő.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CLH</LocID>                         <Text>Féloldali fejfájás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CLH_DESCRIPTION</LocID>             <Text>Extrém fejfájás, mely csak a fej egyik oldalán érezhető és gyakran sírási kényszerhez, illetve orrfolyáshoz vezet.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HRP</LocID>                         <Text>Hypertensiv retinabetegség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HRP_DESCRIPTION</LocID>             <Text>Magas vérnyomás okozta retina, illetve a retinában található vérsejtek sérülése.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_UVE</LocID>                         <Text>Uvea gyulladás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_UVE_DESCRIPTION</LocID>             <Text>A szemgolyó középső rétegének gyulladását jelenti. A szaruhártyából, sugártestből és az érhártyából áll.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SCL</LocID>                         <Text>Ínhártya gyulladás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_SCL_DESCRIPTION</LocID>             <Text>A szemben található ínhártya gyulladását jelenti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_KRT</LocID>                         <Text>Szaruhártya gyulladás (bakteriális)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_KRT_DESCRIPTION</LocID>             <Text>Gyulladásos betegség a szem domborfelületén, jellemzően baktériumok okozzák.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CAB</LocID>                         <Text>Szaruhártya horzsolás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CAB_DESCRIPTION</LocID>             <Text>Az egyik leggyakoribb sérülés, melynek során egy idegen tárgy felsérti a szemet, ezzel viszkető érzést okozva.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ACG</LocID>                         <Text>Szemzug elzáródás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ACG_DESCRIPTION</LocID>             <Text>Egy glaukóma típus, mely hirtelen megnövekedett szembeli nyomás miatt jön létre.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CRV</LocID>                         <Text>Retina véna elzáródás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CRV_DESCRIPTION</LocID>             <Text>Gyakori retinabetegség, melynek során a központi részen lévő véna valamely okból elzáródik.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRM_CCS</LocID>                         <Text>Agyrázkódás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_CCS_DESCRIPTION</LocID>             <Text>Enyhe agyi sérülés, mely miatt ideiglenesen megszűnhet az agyi működés vagy kábulatot idézhet elő.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_CTS</LocID>                         <Text>Agy zúzódás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_CTS_DESCRIPTION</LocID>             <Text>Jellemzően a fejet ért tompa ütés okozza.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_DAI</LocID>                         <Text>Diffúz axonsérülés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_DAI_DESCRIPTION</LocID>             <Text>Gyakori fejsérülés, mely akkor alakul ki, ha az agy túl gyorsan mozdul el a koponyában.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_TBI</LocID>                         <Text>Sérülés okozta agykárosodás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_TBI_DESCRIPTION</LocID>             <Text>Külső behatás miatti agyi sérülés. Baleset vagy tompa ütés okozhatja.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_AIH</LocID>                         <Text>Subduralis haematoma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_AIH_DESCRIPTION</LocID>             <Text>Más néven keményburok alatti vérömleny, mely az agyhártya alatti terület sérülését és ezáltal vérzést jelent. A vér felgyülemlik a szűk területen és nyomásnövekedést idéz elő a koponyában. Halálos kimenetelű, ha nem kezelik.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_OBI</LocID>                         <Text>Behatoló tárgy okozta fejsérülés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_OBI_DESCRIPTION</LocID>             <Text>A kemény agyhártyán áthatoló idegen tárgy sérülést okoz az agyban.</Text>  </GameDBLocalizedString>
+
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database> 

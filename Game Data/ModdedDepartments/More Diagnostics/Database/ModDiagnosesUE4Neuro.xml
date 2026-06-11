@@ -1,0 +1,232 @@
+﻿<Database>
+<!-- ITEM 74 - COMPLICATION NEURO ALCOOL -->
+	<!-- Encéphalopathie de Gayet-Wernicke -->
+    <GameDBMedicalCondition ID="DIA_MOREDG_NEURO_GAYETWERNICKE">
+        <AbbreviationLocID>DIA_MOREDG_NEURO_GAYETWERNICKE_DESCRIPTION</AbbreviationLocID>
+        <Duration>3</Duration>
+        <OccurrenceRef>OCCURRENCE_RARE</OccurrenceRef>
+        <Symptoms> <!-- 9 -->	
+			<GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>75</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CONFUSION</GameDBSymptomRef>
+            </GameDBSymptomRules>
+			<GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>50</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CRP_PARALYSIA_OM_VI</GameDBSymptomRef>
+            </GameDBSymptomRules>
+			<GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>50</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CRP_NYSTAGMUS_HORIZONTAL</GameDBSymptomRef>
+            </GameDBSymptomRules>
+			<GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>50</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CRP_NYSTAGMUS_VERTICAL</GameDBSymptomRef>
+            </GameDBSymptomRules>
+			<GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CRP_HYPERSIGNAL_MAMILLAIRE</GameDBSymptomRef> <!-- hypersignal FLAIR du corps mamillaire -->
+            </GameDBSymptomRules>
+			<GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CRP_HYPERTONIA</GameDBSymptomRef> <!-- hypersignal FLAIR du corps mamillaire -->
+            </GameDBSymptomRules>
+			<GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>30</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CRP_ATAXIA_CEREBELLAR</GameDBSymptomRef> <!-- hypersignal FLAIR du corps mamillaire -->
+            </GameDBSymptomRules>
+			<GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>30</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CRP_POLYGON_UP</GameDBSymptomRef> <!-- hypersignal FLAIR du corps mamillaire -->
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+               <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_MOREDG_NEURO_B1_EFF</GameDBSymptomRef>	<!-- Carence en vitamine B1: Vitamine B1 effondré	-->
+            </GameDBSymptomRules>
+        </Symptoms>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_SPEECH_LISTENING</ExaminationRef>
+			<ExaminationRef>EXM_OPHTHALMOSCOPY</ExaminationRef>
+			<ExaminationRef>EXM_MRI</ExaminationRef>
+			<ExaminationRef>EXM_NEUROLOGICAL_TESTING</ExaminationRef>
+			<ExaminationRef>EXM_CRP_WALK_EXAMINATION</ExaminationRef>
+			<ExaminationRef>EXM_BLOOD_TEST_SAMPLING</ExaminationRef>
+			<ExaminationRef>EXM_CC_BLOOD_ANALYSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
+			<TreatmentRef>TRT_CRP_VITAMINOTHERAPY_IV</TreatmentRef>
+        </Treatments>
+        <IconIndex>1221</IconIndex>
+		<CustomIconBigAssetRef>ASSET_MOREDG_ICON_DG8</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_MOREDG_ICON_DG8_SMALL</CustomIconSmallAssetRef>
+        <DepartmentRef>DPT_NEUROLOGY</DepartmentRef>
+        <InsurancePayment>2000</InsurancePayment>
+		        <Disabled>true</Disabled>
+        <Tags>
+            <Tag>disease</Tag>
+        </Tags>
+    </GameDBMedicalCondition>
+	<!-- Encéphalopathie pellagreuse -->
+    <GameDBMedicalCondition ID="DIA_MOREDG_NEURO_ENCÉPHALOPATHIE_PELLAGREUSE">
+        <AbbreviationLocID>DIA_MOREDG_NEURO_ENCÉPHALOPATHIE_PELLAGREUSE_DESCRIPTION</AbbreviationLocID>
+        <Duration>3</Duration>
+        <OccurrenceRef>OCCURRENCE_RARE</OccurrenceRef>
+        <Symptoms> <!-- 9 -->	
+			<GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>75</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CONFUSION</GameDBSymptomRef>
+            </GameDBSymptomRules>
+			<GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CRP_HYPERTONIA</GameDBSymptomRef> <!-- hypersignal FLAIR du corps mamillaire -->
+            </GameDBSymptomRules>
+			<GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_SKIN_AVULSION</GameDBSymptomRef>
+            </GameDBSymptomRules>
+			<GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CRP_MACROGLOSSIA</GameDBSymptomRef> 
+            </GameDBSymptomRules>
+			<GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>30</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CONSTIPATION</GameDBSymptomRef> 
+            </GameDBSymptomRules>
+			<GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>30</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_DIARRHEA</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+               <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_MOREDG_NEURO_PP_EFF</GameDBSymptomRef>	<!-- Carence en vitamine B1: Vitamine B1 effondré	-->
+            </GameDBSymptomRules>
+        </Symptoms>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_SPEECH_LISTENING</ExaminationRef>
+			<ExaminationRef>EXM_ABDOMINAL_PALPATION</ExaminationRef>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+			<ExaminationRef>EXM_NEUROLOGICAL_TESTING</ExaminationRef>
+			<ExaminationRef>EXM_ORAL_CAVITY_INSPECTION</ExaminationRef>
+			<ExaminationRef>EXM_BLOOD_TEST_SAMPLING</ExaminationRef>
+			<ExaminationRef>EXM_CC_BLOOD_ANALYSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
+			<TreatmentRef>TRT_CRP_VITAMINOTHERAPY_IV</TreatmentRef>
+        </Treatments>
+        <IconIndex>1221</IconIndex>
+		<CustomIconBigAssetRef>ASSET_MOREDG_ICON_DG8</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_MOREDG_ICON_DG8_SMALL</CustomIconSmallAssetRef>
+        <DepartmentRef>DPT_NEUROLOGY</DepartmentRef>
+        <InsurancePayment>2000</InsurancePayment>
+		        <Disabled>true</Disabled>
+        <Tags>
+            <Tag>disease</Tag>
+        </Tags>
+    </GameDBMedicalCondition>
+	<!-- Encéphalopathie hépatique -->
+    <GameDBMedicalCondition ID="DIA_MOREDG_NEURO_ENCÉPHALOPATHIE_HÉPATIQUE">
+        <AbbreviationLocID>DIA_MOREDG_NEURO_ENCÉPHALOPATHIE_HÉPATIQUE_DESCRIPTION</AbbreviationLocID>
+        <Duration>3</Duration>
+        <OccurrenceRef>OCCURRENCE_RARE</OccurrenceRef>
+        <Symptoms> <!-- 9 -->	
+			<GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>75</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CONFUSION</GameDBSymptomRef>
+            </GameDBSymptomRules>
+			<GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>15</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CRP_SEIZURES</GameDBSymptomRef> <!-- hypersignal FLAIR du corps mamillaire -->
+            </GameDBSymptomRules>
+			<GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>30</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CRP_HYPERTONIA</GameDBSymptomRef>
+            </GameDBSymptomRules>
+			<GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>50</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CRP_HEPATOMEGALY</GameDBSymptomRef> 
+            </GameDBSymptomRules>
+			<GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>50</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_LFT_HIGH_LEVEL</GameDBSymptomRef> 
+            </GameDBSymptomRules>
+			<GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>30</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_DIARRHEA</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+               <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_MOREDG_NEURO_FLAPPING_TREMOR</GameDBSymptomRef>	<!-- Carence en vitamine B1: Vitamine B1 effondré	-->
+            </GameDBSymptomRules>
+        </Symptoms>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_SPEECH_LISTENING</ExaminationRef>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+			<ExaminationRef>EXM_NEUROLOGICAL_TESTING</ExaminationRef>
+			<ExaminationRef>EXM_ABDOMINAL_PALPATION</ExaminationRef>
+			<ExaminationRef>EXM_CC_BLOOD_ANALYSIS</ExaminationRef>
+			<ExaminationRef>EXM_BLOOD_TEST_SAMPLING</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        </Examinations>
+        <Treatments>
+			<TreatmentRef>TRT_DOCTOR'S_RECOMMENDATIONS</TreatmentRef>
+            <TreatmentRef>TRT_ANTI_SEIZURES_MEDICINE</TreatmentRef>
+        </Treatments>
+        <IconIndex>1221</IconIndex>
+		<CustomIconBigAssetRef>ASSET_MOREDG_ICON_DG8</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_MOREDG_ICON_DG8_SMALL</CustomIconSmallAssetRef>
+        <DepartmentRef>DPT_NEUROLOGY</DepartmentRef>
+        <InsurancePayment>2000</InsurancePayment>
+		        <Disabled>true</Disabled>
+        <Tags>
+            <Tag>disease</Tag>
+            <Tag>clinic</Tag>
+        </Tags>
+    </GameDBMedicalCondition>
+	<!-- Maladie de Marchiafava-Bignami -->
+	<!-- Syndrome de Korsakoff -->
+	<!-- Atrophie cérébelleuse -->
+	<!-- Neuropathie optique alcoolotabagique -->
+	<!-- Polyneuropathie longueurdépendante -->
+	<!-- Neuropathie focale -->
+	<!-- Myélinolyse centropontine -->
+	<!-- Disulfiram -->
+
+<!-- ITEM 89 - DEFICIT NEURO RECENT -->
+	<!-- -->
+	<!-- -->
+	<!-- -->
+	<!-- -->
+	<!-- -->
+
+<!-- == == == == TRAUMA == == == == -->
+
+</Database>

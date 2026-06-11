@@ -1,0 +1,106 @@
+<Database>
+	<!-- Oncology Mod by Sleepy068 -->
+	<GameDBStringTable ID="LOC_DE_ADDON_ONCOLOGYSL_SYMPTOMS">
+	<LanguageCode>de</LanguageCode>
+	<LanguageNameLocalized>German</LanguageNameLocalized>
+	<Contributors>
+	<Name>Gego</Name>
+	<Name>Sonic1305</Name>
+	<Name>Bowelas</Name>
+	<Name>niofb271</Name>
+	</Contributors>
+
+	<LocalizedStrings>
+	<!-- ======================================== -->
+	<!-- ============= Core Content ============= -->
+	<!-- ======================================== -->
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_NERVE_DAMAGE</LocID>                               
+		<Text>Postoperative neuropathische Schmerzen</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_NERVE_DAMAGE_DESC</LocID>                   
+		<Text>Postoperative neuropathische Schmerzen (PONP) können auftreten, wenn die Nerven während einer Operation beschädigt wurden. Geschädigte Nerven können Signale von verschiedenen Körperteilen nicht korrekt an das Gehirn übertragen. Stattdessen werden diese Signale übertrieben und verursachen chronische Schmerzen, die Monate oder sogar Jahre anhalten können.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>    
+		<LocID>SYM_SLP_LES_RUPTURE</LocID>                               
+		<Text>Ruptur einer Läsion</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>     
+		<LocID>SYM_SLP_LES_RUPTURE_DESC</LocID>                               
+		<Text>Eine Läsion oder ein Tumor im Inneren des Patienten ist rupturiert. Dies ist mit lebensbedrohlichen inneren Blutungen verbunden.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_HEMOPTYSIS2</LocID>                               
+		<Text>Schwere Hämoptyse</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_HEMOPTYSIS2_DESC</LocID>                   
+		<Text>Hämoptyse ist das Aushusten von Blut oder blutigem Schleim aus den Bronchien, dem Kehlkopf, der Luftröhre oder der Lunge. Mit anderen Worten, es ist die Atemwegsblutung. Dies kann bei Lungenkrebs, Infektionen wie Tuberkulose, Bronchitis oder Lungenentzündung und bestimmten Herz-Kreislauf-Erkrankungen auftreten.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_SPLENOMEGALY</LocID>                               
+		<Text>Splenomegalie</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_SPLENOMEGALY_DESC</LocID>                   
+		<Text>Splenomegalie ist eine Erkrankung, die auftritt, wenn sich Ihre Milz vergrößert. Es wird auch allgemein als vergrößerte Milz oder Milzvergrößerung bezeichnet.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_RUP_SPLENOMEGALY</LocID>                               
+		<Text>Milzruptur</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_RUP_SPLENOMEGALY_DESC</LocID>                   
+		<Text>Eine Milzruptur ist ein medizinischer Notfall, der auftritt, wenn die kapselartige Hülle der Milz aufbricht und Blut in Ihren Bauchbereich fließt. Je nach Größe der Ruptur kann es zu starken inneren Blutungen kommen.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_HYPERCALCEMIA</LocID>                               
+		<Text>Hyperkalzämie</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_HYPERCALCEMIA_DESC</LocID>                   
+		<Text>Hyperkalzämie ist ein Zustand, bei dem der Kalziumspiegel in Ihrem Blut über dem Normalwert liegt. Hyperkalzämie wird meistens durch eine Überaktivität der vier winzigen Drüsen im Nacken (Nebenschilddrüsen) oder durch Krebs verursacht. Zusätzliches Kalzium im Blut wirkt sich auf viele Körpersysteme aus.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_SEVERE_HYPERCALCEMIA</LocID>                               
+		<Text>Schwere Hyperkalzämie</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_SEVERE_HYPERCALCEMIA_DESC</LocID>                   
+		<Text>Eine schwere Hyperkalzämie ist ein medizinischer Notfall, der dringend behandelt werden muss. Hyperkalzämie ist ein Zustand, bei dem der Kalziumspiegel in Ihrem Blut über dem Normalwert liegt. In seltenen Fällen kann eine schwere Hyperkalzämie Ihre Herzfunktion beeinträchtigen und Herzklopfen und Ohnmacht, Anzeichen von Herzrhythmusstörungen und andere Herzprobleme verursachen.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>    
+		<LocID>SYM_SLP_ACUTE_LIVER_FAILURE</LocID>                               
+		<Text>Akute Leberinsuffizienz</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>     
+		<LocID>SYM_SLP_ACUTE_LIVER_FAILURE_DESC</LocID>                               
+		<Text>Akutes Leberversagen (ALV) ist ein seltenes Syndrom, das durch einen schnellen Rückgang der Leberfunktion definiert ist.</Text>  
+	</GameDBLocalizedString>
+	
+	<!-- ### ### -->
+	<!-- ######################################## Content for V0.15.0.0 Added Below ######################################## -->
+	<!-- ### ### -->
+	<!-- ======================================== -->
+	<!-- ============= Core Content ============= -->
+	<!-- ======================================== -->
+	
+	</LocalizedStrings>
+	</GameDBStringTable>
+</Database>

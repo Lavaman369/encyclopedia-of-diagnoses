@@ -1,0 +1,14 @@
+<Database>
+
+<GameDBSkill ID="SKILL_DOC_SPEC_NEUROLOGY">
+        <AbbreviationLocID>SKILL_DOC_SPEC_NEUROLOGY_DESCRIPTION</AbbreviationLocID>
+        <ParentSkill>SKILL_DOC_QUALIF_GENERAL_MEDICINE</ParentSkill>
+        <IconIndex>431</IconIndex>
+        <ExtraLevelingPercent>100</ExtraLevelingPercent>
+
+    <CustomIconAssetRef>ASSET_MOD_ICON_NMC</CustomIconAssetRef>
+    <CustomIconLightBackgroundAssetRef>ASSET_MOD_ICON_NMC</CustomIconLightBackgroundAssetRef>
+    
+</GameDBSkill>
+
+</Database>

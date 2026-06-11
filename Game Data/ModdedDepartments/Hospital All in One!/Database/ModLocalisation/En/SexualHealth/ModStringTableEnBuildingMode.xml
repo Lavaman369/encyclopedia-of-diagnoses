@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<Database>
+    <GameDBStringTable ID="LOC_EN_ADDON_SEXUAL_HEALTH_BUILDING_MODE">
+
+        <LanguageCode>en</LanguageCode>
+        <LanguageNameLocalized>English</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Moomin Littlesocks</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+
+            <GameDBLocalizedString>
+                <LocID>ROOM_TYPE_SH_OFFICE</LocID>
+                <Text>Dermatology and Venereology office</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>ROOM_TYPE_SH_OFFICE_DESCRIPTION</LocID>
+                <Text>A doctor's office specialising in dermatology and venereology. Staff requirements:\n1xDoctor</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>ROOM_TYPE_SH_LAB</LocID>
+                <Text>Dermatology and Venereology Lab</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>ROOM_TYPE_SH_LAB_DESCRIPTION</LocID>
+                <Text>The Dermatology and Venereology laboratory provides a wide variety of tests to confirm different diagnoses.\nMin. Staff requirements:\n1x Technologist</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>ROOM_TYPE_INPATIENT_SH_OFFICE</LocID>
+                <Text>Diagnostic unit</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>ROOM_TYPE_INPATIENT_SH_OFFICE_DESCRIPTION</LocID>
+                <Text>The diagnostic unit in the Sexual Health department provides examination and treatment for inpatients.\n\nRequired staff:\n1 x Doctor</Text>
+            </GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

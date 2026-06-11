@@ -1,0 +1,21 @@
+
+<Database>
+	<GameDBStringTable ID="LOC_ZHHANS_ADDON_MOD_OCEAN_BASE_PACKAGE">
+	<LanguageCode>zh-Hans</LanguageCode>
+	<LanguageNameLocalized>简体中文</LanguageNameLocalized>
+	
+	<Contributors>
+	<Name>Leo</Name>
+	</Contributors>
+	
+	<LocalizedStrings>	
+		
+	<GameDBLocalizedString>      
+	<LocID>ADDON_MOD_OCEAN_BASE_PACKAGE</LocID>                       	
+	<Text>海洋基础包(适用于精神卫生、血液内科和神经医学中心等模组的必备基础包)</Text>  
+	</GameDBLocalizedString>
+	
+	</LocalizedStrings>
+	</GameDBStringTable>
+</Database>
+

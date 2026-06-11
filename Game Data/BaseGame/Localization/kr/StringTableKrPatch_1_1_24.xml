@@ -1,0 +1,183 @@
+<Database>
+    <GameDBStringTable ID="LOC_KR_PATCH_1_1_24">
+
+        <LanguageCode>kr</LanguageCode>
+        <LanguageNameLocalized>한국어</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_UNDO</LocID>                   <Text>마지막 변경사항 실행 취소</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>TOOLTIP_BUILDING_UNDO_UNAVAILABLE</LocID>       <Text>실행 취소할 수 없습니다. 변경사항이 없거나 마지막 액션이 취소할 수 없는 액션입니다</Text>  </GameDBLocalizedString>
+            
+            <!-- ROOM TYPES -->
+
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_UNIQUE_IM_OFFICE</LocID>               <Text>특수 시술 구역</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_UNIQUE_IM_OFFICE_DESCRIPTION</LocID>   <Text>다양한 특수 최소 침습 시술을 위해 사용되는 독특한 내과 구역입니다.</Text>	</GameDBLocalizedString> <!--todo description-->
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_IM_UNIQUE_UNIT</LocID>              <Text>특수 시술 구역</Text>	</GameDBLocalizedString>
+
+            <!--PREFABS-->
+            <GameDBLocalizedString>      <LocID>PREFAB_ROOM_IM_UNIQUE_OFFICE_LARGE_ABBR</LocID>  <Text>특수 시술 구역 - 8 x 6</Text>	</GameDBLocalizedString>
+
+            <!--diagnoses-->
+
+            <!--ER-->
+            <GameDBLocalizedString>      <LocID>DIA_046</LocID>                  <Text>인플루엔자 B형</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_046_DESCRIPTION</LocID>      <Text>인플루엔자 B형은 인플루엔자 B 바이러스에 의해 발생되는 병으로 인플루엔자 감염의 계절성 발병이 원인입니다.</Text>	</GameDBLocalizedString>
+            <!--GS-->
+            <GameDBLocalizedString>      <LocID>DIA_047</LocID>                  <Text>용혈성 요독증 증후군(HUS)</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_047_DESCRIPTION</LocID>      <Text>용혈성 요독증 증후군(HUS)은 신장 내 작은 혈관이 손상되어 염증이 생기는 질환을 말합니다. 대부분의 경우 대장균의 감염이 원인입니다.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_048</LocID>                  <Text>캄필로박터 감염증</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_048_DESCRIPTION</LocID>      <Text>캄필로박터 감염증은 대부분 캄필로박터 제주니에 의해 발병되는 감염증으로 종종 음식을 통해 전파되는 질병입니다.</Text>	</GameDBLocalizedString>
+            <!--NE-->
+            <GameDBLocalizedString>      <LocID>DIA_049</LocID>                  <Text>인두결막열(PCF)</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_049_DESCRIPTION</LocID>      <Text>인두결막열(PCF) - 인두결막열(PCF)은 대부분 포유류아데노바이러스의 감염에 의해 발생하며 젊은층 내에서 집단적으로 발생합니다. 해당 질병은 인두와 결막에 영향을 끼칩니다.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_050</LocID>                  <Text>보툴리즘</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_050_DESCRIPTION</LocID>      <Text>보툴리즘은 클로스트리디움 보툴리늄균이 만들어내는 독소에 의해 발생하는 희귀하지만 잠재적으로 치명적인 질병입니다.</Text>	</GameDBLocalizedString>
+            <!--IM-->
+            <GameDBLocalizedString>      <LocID>DIA_051</LocID>                  <Text>일과성 뇌허혈 발작(TIA)</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_051_DESCRIPTION</LocID>      <Text>일과성 뇌허혈 발작(TIA) - 일과성 뇌허혈 발작(TIA)은 뇌졸중과 비슷하지만 대개 24시간까지 지속되어 영구적인 손상을 일으키지 않는다.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_052</LocID>                  <Text>흉막염</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_052_DESCRIPTION</LocID>      <Text>흉막염은 폐를 둘러싸고 있는 세포막에 염증이 생기는 질환을 말합니다.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_053</LocID>                  <Text>석면증</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_053_DESCRIPTION</LocID>      <Text>석면증은 폐에 미세한 석면 미네랄이 축적되어 생기는 질환을 말합니다.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_054</LocID>                  <Text>땀띠</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_054_DESCRIPTION</LocID>      <Text>땀띠는 '한진'이라고도 불리는 피부 질병으로, 뜨겁고 습한 상태에서 흔하게 발생합니다.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_055</LocID>                  <Text>시구아테라</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_055_DESCRIPTION</LocID>      <Text>시구아테라라고도 불리는 시구아테라 물고기 중독은 특정 독소에 오염된 생선을 섭취함으로써 발생하는 음식에 의한 질병입니다.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_056</LocID>                  <Text>농흉</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_056_DESCRIPTION</LocID>      <Text>농흉은 박테리아 감염으로 인해 흉막강에 고름이 쌓이는 것을 말합니다.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_057</LocID>                  <Text>유미흉</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_057_DESCRIPTION</LocID>      <Text>유미흉은 흉막강에 림프액이 축척되는 질환을 말합니다.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_058</LocID>                  <Text>부폐렴 삼출액(PPE)</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_058_DESCRIPTION</LocID>      <Text>부폐렴 삼출액(PPE)은 폐렴, 기관지 확장증 또는 폐농양의 결과로 발생하는 질환입니다.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_059</LocID>                  <Text>진주종</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_059_DESCRIPTION</LocID>      <Text>진주종은 반복적인 중이염으로 인해 종종 발생하는 비암성 피부 종양입니다.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_060</LocID>                  <Text>크루프</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_060_DESCRIPTION</LocID>      <Text>크루프는 후두기관기관지염으로도 알려져있으며, 대개 바이러스에 의해 발생합니다. 박테리아 감염에 의한 경우는 거의 없습니다.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_061</LocID>                  <Text>비용종</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_061_DESCRIPTION</LocID>      <Text>비용종은 비강에 생기는 비암성 종양입니다.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_062</LocID>                  <Text>메니에르병</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_062_DESCRIPTION</LocID>      <Text>메니에르병은 원인이 불분명한 현기증이 특징으로 내이에 발생하는 질환입니다.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_063</LocID>                  <Text>진성고혈소판증</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_063_DESCRIPTION</LocID>      <Text>진성고혈소판증은 환자의 신체가 필요 이상의 혈소판을 생산하는 희귀 질환을 말합니다.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_064</LocID>                  <Text>덩굴옻나무 발진</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_064_DESCRIPTION</LocID>      <Text>덩굴옻나무 발진은 옻나무, 참나무, 열대 옻나무의 잎, 줄기, 뿌리에 있는 송진과 우루시올에 대한 알레르기 반응입니다.</Text>	</GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>TRM_001</LocID>                  <Text>혈흉</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_001_DESCRIPTION</LocID>      <Text>혈흉은 흉막강 내에 피가 고인 것으로, 흔히 흉부 부상에 의해 발생합니다.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_002</LocID>                  <Text>긴장성 기흉</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRM_002_DESCRIPTION</LocID>      <Text>긴장성 기흉은 대부분 인공호흡, 소생술 또는 폐질환 환자와 같은 임상학적 상황에서 발생합니다.</Text>	</GameDBLocalizedString>
+
+            
+            <!-- shared symptoms used at internal medicine-->
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_EFFUSION</LocID>                           <Text>흉수</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_EFFUSION_DESCRIPTION</LocID>               <Text>MRI 검사에서 흉수가 검출되었습니다.</Text>  </GameDBLocalizedString>
+            
+               
+            <!--main symptoms - INTERNAL MEDICINE-->
+            <GameDBLocalizedString>      <LocID>SYM_INFLUENZA_B_DETECTED</LocID>                       <Text>인플루엔자 B형 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_INFLUENZA_B_DETECTED_DESCRIPTION</LocID>           <Text>혈청학적 검사에서 인플루엔자 B형 바이러스 관련 항체가 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_E_COLI_TOXIN_DETECTED</LocID>                      <Text>대장균 독소 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_E_COLI_TOXIN_DETECTED_DESCRIPTION</LocID>          <Text>대변 분석으로 대장균에 의해 생산된 독소가 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_JEJUNI_DETECTED</LocID>                          <Text>캄필로박터 제주니 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_JEJUNI_DETECTED_DESCRIPTION</LocID>              <Text>효소결합면역흡착제 검정법(ELISA)에서 캄필로박터 제주니의 항원이 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MASTADENOVIRUS_B_DETECTED</LocID>                  <Text>포유류아데노바이러스 B형 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MASTADENOVIRUS_B_DETECTED_DESCRIPTION</LocID>      <Text>PCR 검사에서 인간 포유류아데노바이러스 B형이 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TIA_DETECTED</LocID>                               <Text>일과성 뇌허혈 발작(TIA) 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TIA_DETECTED_DESCRIPTION</LocID>                   <Text>MRI 검사에서 일과성 뇌허혈 발작(TIA) 요소가 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_BOTULINUM_DETECTED</LocID>                       <Text>클로스트리디움 보툴리늄균 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C_BOTULINUM_DETECTED_DESCRIPTION</LocID>           <Text>효소결합면역흡착제 검정법(ELISA)에서 클로스트리디움 보툴리늄균이 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BACTERIAL_INFECTION_DETECTED</LocID>               <Text>박테리아 감염 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BACTERIAL_INFECTION_DETECTED_DESCRIPTION</LocID>   <Text>PCR 검사에서 강력한 박테리아 감염이 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ASBESTOSIS_DETECTED</LocID>                        <Text>석면증 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ASBESTOSIS_DETECTED_DESCRIPTION</LocID>            <Text>CT 검사 결과, 환자의 폐에서 석면증이 발견되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEAT_RASH</LocID>                                  <Text>열발진</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEAT_RASH_DESCRIPTION</LocID>                      <Text>모든 증상 및 알려진 세부 사항에 대한 평가가 열발진임을 보여줍니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CIGUATOXIN_DETECTED</LocID>                        <Text>시구아톡신 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CIGUATOXIN_DETECTED_DESCRIPTION</LocID>            <Text>혈액 검사 결과, 시구아톡신에 의한 중독이 밝혀졌습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMOTHORAX_DISCOVERED</LocID>                      <Text>혈흉 발견됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMOTHORAX_DISCOVERED_DESCRIPTION</LocID>          <Text>초음파 검사에서 환자의 흉막강 내 다량의 혈액이 발견되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PUNCTURED_LUNGS</LocID>                            <Text>구멍난 폐</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PUNCTURED_LUNGS_DESCRIPTION</LocID>                <Text>초음파 검사에서 구멍난 폐가 발견되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_FLUID_INFECTED</LocID>                     <Text>흉수 감염됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_FLUID_INFECTED_DESCRIPTION</LocID>         <Text>흉수 조직 검사에서 감염이 확인되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHYLOTHORAX_DETECTED</LocID>                       <Text>유미흉 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHYLOTHORAX_DETECTED_DESCRIPTION</LocID>           <Text>X-ray 진단에서 유미흉이 발견되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_TRANSUDATE</LocID>                         <Text>흉수 여출액</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLEURAL_TRANSUDATE_DESCRIPTION</LocID>             <Text>MRI 검사에서 흉수 여출액이 검출되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHOLESTEATOMA_DISCOVERED</LocID>                   <Text>진주종 발견됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHOLESTEATOMA_DISCOVERED_DESCRIPTION</LocID>       <Text>CT 검사 결과, 환자의 귀에서 진주종이 발견되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NASAL_POLYPS_DETECTED</LocID>                      <Text>비용종 검출됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NASAL_POLYPS_DETECTED_DESCRIPTION</LocID>          <Text>CT 검사 결과, 환자의 비강에서 작은 용종이 발견되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CROUP_PRESENT</LocID>                              <Text>크루프 확인됨</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CROUP_PRESENT_DESCRIPTION</LocID>                  <Text>모든 증상 및 알려진 세부 사항에 대한 평가가 크루프임을 보여줍니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MENIERES_DISEASE_PRESENT</LocID>                   <Text>메니에르병</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MENIERES_DISEASE_PRESENT_DESCRIPTION</LocID>       <Text>모든 증상 및 알려진 세부 사항에 대한 평가가 메니에르병임을 보여줍니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THROMBOCYTHEMIA</LocID>                            <Text>고혈소판증</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_THROMBOCYTHEMIA_DESCRIPTION</LocID>                <Text>완전 혈구 측정에서 비정상적으로 높은 양의 혈소판이 발견되었습니다.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_POISON_IVY_RASH</LocID>                            <Text>덩굴옻나무 발진</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_POISON_IVY_RASH_DESCRIPTION</LocID>                <Text>모든 증상 및 알려진 세부 사항에 대한 평가가 덩굴옻나무 발진임을 보여줍니다.</Text>  </GameDBLocalizedString>
+
+            <!--new trt procedures-->
+            <GameDBLocalizedString>      <LocID>TRT_BLOOD_COMPONENT_THERAPY</LocID>                    <Text>혈액성분 요법</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BLOOD_COMPONENT_THERAPY_DESCRIPTION</LocID>        <Text>농축적혈구, 신선동결혈장, 혈소판, 크리오프레시피테이트, 과립성백혈구 성분 그리고 로감을 포함한 전혈 또는 개별 성분으로 구성된 특수한 유형의 수혈입니다.\n\n필요한 방: 모든 진단실 / 중환자 실 / 병동</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FOREIGN_OBJECT_REMOVAL</LocID>                     <Text>이물질 제거</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FOREIGN_OBJECT_REMOVAL_DESCRIPTION</LocID>         <Text>상처에 있는 이물질을 제거합니다.\n\n필요한 방: 의사의 사무실 / 관찰 / 트라우마 센터 / 감염내과 / 집중치료실(ICU) / 외상 학의 사무실 / 진단 유닛</Text>	</GameDBLocalizedString>
+
+            <!--internal medicine-->
+            <GameDBLocalizedString>      <LocID>TRT_THORACENTESIS</LocID>                              <Text>흉수천자</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_THORACENTESIS_DESCRIPTION</LocID>                  <Text>흉막강에서 유체 또는 공기를 제거하는 침습적 시술입니다.\n\n필요한 방: 특수 시술 구역 \n\n필요한 장비: 흉수천자 장치</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MIEP</LocID>                                       <Text>최소침습 내시경 시술(MIEP)</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MIEP_DESCRIPTION</LocID>                           <Text>최소침습 내시경 시술(MIEP)은 다양한 이비인후과적 질환 치료에 사용됩니다.\n\n필요한 방: 특수 시술 구역 \n\n필요한 장비: 이비인후과 워크스테이션</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MANNITOL_DOSES</LocID>                             <Text>만니톨 복용</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MANNITOL_DOSES_DESCRIPTION</LocID>                 <Text>만니톨 복용은 시구아톡신에 의한 중독과 싸우기 위해 인체에 투여됨을 말합니다.\n\n필요한 방: 내과의 진단 장치 / 집중치료실(ICU)</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HYDROXYUREA</LocID>                                <Text>수산화요소</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HYDROXYUREA_DESCRIPTION</LocID>                    <Text>골수 내 혈액 세포의 생성을 억제하는 특수 약물입니다.\n\n필요한 방: 내과의 진단 장치 / 집중치료실(ICU)</Text>	</GameDBLocalizedString>
+
+            <!--neurology-->
+            <GameDBLocalizedString>      <LocID>TRT_BOTULINUM_ANTITOXIN</LocID>                        <Text>보툴리늄균 항독소</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BOTULINUM_ANTITOXIN_DESCRIPTION</LocID>            <Text>클로스트리디움 보툴리눔균에 의해 생성되는 독소를 중화시키는 기능을 가진 특수 항체입니다.\n\n필요한 방: 신경과의 진단 장치 / 집중치료실(ICU)</Text>	</GameDBLocalizedString>
+            
+            <!--EXAMINATIONS - NEW-->
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_SAMPLING</LocID>                            <Text>역전사 중합효소 연쇄반응(RT-PCR) 샘플 추출</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_SAMPLING_DESCRIPTION</LocID>                <Text>역전사 중합효소 연쇄반응(RT-PCR)은 RNA를 DNA로 역전사한 후, 특정 DNA 대상이 PCR에 의해 증폭되는 실험 기법입니다. \n\n필요한 방: 혈액학 연구실 \n\n샘플 추출: 응급실 / 감염내과 / 집중치료실(ICU) /\n\n필요한 장비: 유리그릇 + 온도순환기</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_TESTING</LocID>                             <Text>역전사 중합효소 연쇄반응(RT-PCR) 검사</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_RT_PCR_TESTING_DESCRIPTION</LocID>                 <Text>역전사 중합효소 연쇄반응(RT-PCR)은 RNA를 DNA로 역전사한 후, 특정 DNA 대상이 PCR에 의해 증폭되는 실험 기법입니다. \n\n필요한 방: 혈액학 연구실</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_SAMPLING</LocID>                             <Text>효소결합면역흡착제 검정법(ELISA) 샘플 추출</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_SAMPLING_DESCRIPTION</LocID>                 <Text>효소결합면역흡착제 검정법(ELISA)은 펩타이드, 단백질, 항체 및 호르몬을 검출하고 정량화하는 데 사용되는 실험 기법입니다. \n\n샘플 추출: 응급실 / 내과 / 감염내과 / 집중치료실(ICU) \n\n필요한 장비: 유리그릇 + 방사면역측정법(RIA)</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_TESTING</LocID>                              <Text>효소결합면역흡착제 검정법(ELISA) 검사</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_ELISA_TESTING_DESCRIPTION</LocID>                  <Text>효소결합면역흡착제 검정법(ELISA)은 펩타이드, 단백질, 항체 및 호르몬을 검출하고 정량화하는 데 사용되는 실험 기법입니다. \n\n필요한 방: 혈액학 연구실</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PULSE_OXYMETRY</LocID>                             <Text>맥박 산소 계측</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_PULSE_OXYMETRY_DESCRIPTION</LocID>                 <Text>맥박 산소 계측은 사용하기 쉬우며, 환자의 산소 포화도를 모니터링하는 데 효과적인 방법입니다.</Text>	</GameDBLocalizedString>
+
+            <!--OBJECTS - DEVICES-->
+            <GameDBLocalizedString>      <LocID>OBJECT_ENT_WORKSTATION</LocID>                         <Text>이비인후과 워크스테이션</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ENT_WORKSTATION_DESCRIPTION</LocID>             <Text>다양한 이비인후과 관련 시술을 위한 이비인후과적 워크스테이션입니다.</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_THORA_DEVICE</LocID>                            <Text>흉수천자 장치</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_THORA_DEVICE_DESCRIPTION</LocID>                <Text>특수 초음파 유도 장치는 주로 흉수천자 시술에 사용됩니다.</Text>	</GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>SURGEON_ASSISTANTS</LocID>                             <Text>어시스턴트 외과의</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SURGEON_ASSISTANT</LocID>                              <Text>어시스턴트 외과의</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SURGEON_ASSISTANT_DESCRIPTION</LocID>                  <Text>수술 역할 보조가 있는 당직실 의사. 전문:</Text>  </GameDBLocalizedString>
+            
+            <!-- Note: the name if the new room is ROOM_TYPE_UNIQUE_IM_OFFICE in this file -->
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_INTERNAL_MEDICINE_CHANGE</LocID>         <Text>중요 게임 변경 사항</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_SURGERY_INTERNAL_MEDICINE_CHANGE_TEXT</LocID>    <Text>내과는 더 이상 수술 절차를 제공하지 않습니다. 하지만, 새로운 특수 시술 구역을 지어 전문 검사 및 치료를 수행할 수 있습니다.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>BANNER_DLC_HOSPITAL_SERVICES</LocID>                   <Text>병원 서비스 DLC를 확인해보세요!</Text>  </GameDBLocalizedString>
+
+            <!--NEW OBJECT-->
+            <GameDBLocalizedString>      <LocID>OBJECT_DONT_CROSS</LocID>                               <Text>접근금지 문</Text>  </GameDBLocalizedString>
+
+
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

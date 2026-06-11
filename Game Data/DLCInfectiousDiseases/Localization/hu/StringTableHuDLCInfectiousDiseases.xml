@@ -1,0 +1,404 @@
+<Database>
+    <GameDBStringTable ID="LOC_HU_DLC_INFECTIOUS_DISEASES">
+
+        <LanguageCode>hu</LanguageCode>
+        <LanguageNameLocalized>Magyar</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>DLC_INFECTIOUS_DISEASES</LocID>                                 <Text>Fertőzőbeteg-osztály DLC</Text>  </GameDBLocalizedString>
+            
+            <!-- Department and rooms-->
+            <!-- Note: the abbreviation DID is also widely used in names of rooms or in descriptions of treatments -->
+            <GameDBLocalizedString>      <LocID>DPT_INFECTIOUS_DISEASES_DEPARTMENT</LocID>                      <Text>Fertőző betegségek</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ISOLATION_INPATIENT_WARD</LocID>                      <Text>Elkülönítő</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ISOLATION_INPATIENT_WARD_DESCRIPTION</LocID>          <Text>Az elkülönítő külön kórterem, ahol a fertőző betegségekben szenvedő betegeket lehet elkülöníteni és megakadályozni a kórokozók terjedését.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INFECTIOUS_DISEASES_OFFICE</LocID>                    <Text>Fertőzőosztály-rendelő</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INFECTIOUS_DISEASES_OFFICE_DESCRIPTION</LocID>        <Text>A fertőzőosztály-rendelő képviseli a járóbeteg-klinikai rendelőt az egyszerű vizsgálatokhoz és kezelésekhez. Személyzet:\n1 fő epidemiológus </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_DID_OFFICE</LocID>                          <Text>Vizsgáló</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_DID_OFFICE_DESCRIPTION</LocID>              <Text>A fertőző osztályon a vizsgáló lehetővé teszi a fekvőbetegek vizsgálatát és ellátását. \n\nMin. Személyzet: \n1 fő epidemiológus \n(személyzet az ügyeleti szobában)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_DID</LocID>            <Text>Kardiográfia</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>DLC_TOOLTIP_LOGISTICS_BIOHAZARD</LocID>                         <Text>Biológiai veszély, belépés csak védőmaszkban és kesztyűben.</Text>  </GameDBLocalizedString>
+                                                                                                                
+            <!-- Hospitalization alias -->                                                                      
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_ISOLATION</LocID>                           <Text>Elkülönítő ápolás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_ISOLATION_DESCRIPTION</LocID>               <Text>Ápold a beteget az elkülönítőben, hogy megakadályozd a fertőző betegségek terjedését, miközben magas szintű ellátásban részesül.\n\nSzükséges szoba: Elkülönítő kórterem</Text>  </GameDBLocalizedString>
+                                                                                                                
+            <!-- SKILLS-->                                                                                      
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_EPIDEMIOLOGY</LocID>                             <Text>Epidemiológia</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_EPIDEMIOLOGY_DESCRIPTION</LocID>                 <Text>Az epidemiológus vizsgálja a fertőző betegségek és paraziták terjedését az okok, a kockázati tényezők, a lezajlás, az életciklus vagy az átviteli mód megállapítása érdekében.</Text>	</GameDBLocalizedString> <!--todo description-->
+                                                                                                                
+            <!-- Global Admin Events-->                                                                         
+            <GameDBLocalizedString>      <LocID>DAYS_LEFT</LocID>                                               <Text>Hátralévő napok: </Text></GameDBLocalizedString>
+                                                                                                                 
+            <GameDBLocalizedString>      <LocID>DLC_WORLD_EVENT_DISEASE_OUTBREAK</LocID>                        <Text>Járványkitörés!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_WORLD_EVENT_DISEASE_OUTBREAK_TEXT</LocID>                   <Text>Nem különítetted el az összes fertőző beteget, ezért a kórházad egy része megfertőződött. A személyzetnek most maszkot kell viselnie és lassabban dolgoznak!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_WORLD_EVENT_DISEASE_OUTBREAK_TEXT_WARD</LocID>              <Text>Egy fertőző beteg az elkülönítőn kívül került kezelésre, ezért a kórházad egy része megfertőződött. A személyzetnek most maszkot kell viselnie és lassabban dolgoznak!</Text></GameDBLocalizedString>
+                                                                                                                
+            <!-- ============== -->                                                                             
+            <!--EVENTS -->                                                                                      
+            <!-- ============== -->                                                                             
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_LAB_DESC</LocID>         		            <Text>Egy baleset miatt az egyetemi laborban néhány nagyon veszélyes kórokozó elszabadult. Minden városi kórháznak fel kell készülnie védőfelszereléssel, és minden beérkező új beteget nagyon körültekintően kell kezelni. </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_TOURISTS_DESC</LocID>         	            <Text>Egy rendkívül veszélyes járvány kitöréséről számoltak be a kedvelt turistacélponton. Minden visszatérő állampolgárnak, aki nem érzi jól magát, jelentkeznie kell a legközelebbi kórházban. </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_CLIMATE_DESC</LocID>         	            <Text>A klímaváltozás eredményeképp az egzotikus betegségek egyre gyakrabban terjednek el a környéken, különösen az évnek ebben a szakában. </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_CORONA_DESC</LocID>                          <Text>A Covid-19 koronavírus újabb hulláma sújtja a várost. Minden kórháznak és egészségügyi létesítménynek fel kell készülnie a nagy számú fertőzött betegre.</Text></GameDBLocalizedString>
+                                                                                                                
+            <!-- RELATED FILE: StringTable[Language]Notifications.xml -->                                       
+            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_DISEASE_OUTBREAK_ENDED</LocID>               <Text>Napi hírek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_DISEASE_OUTBREAK_ENDED_TEXT</LocID>          <Text>A személyzet minden tagjának egészsége visszatért a normálishoz. Túlélted a járvány kitörését!</Text>  </GameDBLocalizedString>
+
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <!-- Satisfaction modifiers -->
+            <GameDBLocalizedString>      <LocID>DLC_INFECTED</LocID>                                            <Text>fertőzött</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>HIGHLY_CONTAGIOUS</LocID>                                       <Text>Erősen fertőző!</Text>  </GameDBLocalizedString>
+
+            <!--Doors-->
+            <GameDBLocalizedString>      <LocID>DOOR_BIOHAZARD</LocID>                     		                <Text>Biológiai szigetelő ajtó</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_OVAL_WINDOW</LocID>                                        <Text>Ajtó ovális ablakkal</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_BIOHAZARD_DOUBLE</LocID>                                   <Text>Dupla biológiai szigetelő ajtó</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_OVAL_WINDOW_DOUBLE</LocID>                                 <Text>Dupla ajtó ovális ablakkal</Text>  </GameDBLocalizedString>
+
+            <!-- Objects-->
+            <GameDBLocalizedString>      <LocID>OBJECT_LIFE_MONITOR_OLD</LocID>                     	    	<Text>Betegőrző monitor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MECHANICAL_VENTILATOR_DLC</LocID>                        <Text>Légzőkészülék</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL</LocID>                                   <Text>Elkülönítő fal</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL_BIOHAZARD</LocID>                         <Text>Elkülönítő fal</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL_CABINET</LocID>                           <Text>Elkülönítő faliszekrény</Text>  </GameDBLocalizedString>
+            <!-- Description for all three versions of isolation wall -->                                      
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL_DESCRIPTION</LocID>                       <Text>Védelmet nyújt minden légi úton terjedő kórokozó által okozott betegséggel szemben.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_SANITARY_EQUIPMENT</LocID>                     <Text>Higiéniai felszerelés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_SANITARY_EQUIPMENT_DESCRIPTION</LocID>         <Text>Az elkülönítőbe szánt felszerelés a betegek alapvető higiéniai ellátására.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AC</LocID>                    			    	<Text>Elkülönítő légkondicionáló</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AC_DESCRIPTION</LocID>                         <Text>A légkondicionáló biztosítja a szűrt, friss levegőt és a nagyobb kényelmet az elkülönített betegeknek.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_CAUTION</LocID>                                  <Text>Tábla – figyelem</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_CAUTION_DESCRIPTION</LocID>                      <Text>Kitörési riasztás.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_QUARANTINE</LocID>                               <Text>Tábla – karantén</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_QUARANTINE_DESCRIPTION</LocID>                   <Text>Csak felhatalmazott személyek.</Text>  </GameDBLocalizedString>
+                                                                                                               
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AIR_DOOR</LocID>                               <Text>Elkülönítő szellőző</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AIR_DOOR_DESCRIPTION</LocID>                   <Text>Negatív légáramlási rendszert alkalmaznak a légi úton terjedő fertőzések kockázatának csökkentésére a környező létesítményekben.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>      <LocID>OBJECT_NOTICE_BOARD_X</LocID>                                   <Text>Flipchart tábla</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_NOTICE_BOARD_X_DESCRIPTION</LocID>                       <Text>Mágneses flipchart tábla.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DESINFECTANTS</LocID>                                    <Text>Fertőtlenítő eszközök</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DESINFECTANTS_DESCRIPTION</LocID>                        <Text>Mindennapi használatra szánt fertőtlenítő eszközök.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_INFECT1</LocID>                                   <Text>Plakát – Fertőzések</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_POSTER_INFECT2</LocID>                                   <Text>Plakát – Malária</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_BENCH_X</LocID>                                <Text>Pad – modern</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_COFFEE_TABLE_2</LocID>                                   <Text>Kávézóasztal</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AMBULANCE_X_01</LocID>                         <Text>Mentő</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AMBULANCE_X_01_DESCRIPTION</LocID>             <Text>Új, európai stílusú mentő, amely készen áll a legsúlyosabb betegségben szenvedő betegek behozására.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_STRETCHER_X</LocID>                            <Text>Hordágy</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_BIOHAZARD</LocID>                                  <Text>Elkülönítő</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_DECAL_DID_DEPARTMENT</LocID>                             <Text>Fertőző betegségek</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_I</LocID>                                <Text>Fertőző betegségek: NAGY KÓRHÁZ</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>      <LocID>TOOLTIP_BUILDING_PREFAB_INFECTIOUS_DISEASES</LocID>             <Text>Fertőzőbeteg-osztály szobáinak sablonjai</Text>  </GameDBLocalizedString>
+
+            <!-- DIAGNOSES - MIGRATED -->
+            <GameDBLocalizedString>      <LocID>DIA_INFX</LocID>                                              	<Text>Influenza A</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HEPAX</LocID>                                               <Text>Hepatitisz A</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_HEPBX</LocID>                                               <Text>Hepatitisz B</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CLCX</LocID>                                                <Text>Kolera</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TYFX</LocID>                                                <Text>Tífusz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TBCX</LocID>                                                <Text>Tuberkulózis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TULX</LocID>                                                <Text>Tularaemia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PNAX</LocID>                                                <Text>Tüdő anthrax</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_RBFX</LocID>                                                <Text>Patkányharapási láz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_CSDX</LocID>                                                <Text>Macskakarmolás betegség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_PTSX</LocID>                                                <Text>Szamárköhögés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LEGX</LocID>                                                <Text>Legionárius betegség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TPFX</LocID>                                                <Text>Kiütéses tífusz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ATSX</LocID>                                                <Text>Chagas-kór</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TXMX</LocID>                                                <Text>Toxoplasmosis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_BABX</LocID>                                                <Text>Babeziózis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_LYDX</LocID>                                                <Text>Lyme-kór</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_MUMX</LocID>                                                <Text>Mumpsz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_TBEX</LocID>                                                <Text>Kullancs okozta agyvelőgyulladás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_RABX</LocID>                                                <Text>Veszettség</Text>  </GameDBLocalizedString>
+            
+            <!--DIAGNOSES - NEW -->
+            <GameDBLocalizedString>      <LocID>DIA_001</LocID>                                                 <Text>Anaplazmózis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_001_DESCRIPTION</LocID>                                     <Text>Az anaplazmózist az Anaplazmosis phagocytophilum baktériumok okozzák, amit kullancsok terjesztenek.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_002</LocID>                                                 <Text>Ehrlichiosis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_002_DESCRIPTION</LocID>                                     <Text>Az ehrlichiosis influenzaszerű betegség, amely nagyon hasonlít az anaplazmózisra. Ezt is kullancsok terjesztik.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_003</LocID>                                                 <Text>Boutonneuse-láz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_003_DESCRIPTION</LocID>                                     <Text>A Boutonneuse-láz Rickettsia-fertőzés okozta betegség, amit a Rickettsia conorii baktérium okoz, és a kutyákban élő kullancs terjeszt. A betegség elsősorban a Földközi-tenger medencéjében, a Közel-keleten, az indiai szubkontinensen és Afrikában fordul elő.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_004</LocID>                                                 <Text>Sziklás hegyi foltos láz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_004_DESCRIPTION</LocID>                                     <Text>A Rickettsia rickettsii által okozott bakteriális betegség, a különböző kullancsfajok terjesztik (amerikai kutyakullancs, sziklás hegyi fa kullancs, barna kutyakullancs).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_005</LocID>                                                 <Text>Colorado-kullancsláz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_005_DESCRIPTION</LocID>                                     <Text>A sziklás hegyi fa kullancs által terjesztett vírusfertőzés, a tünetei nagyon hasonlóak a sziklás hegyi foltos lázéhoz.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_006</LocID>                                                 <Text>Nyugati parti kullancsláz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_006_DESCRIPTION</LocID>                                     <Text>A Rickettsia philipii által okozott bakteriális betegség, amit a nyugati parti kullancs terjeszt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_007</LocID>                                                 <Text>Afrikai kullancscsípés-láz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_007_DESCRIPTION</LocID>                                     <Text>Az afrikai kullancscsípés-láz (ATBF) a Rickettsia africae által okozott bakteriális fertőzés, kullancsok terjesztik. A betegség a Szaharától délre Afrikában, a Karib-térségben és Óceániában fordul elő.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_008</LocID>                                                 <Text>Queenslandi kullancstífusz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_008_DESCRIPTION</LocID>                                     <Text>A queenslandi kullancstífusz kórokozója a Rickettsia australis baktérium. A betegség csak Kelet-Ausztráliában fordul elő, beleértve Tasmaniát is.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_009</LocID>                                                 <Text>Flinders Island foltos láz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_009_DESCRIPTION</LocID>                                     <Text>A Flinders Island foltos lázat a Rickettsia honei okozza, és a betegség főleg Délkelet- és Dél-Ázsiában, valamint Ausztráliában fordul elő.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_010</LocID>                                                 <Text>Japán foltos láz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_010_DESCRIPTION</LocID>                                     <Text>A Japán foltos láz elsősorban Japán délnyugati és középső részének Csendes-óceáni, meleg területein fordul elő. A betegséget a Rickettsia japonica okozza, amit kullancscsípés terjeszt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_011</LocID>                                                 <Text>TIBOLA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_011_DESCRIPTION</LocID>                                     <Text>A Rickettsia slovaca által okozott és kullancsok által terjesztett nyirokcsomó-megnagyobbodás viszonylag gyakori Közép-Európában.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_012</LocID>                                                 <Text>Rickettsiás-himlő</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_012_DESCRIPTION</LocID>                                     <Text>A rickettsiás-himlő a Rickettsia akari okozta, atkák által terjesztett fertőző betegség, amelyet a házi egereken élő atkák terjesztenek.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_013</LocID>                                                 <Text>Brucellózis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_013_DESCRIPTION</LocID>                                     <Text>A brucellózis a Brucella baktériumfajok által okozott, erősen fertőző betegség, ami nem pasztörizált tej vagy nem eléggé átsült hús fogyasztásával terjed.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_014</LocID>                                                 <Text>Chikungunya-láz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_014_DESCRIPTION</LocID>                                     <Text>A chikungunya-láz a fertőzött szúnyogok csípésével terjedő vírusos fertőzés. Nincs ellene védőoltás.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_015</LocID>                                                 <Text>Q-láz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_015_DESCRIPTION</LocID>                                     <Text>A Q-láz a Coxiella burnetti okozta betegség, elterjedt különböző állatokban, mint szarvasmarhák, juhok, kecskék, kutyák és macskák. A baktérium intracelluláris parazita, amely növekedésre és szaporodásra képes a gazdaállat sejtjeinek belsejében.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_016</LocID>                                                 <Text>Dengue-láz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_016_DESCRIPTION</LocID>                                     <Text>A dengue-láz fertőzött szúnyog csípésével terjedő trópusi betegség. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_017</LocID>                                                 <Text>Zika-láz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_017_DESCRIPTION</LocID>                                     <Text>A zika-láz a Zika-vírus okozta trópusi betegség, amit az ázsiai tigrisszúnyog terjeszt. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_018</LocID>                                                 <Text>Ebola</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_018_DESCRIPTION</LocID>                                     <Text>Az ebola halálos vírusos vérzéses láz. Az ebolavírusok okozzák, amit a fertőzött testnedvekkel közvetlen érintkezés terjeszt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_019</LocID>                                                 <Text>Malária</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_019_DESCRIPTION</LocID>                                     <Text>A malária trópusi fertőző betegség, amit a Plasmodium-csoportba tartozó paraziták okoznak. Fertőzött szúnyogok csípésével terjed.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_020</LocID>                                                 <Text>Sárgaláz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_020_DESCRIPTION</LocID>                                     <Text>A sárgaláz trópusi vírusos betegség, amely fertőzött nőstény szúnyogok csípésével terjed. A sárgaláz-vírus okozza, amely a Flaviridae családba tartozó, burokkal rendelkező RNS-vírus.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_021</LocID>                                                 <Text>Nyugat-nílusi láz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_021_DESCRIPTION</LocID>                                     <Text>A nyugat-nílusi láz a nyugat-nílusi vírus által okozott fertőzés, a betegséget fertőzött szúnyogok terjesztik. A legtöbb embernél nem alakulnak ki tünetek. A vírust 1937-ben fedezték fel Ugandában.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_022</LocID>                                                 <Text>Lassa-láz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_022_DESCRIPTION</LocID>                                     <Text>A lassa vérzéses láz néven is ismert betegséget a Lassa-vírus okozza, amely kifejezetten az afrikai patkányokban terjed.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_023</LocID>                                                 <Text>Marburg betegség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_023_DESCRIPTION</LocID>                                     <Text>A marburg-vírus súlyos betegséget okoz, amely hatással lehet emberekre és főemlősökre, és két marburg-vírus egyike okozza: a Marburg-vírus vagy a Ravn-vírus.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_024</LocID>                                                 <Text>Leptoszpirózis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_024_DESCRIPTION</LocID>                                     <Text>A leptoszpirózis a vér Leptospira baktériumok által okozott fertőzése, amit jellemzően rágcsálók terjesztenek.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_025</LocID>                                                 <Text>C. difficile-fertőzés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_025_DESCRIPTION</LocID>                                     <Text>A Clostridium difficile fertőzést toxint termelő baktériumok okozzák. Végzetes lehet.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_026</LocID>                                                 <Text>Völgyi láz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_026_DESCRIPTION</LocID>                                     <Text>A völgyi láz, más néven coccidioidomycosis a Coccidioides okozta gombás fertőzés, ezek a gombák Egyesült Államok délnyugati részén, Mexikóban és Közép- és Dél-Amerikában találhatók meg a talajban.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_027</LocID>                                                 <Text>COVID-19</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_027_DESCRIPTION</LocID>                                     <Text>A COVID-19 az új SARS-CoV-2 koronavírus által okozott betegség, elsősorban légúti fertőzést okoz. Először Wu-hanban, Kínában azonosították, 2019. decemberében, de a betegség világszerte elterjedt, a legnagyobb járványt okozva az 1918-as spanyolnátha-járvány óta.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_028</LocID>                                                 <Text>MERS</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_028_DESCRIPTION</LocID>                                     <Text>A MERS (közel-keleti légúti koronavírus), más néven teveinfluenza, a MERS-koronavírus okozta, erősen fertőző vírusos légúti fertőzés.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_029</LocID>                                                 <Text>SARS</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_029_DESCRIPTION</LocID>                                     <Text>SARS (súlyos akut légzőszervi szindróma) a SARS-koronavírus okozta vírusos légúti fertőzés. Az első járványkitörés Dél-Kínában történt 2002. novembere és 2003. júliusa között.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_030</LocID>                                                 <Text>Légúti cryptosporidiosis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_030_DESCRIPTION</LocID>                                     <Text>A cryptosporidiosis a Cryptosporidium protozoon parazita által okozott betegség. Hatással van a légutakra, valamint az emésztőrendszerre.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_031</LocID>                                                 <Text>Emésztőrendszeri kriptosporidiózis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_031_DESCRIPTION</LocID>                                     <Text>A cryptosporidiosis a Cryptosporidium protozoon parazita által okozott betegség. Hatással van az emésztőrendszerre, valamint a légutakra.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_032</LocID>                                                 <Text>Hantavírus okozta tüdőszindróma (HPS)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_032_DESCRIPTION</LocID>                                     <Text>A hantavírus okozta tüdőszindróma (HPS) súlyos, vírusos légúti betegség, amit a rágcsálók terjesztette hantavírusok okoznak.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_033</LocID>                                                 <Text>Norovírus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_033_DESCRIPTION</LocID>                                     <Text>A norovirus, más néven hányós-hasmenéses betegség igen ragályos vírus, ami hányást és hasmenést okoz. A fertőzött betegek több milliárd norovírust bocsáthatnak a környezetükbe.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_034</LocID>                                                 <Text>Rotavírus A</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_034_DESCRIPTION</LocID>                                     <Text>A rotavírus A rendkívül fertőző, és vizes hasmenést okoz. A legjobb megelőzés a védőoltás.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_035</LocID>                                                 <Text>Melioidózis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_035_DESCRIPTION</LocID>                                     <Text>A melioidózis, más néven Whitmore-kór a Burkholderia pseudomallei nevű pálcika alakú baktérium által okozott fertőző betegség, amit az állatok és a szennyezett talaj vagy víz is képes terjeszteni.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_036</LocID>                                                 <Text>Légúti óriássejtes vírus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_036_DESCRIPTION</LocID>                                     <Text>Az emberi légúti óriássejtes vírus (HRSV) légúti fertőzéseket okozó óriássejtes egyszálú RNS-vírus.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_037</LocID>                                                 <Text>Limfocitás koriomeningitisz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_037_DESCRIPTION</LocID>                                     <Text>A limfocitás koriomeningitisz rágcsálók által terjesztett vírusos fertőző betegség, amit a limfocitás koriomeningitisz arenavírusa okoz, és általában házi egerek terjesztik.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_038</LocID>                                                 <Text>Bubópestis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_038_DESCRIPTION</LocID>                                     <Text>A bubópestis egyike a Yersinia pestis baktérium által okozott három pestistípusnak. A bubópestist a kis állatokon élő fertőzött bolhák terjesztik. Jól azonosítható a nyirokcsomók fertőzése, amelyek rendkívüli mértékben megduzzadnak.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_039</LocID>                                                 <Text>Vérmérgezéses pestis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_039_DESCRIPTION</LocID>                                     <Text>A vérmérgezéses pestis egyike a Yersinia pestis baktérium által okozott három pestistípusnak. A vérmérgezéses pestist a kis állatokon élő fertőzött bolhák terjesztik. Ez a legritkább a három forma közül, jellemzően a vért fertőzi meg.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_040</LocID>                                                 <Text>Tüdőpestis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_040_DESCRIPTION</LocID>                                     <Text>A tüdőpestis egyike a Yersinia pestis baktérium által okozott három pestistípusnak. A kis állatokon élő fertőzött bolhák terjesztik. A tüdőpestis a tüdő fertőzését okozza.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_041</LocID>                                                 <Text>Nipah-vírus fertőzés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_041_DESCRIPTION</LocID>                                     <Text>A Nipah-vírus fertőzés súlyos és potenciálisan halálos betegség, amit a Henipavirus nemzetségbe tartozó RNS-vírus okoz. Emberek között terjed, de állatokról is átkerülhet az emberre.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_042</LocID>                                                 <Text>Rift-völgyi láz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_042_DESCRIPTION</LocID>                                     <Text>A Rift-völgyi láz az RVF-vírus okozta vírusos betegség, amely állati testnedveken keresztül terjed.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_043</LocID>                                                 <Text>Visszatérő láz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_043_DESCRIPTION</LocID>                                     <Text>A visszatérő láz fertőző, a Borelia nemzetségbe tartozó baktériumok egy csoportja által okozott, és tetvek vagy lágy testű kullancsok csípésével terjedő betegség.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_044</LocID>                                                 <Text>Akut hepatitis E</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_044_DESCRIPTION</LocID>                                     <Text>A hepatitis E a Hepatitis E vírus okozta májgyulladás. Terjedése hasonló a Hepatitis A-hoz, de vírusaik függetlenek egymástól. Az első feljegyzések 1955-ből származnak, de a vírust először 1983-ban izolálták.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_045</LocID>                                                 <Text>H5N1 madárinfluenza</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_045_DESCRIPTION</LocID>                                     <Text>Az Influenza A vírus H5N1 altípusa magas patogenitású madárinfluenza. Kizárólag madarakról terjed emberre. Az első globális terjedést 2004-ben regisztrálták.</Text>  </GameDBLocalizedString>
+
+            <!--MAIN SYMPTOMS - MIGRATED-->
+            <GameDBLocalizedString>      <LocID>SYM_INFLUENZA_A_DETECTED_X</LocID>                              <Text>Influenza A felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEPATITIS_A_POSITIVE_X</LocID>                              <Text>Hepatitisz A pozitív</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEPATITIS_B_POSITIVE_X</LocID>                              <Text>Hepatitisz B pozitív</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VIBRIO_CHOLERAE_DETECTED_X</LocID>                          <Text>Vibrio cholerae felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SALMONELLA_TYPHI_DETECTED_X</LocID>                         <Text>S. typhi felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_M._TUBERCULOSIS_DETECTED_X</LocID>                          <Text>Tuberkulózis felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_F._TULARENSIS_DETECTED_X</LocID>                            <Text>F. tularensis felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._ANTHRACIS_DETECTED_X</LocID>                             <Text>B. anthracis felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STREPTOBACILLUS_DETECTED_X</LocID>                          <Text>Streptobacillus felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._HENSELAE_DETECTED_X</LocID>                              <Text>B. henselae felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._PERTUSSIS_DETECTED_X</LocID>                             <Text>B. pertussis felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LEGIONELLA_DETECTED_X</LocID>                               <Text>Legionella felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_R._TYPHI_DETECTED_X</LocID>                                 <Text>R. typhi felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TRYPANOSOMA_DETECTED_X</LocID>                              <Text>Trypanosoma felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TOXOPLASMOSIS_DETECTED_X</LocID>                            <Text>Taxoplazmózis felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BABESIOSIS_DETECTED_X</LocID>                               <Text>Babeziózis felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LYME_DISEASE_DETECTED_X</LocID>                             <Text>Borrelia antitestek felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PAROTID_INFECTED_X</LocID>                                  <Text>Fültőmirigy fertőzés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TBE_DETECTED_X</LocID>                                      <Text>TBE felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RABIES_DETECTED_X</LocID>                                   <Text>Veszettség felismerve</Text>  </GameDBLocalizedString>
+            
+            <!--MAIN SYMPTOMS - NEW-->
+            <GameDBLocalizedString>      <LocID>SYM_ANAPLASMNA_DETECTED</LocID>                                 <Text>Anaplasma felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ANAPLASMNA_DETECTED_DESCRIPTION</LocID>                     <Text>A megemelkedett IgG szint Anaplasma phagocytophilum jelenlétére utal.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EHRLICHIOSIS_DETECTED</LocID>                               <Text>Ehrlichiosis felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EHRLICHIOSIS_DETECTED_DESCRIPTION</LocID>                   <Text>A PCR-vizsgálat az Ehrlichiosisra utaló gének jelenlétét mutatta ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_CONORII_DETECTED</LocID>                         <Text>Rickettsia conorii felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_CONORII_DETECTED_DESCRIPTION</LocID>             <Text>A biopsziás anyag immunfluoreszcens vizsgálata Rickettsia conorii antitestek jelenlétét mutatta ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_RICKETTSI_DETECTED</LocID>                       <Text>Rickettsia rickettsii felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_RICKETTSI_DETECTED_DESCRIPTION</LocID>           <Text>A PCR-vizsgálat Rickettsia rickettsii jelenlétét mutatta ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COLTIVIRUS_ANTIBODIES_DETECTED</LocID>                      <Text>Coltivírus-antitestek felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COLTIVIRUS_ANTIBODIES_DETECTED_DESCRIPTION</LocID>          <Text>Az RT-PCR vizsgálat coltivírus antitestek jelenlétét mutatta ki a vörösvérsejteken.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_PHILIPII_DETECTED</LocID>                        <Text>Rickettsia philipii felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_PHILIPII_DETECTED_DESCRIPTION</LocID>            <Text>A PCR vizsgálat Rickettsia philipii jelenlétét mutatta ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AFRICAE_DETECTED</LocID>                         <Text>Rickettsia africae felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AFRICAE_DETECTED_DESCRIPTION</LocID>             <Text>A PCR vizsgálat Rickettsia africae jelenlétét mutatta ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AUSTRALIS_DETECTED</LocID>                       <Text>Rickettsia australis felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AUSTRALIS_DETECTED_DESCRIPTION</LocID>           <Text>A szerológiai immunfluoreszcencia Rickettsia australis jelenlétét mutatta ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_HONEI_DETECTED</LocID>                           <Text>Rickettsia honei felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_HONEI_DETECTED_DESCRIPTION</LocID>               <Text>A szerológiai vizsgálat Rickettsia honei jelenlétét mutatta ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_JAPONICA_DETECTED</LocID>                        <Text>Rickettsia japonica felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_JAPONICA_DETECTED_DESCRIPTION</LocID>            <Text>A PCR-vizsgálat Rickettsia japonica jelenlétét mutatta ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_SLOVACA_DETECTED</LocID>                         <Text>Rickettsia slovaca felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_SLOVACA_DETECTED_DESCRIPTION</LocID>             <Text>A PCR-vizsgálat Rickettsia slovaca jelenlétét mutatta ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AKARI_DETECTED</LocID>                           <Text>Rickettsia akari felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RICKETTSIA_AKARI_DETECTED_DESCRIPTION</LocID>               <Text>A szerológiai vizsgálat Rickettsia akari jelenlétét mutatta ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRUCELLOSIS_CONFIRMED</LocID>                               <Text>Brucellózis megerősítve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BRUCELLOSIS_CONFIRMED_DESCRIPTION</LocID>                   <Text>A szerológiai vizsgálat megerősítette a brucellózis jelenlétét.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHIKV_DETECTED</LocID>                                      <Text>CHIKV vírus felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CHIKV_DETECTED_DESCRIPTION</LocID>                          <Text>Az RT-PCR vizsgálat Chikungunya-vírus jelenlétét mutatta ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COXIELLA_BURNETII_DETECTED</LocID>                          <Text>Coxiella burnetii felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COXIELLA_BURNETII_DETECTED_DESCRIPTION</LocID>              <Text>A szerológiai vizsgálatok antitestválaszt észleltek a Coxiella burnetii baktériumra.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DENGUE_VIRUS_DETECTED</LocID>                               <Text>Dengue-vírus felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_DENGUE_VIRUS_DETECTED_DESCRIPTION</LocID>                   <Text>Az RT-PCR vizsgálat dengue-vírus genomját mutatta ki a beteg szérummintáiban.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ZIKA_VIRUS_DETECTED</LocID>                                 <Text>Zika-vírus felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ZIKA_VIRUS_DETECTED_DESCRIPTION</LocID>                     <Text>Az RT-PCR vizsgálat zika-vírus jelenlétét mutatta ki a beteg mintáiban.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EBOLA_VIRUS_DETECTED</LocID>                                <Text>Ebola-vírus felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EBOLA_VIRUS_DETECTED_DESCRIPTION</LocID>                    <Text>Az ELISA vizsgálat Ebola-vírust mutatott ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLASMODIUM_DETECTED</LocID>                                 <Text>Plasmodium felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PLASMODIUM_DETECTED_DESCRIPTION</LocID>                     <Text>Az ELISA vizsgálat malária elleni, IgG és IgM osztályba tartozó antitesteket észlelt a beteg szérummintájában.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_YELLOW_FEVER_VIRUS</LocID>                                  <Text>Sárgalázvírus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_YELLOW_FEVER_VIRUS_DESCRIPTION</LocID>                      <Text>Az RT-PCR vizsgálat megerősítette a sárgalázvírus genomjának jelenlétét a beteg mintájában.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WEST_NILE_VIRUS</LocID>                                     <Text>Nyugat-nílusi vírus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_WEST_NILE_VIRUS_DESCRIPTION</LocID>                         <Text>Az ELISA vizsgálat nyugat-nílusi vírus elleni antitestek jelenlétét mutatta ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LASSA_VIRUS_PRESENT</LocID>                                 <Text>Lassa-vírus jelenléte</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LASSA_VIRUS_PRESENT_DESCRIPTION</LocID>                     <Text>A PCR vizsgálat Lassa-vírus jelenlétét mutatta ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MARV_DETECTED</LocID>                                       <Text>MARV felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MARV_DETECTED_DESCRIPTION</LocID>                           <Text>Az RT-PCR vizsgálat Marburg-vírus jelenlétét mutatta ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LEPTOSPIRA_DETECTED</LocID>                                 <Text>Leptoszpirózis felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LEPTOSPIRA_DETECTED_DESCRIPTION</LocID>                     <Text>A mikróbiás tenyésztés bebizonyította a leptospira baktérium jelenlétét.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C._DIFFICILE_DETECTED</LocID>                               <Text>C. difficile felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_C._DIFFICILE_DETECTED_DESCRIPTION</LocID>                   <Text>A PCR-vizsgálat Clostridium difficile jelenlétét mutatta ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COCCIDIOIDES_ANTIBODIES_DETECTED</LocID>              <Text>Coccidioides gombák felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_COCCIDIOIDES_ANTIBODIES_DETECTED_DESCRIPTION</LocID>  <Text>A szerológiai vizsgálat Coccidioides elleni antitestek jelenlétét mutatta ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_2019_NCOV_DETECTED</LocID>                                  <Text>2019-nCoV felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_2019_NCOV_DETECTED_DESCRIPTION</LocID>                      <Text>A szerológiai vizsgálat megerősítette az immunológiai választ a 2019-es új koronavírusra a beteg mintáiból.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MERS_COV_DETECTED</LocID>                                   <Text>MERS-CoV felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_MERS_COV_DETECTED_DESCRIPTION</LocID>                       <Text>Az RT-PCR vizsgálat MERS-koronavírus jelenlétét mutatta ki a beteg mintáiban.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SARS_COV_DETECTED</LocID>                                   <Text>SARS-CoV felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SARS_COV_DETECTED_DESCRIPTION</LocID>                       <Text>Az RT-PCR vizsgálat SARS-koronavírus jelenlétét mutatta ki a beteg mintáiban.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CRYPTOSPORIDIUM_DETECTED</LocID>                            <Text>Kriptosporidiózis felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_CRYPTOSPORIDIUM_DETECTED_DESCRIPTION</LocID>                <Text>A PCR-vizsgálat azonosította a Cryptosporidiumot.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OOCYST_IN_STOOL_DETECTED</LocID>                            <Text>Oociszta a székletben felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_OOCYST_IN_STOOL_DETECTED_DESCRIPTION</LocID>                <Text>Cryptosporidium oocisztát fedeztek fel a beteg székletmintájában.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HANTAVIRUS_DETECTED</LocID>                                 <Text>Hantavírus felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HANTAVIRUS_DETECTED_DESCRIPTION</LocID>                     <Text>A szerológiai vizsgálat azonosította a hantavírussal kapcsolatos antitesteket.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NOROVIRUS_DETECTED</LocID>                                  <Text>Norovírus felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NOROVIRUS_DETECTED_DESCRIPTION</LocID>                      <Text>A PCR-vizsgálat norovírust észlelt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ROTAVIRUS_A_DETECTED</LocID>                                <Text>Rotavírus A felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ROTAVIRUS_A_DETECTED_DESCRIPTION</LocID>                    <Text>Az RT-PCR vizsgálat rotavírus A jelenlétét mutatta ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._PSEUDOMALLEI_DETECTED</LocID>                            <Text>B. pseudomallei felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._PSEUDOMALLEI_DETECTED_DESCRIPTION</LocID>                <Text>A mikrobiális tenyésztés megerősítette a Burkholderia pseudomallei jelenlétét.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HRSV_PRESENT</LocID>                                        <Text>HRSV jelenléte</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HRSV_PRESENT_DESCRIPTION</LocID>                            <Text>Az RT-PCR vizsgálat emberi légzőszervi óriássejtes vírus jelenlétét mutatta ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LCMV_DETECTED</LocID>                                       <Text>LCMV felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LCMV_DETECTED_DESCRIPTION</LocID>                           <Text>A gerincvelői folyadék vizsgálata a limfocitás koriomeningitisz vírusához köthető antitestek jelenlétét mutatta ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_BUBONIC</LocID>                                   <Text>Y. pestis – bubópestis forma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_BUBONIC_DESCRIPTION</LocID>                       <Text>A biopsziás anyag vizsgálata a Yersinia pestis fertőzés bubópestis formáját észlelte.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_SEPTICEMIC</LocID>                                <Text>Y. pestis – vérmérgezéses forma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_SEPTICEMIC_DESCRIPTION</LocID>                    <Text>A szerológiai vizsgálat kimutatta a Yersinia pestis fertőzés vérmérgezéses formáját.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_PNEUMONIC</LocID>                                 <Text>Y. pestis – tüdőpestis forma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_Y._PESTIS_PNEUMONIC_DESCRIPTION</LocID>                     <Text>Az PCR vizsgálat a Yersinia pestis elleni antitesteket észlelt – tüdőgyulladásos forma.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NIPAH_VIRUS_DETECTED</LocID>                                <Text>Nipah-vírus felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_NIPAH_VIRUS_DETECTED_DESCRIPTION</LocID>                    <Text>Az RT-PCR vizsgálat Nipah-vírus jelenlétét mutatta ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RVF_VIRUS_DETECTED</LocID>                                  <Text>RVF vírus felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_RVF_VIRUS_DETECTED_DESCRIPTION</LocID>                      <Text>Az ELISA-szerológiai vizsgálat a Rift-völgyi láz vírusa elleni antitesteket észlelt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._RECURRENTIS_DETECTED</LocID>                             <Text>B. recurrentis felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._RECURRENTIS_DETECTED_DESCRIPTION</LocID>                 <Text>A PCR-vizsgálat Borrelia recurrentis jelenlétét mutatta ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEPATITIS_E_DETECTED</LocID>                                <Text>Hepatitis E felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEPATITIS_E_DETECTED_DESCRIPTION</LocID>                    <Text>A szerológiai vizsgálat Hepatitis E vírussal kapcsolatos antitesteket mutatott ki.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_H5N1_DETECTED</LocID>                                       <Text>H5N1 felismerve</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_H5N1_DETECTED_DESCRIPTION</LocID>                           <Text>Az RT-PCR vizsgálat H5N1 influenza A vírust észlelt.</Text>  </GameDBLocalizedString>
+
+            <!-- SYMPTOMS -->
+            <GameDBLocalizedString>      <LocID>SYM_HEMORRHAGIC_FEVER</LocID>                                   <Text>Vérzéses láz</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMORRHAGIC_FEVER_DESCRIPTION</LocID>                       <Text>A vérzéses láz több belső szervet érint, károsítja a véredényeket és befolyásolja a szervezet önszabályozó képességét.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ORIFICE_BLEEDING</LocID>                                    <Text>Testnyílási vérzés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_ORIFICE_BLEEDING_DESCRIPTION</LocID>                        <Text>Akut vérzés a testnyílásokból, mint az orr, a száj, a szemek és/vagy a fül.</Text>  </GameDBLocalizedString>
+
+            <!--TREATMENTS-->
+            <GameDBLocalizedString>      <LocID>TRT_DOXYCYCLINE</LocID>                                         <Text>Doxiciklin</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_DOXYCYCLINE_DESCRIPTION</LocID>                             <Text>Különleges tetraciklin antibiotikum kezelést használnak bizonyos baktériumok és paraziták elleni küzdelemre. \n\nSzükséges szoba: Fertőző oszt. rendelő / Vizsgáló + Általános kórterem a Fertőző osztályon / Intenzív osztályon</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_DOXYCYCLINE</LocID>                                      <Text>Intravénás Doxiciklin</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_DOXYCYCLINE_DESCRIPTION</LocID>                          <Text>Különleges tetraciklin antibiotikum kezelést használnak bizonyos baktériumok és paraziták elleni küzdelemre. \n\nSzükséges szoba: Fertőző oszt rendelő / Vizsgáló + Elkülönítő a Fertőző osztályon / Intenzív osztályon</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MINOCYCLINE</LocID>                                         <Text>Minociklin</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_MINOCYCLINE_DESCRIPTION</LocID>                             <Text>Különleges tetraciklin antibiotikum kezelést használnak bizonyos baktériumok és paraziták elleni küzdelemre. \n\nSzükséges szoba: Fertőző oszt. rendelő / Vizsgáló a Fertőző osztályon / Intenzív osztályon</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CHLORAMPHENICOL</LocID>                                     <Text>Klóramfenikol</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CHLORAMPHENICOL_DESCRIPTION</LocID>                         <Text>Különleges antibiotikum széles spektrumú bakteriális fertőzések ellen.\n\nSzükséges szoba: Fertőző oszt. rendelő / Vizsgáló + Általános kórterem a Fertőző osztályon / Intenzív osztályon</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_AZITHROMYCIN</LocID>                                        <Text>Azitromicin</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_AZITHROMYCIN_DESCRIPTION</LocID>                            <Text>Antibiotikum különféle bakteriális fertőzések ellen. \n\nSzükséges szoba: Fertőző oszt. rendelő / Vizsgáló a Fertőző osztályon / Intenzív osztályon</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTRAMUSCULAR_ANTIBIOTICS</LocID>                           <Text>Intramuszkuláris antibiotikum</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTRAMUSCULAR_ANTIBIOTICS_DESCRIPTION</LocID>               <Text>Az intramuscularis antibiotikumot nagy izomba adják be injekcióként. \n\nSzükséges szoba: Fertőző oszt. rendelő / Vizsgáló a Fertőző osztályon / Intenzív osztályon</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SPECIAL_ANTIVIRAL_TREATMENT</LocID>                         <Text>Komplex antivirális kezelés</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SPECIAL_ANTIVIRAL_TREATMENT_DESCRIPTION</LocID>             <Text>A komplex antivirális kezelés olyan esetekben használatos, amikor nem elérhető célzott vírus ellenes gyógyszer. \n\nSzükséges szoba: Fertőző oszt rendelő / Vizsgáló + Elkülönítő a Fertőző osztályon / Intenzív osztályon</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_EXPERIMENTAL_SERUM</LocID>                                  <Text>Kísérleti szérum</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_EXPERIMENTAL_SERUM_DESCRIPTION</LocID>                      <Text>Kísérleti intravénás szérum, amely kezeli az ebola vérzéses lázát. \n\nSzükséges szoba: Fertőző oszt rendelő / Vizsgáló + Elkülönítő a Fertőző osztályon / Intenzív osztályon</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIMALARIAL_MEDICATION</LocID>                             <Text>Malária elleni gyógyszer</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIMALARIAL_MEDICATION_DESCRIPTION</LocID>                 <Text>Különböző antibiotikumok, gyógyszerek és támogató anyagok kombinációja, amely küzd a malária és a maláriával rokon betegségek ellen. \n\nSzükséges szoba: Fertőző oszt. rendelő / Vizsgáló + Általános kórterem a Fertőző osztályon / Intenzív osztályon</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_PASSIVE_IMMUNOTHERAPY</LocID>                            <Text>Intravénás passzív immunterápia</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_PASSIVE_IMMUNOTHERAPY_DESCRIPTION</LocID>                <Text>Meghatározott antitestek intravénás szervezetbe juttatása megfelelő dózisokban különböző virális vérzéses lázak ellen. \n\nSzükséges szoba: Fertőző oszt. rendelő / Vizsgáló + Általános kórterem a Fertőző osztályon / Intenzív osztályon</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTISENSE_THERAPY</LocID>                                   <Text>Az antiszensz terápia</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTISENSE_THERAPY_DESCRIPTION</LocID>                       <Text>Az antiszensz terápia a genetikai rendellenességek vagy fertőzések kezelésének egy formája – lehetséges az RNS/DNS egy szakaszát szintetizálni, amely kikapcsol egy bizonyos gént. \n\nSzükséges szoba: Fertőző oszt. rendelő / Vizsgáló + Általános kórterem a Fertőző osztályon / Intenzív osztályon</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_VANCOMYCIN</LocID>                                          <Text>Vankomicin</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_VANCOMYCIN_DESCRIPTION</LocID>                              <Text>Intravénás antibiotikum, amely számos bakteriális fertőzést kezel. \n\nSzükséges szoba: Fertőző oszt. rendelő / Vizsgáló + Általános kórterem a Fertőző osztályon / Intenzív osztályon</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FLUCONAZOLE</LocID>                                         <Text>Flukonazol</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_FLUCONAZOLE_DESCRIPTION</LocID>                             <Text>Különleges gombaellenes gyógyszer, különféle, gombák által okozott betegségek kezelésére használják. \n\nSzükséges szoba: Fertőző oszt. rendelő / Vizsgáló + Általános kórterem a Fertőző osztályon / Intenzív osztályon</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_NITAZOXANIDE</LocID>                                        <Text>Nitazoxanide</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_NITAZOXANIDE_DESCRIPTION</LocID>                            <Text>Széles spektrumú parazitaellenes és széles spektrumú vírusellenes gyógyszer. \n\nSzükséges szoba: Fertőző oszt. rendelő / Vizsgáló + Általános kórterem a Fertőző osztályon / Intenzív osztályon</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_OSELTAMIVIR</LocID>                                         <Text>Oszeltamivir</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_OSELTAMIVIR_DESCRIPTION</LocID>                             <Text>Vírusellenes gyógyszer az Influenza A és B kezelésére és megelőzésére. \n\nSzükséges szoba: Fertőző oszt rendelő / Vizsgáló + Elkülönítő a Fertőző osztályon / Intenzív osztályon</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CIPROFLOXACIN</LocID>                                       <Text>Ciprofloxacin</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_CIPROFLOXACIN_DESCRIPTION</LocID>                           <Text>Számos bakteriális fertőzés kezelésére használt antibiotikum. \n\nSzükséges szoba: Fertőző oszt. rendelő / Vizsgáló + Általános kórterem a Fertőző osztályon / Intenzív osztályon</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_CIPROFLOXACIN</LocID>                                    <Text>Intravénás ciprofloxacin</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_IV_CIPROFLOXACIN_DESCRIPTION</LocID>                        <Text>Számos bakteriális fertőzés kezelésére használt antibiotikum. \n\nSzükséges szoba: Fertőző oszt rendelő / Vizsgáló + Elkülönítő a Fertőző osztályon / Intenzív osztályon</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SUPPORTIVE_CARE</LocID>                                     <Text>Szupportív terápia</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_SUPPORTIVE_CARE_DESCRIPTION</LocID>                         <Text>A szupportív terápia számos tüneti kezelésből áll, elsősorban olyan vírusos betegségeknél, ahol nem létezik specifikus terápia. \n\nSzükséges szoba: Fertőző oszt. rendelő / Vizsgáló + Általános kórterem a Fertőző osztályon / Intenzív osztályon</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_RABIES_IMMUNE_GLOBULIN_X</LocID>                            <Text>Veszettség immunglobulin</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_RABIES_IMMUNE_GLOBULIN_X_DESCRIPTION</LocID>                <Text>A gyorsan ható injekció megakadályozza, hogy a veszettség vírusa megfertőzze a beteget. Gyakran adják megelőző jelleggel olyan betegnek, akit esetlegesen veszett állat harapott meg. \n\nSzükséges szoba: Fertőző oszt. rendelő / Vizsgáló + Általános kórterem a Fertőző osztályon / Intenzív osztályon</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTERFERON_ALPHA-2B_X</LocID>                               <Text>Alfa-2b interferon</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTERFERON_ALPHA-2B_X_DESCRIPTION</LocID>                   <Text>Speciális terápia a vírusos betegségek ellen, a krónikus hepatitisz (májgyulladás) B és C típusának kezelésére használható. \n\nSzükséges szoba: Rendelő / Vizsgáló a fertőző osztályon / Intenzív osztályon</Text>  </GameDBLocalizedString>
+                                                                                                                
+            <GameDBLocalizedString>      <LocID>EXM_GASTROSCOPY_DESCRIPTION</LocID>                             <Text>A művelet során egy hajlékony csövet (endoszkópot) csúsztatnak le a szájon át, melyen egy apró kamera és fényforrás található, aminek segítségével felmérhető az emésztőrendszer felső szakasza. \n\nSzükséges szoba: Intenzív oszt. / Rendelő / Vizsgáló az Sebészeti osztályon / Belgyógyászati oszt. / Kardiológiai oszt. / Fertőző oszt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_SPINAL_FLUID_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>      <Text>A gerincvelő-folyadék mintavétele a hát alsó részén keresztül a gerinccsatornába bevezetett tűvel történik, ahol kis mennyiségű folyadékot vesznek le. \n\nSzükséges szoba: Szövettani labor \n\nMintavételezés: Neurológiai oszt. / Fertőző oszt. \n\nSzükséges felszerelés: Üvegedények + orvosi centrifuga + általános elemző</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_STOOL_ANALYSIS_SAMPLING_DESCRIPTION_1_1</LocID>             <Text>Eljárás a beteg székletmintájának begyűjtésére, további analízis céljából. \n\nSzükséges szoba: Szövettani labor \n\nMintavételezés: Sürgősségi oszt. / Sebészeti oszt. / Belgyógyászati oszt. / Intenzív oszt. \n\nSzükséges felszerelés: Üvegedények + Székletelemző</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>EXM_AUDIOMETRY_DESCRIPTION</LocID>                              <Text>A beteg hallásának felmérésére szolgál.\n\nSzükséges szoba: Orvosi rendelő / Vizsgáló / Intenzív oszt. / Rendelő / Vizsgáló a Sürgősségi osztályon / Intenzív oszt. / Sebészeti oszt. / Belgyógyászati oszt. / Fertőző oszt.</Text>  </GameDBLocalizedString>
+                                                                                                                
+            <GameDBLocalizedString>      <LocID>TRT_INTRAVENOUS_IMMUNOGLOBULIN_DESCRIPTION</LocID>              <Text>Tisztított, antitesteket is tartalmazó vérkészítmény intravénás beadása. \n\nSzükséges szoba: Intenzív oszt. / Rendelő / Vizsgáló az ortopédiai osztályon / Neurológiai oszt. / Fertőző oszt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIVIROTICS_DESCRIPTION</LocID>                            <Text>Gyógyszeres kezelés, amely gátolja a vírusos fertőzést. Az antibiotikumokkal ellentétben az antivirális szerek nem közvetlenül pusztítják el a kórokozót. \n\nSzükséges szoba: Orvosi rendelő / Megfigyelő szoba / Intenzív oszt. / Rendelő / Vizsgáló a sebészeti osztályon / Neurológiai oszt. / Fertőző oszt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIDIARRHEALS_DESCRIPTION_V2</LocID>                       <Text>A hasmenést megállító, a tüneteket enyhítő gyógyszerek, amelyek nem szüntetik meg az okot. Rendszerint a bélmozgás csökkentésével fejtik ki hatásukat. \n\nSzükséges szoba: Orvosi rendelő / Vizsgáló / Traumaközpont / Intenzív osztály / Rendelő / Vizsgáló az általános sebészeti osztályon / Belgyógyászati osztály / Fertőző osztály</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIPARASITIC_DRUGS_DESCRIPTION_V2</LocID>                  <Text>Különféle parazitás fertőzések kezelésére használt gyógyszerek. \n\nSzükséges szoba: Orvosi rendelő / Vizsgáló / Traumaközpont / Rendelő / Vizsgáló a belgyógyászaton / Fertőző osztály</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_NASAL_DROPS_DESCRIPTION</LocID>                             <Text>Az orrüreg tisztítására használható, mely ezáltal segíti az orron át légzést. \n\nSzükséges helyiség: orvosi rendelő / megfigyelő szoba / rendelő/vizsgáló a belgyógyászaton / kardiológián / Fertőző osztály</Text>  </GameDBLocalizedString>
+
+            <!--new hematolab for the department-->
+            <GameDBLocalizedString>       <LocID>ROOM_TYPE_HEMATOLOGY_LAB_DID</LocID>                     		<Text>Hematológiai labor</Text></GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    

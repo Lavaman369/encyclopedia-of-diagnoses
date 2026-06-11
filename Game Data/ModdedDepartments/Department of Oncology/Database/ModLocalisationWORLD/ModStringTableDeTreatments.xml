@@ -1,0 +1,31 @@
+<Database>
+	<!-- Oncology Mod by Sleepy068 -->
+	<GameDBStringTable ID="LOC_DE_ADDON_ONCOLOGYSL_TREATMENTS">
+	<LanguageCode>de</LanguageCode>
+	<LanguageNameLocalized>German</LanguageNameLocalized>
+	<Contributors>
+	<Name>Gego</Name>
+	<Name>niofb271</Name>
+	</Contributors>
+
+	<LocalizedStrings>
+	<!-- ### ### -->
+	<!-- ######################################## Content for V0.15.0.0 Added Below ######################################## -->
+	<!-- ### ### -->
+	
+	<!-- ======================================== -->
+	<!-- ============= Core Content ============= -->
+	<!-- ======================================== -->
+	
+	
+	<!-- ============================================== -->
+	<!-- ============= CRP Export Content ============= -->
+	<!-- ============================================== -->
+	<GameDBLocalizedString>      
+	<LocID>TRT_CRP_DEP_DESC</LocID>                        	
+	<Text>Kombinationsbehandlung mit 5-Fluorouracil (5-FU), Cisplatin und Etoposid (FEP). Die Chemotherapie hat eine relativ schlechte kurative Wirksamkeit bei bestimmten Krebsarten wie dem Siegelringzellkarzinom (SRCC) und bei Patienten, und die Gesamtüberlebensraten sind im Vergleich zu Patienten mit einer typischeren Krebspathologie niedriger. Diese Krebsarten werden normalerweise in den späten Stadien der Krankheit diagnostiziert, so dass sich die Tumoren im Allgemeinen aggressiver ausbreiten als Krebsarten ohne Siegel, was die Behandlung schwierig macht, aber die aktivsten Therapien umfassen 5-Fluorouracil (5-FU), Cisplatin und / oder Etoposid. Die FEP-Kombinationschemotherapie scheint ein wirksames Behandlungsschema für Magenkrebs als Salvage-Chemotherapie zu sein. \ n \ n Erforderlicher Raum: Regelmäßiger Krankenhausaufenthalt in der Onkologie</Text>  
+	</GameDBLocalizedString>
+	
+	</LocalizedStrings>
+	</GameDBStringTable>
+</Database>

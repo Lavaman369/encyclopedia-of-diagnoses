@@ -1,0 +1,17 @@
+<Database>
+    <GameDBStringTable ID="LOC_TR_PATCH_1_1_24_NOTIF">
+
+        <LanguageCode>tr</LanguageCode>
+        <LanguageNameLocalized>Türkçe</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>NOTIF_WAITING_FOR_PLAYER</LocID>                            <Text>İşlem tamamlandı.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_WAITING_FOR_PLAYER_TEXT</LocID>                       <Text><![CDATA[İşlem bitti (En son <i>{1}</i> yapıldı).]]></Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

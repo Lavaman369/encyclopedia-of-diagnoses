@@ -1,0 +1,86 @@
+<Database>
+    <GameDBStringTable ID="LOC_LA_PATCH_1_1_19">
+    
+        <LanguageCode>la</LanguageCode>
+        <LanguageNameLocalized>Español Latino</LanguageNameLocalized>
+        
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            <!-- RELATED FILE: StringTable[Language]Options.xml -->
+            <GameDBLocalizedString>      <LocID>OPTIONS_SHOW_RESERVATION</LocID>                     <Text>Mostrar reserva de objetos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OPTIONS_ZOMBIE_MODE</LocID>                          <Text>Zombis, no solo en Halloween</Text>  </GameDBLocalizedString>
+                                                                                                    
+                                                                                                    
+            <!-- RELATED FILE: StringTable[Language]UI.xml -->                                      
+            <!-- Needed in base game -->                                                            
+            <GameDBLocalizedString>      <LocID>MENU_DLC</LocID>                                     <Text>DLC</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_CHAR_EDITOR</LocID>                          <Text>¡Echa un vistazo al DLC gratuito de modo de Doctor para el editor de personaje!</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>PREPARING_FOR_SURGERY</LocID>                        <Text>Preparándose para cirugía</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_WALLS</LocID>                           <Text>Cambiar modo de vista de pared</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_ROTATE_VIEW</LocID>                     <Text>Rotar vista</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>KEYBOARD_TIP_ZOOM</LocID>                            <Text>Acercar/alejar</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <GameDBLocalizedString>      <LocID>NO_SHIFT_LOCKED_CLINIC</LocID>                       <Text>No está permitido hacer contrataciones porque la clínica está bloqueada.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NO_SHIFT_LOCKED_HOSPITALIZATION</LocID>              <Text>No está permitido hacer contrataciones porque la hospitalización está bloqueada.</Text>  </GameDBLocalizedString>
+                                                                                                     
+            <!-- Statistics in doctor's card -->                                                     
+            <GameDBLocalizedString>      <LocID>LAST_20_PATIENTS</LocID>                             <Text>Últimos 20 pacientes</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTORS_STATISTICS_PREVIOUS_DAY</LocID>              <Text>Día anterior</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>RATING</LocID>                                       <Text>Clasificación del doctor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_RATING</LocID>                               <Text>La clasificación que el paciente da al doctor según su satisfacción, malestar y supervivencia.</Text>  </GameDBLocalizedString>
+                                                                                                    
+            <GameDBLocalizedString>      <LocID>DOCTORS_STATISTICS_CURED_TODAY</LocID>               <Text>Curados hoy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTORS_STATISTICS_CURED_TOTAL</LocID>               <Text>Curados en total</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTORS_STATISTICS_DEAD</LocID>                      <Text>Casos perdidos/muertos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTORS_STATISTICS_DIAGNOSTIC_PERCENTAGE</LocID>     <Text>Porcentaje de diagnóstico</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTORS_STATISTICS_SAVED_COLLAPSES</LocID>           <Text>Pacientes colapsados salvados</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOCTORS_STATISTICS_SURGERIES</LocID>                 <Text>Cirugías</Text>  </GameDBLocalizedString>
+                                                                                                    
+                                                                                                    
+            <!-- RELATED FILE: StringTable[Language]BuildingMode.xml -->                            
+            <GameDBLocalizedString>      <LocID>OBJECT_PUMPKIN</LocID>                               <Text>Calabaza</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PUMPKIN_DESCRIPTION</LocID>                   <Text>La calabaza es una decoración estacional.</Text>  </GameDBLocalizedString>
+                                                                                                    
+            <GameDBLocalizedString>      <LocID>OBJECT_JACK_O_LANTERN</LocID>                        <Text>Farol de calabaza tallada</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_JACK_O_LANTERN_DESCRIPTION</LocID>            <Text>El farol de calabaza tallada es una decoración espeluznante.</Text>  </GameDBLocalizedString>
+                                                                                                    
+            <GameDBLocalizedString>      <LocID>OBJECT_PUMPKIN_DECORATIONS</LocID>                   <Text>Planta de calabaza</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_PUMPKIN_DECORATIONS_DESCRIPTION</LocID>       <Text>Una planta decorativa de interior con calabazas.</Text>  </GameDBLocalizedString>
+
+
+            <!-- RELATED FILE: StringTable[Language]Treatments.xml -->
+            <!-- tooltips fixes--> 
+            <GameDBLocalizedString>      <LocID>TRT_ANTI_ARRHYTMICALS_DESCRIPTION_V2</LocID>         <Text>Medicamentos normalmente suministrados por vía intravenosa o como píldoras para suprimir ritmos cardíacos anormales. \n\nHabitación requerida: UCI / cualquier Consultorio / Unidad diagnóstica en el dpto. de Emergencias / dpto. de Cirugía general / dpto. de Medicina interna / dpto. de Neurología</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIDEPRESSIVES_DESCRIPTION_V2</LocID>           <Text>Medicamentos utilizados para tratar trastornos depresivos. \n\nHabitación requerida: Consultorio del doctor / Sala de observación / Consultorio / Unidad diagnóstica en el dpto. de Cirugía general / dpto. de Neurología</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIDIARRHEALS_DESCRIPTION_V2</LocID>            <Text>Medicamentos que disminuyen o detienen la diarrea. Alivian los síntomas, pero no eliminan la causa y normalmente reducen los movimientos intestinales. \n\nHabitación requerida: Consultorio del doctor / Sala de observación / Centro del trauma / UCI / Consultorio / Unidad diagnóstica en el dpto. de Cirugía general / dpto. de Medicina interna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTI_INFLAMMATORY_CREAM_DESCRIPTION_V2</LocID>   <Text>La crema antiinflamatoria no esteroidea se utiliza para tratar diversas inflamaciones y para aliviar del dolor o la hinchazón. \n\nHabitación requerida: Cualquier consultorio / Unidad diagnóstica en cualquier departamento excepto el dpto. de Neurología</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIPARASITIC_DRUGS_DESCRIPTION_V2</LocID>       <Text>Medicamentos utilizados para tratar diversas infecciones causadas por parásitos. \n\nHabitación requerida: Consultorio del doctor / Sala de observación / Centro del trauma / Consultorio / Unidad diagnóstica en el dpto. de Medicina interna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTISEPTICS_DESCRIPTION_V2</LocID>               <Text>Sustancias generalmente en forma líquida o en aerosol, con efecto antimicrobiano, que reducen la posibilidad de infecciones. \n\nHabitación requerida: cualquier Consultorio / Unidad diagnóstica</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTITUSICS_DESCRIPTION_V2</LocID>                <Text>Medicamentos utilizados para eliminar la tos seca, sin eliminar la causa. \n\nHabitación requerida: Cualquier consultorio / Unidad diagnóstica excepto el dpto. de Cirugía general</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANXIOLYTICS_DESCRIPTION_V2</LocID>               <Text>Medicamento que inhibe la ansiedad. \n\nHabitación requerida: Cualquier consultorio / Unidad diagnóstica en cualquier departamento excepto el dpto. de Ortopedia.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ARM_CAST_DESCRIPTION_V2</LocID>                  <Text>Cobertura protectora hecha de yeso y vendas para proteger una extremidad o articulación fracturada. \n\nHabitación requerida: Consultorio del doctor / Sala de observación / Centro del trauma / UCI / Consultorio / Unidad diagnóstica en el dpto. de Ortopedia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ARM_ORTHOSIS_DESCRIPTION_V2</LocID>              <Text>Una órtesis que controla, guía e inmoviliza ciertas articulaciones y extremidades. \n\nHabitación requerida: Consultorio del doctor / Sala de observación / Centro del trauma / UCI / Consultorio / Unidad diagnóstica en el dpto. de Ortopedia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ARTIFICIAL_VENTILATION_DESCRIPTION_V2</LocID>    <Text>Procedimiento para apoyar la respiración o restablecerla mediante un intercambio de gases con el sistema respiratorio. Consiste en intubar al paciente por vía endotraqueal y conectarlo a una ventilación mecánica. \n\nHabitación requerida: cualquier Consultorio / Unidad diagnóstica</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_BETA_BLOCKERS_DESCRIPTION_V2</LocID>             <Text>Medicamento utilizado para tratar ritmo cardíaco anormal, alta presión sanguínea, insuficiencia cardíaca y estremecimiento. \n\nHabitación requerida: cualquier Consultorio / Unidad diagnóstica en cualquier departamento, excepto el dpto. de Ortopedia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_COLD_TILING_DESCRIPTION_V2</LocID>               <Text>Las compresiones frías se utilizan para disminuir el dolor en un área del cuerpo. \n\nHabitación requerida: Consultorio del doctor / Centro del trauma / Sala de observación / Consultorio / Unidad diagnóstica en el dpto. de Cirugía general / dpto. de Ortopedia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_COMPRESSION_WRAPS_DESCRIPTION_V2</LocID>         <Text>Vendas elásticas. \n\nHabitación requerida: Consultorio del doctor / Sala de observación / Centro del trauma / UCI / Consultorio / Unidad diagnóstica en el dpto. de Ortopedia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_DEFIBRILLATION_DESCRIPTION_V2</LocID>            <Text>Procedimiento que proporciona dosis de corriente eléctrica al corazón para restablecer el ritmo cardíaco normal. \n\nHabitación requerida: Sala de observación / Centro del trauma / UCI / Cualquier pabellón / Unidad diagnóstica \n\nEquipo requerido: Desfibrilador</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_EYE_DROPS_DESCRIPTION_V2</LocID>                 <Text>Medicamento líquido que trata síntomas o enfermedades específicas en el ojo. Puede contener un agente antibacteriano, antihistamínicos o medicamentos para disminuir la presión sanguínea dentro del ojo. \n\nHabitación requerida: Consultorio del doctor / Sala de observación / Consultorio / Unidad diagnóstica en cualquier departamento excepto el dpto. de Ortopedia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_EXERCISE_DESCRIPTION_V2</LocID>                  <Text>Ejercicio aeróbico de bajo impacto, ejercicios de fortalecimiento o cualquier ejercicio de apoyo. \n\nHabitación requerida: Consultorio del doctor / Sala de observación / Consultorio / Unidad diagnóstica en el dpto. de Ortopedia / dpto. de Neurología</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_LEG_CAST_DESCRIPTION_V2</LocID>                  <Text>Cobertura protectora hecha de yeso y vendas, a veces de fibra de vidrio, que inmoviliza y protege un hueso fracturado. \n\nHabitación requerida: Consultorio del doctor / Sala de observación / Centro del trauma / UCI / Consultorio / Unidad diagnóstica en el dpto. de Ortopedia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_LEG_ORTHOSIS_DESCRIPTION_V2</LocID>              <Text>Una órtesis es un dispositivo que inmoviliza una articulación o extremidad y guía el rango de movimiento. \n\nHabitación requerida: Consultorio del doctor / Sala de observación / Centro del trauma / UCI / Consultorio / Unidad diagnóstica en el dpto. de Ortopedia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_NUMBING_OINTMENT_DESCRIPTION_V2</LocID>          <Text>Pomadas aplicadas en ciertas áreas (por ejemplo, una quemadura de sol) para adormecerlas o aliviar el dolor y la irritación. \n\nHabitación requerida: Consultorio del doctor / Sala de observación / Centro del trauma / Consultorio / Unidad diagnóstica en el dpto. de Medicina interna / dpto. de Ortopedia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_OXYGENOTHERAPY_DESCRIPTION_V2</LocID>            <Text>Suplemento de oxígeno a gas inhalado (comúnmente administrado por catéter nasal o máscara que cubre la boca y la nariz). \n\nHabitación requerida: cualquier Consultorio / Unidad diagnóstica</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_WOUND_CLOSURE_DESCRIPTION_V2</LocID>             <Text>Procedimiento para coser músculos y piel. \n\nHabitación requerida: Consultorio del doctor / Sala de observación / Centro del trauma / UCI / Consultorio / Unidad diagnóstica en el dpto. de Ortopedia</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>    <LocID>TAKE_OVER_ALL_PATIENTS</LocID>                         <Text>Asume automáticamente el control de todos los pacientes de este departamento.</Text>  </GameDBLocalizedString>
+            
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

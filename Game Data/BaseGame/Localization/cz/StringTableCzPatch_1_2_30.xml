@@ -1,0 +1,35 @@
+<Database>
+    <GameDBStringTable ID="LOC_CZ_PATCH_1_1_30">
+
+        <LanguageCode>cz</LanguageCode>
+        <LanguageNameLocalized>Čeština</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+        
+        <LocalizedStrings>
+            <!-- DID = department of infectious diseases, the abbreviation should be the same as in the string table for department of infectious diseases itself -->
+            <GameDBLocalizedString>    <LocID>EXM_THORAX_PERCUSSION_DESCRIPTION_V2</LocID>                 <Text>Jedná se o diagnostickou metodu klepání na povrch hrudníku používaného při klinickém vyšetření. \n\nPotřebná místnost: Jakákoliv Ordinace / Vyšetřovna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_ANTICHOLINERGICS_DESCRIPTION_V2</LocID>                  <Text>Nejčastěji používané léky pro zvládnutí nadměrného pocení. \n\nPotřebná místnost: rdinace / Pokoj - pozorování / JIP / Ordinace / Vyšetřovna na Interně / Kardiologii / Neurologii / Infekčním / Traumatologii</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_COLD_TILING_DESCRIPTION_V3</LocID>                       <Text>Ledové obklady se používají k uklidnění bolestivé oblasti těla. \n\nPotřebná místnost: Jakákoliv Ordinace / Vyštřovna / JIP</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_MUCOLYTICS_DESCRIPTION_V2</LocID>                        <Text>Léčiva pomáhájící rozpustit a odstranit hlen z dýchacích cest. \n\nPotřebná místnost:  Ordinace / Pokoj - pozorovací / JIP / Ordinace/Vyšetřovna na Interně / Infekčním</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_SALINE_NASAL_SPRAY_DESCRIPTION_V2</LocID>                <Text>Proplachuje nosní dutiny. \n\nPotřebná místnost:  Ordinace / Pokoj - pozorovací / Ordinace/Vyšetřovna na Infekčním</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>    <LocID>EXM_CBC_SAMPLING_DESCRIPTION_V2</LocID>                      <Text>Krevní obraz určuje zvýšení nebo snížení všech krevních buněk. \n\nPotřebná místnost: Hematologie \n\nOdběry: Pohotovost / Chirurgie / Interna / Ortopedie / Neurologie / JIP / Infekční / Traumatologie \n\nPotřebné vybavení: Laboratorní sklo + Krevní analyzér</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>    <LocID>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING_DESCRIPTION_V2</LocID>    <Text>Laboratorní biochemická metoda analýzy vzorku moči. \n\nPotřebná místnost: Histologie \n\nOdběry: Pohotovost / Chirurgie / Interna / Kardiologie / JIP / Infekční / Traumatologie \n\nPotřebné vybavení: laboratorní sklo + Laboratorní analyzátor</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER</LocID>                                <Text>Rohová skříňka</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER_WALL</LocID>                           <Text>Nástěnná rohová skříňka</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>    <LocID>CONTROL_PROCEDURE_PATIENT_DELIVER_SAMPLE</LocID>             <Text>Převzetí vzorku</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>CONTROL_PROCEDURE_PATIENT_STAT_LAB_RESULTS</LocID>           <Text>Předání výsledků</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>    <LocID>BANNER_DLCS</LocID>                                          <Text>Podívejte se na rozšíření pro Project Hospital:</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+
+</Database>    

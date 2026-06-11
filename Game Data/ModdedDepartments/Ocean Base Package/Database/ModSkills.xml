@@ -1,0 +1,63 @@
+<Database>
+
+<GameDBSkill ID="SKILL_DOC_SPEC_NMC_INTERVENTIONAL_OPERATION">
+        <AbbreviationLocID>SKILL_DOC_SPEC_NMC_INTERVENTIONAL_OPERATION_DESC</AbbreviationLocID>
+        <ParentSkill>SKILL_DOC_SPEC_NEUROLOGY</ParentSkill>
+        <IconIndex>2551</IconIndex>
+        <CustomIconAssetRef>ASSET_ICON_SKILL_NMC_SURGERY</CustomIconAssetRef>
+		<CustomIconLightBackgroundAssetRef>ASSET_ICON_SKILL_NMC_SURGERY</CustomIconLightBackgroundAssetRef>
+        <ExtraLevelingPercent>60</ExtraLevelingPercent>
+    </GameDBSkill>
+
+<GameDBSkill ID="SKILL_DOC_SPEC_NEW_PSY">
+        <AbbreviationLocID>SKILL_DOC_SPEC_NEW_PSY_DESCRIPTION</AbbreviationLocID>
+        <ParentSkill>SKILL_DOC_QUALIF_GENERAL_MEDICINE</ParentSkill>	
+        <ExtraLevelingPercent>70</ExtraLevelingPercent>
+		<IconIndex>430</IconIndex>
+
+    <CustomIconAssetRef>ASSET_MOD_ICON_NEW_PSY</CustomIconAssetRef>
+    <CustomIconLightBackgroundAssetRef>ASSET_MOD_ICON_NEW_PSY</CustomIconLightBackgroundAssetRef>
+    
+</GameDBSkill>
+
+<GameDBSkill ID="SKILL_DOC_SPEC_HEM">
+        <AbbreviationLocID>SKILL_DOC_SPEC_HEM_DESC</AbbreviationLocID>
+        <ParentSkill>SKILL_DOC_QUALIF_GENERAL_MEDICINE</ParentSkill>	
+        <ExtraLevelingPercent>70</ExtraLevelingPercent>
+		<IconIndex>430</IconIndex>
+
+    <CustomIconAssetRef>ASSET_MOD_ICON_HEM</CustomIconAssetRef>
+    <CustomIconLightBackgroundAssetRef>ASSET_MOD_ICON_HEM</CustomIconLightBackgroundAssetRef>
+    
+</GameDBSkill>
+
+<GameDBSkill ID="SKILL_DOC_SPEC_DRI">
+        <AbbreviationLocID>SKILL_DOC_SPEC_DRI_DESC</AbbreviationLocID>
+        <ParentSkill>SKILL_DOC_QUALIF_GENERAL_MEDICINE</ParentSkill>	
+        <ExtraLevelingPercent>70</ExtraLevelingPercent>
+		<IconIndex>430</IconIndex>
+
+    <CustomIconAssetRef>ASSET_MOD_ICON_RID</CustomIconAssetRef>
+    <CustomIconLightBackgroundAssetRef>ASSET_MOD_ICON_RID</CustomIconLightBackgroundAssetRef>
+    
+</GameDBSkill>
+
+<GameDBSkill ID="SKILL_DOC_SPEC_OPH">
+        <AbbreviationLocID>SKILL_DOC_SPEC_OPH_DESC</AbbreviationLocID>
+        <ParentSkill>SKILL_DOC_QUALIF_GENERAL_MEDICINE</ParentSkill>	
+        <ExtraLevelingPercent>70</ExtraLevelingPercent>
+		<IconIndex>430</IconIndex>
+
+    <CustomIconAssetRef>ASSET_MOD_ICON_OPH</CustomIconAssetRef>
+    <CustomIconLightBackgroundAssetRef>ASSET_MOD_ICON_OPH</CustomIconLightBackgroundAssetRef>
+    
+</GameDBSkill>
+
+<GameDBSkill ID="SKILL_DOC_SPEC_OPH_SURGERY">
+        <AbbreviationLocID>SKILL_DOC_SPEC_OPH_SURGERY_DESC</AbbreviationLocID>
+        <ParentSkill>SKILL_DOC_QUALIF_GENERAL_MEDICINE</ParentSkill>
+        <IconIndex>2388</IconIndex>
+        <ExtraLevelingPercent>60</ExtraLevelingPercent>
+    </GameDBSkill>
+
+</Database>

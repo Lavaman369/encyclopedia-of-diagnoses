@@ -1,0 +1,32 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_PL_PATCH_1_2_30">
+
+        <LanguageCode>pl</LanguageCode>
+        <LanguageNameLocalized>Polski</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- DID = department of infectious diseases, the abbreviation should be the same as in the string table for department of infectious diseases itself -->
+            <GameDBLocalizedString>    <LocID>EXM_THORAX_PERCUSSION_DESCRIPTION_V2</LocID>                 <Text>Badanie oparte na systematycznym opukiwaniu klatki piersiowej w celu zlokalizowania stref zawierających mniej powietrza. \n\nWymagane pomieszczenie: dowolny gabinet / pokój zabiegowy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_ANTICHOLINERGICS_DESCRIPTION_V2</LocID>                  <Text>Najczęściej używane środki łagodzące nadmierne pocenie się. \n\nWymagane pomieszczenie: gabinet lekarski / pokój obserwacji / OIT / gabinet/pokój zabiegowy na Oddziale Internistycznym / Oddziale Kardiologii / Oddziale Neurologii / OCZ / Oddziale Traumatologii</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_COLD_TILING_DESCRIPTION_V3</LocID>                       <Text>Zimne okłady stosuje się do łagodzenia bólu obolałych części ciała.  \n\nDowolny gabinet / pokój zabiegowy / Oddział Intensywnej Terapii</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_MUCOLYTICS_DESCRIPTION_V2</LocID>                        <Text>Płynne leki pomagające rozpuścić i oczyścić śluz z dróg oddechowych. \n\nWymagane pomieszczenie: gabinet lekarski / pokój obserwacji / OIT / gabinet/pokój zabiegowy na Oddziale Internistycznym / OCZ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_SALINE_NASAL_SPRAY_DESCRIPTION_V2</LocID>                <Text>Sprej do nosa z roztworu soli fizjologicznej do płukania jamy nosowej i polepszenia oddechu przez nos. \n\nWymagane pomieszczenie: gabinet lekarski / pokój obserwacji / gabinet/pokój zabiegowy na OCZ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>EXM_CBC_SAMPLING_DESCRIPTION_V2</LocID>                      <Text>Próbka krwi do wykonania pełnej morfologii krwi (CBC). \n\nWymagane pomieszczenie: lab. hematologiczne \n\nŹródło próbek: Oddział Ratunkowy / Oddział Chirurgii Ogólnej / Oddział Internistyczny / Oddział Ortopedii / Oddział Neurologii / OIT / OCZ / Oddział Traumatologii \n\nWymagany sprzęt: szkło laboratoryjne + analizator krwi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING_DESCRIPTION_V2</LocID>    <Text>Pobranie próbki środkowego strumienia moczu pacjenta albo moczu z cewnika. \n\nWymagane pomieszczenie: lab. histologiczne \n\nŹródło próbek: Oddział Ratunkowy / Oddział Chirurgii Ogólnej / Oddział Internistyczny / Oddział Kardiologii / OIT / OCZ / Oddział Traumatologii \n\nWymagany sprzęt: szkło laboratoryjne + analizator lab.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER</LocID>                                <Text>Szafka narożna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER_WALL</LocID>                           <Text>Ścienna szafka narożna</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>    <LocID>CONTROL_PROCEDURE_PATIENT_DELIVER_SAMPLE</LocID>             <Text>Przekazanie próbki</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>CONTROL_PROCEDURE_PATIENT_STAT_LAB_RESULTS</LocID>           <Text>Dostarczenie wyników</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>    <LocID>BANNER_DLCS</LocID>                                          <Text>Przyjrzyj się dodatkom dla Project Hospital:</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

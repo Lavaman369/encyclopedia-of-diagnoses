@@ -1,0 +1,22 @@
+<Database>
+  <GameDBStringTable ID="LOC_EN_ADDON_MOD_NMC_DIAGNOSES">
+    <LanguageCode>en</LanguageCode>
+    <LanguageNameLocalized>English</LanguageNameLocalized>
+    <Contributors>
+      <Name>liebesalt</Name>
+    </Contributors>
+    <LocalizedStrings>
+	
+	<GameDBLocalizedString>
+        <LocID>DIA_NEW_PSY_VASCULAR_DEMENTIA</LocID>
+        <Text>Vascular dementia (VaD)</Text>
+      </GameDBLocalizedString>
+      
+      <GameDBLocalizedString>
+        <LocID>DIA_NEW_PSY_VASCULAR_DEMENTIA_DESC</LocID>
+        <Text>Vascular dementia (VaD) refers to a cognitive dysfunction caused by vascular issues in the brain. It can be related to cerebrovascular diseases and their risk factors, leading to dementia. Typically emerging between the ages of 50 to 60, it affects men more than women. Its duration can range from a few months to several years. Clinical manifestations vary significantly depending on the location of brain damage, often characterized by sudden onset, fluctuating progression, and focal neurological deficits. Early-stage symptoms include headaches, dizziness, numbness in the limbs, sleep disturbances, and tinnitus. Patients may also experience memory impairment, loss of concentration, and mood changes. As the condition progresses, patients' cognitive function declines noticeably and manifest psychiatric symptoms. Cognitive impairment primarily affects attention, executive function, language, visuospatial abilities, memory, and learning, with the extent determined by the presence and location of large or small vessel disease. Psychiatric symptoms often include depression, apathy, emotional lability, personality changes, psychomotor retardation, hallucinations, irritability, and mood swings. Diagnosis requires meeting three criteria: cognitive impairment, evidence of vascular factors, and a causal relationship between cognitive impairment and vascular factors.</Text>
+      </GameDBLocalizedString>
+	
+	</LocalizedStrings>
+  </GameDBStringTable>
+</Database>

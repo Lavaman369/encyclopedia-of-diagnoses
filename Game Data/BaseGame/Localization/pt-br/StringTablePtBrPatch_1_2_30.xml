@@ -1,0 +1,32 @@
+<Database>
+    <GameDBStringTable ID="LOC_PTBR_PATCH_1_2_30">
+
+        <LanguageCode>ptbr</LanguageCode>
+        <LanguageNameLocalized>Português do Brasil</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- DID = department of infectious diseases, the abbreviation should be the same as in the string table for department of infectious diseases itself -->
+            <GameDBLocalizedString>    <LocID>EXM_THORAX_PERCUSSION_DESCRIPTION_V2</LocID>                 <Text>Exame realizado com batidinhas constantes no tórax para identificar áreas com menos ar. \n\nRequer: Qualquer Consultório / Unidade de Diagnóstico</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_ANTICHOLINERGICS_DESCRIPTION_V2</LocID>                  <Text>Este é o medicamento mais comum para o tratamento de transpiração excessiva. \n\nRequer: Consultório Médico / Sala de Observação / UTI / Consultório / Unidade de Diagnóstico no Depto. de Clínica Médica / Depto. de Cardiologia / Depto. de Neurologia / DDI / Depto. de Traumatologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_COLD_TILING_DESCRIPTION_V3</LocID>                       <Text>Compressas frias são usadas para aliviar áreas doloridas do corpo. \n\nRequer: Qualquer consultório / Unidade de diagnóstico / CTI</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_MUCOLYTICS_DESCRIPTION_V2</LocID>                        <Text>Xaropes que ajudam a dissolver e retirar o muco das vias aéreas. /n/nRequer: Consultório Médico / Sala de Observação / UTI / Consultório / Unidade de Diagnóstico no Depto. de Clínica Médica / DDI</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_SALINE_NASAL_SPRAY_DESCRIPTION_V2</LocID>                <Text>Limpa as cavidades nasais e aumenta a ventilação. \n\nRequer: Consultório Médico / Sala de Observação / Consultório / Unidade de Diagnóstico no DDI</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>EXM_CBC_SAMPLING_DESCRIPTION_V2</LocID>                      <Text>Amostra de sangue para um Hemograma Completo (HC). \n\nRequer: Laboratório de Hematologia \n\nAmostragem: Depto. de Emergência / Depto. de Cirurgia Geral / Depto. de Clínica Médica / Depto. de Ortopedia / Depto. de Neurologia / UTI / DDI / Depto. de Traumatologia \n\nEquipamento: vidraria + analisador hematológico</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING_DESCRIPTION_V2</LocID>    <Text>Amostragem de urina após os primeiros jatos ou do cateter do paciente. \n\nRequer: Laboratório de Histologia \n\nAmostragem: Depto. de Emergência / Depto. de Cirurgia Geral / Depto. de Clínica Médica / Depto. de Cardiologia / UTI / DDI / Depto. de Traumatologia \n\nEquipamento: vidraria + analisador de laboratório</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER</LocID>                                <Text>Armário de canto</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER_WALL</LocID>                           <Text>Armário de canto embutido</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>    <LocID>CONTROL_PROCEDURE_PATIENT_DELIVER_SAMPLE</LocID>             <Text>Entrega de amostra laboratorial</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>CONTROL_PROCEDURE_PATIENT_STAT_LAB_RESULTS</LocID>           <Text>Entrega de resultados laboratoriais</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>    <LocID>BANNER_DLCS</LocID>                                          <Text>Veja os DLCs de Project Hospital:</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

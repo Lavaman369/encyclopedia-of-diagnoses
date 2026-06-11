@@ -1,0 +1,36 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_IT_PATCH_1_2_30">
+
+        <LanguageCode>it</LanguageCode>
+        <LanguageNameLocalized>Italiano</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+            <Name>neoxes</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- DID = department of infectious diseases, the abbreviation should be the same as in the string table for department of infectious diseases itself -->
+            <GameDBLocalizedString>    <LocID>EXM_THORAX_PERCUSSION_DESCRIPTION_V2</LocID>                 <Text>La percussione del torace è un metodo diagnostico, utilizzato durante l'esame obiettivo, che consiste nel picchiettare sulla superficie del torace per stimarne le condizioni ed identificare le aree con meno aria al suo interno. \n\nStanze richieste: Ambulatorio / Unità Diagnostica</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_ANTICHOLINERGICS_DESCRIPTION_V2</LocID>                  <Text>I farmaci anticolinergici sono una classe di medicinali in grado di antagonizzare gli effetti fisiologici dell'acetilcolina (neurotrasmettitore del sistema parasimpatico). I medicinali vengono prescritti per trattare capogiri e vertigini, disturbi gastrointestinali, disturbi genitourinari, disturbi respiratori e per la gestione della sudorazione eccessiva. \n\nStanze richieste: Ambulatorio / Unità Diagnostica / Reparto di Osservazione / Reparto TI presso i Dip. di Emergenza e Accettazione / Terapia Intensiva / Medicina Interna / Cardiologia / Neurologia / Malattie Infettive / Traumatologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_COLD_TILING_DESCRIPTION_V3</LocID>                       <Text>L'impacco freddo consiste nell'applicazione di una sorgente fredda su una parte del corpo ed è particolarmente indicato per il trattamento di ipertermia, mal di testa o altri dolori, traumi come stiramenti e tumefazioni. \n\nStanze richieste: Ambulatorio / Unità Diagnostica / Pronto Soccorso / Reparto di Osservazione / Reparto TI presso i Dip. di Emergenza e Accettazione / Terapia Intensiva / Chirurgia Generale / Ortopedia / Malattie Infettive / Traumatologia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_MUCOLYTICS_DESCRIPTION_V2</LocID>                        <Text>I farmaci mucolitici sono medicinali di origine naturale, o di sintesi, in grado di fluidificare le secrezioni mucose delle vie respiratorie, alterandone direttamente la composizione e riducendo la viscosità del muco. I medicinali favoriscono l'eliminazione del muco all'esterno (espettorazione), attraverso i colpi di tosse ed i movimenti ciliari involontari dell'epitelio respiratorio, liberando le vie aeree. \n\nStanze richieste: Ambulatorio / Unità Diagnostica / Reparto di Osservazione / Reparto TI presso Dip. di Emergenza e Accettazione / Terapia Intensiva / Medicina Interna / Malattie Infettive</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_SALINE_NASAL_SPRAY_DESCRIPTION_V2</LocID>                <Text>Lo spray nasale salino è una soluzione utilizzata per il lavaggio e la detersione delle cavità nasali, che consente di fluidificare il muco in eccesso, agevolandone l’eliminazione, e di rimuovere gli allergeni, che possono provocare irritazione, migliorando la ventilazione attraverso il naso. \n\nStanze richieste: Ambulatorio / Unità Diagnostica / Reparto di Osservazione presso i Dip. di Emergenza e Accettazione / Malattie Infettive</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>EXM_CBC_SAMPLING_DESCRIPTION_V2</LocID>                      <Text>L'emocromo completo (EC), o esame emocromocitometrico, è un esame di laboratorio completo del sangue, che determina la quantità dei globuli (leucociti o globuli bianchi, eritrociti o globuli rossi, trombociti o piastrine), i livelli dell'ematocrito (HCT, percentuale del volume sanguigno occupata dagli eritrociti) e dell'emoglobina (Hb), nonché diversi altri parametri del sangue. \nIl campionamento consiste nella raccolta dei campioni ematici per l'analisi in laboratorio. \n\nStanze richieste: Laboratorio di Ematologia \n\nCampionamento: Dip. di Emergenza e Accettazione / Terapia Intensiva / Chirurgia Generale / Medicina Interna / Ortopedia / Neurologia / Malattie Infettive \n\nAttrezzatura richiesta: Vetreria da laboratorio + Analizzatore ematologico</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING_DESCRIPTION_V2</LocID>    <Text>L'esame delle urine è un insieme di esami di laboratorio, che consente di analizzare con metodo biochimico le caratteristiche chimiche e fisiche delle urine e del relativo sedimento. \nIl campionamento consiste nella raccolta del flusso di urina non iniziale direttamente dal paziente o dal suo catetere per l'analisi in laboratorio. \n\nStanze richieste: Laboratorio di Istologia \n\nCampionamento: Dip. di Emergenza e Accettazione / Terapia Intensiva / Chirurgia Generale / Medicina Interna / Cardiologia / Malattie Infettive \n\nAttrezzatura richiesta: Vetreria da laboratorio + Analizzatore da laboratorio</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER</LocID>                                <Text>Armadio angolare</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER_DESCRIPTION</LocID>					   <Text>L'armadio è un mobile decorativo utile per riporre oggetti, attrezzatura, farmaci e materiale sanitario. Altri piccoli oggetti possono essere posizionati sopra di esso.</Text>  </GameDBLocalizedString>
+			
+            <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER_WALL</LocID>                           <Text>Armadio angolare da parete</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER_WALL_DESCRIPTION</LocID>			   <Text>L'armadio è un mobile decorativo utile per riporre oggetti, attrezzatura, farmaci e materiale sanitario.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>    <LocID>CONTROL_PROCEDURE_PATIENT_DELIVER_SAMPLE</LocID>             <Text>Consegnare il campione di laboratorio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>CONTROL_PROCEDURE_PATIENT_STAT_LAB_RESULTS</LocID>           <Text>Consegnare i risultati degli esami di laboratorio</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>    <LocID>BANNER_DLCS</LocID>                                          <Text>Dai un'occhiata ai DLC di Project Hospital:</Text>  </GameDBLocalizedString>
+            
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

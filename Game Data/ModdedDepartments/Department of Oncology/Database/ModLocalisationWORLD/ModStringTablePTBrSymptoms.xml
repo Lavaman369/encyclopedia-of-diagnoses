@@ -1,0 +1,139 @@
+<Database>
+	<!-- Oncology Mod by Sleepy068 -->
+	<GameDBStringTable ID="LOC_PTBR_ADDON_ONCOLOGYSL_SYMPTOMS">
+	<LanguageCode>ptbr</LanguageCode>
+	<LanguageNameLocalized>Português do Brasil</LanguageNameLocalized>
+	<Contributors>
+	<Name>Sleepy068</Name>
+	</Contributors>
+
+	<LocalizedStrings>
+	<!-- ======================================== -->
+	<!-- ============= Core Content ============= -->
+	<!-- ======================================== -->
+	<GameDBLocalizedString>      
+    <LocID>SYM_SLP_NERVE_DAMAGE</LocID>                               
+    <Text>Dor Neuropática Pós-Operatória</Text>  
+</GameDBLocalizedString>
+            
+<GameDBLocalizedString>      
+    <LocID>SYM_SLP_NERVE_DAMAGE_DESC</LocID>                   
+    <Text>A dor neuropática pós-operatória (PONP) pode se desenvolver se os nervos foram danificados durante uma cirurgia. Nervos danificados não conseguem transmitir corretamente os sinais de várias partes do corpo para o cérebro. Em vez disso, esses sinais se tornam exagerados, causando dor crônica que pode persistir por meses ou até anos.</Text>  
+</GameDBLocalizedString>
+
+<GameDBLocalizedString>    
+    <LocID>SYM_SLP_LES_RUPTURE</LocID>                               
+    <Text>Ruptura de uma Lesão</Text>  
+</GameDBLocalizedString>
+    
+<GameDBLocalizedString>     
+    <LocID>SYM_SLP_LES_RUPTURE_DESC</LocID>                               
+    <Text>Uma lesão ou tumor dentro do paciente se rompeu. Isso está associado a sangramento interno com risco de vida.</Text>  
+</GameDBLocalizedString>
+
+<GameDBLocalizedString>      
+    <LocID>SYM_SLP_HEMOPTYSIS2</LocID>                               
+    <Text>Hemoptise Severa</Text>  
+</GameDBLocalizedString>
+            
+<GameDBLocalizedString>      
+    <LocID>SYM_SLP_HEMOPTYSIS2_DESC</LocID>                   
+    <Text>Hemoptise é a expectoração de sangue ou muco com sangue dos brônquios, laringe, traqueia ou pulmões. Em outras palavras, é o sangramento das vias aéreas. Isso pode ocorrer com câncer de pulmão, infecções como tuberculose, bronquite ou pneumonia, e certas condições cardiovasculares.</Text>  
+</GameDBLocalizedString>
+
+<GameDBLocalizedString>      
+    <LocID>SYM_SLP_SPLENOMEGALY</LocID>                               
+    <Text>Esplenomegalia</Text>  
+</GameDBLocalizedString>
+            
+<GameDBLocalizedString>      
+    <LocID>SYM_SLP_SPLENOMEGALY_DESC</LocID>                   
+    <Text>Esplenomegalia é uma condição que ocorre quando seu baço aumenta de tamanho. Também é comumente referido como baço aumentado ou aumento do baço.</Text>  
+</GameDBLocalizedString>
+
+<GameDBLocalizedString>      
+    <LocID>SYM_SLP_RUP_SPLENOMEGALY</LocID>                               
+    <Text>Ruptura do Baço</Text>  
+</GameDBLocalizedString>
+            
+<GameDBLocalizedString>      
+    <LocID>SYM_SLP_RUP_SPLENOMEGALY_DESC</LocID>                   
+    <Text>Um baço rompido é uma condição médica de emergência que ocorre quando a cápsula que reveste o baço se rompe, liberando sangue na área abdominal. Dependendo do tamanho da ruptura, pode ocorrer uma grande quantidade de sangramento interno.</Text>  
+</GameDBLocalizedString>
+
+<GameDBLocalizedString>      
+    <LocID>SYM_SLP_HYPERCALCEMIA</LocID>                               
+    <Text>Hipercalcemia</Text>  
+</GameDBLocalizedString>
+            
+<GameDBLocalizedString>      
+    <LocID>SYM_SLP_HYPERCALCEMIA_DESC</LocID>                   
+    <Text>Hipercalcemia é uma condição na qual o nível de cálcio no seu sangue está acima do normal. A hipercalcemia é mais frequentemente causada pela hiperatividade das quatro pequenas glândulas no pescoço (glândulas paratireoides) ou por câncer. O excesso de cálcio no sangue afeta muitos sistemas do corpo.</Text>  
+</GameDBLocalizedString>
+
+<GameDBLocalizedString>      
+    <LocID>SYM_SLP_SEVERE_HYPERCALCEMIA</LocID>                               
+    <Text>Hipercalcemia Grave</Text>  
+</GameDBLocalizedString>
+            
+<GameDBLocalizedString>      
+    <LocID>SYM_SLP_SEVERE_HYPERCALCEMIA_DESC</LocID>                   
+    <Text>A hipercalcemia grave é uma emergência médica que requer tratamento urgente. Hipercalcemia é uma condição na qual o nível de cálcio no seu sangue está acima do normal. Raramente, a hipercalcemia grave pode interferir na função do seu coração, causando palpitações e desmaios, indicativos de arritmia cardíaca e outros problemas cardíacos.</Text>  
+</GameDBLocalizedString>
+
+<GameDBLocalizedString>    
+    <LocID>SYM_SLP_ACUTE_LIVER_FAILURE</LocID>                               
+    <Text>Falência Aguda do Fígado</Text>  
+</GameDBLocalizedString>
+
+<GameDBLocalizedString>     
+    <LocID>SYM_SLP_ACUTE_LIVER_FAILURE_DESC</LocID>                               
+    <Text>A falência hepática aguda (FHA) é uma síndrome rara definida por uma rápida deterioração da função hepática.</Text>  
+</GameDBLocalizedString>
+
+	
+	<!-- ### ### -->
+	<!-- ######################################## Content for V0.15.0.0 Added Below ######################################## -->
+	<!-- ### ### -->
+	<!-- ======================================== -->
+	<!-- ============= Core Content ============= -->
+	<!-- ======================================== -->
+	
+	
+	
+	<!-- ============================================== -->
+	<!-- ============= CRP Export Content ============= -->
+	<!-- ============================================== -->
+<GameDBLocalizedString>      
+    <LocID>SYM_CRP_BL_PMCC</LocID>                               
+    <Text>Células Mucinosas Puras</Text>  
+</GameDBLocalizedString>
+            
+<GameDBLocalizedString>      
+    <LocID>SYM_CRP_BL_PMCC_DESC</LocID>                   
+    <Text>O carcinoma mucinoso pode se formar ao lado de outros tipos de células cancerígenas, mas quando isso não ocorre, o câncer é considerado 'puro'. O carcinoma mucinoso puro é composto por 90-100% de células mucinosas.</Text>  
+</GameDBLocalizedString>
+
+<GameDBLocalizedString>      
+    <LocID>SYM_CRP_CDF_T_25</LocID>                               
+    <Text>Sobreexpressão de p16INK4a</Text>  
+</GameDBLocalizedString>
+            
+<GameDBLocalizedString>      
+    <LocID>SYM_CRP_CDF_T_25_DESC</LocID>                   
+    <Text>O p16 (também conhecido como p16INK4a, inibidor de quinase dependente de ciclina 2A, CDKN2A, supressor de tumor múltiplo 1 e vários outros sinônimos) é uma proteína que retarda a divisão celular, retardando a progressão do ciclo celular da fase G1 para a fase S, atuando assim como um supressor de tumor. O p16 é um marcador imunohistoquímico amplamente utilizado em patologia ginecológica. A expressão citoplasmática e nuclear forte e difusa de p16 em carcinomas de células escamosas (SCC) do trato genital feminino está fortemente associada à infecção pelo vírus do papiloma humano (HPV) de alto risco e a neoplasias de origem cervical. A maioria dos SCCs do colo do útero expressa p16. No entanto, p16 pode ser expresso em outras neoplasias e em vários tecidos humanos normais.</Text>  
+</GameDBLocalizedString>
+
+<GameDBLocalizedString>      
+    <LocID>SYM_CRP_CM_CK19_BRIGHT</LocID>                               
+    <Text>Citoceratina 19 (CK19) Expressa Brilhantemente</Text>  
+</GameDBLocalizedString>
+            
+<GameDBLocalizedString>      
+    <LocID>SYM_CRP_CM_CK19_BRIGHT_DESC</LocID>                   
+    <Text>A queratina, tipo I citoesquelética 19, também conhecida como citoqueratina-19 (CK-19) ou queratina-19 (K19), é uma proteína de 40 kDa que, nos seres humanos, é codificada pelo gene KRT19. A expressão em certos tipos de câncer permite que a CK19 atue como marcador e ajude a determinar que tipo de câncer o paciente pode ter.</Text>  
+</GameDBLocalizedString>
+	
+	</LocalizedStrings>
+	</GameDBStringTable>
+</Database>

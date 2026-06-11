@@ -1,0 +1,1370 @@
+﻿<Database>
+  <GameDBStringTable ID="LOC_ZHHANS_TREATMENTS">
+    <LanguageCode>zh-Hans</LanguageCode>
+    <LanguageNameLocalized>简体中文</LanguageNameLocalized>
+    <Contributors>
+      <Name>ParaTranz</Name>
+      <Name>@bruceCzK</Name>
+      <Name>@mm615657</Name>
+      <Name>@hailun2008</Name>
+      <Name>@cwl733</Name>
+      <Name>@BattleOil</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <GameDBLocalizedString>
+        <LocID>TRT_A1AT_REPLACEMENT</LocID>
+        <Text>α1-抗胰蛋白酶 补充</Text>
+        <!-- A1At replacement -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_A1AT_REPLACEMENT_DESCRIPTION</LocID>
+        <Text>静脉注射α-1蛋白抗胰蛋白酶。\n\n需求房间：门诊室/普通外科诊断室,内科诊断室/ICU诊断室/普通病房/加护病房</Text>
+        <!-- Replacement of the protein Alpha-1 antitrypsin by the intravenous route. \n\nRequired room: Offices / Diagnostic units at General Surgery dpt, Internal Medicine dpt / ICU dpt / Regular wards / High dependency units -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ABDOMINAL_SURGERY</LocID>
+        <Text>腹部手术</Text>
+        <!-- Abdominal surgery -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ABDOMINAL_SURGERY_DESCRIPTION</LocID>
+        <Text>腹部外科手术\n\n需求房间：普通外科手术室 + 重症监护室</Text>
+        <!-- Surgery of the abdomen. \n\nRequired room: Operating room at General Surgery dpt + ICU -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ACE_INHIBITOR</LocID>
+        <Text>ACE 抑制剂</Text>
+        <!-- ACE inhibitor -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ACE_INHIBITOR_DESCRIPTION</LocID>
+        <Text>全称血管紧张素转化酶抑制剂，用于治疗高血压。\n\n需求房间：任何门诊室 / 诊断室</Text>
+        <!-- A drug used in the treatment of hypertension. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANALGESICS</LocID>
+        <Text>止痛药</Text>
+        <!-- Analgesics -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANALGESICS_DESCRIPTION</LocID>
+        <Text>主要以药片形式服用的药物，用于止痛。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Drugs, mostly in pill form, used to relieve pain. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTACIDS</LocID>
+        <Text>制酸剂</Text>
+        <!-- Antacids -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTACIDS_DESCRIPTION</LocID>
+        <Text>缓解或预防因为胃酸过多所引起的心口灼热感、胃胀气或消化不良的症状。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Antacids are substances that neutralize stomach acid, used to relieve heartburn, indigestion or reflux. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTI_INFLAMMATORY_CREAM</LocID>
+        <Text>抗炎膏</Text>
+        <!-- Anti Inflammatory Cream -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTI_INFLAMMATORY_CREAM_DESCRIPTION</LocID>
+        <Text>非甾体抗炎膏，用于治疗各种炎症，并减轻疼痛或肿胀。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Non-steroidal anti-inflammatory cream used to treat various inflammations and also relieve from pain or swelling. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTI_SEIZURES_MEDICINE</LocID>
+        <Text>抗癫痫药</Text>
+        <!-- Anti seizures medicine -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTI_SEIZURES_MEDICINE_DESCRIPTION</LocID>
+        <Text>用于治疗各种类型和形式的癫痫发作的药物。\n\n需求房间：任何诊断室/重症监护室</Text>
+        <!-- Medicine used to treat various types and forms of seizures. \n\nRequired room: Any diagnostic unit / ICU -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTI_ARRHYTMICALS</LocID>
+        <Text>抗心律失常药</Text>
+        <!-- Antiarrhythmics -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTI_ARRHYTMICALS_DESCRIPTION</LocID>
+        <Text>药物通常静脉注射或吞服的方式来抑制心脏的律动异常。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Drugs usually given intravenously or as pills to suppress abnormal rhytms of the heart. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTIBIOTIC_OINTMENT</LocID>
+        <Text>抗生素软膏</Text>
+        <!-- Antibiotic ointment -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTIBIOTIC_OINTMENT_DESCRIPTION</LocID>
+        <Text>适用于皮肤受感染部位的特殊软膏。\n\n需求房间：门诊室/观察室/神经科门诊室/诊断室</Text>
+        <!-- Special ointment applied to infected areas on the skin. \n\nRequired room: doctor's office / Observation room / Office/Diagnostic unit at Neurology dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTIBIOTICS</LocID>
+        <Text>抗生素</Text>
+        <!-- Antibiotics -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTIBIOTICS_DESCRIPTION</LocID>
+        <Text>用于治疗各种形式细菌感染的药物。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Drugs in various forms used to treat various bacterial infections. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTIDEPRESSIVES</LocID>
+        <Text>抗抑郁药</Text>
+        <!-- Antidepressants -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTIDEPRESSIVES_DESCRIPTION</LocID>
+        <Text>用于治疗抑郁症的药物。\n\n需求房间：门诊室/普通外科门诊室/诊断室/神经科门诊室/诊断室</Text>
+        <!-- Drugs used to treat depressive disorders. \n\nRequired room: doctor's office / Office/Diagnostic unit at General Surgery dpt / Neurology dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTIDIARRHEALS</LocID>
+        <Text>止泻药</Text>
+        <!-- Antidiarrheals -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTIDIARRHEALS_DESCRIPTION</LocID>
+        <Text>止泻药通常是通过减少排便来停止腹泻，缓解症状，但不能根本消除病因。\n\n需求房间：普通外科门诊室/诊断室/内科门诊室/诊断室/重症监护室</Text>
+        <!-- Drugs that stops diarrhea, relieving the symptoms, but not eliminate the cause, usually by decreasing bowel movement. \n\nRequired room: Office / Diagnostic unit at General Surgery dpt / Internal Medicine dpt / ICU -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTIFUNGAL_OINTMENT</LocID>
+        <Text>抗真菌药膏</Text>
+        <!-- Antifungal ointment -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTIFUNGAL_OINTMENT_DESCRIPTION</LocID>
+        <Text>抗真菌药膏几乎没有副作用，可长期治愈真菌感染。\n\n需求房间：门诊室/观察室</Text>
+        <!-- Antifungal ointment with almost no side effects, providing long-term cure of fungal infections. \n\nRequired room: doctor's office / Observation room -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTIHEMORRHAGICS</LocID>
+        <Text>止血药</Text>
+        <!-- Antihemorrhagics -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTIHEMORRHAGICS_DESCRIPTION</LocID>
+        <Text>用于止血的药物。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Drugs used to stop bleedings. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTIHISTAMINES</LocID>
+        <Text>抗过敏药</Text>
+        <!-- Antihistamines -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTIHISTAMINES_DESCRIPTION</LocID>
+        <Text>治疗过敏的药物，对抗组胺受体的活动，这是引起过敏症状的原因。\n\n需求房间：门诊室/观察室/重症监护室/普通外科门诊室/诊断室/内科门诊室/诊断室/神经科门诊室/诊断室</Text>
+        <!-- Allergy treating drugs, opposing the activity of histamine receptors, that are responsible for the symptoms of allergy. \n\nRequired room: doctor's office / Observation room / ICU / Office/Diagnostic unit at General Surgery dpt / Internal Medicine dpt / Neurology dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTIHYPERTENSIVES</LocID>
+        <Text>降压药</Text>
+        <!-- Antihypertensive medication -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTIHYPERTENSIVES_DESCRIPTION</LocID>
+        <Text>用于治疗高血压的药物 - 高血压\n\n需求房间：门诊室/观察室/重症监护室/普通外科诊室/诊断室/心脏科诊室/诊断室/神经科门诊室/诊断室</Text>
+        <!-- Drugs used to treat hypertension - high blood pressure. \n\nRequired room: doctor's office / Observation room / ICU / Office/Diagnostic unit at General Surgery dpt / Cardiology dpt / Neurology dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTICHOLINERGICS</LocID>
+        <Text>抗胆碱能药物</Text>
+        <!-- Anticholinergics -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTICHOLINERGICS_DESCRIPTION</LocID>
+        <Text>治疗过度出汗最常用的药物。\n\n需求房间：门诊室/观察室/重症监护室/内科门诊室/诊断室/心脏科门诊室/诊断室/神经科门诊室/诊断室</Text>
+        <!-- Most commonly used medications in the treatment of excessive sweating. \n\nRequired room: doctor's office / Observation room / ICU / Office/Diagnostic unit at Internal Medicine dpt / Cardiology dpt / Neurology dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTIMYCOTICS</LocID>
+        <Text>抗真菌药</Text>
+        <!-- Antimycotics -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTIMYCOTICS_DESCRIPTION</LocID>
+        <Text>具有抗真菌作用的药物。用于治疗由多种真菌种类引起的真菌感染。\n\n需求房间：门诊室/观察室/重症监护室内科门诊室/诊断室</Text>
+        <!-- Drugs with an antifungal effect. Antimycotics are used to treat fungal infections caused by a wide range of fungal species. \n\nRequired room: doctor's office / Observation room / ICU / Office/Diagnostic unit at Internal Medicine dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTIPARASITIC_DRUGS</LocID>
+        <Text>抗寄生虫药</Text>
+        <!-- Antiparasitic drugs -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTIPARASITIC_DRUGS_DESCRIPTION</LocID>
+        <Text>用于治疗各种寄生虫感染的药物。\n\n需求房间：门诊室/观察室/内科门诊室/诊断室</Text>
+        <!-- Drugs that are used in the treatment of various parasite infections. \n\nRequired room: doctor's office / Observation room / Office/Diagnostic unit at Internal Medicine dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTIPSYCHOTICS</LocID>
+        <Text>抗精神病药</Text>
+        <!-- Antipsychotics -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTIPSYCHOTICS_DESCRIPTION</LocID>
+        <Text>用于治疗各种精神疾病的药物。\n\n需求房间：重症监护室/内科门诊室/诊断室/神经科门诊室/诊断室</Text>
+        <!-- Medication used in the treatment of various psychiatric disorders. \n\nRequired room: ICU / Office/Diagnostic unit at Internal Medicine dpt / Neurology dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTIPYRETICS</LocID>
+        <Text>退烧药</Text>
+        <!-- Antipyretics -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTIPYRETICS_DESCRIPTION</LocID>
+        <Text>用于降低因发烧引起的体温过高的药物。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Drugs used to lower the temperature due to fever. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTISEPTICS</LocID>
+        <Text>抗菌剂</Text>
+        <!-- Antiseptics -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTISEPTICS_DESCRIPTION</LocID>
+        <Text>以液体或气溶胶形式存在，具有抗菌作用，降低感染的可能性。\n\n需求房间：门诊室/观察室/急救中心/重症监护室/普通外科门诊室/诊断室/内科门诊室/诊断室/骨科门诊室/诊断室</Text>
+        <!-- Substances generally in liquid or aerosol form with antimicrobial effect, reducing the possibility of infection. \n\nRequired room: doctor's office / Observation room / Trauma center / ICU / Office/Diagnostic unit at General Surgery dpt / Internal Medicine dpt / Orthopeady and Trauma dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTITAPEWORM_PILLS</LocID>
+        <Text>驱肠虫药</Text>
+        <!-- Antihelmintics -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTITAPEWORM_PILLS_DESCRIPTION</LocID>
+        <Text>用于治疗绦虫感染的药丸。\n\n需求房间：门诊室/观察室</Text>
+        <!-- Pills that are used in the treatment of tapeworm infections. \n\nRequired room: doctor's office / Observation room -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTITHYROID_MEDICATION</LocID>
+        <Text>抗甲状腺药</Text>
+        <!-- Antithyroids -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTITHYROID_MEDICATION_DESCRIPTION</LocID>
+        <Text>硫胺素(Thionamides)又称硫胺素(Thionamides)，是通过阻断甲状腺激素的形成来治疗甲亢的药物。\n\n需求房间：重症监护室/普通外科门诊室/诊断室</Text>
+        <!-- Also called thionamides are drugs used in the treatment of hyperthyroidism by blocking the formation of thyroid hormone. \n\nRequired room: ICU / Office/Diagnostic unit at General Surgery dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTITUSICS</LocID>
+        <Text>止咳药</Text>
+        <!-- Cough suppressants -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTITUSICS_DESCRIPTION</LocID>
+        <Text>用于缓解咳嗽的药物，但不能从根本消除病因。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Drugs used to suppress dry cough, but without eliminating the cause. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTIVIROTICS</LocID>
+        <Text>抗病毒药</Text>
+        <!-- Antivirals -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANTIVIROTICS_DESCRIPTION</LocID>
+        <Text>抑制病毒感染的药物不同于抗生素，抗病毒药物无法摧毁病原体。\n\n需求房间：门诊室/观察室/重症监护室/普通外科门诊室/诊断室/神经科门诊室/诊断室</Text>
+        <!-- Medication that inhibit the infection of viruses, unlike the antibiotics, antiviral drugs do not destroy the pathogen. \n\nRequired room: doctor's office / Observation room / ICU / Office/Diagnostic unit ar General Surgery dpt / Neurology dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANXIOLYTICS</LocID>
+        <Text>抗焦虑药</Text>
+        <!-- Anxiolytics -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ANXIOLYTICS_DESCRIPTION</LocID>
+        <Text>缓解焦虑症的药物。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Medication that inhibits anxiety. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ARM_CAST</LocID>
+        <Text>手臂石膏</Text>
+        <!-- Arm cast -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ARM_CAST_DESCRIPTION</LocID>
+        <Text>石膏和绷带制成保护壳，保护骨折的肢体或关节不受二次伤害。\n\n需求房间：门诊室/观察室/急救中心/骨科门诊室/诊断室</Text>
+        <!-- Protective shell from plaster and bandages to protect fractured limb or joints. \n\nRequired room: doctor's office / Observation room / Trauma center / Office/Diagnostic unit at Orthopaedy dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ARM_ORTHOSIS</LocID>
+        <Text>上肢矫形器</Text>
+        <!-- Arm orthosis -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ARM_ORTHOSIS_DESCRIPTION</LocID>
+        <Text>矫形器，有助于控制，引导和固定关节和四肢。\n\n需求房间：门诊室/观察室/急救中心/手术室/骨科门诊室/诊断室</Text>
+        <!-- Orthosis that helps control, guide and immobilize certain joints and limbs. \n\nRequired room: doctor's office / Observation room / Trauma center / Operating room / Office/Diagnostic unit at Orthopaedy dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ARTIFICIAL_VENTILATION</LocID>
+        <Text>人工呼吸</Text>
+        <!-- Artificial ventilation -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ARTIFICIAL_VENTILATION_DESCRIPTION</LocID>
+        <Text>借助外力让呼吸系统交换气体，恢复或帮助患者呼吸的一种急救方式，包括患者的气管内插管，并连接机械式呼吸机。\n\n需求房间：观察室/急救中心/任何门诊室/诊断室</Text>
+        <!-- Procedure to restore or help with respiration by exchange of the gases by the respiratory system. It consist of an endotracheal intubation of the patient and connecting it to mechanical ventilation. \n\nRequired room: Observation room / Trauma center / Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_BAND_LIGATION</LocID>
+        <Text>内镜下食管静脉曲张套扎术</Text>
+        <!-- Band ligation -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_BAND_LIGATION_DESCRIPTION</LocID>
+        <Text>内镜治疗是一种安全、有效、简单的食管静脉曲张破裂出血止血和预防出血的治疗方法。\n\n需求房间：手术室</Text>
+        <!-- Endoscopic treatment to ensure that varices in the oesophagus will not bleed. \n\nRequired room: Operating room -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_BANDAGE</LocID>
+        <Text>绷带包扎</Text>
+        <!-- Bandage -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_BANDAGE_DESCRIPTION</LocID>
+        <Text>绷带是包扎伤口处或患处的纱布带，包扎是外伤现场应急处理的重要措施之一。\n\n需求房间：门诊室/观察室/骨科门诊室/诊断室</Text>
+        <!-- A long narrow cloth with a broad spectrum of use. \n\nRequired room: doctor's office / Observation room / Office/Diagnostic unit at Orthopaedy dpt  -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_B-COMPLEX_SUPPLEMENT</LocID>
+        <Text>复合维生素B</Text>
+        <!-- B-complex supplement -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_B-COMPLEX_SUPPLEMENT_DESCRIPTION</LocID>
+        <Text>补充维生素B\n\n需求房间：门诊室/观察室/内科门诊室/诊断室</Text>
+        <!-- Supplement of B-vitamins. \n\nRequired room: doctor's office / Observation room / Office/Diagnostic unit at Internal Medicine dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_BETA_BLOCKERS</LocID>
+        <Text>β受体阻滞剂</Text>
+        <!-- Beta blockers -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_BETA_BLOCKERS_DESCRIPTION</LocID>
+        <Text>用于治疗心律失常、高血压、心力衰竭和震颤的药物。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Medication that is used to treat abnormal heart rhythm,high blood pressure, heart failure and tremor. \n\nRequired room: Any office / diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_BLOOD_TRANSFUSION</LocID>
+        <Text>输血</Text>
+        <!-- Blood transfusion -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_BLOOD_TRANSFUSION_DESCRIPTION</LocID>
+        <Text>因严重失血、血液疾病或贫血将血液通过静脉输射注给患者的一种治疗方法。\n\n需求房间：任何门诊室/诊断室/普通病房/加护病房</Text>
+        <!-- Procedure of receiving portions of blood due to serious blood loss, diseases or systemic damage to blood cells. \n\nRequired room: Any office / Diagnostic unit / Ward / Unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_BONE_STRENGTH_PILLS</LocID>
+        <Text>补骨丸</Text>
+        <!-- Bone Strengthening pills -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_BONE_STRENGTH_PILLS_DESCRIPTION</LocID>
+        <Text>用来增强骨骼强度的辅助药物。\n\n需求房间：门诊室/观察室/普通外科门诊室/诊断室/内科门诊室/诊断室/骨科门诊室/诊断室</Text>
+        <!-- Supportive drugs used to improve the strength of the bones. \n\nRequired room: doctor's office / Observation room / Office/Diagnostic unit at General Surgery dpt / Internal Medicine dpt / Orthopaedy dpt. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_BOSTON_BRACE</LocID>
+        <Text>波士顿型矫形支具</Text>
+        <!-- Boston brace -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_BOSTON_BRACE_DESCRIPTION</LocID>
+        <Text>一种常用于脊柱侧凸的背部矫形器。\n\n需求房间：骨科门诊室/诊断室</Text>
+        <!-- Is a type of back orthosis often used for scoliosis. \n\nRequired room: Office / Diagnostic unit at Orthopaedy dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_BRONCHODILATORS</LocID>
+        <Text>支气管扩张剂</Text>
+        <!-- Bronchodilators -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_BRONCHODILATORS_DESCRIPTION</LocID>
+        <Text>一种可松弛支气管平滑肌、扩张支气管、缓解气流受限的常见药物。\n\n需求房间：任何门诊室/诊断室/重症监护室</Text>
+        <!-- Medication that dilates bronchi and bronchioles, decreasing the airways resistance, and therefore increasing the airflow to the lungs. \n\nRequired room: Any office / Diagnostic unit / ICU -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_CARDIAC_SURGERY</LocID>
+        <Text>心血管手术</Text>
+        <!-- Cardiovascular surgery -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_CARDIAC_SURGERY_DESCRIPTION</LocID>
+        <Text>心血管手术常用于各种心脏病的治疗。\n\n需求房间：心脏病学手术室</Text>
+        <!-- Cardiovascular surgery is often used for treatment of various heart disease. \n\nRequired room: Operating room at Cardiology dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_CLOSED_REDUCTION</LocID>
+        <Text>闭合复位术</Text>
+        <!-- Closed reduction -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_CLOSED_REDUCTION_DESCRIPTION</LocID>
+        <Text>准确、轻巧使用徒手操作，使骨折、脱位之关节复位的一种治疗方法。\n\n需求房间：骨科门诊室/诊断室</Text>
+        <!-- Procedure consisting of gentle maneuvers to help bones and joints to get back to proper position. \n\nRequired room: Office / Diagnostic unit at Orthopaedy dpt. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_CLOT_PREVENTING_DRUGS</LocID>
+        <Text>抗凝血药</Text>
+        <!-- Anticoagulants -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_CLOT_PREVENTING_DRUGS_DESCRIPTION</LocID>
+        <Text>防治血管内栓塞或血栓形成的一种药物。\n\n需求房间：心脏科门诊室/诊断室</Text>
+        <!-- Drugs preventing blood platelets to stick to each other and forming clots. \n\nRequired room: Office / Diagnostic unit at Cardiology dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_COLD_TILING</LocID>
+        <Text>冰敷</Text>
+        <!-- Ice wrap -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_COLD_TILING_DESCRIPTION</LocID>
+        <Text>冰敷可以有效缓解受伤部位的肿胀，减轻疼痛感。\n\n需求房间：门诊室/观察室/急救中心/骨科门诊室/诊断室</Text>
+        <!-- Cold compression wraps are used to calm down painful areas of the body. \n\nRequired room: doctor's office / Trauma center / Observation room / Office/Diagnostic unit at Orthopaedy dpt. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_COMPRESSION_WRAPS</LocID>
+        <Text>加压包扎</Text>
+        <!-- Compression wraps -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_COMPRESSION_WRAPS_DESCRIPTION</LocID>
+        <Text>使用弹性绷带包扎。\n\n需求房间：门诊室/观察室/急救中心/普通外科门诊室/诊断室/骨科门诊室/诊断室</Text>
+        <!-- Elastic bandages. \n\nRequired room: doctor's office / Observation room / Trauma center / Office/Diagnostic unit at General Surgery dpt / Orthopaedy dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_CORTICOSTEROID_INJECTIONS</LocID>
+        <Text>皮质类固醇注射</Text>
+        <!-- Corticosteroid injections -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_CORTICOSTEROID_INJECTIONS_DESCRIPTION</LocID>
+        <Text>合成的类固醇激素用于治疗炎症，广泛用于各种疾病。\n\n需求房间：重症监护室/骨科门诊室/诊断室</Text>
+        <!-- Synthetic steroid hormones is used to treat inflammation, and used on a broad spectrum of diseases. \n\nRequired room: ICU / Office/Diagnostic unit at Orthopaedy dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_CORTICOSTEROIDS</LocID>
+        <Text>皮质类固醇</Text>
+        <!-- Corticosteroids -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_CORTICOSTEROIDS_DESCRIPTION</LocID>
+        <Text>合成类固醇激素用于治疗炎症，并用于广泛的疾病。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Synthetic steroid hormones is used to treat inflammation, and used on a broad spectrum of diseases. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_CRANIOTOMY</LocID>
+        <Text>开颅手术</Text>
+        <!-- Craniotomy -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_CRANIOTOMY_DESCRIPTION</LocID>
+        <Text>脑部神经外科手术。\n\n需求房间：神经科手术室</Text>
+        <!-- Neurological surgery to get access to the brain. \n\nRequired room: Operating room at Neurology dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_DEFIBRILLATION</LocID>
+        <Text>除颤</Text>
+        <!-- Defibrillation -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_DEFIBRILLATION_DESCRIPTION</LocID>
+        <Text>一定量的电流冲击心脏使之恢复正常的心律。\n\n需求房间：任何门诊室/诊断室\n\n需求设备：除颤器</Text>
+        <!-- Procedure to deliver doses of electric current to the heart to re-establish normal heart rhythm. \n\nRequired room: Any office / Diagnostic unit \n\nRequired equipment: Defibrillator -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_DESMOPRESSIN</LocID>
+        <Text>弥凝片</Text>
+        <!-- Desmopressin -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_DESMOPRESSIN_DESCRIPTION</LocID>
+        <Text>又称(醋酸去氨加压素片)，可以帮助刺激血液凝固过程的一种合成激素，适合患有遗传性血液凝固障碍的患者。\n\n需求房间：门诊室/观察室/重症监护室/内科门诊室/诊断室</Text>
+        <!-- Synthetic hormone that has an anti-diuretic effect, and can help stimulate factors responsible for the blood clotting process, for patient with genetic blood clotting disorders. \n\nRequired room: doctor's office / Observation room / ICU / Office/Diagnostic unit at Internal Medicine dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_DIALYSIS</LocID>
+        <Text>透析</Text>
+        <!-- Dialysis -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_DIALYSIS_DESCRIPTION</LocID>
+        <Text>当肾脏无法维持正常功能时，将废物从细胞代谢和血液循环中移除的一种治疗方式。\n\n需求房间：普通外科诊断室\n\n需求设备：透析仪</Text>
+        <!-- Is a process of removing the waste products from the cells metabolism from the bloodstream, when the kidneys are not able to maintain this function. Diagnostic unit at General Surgery dpt \n\nRequired equipment: Dialysis machine -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_DIET_MODIFICATION</LocID>
+        <Text>饮食调整</Text>
+        <!-- Diet modification -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_DIET_MODIFICATION_DESCRIPTION</LocID>
+        <Text>医生通过建议或者处方对患者饮食做出调整的一种辅助治疗。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Advice or prescription about daily diet, change of consummated food, beverages, etc. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_DIURETICS</LocID>
+        <Text>利尿剂</Text>
+        <!-- Diuretics -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_DIURETICS_DESCRIPTION</LocID>
+        <Text>一种降低体液水分和钠成分的药物。\n\n需求房间：重症监护室/普通外科门诊室/诊断室/内科诊门诊室/断室/心脏科门诊室/诊断室</Text>
+        <!-- Medications that lower the amount of sodium and water in the body. \n\nRequired room: ICU / Office/Diagnostic unit at General Surgery dpt / Internal Medicine dpt / Cardiology dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_DOCTOR'S_RECOMMENDATIONS</LocID>
+        <Text>医生建议</Text>
+        <!-- Recommendations -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_DOCTOR'S_RECOMMENDATIONS_DESCRIPTION</LocID>
+        <Text>医生通过透给经验提供患者最佳建议辅助治疗。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- The doctor gives best recommendation to support treatments. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_EAR_DROPS</LocID>
+        <Text>滴耳液</Text>
+        <!-- Ear drops -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_EAR_DROPS_DESCRIPTION</LocID>
+        <Text>治疗人耳特殊症状的药液滴剂。含有多种药物成分，其中包括抗生素。\n\n需求房间：普通外科门诊室/诊断室/内科门诊室/诊断室/神经科门诊室/诊断室</Text>
+        <!-- Medicine in liquid drops that treats specific symptoms in the human ear. Can contain various healing substances including antibiotics. Office / Diagnostic unit at General Surgery dpt / Internal Medicine dpt / Neurology dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ELBOW_PAD</LocID>
+        <Text>护肘</Text>
+        <!-- Elbow pad -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ELBOW_PAD_DESCRIPTION</LocID>
+        <Text>保护手肘关节的一种护具\n\n需求房间：骨科门诊室/诊断室</Text>
+        <!-- Protective padded gear. \n\nRequired room: Office / Diagnostic unit at Orthopaedy dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_EMERGENCY_CARE</LocID>
+        <Text>急救护理</Text>
+        <!-- Emergency care -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_EMERGENCY_CARE_DESCRIPTION</LocID>
+        <Text>确保患者体征稳定的紧急程序，对患者身体创伤，出血及任何潜在的伤口进行紧急处理。\n\n需求房间：任何门诊室/诊断室/重症监护室</Text>
+        <!-- Emergency procedure to make sure the patient is stabilized by taking care of any potential wounds, lacerations, injuries or traumas, and to stop any active bleeding. \n\nAny office / Diagnostic unit / ICU -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ENDOSCOPIC_CAUTERIZATION</LocID>
+        <Text>内镜烧灼术</Text>
+        <!-- Endoscopic cauterization -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ENDOSCOPIC_CAUTERIZATION_DESCRIPTION</LocID>
+        <Text>内镜烧灼术通常用于上消化道，通过电流烧灼特定组织用以闭合或者切开的一种医疗手段，通常在手术中被用在阻止內出血的情况。\n\n需求房间：普通外科手术室</Text>
+        <!-- Endoscopic cauterization is a surgical procedure where an electric current is used to burn/cautherize an area in order to open or close it off. It is commonly used to stop bleedings during surgeries. \n\nRequired room: Operating room at General Surgery dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ENDOSCOPIC_SURGERY</LocID>
+        <Text>内窥镜检查</Text>
+        <!-- Endoscopic surgery -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ENDOSCOPIC_SURGERY_DESCRIPTION</LocID>
+        <Text>使用内窥镜的一种微创手术。\n\n需求房间：骨科手术室</Text>
+        <!-- A minimal invasive surgery with a set of endoscopic instruments. \n\nRequired room: Operating room at Orthopaedy dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ETHANOL_DOSES</LocID>
+        <Text>乙醇疗法</Text>
+        <!-- Ethanol treatment -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_ETHANOL_DOSES_DESCRIPTION</LocID>
+        <Text>乙醇是治疗甲醇中毒的有效方法。\n\n需求房间：任何病房/重症监护室/诊室/急救中心/观察室/内科门诊室/诊断室</Text>
+        <!-- Ethanol is very effective in the treatment of methanol poisoning. \n\nRequired room: Any ward / ICU / doctor's office / Trauma center / Observation room / Office/Diagnostic unit at Internal Medicine dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_EXERCISE</LocID>
+        <Text>运动</Text>
+        <!-- Exercise -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_EXERCISE_DESCRIPTION</LocID>
+        <Text>低强度有氧运动，加强锻炼或任何辅助练习。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Low-impact aerobic exercise, strengthening exercises, or any support exercises. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_EYE_DROPS</LocID>
+        <Text>眼药水</Text>
+        <!-- Eye drops -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_EYE_DROPS_DESCRIPTION</LocID>
+        <Text>治疗眼部特殊症状或疾病的液体药物。含有抗菌剂、抗组胺药和降低眼睛内血压的药物。\n\n需求房间：门诊室/观察室/普通外科门诊室/诊断室/内科门诊室/诊断室/神经科门诊室/诊断室</Text>
+        <!-- Medicine in liquid a liquid state that treats specific symptoms or diseases in the eye. Either contain a antibacterial agent, anti-histamines or drugs to decrease the blood pressure inside the eye.\n\nRequired room: doctor's office / Observation room / Office/Diagnostic unit at General Surgery dpt / Internal Medicine dpt / Neurology dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_EYE_SURGERY</LocID>
+        <Text>眼部手术</Text>
+        <!-- Eye surgery -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_EYE_SURGERY_DESCRIPTION</LocID>
+        <Text>对患者眼睛进行一种的精密手术。\n\n需求房间：神经科手术室</Text>
+        <!-- Delicate surgery performed on the patient's eye. \n\nRequired room: Operating room at Neurology dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_FOOT_CREAM</LocID>
+        <Text>护足膏</Text>
+        <!-- Foot cream -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_FOOT_CREAM_DESCRIPTION</LocID>
+        <Text>一种多用途的软膏，用来治疗多种脚部疾病与症状。\n\n需求房间：门诊室/观察室/骨科门诊室/诊断室</Text>
+        <!-- A lotion, cream, or ointment applied to the patient's feet in the treatment of various diseases and symptoms. \n\nRequired room: doctor's office / Observation room / Office/Diagnostic unit at Orthopaedy dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_FRACTURE_SURGERY_ARM</LocID>
+        <Text>骨折手术 - 手部</Text>
+        <!-- Fracture surgery - Arm -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_FRACTURE_SURGERY_ARM_DESCRIPTION</LocID>
+        <Text>对患者的手臂骨头进行修复和复位的外科手术，以治疗骨折。\n\n需求房间：骨科手术室</Text>
+        <!-- Surgery on the patient's arm to completely re-align and repair the fractured bone. \n\nRequired room: Operating room at Orthopaedy dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_FRACTURE_SURGERY_HEAD</LocID>
+        <Text>骨折神经外科手术 - 头部</Text>
+        <!-- Fracture neurosurgery - head -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_FRACTURE_SURGERY_HEAD_DESCRIPTION</LocID>
+        <Text>对患者的头骨进行修复和复位的外科手术，以治疗骨折。\n\n需求房间：骨科手术室</Text>
+        <!-- Surgery on the patient's head to completely re-align and repair the fractured bone. \n\nRequired room: Operating room at Orthopaedy dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_FRACTURE_SURGERY_HEAD_DESCRIPTION_V2</LocID>
+        <Text>颅骨骨折神经外科手术，以彻底复位和修复威胁患者生命的骨折。\n\n需求房间：神经外科手术室</Text>
+        <!-- Neurologic head fracture surgery specializes to completely re-align and repair the fractured bones that threaten patient's life. \n\nRequired room: Operating room at Neurology dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_FRACTURE_SURGERY_LEG</LocID>
+        <Text>骨折手术 - 腿部</Text>
+        <!-- Fracture surgery - Leg -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_FRACTURE_SURGERY_LEG_DESCRIPTION</LocID>
+        <Text>对患者的腿部骨头进行修复和复位的外科手术，以治疗骨折。\n\n需求房间：骨科手术室</Text>
+        <!-- Surgery on the patient's leg to completely re-align and repair the fractured bone. \n\nRequired room: Operating room at Orthopaedy dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_HIP_REPLACEMENT_SURGERY</LocID>
+        <Text>髋关节置换手术</Text>
+        <!-- Hip replacement surgery -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_HIP_REPLACEMENT_SURGERY_DESCRIPTION</LocID>
+        <Text>用人造关节代替骨折或受损的髋关节的手术。\n\n需求房间：骨科手术室</Text>
+        <!-- Surgery that replaces a fractured or damaged hip joint with an artificial joint. \n\nRequired room: Operating room at Orthopaedy dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_HOME_TREATMENT</LocID>
+        <Text>家庭治疗</Text>
+        <!-- Home treatment -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_HOME_TREATMENT_DESCRIPTION</LocID>
+        <Text>患者将在家自行治疗。不需要住院。\n\n需求房间：任何门诊室//诊断室</Text>
+        <!-- Patient will treat himself at home. No hospitalization is required. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_HOSPITALIZATION_HIGH_PRIORITY</LocID>
+        <Text>加护病房住院</Text>
+        <!-- HDU hospitalization -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_HOSPITALIZATION_HIGH_PRIORITY_DESCRIPTION</LocID>
+        <Text>在加护病房住院治疗。\n\n需求房间：加护病房</Text>
+        <!-- Hospitalize the patient at a high dependency unit (HDU). \n\nRequired room: High dependency unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_HOSPITALIZATION_ICU</LocID>
+        <Text>重症监护室住院</Text>
+        <!-- ICU hospitalization -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_HOSPITALIZATION_ICU_DESCRIPTION</LocID>
+        <Text>在重症监护室住院治疗。\n\n需求房间：重症监护室</Text>
+        <!-- Hospitalize the patient at an Intensive Care Unit (ICU). \n\nRequired room: ICU -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_HOSPITALIZATION_NORMAL</LocID>
+        <Text>普通病房住院</Text>
+        <!-- Regular hospitalization  -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_HOSPITALIZATION_NORMAL_DESCRIPTION</LocID>
+        <Text>在普通病房住院治疗。\n\n需求房间：普通病房</Text>
+        <!-- Hospitalize the patient at a regular ward. \n\nRequired room: Regular ward -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_HOSPITALIZATION_OBSERVATION</LocID>
+        <Text>留院观察</Text>
+        <!-- Observation -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_HOSPITALIZATION_OBSERVATION_DESCRIPTION</LocID>
+        <Text>患者因为症状或疾病，需要先收治观察。\n\n需求房间：观察室</Text>
+        <!-- Admit the patient for observation of symptoms and diseases. \n\nRequired room: Observation room -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_HOSPITALIZATION_TRAUMA</LocID>
+        <Text>急救中心抢救</Text>
+        <!-- TC hospitalization -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_HOSPITALIZATION_TRAUMA_DESCRIPTION</LocID>
+        <Text>急救中心专门接收重伤患者。\n\n需求房间：急救中心</Text>
+        <!-- Trauma center (TC) accepts critically ill patients when they arrive at the hospital. \n\nRequired room: Trauma center -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_CHELATION_THERAPY</LocID>
+        <Text>螯合疗法</Text>
+        <!-- Chelation therapy -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_CHELATION_THERAPY_DESCRIPTION</LocID>
+        <Text>用于去除体内有毒金属(如汞)的治疗方式。\n\n需求房间：任何病房/重症监护室/门诊室//急救中心/观察室/内科门诊室/诊断室</Text>
+        <!-- Medical procedure used to remove toxic metals (e.g. mercury) from the body. \n\nRequired room: ICU / any ward / doctor's office / Observation room / Trauma center / Office/Diagnostic unit at Internal Medicine dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_CHOLECALCIFEROL_SUPPLEMENT</LocID>
+        <Text>维生素D</Text>
+        <!-- vitamin-D supplement -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_CHOLECALCIFEROL_SUPPLEMENT_DESCRIPTION</LocID>
+        <Text>补充维生素D3\n\n需求房间：内科门诊室/诊断室</Text>
+        <!-- Supplementation of vitamin D3. \n\nRequired room: Office / Diagnostic unit at Orthopaedy dpt. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_INCISION_AND_DRAINAGE</LocID>
+        <Text>排脓切开引流</Text>
+        <!-- Incision and drainage -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_INCISION_AND_DRAINAGE_DESCRIPTION</LocID>
+        <Text>将脓肿的切开清除并清理的一种治疗方法。\n\n需求房间：任何诊断室/重症监护室/观察室/门诊室</Text>
+        <!-- Incision and drainage of an abscesses. \n\nRequired room: Any Diagnostic unit / ICU / Observation room / doctor's office -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_INDUCED_COMA</LocID>
+        <Text>麻醉</Text>
+        <!-- Induced coma -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_INDUCED_COMA_DESCRIPTION</LocID>
+        <Text>一种包括在手术前使用镇静剂以诱发受控昏迷的方式，也适用于危重病人，以促进治疗。\n\n需求房间：手术室</Text>
+        <!-- A procedure involving the administration of sedatives to induce a controlled-coma before surgery but also in critically ill patients for the facilitation of healing. \n\nRequired room: Operating room -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_INSULIN_THERAPY</LocID>
+        <Text>胰岛素疗法</Text>
+        <!-- Insulin therapy -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_INSULIN_THERAPY_DESCRIPTION</LocID>
+        <Text>降低血糖浓度的药物。\n\n需求房间：内科门诊室/诊断室</Text>
+        <!-- Medication that lowers the level of blood sugar. \n\nRequired room: Office / Diagnostic unit at Internal Medicine dpt. -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_INTERFERON_ALPHA-2B</LocID>
+        <Text>干扰素α-2b</Text>
+        <!-- Interferon alpha-2b -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_INTERFERON_ALPHA-2B_DESCRIPTION</LocID>
+        <Text>用于治疗急慢性病毒性肝炎(乙型、丙型等)的高度特异性抗病毒药物。\n\n需求房间：普通外科门诊室/诊断室</Text>
+        <!-- Highly specific anti-viral therapy used in the treatment of chronic Hepatitis B and C. \n\nRequired room: Office / Diagnostic unit at General Surgery dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_INTRAVENOUS_ANTIBIOTICS</LocID>
+        <Text>静脉注射抗生素</Text>
+        <!-- IV antibiotics -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_INTRAVENOUS_ANTIBIOTICS_DESCRIPTION</LocID>
+        <Text>一种通过静脉注射(IV)抗生素的方式，以提高治疗效果的治疗方法\n\n需求房间：任何门诊室/病房/诊断室</Text>
+        <!-- A treatment where antibiotics are delivered by the intravenous (IV) route in order to increase the effectiveness of the treatment. \n\nRequired room: Any office / ward / unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_INTRAVENOUS_ATROPINE</LocID>
+        <Text>静脉注射阿托品</Text>
+        <!-- IV atropine -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_INTRAVENOUS_ATROPINE_DESCRIPTION</LocID>
+        <Text>阿托品，抗胆碱药，为M-受体阻断剂。通过静脉注射(IV)的方式，以提高治疗效果。\n\n需求房间：任何门诊室/病房/诊断室</Text>
+        <!-- The administration of atropine by the intravenous (IV) route in order to increase the effectiveness of the treatment. \n\nRequired room: Any office / ward / unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_INTRAVENOUS_CALCIUM_GLUCONATE</LocID>
+        <Text>静脉注射葡萄糖酸钙</Text>
+        <!-- IV calcium gluconate -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_INTRAVENOUS_CALCIUM_GLUCONATE_DESCRIPTION</LocID>
+        <Text>通过静脉注射的方式补充葡萄糖酸钙。\n\n需求房间：任何门诊室/病房/诊断室</Text>
+        <!-- Intravenous (IV) supplement of calcium gluconate. \n\nRequired room: Any office / ward / unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_INTRAVENOUS_CORTICOSTEROIDS</LocID>
+        <Text>静脉注射皮质类固醇</Text>
+        <!-- IV corticosteroids -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_INTRAVENOUS_CORTICOSTEROIDS_DESCRIPTION</LocID>
+        <Text>静脉注射皮质类固醇\n\n需求房间：任何门诊室/病房/诊断室</Text>
+        <!-- Intravenous administration of corticosteroid medication. \n\nRequired room: Any office / ward / unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_INTRAVENOUS_IMMUNOGLOBULIN</LocID>
+        <Text>静脉注射免疫球蛋白</Text>
+        <!-- IV immunoglobulin -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_INTRAVENOUS_IMMUNOGLOBULIN_DESCRIPTION</LocID>
+        <Text>通过静脉注射的方式，注射免疫球蛋白。\n\n需求房间：任何门诊室/病房/诊断室</Text>
+        <!-- A purified blood product containing antibodies delivered by the intravenous (IV) route. \n\nRequired room: Any office / ward / unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_INTRAVENOUS_INFUSION</LocID>
+        <Text>静脉输液</Text>
+        <!-- IV infusion -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_INTRAVENOUS_INFUSION_DESCRIPTION</LocID>
+        <Text>一种直接向血液输送流体物质的医疗方法。\n\n需求房间：任何门诊室/病房/诊断室</Text>
+        <!-- A procedure where medication and fluids are delivered intravenously (directly to the bloodstream through a vein). \n\nRequired room: Any office / ward / unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_INTRAVENOUS_NUTRITION</LocID>
+        <Text>静脉营养</Text>
+        <!-- IV nutrition -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_INTRAVENOUS_NUTRITION_DESCRIPTION</LocID>
+        <Text>静脉营养，或肠外营养，是通过直接将营养注入血液，从而绕过通常的肠内途径的过程。静脉营养含有各种重要营养物质，用于确保身体正常运转和防止营养不良。\n\n需求房间：任何门诊室/病房/诊断室</Text>
+        <!-- Intravenous nutrition, or parenteral nutrition, is the procedure of feeding the patient by means of administering nutrition directly into the bloodstream, thereby bypassing the usual way through the intestines. The intravenous nutrition contains various important nutrients and is used to ensure proper functioning of the body and preventing malnutrition. \n\nRequired room: Any office / ward / unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_IRON_SUPPLEMENT</LocID>
+        <Text>补铁</Text>
+        <!-- Iron supplement -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_IRON_SUPPLEMENT_DESCRIPTION</LocID>
+        <Text>补充微量元素铁\n\n需求房间：门诊室/观察室</Text>
+        <!-- Supplement of iron. \n\nRequired room: doctor's office / Observation room -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_JOINT_SURGERY_ARM</LocID>
+        <Text>关节手术 - 手部</Text>
+        <!-- Joint surgery - Arm -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_JOINT_SURGERY_ARM_DESCRIPTION</LocID>
+        <Text>对病人的手部进行手术以完全固定或修复关节或重塑其韧带。\n\n需求房间：骨科手术室</Text>
+        <!-- Surgery on the patient's arm to completely fix or repair the joint or to reconstruct its ligaments. \n\nRequired room: Operating room at Orthopaedy dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_JOINT_SURGERY_LEG</LocID>
+        <Text>关节手术 - 腿部</Text>
+        <!-- Joint surgery - Leg -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_JOINT_SURGERY_LEG_DESCRIPTION</LocID>
+        <Text>对病人的腿部进行手术以完全固定或修复关节或重塑其韧带。\n\n需求房间：骨科手术室</Text>
+        <!-- Surgery on the patient's leg to completely fix or repair the joint or to reconstruct its ligaments. \n\nRequired room: Operating room at Orthopaedy dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_LAPAROSCOPIC_SURGERY</LocID>
+        <Text>腹腔镜手术</Text>
+        <!-- Laparoscopic surgery -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_LAPAROSCOPIC_SURGERY_DESCRIPTION</LocID>
+        <Text>用一系列先进的手术设备通过一系列的小切口进入体内进行的一种微创外科手术。\n\n需求房间：普通外科手术室</Text>
+        <!-- A minimally invasive surgical technique. The surgery is performed by cutting a series of small incisions through which surgical equipment is inserted. \n\nRequired room: Operating room at General Surgery dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_LEG_CAST</LocID>
+        <Text>腿部石膏</Text>
+        <!-- Leg cast -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_LEG_CAST_DESCRIPTION</LocID>
+        <Text>由石膏、绷带或和玻璃纤维制成的保护外壳，可以固定和保护骨折的骨头。\n\n需求房间：门诊室/观察室/急救中心骨科门诊室/诊断室</Text>
+        <!-- Protective shell made from plaster, bandage, and sometimes fiberglass, which immobilises and protects the fractured bone. \n\nRequired room: doctor's office / Observation room / Trauma center / Office/Diagnostic unit at Orthopaedy dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_LEG_ORTHOSIS</LocID>
+        <Text>腿部矫形器</Text>
+        <!-- Leg orthosis -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_LEG_ORTHOSIS_DESCRIPTION</LocID>
+        <Text>形器是一种固定某一关节或肢体并引导运动范围的装置。\n\n需求房间：门诊室/观察室/急救中心/手术室/骨科门诊室/诊断室</Text>
+        <!-- An orthosis is a device that immobilises a certain joint or limb, and guides the range of motion. \n\nRequired room: doctor's office / Observation room / Trauma center / Office/Diagnostic unit/Operating room at Orthopaedy dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_LIFE_SUPPORT</LocID>
+        <Text>生命维持</Text>
+        <!-- Life support -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_LIFE_SUPPORT_DESCRIPTION</LocID>
+        <Text>使用维生体统在患者重度昏迷期间维持基本生命体征。\n\n需求房间：重症监护室/急救中心</Text>
+        <!-- Life support is instituted to help or maintain vital functions during coma. \n\nRequired room: ICU / Trauma center -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_LIVER_CONTROL_MEDICATION</LocID>
+        <Text>肝脏用药</Text>
+        <!-- Liver medication -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_LIVER_CONTROL_MEDICATION_DESCRIPTION</LocID>
+        <Text>用于治疗各种影响肝脏的疾病的药物。\n\n需求房间：普通外科门诊室/诊断室</Text>
+        <!-- Drugs used in the treatment of various diseases affecting the liver. \n\nRequired room: Office / Diagnostic unit at General Surgery dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_MUCOLYTICS</LocID>
+        <Text>黏液溶解剂</Text>
+        <!-- Mucolytics -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_MUCOLYTICS_DESCRIPTION</LocID>
+        <Text>具有较强的黏痰溶解作用，有助于溶解和清除呼吸道痰液的液体药物。\n\n需求房间：门诊室/观察室/重症监护室/内科门诊室/诊断室</Text>
+        <!-- Liquid drugs that help to dissolve and clear mucus from the airways. \n\nRequired room: doctor's office / Observation room / ICU / Office/Diagnostic unit at Internal Medicine dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_NASAL_DROPS</LocID>
+        <Text>滴鼻液</Text>
+        <!-- Nasal drops -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_NASAL_DROPS_DESCRIPTION</LocID>
+        <Text>用于清除鼻腔，解决鼻塞，让鼻孔通气的药物。\n\n需求房间：门诊室/观察室/内科门诊室/诊断室/心脏科诊室/诊断室</Text>
+        <!-- Drugs that that clear the nasal cavity and increase ventilation through the nose. \n\nRequired room: doctor's office / Observation room / Office/Diagnostic unit at Internal Medicine dpt / Cardiology dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_NITRATES</LocID>
+        <Text>硝化甘油</Text>
+        <!-- Nitrates -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_NITRATES_DESCRIPTION</LocID>
+        <Text>一氧化氮具有刺激平滑肌舒张以达到扩张血管的效果。\n\n需求房间：普通病房/加护病房/重症监护室/心脏科门诊室/诊断室</Text>
+        <!-- Nitrates relax and widen blood vessels. \n\nRequired room: Regular ward / High dependency unit / ICU / Office/Diagnostic unit at Cardiology dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_NSAIDS</LocID>
+        <Text>非甾体抗炎药</Text>
+        <!-- NSAIDs -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_NSAIDS_DESCRIPTION</LocID>
+        <Text>非甾体抗炎药(NSAIDs)用于治疗各种炎症和减轻疼痛。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Non-steroidal anti-inflammatory drugs (NSAIDs) used to treat various inflammatory conditions and relieve pain. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_NUMBING_OINTMENT</LocID>
+        <Text>局部麻醉软膏</Text>
+        <!-- Numbing ointment -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_NUMBING_OINTMENT_DESCRIPTION</LocID>
+        <Text>涂抹在患处的软膏（如晒伤），使其麻木并减轻疼痛和刺痛感。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Ointments that are applied to a certain area (e.g. a sunburn) to numb or relieve pain and irritation. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_OSTEOMYELITIS_SURGERY</LocID>
+        <Text>骨髓炎手术</Text>
+        <!-- Osteomyelitis surgery -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_OSTEOMYELITIS_SURGERY_DESCRIPTION</LocID>
+        <Text>一种手术，包括切除死骨组织，抽取和清除受感染的骨头，以及恢复该区域的血液流动。\n\n需求房间：骨科手术室</Text>
+        <!-- A surgery that involves removing dead bone tissue, draining and clearing infected bone and restoring blood flow to the area. \n\nRequired room: Operating room at Orthopaedy dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_OXYGENOTHERAPY</LocID>
+        <Text>氧气疗法</Text>
+        <!-- Oxygenotherapy -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_OXYGENOTHERAPY_DESCRIPTION</LocID>
+        <Text>通常通过鼻腔导管或覆盖口鼻的面罩提供氧气，使血氧下降得到改善。\n\n需求房间：门诊室/观察室/重症监护室/加护病房</Text>
+        <!-- Supplementation of oxygen to inhaled gas (often delivered through a nasal cathether or a mask covering the mouth and nose). \n\nRequired room: Doctor's office / Observation room / ICU / High dependency unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_PERICARDIOCENTESIS</LocID>
+        <Text>心包穿刺术</Text>
+        <!-- Pericardiocentesis -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_PERICARDIOCENTESIS_DESCRIPTION</LocID>
+        <Text>用于从心包排出过多的液体或血液，减轻心脏压力，使心脏搏动恢复正常。\n\n需求房间：心脏病学手术室</Text>
+        <!-- Procedure used in evacuating excessive fluid or blood from pericardium, relieving the pressure on the heart to make the heart pump more efficiently. \n\nRequired room: Operating room at Cardiology dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_PERT</LocID>
+        <Text>PERT</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_PERT_DESCRIPTION</LocID>
+        <Text>胰脏酶替代疗法(PERT)包含胰酶(如脂肪酶、淀粉酶和蛋白酶)的混合物。这种酶帮助消化脂肪、碳水化合物和蛋白质，而PERT则用于自身不能产生足够数量的酶的病人。\n\n需求房间：普通外科门诊室/诊断室</Text>
+        <!-- Pancreatic enzyme replacement therapy (PERT) contains a mixture of pancreatic enzymes (e.g. lipase, amylase, and protease). The enzymes assist the digestion of fat, carbohydrates, and proteins and PERT is given to patients that can't produce an adequate amount of enzymes themselves. \n\nRequired room: Office / Diagnostic unit at General Surgery dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_PLASMAPHERESIS</LocID>
+        <Text>血浆置换</Text>
+        <!-- Plasmapheresis -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_PLASMAPHERESIS_DESCRIPTION</LocID>
+        <Text>一种从健康志愿者身上取出病人血浆并替换给患者的治疗方式。\n\n需求房间：内科诊断室/神经科诊断室\n\n需求设备：透析仪</Text>
+        <!-- A procedure where the patient's plasma is removed and replaced with plasma from a healthy volunteer. \n\nRequired room: Diagnostic unit at Internal Medicine dpt / Neurology dpt. \n\nRequired equipment: Dialysis machine -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_PLATELET_TRANSFUSION</LocID>
+        <Text>血小板输注</Text>
+        <!-- Platelet transfusion -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_PLATELET_TRANSFUSION_DESCRIPTION</LocID>
+        <Text>仅涉及血小板输血的特殊类型输血。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Special type of blood transfusion involving the transfusion of platelets (thrombocytes) only. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_PRESSURE_BANDAGE</LocID>
+        <Text>压迫包扎法</Text>
+        <!-- Pressure bandage -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_PRESSURE_BANDAGE_DESCRIPTION</LocID>
+        <Text>用于伤口止血或动脉，以阻止或减少出血。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Bandage applied to a wound or artery in order to stop or diminish a  hemorrhage. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_PROLIFERATION_THERAPY</LocID>
+        <Text>增殖疗法</Text>
+        <!-- Proliferation therapy -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_PROLIFERATION_THERAPY_DESCRIPTION</LocID>
+        <Text>针对治疗慢性肌肉骨骼疾病的一种治疗方法，使特定细胞生长和增殖更快。\n\n需求房间：门诊室/观察室</Text>
+        <!-- Injection-based therapy for chronic musculo-skeletal conditions that makes the specific cells grow and proliferate more rapidly. \n\nRequired room: doctor's office / Observation room -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_PROTON_PUMP_INHIBITORS</LocID>
+        <Text>质子泵抑制剂</Text>
+        <!-- Proton pump inhibitors -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_PROTON_PUMP_INHIBITORS_DESCRIPTION</LocID>
+        <Text>用于减少胃酸产生的药物，以治疗胃溃疡或胃酸反流。\n\n需求房间：普通外科门诊室/诊断室</Text>
+        <!-- Drugs used to decrease acid production in the stomach in order to treat gastric ulcers or acid reflux. \n\nRequired room: Office / Diagnostic unit at General Surgery dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_PULMONARY_SURGERY</LocID>
+        <Text>肺部手术</Text>
+        <!-- Pulmonary surgery -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_PULMONARY_SURGERY_DESCRIPTION</LocID>
+        <Text>肺部手术是为修复或切除部分肺组织(如肺癌)而进行的外科手术。\n\n需求房间：内科手术室</Text>
+        <!-- Pulmonary surgery, or lung surgery, is surgical procedure carried out in order to repair or remove parts of lung tissue (e.g. in lung cancer). \n\nRequired room: Operating room at Internal Medicine dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_PURGATIVES</LocID>
+        <Text>通便剂</Text>
+        <!-- Purgatives -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_PURGATIVES_DESCRIPTION</LocID>
+        <Text>也称泻药，主要用于治疗便秘，增加肠道的水分泌和肠道蠕动，帮助排便。\n\n需求房间：门诊室/观察室/普通外科诊室/诊断室/心脏科门诊室/诊断室/神经科诊室/诊断室/内科门诊室/诊断室/神经科门诊室/诊断室</Text>
+        <!-- Purgatives, also called laxatives, are drugs mainly used to treat constipation by increasing the secretion of water to the intestines but also by increasing bowel movements. \n\nRequired room: doctor's office / Observation room / Office/Diagnostic unit at General Surgery dpt / Internal Medicine dpt/ Neurology dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_RABIES_IMMUNE_GLOBULIN</LocID>
+        <Text>狂犬病免疫球蛋白</Text>
+        <!-- Rabies immunoglobulin -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_RABIES_IMMUNE_GLOBULIN_DESCRIPTION</LocID>
+        <Text>一种防止狂犬病病毒感染病人的注射针剂。通常用于被可能患有狂犬病的动物咬伤的病人。\n\n需求房间：神经科门诊室/诊断室</Text>
+        <!-- A fast acting injection to prevent rabies virus from infecting the patient. Often given to patients that have been bitten by an animal that might have rabies. \n\nRequired room: Office / Diagnostic unit at Neurology dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_REHABILITATION</LocID>
+        <Text>电刺激（EMS）</Text>
+        <!-- EMS -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_REHABILITATION_DESCRIPTION</LocID>
+        <Text>电刺激肌肉疗法是一种用于各种影响肌肉骨骼系统损伤或疾病的治疗方式。\n\n需求房间：骨科门诊室/诊断室\n\n需求设备：肌电图</Text>
+        <!-- Electrical Muscle Stimulation is a procedure used in various injuries or diseases that affect the musculo-skeletal system. \n\nRequired room: Diagnostic unit at Orthopaedy dpt. \n\nRequired equipment: EMG -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_REHYDRATION</LocID>
+        <Text>液体疗法</Text>
+        <!-- Rehydration -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_REHYDRATION_DESCRIPTION</LocID>
+        <Text>增加血液中液体和电解质含量的方法。用以维持足够的血压和器官的功能，以防脱水。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Prescription of fluids to increase the amount of fluid and electrolytes in blood stream. Given in order to maintain an adequate blood pressure and function of the organs. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_RENAL_VASCULAR_SURGERY</LocID>
+        <Text>肾脏血管手术</Text>
+        <!-- Renal vascular surgery -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_RENAL_VASCULAR_SURGERY_DESCRIPTION</LocID>
+        <Text>一种治疗肾脏静脉和动脉的外科手术。\n\n需求房间：心脏病学手术室</Text>
+        <!-- Surgery on the veins and arteries of the kidneys. \n\nRequired room: Operating room at Cardiology dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_REPLANTATION</LocID>
+        <Text>断肢再植术</Text>
+        <!-- Replantation -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_REPLANTATION_DESCRIPTION</LocID>
+        <Text>以外科手术的方式重新接回身體的某部分。\n\n需求房间：门诊室/观察室/急救中心/骨科门诊室/诊断室</Text>
+        <!-- Surgical re-attachment of a body part (e.g. a finger or foot). \n\nRequired room: doctor's office / Observation room / Trauma center / Office/Diagnostic unit at Orthopaedy dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_REST</LocID>
+        <Text>静养</Text>
+        <!-- Rest -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_REST_DESCRIPTION</LocID>
+        <Text>建议患者避免体力消耗，这将有益于身体状况恢复。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Prescription aimed at avoiding physical exertion in sick patients that would benefit from resting. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_RICE</LocID>
+        <Text>R.I.C.E疗法</Text>
+        <!-- RICE -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_RICE_DESCRIPTION</LocID>
+        <Text>休息（Rest）、冰敷（Ice）、压紧（Compression）、抬高（Elevation）扭伤或骨折的肢体。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- The principle of applying 'Rest, Ice, Compression, and Elevation' of a limb affected by a sprain or fracture. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_SALINE_NASAL_SPRAY</LocID>
+        <Text>生理盐水鼻腔喷雾</Text>
+        <!-- Saline nasal spray -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_SALINE_NASAL_SPRAY_DESCRIPTION</LocID>
+        <Text>一种鼻腔喷雾剂，用以清洁鼻腔，增加鼻孔的通气能力。\n\n需求房间：门诊室/观察室</Text>
+        <!-- A nasal spray that rinse the nasal cavities and increases ventilation through the nose. \n\nRequired room: doctor's office / Observation room -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_SHOCK_WAVE_LITHOTRIPSY</LocID>
+        <Text>体外震波碎石术</Text>
+        <!-- Shock wave lithotripsy -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_SHOCK_WAVE_LITHOTRIPSY_DESCRIPTION</LocID>
+        <Text>排尿结石的一种常见治疗方法，用来打碎嵌在尿道(连接肾脏和膀胱的管子)中的结石。采用高能超声冲击波，将结石碎裂成细小的碎块排出体外的非手术治疗方案。\n\n需求房间：普通外科超声波室\n\n需求设备：体外震波仪</Text>
+        <!-- A procedure commonly carried out to break stones lodged in the urethra (the tube connecting a kidney to the bladder). It is non-surgical treatment option using high energy ultrasound shock waves to broke stones into dust, allowing them to pass. \n\nRequired room: Sonography unit at General Surgery dpt \n\nRequired equipment: Therapy shockwave -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_SLEEPING_DRUGS</LocID>
+        <Text>安眠药</Text>
+        <!-- Sleeping drugs -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_SLEEPING_DRUGS_DESCRIPTION</LocID>
+        <Text>用于治疗入睡困难的药物。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Drugs that are used as a treatment in patients with trouble falling asleep. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_SPASMOLYTICS</LocID>
+        <Text>抗痉挛药物</Text>
+        <!-- Spasmolytics -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_SPASMOLYTICS_DESCRIPTION</LocID>
+        <Text>液态或药丸状的药物，可缓解各种类型的痉挛。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Drugs in liquid or solid pill state that relieve from various types of spasms. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_STAPEDECTOMY</LocID>
+        <Text>镫骨切除术</Text>
+        <!-- Stapedectomy -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_STAPEDECTOMY_DESCRIPTION</LocID>
+        <Text>中耳（镫骨）中最小的骨头被切除并用植入物代替的外科手术。\n\n需求房间：内科手术室</Text>
+        <!-- Surgery in which the smallest bone in the middle ear (the stapes) is removed and replaced with an implant. \n\nRequired room: Operating room at Internal Medicine dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_STEROID_TOPICAL_CREAM</LocID>
+        <Text>类固醇抗痉挛软膏</Text>
+        <!-- Steroid cream -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_STEROID_TOPICAL_CREAM_DESCRIPTION</LocID>
+        <Text>一种用来缓解各种痉挛症状的固体或液体行药物。\n\n需求房间：任何门诊室/观察室</Text>
+        <!-- An ointment, lotion, or cream containing corticosteroids (stress hormone) used in the topical treatment of various diseases. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_STOMACHICS</LocID>
+        <Text>健胃药</Text>
+        <!-- Stomachics -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_STOMACHICS_DESCRIPTION</LocID>
+        <Text>一种广泛使用的增强或刺激胃部的药物。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Drugs that strengthens or stimulates the stomach with broad spectrum of use. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_SYNTHETIC_THYROID_HORMONES</LocID>
+        <Text>合成甲状腺激素</Text>
+        <!-- Synthetic thyroid hormones -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_SYNTHETIC_THYROID_HORMONES_DESCRIPTION</LocID>
+        <Text>用于治疗甲状腺功能减退症的药物。 它们是人工合成的，不是来自动物的甲状腺，因此副作用相对较小。\n\n需求房间：普通外科门诊室/诊断室</Text>
+        <!-- Medications used to treat hypothyroidism. They are synthetic, thus they are not derived from animal's thyroid glands and have fewer side effects. \n\nRequired room: Office / Diagnostic unit at General Surgery dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_THROMBOLYTICS</LocID>
+        <Text>溶栓剂</Text>
+        <!-- Thrombolytics -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_THROMBOLYTICS_DESCRIPTION</LocID>
+        <Text>一种特殊的药物，它能溶解和破坏血液中形成的血栓，从而有助血液流向器官。\n\n需求房间：心脏科门诊室/诊断室</Text>
+        <!-- Special medications that solves and destroy formed clots in blood stream, which reducing passage of the blood to the organs. \n\nRequired room: Office / Diagnostic unit at Cardiology dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_TPA</LocID>
+        <Text>静脉注射t-PA</Text>
+        <!-- IV TPA -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_TPA_DESCRIPTION</LocID>
+        <Text>组织型纤溶酶原激活剂（t-PA）抗凝血药，有助于脑中风后的恢复。\n\n需求房间：心脏科诊室/诊断室</Text>
+        <!-- Intravenous Tissue plasmogenic activator helps to recover after brain stroke. \n\nRequired room: Office / Diagnostic unit at Cardiology dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_TRANQUILIZERS</LocID>
+        <Text>镇定剂</Text>
+        <!-- Tranquilizers -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_TRANQUILIZERS_DESCRIPTION</LocID>
+        <Text>治疗焦虑、恐惧、紧张、不安和精神紊乱的药物。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Medicine designed for the treatment of anxiety, fear, tension, agitation, and disturbances of the mind. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_TRIPLE_THERAPY_TREATMENT</LocID>
+        <Text>三联疗法</Text>
+        <!-- Triple therapy treatment -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_TRIPLE_THERAPY_TREATMENT_DESCRIPTION</LocID>
+        <Text>用于治疗幽门螺杆菌感染或十二指肠溃疡患者的特殊药物，由三种不同的抗生素组成。\n\n需求房间：普通病房/加护病房/重症监护室/普通外科门诊室/诊断室</Text>
+        <!-- Special medicine that is indicated for the patients suffering from H. pylori infection or duodenal ulcers and consist of three different antibiotics. \n\nRequired room: ICU / Regular ward / High dependency unit/ Office/Diagnostic unit at General Surgery dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_VASODILATORS</LocID>
+        <Text>血管扩张剂</Text>
+        <!-- Vasodilators -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_VASODILATORS_DESCRIPTION</LocID>
+        <Text>用来扩展血管的药物。\n\n需求房间：门诊室/观察室</Text>
+        <!-- Medication that relaxes blood vessels. \n\nRequired room: doctor's office / Observation room -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_VITAMIN_SUPPLEMENTATION</LocID>
+        <Text>补充维生素</Text>
+        <!-- Vitamin supplementation -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_VITAMIN_SUPPLEMENTATION_DESCRIPTION</LocID>
+        <Text>补充各种维生素以及矿物质以恢复身体机能。\n\n需求房间：任何门诊室/诊断室</Text>
+        <!-- Supplementation of various vitamins and minerals are taken to restore stability of organism. \n\nRequired room: Any office / Diagnostic unit -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_VP_SHUNTING</LocID>
+        <Text>脑室腹腔分流术</Text>
+        <!-- VP shunting -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_VP_SHUNTING_DESCRIPTION</LocID>
+        <Text>脑室腹腔分流是用于治疗颅内高压的外科手术。\n\n需求房间：神经科手术室</Text>
+        <!-- Ventriculoperitoneal Shunting is surgical procedure used to treat increased intracranial pressure. \n\nRequired room: Operating room at Neurology dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_WOUND_CLOSURE</LocID>
+        <Text>伤口闭合</Text>
+        <!-- Wound closure -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_WOUND_CLOSURE_DESCRIPTION</LocID>
+        <Text>缝合肌肉和皮肤的治疗\n\n需求房间：门诊室/观察室/急救中心/骨科门诊室/诊断室</Text>
+        <!-- Procedure to sew muscles and skin. \n\nRequired room: doctor's office / Observation room / Trauma center / Office/Diagnostic unit at Orthopaedy dpt -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRT_FRACTURE_SURGERY_HEAD_OT</LocID>
+        <Text>骨折手术 - 头部</Text>
+        <!-- Fracture surgery - Head -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>CONTROL_PROCEDURE_ICU_STABILIZATION</LocID>
+        <Text>收治于重症监护室</Text>
+        <!-- ICU stabilization -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>CONTROL_PROCEDURE_TRAUMA_STABILIZATION</LocID>
+        <Text>收治于急救中心</Text>
+        <!-- Trauma stabilization -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>CONTROL_PROCEDURE_COLLAPSE_LOW</LocID>
+        <Text>急救</Text>
+        <!-- First aid -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>CONTROL_PROCEDURE_COLLAPSE_MEDIUM</LocID>
+        <Text>急救</Text>
+        <!-- First aid -->
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>CONTROL_PROCEDURE_COLLAPSE_HIGH</LocID>
+        <Text>急救</Text>
+        <!-- First aid -->
+      </GameDBLocalizedString>
+    </LocalizedStrings>
+  </GameDBStringTable>
+</Database>

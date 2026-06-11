@@ -1,0 +1,18 @@
+<Database>
+    <GameDBStringTable ID="LOC_ZHHANS_PATCH_1_1_24_NOTIF">
+
+        <LanguageCode>zh-Hans</LanguageCode>
+        <LanguageNameLocalized>简体中文</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>NOTIF_WAITING_FOR_PLAYER</LocID>                            <Text>操作已完成。</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_WAITING_FOR_PLAYER_TEXT</LocID>                       <Text><![CDATA[计划操作已经完成（上一个是<b>{1}</b>）.]]></Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Database>
+
+	<GameDBSymptom ID="SYM_HEM_PMF">
+		<DescriptionLocID>SYM_HEM_PMF_DESC</DescriptionLocID>
+		<DiscomfortLevel>None</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_CRP_BONEBIOPSY_TEST</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_HEM_RUXOLITNIB</TreatmentRef>
+		</Treatments>
+		<ShameLevel>0</ShameLevel>
+		<IsMainSymptom>true</IsMainSymptom>
+		<IconIndex>1035</IconIndex>
+		<CustomIconBigAssetRef>ASSET_ICON_SYM_HEM_PMF</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_ICON_SYM_HEM_PMF_SMALL</CustomIconSmallAssetRef>
+	</GameDBSymptom>
+
+	<GameDBSymptom ID="SYM_HEM_VITAMIN_B12_DEFICIENCY">
+		<DescriptionLocID>SYM_HEM_VITAMIN_B12_DEFICIENCY_DESC</DescriptionLocID>
+		<DiscomfortLevel>None</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_HEMOGLOBIN_ADVANCED_BLOOD_TESTING</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_INTRAMUSCULAR_INJECTION_OF_VITAMIN_B12</TreatmentRef>
+		</Treatments>
+		<ShameLevel>0</ShameLevel>
+		<IsMainSymptom>true</IsMainSymptom>
+		<IconIndex>1369</IconIndex>
+		<CustomIconBigAssetRef>ASSET_ICON_SYM_HEM_B12_DEFICIENCY</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_ICON_SYM_HEM_B12_DEFICIENCY_SMALL</CustomIconSmallAssetRef>
+	</GameDBSymptom>
+
+	<GameDBSymptom ID="SYM_HEM_RS_CELLS">
+		<DescriptionLocID>SYM_HEM_RS_CELLS_DESC</DescriptionLocID>
+		<DiscomfortLevel>None</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_BIOPSY_TESTING</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_HEM_ADRIAMYCIN</TreatmentRef>
+		</Treatments>
+		<ShameLevel>0</ShameLevel>
+		<IsMainSymptom>true</IsMainSymptom>
+		<IconIndex>1035</IconIndex>
+		<CustomIconBigAssetRef>ASSET_ICON_SYM_HEM_MM</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_ICON_SYM_HEM_MM_SMALL</CustomIconSmallAssetRef>
+	</GameDBSymptom>
+
+	<GameDBSymptom ID="SYM_HEM_PRCA">
+		<DescriptionLocID>SYM_HEM_PRCA_DESC</DescriptionLocID>
+		<DiscomfortLevel>None</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_CRP_BONEBIOPSY_TEST</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_HEM_CYCLOSPORIN</TreatmentRef>
+		</Treatments>
+		<ShameLevel>0</ShameLevel>
+		<IsMainSymptom>true</IsMainSymptom>
+		<IconIndex>1035</IconIndex>
+	</GameDBSymptom>
+
+	<GameDBSymptom ID="SYM_HEM_MDS">
+		<DescriptionLocID>SYM_HEM_MDS_DESC</DescriptionLocID>
+		<DiscomfortLevel>None</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_CRP_BONEBIOPSY_TEST</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_HEM_DECITABINE</TreatmentRef>
+		</Treatments>
+		<ShameLevel>0</ShameLevel>
+		<IsMainSymptom>true</IsMainSymptom>
+		<IconIndex>1035</IconIndex>
+		<CustomIconBigAssetRef>ASSET_ICON_SYM_HEM_MDS</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_ICON_SYM_HEM_MDS_SMALL</CustomIconSmallAssetRef>
+	</GameDBSymptom>
+
+	<GameDBSymptom ID="SYM_HEM_PNH">
+		<DescriptionLocID>SYM_HEM_PNH_DESC</DescriptionLocID>
+		<DiscomfortLevel>None</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_CRP_FLOWCYT_TEST</ExaminationRef>
+		<ExaminationRef>EXM_CRP_FISH_TEST</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_HEM_ECULIZUMAB</TreatmentRef>
+		</Treatments>
+		<ShameLevel>0</ShameLevel>
+		<IsMainSymptom>true</IsMainSymptom>
+		<IconIndex>1035</IconIndex>
+	</GameDBSymptom>
+
+	<GameDBSymptom ID="SYM_HEM_AA">
+		<DescriptionLocID>SYM_HEM_AA_DESC</DescriptionLocID>
+		<DiscomfortLevel>None</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_CRP_BONEBIOPSY_TEST</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_HEM_ATG_ALG</TreatmentRef>
+		</Treatments>
+		<ShameLevel>0</ShameLevel>
+		<IsMainSymptom>true</IsMainSymptom>
+		<IconIndex>1035</IconIndex>
+	</GameDBSymptom>
+
+	<GameDBSymptom ID="SYM_HEM_THL">
+		<DescriptionLocID>SYM_HEM_THL_DESC</DescriptionLocID>
+		<DiscomfortLevel>None</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_HEMOGLOBIN_ADVANCED_BLOOD_TESTING</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_BLOOD_TRANSFUSION</TreatmentRef>
+		</Treatments>
+		<ShameLevel>0</ShameLevel>
+		<IsMainSymptom>true</IsMainSymptom>
+		<IconIndex>2800</IconIndex>
+	</GameDBSymptom>
+
+	<GameDBSymptom ID="SYM_HEM_vWD">
+		<DescriptionLocID>SYM_HEM_vWD_DESC</DescriptionLocID>
+		<DiscomfortLevel>None</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_HEMOGLOBIN_ADVANCED_BLOOD_TESTING</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_HEM_DDAVP</TreatmentRef>
+		</Treatments>
+		<ShameLevel>0</ShameLevel>
+		<IsMainSymptom>true</IsMainSymptom>
+		<IconIndex>1169</IconIndex>
+	</GameDBSymptom>
+
+	<GameDBSymptom ID="SYM_HEM_DAT_HLA">
+		<DescriptionLocID>SYM_HEM_DAT_HLA_DESC</DescriptionLocID>
+		<DiscomfortLevel>None</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_HEMOGLOBIN_ADVANCED_BLOOD_TESTING</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_HEM_METACORTANDRACIN</TreatmentRef>
+		</Treatments>
+		<ShameLevel>0</ShameLevel>
+		<IsMainSymptom>true</IsMainSymptom>
+		<IconIndex>1035</IconIndex>
+	</GameDBSymptom>
+
+	<GameDBSymptom ID="SYM_HEM_MM">
+		<DescriptionLocID>SYM_HEM_MM_DESC</DescriptionLocID>
+		<DiscomfortLevel>None</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_CRP_BONEBIOPSY_TEST</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_HEM_BORTEZOMIB</TreatmentRef>
+		</Treatments>
+		<ShameLevel>0</ShameLevel>
+		<IsMainSymptom>true</IsMainSymptom>
+		<IconIndex>1035</IconIndex>
+		<CustomIconBigAssetRef>ASSET_ICON_SYM_HEM_MM</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_ICON_SYM_HEM_MM_SMALL</CustomIconSmallAssetRef>
+	</GameDBSymptom>
+
+	<GameDBSymptom ID="SYM_HEM_FVIII_LOW">
+		<DescriptionLocID>SYM_HEM_FVIII_LOW_DESC</DescriptionLocID>
+		<DiscomfortLevel>None</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_HEMOGLOBIN_ADVANCED_BLOOD_TESTING</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_HEM_FVIII</TreatmentRef>
+		</Treatments>
+		<ShameLevel>0</ShameLevel>
+		<IsMainSymptom>true</IsMainSymptom>
+		<IconIndex>1169</IconIndex>
+	</GameDBSymptom>
+
+	<GameDBSymptom ID="SYM_HEM_APL">
+		<DescriptionLocID>SYM_HEM_APL_DESC</DescriptionLocID>
+		<DiscomfortLevel>None</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_CRP_BONEBIOPSY_TEST</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_HEM_ATRA</TreatmentRef>
+		</Treatments>
+		<ShameLevel>0</ShameLevel>
+		<IsMainSymptom>true</IsMainSymptom>
+		<IconIndex>1035</IconIndex>
+		<CustomIconBigAssetRef>ASSET_ICON_SYM_HEM_APL</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_ICON_SYM_HEM_APL_SMALL</CustomIconSmallAssetRef>
+	</GameDBSymptom>
+
+	<GameDBSymptom ID="SYM_HEM_TCP">
+		<DescriptionLocID>SYM_HEM_TCP_DESC</DescriptionLocID>
+		<DiscomfortLevel>None</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_CRP_BONEBIOPSY_TEST</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_HEM_DEXAMETHASONE_TABLETS</TreatmentRef>
+		</Treatments>
+		<ShameLevel>0</ShameLevel>
+		<IsMainSymptom>true</IsMainSymptom>
+		<IconIndex>2798</IconIndex>
+	</GameDBSymptom>
+
+	<GameDBSymptom ID="SYM_HEM_PV">
+		<DescriptionLocID>SYM_HEM_PV_DESC</DescriptionLocID>
+		<DiscomfortLevel>None</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_CRP_BONEBIOPSY_TEST</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_HEM_HYDROXYUREA</TreatmentRef>
+		</Treatments>
+		<ShameLevel>0</ShameLevel>
+		<IsMainSymptom>true</IsMainSymptom>
+		<IconIndex>1035</IconIndex>
+		<CustomIconBigAssetRef>ASSET_ICON_SYM_HEM_PMF</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_ICON_SYM_HEM_PMF_SMALL</CustomIconSmallAssetRef>
+	</GameDBSymptom>
+
+	<GameDBSymptom ID="SYM_HEM_FIX_LOW">
+		<DescriptionLocID>SYM_HEM_FIX_LOW_DESC</DescriptionLocID>
+		<DiscomfortLevel>None</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_HEMOGLOBIN_ADVANCED_BLOOD_TESTING</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_HEM_FIX</TreatmentRef>
+		</Treatments>
+		<ShameLevel>0</ShameLevel>
+		<IsMainSymptom>true</IsMainSymptom>
+		<IconIndex>1169</IconIndex>
+	</GameDBSymptom>
+
+</Database>

@@ -1,0 +1,32 @@
+<Database>
+    <GameDBStringTable ID="LOC_TR_PATCH_1_2_30">
+
+        <LanguageCode>tr</LanguageCode>
+        <LanguageNameLocalized>Türkçe</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- DID = department of infectious diseases, the abbreviation should be the same as in the string table for department of infectious diseases itself -->
+            <GameDBLocalizedString>    <LocID>EXM_THORAX_PERCUSSION_DESCRIPTION_V2</LocID>                 <Text>Göğüs kafesi içinde daha az hava olan bölgeleri belirlemek için göğüs kafesi üzerine sistematik olarak dokunarak yapılan muayene. \n\nGereken oda: Herhangi bir oda/Teşhis ünitesi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_ANTICHOLINERGICS_DESCRIPTION_V2</LocID>                  <Text>Aşırı terleme tedavisinde en sık kullanılan ilaç. \n\nGereken oda: İç Hastalıkları bölümü/Kardiyoloji bölümü/Nöroloji bölümü/Bulaşıcı Hastalıklar bölümü/Travmatoloji bölümünde Doktor odası/Gözlem odası/Yoğun Bakım Ünitesi/Oda/Teşhis ünitesi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_COLD_TILING_DESCRIPTION_V3</LocID>                       <Text>Vücudun ağrılı bölgelerini yatıştırmak için kullanılan soğutucu etkili bantlar. \n\nGerekli oda:ofis /Teşhis ünitesi / YBÜ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_MUCOLYTICS_DESCRIPTION_V2</LocID>                        <Text>Solunum yollarındaki mukusu çözmeye ve temizlemeye yardımcı olan sıvı ilaçlar. \n\nGereken oda: İç Hastalıkları bölümü/Bulaşıcı Hastalıklar bölümünde Doktor odası/Gözlem odası/Yoğun Bakım Ünitesi/Oda/Teşhis ünitesi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_SALINE_NASAL_SPRAY_DESCRIPTION_V2</LocID>                <Text>Burun boşluklarını yıkayan ve burun içi ventilasyonu arttıran bir burun spreyi. \n\nGereken oda: Bulaşıcı Hastalıklar bölümünde Doktor odası/Gözlem odası/Oda/Teşhis ünitesi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>EXM_CBC_SAMPLING_DESCRIPTION_V2</LocID>                      <Text>Tam Kan Sayımı (CBC) için kan örneği.\n\nGereken oda: Hematoloji Laboratuvarı \n\nÖrneklendirme: Acil Servis bölümü/Genel Cerrahi bölümü/İç Hastalıkları bölümü/Ortopedi bölümü/Nöroloji bölümü/Yoğun Bakım Ünitesi/Bulaşıcı Hastalıklar bölümü/Travmatoloji bölümü \n\nGereken ekipmanlar: Cam teçhizat + Kan analiz aracı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING_DESCRIPTION_V2</LocID>    <Text>Hastadan veya hastaya takılı sondadan orta akım idrar örneği alınması. \n\nGereken oda: Histoloji Laboratuvarı \n\nÖrneklendirme: Acil Servis bölümü/Genel Cerrahi bölümü/İç Hastalıkları bölümü/Kardiyoloji bölümü/Yoğun Bakım Ünitesi/Bulaşıcı Hastalıklar bölümü/Travmatoloji bölümü \n\nGereken ekipmanlar: Cam teçhizat + Laboratuvar analiz aracı</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER</LocID>                                <Text>Köşe dolabı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER_WALL</LocID>                           <Text>Duvara monte köşe dolabı</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>    <LocID>CONTROL_PROCEDURE_PATIENT_DELIVER_SAMPLE</LocID>             <Text>Laboratuvar örneği teslimi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>CONTROL_PROCEDURE_PATIENT_STAT_LAB_RESULTS</LocID>           <Text>Laboratuvar sonucu teslimi</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>    <LocID>BANNER_DLCS</LocID>                                          <Text>Project Hospital için DLC kontrol et:</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

@@ -1,0 +1,27 @@
+<Database>
+    <GameDBStringTable ID="LOC_JA_DLC_TRAUMATOLOGY_WHEELCHAIRS">
+    
+        <LanguageCode>ja</LanguageCode>
+        <LanguageNameLocalized>日本語</LanguageNameLocalized>
+        
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+            
+            <!-- RELATED FILE: StringTable[Language]BuildingMode.xml -->                         
+            <GameDBLocalizedString>      <LocID>OBJECT_WHEELCHAIR</LocID>                        <Text>車椅子</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WHEELCHAIR_DESCRIPTION</LocID>            <Text>重篤でない患者を移動させることができる車椅子</Text>  </GameDBLocalizedString>
+
+
+            <!-- RELATED FILE: StringTable[Language]Characters.xml -->
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenGoingToStretcher</LocID>    <Text>担架・車椅子を獲得中</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenMovingStretcher</LocID>     <Text>担架・車椅子を移動中</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NURSE_STATE_OverridenReturningStretcher</LocID>  <Text>担架・車椅子を返却中</Text>  </GameDBLocalizedString>
+          
+        </LocalizedStrings>
+        
+    </GameDBStringTable>
+</Database>

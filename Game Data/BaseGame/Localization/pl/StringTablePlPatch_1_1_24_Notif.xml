@@ -1,0 +1,19 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_PL_PATCH_1_1_24_NOTIF">
+
+        <LanguageCode>pl</LanguageCode>
+        <LanguageNameLocalized>Polski</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>NOTIF_WAITING_FOR_PLAYER</LocID>                            <Text>Zakończone procedury.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_WAITING_FOR_PLAYER_TEXT</LocID>                       <Text><![CDATA[Zaplanowane procedury zakończono (ostatnia to <i>{1}</i>).]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_WAITING_FOR_PLAYER_DIAGNOSIS</LocID>   <Text>Zakończone procedury.</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

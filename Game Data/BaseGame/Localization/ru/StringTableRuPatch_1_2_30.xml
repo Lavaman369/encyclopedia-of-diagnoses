@@ -1,0 +1,32 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_RU_PATCH_1_2_30">
+
+        <LanguageCode>ru</LanguageCode>
+        <LanguageNameLocalized>Русский</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- DID = department of infectious diseases, the abbreviation should be the same as in the string table for department of infectious diseases itself -->
+            <GameDBLocalizedString>    <LocID>EXM_THORAX_PERCUSSION_DESCRIPTION_V2</LocID>                 <Text>Обследование, заключающееся в систематичном простукивании грудной клетки, чтобы определить, где в ней меньше воздуха. \n\nНеобходимая комната: любой кабинет/кабинет диагностики</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_ANTICHOLINERGICS_DESCRIPTION_V2</LocID>                  <Text>Лекарство, чаще всего используемое для лечения чрезмерной потливости. \n\nНеобходимая комната: кабинет врача / наблюдательная палата / реанимация / кабинет/кабинет диагностики в отделении внутренней медицины / кардиологии / неврологии / инфекционном / травматологии</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_COLD_TILING_DESCRIPTION_V3</LocID>                       <Text>Холодные сжимающие повязки, используемые для охлаждения болезненных зон тела. \n\nлюбой кабинет / кабинет общей диагностики / ПИТ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_MUCOLYTICS_DESCRIPTION_V2</LocID>                        <Text>Жидкое лекарство, помогающее растворить слизь в дыхательных путях и очистить от нее носоглотку. \n\nНеобходимая комната: кабинет врача / наблюдательная палата / реанимация / кабинет/кабинет диагностики в отделении внутренней медицины / инфекционном</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_SALINE_NASAL_SPRAY_DESCRIPTION_V2</LocID>                <Text>Назальный спрей, промывающий носовые полости и увеличивающий поток воздуха, проходящий через нос. \n\nНеобходимая комната: Кабинет врача / Наблюдательная палата / Кабинет/Диагностическая палата в инфекционном отделении</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>EXM_CBC_SAMPLING_DESCRIPTION_V2</LocID>                      <Text>Взятие образца крови для общего клинического анализа крови (ОАК). \n\nНеобходимая комната: лаборатория гематологии \n\nВзятие образцов: отделения скорой помощи / общей хирургии / внутренней медицины / ортопедии / неврологии / реанимация / инфекционное / травматологии \n\nТребуемое оборудование: колбы + гемоанализатор</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING_DESCRIPTION_V2</LocID>    <Text>Процедура получение образца чистой мочи от пациента или из его катетера. \n\nНеобходимая комната: Лаборатория гистологии \n\nВзятие образцов: отделения скорой помощи / общей хирургии / внутренней медицины / кардиологии / реанимации / инфекционное / травматологии \n\nТребуемое оборудование: колбы + лабораторный анализатор</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER</LocID>                                <Text>Угловой шкафчик</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER_WALL</LocID>                           <Text>Настенный угловой шкафчик</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>    <LocID>CONTROL_PROCEDURE_PATIENT_DELIVER_SAMPLE</LocID>             <Text>Передача образцов в лабораторию</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>CONTROL_PROCEDURE_PATIENT_STAT_LAB_RESULTS</LocID>           <Text>Доставка результатов анализов из лаборатории</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>    <LocID>BANNER_DLCS</LocID>                                          <Text>Оцените дополнения для Project Hospital:</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

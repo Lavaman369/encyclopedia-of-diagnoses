@@ -1,0 +1,21 @@
+
+<Database>
+	<GameDBStringTable ID="LOC_EN_ADDON_MOD_OCEAN_BASE_PACKAGE">
+	<LanguageCode>en</LanguageCode>
+	<LanguageNameLocalized>English</LanguageNameLocalized>
+	
+	<Contributors>
+	<Name>Leo</Name>
+	</Contributors>
+	
+	<LocalizedStrings>	
+		
+	<GameDBLocalizedString>      
+	<LocID>ADDON_MOD_NEW_PSYCHIATRY</LocID>                       	
+	<Text>Ocean Base Packge</Text>  
+	</GameDBLocalizedString>
+	
+	</LocalizedStrings>
+	</GameDBStringTable>
+</Database>
+

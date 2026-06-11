@@ -1,0 +1,18 @@
+<Database>
+	<GameDBStringTable ID="LOC_EN_NEW_NEUROLOGY">
+	<LanguageCode>en</LanguageCode>
+	<LanguageNameLocalized>English</LanguageNameLocalized>
+	<Contributors>
+	<Name>Leo</Name>
+	</Contributors>
+        
+	<LocalizedStrings>
+ 
+	 <GameDBLocalizedString>
+        <LocID>DPT_NEUROLOGY</LocID>
+        <Text>Neuromedicine Center</Text>
+     </GameDBLocalizedString>
+	
+	</LocalizedStrings>	
+	</GameDBStringTable>
+</Database>

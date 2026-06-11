@@ -1,0 +1,32 @@
+<Database>
+
+	<GameDBObject ID="ADDON_OBJECT_DECAL_SEX_HEALTH">
+        <AbbreviationLocID>ADDON_OBJECT_DECAL_SEX_HEALTH_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_MOD_NAME_DECALS_SEX_HEALTH</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_16</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>0</TextureIDNW>
+        <TextureIDNE>1</TextureIDNE>
+        <TextureIDSE>3</TextureIDSE>
+        <TextureIDSW>2</TextureIDSW>
+        <CustomIconAssetRef>ASSET_TEX_DECAL_SEX_HEALTH_CUSTOM_ICON</CustomIconAssetRef>
+
+        <Placement>UNLIMITED</Placement>
+
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PlacedToEdge>true</PlacedToEdge>
+        <AttachedToWall>true</AttachedToWall>
+        <NonBlocking>true</NonBlocking>
+        <NotInteractable>true</NotInteractable>
+        <HeightOffset>1.5</HeightOffset>
+
+        <Tags>
+            <Tag>ui_decals</Tag>
+        </Tags>
+
+        <CustomIconFile>Addons/ModTrees/icon_decal_rad.png</CustomIconFile>
+        <ColorSetRef>COLOR_SET_BUILDING_DECALS</ColorSetRef>
+        <Cost>20</Cost>
+	</GameDBObject>
+
+</Database>

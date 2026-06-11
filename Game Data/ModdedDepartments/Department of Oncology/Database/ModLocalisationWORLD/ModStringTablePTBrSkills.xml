@@ -1,0 +1,46 @@
+<Database>
+	<GameDBStringTable ID="LOC_PTBR_ADDON_ONCOLOGY_SKILLS">
+	
+	<LanguageCode>ptbr</LanguageCode>
+	<LanguageNameLocalized>Português do Brasil</LanguageNameLocalized>
+	<Contributors>
+		<Name>Sleepy068</Name>
+	</Contributors>
+        
+	<LocalizedStrings>
+            
+<!-- ### Skills ### -->
+			
+	<GameDBLocalizedString>      
+    <LocID>DPT_ONCOLOGY</LocID>                                          	
+    <Text>Oncologia</Text>  
+</GameDBLocalizedString>
+
+<GameDBLocalizedString>      
+    <LocID>SKILL_DOC_SPEC_ONCO</LocID>                   
+    <Text>Oncologia</Text>  
+</GameDBLocalizedString>
+
+<GameDBLocalizedString>      
+    <LocID>SKILL_DOC_SPEC_ONCO_DESCR</LocID>                   
+    <Text>A Oncologia oferece acesso a procedimentos especializados para detectar, diagnosticar e tratar várias formas de câncer.</Text>  
+</GameDBLocalizedString>
+
+<GameDBLocalizedString>      
+    <LocID>SKILL_DOC_SPEC_ONCO_SURGERY</LocID>                   
+    <Text>Oncologia Cirúrgica</Text>  
+</GameDBLocalizedString>
+
+<GameDBLocalizedString>      
+    <LocID>SKILL_DOC_SPEC_ONCO_SURG_DESCR</LocID>                   
+    <Text>A oncologia cirúrgica permite que o médico atue como cirurgião principal no departamento de Oncologia e afeta com que frequência as cirurgias acabarão com complicações.</Text>  
+</GameDBLocalizedString>
+
+
+	<!-- ### ### -->
+	<!-- ######################################## Vx.x.x.x Below ######################################## -->
+	<!-- ### ### -->
+	
+	</LocalizedStrings>	
+	</GameDBStringTable>
+</Database>

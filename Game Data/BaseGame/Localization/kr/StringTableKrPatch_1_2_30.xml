@@ -1,0 +1,32 @@
+<Database>
+    <GameDBStringTable ID="LOC_KR_PATCH_1_2_30">
+
+        <LanguageCode>kr</LanguageCode>
+        <LanguageNameLocalized>한국어</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- DID = department of infectious diseases, the abbreviation should be the same as in the string table for department of infectious diseases itself -->
+            <GameDBLocalizedString>    <LocID>EXM_THORAX_PERCUSSION_DESCRIPTION_V2</LocID>                 <Text>흉부를 체계적으로 두드려 흉부 내 공기가 적은 부분을 식별해내는 검사입니다. \n\n필요한 방: 아무 진찰실/진단 구역</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_ANTICHOLINERGICS_DESCRIPTION_V2</LocID>                  <Text>가장 흔히 다한증 치료에 사용되는 의약품이나 다양한 증상에서도 사용함. \n\n필요한 방: 진찰실 / 관찰실 / 집중치료실(ICU) / 사무실 / 내과 / 순환기내과 / 신경의학과 / 감염내과 / 외상외과의 진단 구역</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_COLD_TILING_DESCRIPTION_V3</LocID>                       <Text>통증 부위를 가라앉히기 위해 사용되는 차가운 압박 붕대. \n\n필요한 방: 아무 진료실 / 치료실 / 집중치료실</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_MUCOLYTICS_DESCRIPTION_V2</LocID>                        <Text>기도 내부의 점액을 치우고 융해하는 것을 돕는 액상제제. \n\n필요한 방: 진찰실 / 관찰실 / 집중치료실(ICU) / 사무실 / 내과 / 감염내과의 진단 구역</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_SALINE_NASAL_SPRAY_DESCRIPTION_V2</LocID>                <Text>코 스프레이는 비강을 씻어내고 코를 통한 호흡을 돕습니다. \n\n필요한 방: 진찰실 / 관찰실 / 사무실 / 감염내과의 진단 구역</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>EXM_CBC_SAMPLING_DESCRIPTION_V2</LocID>                      <Text>전체혈구계산(CBC)을 위해 혈액 샘플을 수집합니다. \n\n필요한 방: 혈액학 연구실 \n\n샘플 추출: 응급실 / 일반 외과 / 내과 / 정형외과 / 신경의학과 / 집중치료실(ICU) / 감염내과 / 외상외과 \n\n필요 장비: 유리그릇 + 대변 분석기</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING_DESCRIPTION_V2</LocID>    <Text>환자의 중간뇨 또는 환자의 카테터에서 소변을 채취합니다. \n\n필요한 방: 혈액학 연구실 \n\n샘플 추출: 응급학과 / 일반 외과 / 내과 / 순환기내과 / 집중치료실(ICU) / 감염내과 / 외상외과 \n\n필요 장비: 유리그릇 + 연구실 분석기</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER</LocID>                                <Text>구석장</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER_WALL</LocID>                           <Text>벽걸이 구석장</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>    <LocID>CONTROL_PROCEDURE_PATIENT_DELIVER_SAMPLE</LocID>             <Text>연구실 샘플 인계</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>CONTROL_PROCEDURE_PATIENT_STAT_LAB_RESULTS</LocID>           <Text>연구실 결과 전달</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>    <LocID>BANNER_DLCS</LocID>                                          <Text>Project Hospital의 DLC를 확인해보세요:</Text>  </GameDBLocalizedString>
+            
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

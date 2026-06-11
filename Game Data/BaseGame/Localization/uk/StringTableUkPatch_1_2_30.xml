@@ -1,0 +1,32 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_UK_PATCH_1_2_30">
+
+        <LanguageCode>uk</LanguageCode>
+        <LanguageNameLocalized>Українська</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- DID = department of infectious diseases, the abbreviation should be the same as in the string table for department of infectious diseases itself -->
+            <GameDBLocalizedString>    <LocID>EXM_THORAX_PERCUSSION_DESCRIPTION_V2</LocID>                 <Text>Обстеження, що проводиться шляхом систематичного простукування грудної клітки, щоб визначити зони, в яких менше повітря, ніж в інших. \n\nНеобхідна кімната: будь-який кабінет/кабінет діагностики</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_ANTICHOLINERGICS_DESCRIPTION_V2</LocID>                  <Text>Найбільш розповсюджені ліки від надмірного потіння. \n\nНеобхідна кімната: кабінет лікаря / оглядова / реанімація / кабінет/діагностичний центр у відділенні внутрішньої медицини / кардіології / неврології / інфекційному / травматології</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_COLD_TILING_DESCRIPTION_V3</LocID>                       <Text>Холодні компреси, що заспокоюють біль у хворих частинах тіла. \n\nБудь-яка приймальна / Маніпуляційна / Палата ІТ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_MUCOLYTICS_DESCRIPTION_V2</LocID>                        <Text>Рідкі ліки, що допомагають розчиняти слиз та очищати від нього дихальні шляхи. \n\nНеобхідна кімната: кабінет лікаря / оглядова / реанімація / кабінет / діагностичний центр у відділенні внутрішньої медицини / інфекційному</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>TRT_SALINE_NASAL_SPRAY_DESCRIPTION_V2</LocID>                <Text>Назальний спрей, що промиває носові порожнини та покращує дихання через ніс. \n\nНеобхідна кімната: кабінет лікаря / оглядова / кабінет/діагностичний центр у інфекційному відділенні</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>EXM_CBC_SAMPLING_DESCRIPTION_V2</LocID>                      <Text>Взяття зразка крові для загального клінічного аналізу крові (ЗАК). \n\nНеобхідна кімната: лабораторія гематології \n\nВзяття зразків: відділення швидкої допомоги / загальної хірургії / внутрішньої медицини / ортопедії / неврології / реанімація / інфекційне / травматології \n\nНеобхідне обладнання: колби + гемоаналізатор</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING_DESCRIPTION_V2</LocID>    <Text>Процедура взяття зразка чистої сечі пацієнта безпосередньо або з катетера. \n\nНеобхідна кімната: Лабораторія гістології \n\nВзяття зразків: відділення швидкої допомоги / загальної хірургії / внутрішньої медицини / кардіології / реанімація / інфекційне / травматології \n\nНеобхідне обладнання: колби + лабораторний аналізатор</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER</LocID>                                <Text>Кутова шафка</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER_WALL</LocID>                           <Text>Підвісна кутова шафка</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>    <LocID>CONTROL_PROCEDURE_PATIENT_DELIVER_SAMPLE</LocID>             <Text>Передача зразків до лабораторії</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>CONTROL_PROCEDURE_PATIENT_STAT_LAB_RESULTS</LocID>           <Text>Доставка результатів з лабораторії</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>    <LocID>BANNER_DLCS</LocID>                                          <Text>Спробуйте доповнення для Project Hospital:</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+
+    </GameDBStringTable>
+</Database>    

@@ -1,0 +1,49 @@
+<Database>
+
+    <GameDBObject ID="OBJECT_ANGIO_IMAGINGx">
+        <AbbreviationLocID>OBJECT_ANGIO_IMAGING_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>221</TextureIDNW>
+        <TextureIDNE>224</TextureIDNE>
+        <TextureIDSE>226</TextureIDSE>
+        <TextureIDSW>227</TextureIDSW>
+        <IconIndex>725</IconIndex>
+
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PlacedToEdge>true</PlacedToEdge>
+        <AttachedToCeiling>true</AttachedToCeiling>
+        <NonBlocking>true</NonBlocking>
+        <Placement>INDOORS</Placement>
+
+        <ConnectedSlots>
+            <ConnectedSlot>
+                <PositionX>-1</PositionX>
+                <PositionY>0</PositionY>
+                <AllowedTags>
+                    <Tag>angio_panel</Tag>
+                </AllowedTags>
+                <ForcedDirection>NW</ForcedDirection>
+            </ConnectedSlot>
+        </ConnectedSlots>
+
+        <Tags>
+            <Tag>ui_equipment</Tag>
+            <Tag>ui_angio_viewer</Tag>
+            <Tag>angio_viewer</Tag>
+        </Tags>
+
+        <AnimationFramesNW>3</AnimationFramesNW>
+        <AnimationFramesNE>3</AnimationFramesNE>
+        <AnimationFramesSE>1</AnimationFramesSE>
+        <AnimationFramesSW>1</AnimationFramesSW>
+
+        <Durability>20</Durability>
+        <Cost>599</Cost>
+
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_RADIOLOGY</ColorSetRef>
+    </GameDBObject>
+
+ 
+</Database>
