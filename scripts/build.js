@@ -944,25 +944,42 @@ const symptoms = {};
 
 const REMOVED_SYMPTOMS = new Set(['SYM_SHORTNESS_OF_BREATH', 'SYM_SWELLING_FOOT']);
 
+// Field sets that define each entity type. Used to decide whether a mod's
+// redefinition of a base-game entity is a genuine override or just an identical
+// re-declaration (mods frequently re-list base entities verbatim).
+const SYMPTOM_COMPARE_KEYS = [
+  'name', 'description', 'discomfortLevel', 'hazard', 'patientComplains', 'isMainSymptom',
+  'iconIndex', 'examinations', 'treatments', 'collapseSymptomRef',
+  'riskOfCollapseStartHours', 'riskOfCollapseEndHours', 'riskOfDeathStartHours',
+  'riskOfDeathEndHours', 'shameLevel', 'patientMobility', 'canNotTalk',
+];
+const EXAM_COMPARE_KEYS = [
+  'name', 'description', 'examinationType', 'cost', 'iconIndex', 'labTestingExaminationRef',
+  'discomfortLevel', 'patientNeedsToBeAbleToTalk', 'requiredRoomTags',
+];
+const TREATMENT_COMPARE_KEYS = [
+  'name', 'description', 'treatmentType', 'cost', 'iconIndex', 'discomfortLevel',
+  'pharmacyPickup', 'requiredRoomTags', 'complications',
+];
+// True if a and b differ on any of the given keys (order-sensitive for arrays,
+// matching the game's own ordering of refs/tags).
+function entityDiffers(a, b, keys) {
+  for (const k of keys) {
+    if (JSON.stringify(a[k] ?? null) !== JSON.stringify(b[k] ?? null)) return true;
+  }
+  return false;
+}
+
 function parseSymptomFile(filePath, modId = null, assetMap = {}) {
   const parsed = parseXml(filePath);
   if (!parsed) return;
   for (const sym of (parsed?.Database?.GameDBSymptom || [])) {
     const id = sym['@_ID'];
     if (!id || REMOVED_SYMPTOMS.has(id)) continue;
-    if (modId && symptoms[id]) {
-      if (!symptoms[id].modId || symptoms[id].modId === modId) continue;
-      // Different mod already owns this symptom — record co-ownership instead of overwriting.
-      const ex = symptoms[id];
-      if (!ex.modIds) ex.modIds = [ex.modId];
-      if (!ex.modIds.includes(modId)) ex.modIds.push(modId);
-      continue;
-    }
     const descLocId = sym.DescriptionLocID || '';
     const _modIconPath = assetMap[sym.CustomIconSmallAssetRef] || assetMap[sym.CustomIconBigAssetRef] || null;
     const modIcon = _modIconPath ? path.basename(_modIconPath) : null;
-    symptoms[id] = {
-      id,
+    const entry = {
       name: getName(descLocId) || id,
       description: getDesc(descLocId),
       discomfortLevel: sym.DiscomfortLevel || 'None',
@@ -980,6 +997,37 @@ function parseSymptomFile(filePath, modId = null, assetMap = {}) {
       shameLevel: sym.ShameLevel != null ? Number(sym.ShameLevel) : 0,
       patientMobility: sym.PatientMobility || 'MOBILE',
       canNotTalk: sym.CanNotTalk === true || sym.CanNotTalk === 'true',
+    };
+
+    const existing = symptoms[id];
+    if (modId && existing) {
+      // Same mod re-declares the symptom across its own files — keep the first.
+      if (existing.modId === modId) continue;
+      // A different mod already owns this symptom — record co-ownership.
+      if (existing.modId) {
+        if (!existing.modIds) existing.modIds = [existing.modId];
+        if (!existing.modIds.includes(modId)) existing.modIds.push(modId);
+        continue;
+      }
+      // Base-game symptom that this mod redefines. If the mod changes it in any way
+      // (e.g. HAIO swaps SYM_INFLAMMED_BILDUCT's uncovering exam from MRI to CT/USG),
+      // store the mod's version under a compound key so the base and modded forms
+      // coexist — the override is swapped in (via overrides.replace) only when this
+      // mod is enabled. An identical re-declaration has nothing to override.
+      if (!entityDiffers(existing, entry, SYMPTOM_COMPARE_KEYS)) continue;
+      const overrideKey = `${id}__${modId}`;
+      if (!symptoms[overrideKey]) {
+        symptoms[overrideKey] = { id: overrideKey, baseGameId: id, ...entry, modId, ...(modIcon ? { modIcon } : {}) };
+        _symLocIds[overrideKey] = { locId: descLocId, isStub: false };
+      }
+      if (!existing.overriddenBy) existing.overriddenBy = [];
+      if (!existing.overriddenBy.includes(modId)) existing.overriddenBy.push(modId);
+      continue;
+    }
+
+    symptoms[id] = {
+      id,
+      ...entry,
       ...(modId ? { modId } : {}),
       ...(modIcon ? { modIcon } : {}),
     };
@@ -1012,18 +1060,10 @@ function parseExamFile(filePath, modId = null, assetMap = {}) {
   for (const ex of (parsed?.Database?.GameDBExamination || [])) {
     const id = ex['@_ID'];
     if (!id) continue;
-    if (modId && examinations[id]) {
-      if (!examinations[id].modId || examinations[id].modId === modId) continue;
-      const ex = examinations[id];
-      if (!ex.modIds) ex.modIds = [ex.modId];
-      if (!ex.modIds.includes(modId)) ex.modIds.push(modId);
-      continue;
-    }
     const abbrevLocId = ex.AbbreviationLocID || '';
     const _modIconPath = assetMap[ex.CustomIconSmallAssetRef] || assetMap[ex.CustomIconBigAssetRef] || null;
     const modIcon = _modIconPath ? path.basename(_modIconPath) : null;
-    examinations[id] = {
-      id,
+    const entry = {
       name: toTitleCase(strings[id]) || getName(abbrevLocId) || id,
       description: getDesc(abbrevLocId),
       examinationType: ex.ExaminationType || 'EXAMINATION',
@@ -1033,6 +1073,33 @@ function parseExamFile(filePath, modId = null, assetMap = {}) {
       discomfortLevel: ex.DiscomfortLevel || 'None',
       patientNeedsToBeAbleToTalk: ex.PatientNeedsToBeAbleToTalk === true || ex.PatientNeedsToBeAbleToTalk === 'true',
       requiredRoomTags: toArray(ex?.Procedure?.RequiredRoomTags?.Tag),
+    };
+
+    const existing = examinations[id];
+    if (modId && existing) {
+      if (existing.modId === modId) continue;
+      if (existing.modId) {
+        if (!existing.modIds) existing.modIds = [existing.modId];
+        if (!existing.modIds.includes(modId)) existing.modIds.push(modId);
+        continue;
+      }
+      // Base-game examination redefined by this mod. Store the modded form under a
+      // compound key (swapped in via overrides.replace when the mod is enabled) only
+      // if it actually differs from the base game's.
+      if (!entityDiffers(existing, entry, EXAM_COMPARE_KEYS)) continue;
+      const overrideKey = `${id}__${modId}`;
+      if (!examinations[overrideKey]) {
+        examinations[overrideKey] = { id: overrideKey, baseGameId: id, ...entry, modId, ...(modIcon ? { modIcon } : {}) };
+        _examLocIds[overrideKey] = abbrevLocId;
+      }
+      if (!existing.overriddenBy) existing.overriddenBy = [];
+      if (!existing.overriddenBy.includes(modId)) existing.overriddenBy.push(modId);
+      continue;
+    }
+
+    examinations[id] = {
+      id,
+      ...entry,
       ...(modId ? { modId } : {}),
       ...(modIcon ? { modIcon } : {}),
     };
@@ -1062,18 +1129,10 @@ function parseTreatmentFile(filePath, modId = null, assetMap = {}) {
   for (const trt of (parsed?.Database?.GameDBTreatment || [])) {
     const id = trt['@_ID'];
     if (!id) continue;
-    if (modId && treatments[id]) {
-      if (!treatments[id].modId || treatments[id].modId === modId) continue;
-      const ex = treatments[id];
-      if (!ex.modIds) ex.modIds = [ex.modId];
-      if (!ex.modIds.includes(modId)) ex.modIds.push(modId);
-      continue;
-    }
     const abbrevLocId = trt.AbbreviationLocID || '';
     const _modIconPath = assetMap[trt.CustomIconSmallAssetRef] || assetMap[trt.CustomIconBigAssetRef] || null;
     const modIcon = _modIconPath ? path.basename(_modIconPath) : null;
-    treatments[id] = {
-      id,
+    const entry = {
       name: getName(abbrevLocId) || id,
       description: getDesc(abbrevLocId),
       treatmentType: trt.TreatmentType || 'PRESCRIPTION',
@@ -1087,6 +1146,33 @@ function parseTreatmentFile(filePath, modId = null, assetMap = {}) {
         probabilityPercent: Number(c.ProbabilityPercent) || 0,
         probabilityPercentMaxSkillLevel: Number(c.ProbabilityPercentMaxSkillLevel) || 0,
       })),
+    };
+
+    const existing = treatments[id];
+    if (modId && existing) {
+      if (existing.modId === modId) continue;
+      if (existing.modId) {
+        if (!existing.modIds) existing.modIds = [existing.modId];
+        if (!existing.modIds.includes(modId)) existing.modIds.push(modId);
+        continue;
+      }
+      // Base-game treatment redefined by this mod. Store the modded form under a
+      // compound key (swapped in via overrides.replace when the mod is enabled) only
+      // if it actually differs from the base game's (cost, room tags, complications…).
+      if (!entityDiffers(existing, entry, TREATMENT_COMPARE_KEYS)) continue;
+      const overrideKey = `${id}__${modId}`;
+      if (!treatments[overrideKey]) {
+        treatments[overrideKey] = { id: overrideKey, baseGameId: id, ...entry, modId, ...(modIcon ? { modIcon } : {}) };
+        _trtLocIds[overrideKey] = { abbrevLocId, isStub: false };
+      }
+      if (!existing.overriddenBy) existing.overriddenBy = [];
+      if (!existing.overriddenBy.includes(modId)) existing.overriddenBy.push(modId);
+      continue;
+    }
+
+    treatments[id] = {
+      id,
+      ...entry,
       ...(modId ? { modId } : {}),
       ...(modIcon ? { modIcon } : {}),
     };
@@ -1382,6 +1468,9 @@ console.log(`  ${Object.keys(treatmentToSymptoms).length} treatments have sympto
 // lab test exam → parent exam that spawns it
 const labTestOf = {};
 for (const ex of Object.values(examinations)) {
+  // Skip compound-key mod overrides ({id}__{modId}); they'd clobber the canonical
+  // base mapping with a non-existent exam ID. labTestOf is a base-game-wide map.
+  if (ex.baseGameId) continue;
   if (ex.labTestingExaminationRef) {
     labTestOf[ex.labTestingExaminationRef] = ex.id;
   }
@@ -1781,6 +1870,9 @@ for (const mod of MODS) {
 
   const modDiags = {}, modSyms = {}, modExams = {}, modTrts = {};
   const overrideReplace = {};
+  const overrideReplaceSyms = {};
+  const overrideReplaceExams = {};
+  const overrideReplaceTrts = {};
 
   for (const [id, e] of Object.entries(diagnoses)) {
     if (!entityBelongsToMod(e, mod.id)) continue;
@@ -1804,16 +1896,49 @@ for (const mod of MODS) {
   }
   for (const [id, e] of Object.entries(symptoms)) {
     if (!entityBelongsToMod(e, mod.id)) continue;
-    modSyms[id] = sharedModIds.has(e.modId) ? { ...e, modId: mod.id } : e;
+    if (e.baseGameId) {
+      // Override of a base-game symptom → overrides.replace (original ID as key)
+      const entry = { ...e };
+      delete entry.id;
+      delete entry.baseGameId;
+      delete entry.modId;
+      overrideReplaceSyms[e.baseGameId] = entry;
+    } else {
+      modSyms[id] = sharedModIds.has(e.modId) ? { ...e, modId: mod.id } : e;
+    }
   }
   for (const [id, e] of Object.entries(examinations)) {
     if (!entityBelongsToMod(e, mod.id)) continue;
-    modExams[id] = sharedModIds.has(e.modId) ? { ...e, modId: mod.id } : e;
+    if (e.baseGameId) {
+      // Override of a base-game examination → overrides.replace (original ID as key)
+      const entry = { ...e };
+      delete entry.id;
+      delete entry.baseGameId;
+      delete entry.modId;
+      overrideReplaceExams[e.baseGameId] = entry;
+    } else {
+      modExams[id] = sharedModIds.has(e.modId) ? { ...e, modId: mod.id } : e;
+    }
   }
   for (const [id, e] of Object.entries(treatments)) {
     if (!entityBelongsToMod(e, mod.id)) continue;
-    modTrts[id] = sharedModIds.has(e.modId) ? { ...e, modId: mod.id } : e;
+    if (e.baseGameId) {
+      // Override of a base-game treatment → overrides.replace (original ID as key)
+      const entry = { ...e };
+      delete entry.id;
+      delete entry.baseGameId;
+      delete entry.modId;
+      overrideReplaceTrts[e.baseGameId] = entry;
+    } else {
+      modTrts[id] = sharedModIds.has(e.modId) ? { ...e, modId: mod.id } : e;
+    }
   }
+
+  const replace = {};
+  if (Object.keys(overrideReplace).length)      replace.diagnoses    = overrideReplace;
+  if (Object.keys(overrideReplaceSyms).length)  replace.symptoms     = overrideReplaceSyms;
+  if (Object.keys(overrideReplaceExams).length) replace.examinations = overrideReplaceExams;
+  if (Object.keys(overrideReplaceTrts).length)  replace.treatments   = overrideReplaceTrts;
 
   const modData = {
     departments:  modDepts,
@@ -1821,9 +1946,7 @@ for (const mod of MODS) {
     symptoms:     modSyms,
     examinations: modExams,
     treatments:   modTrts,
-    ...(Object.keys(overrideReplace).length
-      ? { overrides: { replace: { diagnoses: overrideReplace } } }
-      : {}),
+    ...(Object.keys(replace).length ? { overrides: { replace } } : {}),
   };
 
   const modJsonPath = path.join(DOCS, 'data', 'mods', `${mod.id}.json`);
@@ -2069,7 +2192,18 @@ function buildLocaleOverlay({ lang, folder, prefix, prefixAliases = [], dlcFolde
       const isSharedUsed = !isOwned && !isCoOwned && sharedModIds.has(en.modId) && en.usedByMods?.includes(mod.id);
       if (!isOwned && !isCoOwned && !isSharedUsed) continue;
       const entry = isStub ? buildStubEntry(en, locId, ls) : buildEntry(en, locId, ls);
-      if (entry) getModOverlay(mod.id).symptoms[id] = entry;
+      if (!entry) continue;
+      if (isOwned && en.baseGameId) {
+        // Override of a base-game symptom — key under the canonical base ID and only
+        // include if this mod's strings differ from the base locale (mirrors diagnoses).
+        const baseEntry = baseOverlay.symptoms[en.baseGameId];
+        const differs = !baseEntry
+          || (entry.name        !== undefined && entry.name        !== baseEntry.name)
+          || (entry.description !== undefined && entry.description !== baseEntry.description);
+        if (differs) getModOverlay(mod.id).symptoms[en.baseGameId] = entry;
+      } else {
+        getModOverlay(mod.id).symptoms[id] = entry;
+      }
     }
 
     // Examinations
@@ -2081,7 +2215,16 @@ function buildLocaleOverlay({ lang, folder, prefix, prefixAliases = [], dlcFolde
       const isSharedUsed = !isOwned && !isCoOwned && sharedModIds.has(en.modId) && en.usedByMods?.includes(mod.id);
       if (!isOwned && !isCoOwned && !isSharedUsed) continue;
       const entry = buildExamEntry(en, abbrevLocId, ls);
-      if (entry) getModOverlay(mod.id).examinations[id] = entry;
+      if (!entry) continue;
+      if (isOwned && en.baseGameId) {
+        const baseEntry = baseOverlay.examinations[en.baseGameId];
+        const differs = !baseEntry
+          || (entry.name        !== undefined && entry.name        !== baseEntry.name)
+          || (entry.description !== undefined && entry.description !== baseEntry.description);
+        if (differs) getModOverlay(mod.id).examinations[en.baseGameId] = entry;
+      } else {
+        getModOverlay(mod.id).examinations[id] = entry;
+      }
     }
 
     // Treatments
@@ -2093,7 +2236,16 @@ function buildLocaleOverlay({ lang, folder, prefix, prefixAliases = [], dlcFolde
       const isSharedUsed = !isOwned && !isCoOwned && sharedModIds.has(en.modId) && en.usedByMods?.includes(mod.id);
       if (!isOwned && !isCoOwned && !isSharedUsed) continue;
       const entry = isStub ? buildStubEntry(en, abbrevLocId, ls) : buildEntry(en, abbrevLocId, ls);
-      if (entry) getModOverlay(mod.id).treatments[id] = entry;
+      if (!entry) continue;
+      if (isOwned && en.baseGameId) {
+        const baseEntry = baseOverlay.treatments[en.baseGameId];
+        const differs = !baseEntry
+          || (entry.name        !== undefined && entry.name        !== baseEntry.name)
+          || (entry.description !== undefined && entry.description !== baseEntry.description);
+        if (differs) getModOverlay(mod.id).treatments[en.baseGameId] = entry;
+      } else {
+        getModOverlay(mod.id).treatments[id] = entry;
+      }
     }
 
     // Departments owned by this mod

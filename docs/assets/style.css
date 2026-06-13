@@ -2227,6 +2227,27 @@ input, select, textarea { font-family: inherit; }
   margin-top: 20px;
 }
 
+/* Acknowledgements list */
+.about-ack-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.about-ack-list li {
+  font-size: 15px;
+  color: var(--text-muted);
+  line-height: 1.65;
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  background: var(--surface-2);
+  border-left: 3px solid var(--accent);
+}
+.about-ack-list li strong { color: var(--text); }
+
 /* Collapsible section heading */
 .about-collapsible-heading {
   cursor: pointer;

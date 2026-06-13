@@ -51,7 +51,7 @@ function buildDataUpdatedSection(data) {
   }
 
   return `
-    <section class="about-section" style="--i:1">
+    <section class="about-section" style="--i:2">
       <h2 class="about-section-heading about-collapsible-heading open" data-target="data-updated-body">
         ${t('about_data_heading')}
         <span class="about-collapse-icon">&#9658;</span>
@@ -79,9 +79,19 @@ export function renderAbout(root) {
         <p class="about-body">${t('about_site_p3')}</p>
       </section>
 
+      <section class="about-section" style="--i:1">
+        <h2 class="about-section-heading">${t('about_ack_heading')}</h2>
+        <p class="about-body">${t('about_ack_desc')}</p>
+        <ul class="about-ack-list">
+          <li>${t('about_ack_breachandclear')}</li>
+          <li>${t('about_ack_floppydisk')}</li>
+          <li>${t('about_ack_proholmes')}</li>
+        </ul>
+      </section>
+
       ${buildDataUpdatedSection(data)}
 
-      <section class="about-section" style="--i:2">
+      <section class="about-section" style="--i:3">
         <h2 class="about-section-heading">${t('about_faq_heading')}</h2>
         <dl class="faq-list">
 
